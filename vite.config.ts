@@ -11,3 +11,7 @@ export default defineConfig({
     },
   },
 })
+export default defineConfig({
+  base: '/farmeof4/',
+  // ... resto de tu config
+})
