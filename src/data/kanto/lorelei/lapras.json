@@ -2,7 +2,7 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "TRAMPA ROCAS",
   "tricks": [
     {"detail": "Surf → Cambia a Poliwrath 6+2 // (Si entra Slowbro, cambia a Chandelure, Truco para encerrar en Escaldar, luego cambia a Poliwrath 6+2)", "variant": []},
     {"detail": "Rayo → Cambia a Excadrill 6+2 // (Si entra Slowbro, cambia a Chandelure, Truco para encerrar en Escaldar, luego cambia a Poliwrath 6+2)", "variant": []},
@@ -16,8 +16,14 @@
       {"detail": "Casco Dentado → Cambia a Excadrill Trampa Rocas, 4+2 (Terremoto para matar a Nido)"}
     ]},
     {"detail": "Nidoking → Cambia a Excadrill para colocar Trampa Rocas, luego cambia a Cloyster +6", "variant": []},
-    {"detail": "Slowbro → Cambia a Chandelure y utiliza Poder Oculto para bajarle vida a Dragonite, luego cambia a Excadrill", "variant": [
-      {"detail": "Si entra Lapras / Slowbro → Cambia a Poliwrath 6+2"},
+    {"detail": "Si se queda → Observa la habilidad", "variant": [
+      {"detail": "Rayo Hielo → Cambia a Jirachi y luego a Chandelure"}, "variant": [ 
+         {"detail": "Sale Weavile → Cambia a Chansey y usa contador para matarlo" "variant": [ 
+           {"detail": "Lucario → Cambia a gengar, encara y usa maquinacion, mata a lapras" "variant": [ 
+             {"detail": "Dragonite → Cambia a jirachi y encara, luego saca a chandelure 2+2"
+    ]},
+           
+     {"detail": "Sale Nidoqueen → Cambia a Gallade y encara 4+2" 
       {"detail": "Lucario → Cambia a Chandelure y utiliza Truco para encerrar en Triturar / Roca Afilada, luego cambia a Scrafty +2"}
     ]},
     {"detail": "Blissey / Jigglypuff → Cambia a Chandelure y utiliza Truco para encerrar el Tierra Viva de Nidoking, luego cambia a Excadrill +6", "variant": []},
