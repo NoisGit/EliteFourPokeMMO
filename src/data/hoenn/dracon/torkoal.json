@@ -2,10 +2,18 @@
   "id": "torkoal",
   "name": "Torkoal",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "CAMBIA A JIRACHI",
   "tricks": [
     {
-      "detail": "Chandelure Especial X + Velocidad X. // Usa Lanzallamas para barrer al equipo.",
+      "detail": "Gallade → Gengar +2 (No Otra Vez)",
+      "variant": []
+    }, 
+    {
+      "detail": "Fuerza Bruta → Chandelure 2+2",
+      "variant": []
+    },  
+    {
+      "detail": "Salamence → Otra Vez y Saca a chandelure 2+2",
       "variant": []
     }
   ]
