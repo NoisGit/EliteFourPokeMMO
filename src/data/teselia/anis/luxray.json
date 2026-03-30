@@ -2,21 +2,21 @@
     "id": "luxray",
     "name": "Luxray",
     "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "TRUCO",
+    "initialMove": "Trampa Rocas",
     "tricks": [
       {
-        "detail": "Si sale BRONZONG, cambiar a Chandelure.",
+        "detail": "Si usa Fuerza Bruta Saca a Gengar +6 +2 (rayo en banette) ",
         "variant": [
           {
-            "detail": "Hydreigon → Scrafty +4"
+            "detail": "Si Cambia a Hydreigon Usa Amortiguador si sale Absol , Gengar Otra vez cambia a jirachi sale hydreigon cambia a chandelure +2 velocidad"
           },
           {
-            "detail": "CHANDELURE → Truco bloquea Infortunio, Scrafty +2 // Puño Drenaje + Paliza para eliminar Bronzong"
+            "detail": ""
           }
         ]
       },
       {
-        "detail": "NO SE RETIRA O HYDREIGON → Chandelure usa Truco para intercambiar objeto, Scrafty +4",
+        "detail": "",
         "variant": []
       }
     ]
