@@ -2,27 +2,10 @@
   "id": "glalie",
   "name": "Glalie",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "TRAMPA ROCAS",
   "tricks": [
     {
-      "detail": "Terremoto → Cambiar a Excadrill para ver si Froslass sube la Defensa.",
-      "variant": [
-        {
-          "detail": "Si no la sube → Cabeza Hierro para debilitar, entra Mienshao, cambia a Chandelure y usa Lanzallamas para debilitar (entra Dewgong/Walrein), Poliwrath +6+2, no necesita Puño Hielo.",
-          "variant": []
-        },
-        {
-          "detail": "Si subió la Defensa → Coloca Trampa Rocas, entra Walrein, Poliwrath +6+2. / No necesita Puño Hielo. Si Froslass no cambia, colocar otra vez Trampa Rocas la obliga a salir.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Nidoqueen → Cloyster +6. / Carámbano mata a Froslass.",
-      "variant": []
-    },
-    {
-      "detail": "Metagross → Excadrill +4+2, luego colocar Trampa Rocas.",
+      "detail": "Mienshao → Gengar Otra Vez +2",
       "variant": []
     }
   ]
