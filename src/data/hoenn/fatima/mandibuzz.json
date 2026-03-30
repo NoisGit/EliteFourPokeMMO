@@ -2,28 +2,10 @@
   "id": "mandibuzz",
   "name": "Mandibuzz",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A SCRAFTY // PUÑO DRENAJE PARA VER QUE HACE",
+  "initialMove": "PANTALLA LUZ",
   "tricks": [
     {
-      "detail": "Mandibuzz no se retira → Scrafty usa Defensa X +3. / Puño Drenaje + A Bocajarro matan a Mandibuzz",
-      "variant": [
-        {
-          "detail": "Arcanine → cambia a Chandelure y usa Truco",
-          "variant": [
-            {
-              "detail": "Voltio Cruel → Excadrill +6+2",
-              "variant": []
-            },
-            {
-              "detail": "Mandibuzz → Scrafty +3",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Spiritomb → Scrafty +2",
+      "detail": "Arcanine → Gengar encara 4+2",
       "variant": []
     }
   ]
