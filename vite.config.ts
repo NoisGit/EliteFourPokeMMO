@@ -10,8 +10,3 @@ export default defineConfig({
       '@': '/src',
     },
   },
-})
-export default defineConfig({
-  base: '/farmeof4/',
-  // ... resto de tu config
-})
