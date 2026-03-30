@@ -2,7 +2,7 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Coloca Trampa Rocas",
+  "initialMove": "Trampa Rocas 🪨",
   "tricks": [
     {
       "detail": "Toxicroak ➜ Gengar Cambia a Chansey ↓",
