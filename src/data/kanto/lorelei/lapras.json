@@ -18,13 +18,12 @@
     {"detail": "Nidoking → Cambia a Excadrill para colocar Trampa Rocas, luego cambia a Cloyster +6", "variant": []},
     {"detail": "Si se queda → Observa la habilidad", "variant": [
       {"detail": "Rayo Hielo → Cambia a Jirachi y luego a Chandelure", "variant": [ 
-         {"detail": "Sale Weavile → Cambia a Chansey y usa contador para matarlo" "variant": [ 
-           {"detail": "Lucario → Cambia a gengar y encara despues usa maquinacion y mata a lapras" "variant": []}, 
-             {"detail": "Dragonite → Cambia a jirachi y encara, luego saca a chandelure 2+2" "variant": []}
-    ]},
+         {"detail": "Sale Weavile → Cambia a Chansey y usa contador para matarlo", "variant": [ 
+           {"detail": "Lucario → Cambia a gengar y encara despues usa maquinacion y mata a lapras", "variant": []}, 
+             {"detail": "Dragonite → Cambia a jirachi y encara, luego saca a chandelure 2+2", "variant": []},
+           
      {"detail": "Sale Nidoqueen → Cambia a Gallade y encara 4+2" "variant": []},
-     
-    {"detail": "Blissey / Jigglypuff → Cambia a Chandelure y utiliza Truco para encerrar el Tierra Viva de Nidoking, luego cambia a Excadrill +6", "variant": []},
+     {"detail": "Blissey / Jigglypuff → Cambia a Chandelure y utiliza Truco para encerrar el Tierra Viva de Nidoking, luego cambia a Excadrill +6", "variant": []},
     {"detail": "Magnezone → Cambia a Excadrill, utiliza Trampa Rocas luego Terremoto para matar a Magnezone // Si entra Lapras, cambia a Poliwrath 6+2", "variant": []},
     {"detail": "Bronzong → Saca a Excadrill 6+2, luego pon Trampa Rocas", "variant": []}
   ]
