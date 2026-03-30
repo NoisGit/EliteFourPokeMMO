@@ -15,23 +15,14 @@
       {"detail": "Vidasfera → Cambia a Excadrill 6+2 (Mata a Lapras con Terremoto)"},
       {"detail": "Casco Dentado → Cambia a Excadrill Trampa Rocas, 4+2 (Terremoto para matar a Nido)"}
     ]},
-    [
-  {"detail": "Nidoking → Cambia a Excadrill → Trampa Rocas → Cloyster +6",
-    "variant": []},
-  {"detail": "Si se queda → Observa la habilidad", "variant": [
-      {"detail": "Rayo Hielo → Jirachi → Chandelure", "variant": [
-          {"detail": "Sale Weavile → Chansey → Contador", "variant": [
-              {"detail": "Lucario → Gengar → Encara → Maquinación", "variant": []},
-              {"detail": "Dragonite → Jirachi → Encara → Chandelure +2+2", "variant": []}
-          ]},
-          {"detail": "Sale Nidoqueen → Gallade +4+2", "variant": []},
-          {"detail": "Blissey / Jigglypuff → Chandelure → Truco → Excadrill +6", "variant": []},
-          {"detail": "Magnezone → Excadrill → Trampa Rocas → Terremoto", "variant": [
-              {"detail": "Si entra Lapras → Poliwrath 6+2", "variant": []}
-            ]},
-          {"detail": "Bronzong → Excadrill 6+2 → Trampa Rocas", "variant": []}
-        ]
-      }
-    ]
-  }
-]
+   {"detail": "Nidoking → Cambia a Excadrill para colocar Trampa Rocas, luego cambia a Cloyster +6", "variant": []},
+    {"detail": "Slowbro → Cambia a Chandelure y utiliza Poder Oculto para bajarle vida a Dragonite, luego cambia a Excadrill", "variant": [
+      {"detail": "Si entra Lapras / Slowbro → Cambia a Poliwrath 6+2"},
+      {"detail": "Lucario → Cambia a Chandelure y utiliza Truco para encerrar en Triturar / Roca Afilada, luego cambia a Scrafty +2"} 
+      ]},
+    {"detail": "Blissey / Jigglypuff → Cambia a Chandelure y utiliza Truco para encerrar el Tierra Viva de Nidoking, luego cambia a Excadrill +6", "variant": []},
+    {"detail": "Magnezone → Cambia a Excadrill, utiliza Trampa Rocas luego Terremoto para matar a Magnezone // Si entra Lapras, cambia a Poliwrath 6+2", "variant": []},
+    {"detail": "Bronzong → Saca a Excadrill 6+2, luego pon Trampa Rocas", "variant": []}
+  ]
+}
+        
