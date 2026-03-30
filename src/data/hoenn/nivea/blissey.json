@@ -5,10 +5,10 @@
   "initialMove": "TRAMPA ROCAS",
   "tricks": [
     {
-      "detail": "Mienshao → Gengar encara y usa maquinacion",
+      "detail": "Mienshao → Gengar Otra Vez y usa Maquinacion",
       "variant": [
          {
-          "detail": "Migmagius → Matalo luego usa maquinacion frente a Walrein o Dewgong y luego pushea",
+          "detail": "Migmagius → Matalo luego usa Maquinacion frente a Walrein o Dewgong y luego pushea",
           "variant": []
          }
       ]
