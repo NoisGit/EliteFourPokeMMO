@@ -2,19 +2,16 @@
   "id": "regirock",
   "name": "Regirock",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "PANTALLA LUZ",
   "tricks": [
     {
-      "detail": "Nidoking → Saca a Cloyster +6. / Usa Surf para derrotar a Regirock.",
-      "variant": []
-    },
-    {
-      "detail": "Puño Drenaje → Cambia a Chandelure, usa Truco para bloquear en Lapras, luego entra Poliwrath +6 +2.",
-      "variant": []
-    },
-    {
-      "detail": "Puño Hielo → Cambia a Chandelure para enfrentar a Nidoking, usa Truco para bloquear en Tierra Viva, luego entra Cloyster +6. / Usa Surf para derrotar a Regirock.",
-      "variant": []
+      "detail": "Puño drenaje/Elektross → Gengar Otra Vez 4+2",
+      "variant": [
+        {
+          "detail": "Salamence/Pull comun → Gengar pushea hasta metagross luego cambia a Dragonite +3 (No Otra Vez)",
+          "variant": []
+        }
+      ]
     }
   ]
 }
