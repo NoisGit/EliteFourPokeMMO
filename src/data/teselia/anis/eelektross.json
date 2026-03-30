@@ -2,11 +2,33 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Trampa Rocas/Amortiguador ↓ ",
   "tricks": [
     {
-      "detail": "Truco para encerrarlo con Voltio Cruel. Luego Cambia a Excadrill Coloca Trampa Rocas, 6+2. / Terremoto para Froslass. / Cabeza Hierra Gengar",
+      "detail": "Fuerza Bruta ➜  Gengar Otra Vez +4 +2",
       "variant": []
+    },
+    {
+      "detail": "Dragonite ➜ Amorguador ➜ Cambia Gengar Otra Vez +4 +2" (mira abajo cuidado con el cuerpo maldito),
+      "variant": [
+        {
+          "detail": "Si Bisharp está primero en el enfrentamiento, usa Rayo contra Froslass",
+          "variant": []
+        },
+        {
+          "detail": "Si Bisharp está primero en el enfrentamiento, usa Bola Sombra contra Froslass.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "",
+      "variant": [
+        {
+          "detail": "",
+          "variant": []
+        }
+      ]
     }
   ]
 }
