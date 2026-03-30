@@ -2,7 +2,7 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Trampa rocas",
   "tricks": [
     {
       "detail": "A bocajarro → Truco y revisa objetos",
