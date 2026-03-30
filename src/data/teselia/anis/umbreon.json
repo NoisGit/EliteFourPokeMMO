@@ -41,24 +41,50 @@
               "detail": "Chansey Contador entra Toxicroak, Gengar +6 (Umbreon puede que aguante a Dragonite +5 o un Espada santa de Gallade)"
             },
             {
-              "detail": "Lucario ➜ Gengar Otra Vez ➜ Gallade  ↓ (lucario solo tiene 8 pp en a bocajarro) "
+              "detail": "Lucario ➜ Gengar Otra Vez ➜ Gallade ↓ (lucario solo tiene 8 pp en a bocajarro)"
             }
           ]
         }
       ]
     },
     {
-      "detail": "Va entrar Umbreon Matalo de Un Espada Santa  ↓",
+      "detail": "Va entrar Umbreon Matalo de Un Espada Santa ↓",
       "variant": [
         {
-          "detail": "Drifblim/Rotom/Chandelure ➜ Chansey Cambia a jirachi Otra Vez ➜  Chandelure +2 +2",
+          "detail": "Drifblim/Rotom/Chandelure ➜ Chansey Amortiguador",
           "variant": [
-            { "detail": "Chandelure ➜ Chansey Pantalla Luz (si chande se queda usa Amortiguador) ↓ " },
-            { "detail": "Lucario ➜ Gengar cambia a Jirachi Otra Vez ➜ Chandelure +2 +2" }
+            {
+              "detail": "Chandelure ➜ Chansey Pantalla Luz (si chande se queda usa Amortiguador) ↓"
+            },
+            {
+              "detail": "Lucario ➜ Gengar Otra Vez +4 +2"
+            }
           ]
         },
         {
-          "detail": "",
+          "detail": "Rotom Lavador, Cambia a Chansey y después a Jirachi ↓",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Lucario ➜ Jirachi Encore Chandelure +2 +2",
+      "variant": [
+        {
+          "detail": "Jolteon ➜ Chansey usa Contador (matalo o Espera que cambie) ↓",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Drifblim/Rotom/Chandelure ➜ Chansey Cambia a Jirachi Otra Vez Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Chandelure ➜ Chansey Pantalla Luz (Usa Amortiguador)",
+      "variant": [
+        {
+          "detail": "Lucario ➜ Gengar Cambia a Jirachi Otra Vez ➜ Chandelure +2 +2",
           "variant": []
         }
       ]
@@ -71,10 +97,7 @@
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "",
-      "variant": []
     }
   ]
 }
+  
