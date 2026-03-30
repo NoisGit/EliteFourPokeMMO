@@ -4,7 +4,8 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "TRAMPA ROCAS",
   "tricks": [
-    {"detail": "Lapras → Dragonite +3 (No encares), "variant": []},
+    {"detail": "Lapras → Dragonite +3 (No encares)", "variant": []},
     {"detail": "Golduck → Gengar encara y +6", "variant": []
+    }
   ]
 }
