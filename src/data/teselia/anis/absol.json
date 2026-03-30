@@ -2,19 +2,10 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Hydreigon Pañuelo Elegido",
   "tricks": [
     {
-      "detail": "HYDREIGON: Scrafty +4.",
+      "detail": "Gengar:Usar Otraz Vez cambia a chansey sale hydreigon usa trampa rocas y amortiguador va cambiar a Absol/LuxRay cambia a gengar otra vez cambia a jirachi sale hydreigon cambia a chandelure +2 Velocidad  ",
       "variant": []
     },
     {
-      "detail": "BRONZONG: Con Chandelure usa Lanzallamas hasta debilitarlo, luego si Cambia Hydreigon Cambia a Scrafty +1 // Cura de ser necesario.",
-      "variant": []
-    },
-    {
-      "detail": "ABSOL NO CAMBIA, usa Truco con Chandelure para encerrarlo en Cabezazo Zen, luego entra Scrafty Danza Dragón +4.",
-      "variant": []
-    }
-  ]
-}
