@@ -2,14 +2,14 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Trampa rocas",
   "tricks": [
     {
-      "detail": "GIRO BOLA: Cambia a Chandelure usa Lanzallamas y debilitado, luego entra Hydreigon Cambia a Scrafty luego a Chandelure usa truco y cambia a Scrafty Danza Dragón +3.",
+      "detail": "Absol: gengar Otra Vez Cambia a Jirachi va Salir Hydreigon Tiene Pañuelo Elegido Cambia a Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "HYDREIGON: Cambia a Chandelure y utiliza TRUCO para intercambiar objetos, luego entra Scrafty Danza Dragón +4. / A Bocajarro para matar a Bronzong.",
+      "detail": ".",
       "variant": []
     }
   ]
