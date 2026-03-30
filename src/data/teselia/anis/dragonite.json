@@ -2,33 +2,24 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO, Si Queda encerrado en Bisharp, pon trampa Rocas y Observa por quien Cambia:",
+  "initialMove": "🪨 Trampa Rocas 🪨:",
   "tricks": [
     {
-      "detail": "PUÑO FUEGO: Cambia Chandelure y Debilitarlo con Poder Oculto observa a quien saca:",
+      "detail": "Toxicroak ➜ Gengar Cambia a Chansey ➜ Gengar (Garra Dragón Umbreon) ↓",
       "variant": [
         {
-          "detail": "Si sale Chandelure:Cambia a Scrafty, vuelve a Chandelure y usa Truco para Encerrar al rival en Bola Sombra/Pulso umbrío. Ataca con Chandelure usando lanzallamas hasta que se debilite. Luego entra Scrafty +2 Danza Dragón /Eelektross muere de Puño drenaje + Paliza.",
+          "detail": "Toxicroak tiene Pañuelo ➜ Dragonite +4 Danza / Gallade +2 +2",
           "variant": []
         }
       ]
     },
     {
-      "detail": "UMBREON: Coloca Trampa Rocas. Luego Cambia Scrafty usa Danza Dragón; (entra Dragonite) usa otro Danza Dragón y barre el equipo. También puedes usar Puño Drenaje + paliza para matar a Dragonite. Bocajarro elimina a Toxicroak.",
+      "detail": "Fuerza Bruta ➜ Cambia a Chandelure ➜ Jirachi Otra Vez ➜ Chandelure +2 +2 (Energibola Froslass / si muere Jirachi de un crítico mira abajo)",
       "variant": []
     },
     {
-      "detail": "TOXICROAK: Trampa Rocas y observa qué movimiento usa.",
-      "variant": [
-        {
-          "detail": "Terremoto, Cloyster +6",
-          "variant": []
-        },
-        {
-          "detail": "A Bocajarro, cambiar a Chandelure y usar Truco para intercambiar objeto, Cambiar Cloyster x6",
-          "variant": []
-        }
-      ]
+      "detail": "Dragonite ➜ Gengar contra Froslass/Lucario. Cambia a Chansey (Amortiguador) frente a Eelektross. Gengar Otra Vez +4 +2 frente a Bisharp (forzar cambio con Amortiguador)",
+      "variant": []
     }
   ]
 }
