@@ -1,49 +1,12 @@
 {
-    "id": "mismagius",
-    "name": "Mismagius",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "TRUCO",
-    "tricks": [
-      {
-        "detail": "BOLA SOMBRA → Coloca Trampa Rocas, Scrafty +2 A Bocajarro para eliminar Toxicroak",
-        "variant": []
-      },
-      {
-        "detail": "BISHARP → Coloca Trampa Rocas",
-        "variant": [
-          {
-            "detail": "Umbreon → Scrafty usa Danza Dragón (entra Dragonite), luego usa otra Danza Dragón para barrer // Puño Drenaje + Paliza para eliminar Dragonite A Bocajarro para eliminar Toxicroak"
-          },
-          {
-            "detail": "Toxicroak → Coloca Trampa Rocas y evalúa el siguiente movimiento",
-            "variant": [
-              {
-                "detail": "Terremoto → Cloyster +6"
-              },
-              {
-                "detail": "A Bocajarro → Chandelure usa Truco para intercambiar objeto, Cloyster +6"
-              }
-            ]
-          },
-          {
-            "detail": "Bisharp no se retira → Truco para recuperar Pañuelo, luego cambia a Chandelure y usa Truco nuevamente para observar el movimiento // Golpe Bajo → Usa una vez Poder Oculto y analiza el siguiente movimiento",
-            "variant": [
-              {
-                "detail": "Trampa Rocas o Explosión Metálica → Cloyster +6"
-              },
-              {
-                "detail": "Patada Baja → Chandelure +2+2 Priorizar movimientos supereficaces"
-              },
-              {
-                "detail": "Golpe Bajo → Scrafty +3 // A Bocajarro para eliminar Toxicroak"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "detail": "UMBREON → Coloca Trampa Rocas, Scrafty usa Danza Dragón (entra Dragonite), luego usa otra Danza Dragón para barrer // Puño Drenaje + Paliza para eliminar Dragonite A Bocajarro para eliminar Toxicroak",
-        "variant": []
-      }
-    ]
-  }
+  "id": "mismagius",
+  "name": "Mismagius",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Toxicroak ➜ Gengar Cambia a Chansey ➜ Gengar va entrar Toxicroak (está encerrado en Terremoto), Dragonite x4 Danza / Gallade +2 +2 no usar Otra Vez",
+      "variant": []
+    }
+  ]
+}
