@@ -2,19 +2,19 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨",
+  "initialMove": "🪨 TRAMPA ROCAS 🪨",
   "tricks": [
-   [
-  {
-    "detail": "MIENSHAO → Cambiar a Gengar  luego a Gallade  para eliminar a Umbreon [Pequeña probabilidad de que se quede a poca vida umbreon) ",
-    "variant": [
-      {
-        "detail": "ENTEI → Cambiar a Chandelure, luego a Chansey para eliminar con Contador . Frente a Mienshao, cambiar a Chandelure +2 no velo "
-      },
-      {
-        "detail": "METAGROSS → Cambiar a Jirachi con Rayo . Frente a Altaria, cambiar a Chandelure, usar x velocidad +2 x especial ( altaria no te va matar si puedes cura a chande y avanza ) ",
-        "variant": []
-      }
-    ]
-  }
-]
+    {
+      "detail": "MIENSHAO → Cambiar a Gengar luego a Gallade para eliminar a Umbreon [Pequeña probabilidad de que se quede a poca vida umbreon]",
+      "variant": [
+        {
+          "detail": "ENTEI → Cambiar a Chandelure, luego a Chansey para eliminar con Contador. Frente a Mienshao, cambiar a Chandelure +2 no velo"
+        },
+        {
+          "detail": "METAGROSS → Cambiar a Jirachi con Rayo. Frente a Altaria, cambiar a Chandelure, usar x velocidad +2 x especial (altaria no te va matar si puedes cura a chande y avanza)",
+          "variant": []
+        }
+      ]
+    }
+  ]
+}
