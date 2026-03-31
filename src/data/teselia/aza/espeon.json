@@ -4,11 +4,13 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "Pantalla luz",
   "tricks": [
-   {
-  "stay": "Espeon se Queda ➜ Trampa rocas , cambia a Dragonite cambia a Jirachi Otra Vez",
-  "Atrapado en Fuego":"Chandelure +2 +2",
-  "Atrapado en Tierra":"Dragonite 2 Danza ",
-  "haxorus": "Haxorus --> Amortiguador Fantasma Otra Vez 62",
-  "garchomp": "Garchomp --> NAIL cambia a Dragonite cambia a Jirachi Otra Vez manual Dragonite Danza 2",
-  "scrafty": "Scrafty --> directamente Chandelure 2+2"
+    {
+      "stay": "Espeon se Queda ➜ Trampa rocas , cambia a Dragonite cambia a Jirachi Otra Vez",
+      "Atrapado en Fuego": "Chandelure +2 +2",
+      "Atrapado en Tierra": "Dragonite 2 Danza ",
+      "haxorus": "Haxorus --> Amortiguador Fantasma Otra Vez 62",
+      "garchomp": " Trampa rocas cambia a Dragonite cambia a Jirachi Otra Vez  Dragonite 2 danza",
+      "scrafty": "Cambia directamente Chandelure +2 +2"
+    }
+  ]
 }
