@@ -2,23 +2,21 @@
   "id": "blissey",
   "name": "Blissey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Pantalla luz/🪨 Trampa Rocas 🪨",
+  "initialMove": "Pantalla luz / 🪨 Trampa Rocas 🪨",
   "tricks": [
     {
       "detail": "ABSOL → Cambiar a Gengar con Otra Vez, luego cambiar a Jirachi",
-      "variant": []
+      "variant": [
         {
-          "detail": "Metagross→ Dragonite con 3 danza dragon (No usar Otra Vez / está encerrado)",
-          "variant": []
+          "detail": "METAGROSS → Dragonite con 3 danza dragon (No usar Otra Vez / está encerrado)"
         },
         {
-          "detail": "Nidoqueen → Otra Vez y luego Chandelure +2 +2",
-          "variant": []
+          "detail": "Nidoqueen → Otra Vez y luego Chandelure +2 +2"
         },
         {
-          "detail": "Blissey → Chandelure +2 +2 [Si recibe Golpe Toxico curar veneno, empujar hacia Togekiss]",
-          "variant": []
+          "detail": "BLISSEY → Chandelure +2 +2 [Si recibe Golpe Veneno curar veneno, empujar hacia Togekiss]"
         }
+      ]
     }
   ]
 }
