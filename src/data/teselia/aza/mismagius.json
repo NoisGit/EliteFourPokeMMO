@@ -2,44 +2,65 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "GLISCOR O GARCHOMP → Cloyster +4 / Surf para Bisharp",
+      "detail": "Onda Certera → Cambiar a Gengar, usar Otra Vez y Rayo",
       "variant": []
     },
     {
-      "detail": "TYRANITAR→ Cambia a Chandelure, usa Truco para bloquear Samurott, Poliwrath +6+2 A Bocajarro para eliminar Bisharp",
-      "variant": []
-    },
-    {
-      "detail": "BISHARP → Cambia a Chandelure y observa el movimiento",
+      "detail": "DRAPION → Continuar con Rayo (Thunderbolt)",
       "variant": [
         {
-          "detail": "Patada Baja → Lanzallamas para eliminar, entra Salamence Cambia a Excadrill, luego a Chandelure y usa Truco para bloquear Terremoto, Cloyster +4"
+          "detail": "SAMUROTT → Cambiar a Chansey, usar Amortiguador, activar Pantalla de Luz y luego Dragonite Danza Dragón +2 (Gliscor resiste a dragonite pero no te mata)"
         },
         {
-          "detail": "Tajo Umbrío → Scrafty +3 Paliza para eliminar Hydreigon"
+          "detail": "MISMAGIUS → Cambiar a Chandelure y luego a chansey / Si Dragonite está frente a Mismagius, puede usar Danza Dragón +2 directamente"
+        },
+        {
+          "detail": "GLISCOR → Dragonite con Otra Vez, Danza Dragón +2 y empujar con otra vez"
+        },
+        {
+          "detail": "Se Queda → Cambiar a Gengar +4 +2"
         }
       ]
     },
     {
-      "detail": "BOLA SOMBRA → Scrafty +2 A Bocajarro para eliminar Gallade // Si recibe inesperadamente Rayo → Excadrill +6+2 Cabeza de Hierro para eliminar Bisharp (Tiene Globo Helio)",
+      "detail": "BISHARP → Gengar usa Rayo y frente a Gliscor Cambia a Dragonite con Otra Vez, 2 danza dragon",
       "variant": []
     },
     {
-      "detail": "RAYO → Excadrill +6+2 Cabeza de Hierro para eliminar Bisharp",
+      "detail": "GLISCOR (Cambia rapido) → Dragonite con Otra Vez, +2 danza",
+      "variant": []
+    },
+    {
+      "detail": "ABSOL → Cambiar a Gengar y usar Otra Vez, luego cambiar a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "SALAMENCE → Jirachi con Otra Vez, y luego Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "BISHARP → Cambiar a Chansey y usar Amortiguador. Frente a SAMUROTT → Usar Gengar con Otra Vez +2",
+      "variant": []
+    },
+    {
+      "detail": "SAMUROTT → Cambiar a Gengar Otra Vez, luego cambiar a Gallade para eliminar a Tyranitar (mira abajo)",
       "variant": [
         {
-          "detail": "Si Truco falla, cambiar directamente a Excadrill"
+          "detail": "Serperior → Cambiar a Jirachi con Otra Vez y luego Chandelure +2 +2"
         },
         {
-          "detail": "Si recibe Bola Sombra → Scrafty +2 A Bocajarro para eliminar Gallade"
+          "detail": "Si GALLADE no huye → Cambiar a Gengar con Otra Vez +4 +2"
+        },
+        {
+          "detail": "Si cambias de Gengar y sale GARCHOMP → Dragonite con Otra Vez y Danza +2 danza dragon (Casco Dentado Garchomp)"
         }
       ]
     },
     {
-      "detail": "LANZALLAMAS [Zoroark disfrazado] → Chandelure usa Truco para intercambiar objeto, Scrafty +3",
+      "detail": "CHANDELURE → Cambiar a chansey y usar Pantalla de Luz. Si chande usa Poder Oculto cambia a Gengar Otra vez +4 +2 (Frente a Bisharp usa Amortiguador y cambia a Dragonite 2 danza)",
       "variant": []
     }
   ]
