@@ -5,11 +5,11 @@
   "initialMove": "💡 Cambia a Gengar vuelve a cambia a Dragonite 💡",
   "tricks": [
     {
-      "detail": "TAJO UMBRÍO → Cambiar a Chansey , Cambiaa Gengar con Otra Vez y Maquinación . 💡 Nota: Absol tiene Banda Focus 💡 ",
+      "detail": "TAJO UMBRÍO → Cambiar a Chansey, Cambia a Gengar con Otra Vez y Maquinación. 💡 Nota: Absol tiene Banda Focus 💡",
       "variant": []
     },
     {
-      "detail": "Absol se Queda  → Gengar +4 0 velo mata  a Absol, cambiar a Chansey, Cambia a Gengar con Otra Vez +4 0. ",
+      "detail": "Absol se Queda → Gengar +4 0 velo mata a Absol, cambiar a Chansey, Cambia a Gengar con Otra Vez +4 0.",
       "variant": []
     },
     {
@@ -17,34 +17,36 @@
       "variant": []
     },
     {
-      "detail": "BISHARP → Chansey con Amortiguador + Trampa rocas , cambia a Gengar  con Otra Vez +2 no velo ",
+      "detail": "BISHARP → Chansey con Amortiguador + Trampa rocas, cambia a Gengar con Otra Vez +2 no velo",
       "variant": []
     },
     {
-      "detail": "ABSOL → Cambiar a Chansey, luego a Gengar con Otra Vez +4 0 (mata a todos )",
+      "detail": "ABSOL → Cambiar a Chansey, luego a Gengar con Otra Vez +4 0 (mata a todos)",
       "variant": []
     },
     {
-      "detail": "BISHARP (Reingreso) → Chansey con Amortiguador + Trampa rocas y Gengar con Otra Vez +2no velo ",
-      "variant": []
-{
-      "detail": " Acua Cola  → Cambiar a Chansey (para ver con que ruta seguir) ",
+      "detail": "BISHARP (Reingreso) → Chansey con Amortiguador + Trampa rocas y Gengar con Otra Vez +2 no velo",
       "variant": []
     },
     {
-      "detail": "RAYO HIELO → Gengar  con Otra Vez +4 +2",
+      "detail": "Acua Cola → Cambiar a Chansey (para ver con que ruta seguir)",
       "variant": []
     },
     {
-      "detail": "DANZA ESPADA / ACUACOLA → Cambiar a Gengar con Otra Vez. Cambia a gallade para matar a tyranitar . Cambiar a Chansey con Amortiguador y contador vs bisharp . Gengar con Otra Vez +2 +2  ",
+      "detail": "RAYO HIELO → Gengar con Otra Vez +4 +2",
       "variant": []
     },
     {
-      "detail": "【INESPERADO】 SERPERIOR → Cambiar a Chansey y Pantalla de Luz . Frente a Samurott, usar Gengar con Otra Vez +2 +2",
+      "detail": "DANZA ESPADA / ACUACOLA → Cambiar a Gengar con Otra Vez. Cambia a gallade para matar a tyranitar. Cambiar a Chansey con Amortiguador y contador vs bisharp. Gengar con Otra Vez +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "【INESPERADO】 SERPERIOR → Cambiar a Chansey y Pantalla de Luz. Frente a Samurott, usar Gengar con Otra Vez +2 +2",
       "variant": [
         {
           "detail": "【Si serperior no cambia】 Cambiar a Jirachi con Otra Vez y luego Chandelure +2 +2"
         }
       ]
     }
-  }
+  ]
+}
