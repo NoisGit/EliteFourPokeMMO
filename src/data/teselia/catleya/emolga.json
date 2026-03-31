@@ -2,33 +2,55 @@
   "id": "emolga",
   "name": "Emolga",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear Rayo, cambia a Excadrill y coloca Trampa Rocas",
+  "initialMove": "🪨coloca Trampa Rocas🪨",
+  {
   "tricks": [
     {
-      "detail": "EMOLGA NO SE RETIRA → Excadrill +4+2",
+      "detail": "emolga de Queda ➜ Usar Pantalla luz, se queda otra vez usa  Amortiguador",
       "variant": []
     },
     {
-      "detail": "SERPERIOR → Cambia a Chandelure y usa Lanzallamas para eliminar, luego ajusta según la siguiente aparición:",
-      "variant": [
-        {
-          "detail": "Houndoom, cambia a Scrafty, luego a Chandelure y usa Truco:",
-          "variant": [
-            {
-              "detail": "Triturar, Scrafty +4 / A Bocajarro contra Metagross",
-              "variant": []
-            },
-            {
-              "detail": "Milotic, Poliwrath +6+4",
-              "variant": []
-            }
-          ]
-        }
-      ]
+      "detail": "Alakazam ➜ Amortiguador, Leafeon doble patada) Usa amortiguador o contador y mira si cambia ",
+      "variant": []
     },
-    
     {
-      "detail": "METAGROSS → Cambia a Chandelure y usa Truco para bloquear Terremoto, luego Excadrill +4+2",
+      "detail": "Metagross ➜ Cambia a Jirachi, cambia a Dragonite x2 danza dragon (Metagross con Globo Helio)",
+      "variant": []
+    },
+    {
+      "detail": "Frente a Metagross ➜ Cambia a Jirachi, cambia a Dragonite Otra Vez + Danza Dragón x2 + Otra Vez",
+      "variant": []
+    },
+    {
+      "detail": "Cambiar Jirachi a Alakazam ➜ Jirachi Protección + Otra Vez, Gengar +2  no velo",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Revisar objeto: [Vidaesfera: Cambia a Gengar Otra Vez +4 no velo , si cambia  a Milotic, boostear de nuevo sin debilitar, Milotic cura y ataca] / y si tiene  (Globo Helio): Cambia a Jirachi, cambia a Gallade  Otra Vez +2 +2]",
+      "variant": []
+    },
+    {
+      "detail": "Alakazam ➜ Usa Pantalla de Luz, cambiar a Jirachi Otra Vez mira abajo",
+      "variant": []
+    },
+    {
+      "detail": "si leafeon usa hoja afilada Con chandelure Matalo , frente a Entei cambia a Chansey Amortiguador, frente a Metagross cambia a Jirachi y luego Dragonite Otra Vez + x2 danza dragon + Otra Vez, frente a Entei se queda  y continua con Amortiguador",
+      "variant": []
+    },
+    {
+      "detail": "Onda Certera  ➜ Fantasma +2 no velo ",
+      "variant": []
+    },
+    {
+      "detail": "Bola Sombra➜ Cambia a Chansey Amortiguador, forzar cambio del rival y ver qué sale (segun el pokemon que sale sigue la guia puede estar arriba o abajo)",
+      "variant": []
+    },
+    {
+      "detail": "Leafeon ➜ Contador mira abajo  ",
+      "variant": []
+    },
+    {
+      "detail": "Alakazam ➜ Amortiguador + Pantalla de Luz, frente a Metagross cambia a Jirachi y luego Dragonite Otra Vez + x2 Danza dragon, si cambia a Alakazam o  entra Metagross con Globo Helio (x2 danza dragon primero, luego Otra Vez  ➜ usa primero Garra Dragón, luego Terremoto)",
       "variant": []
     }
   ]
