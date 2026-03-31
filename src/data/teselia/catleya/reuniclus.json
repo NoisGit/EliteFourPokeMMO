@@ -2,6 +2,15 @@
   "id": "reuniclus",
   "name": "Reuniclus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure usa Truco para bloquear Psicocarga, Scrafty +3",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨 ",
+  "tricks": [
+    {
+      "detail": "Gengar +2 +2 (No usar Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Mienshao con Pañuelo Elegido (Pañuelo E) ➜ Se queda bloqueado, dejar que se debilite / No importa",
+      "variant": []
+    }
+  ]
 }
