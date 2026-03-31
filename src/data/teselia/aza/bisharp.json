@@ -2,115 +2,98 @@
   "id": "bisharp",
   "name": "Bisharp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Trampa rocas 🪨",
   "tricks": [
     {
-      "detail": "KROOKODILE→ Excadrill coloca Trampa Rocas 2+0",
+      "detail": "Honchkrow ➜ Gengar Otra vez +6 +2 (Pañuelo Elegido Krookodile)",
       "variant": []
     },
     {
-      "detail": "TYRANITAR → Cambia a Chandelure, usa Truco para bloquear Samurott, Poliwrath +6+2 → A Bocajarro para eliminar Bisharp",
+      "detail": "Garchomp ➜ Dragonite Cambia a Jirachi Otra vez ↓",
       "variant": []
     },
     {
-      "detail": "GARCHOMP → Cloyster +6 → Carámbano para eliminar Bisharp y Sharpedo",
+      "detail": "Terremoto ➜ Dragonite 2 Danza Dragón",
       "variant": []
     },
     {
-      "detail": "CHANDELURE → Cambia a tu propio Chandelure y Truco para intercambiar objeto, Scrafty +2 → Paliza para eliminar Haxorus, Puño Drenaje para eliminar Liepard",
+      "detail": "Llamarada ➜ Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "SCRAFTY → Cambia a Chandelure",
+      "detail": "Colmillo Fuego ➜ Chandelure +2 +2",
       "variant": [
         {
-          "detail": "Pat. Salto Alta → Lanzallamas para eliminar, entra Chandelure → Scrafty +2 → Paliza para eliminar Haxorus",
+          "detail": "Haxorus ➜ Amortiguador Cambia a Gengar Otra Vez +4 +2",
           "variant": []
         },
         {
-          "detail": "Desarme → Scrafty +2 → Paliza para eliminar Haxorus",
+          "detail": "Samurott ➜ Gengar (Bisharp Pañuelo)",
           "variant": []
-        },
-        {
-          "detail": "Haxorus / Bisharp → Truco",
-          "variant": [
-            {
-              "detail": "Acua Cola, Cloyster +4",
-              "variant": []
-            },
-            {
-              "detail": "Persecución, Scrafty +3",
-              "variant": []
-            }
-          ]
         }
       ]
     },
     {
-      "detail": "PATADA BAJA → Ver objeto",
+      "detail": "🎈 Globo Helio Bisharp ➜ Gengar ➜ Otra Vez ➜ Gallade (mata a Tyranitar) ➜ Chansey (Amortiguador)",
       "variant": [
         {
-          "detail": "Vidasfera → Chandelure usa Lanzallamas para eliminar, entra Salamence → Cambia a Excadrill, luego Chandelure usa Truco para bloquear Terremoto, Cloyster +4",
-          "variant": []
-        },
-        {
-          "detail": "Globo Helio → Chandelure usa Lanzallamas para eliminar, observa quién entra",
+          "detail": "Bisharp ➜ Matar con Contador",
           "variant": [
             {
-              "detail": "Mismagius → Scrafty +2, A Bocajarro para eliminar Samurott",
+              "detail": "Si sale Samurott ➜ Gengar Otra Vez +4 +2",
               "variant": []
             },
             {
-              "detail": "Tyranitar → Cambia a Scrafty, luego a Chandelure usa Truco",
-              "variant": [
-                {
-                  "detail": "Rocafilada, Scrafty +2, A Bocajarro para eliminar Samurott",
-                  "variant": []
-                },
-                {
-                  "detail": "Triturar, Scrafty +3",
-                  "variant": []
-                }
-              ]
+              "detail": "Si sale Serperior ➜ Jirachi Otra Vez ➜ Chandelure +2 +2",
+              "variant": []
             }
           ]
         },
         {
-          "detail": "Banda Focus → Chandelure usa Lanzallamas para eliminar, observa quién entra",
-          "variant": [
-            {
-              "detail": "Krookodile → Excadrill coloca Trampa Rocas 2 +0",
-              "variant": []
-            },
-            {
-              "detail": "Chandelure → Scrafty +2, A Bocajarro para eliminar Garchomp",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "detail": "TAJO UMBRÍO → Scrafty +3 → Paliza para eliminar Sharpedo, Absol, Staraptor",
-      "variant": []
-    },
-    {
-      "detail": "PERSECUCIÓN → Scrafty +3, // Si cambia saca Chandelure usa Lanzallamas para eliminar → Entra Chandelure, Scrafty +2 → Paliza para eliminar Haxorus",
-      "variant": []
-    },
-    {
-      "detail": "CABEZAHIERRO → Cambia a Chandelure",
-      "variant": [
-        {
-          "detail": "Bisharp NO se retira → Lanzallamas para eliminar, entra Chandelure → Scrafty +2, Paliza para eliminar Haxorus",
-          "variant": []
-        },
-        {
-          "detail": "Scrafty → Scrafty +2, Paliza para eliminar Haxorus",
+          "detail": "Si sale Serperior (Ruta alternativa) ➜ Jirachi Otra Vez ➜ Chandelure +2 +2",
           "variant": []
         }
       ]
-    }   
+    },
+    {
+      "detail": "Bisharp sin Globo Helio ➜ Gengar Otra Vez +4 +2",
+      "variant": []
+    },
+    {
+      "detail": "Staraptor ➜ Gengar +4 +2 (Staraptor Pañuelo Elegido)",
+      "variant": []
+    },
+    {
+      "detail": "Mantener ➜ para ver habilidad",
+      "variant": []
+    },
+    {
+      "detail": "Cabeza de Hierro ➜ Amortiguador forzar cambio del rival",
+      "variant": []
+    },
+    {
+      "detail": "Haxorus ➜ Amortiguador, Gengar Otra Vez +4 +2",
+      "variant": []
+    },
+    {
+      "detail": "Staraptor ➜ Gengar +4 x Defensa (No usar Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Garchomp ➜ Cambiar a Jirachi Otra Vez, Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Patada Salto Alta ➜ Gengar Otra Vez +2 +0",
+      "variant": []
+    },
+    {
+      "detail": "Demolición ➜ Amortiguador frente a Samurott Gengar Otra Vez +4 +2",
+      "variant": []
+    },
+    {
+      "detail": "Scrafty ➜ Chandelure +2 +2",
+      "variant": []
+    }
   ]
 }
