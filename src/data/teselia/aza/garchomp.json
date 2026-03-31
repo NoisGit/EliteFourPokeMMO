@@ -2,32 +2,23 @@
   "id": "garchomp",
   "name": "Garchomp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "TERREMOTO → Evaluar el objeto equipado",
-      "variant": [
-        {
-          "detail": "VIDASFERA → Cloyster +6, // Carámbano para eliminar todos los objetivos // Si hay Staraptor con Intimidación -1, cambiar a Surf para eliminar Bisharp"
-        },
-        {
-          "detail": "CASCO DENTADO → Cloyster +4"
-        }
-      ]
+      "detail": "Samurot/bisharp ➜ Gengar Otra Vez +4 +2",
+      "variant": []
     },
     {
-      "detail": "COLMILLO ÍGNEO → Cambia a Chandelure",
-      "variant": [
-        {
-          "detail": "No se retira → Truco intercambia objeto, Cloyster +4 → Hielo para eliminar Sharpedo"
-        },
-        {
-          "detail": "Spiritomb → Truco bloquea Persecución, entra Metagross y usa un Puño Trueno, luego aparece Garchomp, Cloyster +4 → Hielo para eliminar Sharpedo (pendiente de prueba)"
-        },
-        {
-          "detail": "Bisharp → Truco bloquea Tajo Umbrío, Scrafty +3 → Paliza para eliminar Sharpedo, Staraptor"
-        }
-      ]
+      "detail": "Vidasfera Colmillo Ígneo ➜ cambia a Dragonite cambia a Jirachi Otra Vez Chandelure +2 +2 / Dragonite +4 Danza",
+      "variant": []
+    },
+    {
+      "detail": "Staraptor ➜ Fantasma +4 xDefensa(no Velo)  No Usar  Otra Vez (staraptor/spiritomb Cinta Elegida y Sombra vil)",
+      "variant": []
+    },
+    {
+      "detail": "Vidasfera Terremoto ➜ cambia a Dragonite cambia a Jirachi Otra Vez Chandelure +2 +2 / Dragonite +3 Danza",
+      "variant": []
     }
   ]
 }
