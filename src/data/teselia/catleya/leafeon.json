@@ -2,68 +2,21 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "NO SE RETIRA → Usa Lanzallamas para eliminar, observa el cambio",
+      "detail": "Cambia a Jirachi ➜ Otra vez (mira abajo)",
       "variant": [
         {
-          "detail": "ALAKAZAM → Cambia a Metagross y usa Truco",
+          "detail": "Ataque tipo Lucha ➜ Gengar +4 +2",
           "variant": [
             {
-              "detail": "BOLA SOMBRA → Scrafty +3 / A Bocajarro contra Metagross",
+              "detail": "Ataque tipo Planta ➜ Dragonite (X Defensa + 2 Danza Dragón), curar con Máxima Poción",
               "variant": []
-            },
-            {
-              "detail": "Onda Certera → Chandelure usa Truco para intercambiar objeto, luego Scrafty +3 / A Bocajarro contra Metagross",
-              "variant": []
-            },
-            {
-              "detail": "Metagross → Usa Truco para recuperar Pañuelo Elección, observa el golpe de Puño Meteoro",
-              "variant": [
-                {
-                  "detail": "Puño Meteoro impacta, usa Truco para bloquear Terremoto, Excadrill coloca Trampa Rocas +4+2",
-                  "variant": []
-                },
-                {
-                  "detail": "Puño Meteoro falla, cambia a Excadrill, luego a Chandelure y usa Truco para bloquear Terremoto, Excadrill coloca Trampa Rocas +4+2",
-                  "variant": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "detail": "Entei → Cambia a Poliwrath, luego a Chandelure y usa Truco, luego Scrafty +3 / A Bocajarro contra Metagross",
-          "variant": []
-        },
-        {
-          "detail": "Empoleon → Cambia a Poliwrath y usa Terremoto para eliminar, observa el cambio",
-          "variant": [
-            {
-              "detail": "Emolga → Cambia a Excadrill, luego a Chandelure contra Metagross, usa Truco para bloquear Terremoto, Excadrill coloca Trampa Rocas +4+2",
-              "variant": []
-            },
-            {
-              "detail": "Alakazam → Cambia a Metagross y usa Truco",
-              "variant": [
-                {
-                  "detail": "Bola Sombra → Scrafty +3",
-                  "variant": []
-                },
-                {
-                  "detail": "Onda Certera → Chandelure usa Truco para intercambiar objeto, luego Scrafty +3 / A Bocajarro contra Metagross",
-                  "variant": []
-                }
-              ]
             }
           ]
         }
       ]
-    },
-    {
-      "detail": "METAGROSS, Utiliza Truco, luego Excadrill coloca Trampa Rocas 4+2.",
-      "variant": []
     }
   ]
 }
