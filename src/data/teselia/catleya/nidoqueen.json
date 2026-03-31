@@ -2,6 +2,31 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco bloquea Tierra Viva, Excadrill coloca Trampa Rocas, Cloyster +6",
-  "tricks": []
+  "initialMove": "💡 Pantalla luz 💡",
+  "tricks": [
+    {
+      "detail": "Metagross ➜ Cambia a Gengar Otra Vez, cambia a Gallade para debilitar a Umbreon",
+      "variant": []
+    },
+    {
+      "detail": "Staraptor ➜ Gengar +4 no velo (tiene pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Gengar Otra Vez, cambia a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Cambia a Dragonite x3 danza dragon (No usar Otra Vez, tiene pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Nidoqueen ➜ Otra Vez, Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Blissey ➜ Chandelure +2 +2; usar movimiento de Fuego para debilitar a Togekiss; (si recibe Tóxico, presionar hasta que Togekiss entre y se cure el veneno)",
+      "variant": []
+    }
+  ]
 }
