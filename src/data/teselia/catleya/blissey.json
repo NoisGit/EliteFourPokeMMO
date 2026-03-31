@@ -2,7 +2,7 @@
   "id": "blissey",
   "name": "Blissey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Pantalla luz Trampa Rocas 🪨",
+  "initialMove": "Pantalla luz y Trampa Rocas",
   "tricks": [
     {
       "detail": "ABSOL → Cambiar a Gengar con Otra Vez → luego cambiar a Jirachi",
