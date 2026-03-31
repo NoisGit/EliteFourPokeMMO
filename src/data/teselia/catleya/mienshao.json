@@ -2,36 +2,75 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Chandelure usa Lanzallamas para atacar y ajusta según la respuesta",
+  "initialMove":"Cambia a Gengar Otra vez  ",
+ {
   "tricks": [
     {
-      "detail": "SNORLAX → Scrafty +2 / Si tiene +1, puede recuperar HP con Puño Drenaje",
-      "variant": [
-        {
-          "detail": "Scrafty es eliminado por Snorlax, usa Chandelure y Truco para bloquear Triturar, revive Scrafty y repite +2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "VAPOREON, cambia a Poliwrath, luego a Chandelure contra Reuniclus y usa Truco para bloquear Psicocarga, luego Scrafty +3.",
+      "detail": "Gengar Otra Vez, Frende a Umbreon ➜ Cambia a Chansey  Pantalla Luz, cambia a Gengar, luego cambia de Gallade para matar a umbreon ",
       "variant": []
     },
     {
-      "detail": "UMBREON → Cambia a Scrafty",
-      "variant": [
-        {
-          "detail": "Umbreon no se retira, usa Scrafty +2",
-          "variant": []
-        },
-        {
-          "detail": "Entei después, cambia a Chandelure y usa Truco para bloquear Roca Afilada, luego Scrafty +2 / Usa Puño Drenaje para recuperar HP antes de A Bocajarro contra Metagross",
-          "variant": []
-        }
-      ]
-    },   
+      "detail": "Umbreon ➜ muere mira abajo ",
+      "variant": []
+    },
     {
-      "detail": "ENTEI, cambia a Metagross, luego a Chandelure y usa Truco para bloquear Roca Afilada, seguido de Scrafty +1. // Si tienes +1, usa Puño Drenaje para recuperar HP, luego sigue con +2. // Contra Metagross usa Puño Drenaje y A Bocajarro para eliminarlo.",
+      "detail": "Entei ➜ Cambia a Chandelure, cambia a Chansey contador para matar a entei",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Jirachi trampa rocas , Chandelure +2 no velo ( Nota metagros no tiene nada efectivo contra chande ) ",
+      "variant": []
+    },
+    {
+      "detail": "Musharna ➜ Amortiguador,Trampa rocas , Pantalla Luz, Chandelure +2 no velo ( Nota tener cuidado con la vida de chansey y usar Amortiguador)",
+      "variant": []
+    },
+    {
+      "detail": "quedate y mueres contra altaria ? sacrificio frente a Altaria ➜ Jirachi Otra Vez, Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Mienshao con Pañuelo Elegido ➜ matarlo ",
+      "variant": []
+    },
+    {
+      "detail": "Jolteon ➜ Cambia a Chansey Trampa rocas ; frente a Staraptor , Gengar Otra Vez +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Mienshao con Vidaesfera ➜ Cambia a Gallade",
+      "variant": []
+    },
+    {
+      "detail": "Snorlax ➜ con gallade matar a snorlax ",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Chansey Trampa rocas  + contador ",
+      "variant": []
+    },
+    {
+      "detail": "Mienshao ➜ Cambia a Gengar , cambia a Jirachi; frente a Raichu cambia a Chansey  Amortiguador; frente a Excadrill  cambia a Jirachi Otra Vez, Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Sigilyph ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2; usar Bola Sombra para debilitar al ave, a los demas lanzallamas",
+      "variant": []
+    },
+    {
+      "detail": "Umbreon ➜muere ",
+      "variant": []
+    },
+    {
+      "detail": "Entei ➜ Cambia Chandelure ➜ Chansey contador mira abajo  ",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Cambia a Jirachi Proteccion Frente a Altaria  ➜ Chandelure no ataque esp +2 velo ",
+      "variant": []
+    },
+    {
+      "detail": "Musharna ➜ Amortiguador, Pantalla Luz, Chandelure +2 +2",
       "variant": []
     }
   ]
