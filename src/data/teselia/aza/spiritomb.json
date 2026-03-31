@@ -2,14 +2,18 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "JUEGO SUCIO → Usa Truco nuevamente para bloquear Garchomp, Cloyster +4 // Carámbano para eliminar Sharpedo",
+      "detail": "Honckrow ➜ Gengar Otra vez +6 +2 (si entra Krookodile ➜ Dragonite +2 danza dragon; no usar otra vez, tiene pañuelo)",
       "variant": []
     },
     {
-      "detail": "KROOKODILE → Excadrill coloca Trampa Rocas 2+0",
+      "detail": "Staraptor ➜ Gengar +4 +2 x Defensa (tiene pañuelo staraptor)",
+      "variant": []
+    },
+    {
+      "detail": "Garchomp ➜ Dragonite Cambia a Jirachi Otra Vez ➜ Dragonite +2 danza (si usa Colmillo fuego Dragonite xdefensa y +2 danza dragon)",
       "variant": []
     }
   ]
