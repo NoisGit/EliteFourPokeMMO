@@ -2,6 +2,19 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Truco para bloquear Nidoking/Nidoqueen, luego Excadrill coloca Trampa Rocas, seguido de Cloyster +6.",
-  "tricks": []
+  "initialMove": "💡 Gengar Otra Vez ➜ Jirachi Mira abajo 💡",
+  "tricks": [
+    {
+      "detail": "METAGROSS ➜ Dragonite 4 danza dragon [tiene Pañuelo]",
+      "variant": []
+    },
+    {
+      "detail": "NIDOQUEEN → Otra Vez y luego Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "BLISSEY → Chandelure +2 +2 [si envenena Curalo y empujar hacia Togekiss matalo (togekiss Natu Serena)]",
+      "variant": []
+    }
+  ]
 }
