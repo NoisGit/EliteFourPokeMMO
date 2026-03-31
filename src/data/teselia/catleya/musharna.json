@@ -2,11 +2,10 @@
   "id": "musharna",
   "name": "Musharna",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨 (  💡Altaria frente a Gengar o Chandelure ➜ No representa amenaza; si Mienshao cae (faint), Chandelure 20hp  y presiona",
-  {
+  "initialMove": "🪨 Trampa Rocas 🪨 (💡 Altaria frente a Gengar o Chandelure ➜ No representa amenaza; si Mienshao cae, Chandelure 20 y presiona)",
   "tricks": [
     {
-      "detail": "Mienshao ➜ Cambia a Gengar , cambia a Gallade para debilitar a Umbreon",
+      "detail": "Mienshao ➜ Cambia a Gengar, cambia a Gallade para debilitar a Umbreon",
       "variant": []
     },
     {
@@ -18,7 +17,7 @@
       "variant": []
     },
     {
-      "detail": "Mienshao ➜ con  Gengar matalo  ; Chandelure +2 no velo ",
+      "detail": "Mienshao ➜ Con Gengar mátalo; Chandelure +2 no velo",
       "variant": []
     },
     {
@@ -26,7 +25,7 @@
       "variant": []
     },
     {
-      "detail": "Se queda  ➜ Cambia a Gengar matarlo ",
+      "detail": "Se queda ➜ Cambia a Gengar para debilitar",
       "variant": []
     },
     {
@@ -34,7 +33,7 @@
       "variant": []
     },
     {
-      "detail": "Metagross ➜ Contador, cambia a Jirachi, cambia a Chandelure +2 no velo  y presiona",
+      "detail": "Metagross ➜ Contador, cambia a Jirachi, cambia a Chandelure +2 no velo y presiona",
       "variant": []
     }
   ]
