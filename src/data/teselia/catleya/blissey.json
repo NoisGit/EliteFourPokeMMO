@@ -5,20 +5,24 @@
   "initialMove": "Pantalla luz / 🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "ABSOL → Cambiar a Gengar con Otra Vez, luego cambiar a Jirachi",
+      "detail": "ABSOL → Cambiar a Gengar con Otra Vez → luego cambiar a Jirachi",
       "variant": []
     },
     {
       "detail": "METAGROSS → Dragonite con 3 danza dragon (No usar Otra Vez / está encerrado)",
       "variant": [
         {
-          "detail": "BLISSEY → Chandelure +2 +2 (Si recibe Golpe Veneno curar veneno, empujar hacia Togekiss)",
+          "detail": "BLISSEY → Chandelure +2 +2 (Si recibe Golpe Veneno curar veneno → empujar hacia Togekiss)",
           "variant": []
         }
       ]
     },
     {
       "detail": "Nidoking → Otra Vez entra Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "",
       "variant": []
     }
   ]
