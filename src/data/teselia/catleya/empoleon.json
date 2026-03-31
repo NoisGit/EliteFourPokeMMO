@@ -2,31 +2,30 @@
   "id": "empoleon",
   "name": "Empoleon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨Trampa Rocas ➜ Jirachi Proteccion ➜ ante Entei, Jirachi usa Otra Vez  y sale Chandelure +2 +2 ( 💡modo rapido )",
-  {
+  "initialMove": " 🪨Trampa Rocas ➜ Jirachi Proteccion ➜ ante Entei, Jirachi usa Otra Vez y sale Chandelure +2 +2 ( 💡modo rapido )",
   "tricks": [
     {
-      "detail": "Empoleon Se queda ➜ Usa pantalla laz , usar Amortiguador y forzar el cambio del rival",
+      "detail": "Empoleon Se queda ➜ Usa Pantalla Luz, usar Amortiguador y forzar el cambio del rival",
       "variant": []
     },
     {
-      "detail": "Frente a Leafeon ➜ Cambia a Jirachi Otra Vez, cambia a Dragonite, cambia de Jirachi entra  Metagross, cambia a Dragonite Otra Vez + x2 Danza dragon + Otra Vez y ataca ",
+      "detail": "Frente a Leafeon ➜ Cambia a Jirachi Otra Vez, cambia a Dragonite, cambia de Jirachi entra Metagross, cambia a Dragonite Otra Vez + x2 Danza Dragón + Otra Vez y ataca",
       "variant": []
     },
     {
-      "detail": "Metagross ➜ Cambia a Jirachi, cambia a Dragonite Otra Vez + x2 danza dragon + Otra Vez y ataca ; (si es Metagross con Globo Helio, usar Garra Dragón + Terremoto para debilitar)",
+      "detail": "Metagross ➜ Cambia a Jirachi, cambia a Dragonite Otra Vez + x2 Danza Dragón + Otra Vez y ataca; (si es Metagross con Globo Helio, usar Garra Dragón + Terremoto para debilitar)",
       "variant": []
     },
     {
-      "detail": "Cambia Jirachi y si entra Leafeon ➜ Cambia a Dragonite Danza Dragón, corre a Metagross, cambia a Jirachi y luego Dragonite Otra Vez + x2 danza dragon + Otra Vez; frente a (Metagross con Globo Helio usa primero Garra Dragón y luego Terremoto)",
+      "detail": "Cambia Jirachi y si entra Leafeon ➜ Cambia a Dragonite Danza Dragón, corre a Metagross, cambia a Jirachi y luego Dragonite Otra Vez + x2 Danza Dragón + Otra Vez; frente a (Metagross con Globo Helio usa primero Garra Dragón y luego Terremoto)",
       "variant": []
     },
     {
-      "detail": "Alakazam ➜ Cambia a Jirachi y usa Protección para ver el movimiento del rival  💡 (mira abajo )",
+      "detail": "Alakazam ➜ Cambia a Jirachi y usa Protección para ver el movimiento del rival 💡 (mira abajo)",
       "variant": []
     },
     {
-      "detail": "Bola Sombra ➜ Jirachi Otra Vez , cambia a Fantasma 2",
+      "detail": "Bola Sombra ➜ Jirachi Otra Vez, cambia a Fantasma 2",
       "variant": []
     },
     {
