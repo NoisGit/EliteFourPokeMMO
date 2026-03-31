@@ -2,30 +2,29 @@
   "id": "honchkrow",
   "name": "Honchkrow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": " 💡Gengar Otra Vez Cambia a Chandelure y matalo 💡 ",
   "tricks": [
     {
-      "detail": "NO SE RETIRA → Evaluar si se activa Absorber Fuego",
+      "detail": "Krokodile Usa Terremoto ➜ Dragonite +3 Danza (kroko Pañuelo)",
       "variant": [
         {
-          "detail": "Absorber Fuego se activa → Lanzallamas para eliminar, Entra Krookodile → Excadrill coloca Trampa Rocas 2+0"
+          "detail": "Triturar ➜ chansey Amortiguador usa Contador",
+          "variant": []
         },
         {
-          "detail": "No se activa → Cambia a Metagross para recibir Golpe Aéreo, evalúa la salud de Honchkrow",
+          "detail": "Bisharp ➜ Gengar Otra Vez +4 +2 ",
           "variant": [
             {
-              "detail": "76.8% o menos → Puño Trueno para eliminar Entra Krookodile → Excadrill coloca Trampa Rocas 2+0"
+              "detail": "Kingdra ➜  chansey contador",
+              "variant": []
             },
             {
-              "detail": "76.8% o más → Cambia a Chandelure, usa Lanzallamas para eliminar Entra Krookodile → Excadrill coloca Trampa Rocas 2+0"
+              "detail": "Krookodile ➜ Dragonite +3 Danza (tiene pañuelo)",
+              "variant": []
             }
           ]
         }
       ]
-    },
-    {
-      "detail": "KROOKODILE → Excadrill coloca Trampa Rocas 2+0",
-      "variant": []
     }
   ]
 }
