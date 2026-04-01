@@ -2,16 +2,16 @@
   "id": "sawk",
   "name": "Sawk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear Terremoto, luego Cloyster +4",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Salida de Conkeldurr tras Rompecoraza (baja probabilidad) → Cambia a Chandelure y usa Lanzallamas para eliminar, observa la respuesta",
+      "detail": "Conkeldurr ➜ Gengar Otra vez Cambia a Jirachi Frente a Krookodile ➜ Jirachi Otra Vez ➜ Dragonite x2 danza dragon o Gallade +2 +2   ",
       "variant": [
         {
-          "detail": "Gyarados → Cambia a Poliwrath, luego a Chandelure y usa Truco para bloquear Cascada, Poliwrath +6+2+6 / Puño Hielo para eliminar Gyarados"
+          "detail": ", Si el rival se queda ➜ Cambia a Gengar Otra Vez +4 no velo y ataca ➜ si entra luxray Cambia a Dragonite x2 danza dragon (luxray tiene pañuelo )  "
         },
         {
-          "detail": "Luxray → Scrafty+3"
+          "detail": ""
         }
       ]
     }
