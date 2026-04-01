@@ -2,6 +2,15 @@
   "id": "carracosta",
   "name": "Carracosta",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco bloquea a Golurk → Cloyster +4.",
-  "tricks": []
+  "initialMove": "🪨 Trampa rocas 🪨",
+ "tricks": [
+    {
+      "detail": "Conkeldurr ➜ Gengar  Otra Vez +4",
+      "variant": []
+    },
+    {
+      "detail": "Haxorus ➜ Gengar Otra Vez, cambia a Jirachi frente a Conkeldurr, Gengar Otra Vez +4",
+      "variant": []
+    }
+  ]
 }
