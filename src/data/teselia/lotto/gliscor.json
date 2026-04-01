@@ -2,6 +2,19 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Truco para bloquear Terremoto, luego Cloyster +4 // Surf para Magnezone",
-  "tricks": []
+  "initialMove": " 💡 Amortiguador (si no cambia sigue con amortiguador) 💡 ",
+ "tricks": [
+    {
+      "detail": "Toxicroak / Conkeldur ➜ Gengar  Otra Vez, Bola Sombra ",
+      "variant": []
+    },
+    {
+      "detail": "Magnezone ➜ Cambia a Chansey  Amortiguador; Gengar Otra Vez +4 +0; Crawdaunt se bloquea solo (Tiene Pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Mantener (stay) ➜ Gengar (Fantasma) Otra Vez +6 +0",
+      "variant": []
+    }
+  ]
 }
