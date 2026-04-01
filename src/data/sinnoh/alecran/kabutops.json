@@ -2,23 +2,22 @@
   "id": "kabutops",
   "name": "Kabutops",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "GLISCOR → Cloyster +6 (Mata todo Carámbano).",
+      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "FLYGON / GASTRODON → Cloyster +6 (Matar todo con Carámbano).",
-      "variant": [
-        {
-          "detail": "Si Cloyster recibe Llamarada por Sorpresa, Chandelure usa Truco para cambiar objeto, Excadrill pone Trampa Rocas+4+2",
-          "variant": []
-        }
-      ]
+      "detail": "Durant ➜ Gengar +2; (No usar Otra Vez)",
+      "variant": []
     },
     {
-      "detail": "FERROTHORN → Chandelure, contra Flygon usa Truco para encerrar en Terremoto, Cloyster +6 (Mata todo con Carámbano)",
+      "detail": "Cascada / Roca Afilada  ➜ contador Amortiguador; contador  (kabuto tiene banda focus)",
+      "variant": []
+    },
+    {
+      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2 / Dragonite x2  ( Terremoto  1 Ferrothorn +2 puede presionar ",
       "variant": []
     }
   ]
