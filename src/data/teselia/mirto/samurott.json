@@ -2,21 +2,21 @@
   "id": "samurott",
   "name": "Samurott",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "EXCADRILL → Cloyster +4",
+      "detail": "Lucario ➜ Cambia a Gengar Otra vez (si algo sale mal entra Jirachi)",
       "variant": []
     },
     {
-      "detail": "MEGACUERNO / ESPADASANTA → Cambia a Chandelure",
+      "detail": "Excadrill ➜ Sacrifica a chandelure ➜ Jirachi Otra Vez ➜ Dragonite x4 danza dragon (excadrill tiene banda focus ) ",
       "variant": [
         {
-          "detail": "Excadrill → Usa Truco para bloquear Terremoto, Cloyster +4",
+          "detail": "Latias ➜ Cambia a Jirachi Otra vez ➜ Chandelure +2 +2 ",
           "variant": []
         },
         {
-          "detail": "Si no se retira, usa Bola Sombra para debilitarlo, luego entra Excadrill, cambia a Metagross para sacrificar, luego Chandelure usa Truco para bloquear Terremoto, Cloyster +4",
+          "detail": "Si cambia mientras usas otra vez a volcarona ➜ Chandelure +2 +2 ",
           "variant": []
         }
       ]
