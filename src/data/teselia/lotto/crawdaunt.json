@@ -2,60 +2,30 @@
   "id": "crawdaunt",
   "name": "Crawdaunt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Entra Gengar 💡",
   "tricks": [
     {
-      "detail": "SEISMITOAD → Cloyster +4 / Surf para Magnezone",
+      "detail": "Trueno  ➜ Cambia a Jirachi Protección  frente a Seismitoad; Jirachi Otra Vez, Dragonite x2 Danza dragon",
       "variant": []
     },
     {
-      "detail": "GOLURK → Cloyster +4 + objeto de Defensa X",
+      "detail": "Bloqueo con Otra Vez en Hidrobomba ➜ Cambia a Chansey abrir Pantalla de Luz; frente a Medicham, Chandelure +2 +2; Jugada de riesgo  (Gengar +4 (No usar Otra Vez) / Gengar o Magnezone aleatorio",
       "variant": []
     },
     {
-      "detail": "CONKELDURR + RESTOS → Cambia a Chandelure",
-      "variant": [
-        {
-          "detail": "Si no se retira, usa Truco para bloquear Gyarados, Poliwrath +6+2 / A Bocajarro para eliminar Conkeldurr, Puño Hielo contra Gliscor",
-          "variant": []
-        },
-        {
-          "detail": "Magnezone → Usa Truco para bloquear Rayo, Excadrill coloca Trampa Rocas +4+2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "CONKELDUR + VIDASFERA → Coloca Trampa Rocas",
-      "variant": [
-        {
-          "detail": "Metagross, cambia a Cloyster, luego a Chandelure y usa Truco para bloquear Terremoto, Excadrill +4+2",
-          "variant": []
-        },
-        {
-          "detail": "Si no se retira, Chandelure +4+0 / Lanzallamas para limpiar el equipo",
-          "variant": []
-        }
-      ]
-    },   
-    {
-      "detail": "METAGROSS → Excadrill coloca Trampa Rocas +4+2",
+      "detail": "A Bocajarro ➜ Gengar  Otra Vez +4, luego Otra Vez, Rayo ",
       "variant": []
     },
     {
-      "detail": "MAGNEZONE → Coloca Trampa Rocas y sacrifica (por Imán), Excadrill +4+2",
+      "detail": "Banda Focus  ➜ Aguantar el golpe y presionar rápido",
       "variant": []
     },
     {
-      "detail": "SURF → Poliwrath +6+2",
+      "detail": "Mienshao ➜ Presionar Mienshao Banda Focus / Auto-rescate con objeto de curación (Mienshao tiene regenerador y restos banda focus)",
       "variant": []
     },
     {
-      "detail": "MARTILLAZO → Poliwrath usa Tambor, luego Terremoto para debilitar, entra Mienshao, se cambia a Chandelure y se usa Truco para bloquear Roca Afilada, Scrafty usa Defensa X +3. // Doble Puño Drenaje contra Metagross, A Bocajarro contra Conkeldurr",
-      "variant": []
-    },
-    {
-      "detail": "TRITURAR → Cambia a Chandelure contra Golurk, usa Truco para bloquear Terremoto, Cloyster +2 + objeto de ataque // Crunch reduce defensa, cambia directamente a Scrafty +3 / Paliza contra Mienshao, A Bocajarro contra Conkeldurr",
+      "detail": "Magnezone ➜ Cambia a Chansey Amortiguador, Llave Giro ; Gengar Otra Vez +4",
       "variant": []
     }
   ]
