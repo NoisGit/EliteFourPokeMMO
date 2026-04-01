@@ -2,6 +2,19 @@
   "id": "skuntank",
   "name": "Skuntank",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y usa Truco, bloquea en Puya Nociva, Excadrill 4+2. // Usa Terremoto para derrotar a Skuntank.",
-  "tricks": []
+  "initialMove": "🪨Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Llamarada ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Puya Nociva ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2; Chansey recibe veneno puede usar Autodestrucción , ver abajo",
+      "variant": []
+    },
+    {
+      "detail": " si usa Autodestrucción  frente a Flygon ➜ Jirachi Otra Vez , Gallade  +4 +2",
+      "variant": []
+    }
+  ]
 }
