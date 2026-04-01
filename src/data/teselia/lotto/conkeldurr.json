@@ -2,167 +2,102 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Cambia a Gengar 💡",
   "tricks": [
     {
-      "detail": "LLAMASFERA + A BOCAJARRO → Cambia a Chandelure, usa Lanzallamas para eliminar",
-      "variant": [
-        {
-          "detail": "Si entra Haxorus → Cambia a Cloyster, luego a Chandelure y usa Truco para bloquear Terremoto / Acua Cola, Cloyster +4",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Golurk → Cambia a Excadrill, luego a Chandelure y usa Truco para bloquear Terremoto, Cloyster +4",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Carracosta → Cambia a Metagross, coloca Trampa Rocas, sacrifica, luego Chandelure usa Truco para bloquear Cascada, Poliwrath +6+2 // Si Metagross sobrevive, cambia a Poliwrath para resistir Cascada, luego vuelve a Metagross y coloca Trampa Rocas",
-          "variant": []
-        },
-        {
-          "detail": "Si entra GYARADOS → Cambia a Poliwrath, luego a Chandelure y usa Truco para bloquear Cascada, Cloyster usa Defensa X +4",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Luxray → Excadrill +6+2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "VIDASFERA + A BOCAJARRO → Coloca Trampa Rocas, luego Chandelure +4+0 / Lanzallamas para barrer",
+      "detail": "Conkeldurr Llamasfera Puño Drenaje ➜ Cambia a Gengar Otra Vez, Bola Sombra frente a Seismitoad; cambia a Chansey Trampa rocas ➜ Gengar Otra Vez +2 +2 (usar Defensa X)",
       "variant": []
     },
     {
-      "detail": "PUÑO FUEGO → Coloca Trampa Rocas y observa Metagross",
-      "variant": [
-        {
-          "detail": "Si sobrevive, Chandelure +4+0 / Lanzallamas para barrer",
-          "variant": []
-        },
-        {
-          "detail": "Si cae, cambia a Cloyster, luego a Chandelure +4+0 / Lanzallamas para barrer",
-          "variant": []
-        },
-        {
-          "detail": "Si aparece Gyarados, usa Truco para bloquear Cascada, Poliwrath +6+2 / A Bocajarro para eliminar Conkeldurr",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "PUÑO TRUENO → Coloca Trampa Rocas",
-      "variant": [
-        {
-          "detail": "Si Conkeldurr no se retira, Excadrill +4+2",
-          "variant": [
-            {
-              "detail": "Si entra Salamence, Chandelure usa Truco para intercambiar objeto, Cloyster +4",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si entra Electivire, cambia a Chandelure y usa Truco para bloquear Thunderbolt, Excadrill +4+2",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Metagross, cambia a Cloyster, luego a Chandelure y usa Truco para bloquear Terremoto, Excadrill +4+2",
-          "variant": []
-        }
-      ]
-    },
-
-    {
-      "detail": "VENDETTA → Coloca Trampa Rocas, se cambia a Scrafty, luego a Chandelure, frente a Gyarados se cambia a Poliwrath, luego otra vez a Chandelure frente a Froslass, se usa Truco para bloquear a Tyranitar, se cambia a Scrafty y se observa el movimiento usado. // Si aparece Breloom, revisa estrategia específica",
-      "variant": [
-        {
-          "detail": "Si recibe Earthquake, Excadrill coloca Trampa Rocas +6+2 (defensa, sin objeto de velocidad)",
-          "variant": []
-        },
-        {
-          "detail": "Si recibe Triturar / Roca Afilada, Scrafty +4 o +2 con Ataque X // Presta atención a tu vida si es Roca Afilada",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "PUÑO DRENAJE + BAYA → Coloca Trampa Rocas, cambia a Chandelure y usa Truco para bloquear Tyranitar, luego Excadrill revisa habilidades",
-      "variant": [
-        {
-          "detail": "Si recibe Terremoto / Avalancha / Roca Afilada → Excadrill +2 (defensa) +6 / Asegurar recuperación por encima del 80% con un Max. Poción, sin objeto de velocidad / Crítico -29.9%",
-          "variant": []
-        },
-        {
-          "detail": "Si recibe Crunch → Scrafty +4 o +2 con objeto de ataque (evitar A Bocajarro)",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "PUÑO DRENAJE + LLAMASFERA → Cambia a Chandelure y usa Truco para bloquear Seismitoad, Cloyster +4 + Ataque X",
+      "detail": "Conkeldurr Llamasfera A Bocajarro ➜ Gengar Otra Vez, Maquinación",
       "variant": []
     },
     {
-      "detail": "PUÑO DRENAJE + VIDASFERA → Usa Truco nuevamente",
-      "variant": [
-        {
-          "detail": "Si Conkeldurr no se retira, cambia a Chandelure, usa truco y observa:",
-          "variant": [
-            {
-              "detail": "Puño Trueno → Excadrill 4+2 y luego coloca Trampa Rocas, el rival cambia a Salamence, ver estrategia detallada más abajo 👇🏻",
-              "variant": [
-                {
-                  "detail": "Salamence entra tras Danza Espada → Cambiar a Chandelure y recuperar PS hasta más del 60%, luego usar Truco dos veces para bloquear Terremoto, Cloyster +4. // usa Carámbano contra Crawdaunt",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Vendetta → Scrafty +5 o +3 + Ataque X, luego revive a Chandelure para que Paliza haga el máximo daño / Paliza contra Crawdaunt",
-              "variant": []
-            },
-            {
-              "detail": "ROCA AFILADA → Scrafty +2 / A Bocajarro contra Conkeldurr, si Metagross cae, usa Danza Dragón adicional / Drenaje para Magnezone",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Seismitoad → Cambiar a Cloyster, luego a Chandelure y usar Truco para bloquear Tierra Viva, Cloyster +4.",
-          "variant": []
-        }
-      ]
-    },
-
-    {
-      "detail": "PUÑO DRENAJE + RESTOS → Cambiar a Chandelure y usar Truco, bloquear a Gyarados, Poliwrath +6 +2. / Bocajarro para derrotar a Conkeldurr / Si Conkeldurr no se retira, seguir usando Truco.",
+      "detail": "Krookodile ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, Dragonite x3 danza dragon",
       "variant": []
     },
     {
-      "detail": "SEISMITOAD→ Cloyster +4 + Ataque X // Surf para Aggron",
+      "detail": "Lucario ➜ Cambia a Chansey Trampa roca, cambia a Gengar Otra Vez +4 no velo",
       "variant": []
     },
     {
-      "detail": "AGGRON → Colocar Trampa Rocas, luego cambiar a Chandelure y usar Truco.",
-      "variant": [
-        {
-          "detail": "Si Aggron no se retira, Chandelure usa un objeto de ataque especial, luego Llamarada para eliminar",
-          "variant": [
-            {
-              "detail": "Si entra Seismitoad, cambia a Cloyster, luego a Metagross y usa Truco para bloquear Terremoto, Cloyster +4 / Surf para eliminar Skarmory",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si Seismitoad aparece directamente, Cloyster +4 / Surf para eliminar Skarmory",
-          "variant": []
-        }      
-      ]
+      "detail": "Se queda ) ➜ Matalo r",
+      "variant": []
     },
     {
-      "detail": "MAGNEZONE / TYRANITAR → Excadrill coloca Trampa Rocas +6+2 (defensa, sin objeto de velocidad)",
+      "detail": "Lucario ➜ Cambia a Chansey Trampa rocas, cambia a Gengar Otra Vez +4 No velo",
+      "variant": []
+    },
+    {
+      "detail": "Krookodile ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, si vez que es lento matalo",
+      "variant": []
+    },
+    {
+      "detail": "Gyarados ➜ Cambia a Chansey Trampa rocas, quedate y usa Contador; frente a luxray o algun mov tipo lucha cambia a Gengar Otra Vez +2 +0; si el gato se bloquea solo, no usar Otra Vez",
+      "variant": []
+    },
+    {
+      "detail": "Sawk ➜ Cambia a Chansey Trampa rocas; Frente a Luxray Gengar Otra Vez +2 +0; si el gato se bloquea solo, no usar Otra Vez",
+      "variant": []
+    },
+    {
+      "detail": "Skarmory ➜ Cambia a Chansey Trampa rocas, cambia a Gengar Otra Vez +4 +0",
+      "variant": []
+    },
+    {
+      "detail": "Lucario Vida Esfera A Bocajarro ➜ Gengar Otra Vez, Maquinación",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Dragonite Otra Vez, x4 danza dragon",
+      "variant": []
+    },
+    {
+      "detail": "Golurk ➜ Cambia a Chansey Trampa rocas Gengar Otra Vez +4 +0",
+      "variant": []
+    },
+    {
+      "detail": "Mienshao ➜ Cambia a Chansey, cambia a Gengar Otra Vez +2 +0; presionar a Metagross, Dragonite Otra Vez, x4 Danza Dragon",
+      "variant": []
+    },
+    {
+      "detail": "Se Queda ➜ +4 +0 presionar; (Banda Focus Mienshao)",
+      "variant": []
+    },
+    {
+      "detail": "Puño Drenaje (sin quemadura) ➜ Otra Vez, Bola Sombra",
+      "variant": []
+    },
+    {
+      "detail": "Skarmory con Restos ➜ Gengar +6 +0 presionar",
+      "variant": []
+    },
+    {
+      "detail": "Magnezone ➜ Cambia a Chansey Pantalla de Luz; Gengar Otra Vez +6 +0; frente a Crawdaunt No usar Otra Vez (tiene pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Magnezone ➜ Cambia a Chansey Amortiguador",
+      "variant": []
+    },
+    {
+      "detail": "Medicham ➜ Gengar +4 +0, (pañuelo elegido)",
+      "variant": []
+    },
+    {
+      "detail": "Toxicroak / Conkeldurr ➜ Gengar Otra Vez +4 +2; (frente a Toxicroak Gengar Otra Vez +4; frente a Bisharp",
+      "variant": []
+    },
+    {
+      "detail": "Tyranitar ➜ Cambia a Chansey Contador para debilitar; frente a Breloom cambia a Gengar Otra Vez +4 +0; presionar hacia Dusknoir; cambia a Chansey Amortiguador para curar vida al máximo frente a Skarmory; Otra Vez y curar hasta 65%+ HP; +4 +0 presionar con Rayo + Bola Sombra para debilitar a Magnezone. Dusknoir roba a Gengar +6 +0 hacia abajo; cuidado con la curación completa",
+      "variant": []
+    },
+    {
+      "detail": "Se queda y no tiene Restos ➜ +6 +2 debilitar; con este equipo debilitar a Skarmory; si Crawdaunt está en la posición 3 lleva Banda Focus, presionar directamente frente a otros",
+      "variant": []
+    },
+    {
+      "detail": "Crawdaunt Banda Focus (SASH) ➜ Cambia a Chansey, cambia a Gengar Otra Vez +4 +2",
       "variant": []
     }
   ]
