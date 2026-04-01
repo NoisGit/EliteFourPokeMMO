@@ -2,22 +2,14 @@
   "id": "durant",
   "name": "Durant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡cambia a Chandelure y lanzallamas 💡",
   "tricks": [
     {
-      "detail": "Colmillo Rayo → Excadrill con +6 Ataque / +2 Velocidad y luego coloca Trampa Rocas. Todo se elimina con Cabezahierro.",
+      "detail": "Drapion/Kabutops ➜ Cambia a Chansey Trampa rocas ",
       "variant": []
     },
     {
-      "detail": "Fuerza Bruta → Usar Truco dos veces, luego Excadrill con +6 / +2 y coloca Trampa Rocas. Todo se elimina con Cabezahierro.",
-      "variant": []
-    },
-    {
-      "detail": "Tijera X → Usar Lanzallamas para debilitar. Cuando salga Kabutops, cambiar a Poliwrath, luego a Metagross y usar Truco para bloquear a Gliscor. Finalmente, Cloyster +6. Todo se elimina con Carámbano.",
-      "variant": []
-    },
-    {
-      "detail": "Gliscor → Usar Truco para bloquear Terremoto, luego Cloyster +6. Todo se elimina con Carámbano.",
+      "detail": "Crawdaunt ➜  Gengar +2 no velo  ( frente a HERACROSS ➜ Usar Otra Vez  +2 no velo ",
       "variant": []
     }
   ]
