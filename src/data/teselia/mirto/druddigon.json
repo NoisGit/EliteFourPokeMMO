@@ -2,20 +2,11 @@
   "id": "druddigon",
   "name": "Druddigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "USA PUÑO TRUENO 1 VEZ",
+  "initialMove": "💡 Pantalla luz💡 Cambiar a Gengar Otra Vez ",
   "tricks": [
     {
-      "detail": "NO SE RETIRA, usa Puño Trueno para bajarle vida, luego entra Cloyster y Carámbano para eliminarlo",
+      "detail": "Excadrill ➜ Dragonite +4 danza dragon (tiene pañuelo )",
       "variant": [
         {
-          "detail": "VOLCARONA → Cambia a Poliwrath, luego a Chandelure y usa Truco para bloquear Poder Oculto, Scrafty +3 / A Bocajarro para eliminar Conkeldurr y Vaporeon",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "EXCADRILL, Saca a tu propio Excadrill 4+2",
-      "variant": []
-    }
-  ]
-}
+          "detail": "",
+     
