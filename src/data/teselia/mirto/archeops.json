@@ -2,14 +2,14 @@
   "id": "archeops",
   "name": "Archeops",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Cambia a Jirachi 💡 (nota💡Excadrill item elegido) a volcarona ➜ terremoto a conkeldur lanzallamas) ",
   "tricks": [
     {
-      "detail": "TERREMOTO / EXCADRILL → Excadrill +4+2 (Terremoto para eliminar Druddigon)",
+      "detail": "Excadrill ➜ Dragonite x4 danza dragon ",
       "variant": []
     },
     {
-      "detail": "ONDA ÍGNEA → Scrafty usa Puño Drenaje 1 vez, luego usa Danza Dragón +3 (A Bocajarro para eliminar Conkeldurr) - No hay Banda Focus",
+      "detail": "Se queda ➜ Otra Vez ➜ Chandelure +2 +2 o Dragonite x4 danza dragon (energibola mata a vaporeon)",
       "variant": []
     }
   ]
