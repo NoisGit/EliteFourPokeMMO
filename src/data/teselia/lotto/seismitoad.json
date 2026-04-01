@@ -2,14 +2,14 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
-  "tricks": [
+  "initialMove": "🪨 Trampa rocas 🪨 ",
+ "tricks": [
     {
-      "detail": "TIERRA VIDA → Cloyster +4",
+      "detail": "Aggron ➜ Contador ; Conkeldurr cambia a Gengar Otra Vez , Maquinación ; frente a Seismitoad cambia a Gallade Otra Vez  +4  +2 (Defensa X); (  💡 esto es por si muere chansey  Contador  con PS bajos ; frente a Dusknoir, Dragonite usa Defensa X x3 Danza Dragón",
       "variant": []
     },
     {
-      "detail": "TERREMOTO → Cloyster +4 + Ataque X / Surf para Aggron",
+      "detail": "Frente a Medicham ➜ Chandelure +2 +2;  ➜ ( 💡Jugada de riesgo : Gengar +4 (No usar Otra Vez) / Gengar o Magnezone aleatorio 💡 ",
       "variant": []
     }
   ]
