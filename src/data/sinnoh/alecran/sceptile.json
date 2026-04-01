@@ -2,10 +2,10 @@
   "id": "sceptile",
   "name": "Sceptile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa rocas 🪨",
   "tricks": [
     {
-      "detail": "STEELIX → cloyster +6 (Carámbano mata a Omastar )",
+      "detail": "SI USA ESFUERZO  ➜ No cambia  y usar Amortiguador entra Kingler ➜ Gengar Otra Vez +6 no velo  ",
       "variant": []
     }
   ]
