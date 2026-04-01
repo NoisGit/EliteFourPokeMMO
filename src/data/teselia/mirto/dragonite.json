@@ -2,14 +2,14 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Coloca Trampa Rocas, luego sacrifica, entra Chandelure y usa Truco",
+  "initialMove": " 🪨Coloca Trampa Rocas🪨 Gengar Cambia a Jirachi  ",
   "tricks": [
     {
-      "detail": "SURF → Poliwrath 6+2 / No es necesario preocuparse por Volcarona",
+      "detail": "Krookodile ➜ Gallade +4 +2 (tiene pañuelo Cuidado volcarona quema)",
       "variant": []
     },
     {
-      "detail": "KROOKODILE → Cloyster +4",
+      "detail": "",
       "variant": []
     }
   ]
