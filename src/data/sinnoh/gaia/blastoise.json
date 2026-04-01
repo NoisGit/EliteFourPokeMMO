@@ -2,14 +2,26 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "SALPICAR: entra Poliwrath +6+0. / Dos Terremotos eliminan a Donphan, A Bocajarro elimina a Whiscash. // Si por sorpresa usa Poder Oculto, entra Excadrill +4+0.",
+      "detail": "Rhyperior ➜ Cambia a Jirachi Protección ; si cambia a Amoonguss  cambia  Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "RHYPERIOR: entra Excadrill +6+2. / Cabezahierro para Gengar",
+      "detail": "Amoonguss  ➜ Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Puño Fuego ➜ Cambia a Chandelure, cambia a Gallade Otra Vez  +4 +2",
+      "variant": []
+    },
+    {
+      "detail": "Terremoto  ➜ Jirachi Otra Vez , Gallade+4 +2",
+      "variant": []
+    },
+    {
+      "detail": "Parasect ➜ Cambia a Gengar  Otra Vez , Maquinación frente a Rhyperior; Gallade Otra Vez (Encore) +4 +2",
       "variant": []
     }
   ]
