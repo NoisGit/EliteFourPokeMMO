@@ -2,10 +2,22 @@
   "id": "crawdaunt",
   "name": "Crawdaunt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Amortiguador💡 ( En Crawdaunt/Durant No otra vez Tienen pañuelo  )",
   "tricks": [
     {
-      "detail": "GLISCOR → cloyster +6 (Todos los demás mueren con Carámbano)",
+      "detail": "Fuerza Bruta  ➜ Trampa rocas ; Gengar +2 no velo ; corre hacia otro directamente, Ataca nomas ) a uno al azar  Drapion",
+      "variant": []
+    },
+    {
+      "detail": "Durant ➜ Gengar +4no velo ; se bloquea solo (tiene pañuelo )",
+      "variant": []
+    },
+    {
+      "detail": "Heracross ➜ Gengar Otra Vez (Encore) +4 no velo ",
+      "variant": []
+    },
+    {
+      "detail": "No muere Drapion ➜ Dragonite  x1 Danza Dragón ;y ataca)",
       "variant": []
     }
   ]
