@@ -2,6 +2,23 @@
   "id": "gigalith",
   "name": "Gigalith",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear Terremoto, Cloyster +4 // Carámbano mata todo",
-  "tricks": []
+  "initialMove": "🪨 Trampa rocas 🪨 y cambia a jirachi ( 💡 dragonite no puede matar a excadrill porque tiene globo 💡) ",
+  "tricks": [
+    {
+      "detail": "Terremoto  ➜ Dragonite Otra Vez x4 Danza Dragón ",
+      "variant": []
+    },
+    {
+      "detail": "Autodestrucción frente a Excadrill ➜ Jirachi Otra Vez , Dragonite  x4 Danza Dragón",
+      "variant": []
+    },
+    {
+      "detail": "Autodestrucción  frente a Accelgor ➜ Chandelure +2 +2; (tiene pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Si usa trampa rocas o pedrada  ➜ Jirachi Protección  Otra Vez, cambia a Dragonite Otra Vez x4 Danza Dragón ;  (Garra Dragón  a Excadrill tiene globo",
+      "variant": []
+    }
+  ]
 }
