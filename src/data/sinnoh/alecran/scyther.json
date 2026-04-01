@@ -2,6 +2,23 @@
   "id": "scyther",
   "name": "Scyther",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y usa Lanzallamas para debilitar, entra Flygon, Cloyster +4. / Elimina a Omastar con Carámbano.",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Demolición  ➜ Cambia a GengarOtra Vez  +6 +2",
+      "variant": []
+    },
+    {
+      "detail": "Picadura  ➜ Cambia a Gengar Otra Vez  +6 +2; Picadura cambia a Demolición , (probando)",
+      "variant": []
+    },
+    {
+      "detail": "Golpe Aéreo  ➜ Cambia a Gengar  Otra Vez  +6 +2; Golpe Aéreo  completo es Demolición ",
+      "variant": []
+    },
+    {
+      "detail": "Gengar si cambia a  corre a Escavalier  ➜ Gallade Otra Vez  +2 +2",
+      "variant": []
+    }
+  ]
 }
