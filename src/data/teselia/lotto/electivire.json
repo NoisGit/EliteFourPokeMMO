@@ -2,19 +2,23 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Gengar Otra Vez +2 ",
+  {
   "tricks": [
     {
-      "detail": "METAGROSS → Excadrill coloca Trampa Rocas +4+2",
+      "detail": "Electivire se queda  ➜ ataca hasta que entre Crawdaunt, cambia a Chansey, cambia a Gengar Otra Vez +4 +2; ( 💡 Banda Focus Crawdaunt)",
       "variant": []
     },
     {
-      "detail": "CONKELDURR → Cambia a Chandelure contra Metagross y usa Truco para bloquear Terremoto, luego Excadrill coloca Trampa Rocas +4+2",
+      "detail": "Machamp ➜ Cambia a Chansey , cambia a Gengar  Otra Vez +4; atacar hasta que entre  Crawdaunt cambia a Chansey , cambia a Gengar  Otra Vez +4 +2( 💡 Banda Focus Crawdaunt) ",
       "variant": []
     },
     {
-      "detail": "LANZALLAMAS → Chandelure usa Truco para intercambiar objeto, luego Excadrill coloca Trampa Rocas +4+2",
+      "detail": "Conkeldurr ➜ mata a conkeldurr",
       "variant": []
+    },
+    {
+      "detail": "Crawdaunt ➜ Cambia a Chansey , cambia a Gengar  Otra Vez +4 +2; ( 💡 Banda Focus  Crawdaunt) ",
     }
   ]
 }
