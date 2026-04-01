@@ -2,18 +2,10 @@
   "id": "floatzel",
   "name": "Floatzel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa rocas🪨",
   "tricks": [
     {
-      "detail": "HIDROBOMBA → Poliwrath +6+2+6",
-      "variant": []
-    },
-    {
-      "detail": "EXCADRILL → Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "ESCAVALIER → Usa Truco nuevamente para bloquear Excadrill, luego Cloyster +4",
+      "detail": "Escavalier ➜ Chandelure +2 +2 (tiene cinta elegida) ",
       "variant": []
     }
   ]
