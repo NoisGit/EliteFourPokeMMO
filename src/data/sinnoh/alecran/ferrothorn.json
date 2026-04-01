@@ -2,27 +2,34 @@
   "id": "ferrothorn",
   "name": "Ferrothorn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨Trampa rocas🪨 ",
   "tricks": [
     {
-      "detail": "Giro Bola → usa Lanzallamas para debilitar, si entra Tyranitar, cambia a Cloyster, luego a Metagross con Truco, encerrar en Terremoto, Cloyster +4",
+      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, Chandelure +2 +2 o Gallade +4 +2",
       "variant": []
     },
     {
-      "detail": "Terratemblor → Truco",
-      "variant": [
-        {
-          "detail": "Vendetta → Scrafty +2",
-          "variant": []
-        },
-        {
-          "detail": "Terratemblor → Cloyster +4",
-          "variant": []
-        }
-      ]
+      "detail": "Latigazo /Giro Rápido (se queda ➜ Devuelve el golpe Contador  presiona debilitado frente a Tyranitar ; cambia a gallande y ataca ",
+      "variant": []
     },
     {
-      "detail": "Flygon → truco para encerrar en Terremoto, Cloyster +6 (todo se mata con Carámbano)",
+      "detail": "Volcarona ➜ Sacrifica  a Gallade, Dragonite Danza Dragón x1; si sale Gliscor sigue bosteando ",
+      "variant": []
+    },
+    {
+      "detail": "Gliscor ➜ Cambia a Dragonite  x1 Danza Dragón; si sale Gliscor sigue bosteando",
+      "variant": []
+    },
+    {
+      "detail": "Drenadoras ➜ Cambia a Chandelure, cambia a Chansey , contador debilita a Kabutops; cambia a Dragonite, cambia a Jirachi Otra Vez (Encore) Flygon Chandelure +2 +2 / Gallade / Roserade (rose) +4 +2",
+      "variant": []
+    },
+    {
+      "detail": "Chandelure frente a Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Kabutops ➜ Chansey contador ; cambia a Dragonite, cambia a Jirachi Otra Vez  Flygon Chandelure +2 +2 / Gallade +4 +2",
       "variant": []
     }
   ]
