@@ -2,22 +2,31 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡 Amortiguador 💡",
+  {
   "tricks": [
     {
-      "detail": "Fuerza Bruta → truco para encerrar en robo, entra scrafty +3 (A Bocajarro mata ah Scizor, Paliza mata a Kingler)",
+      "detail": "Acróbata  ➜ Trampa rocas se queda, Contador  ",
       "variant": []
     },
     {
-      "detail": "Picadura → usa Lanzallamas para debilitar, entra Drapion, Scrafty +3 (Paliza mata a Ferrothorn, A Bocajarro mata a Drapion)",
+      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Dragonite x3 Danza Dragón  / Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "Ida y Vuelta, sale Kingler → usa Truco para bloquear Kingler, Poliwrath +6+2",
+      "detail": "Fuerza Bruta  ➜ Dragonite usa Defensa X ,  x2 Danza Dragón; atacaa",
       "variant": []
     },
     {
-      "detail": "Flygon / Gastrodon → truco para encerrar en Terremoto, Cloyster +4 (Carámbano mata a Kabutops). Si encierras en Hidrobomba, Poliwrath +6+2",
+      "detail": "Dragonite recibe golpe crítico  【Probando】 ➜ Cambia a Chansey , cambia a Gengar , ve a Kingler; presiona Rayo ) hasta debilitar; ver quién sale:",
+      "variant": []
+    },
+    {
+      "detail": "Tyranitar  ➜ Cambia a Gallade; (Gengar puede recibir Persecución y debilitarse); debilitar si no está frente a Flygon; cambia a Chansey , saca a Scizor, Gengar Otra Vez , cambia a Jirachi para Flygon",
+      "variant": []
+    },
+    {
+      "detail": "Flygon ➜ Cambia a Jirachi Otra Vez ; mov Fuego: Chandelure +2 +2; mov Tierra: Gallade  +2 +2",
       "variant": []
     }
   ]
