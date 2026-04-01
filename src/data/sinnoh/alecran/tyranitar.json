@@ -2,24 +2,51 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "TERREMOTO → Excadrill entra y pone Trampa Rocas +6+2",
+      "detail": "Scizor ➜ Chandelure debilitalo ; (No cambiar a Chansey  directo a Dragonite  x1 Danza Dragón ; atacar  ？",
       "variant": []
     },
     {
-      "detail": "FLYGON → Cambia a Cloyster para ver qué movimiento usa",
-      "variant": [
-        {
-          "detail": "TERREMOTO → cloyster +4 (Carámbano Para matar a Tyranitar)",
-          "variant": []
-        },
-        {
-          "detail": "LLAMARADA → Chandelure usa Truco para cambiar de objeto, Excadrill +2+2 (Terremoto mata a Drapion)",
-          "variant": []
-        }
-      ]
-    }    
+      "detail": "Drapion ➜ Cambia a Chansey , cambia a Dragonite",
+      "variant": []
+    },
+    {
+      "detail": "Kingler ➜ x1 Danza Dragón atacar ",
+      "variant": []
+    },
+    {
+      "detail": "Tyranitar ➜ Cambia a Chansey, cambia a Dragonite",
+      "variant": []
+    },
+    {
+      "detail": "Kingler ➜  x1 Danza Dragón atacar  ",
+      "variant": []
+    },
+    {
+      "detail": "Prueba de velocidad ) ➜ Amortiguador , Dragonite Danza Dragón x2",
+      "variant": []
+    },
+    {
+      "detail": "Se queda Triturar / Roca Afilada ➜ Amortiguador (, devuelve el golpe contador  debilita",
+      "variant": []
+    },
+    {
+      "detail": "Ferrothorn ➜ Cambia a Chandelure debilita",
+      "variant": []
+    },
+    {
+      "detail": "Drapion ➜ Cambia a Chansey toma Poción Máxima  contador  debilita",
+      "variant": []
+    },
+    {
+      "detail": "Gliscor/ astrodon ➜ Dragonite Otra Vez  Danza Dragón x3",
+      "variant": []
+    },
+    {
+      "detail": "Gliscor ➜ Gallade Otra Vez +2 +2; Otra Vez  atacarr ",
+      "variant": []
+    }
   ]
 }
