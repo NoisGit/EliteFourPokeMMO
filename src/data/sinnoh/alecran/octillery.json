@@ -2,14 +2,30 @@
   "id": "octillery",
   "name": "Octillery",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Flygon → Excadrill pone Trampa Rocas (4+2). Si Excadrill cae inesperadamente por un Lanzallamas, Chandelure usa Truco para intercambiar objeto, Cloyster +6. / Se puede eliminar a todo con Carámbano.",
+      "detail": "Skuntank ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "Lanzallamas → Intenta poner Trampa Rocas, Chandelure entra 4+0. / Usa Lanzallamas para barrer el equipo. // Si no se pueden colocar las trampas, que las ponga Excadrill.",
+      "detail": "Se queda  ➜  Pantalla Luz , (cambia a Jirachi se queda presiona Rayo frente a Flygon)",
+      "variant": []
+    },
+    {
+      "detail": "Kabutops ➜ Rayo  frente a Flygon; (se queda Jirachi toma Poción Máxima , presiona Rayo hasta debilitar) ",
+      "variant": []
+    },
+    {
+      "detail": "mov Tierra  ➜ Gallade +2 +2 / Dragonite  x2 Danza Dragón ;( Gallade probabilidad de recibir arañazo , Dragonite +5 en efecto 1 Ferrothorn)",
+      "variant": []
+    },
+    {
+      "detail": "mov Fuego (encorefire) ➜ Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Flygon ➜ Otra Vez , Gallade +2 +2",
       "variant": []
     }
   ]
