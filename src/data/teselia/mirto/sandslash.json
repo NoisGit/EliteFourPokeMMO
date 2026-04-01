@@ -2,14 +2,22 @@
   "id": "sandslash",
   "name": "Sandslash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "RESTOS → Excadrill +4+2",
+      "detail": "Excadrill ➜ Sacrifica a Chandelure, cambia a Jirachi Otra Vez , Dragonite x3 Danza Dragón ",
       "variant": []
     },
     {
-      "detail": "BANDA FOCUS → Cloyster +6 / Eliminación total con Carámbano",
+      "detail": "Lucario ➜ Cambia a Gengar  Maquinación; ( Ataca tiene pañuelo elegido  ), se bloquea  en Patada Salto Alta ",
+      "variant": []
+    },
+    {
+      "detail": "Braviary ➜ Gengar  Otra Vez  +4 no velo ; (Lucario se muere), Gengar no lo mata ; reza por estabilidad, toma Velocidad X (x speed)",
+      "variant": []
+    },
+    {
+      "detail": " usas Maquinación  y cambia hacia Vaporeon ➜ Cambia a Chansey; Pantalla de Luz , fortalecer de nuevo )",
       "variant": []
     }
   ]
