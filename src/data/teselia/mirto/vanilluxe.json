@@ -2,18 +2,18 @@
   "id": "vanilluxe",
   "name": "Vanilluxe",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡Pantalla luz 💡",
   "tricks": [
     {
-      "detail": "PODER OCULTO → Poliwrath 6+2 / A Bocajarro para eliminar Vaporeon",
+      "detail": "Ventisca y  se queda ➜ Cambia a Jirachi Protección  ↓ ",
       "variant": []
     },
     {
-      "detail": "VENTISCA→ Usa Truco para intercambiar objeto, Poliwrath +6+2 / A Bocajarro para eliminar Vaporeon",
+      "detail": "Excadrill ➜ Jirachi Otra Vez , Dragonite x4 Danza Dragón ",
       "variant": []
     },
     {
-      "detail": "EXCADRILL → Truco para bloquear Terremoto, Excadrill +4+2",
+      "detail": "Frente a Excadrill ➜ Sacrifica  a Chandelure, Jirachi Otra Vez, cambia a Dragonite  x4 Danza Dragón ",
       "variant": []
     }
   ]
