@@ -2,6 +2,27 @@
   "id": "togekiss",
   "name": "Togekiss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco bloquea a Nidoking / Nidoqueen, Excadrill entra para colocar Trampa Rocas, Cloyster x6",
-  "tricks": []
+  "initialMove": "💡 Pantalla luz 💡 ",
+  "tricks": [
+    {
+      "detail": "Absol ➜ Cambia a Gengar Otra Vez, cambia a Jirachi mira abajo ",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Dragonite x3 Danza dragon (No usar Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Nidoqueen ➜ Otra Vez, Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Blissey ➜ Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Cambia a Chandelure frente a Nido ➜ Cambia a Chansey  cambia a Jirachi, usa Llave Giro (heavy new pull)",
+      "variant": []
+    }
+  ]
 }
