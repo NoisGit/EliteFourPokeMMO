@@ -2,14 +2,14 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Gengar Mata a Mienshao ",
   "tricks": [
     {
-      "detail": "GOLURK → Cloyster +4 +Defensa X",
+      "detail": "Conkeldurr ➜ Cambia a chansey ➜ Gengar Otra Vez +4  ",
       "variant": []
     },
     {
-      "detail": "CONKELDURR → Coloca Trampa Rocas, luego Chandelure +4+0 / Lanzallamas para limpiar el equipo",
+      "detail": "Metagross ➜ Dragonite Otra vez +4 ",
       "variant": []
     }
   ]
