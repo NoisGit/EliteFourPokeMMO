@@ -2,48 +2,34 @@
   "id": "lanturn",
   "name": "Lanturn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Blissey → Scrafty usa Puño Drenaje para recuperar PS, luego usa Danza Dragón dos veces. También puede usar Puño Drenaje + A Bocajarro para debilitar a Skarmory.",
+      "detail": "Mienshao ➜ Gengar  Otra Vez  +2 no velo ; cambiar a Chansey +6; completar carga ; cambiar a Walrein o Dewgong; usar x def especial  y fortalecer ",
       "variant": []
     },
     {
-      "detail": "Nidoking/Nidoqueen → Excadrill +6+2 barre al equipo. Si aparece Skarmory, usa objeto de defensa y sigue presionando.",
+      "detail": "Beartic ➜ Gengar Otra Vez  +2 0 velocidad",
       "variant": []
     },
     {
-      "detail": "Surf / Hidrocañón / Poder Oculto → Coloca Trampa Rocas, luego entra Poliwrath +6+2.",
+      "detail": "Metagross ➜ Gengar  Otra Vez ",
       "variant": []
     },
     {
-      "detail": "Escaldar → Coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Si no cambia → Poliwrath +6+2.",
-          "variant": []
-        },
-        {
-          "detail": "Nidoking/Nidoqueen → Cambiar a Excadrill y luego a Chandelure para usar Truco, bloquear en Tierra Viva, luego Excadrill +4+2.",
-          "variant": []
-        }
-      ]
+      "detail": "Priorizar Velocidad ➜ +4 no velo ; frente a Walrein o Dewgong resistir daño ",
+      "variant": []
     },
     {
-      "detail": "Rayo → Ver el objeto:",
-      "variant": [
-        {
-          "detail": "Si lleva Restos → Excadrill +6+2",
-          "variant": []
-        },
-        {
-          "detail": "Si lleva Cinta Experto → Excadrill +6 + Defensa X. No usar objetos de velocidad.",
-          "variant": []
-        }
-      ]
+      "detail": "Asegurar estabilidad  ➜ cambiar a Jirachi movimiento Eléctrico frente a Nido; Jirachi Otra Vez; Gallade +2+2  / Chandelure +2+2 ",
+      "variant": []
     },
     {
-      "detail": "Trueno → Excadrill +6+2. Cabezahierro contra frosslas // Si queda bloqueado en Cabeza Hierro contra Skarmory, usar objetos curativos y esperar a que desaparezca la Maldición.",
+      "detail": "Hariyama ➜ Gengar Otra Vez  +4 +2 ; Rayo  para debilitar  a Froslass; cambiar a Chansey  usar Amortiguador  para aguantar golpe fuerte",
+      "variant": []
+    },
+    {
+      "detail": "Gallade ➜ Gengar  +4 0 Velocidad; NO usar Otra Vez ",
       "variant": []
     }
   ]
