@@ -2,46 +2,31 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Gengar Cambia a Jirachi Trampa rocas 💡",
   "tricks": [
     {
-      "detail": "Si entra Metagross, cambia a Excadrill 4+2 y luego lanza Trampa Rocas.",
+      "detail": "Mienshao permanecer  ➜ cambiar a Gengar  usar Bola Sombra ",
       "variant": []
     },
     {
-      "detail": "Si entra Nidoqueen, Cloyster + 6. / Si ves Weavile / Glalie / Froslass, usa Carámbano para matar.",
+      "detail": "Chansey  ➜ Gengar  +4 0 Velocidad  NO usar Otra Vez ",
       "variant": []
     },
     {
-      "detail": "Patada salto Alta → Mira si acierta o falla.",
-      "variant": [
-        {
-          "detail": "Si acierta → cambia a Chandelure.",
-          "variant": [
-            {
-              "detail": "Si no se va → usa Truco.",
-              "variant": [
-                {
-                  "detail": "Si Mienshao no se va → Scrafty +3. / Usa Puño Drenaje + A Bocajarro para matar a Skarmory. Si entra Walrein, ignóralo y sigue boosteando.",
-                  "variant": []
-                },
-                {
-                  "detail": "Si entra Walrein → Scrafty +3. / Luego Puño Drenaje + A Bocajarro para matar a Skarmory.",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Lanturn → Truco para bloquear Escaldar, cambiar a Metagross y usar Trampa Rocas, luego Poliwrath +6 +2.",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si falla → Cambiar a Scrafty frente a Blissey, Scrafty +2, usar Raíz Grande para curarse y luego +1 más. / Puño Drenaje + A Bocajarro mata a Skarmory.",
-          "variant": []
-        }
-      ]
-    }    
+      "detail": "Metagross ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Walrein ➜ Chandelure +2 +2 ; NO usar Otra Vez",
+      "variant": []
+    },
+    {
+      "detail": "Nidoqueen ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Blissey ➜ Chandelure +2 +2  / Gengar  +4 0 Velocidad ; NO usar Otra Vez",
+      "variant": []
+    }
   ]
 }
