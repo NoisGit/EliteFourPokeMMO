@@ -2,10 +2,10 @@
   "id": "glalie",
   "name": "Glalie",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨TRAMPA ROCAS🪨",
   "tricks": [
     {
-      "detail": "Mienshao → Gengar Otra Vez +2",
+      "detail": "Mienshao → Gengar Otra Vez +2 no velo ",
       "variant": []
     }
   ]
