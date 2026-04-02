@@ -2,27 +2,10 @@
   "id": "aerodactyl",
   "name": "Aerodactyl",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Cambiar a Jirachi Otra Vez ; Chandelure +2 +2💡 (si retrocede curar full vida )",
   "tricks": [
     {
-      "detail": "Si utiliza Colmillo Ígneo, cambia a Chandelure para ver qué mov. usa. Si Truco falla por (Retroceso), utiliza Velocidad X y vuelve a usar Truco .",
-      "variant": [
-        {
-          "detail": "Si Aerodactyl utiliza Colmillo Ígneo / Doble Filo utiliza Truco con Metagross, luego si entra Milotic, cambia a Poliwrath 6+2",
-          "variant": []
-        },
-        {
-          "detail": "Si Aerodactyl se queda, cambia a Excadrill 6+2 (No usar a Scrafty)",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Si cambia a Garchomp, cambia a Excadrill 6+2",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia a Metagross, cambia a Scrafty con Defensa X +3 (Aún en prueba)",
+      "detail": "Garchomp ➜ Jirachi Otra Vez ; Gallade +4 +2 / Chandelure +2 +2 ",
       "variant": []
     }
   ]
