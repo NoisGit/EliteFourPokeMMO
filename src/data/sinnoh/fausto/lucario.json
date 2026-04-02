@@ -2,10 +2,14 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIAR A CHANDELURE",
+  "initialMove": "¿Ver si se puede ahorrar $? medicina",
   "tricks": [
     {
-      "detail": "Utilizar Truco para bloquear en Bola Sombra, luego cambiar a Scrafty +2 / Paliza para matar a Haxorus y Magmortar",
+      "detail": "ruta rapida  ➜ Cambia a Jirachi Otra Vez ); Haxorus ➜ Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "¿Ahorrar $ medicina ➜ Abrir Pantalla de Luz  frente a Haxorus; Amortiguador  Gengar Otra Vez  +6 0 velocidad)",
       "variant": []
     }
   ]
