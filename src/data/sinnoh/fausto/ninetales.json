@@ -2,23 +2,23 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIAR A CHANDELURE",
+  "initialMove": "🪨Trampa Rocas🪨(aviso Houndoom Banda focus)",
   "tricks": [
     {
-      "detail": "LLAMARADA, utilizar Truco:",
+      "detail": "Medichan ➜ Gengar +4 no velo (pañuelo elegido)",
       "variant": [
         {
-          "detail": "Si utiliza Psíquico, cambiar a Scrafty +4 o también +2 + Atq X (Depende de si quieres ir rápido o ahorrar) / Utilizar Paliza para matar a Houndoom",
+          "detail": "-",
           "variant": []
         },
         {
-          "detail": "Si utiliza Rayo Solar, matar al oponente, luego entra Ludicolo, cambiar a Metagross y utilizar Truco para bloquear en Escaldar, luego cambiar a Poliwrath 6+2",
+          "detail": "-",
           "variant": []
         }
       ]
     },    
     {
-      "detail": "BRONZONG, utilizar Truco para bloquear en Psicocarga, luego cambiar a Scrafty 3 / Paliza para matar a Houndoom. A Bronzong hay que golpearlo dos veces",
+      "detail": "-",
       "variant": []
     }
   ]
