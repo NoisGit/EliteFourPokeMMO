@@ -2,6 +2,19 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear a Nidoking, Cloyster +6 // Carámbano mata a Rhyperior",
-  "tricks": []
+  "initialMove": "🪨Trampa rocas🪨",
+  "tricks": [
+    {
+      "detail": "Pájaro Osado quédate  ➜ Amortiguador , cambia a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Otra Vez  Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Amortiguador; Gengar Otra Vez  +2 +2",
+      "variant": []
+    }
+  ]
 }
