@@ -2,14 +2,26 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO Y OBSERVA OBJETO",
+  "initialMove": "🪨Tramparocas🪨",
   "tricks": [
     {
-      "detail": "Si tiene COLMILLO DRAGÓN, cambiar a Chandelure 4 + 0 / Lanzallamas para matar a todo el equipo.",
+      "detail": "Gallade ➜ Gengar Otra Vez , cambiar a Chansey , cambiar a Jirachi",
       "variant": []
     },
     {
-      "detail": "Si tiene Restos, cambiar a Chandelure para bloquear a Empoleon, luego cambiar a Poliwrath 6+2",
+      "detail": "Gallade ➜ Jirachi Otra Vez , Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Fuerza Bruta  ➜ Gengar  Otra Vez ) +4 no velo  );si cambia a otros  +2 +no velo y ataca ",
+      "variant": []
+    },
+    {
+      "detail": "Cambiar a Gengar  frente a Gallade ➜ Cambiar a Jirachi; Gengar  Otra Vez (Encore) +2 no velo y ataca ",
+      "variant": []
+    },
+    {
+      "detail": "Medicham ➜ Cambiar a Gengar  +2 +2  (pañuelo)",
       "variant": []
     }
   ]
