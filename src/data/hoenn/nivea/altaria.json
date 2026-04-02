@@ -2,7 +2,7 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨TRAMPA ROCAS🪨 (Glalie,mienshao banda focus)",
   "tricks": [
     {
       "detail": "Mienshao → Cambia a Gengar usa Otra Vez +2",
