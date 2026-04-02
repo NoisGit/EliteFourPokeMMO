@@ -2,28 +2,27 @@
   "id": "sableye",
   "name": "Sableye",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa rocas 🪨( se queda Pantalla luz)",
   "tricks": [
     {
-      "detail": "Rhyperior con Vidaesfera → Excadrill Trampa Rocas, +6+0.",
+      "detail": "Durant ➜ Gengar Otra Vez Maquinación ",
       "variant": []
     },
     {
-      "detail": "Rhyperior con Casco Dentado → Excadrill +6+2",
+      "detail": "Hippowdon ➜ Cambia a Gallade Otra Vez +6 +2; si cambia a  Amoonguss  Chandelure +2 +2",
       "variant": []
     },
     {
-      "detail": "Tinieblas → Cambia a Excadrill",
-      "variant": [
-        {
-          "detail": "Sableye no se retira → Excadrill +6+0 // Tinieblas hace daño fijo de 100 PS; si queda con menos de 100 PS, usa Raíz Energía y vuelve a boostear",
-          "variant": []
-        },
-        {
-          "detail": "Rhyperior → Cambia a Chandelure y usa Truco para bloquearlo con Terremoto, luego Excadrill +6+0 // Si Chandelure entra y es congelado, cambia a Cloyster para descongelarlo (se sacrifica), luego vuelve a entrar Chandelure para usar Truco",
-          "variant": []
-        }
-      ]
-    }    
+      "detail": "Rhyperior ➜ Gallade  Otra Vez  +6 +2",
+      "variant": []
+    },
+    {
+      "detail": "Rhyperior ➜ Gallade Otra Vez +6",
+      "variant": []
+    },
+    {
+      "detail": "Corre a Tangrowth ➜ Cambia a Chandelure +2 +0",
+      "variant": []
+    }
   ]
 }
