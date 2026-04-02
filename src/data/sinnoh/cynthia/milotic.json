@@ -2,10 +2,18 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Cambia a Jirachi 💡",
   "tricks": [
     {
-      "detail": "Bloquea en Terremoto a Garchomp, luego cambiar a Excadrill 4+2 / Terremoto mata a Clefable",
+      "detail": "Garchomp ➜ Jirachi Otra Vez; Dragonite Danza Dragón x3  / Chandelure +2 +2 ; Otra Vez  (frente a movimiento de fuego; Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Heracross ➜ Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Ahorrar medicina/recursos  ➜ Amortiguador ; Gengar  +6 no velo ; NO usar Otra Vez ",
       "variant": []
     }
   ]
