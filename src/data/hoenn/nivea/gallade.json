@@ -2,18 +2,14 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Colocar Trampa Rocas, luego cambiar a Chandelure y usar Truco",
+  "initialMove": "Cambia a Gengar ( jugada arriesgada Chandelure +2 no velo frente a skarmory te curas )",
   "tricks": [
     {
-      "detail": "Nidoqueen / usa Deseo?? → Cloyster +4.",
+      "detail": "Se queda  ➜ Gengar +4; NO usar Otra Vez ; (cuidado con Banda Focus de Skarmory)",
       "variant": []
     },
     {
-      "detail": "Espada Santa → Chandelure con +4 en Ataque Especial + 0 Velocidad // Priorizar movimientos con ventaja de tipo // Usar Bola Sombra para eliminar a Dewgong",
-      "variant": []
-    },
-    {
-      "detail": "Walreind → Poliwrath +6 y +2.",
+      "detail": "Cambiar a otro poke  ➜ Chansey Amortiguador/tramparoca aguantar golpe fuerte de Lucha ; Gengar  Otra Vez  +2 para Gallade; NO usar Otra Vez ",
       "variant": []
     }
   ]
