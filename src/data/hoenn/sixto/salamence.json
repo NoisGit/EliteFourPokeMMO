@@ -2,44 +2,30 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡Mira Que Habilidad Tiene💡",
   "tricks": [
     {
-      "detail": "NO SE RETIRA → usar Poder Oculto para derrotarlo y observar qué entra después:",
-      "variant": [
-        {
-          "detail": "ABSOL→ entra Scrafty con +3. / Usar a Bocajarro para derrotar a Scizor y Luxray.",
-          "variant": []
-        },
-        {
-          "detail": "TENTACRUEL→ Poliwrath +6 +2. / Usar A Bocajarro para eliminar a Scrafty y Scizor. Primero usar medicina de Velocidad.",
-          "variant": []
-        },
-        {
-          "detail": "SCRAFTY→ cambiar a tu propio Scrafty, luego a Chandelure y usar Truco, bloqueando en Triturar, luego entra Scrafty +3. / Usar A Bocajarro para eliminar a Scizor y Luxray.",
-          "variant": []
-        }
-      ]
-    },   
-    {
-      "detail": "AGGRON → Excadrill usa Terremoto para derrotarlo, y observa qué entra después:",
-      "variant": [
-        {
-          "detail": "Salamence → Chandelure usa Poder Oculto para vencerlo, luego entra Absol, y Scrafty +2. / Usar A Bocajarro para derrotar a Conkeldurr, y luego Puño Drenaje + Paliza para vencer a Shiftry.",
-          "variant": []
-        },
-        {
-          "detail": "ABSOL → Chandelure usa Truco para intercambiar objeto, luego Scrafty +2. / A Bocajarro para derrotar a Conkeldurr, Puño Drenaje + Paliza para vencer a Shiftry.",
-          "variant": []
-        }
-      ]
-    },   
-    {
-      "detail": "HARIYAMA → usar Truco para bloquearlo en Vendetta, luego entra Scrafty +2. / Usar Puño Drenaje + Paliza para vencer a Shiftry.",
+      "detail": "Intimidación ➜ Pantalla de Luz ",
       "variant": []
     },
     {
-      "detail": "LUXRAY → entra Excadrill +6 +2",
+      "detail": "Huye hacia Absol ➜ Dragonite; asegurar x defensa ; Danza Dragón x2 ; x ataque  ",
+      "variant": []
+    },
+    {
+      "detail": "Sin Intimidación  ➜ ASEGURAR Trampa rocas  ; cambiar a Jirachi Otra Vez; Chandelure +2 +2 ; Chandelure +2; Bola Sombra  objetivo aleatorio",
+      "variant": []
+    },
+    {
+      "detail": "Probando sin Intimidación  ➜ ASEGURAR trampa rocas ; cambiar a Gengar  Otra Vez ",
+      "variant": []
+    },
+    {
+      "detail": "Se queda  ➜ Click hasta debilitar; ver instrucciones abajo",
+      "variant": []
+    },
+    {
+      "detail": "Aggron ➜ cambiar a Jirachi; cambiar a Dragonite Otra Vez ; Danza Dragón x2 ",
       "variant": []
     }
   ]
