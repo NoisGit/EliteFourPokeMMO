@@ -2,35 +2,42 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡Cambia a Gengar y Mira la situacion 💡",
   "tricks": [
     {
-      "detail": "LUCARIO NO SE RETIRA → usa Truco y observa movimientos",
-      "variant": [
-        {
-          "detail": "A BOCAJARRO / SACRIFICIO / ESFERA AURAL → usa Truco para cambiar objeto, luego Scrafty +3.",
-          "variant": []
-        },
-        {
-          "detail": "PATADA SALTO ALTA → usa Truco para bloquear Triturar, luego Scrafty Danza Dragón 3 veces. // Paliza para matar a Houndoom, A bocajarro para matar a Meganium.",
-          "variant": []
-        },
-        {
-          "detail": "PULSO UMBRÍO O AVALANCHA → Scrafty +2, Puño Drenaje + A Bocajarro para eliminar a Mandibuzz",
-          "variant": []
-        },
-        {
-          "detail": "TRITURAR → Scrafty +3, Paliza para eliminar a Houndoom, A Bocajarro para eliminar a Meganium",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Contra Hydreigon → Poliwrath 6+2+2 (especial defensa). Si usan Puño Hielo para matar a Hydreigon, Lucario o Mismagius, y recibe un crítico psíquico, usa baya para curar y sigue presionando al equipo.",
+      "detail": "Se queda  ➜ para ver la habilidad ",
       "variant": []
     },
     {
-      "detail": "Contra Dusknoir → cambia a Metagross para poner Trampa Rocas, luego Scrafty+2",
+      "detail": "Patada Salto Alta  ➜ Gengar  Otra Vez ; debilitar ",
+      "variant": []
+    },
+    {
+      "detail": "Dusknoir ➜ Dragonite Otra Vez; Danza Dragón x2 ; huye hacia Meganium para continuar fortalecimiento ",
+      "variant": []
+    },
+    {
+      "detail": "Houndoom ➜ cambiar a Chansey  ASEGURAR Trampa rocas",
+      "variant": []
+    },
+    {
+      "detail": "Luxray ➜ Gengar  Otra Vez  +4 no velo; usar x2 defensa ",
+      "variant": []
+    },
+    {
+      "detail": "A bocajarro  ➜ cambiar a Chansey ; ver quién entra:",
+      "variant": []
+    },
+    {
+      "detail": "Hydreigon ➜ ASEGURAR trampa roca; frente a Lucario usar Chandelure +2 +2; Pañuelo elegido se bloquea solo; huye hacia columna de hielo  para resistir daño y fortalecerse",
+      "variant": []
+    },
+    {
+      "detail": "Honchkrow ➜ cambiar a Jirachi; ASEGURAR Trampa rocas; Otra Vez ; Dragonite +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Arcanine ➜ cambiar a Chandelure; cambiar a Chansey; Gengar  Otra Vez  +4 +2 ",
       "variant": []
     }
   ]
