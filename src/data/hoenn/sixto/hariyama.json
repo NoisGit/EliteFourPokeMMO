@@ -2,10 +2,22 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Truco para bloquear Vendetta, Scrafty +2. Usa Puño Drenaje + Paliza para matar a Houndoom / Shiftry",
+      "detail": "Hariyama se queda  ➜ cambiar a Jirachi Protección",
+      "variant": []
+    },
+    {
+      "detail": "Salamence ➜ Otra Vez ; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Chandelure +2 +2 ; (absol pañuelo)  Bola Sombra debilita a Hariyama",
+      "variant": []
+    },
+    {
+      "detail": "Aggron ➜ cambiar a Jirachi Otra Vez; Gallade +4 +2  hacia Jirachi; probabilidad de recibir golpe de roca ( nota: pendiente de optimización )",
       "variant": []
     }
   ]
