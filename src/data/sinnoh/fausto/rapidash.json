@@ -2,27 +2,26 @@
   "id": "rapidash",
   "name": "Rapidash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIAR A CHANDELURE",
+  "initialMove": "🪨Trampa Rocas🪨 Gengar Otra Vez Jirachi (ataques fuego contra dulicolo es neutro)",
   "tricks": [
     {
-      "detail": "Si Rapidash no cambia, utilizar Truco:",
-      "variant": [
-        {
-          "detail": "Si utiliza Voltio Cruel / Taladradora, cambiar a Excadrill y utilizar Trampa Rocas 4+2 / Terremoto para matar a Ludicolo",
-          "variant": []
-        },
-        {
-          "detail": "Si Lucario entra, cambiar a Metagross y utilizar Trampa Rocas, luego cambiar a Poliwrath 6+2. Si entra Steelix, cambiar a Cloyster y luego cambiar a Metagross y utilizar Truco para bloquear en Terremoto, luego cambiar a Cloyster",
-          "variant": []
-        }
-      ]
-    },   
-    {
-      "detail": "Si cambia a Ludicolo, cambiar a Metagross y utilizar Truco para bloquear en Escaldar, utilizar Trampa Rocas, luego cambiar a Poliwrath 6+2",
+      "detail": "Cambia a Jirachi frente a Vuelo violento ➜ Otra Vez , Chandelure +2 +2 ",
       "variant": []
     },
     {
-      "detail": "Si cambia a Steelix, utilizar Truco para bloquear en Terremoto, luego cambiar a Cloyster +4 / Carámbano para matar a Magmar",
+      "detail": "Cambia a Jirachi frente a Ludicolo ➜ Cambia a Chansey  Pantalla de Luz",
+      "variant": []
+    },
+    {
+      "detail": "Cambia Jirachi a Steelix ➜ Cambia a Dragonite Otra Vez  Danza Dragón x3 ; (para hacerlo mas rapido dranza dragon x ataque )",
+      "variant": []
+    },
+    {
+      "detail": "🪨Trampa rocas🪨 y cambia  Conkeldurr ➜ Cambia a Gengar  Otra Vez  Maquinación  frente a Steelix; Gallade Otra Vez  +2 +2 (para hacerlo mas rapido dranza dragon x ataque )",
+      "variant": []
+    },
+    {
+      "detail": "Cambia a Gengar frente a Ludicolo ➜ Cambia a Chansey  Pantalla de Luz ",
       "variant": []
     }
   ]
