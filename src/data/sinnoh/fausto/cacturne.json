@@ -2,20 +2,103 @@
   "id": "cacturne",
   "name": "Cacturne",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIAR A CHANDELURE",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Si Cacturne no cambia, enfrentar directamente a Bronzong(?) / Lanzallamas para matarlo y ver que entra después",
-      "variant": [
-        {
-          "detail": "Si entra Rotom, cambiar a Excadrill 4+2",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Magmortar, cambiar a Excadrill, luego cambiar a Chandelure y utilizar Truco para bloquear en Rayo, luego cambiar a Excadrill 4+2",
-          "variant": []
-        }
-      ]
+      "detail": "Vidasfera  Puño Drenaje  ➜ Contador",
+      "variant": []
+    },
+    {
+      "detail": "si vuelve a entrar  Bouffalant ➜ Cambia a Gengar, usa  Bola Sombra ",
+      "variant": []
+    },
+    {
+      "detail": "Steelix ➜ Cambia a Dragonite Otra Vez  Danza Dragón x3 , (Tierra debilita a Magmortar)",
+      "variant": []
+    },
+    {
+      "detail": "Dragonite ➜ Cambia a Chansey   Miltank  / Camerupt; ver si al enviar uno  se puede debilitar directamente a Dragonite",
+      "variant": []
+    },
+    {
+      "detail": "Magmortar ➜ Chandelure +2 no velo",
+      "variant": []
+    },
+    {
+      "detail": "Camerupt ➜ Amortiguador para ver movimiento; Terremoto cambia a Gallade, Otra Vez +6 +2; presión de Dragonite no sobrevive, a +6 hay miedo al quemado ",
+      "variant": []
+    },
+    {
+      "detail": "Esfuerzo  ➜ Amortiguador para forzar cambio del rival ",
+      "variant": []
+    },
+    {
+      "detail": "Lopunny ➜ Cambia a Gengar Rayo ",
+      "variant": []
+    },
+    {
+      "detail": "Steelix ➜ Dragonite Otra Vez  Danza Dragón x2  Otra Vez ataca ",
+      "variant": []
+    },
+    {
+      "detail": "Entei ➜ (Entei cambia a Gengar recibe Terratemblor ",
+      "variant": []
+    },
+    {
+      "detail": "Magmortar ➜ Cambia a Gengar  Otra Vez  +6 +2",
+      "variant": []
+    },
+    {
+      "detail": "Entei ➜ Debilitar frente a Steelix  igual que abajo )",
+      "variant": []
+    },
+    {
+      "detail": "Steelix ➜ Dragonite Otra Vez  Danza Dragón x2 ; Otra Vez )",
+      "variant": []
+    },
+    {
+      "detail": "Medicham ➜ Gengar  matalo ",
+      "variant": []
+    },
+    {
+      "detail": "Steelix ➜ Dragonite Otra Vez Danza Dragón x3 ",
+      "variant": []
+    },
+    {
+      "detail": "Typhlosion ➜ Chandelure +2 +2  primero toma Velocidad X  no hay miedo a parálisis por Rayo, +0 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Blaziken ➜ Chandelure +2 +2 (tiene pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Lopunny ➜ Cambia a Gengar  Rayo",
+      "variant": []
+    },
+    {
+      "detail": "Steelix ➜ Dragonite Otra Vez  Danza Dragón x2 ; Otra Vez ",
+      "variant": []
+    },
+    {
+      "detail": "Bouffalant ➜ Chandelure +2 no velo )",
+      "variant": []
+    },
+    {
+      "detail": "Arcanine ➜ Gengar Otra Vez  cambia a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "Dragonite ➜ Jirachi Otra Vez  Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Bronzong ➜ Gallade +2 +2  (Cinta elegida)",
+      "variant": []
+    },
+    {
+      "detail": "Blaziken ➜ Chandelure +2 +2  (Pañuelo)",
+      "variant": []
     }
   ]
 }
