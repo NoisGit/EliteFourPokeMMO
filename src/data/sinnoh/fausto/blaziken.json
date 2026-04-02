@@ -2,14 +2,14 @@
   "id": "blaziken",
   "name": "Blaziken",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "A ELECCIÓN",
+  "initialMove": "💡Cambia a chandelure +2 +2 (poder oculto hielo mata a Dragonite)",
   "tricks": [
     {
-      "detail": "Rápido: Cambiar a Chandelure +4 / Bola Sombra para matar a todo el equipo / Garra Dragón no mata a Chandelure con vida completa",
+      "detail": ".",
       "variant": []
     },
     {
-      "detail": "Ahorra Recursos: Chandelure utiliza Truco, luego cambiar a Excadrill 4 + 2",
+      "detail": ".",
       "variant": []
     }
   ]
