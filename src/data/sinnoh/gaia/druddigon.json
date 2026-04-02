@@ -2,18 +2,26 @@
   "id": "druddigon",
   "name": "Druddigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Puño Fuego → Se colocan Trampa Rocas, Poliwrath +6 con Raíz Energía +2. / A Bocajarro derrota a Seismitoad.",
+      "detail": "Emboar ➜ Cambia a Gengar Otra Vez, Maquinación ",
       "variant": []
     },
     {
-      "detail": "Terremoto → Se colocan Trampa Rocas, Cloyster +2. / Surf derrota a Rhydon.",
+      "detail": "Rhyperior ➜ Gallade Otra Vez +6 +2",
       "variant": []
     },
     {
-      "detail": "Rhydon → Se colocan Trampa Rocas, Si Metagross no puede Excadrill coloca Trampa Rocas, Cloyster +2. / Surf derrota a Rhydon.",
+      "detail": "Duddrigon ➜ Gallade Otra Vez (Encore) +6 +2",
+      "variant": []
+    },
+    {
+      "detail": "Rhyperior ➜ Gallade Otra Vez +6 +2",
+      "variant": []
+    },
+    {
+      "detail": "Se queda  ➜ Amortiguador x2; si cambia  a Rhyperior, Gallade +6+2  ",
       "variant": []
     }
   ]
