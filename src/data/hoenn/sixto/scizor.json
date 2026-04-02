@@ -2,14 +2,22 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": " 💡cambia a chande y matalo 💡",
   "tricks": [
     {
-      "detail": "Si entra Luxray, mete a Excadrill 6+2.",
+      "detail": "Tentacruel ➜ cambiar a chansey Pantalla de Luz ; frente a Absol cambiar a Gengar  Rayo  cambia a Jirachi Otra Vez; Chandelure no puede  si falta uno entre Tentacruel y Scrafty",
       "variant": []
     },
     {
-      "detail": "No cambia. Usa Truco para bloquear con Persecución. Scrafty con 4 o 2+ y ataque X para matar a Scizor con A Bocajarro",
+      "detail": "Scrafty huye hacia Salamence ➜ continuar con Otra Vez ; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Se bloquea en Puño Drenaje Pañuelo ➜ Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Chansey Contador ; frente a Scrafty Gengar  Otra Vez  +2 +2  + Otra Vez (Encore)",
       "variant": []
     }
   ]
