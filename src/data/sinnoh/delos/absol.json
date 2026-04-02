@@ -2,27 +2,26 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa rocas🪨 A Bocajarro  ➜ Chansey primero Tajo Umbrío doble cambio a Jirachi al A Bocajarro;  si cambia  a Ninetales; Dragonite +2 y ataca ",
   "tricks": [
     {
-      "detail": "Si utiliza A BOCAJARRO, cambiar a Chandelure y utilizar Truco, luego cambiar a Scrafty 2",
+      "detail": "A Bocajarro  con Banda Focus ➜ Gengar  Otra Vez  +4 +2 ",
       "variant": []
     },
     {
-      "detail": "Si cambia a GALLADE , colocar Trampa Rocas, luego cambiar a Chandelure 4+0 (Atq. Esp) / Lanzallamas para matar a todo el equipo, también Bola Sombra",
+      "detail": "A Bocajarro con Vidasfera ➜ Cambiar a Jirachi Otra Vez  al A Bocajarro; Chandelure +2 +2 ",
       "variant": []
     },
     {
-      "detail": "Si cambia a METAGROSS, utilizar Trampa Rocas, luego cambiar a Chandelure 4+0(Atq. Esp) / Lanzallamas para matar a todo el equipo. Recuperar PS después de fortalecerse, resistir un Garra Dragón. Si Dragonite contraataca y te derrota, revisar:",
-      "variant": [
-        {
-          "detail": "Si cambia a Houndoom, sacar a Metagross para revivir a Chandelure (Como sacrificio de Dragonite). Luego sacar a Ninetales(?), luego cambiar a Chandelure y utilizar Truco para bloquear en Poder Oculto, luego cambiar a Scrafty 2 (Revisar)",
-          "variant": []
-        }
-      ]
-    },   
+      "detail": "Nuevo golpe de prueba  ➜ Apertura cambia a Gengar  Otra Vez  Bola Sombra ; probando abajo",
+      "variant": []
+    },
     {
-      "detail": "Si cambia a DRAGONITE, cambiar a Chandelure 4+0 / Lanzallamas para matar al equipo",
+      "detail": "Quedarse  ➜ Gengar +2 Otra Vez +2 +2  total +4 +2 (probando  Banda Focus Raichu parálisis; usar Cura Total si resives critico a Chansey traer a Gallade Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Dragonite ➜ Cambiar a Chansey , cambiar a Gengar  Otra Vez  +2 y atacar ;  ( probando  Girafarig sin movimiento que golpee a Gengar (girafa no puede hacer daño a gengar  )",
       "variant": []
     }
   ]
