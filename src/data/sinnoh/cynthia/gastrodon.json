@@ -2,10 +2,14 @@
   "id": "gastrodon",
   "name": "Gastrodon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Usar Truco para bloquear en Terremoto, cambiar a Cloyster 6 / Carámbano para matar a Chandelure",
+      "detail": "Quedarse ante Terremoto  ➜ Amortiguador ; frente a Garchomp Gallade +4 +2 ; usar Amortiguador  dos veces; si no se enfrenta directamente, cambiar a Gallade Otra Vez y empujar +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Garchomp ➜ Gallade +4 +2 ",
       "variant": []
     }
   ]
