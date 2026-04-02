@@ -2,24 +2,6 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
-  "tricks": [
-    {
-      "detail": "TAJO CRUZADO → Cambiar a Chandelure y usar Truco, bloquear en Roca Afilada, entra Scrafty +3. Si entra Lanturn, cambiar a Metagross y usar Truco,",
-      "variant": [
-        {
-          "detail": "Si usa Surf → Poliwrath +6+2",
-          "variant": []
-        },
-        {
-          "detail": "Si usa Rayo → Excadrill +6+2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Lanturn → Cambiar a Chandelure, usar Truco, bloquear en Surf, entra Poliwrath +6+2.",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨TRAMPA ROCAS🪨 Gengar Otra Vez +4 +2 (rayo para Frosslas)",
+  "tricks": []
 }
