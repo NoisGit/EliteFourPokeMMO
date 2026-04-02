@@ -1,15 +1,15 @@
 {
   "id": "chandelure",
   "name": "Chandelure",
-  "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "image": "/placeholder.svg?height=80&width=80",i
+  "initialMove": "🪨Trampa Rocas🪨  te puedes quedar y hacer esto ➜ Pantalla Luz  Amortiguador ; forzar al enemigo a cambar ",
   "tricks": [
     {
-      "detail": "Si utiliza LLAMARADA, cambia a Chandelure y usa Bola Sombra para matar, entra Garchomp, luego Cloyster +6",
+      "detail": "Garchomp ➜ Gallade +4 +2 (tiene pañuelo) ",
       "variant": []
     },
     {
-      "detail": "Si cambia a Garchomp o Gastrodon, cambia a Cloyster +6 / Carámbano para matar a Chandelure",
+      "detail": "",
       "variant": []
     }
   ]
