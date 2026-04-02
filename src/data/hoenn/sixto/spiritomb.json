@@ -2,18 +2,18 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "No se retira → Usa Truco para bloquear Bola Sombra, cambia a Excadrill y luego a Metagross / Contra Gyarados, usa Truco para bloquear Aqua Cola, Cloyster +4 / Mata todo con Carámbano (NO TE ASUSTES!)",
+      "detail": "Mienshao ➜ Gengar Otra Vez  debilitar ",
       "variant": []
     },
     {
-      "detail": "Toxicroak → Usa Truco para bloquear Puño Hielo, Cloyster +4",
+      "detail": "Excadrill ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
       "variant": []
     },
     {
-      "detail": "Excadrill → Usa Truco para bloquear Terremoto, Cloyster +6 / Mata todo con Carámbano",
+      "detail": "Absol ➜ Gengar  Otra Vez +2 no velo ",
       "variant": []
     }
   ]
