@@ -2,28 +2,35 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Si cambia a Garchomp con Baya Atania, saca a Excadrill 4+2, Terremoto mata a Bastiodon",
+      "detail": "Lucario ➜ Cambiar a Gengar  +4 No velo ; NO usar Otra Vez ; frente a Arcanine resistir daño ",
       "variant": []
     },
     {
-      "detail": "Si cambia a Garchomp con Casco Dentado, utiliza Trampas Rocas, luego saca a Cloyster 6+ (Si falla Trampas Rocas, Cloyster +6, utilizar Directo para aumentar el crítico./ Carámbano para matar a Lucario)",
+      "detail": "Garchomp ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Dragonite Danza Dragón x4 ) / Chandelure +2 +2 ",
       "variant": []
     },
     {
-      "detail": "Si utiliza Lanzallamas, cambia a Chandelure y usa Lanzallamas para hacer presión. Si entra Jellicent, Poliwrath 6+2 (Si se envenena, no curar). Si Arcanine no cambia o si cambia a Braviary, seguir usando Lanzallamas. Si sale algo inesperado, seguir según esto:",
-      "variant": [
-        {
-          "detail": "Si Poliwrath muere por (Rugido?) o Reprensión Metal, cambia a Chandelure y usa Lanzallamas para rematar, si entra Garchomp, cambiar a Metagross y dejarlo morir. Saca a Chandelure y utiliza Truco para bloquear Terremoto, Cloyster +4. Si Braviary vuelve a salir, seguir presionando hasta que Garchomp vuelva a salir.",
-          "variant": []
-        },
-        {
-          "detail": "Si cambias a Poliwrath y sale Garchomp, cambia a Metagross y déjalo morir, cambia a Chandelure usa Truco para bloquear Terremoto, Excadrill 4+2",
-          "variant": []
-        }
-      ]
+      "detail": "Braviary ➜ Cambiar a Gengar Otra Vez ; Maquinación ",
+      "variant": []
+    },
+    {
+      "detail": "Bastiodon ➜ Maquinación ",
+      "variant": []
+    },
+    {
+      "detail": "Trampa Rocas / Tóxico ➜ Otra Vez  y atacar ",
+      "variant": []
+    },
+    {
+      "detail": "Represión Metal  ➜ Continuar Maquinación hacia otra habilidad; Otra Vez ;y atacar otra vez) o usar Otra Vez y Gallade +2 +2 ; y atacar ",
+      "variant": []
+    },
+    {
+      "detail": "Quedarse y usar movimiento Fuego / Velocidad Extrema  ➜ Chandelure +2 +2 ; si te envenenan, eliminar veneno",
+      "variant": []
     }
   ]
 }
