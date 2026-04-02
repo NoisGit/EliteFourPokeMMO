@@ -5,24 +5,7 @@
   "initialMove": "TRUCO",
   "tricks": [
     {
-      "detail": "Rayo → entra Excadrill con entrada de Trampa Rocas, usa Danza Espada (+2 Ataque), y procede con Terremoto para eliminar a Lucario. // Si el rival cambia a Hydreigon, cambia a Chandelure y usa Truco para bloquear con Pulso Umbrío, luego entra Scrafty +3.",
-      "variant": []
-    },
-    {
-      "detail": "Sableye → cambia a Chandelure y observa contra quién queda frente a frente:",
-      "variant": [
-        {
-          "detail": "Hydreigon, usa Truco para bloquear con Pulso Umbrío, luego entra Scrafty +3.",
-          "variant": []
-        },
-        {
-          "detail": "Lucario, entra directamente Scrafty +3.",
-          "variant": []
-        }
-      ]
-    },  
-    {
-      "detail": "Lucario → Chandelure usa Truco para intercambiar objetos, luego entra Scrafty +3.",
+      "detail": "Lucario ➜ cambiar a Chandelure; +2 +2",
       "variant": []
     }
   ]
