@@ -2,33 +2,15 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Cambiar Jirachi💡",
   "tricks": [
     {
-      "detail": "Si cambia a GARCHOMP, utilizar Trampa Rocas y observa si tienes éxito:",
-      "variant": [
-        {
-          "detail": "Éxito: Cambiar a Cloyster + 6",
-          "variant": []
-        },
-        {
-          "detail": "Falla: Cambiar a Cloyster y utilizar Rompecoraza una sola vez, luego utilizar Carámbano para matar a Garchomp, luego entra Lapras, luego cambiar a Excadrill 6+2",
-          "variant": []
-        }
-      ]
-    },    
+      "detail": "Lucario ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
+      "variant": []
+    },
     {
-      "detail": "Si utiliza JUEGO SUCIO, utilizar Trampa rocas:",
-      "variant": [
-        {
-          "detail": "Si cambia a Garchomp, sacrificar a Metagross, luego entrar Chandelure y utilizar Truco para bloquear en Terremoto, luego cambiar a Cloyster +6",
-          "variant": []
-        },
-        {
-          "detail": "Si no se retira, cambiar a Scrafty + 3 / A Bocajarro para matar a Aerodactyl",
-          "variant": []
-        }
-      ]
-    }   
+      "detail": "Spiritomb Sombra Vil/ debilita a Chandelure ➜ Dragonite Danza Dragón x2",
+      "variant": []
+    }
   ]
 }
