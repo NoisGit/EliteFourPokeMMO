@@ -2,14 +2,14 @@
   "id": "entei",
   "name": "Entei",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y usa Truco para bloquear Avalancha, el siguiente cambio es a elección",
+  "initialMove": "💡Contador💡",
   "tricks": [
     {
-      "detail": "SEGURO PERO LENTO → Excadrill 4 + 2, luego colocar Trampa Rocas",
+      "detail": "Lopunny/Magmotar ➜ Gengar Otra Vez Maquinacion",
       "variant": []
     },
     {
-      "detail": "RÁPIDO PERO ARRIESGADO → Scrafty +3 // Paliza para eliminar Cacturne",
+      "detail": "Steelix ➜ Dragonite Otra vez x2 danza dragon ( terremoto cactus)",
       "variant": []
     }
   ]
