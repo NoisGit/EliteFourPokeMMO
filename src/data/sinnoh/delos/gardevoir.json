@@ -2,22 +2,30 @@
   "id": "gardevoir",
   "name": "Gardevoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Tramparocas🪨",
   "tricks": [
     {
-      "detail": "Si utiliza Trueno, cambiar a Excadrill y utiliza Trampa Rocas 4+2, si cambia a Hydreigon, mirar abajo qué hacer.",
+      "detail": "Gallade ➜ Cambiar a Gengar ",
       "variant": []
     },
     {
-      "detail": "Si cambia a Hydreigon, cambiar a Chandelure y utilizar Bola Sombra, luego cambiar a Scrafty para enfrentar a Gardevoir, Scrafty 2. Puño Drenaje + Paliza para matar a Gardevoir y Ninetales",
+      "detail": "Buscando velocidad  ➜ Cambiar a Jirachi",
       "variant": []
     },
     {
-      "detail": "Si cambia a Gallade, utilizar Truco otra vez, luego cambiar a Chandelure y utilizar Truco para bloquear Tajo Umbrío, luego cambiar a Scrafty +2. Usar Paliza para matar a Gardevoir y Ninetales",
+      "detail": "Hydreigon ➜ Chandelure +2 +2 (Pañuelo elegido)",
       "variant": []
     },
     {
-      "detail": "Si cambia a Bronzong, mete a Hydreigon con Trampa Rocas, luego cambiar a Chandelure y utilizar Bola Sombra, luego cambiar a Scrafty para matar a Decidueye +2. / A Bocajarro para matar a Decidueye, Paliza para matar a Ninetales (A Confirmar)",
+      "detail": "Quedarse  ➜ Jirachi Otra Vez , Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "¿Ahorrar $ medicina ➜ Gengar  Otra Vez (Encore) +6 +2; Gardevoir Bola Sombra sombra ",
+      "variant": []
+    },
+    {
+      "detail": "Gardevoir Maldición Bola Sombra  ➜ Cambiar a Chansey  Pantalla de Luz ; si envían a Hydreigon, Gengar  +4 no velocidad  usar Otra Vez",
       "variant": []
     }
   ]
