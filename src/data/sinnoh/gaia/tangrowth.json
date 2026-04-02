@@ -2,10 +2,14 @@
   "id": "tangrowth",
   "name": "Tangrowth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Cambia a Jirachi💡",
   "tricks": [
     {
-      "detail": "Bloquea Rhyperior / Drenadoras, Excadrill Trampa Rocas 6+0",
+      "detail": "Rhyperior ➜ Dragonite Otra Vez  cambia a Chandelure",
+      "variant": []
+    },
+    {
+      "detail": "Bronzong / Tangrowth ➜ Chandelure +2 +0; resistir daño  fortalecer  sin amenaza ",
       "variant": []
     }
   ]
