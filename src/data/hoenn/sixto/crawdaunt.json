@@ -2,8 +2,7 @@
   "id": "crawdaunt",
   "name": "Crawdaunt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
-  "tricks": [
+  "initialMove": "🪨TRAMPA ROCAS🪨(scolipede y excadrill banda focus )",
     {
       "detail": "Se queda → Chandelure 2+2",
       "variant": []
