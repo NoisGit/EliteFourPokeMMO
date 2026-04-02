@@ -2,14 +2,42 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨TRAMPA ROCAS🪨",
   "tricks": [
     {
-      "detail": "Tiene intimidacion",
+      "detail": "Intimidación : Frente a Absol ➜ cambiar a Gengar  Otra Vez ; revisar objeto",
       "variant": []
     },
     {
-      "detail": "No tiene intimidacion → Gengar Otra Vez +2 y Pushea",
+      "detail": "Absol Pañuelo elegido  ➜ cambiar a Gengar; cambiar a Dragonite frente a Scrafty Danza Dragón x2  + x ataque ",
+      "variant": []
+    },
+    {
+      "detail": "Absol con Mal de Ojo  ➜ Gengar +4 no velo y atacar ",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill ➜ Gengar ; cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Dragonite Danza Dragón x2 ; probar grado de fuerza ; rezar por estabilidad +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Scrafty ➜ Chansey ; cambiar a Chandelure frente a Scizor para eliminarlo ; cambiar a chansey Amortiguador  frente a Absol; cambiar a Gengar; cambiar a Dragonite ante Scrafty Danza Dragón x2 + Atk X",
+      "variant": []
+    },
+    {
+      "detail": "Vidasfera  con Fuerza Bruta  ➜ cambiar a Gengar Otra Vez ; cambiar a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill ➜ Otra Vez ; Dragonite Danza Dragón x2 ",
+      "variant": []
+    },
+    {
+      "detail": "Scizor ➜ lanzallamas frente a Tentacruel; cambiar a chansey Amortiguador  frente a Absol; cambiar a Gengar; cambiar a Dragonite ante Scrafty Danza Dragón x2 + Atk X",
+      "variant": []
+    },
+    {
+      "detail": "Sin Intimidación  ➜ Gengar  Otra Vez  +2 no velo ; atacar",
       "variant": []
     }
   ]
