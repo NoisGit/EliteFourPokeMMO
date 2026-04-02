@@ -2,10 +2,14 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Tramparocas🪨",
   "tricks": [
     {
-      "detail": "Bloquear Puño Sombra, Scrafty 3. Usa Paliza para Hydreigon y Absol.",
+      "detail": "Puño Drenaje  y se queda  ➜ cambiar a Gengar; Bola Sombra",
+      "variant": []
+    },
+    {
+      "detail": "Debilitar  o frente a Darmanitan ➜ Chandelure +2 +2 ",
       "variant": []
     }
   ]
