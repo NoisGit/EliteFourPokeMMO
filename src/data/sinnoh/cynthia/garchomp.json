@@ -2,28 +2,78 @@
   "id": "garchomp",
   "name": "Garchomp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS Y VER QUIEN ACTÚA PRIMERO",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Si Metagross actúa primero, utilizar Trampa Rocas o curar a Chandelure hasta +60%, dejarlo morir al Metagross, cambiar a Chandelure, utilizar Truco para bloquearlo en Terremoto, cambiar a Cloyster +6 / Surf para Bastidon / Carámbano para matar a Blissey / Snorlax. // Si algo falla, seguir así:",
-      "variant": [
-        {
-          "detail": "Si Bronzong mata a Cloyster, cambiar a Poliwrath, revivir a Chandelure, luego usar A Bocajarro para matar al Bronzong, entra Heracross, dejarlo morir y ver qué movimiento hace:",
-          "variant": [
-            {
-              "detail": "Si usa A Bocajarro, cambiar a Chandelure, luego usar Truco dos veces para bloquear Terremoto o Roca Afilada, cambiar a Excadrill 4+2",
-              "variant": []
-            },
-            {
-              "detail": "Si usa Terremoto, cambiar a Excadrill 4+2",
-              "variant": []
-            }
-          ]
-        }
-      ]
+      "detail": "Heracross ➜ Cambiar a Gengar  Otra Vez ; cambiar a Gallade (si Jirachi no protege, Gallade +4 +4 ); primero buscar velocidad +4",
+      "variant": []
     },
     {
-      "detail": "Si Garchomp actúa primero (Lleva Pañuelo Elegido), cambiar a Excadrill 4+2. Si no hay Trampa Rocas, utilizar a Excadrill para ponerlas.",
+      "detail": "Tyranitar ➜ Gallade mata a tyranitar",
+      "variant": []
+    },
+    {
+      "detail": "Heracross ➜ Cambiar a Chansey  y sacrificar  Jirachi Otra Vez; Chandelure +2 +2  Gengar ) Otra Vez +6 no velo ",
+      "variant": []
+    },
+    {
+      "detail": "Si NO usa A Bocajarro  y debilita a Chansey  ➜ Jirachi Otra Vez ; Gallade +4 +2  / Gengar  +4 no  velo ",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Garchomp ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Terremoto  Vidasfera  ➜ Cambiar a un Pokémon rápido tipo Dragón; cambiar a Jirachi Otra Vez",
+      "variant": []
+    },
+    {
+      "detail": "Dragonite frente a Heracross ➜ Cambiar a Jirachi Protección ",
+      "variant": []
+    },
+    {
+      "detail": "Bloqueado en Roca Afilada  ➜ Cambiar a Gallade +2 +2 ; empujar ; Heracross tiene 10% de probabilidad de usar un movimiento aleatorio x3; al fortalecer a Gallade por segunda vez, si la salud está por debajo de 35%, usar Deseo) para estabilizar; tomar Restaurar Todo / Poción Máxima (200/max pot)",
+      "variant": []
+    },
+    {
+      "detail": "Vidasfera (Life Orb) A Bocajarro  ➜ Cambiar a Gengar  Otra Vez ; cambiar a Gallade; debilitar a Tyranitar; frente a Garchomp / Excadrill cambiar a Jirachi Otra Vez; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Terremoto (earthquake) ➜ Gallade +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Fuego tras Otra Vez  ➜ Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Terremoto  sin Vidasfera ➜ Cambiar a Dragón; cambiar a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "Movimiento bloqueado Terremoto ➜ Cambiar a Gallade; NO usar Otra Vez  +4 +2 ; autobloqueo de Sharpedo",
+      "variant": []
+    },
+    {
+      "detail": "si cambia hacia  Altaria ➜ Jirachi Otra Vez  frente a Fuego; Chandelure +2 +2 (22)",
+      "variant": []
+    },
+    {
+      "detail": "Cambio de movimiento ➜ Jirachi Otra Vez; Chandelure +2 +2  Gallade +4 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Lucario ➜ Cambiar a Gengar  Otra Vez  +4 no velo  frente a Arcanine resistir daño ",
       "variant": []
     }
   ]
