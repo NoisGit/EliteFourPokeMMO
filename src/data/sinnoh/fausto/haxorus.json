@@ -2,14 +2,14 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO PARA BLOQUEAR EN A BOCAJARRO",
+  "initialMove": "💡Amortiguador 💡 cambia a Gengar +6 no velo ",
   "tricks": [
     {
-      "detail": "Utilizar Trampa Rocas, luego cambiar a Chandelure 4 + 0 / Lanzallamas para matar a todo el equipo",
+      "detail": "-",
       "variant": []
     },
     {
-      "detail": "Si Metagross falla Trampa Rocas, Chandelure utilizar Bola Sombra para matarlo, luego entra Rotom, cambiar a Scrafty, luego cambiar Chandelure y utilizar Truco para bloquear en Bola Sombra, luego cambiar a Scrafty 3 (Probar)",
+      "detail": "-",
       "variant": []
     }
   ]
