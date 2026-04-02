@@ -2,18 +2,10 @@
   "id": "mightyena",
   "name": "Mightyena",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "USA TRAMPA ROCAS",
+  "initialMove": "🪨USA TRAMPA ROCAS🪨",
   "tricks": [
     {
-      "detail": "Colmillo Ígneo → cambia a Chandelure y usa Truco para bloquear en Triturar, luego entra Scrafty 2. / A Bocajarro para matar a Toxicroak. Si Metagross está quemado, Scrafty tiene que ayudar a quitarlo.",
-      "variant": []
-    },
-    {
-      "detail": "Si sale Poliwrath → cambia a Chandelure y usa Truco para bloquear en Puño Hielo, entra Cloyster 4. / Todo con Carámbano.",
-      "variant": []
-    },
-    {
-      "detail": "Si sale Cradily → cambia a Scrafty, luego a Chandelure contra Poliwrath, usa Truco para bloquear en Puño Hielo, entra Cloyster 4. / Todo con Carámbano.",
+      "detail": "Absol ➜ Gengar Otra Vez +2 no velo ",
       "variant": []
     }
   ]
