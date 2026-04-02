@@ -2,10 +2,14 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Usa Truco, luego Scrafty +3 / Observa tu vida y cúrate si es necesario. Usa Paliza para matar a Hydreigon / Absol.",
+      "detail": "Fuerza Bruta  ➜ Gengar  +6  NO usar Otra Vez ",
+      "variant": []
+    },
+    {
+      "detail": "Buscando superar velocidad  ➜ ASEGURAR (NAIL) Chandelure +2 +2 ; si no se puede asegurar trampa rocas al azar ; Gyarados y Absol apostar por Arcanine si no se puede asegurar )",
       "variant": []
     }
   ]
