@@ -2,24 +2,26 @@
   "id": "floatzel",
   "name": "Floatzel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa rocas🪨",
   "tricks": [
     {
-      "detail": "HidroBomba ➝ coloca Trampa Rocas, luego Poliwrath con +6+2. / Si falla al colocar las trampas, continúa con la siguiente línea.",
-      "variant": [
-        {
-          "detail": "Falla al colocar Trampa Rocas ➝ Poliwrath con +6+2 + Defensa X y recupera todos los PS. / Puño Hielo para derrotar a Roserade y Salamence.",
-          "variant": [
-            {
-              "detail": "Si Poliwrath es derrotado por Roserade ➝ Chandelure usa Lanzallamas para rematar. Si entra Krookodile ➝ Excadrill con +4+2, (FALTA TESTEAR)",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },    
+      "detail": "Gallade ➜ cambiar a Gengar Otra Vez +6 +2  ; luego Otra Vez  Atacar +4; (notas Krookodile ; sacrificio Banda Focus para Gallade",
+      "variant": []
+    },
     {
-      "detail": "Krookodile ➝ Excadrill con +4+2 y vuelve a colocar Trampa Rocas.",
+      "detail": "Feraligatr ➜ Contador ",
+      "variant": []
+    },
+    {
+      "detail": "Sceptile ➜ Jirachi Otra Vez ; cambiar a Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Ampharos ➜ Jirachi Otra Vez  frente a Salamence; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Vuelo violento  ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
       "variant": []
     }
   ]
