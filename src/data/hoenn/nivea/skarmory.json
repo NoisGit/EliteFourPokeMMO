@@ -2,67 +2,31 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Nidoqueen → Cloyster +6. Walrein necesita dos golpes para caer.",
+      "detail": "Mienshao ➜ cambiar a Gengar mata a mienshao ; cambiar a Chansey  ",
       "variant": []
     },
     {
-      "detail": "Blissey → Scrafty recupera PS con Puño Drenaje, luego usa Danza Dragón dos veces. / Con Puño Drenaje + A Bocajarro vence a Skarmory.",
+      "detail": "Blissey ➜ cambiar a Gengar  Maquinación ; cambiar a Chansey  +6 0 Velocidad atacar ",
       "variant": []
     },
     {
-      "detail": "Hariyama → Colocar Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Si no cambia → Recuperar objeto con Truco, luego cambiar a Chandelure para usar Truco y bloquear con Roca Afilada, Scrafty +3. // Si entra Lanturn, cambiar a Metagross para usar Truco:",
-          "variant": [
-            {
-              "detail": "Si usa Surf → Poliwrath +6 Atq +2 Vel.",
-              "variant": []
-            },
-            {
-              "detail": "Si usa Rayo → Excadrill +6 Atq +2 Vel.",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Lanturn→ Cambiar a Chandelure y usar Truco, bloquear con Surf, Poliwrath +6 Atq +2 Vel.",
-          "variant": []
-        },
-        {
-          "detail": "Metagross → Chandelure usa Lanzallamas para debilitar, si luego entra Lanturn, cambia a Poliwrath y luego a Chandelure para usar Truco y bloquear con Surf, Poliwrath +6 Atq +2 Vel.",
-          "variant": []
-        },
-        {
-          "detail": "Dewgong → Cambiar a Chandelure y usar Truco para bloquear con Rayo Hielo, Scrafty +3.",
-          "variant": []
-        }       
-      ]
-    },   
+      "detail": "Hariyama ➜ Gengar Otra Vez  +4  +2  (usar movimiento Eléctrico para  Froslass)",
+      "variant": []
+    },
     {
-      "detail": "Lanturn → Revisar objeto:",
-      "variant": [
-        {
-          "detail": "Si tiene Restos → Colocar Trampa Rocas y observar el movimiento. Si usa Paralizador no pondrá trampas, no hace falta preocuparse ni reponer.",
-          "variant": [
-            {
-              "detail": "Si usa Surf → Poliwrath +6 Atq +2 Vel.",
-              "variant": []
-            },
-            {
-              "detail": "Si usa Rayo / trueno → Excadrill +6 Atq +2 Vel. Si queda bloqueado con Cabeza Hierro frente a Skarmory, usar objetos hasta que desaparezca la maldición. / cabeza hierro para frosslas",
-              "variant": []
-            }
-          ]
-        },        
-        {
-          "detail": "Si tiene Casco Dentado → Excadrill repone Trampa Rocas (4+2). Si aparece Blissey, Scrafty recupera PS con Puño Drenaje, luego usa Danza Dragón dos veces. / Puño Drenaje + A Bocajarro mata a Skarmory.",
-          "variant": []
-        }
-      ]
+      "detail": "Cambiar a  ➜ Chansey  Amortiguador ; aguantar golpe fuerte ",
+      "variant": []
+    },
+    {
+      "detail": "Beartic ➜ Gengar  Otra Vez  +4 0 Velocidad ; si se elimina la quemadura ; cambiar a Walrein o Dewgong o priorizar Velocidad  directamente +2; necesita resistir daño",
+      "variant": []
+    },
+    {
+      "detail": "Gallade ➜ Gengar  +4 +0 Velocidad ; NO usar Otra Vez ; frente a Walrein o Dewgong resistir daño fortalecer ",
+      "variant": []
     }
   ]
 }
