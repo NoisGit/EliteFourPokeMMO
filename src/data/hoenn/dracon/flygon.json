@@ -2,10 +2,18 @@
   "id": "flygon",
   "name": "Flygon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO PARA BLOQUEAR TERREMOTO",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Excadrill con +2+2, luego vuelve a colocar Trampa Rocas. // Si al usar Danza Espada sale Lapras, entra Poliwrath con +6+2. / Lleva Banda Focus Lucario",
+      "detail": "Metagross ➜ cambiar a Jirachi Otra Vez  Gallade +2  +2 )",
+      "variant": []
+    },
+    {
+      "detail": "Fijar Cabezazo Zen ➜ Protección ",
+      "variant": []
+    },
+    {
+      "detail": "Flygon ➜ Otra Vez (; Gallade +2 / Chandelure +2 +2 ",
       "variant": []
     }
   ]
