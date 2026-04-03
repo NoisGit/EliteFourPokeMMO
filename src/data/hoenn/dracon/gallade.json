@@ -2,39 +2,22 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡Gengar💡",
   "tricks": [
     {
-      "detail": "Espada Santa → Usar Truco para bloquear con Psico-Corte, luego cambiar a Metagross y golpear con Puño Trueno, observar qué entra. Si entra Roserade y no se cambia, seguir usando Puño Trueno.",
-      "variant": [
-        {
-          "detail": "Aggron → Chandelure con Especial X + Velocidad X y PS completos. / Usar el movimiento de mayor potencia. Contra Kingdra, se requieren dos golpes.",
-          "variant": []
-        },
-        {
-          "detail": "Salamence → Chandelure usa Poder Oculto para debilitarlo, saldrá Aggron sacrifica a Chandelure con poder oculto y luego saca a Excadrill 2+2",
-          "variant": []
-        },
-        {
-          "detail": "Eelektross → Cambiar a Chandelure, luego a Metagross, esperar a que use Voltiocambio, entra Aggron, y luego Chandelure con +2+2 y PS completos. / Usar el movimiento de mayor potencia. Contra Kingdra, se requieren dos golpes.",
-          "variant": []
-        },
-        {
-          "detail": "Krookodile → Excadrill con +4+2.",
-          "variant": []
-        }
-      ]
-    },    
-    {
-      "detail": "Krookodile → Excadrill con +4+2 y volver a colocar Trampa Rocas.",
+      "detail": "Lucario ➜ cambiar a Chansey ; asegura Trampa rocas cambio a Gengar  Otra Vez  no ataque especial  +2 Velocidad ; (si no hay golpe crítico  no es amenaza",
       "variant": []
     },
     {
-      "detail": "Aggron → Excadrill coloca Trampa Rocas, luego usa Terremoto para debilitarlo. Si entra Feraligatr, entra Poliwrath con +2+2 y más del 50% de PS. / Usar el movimiento de mayor potencia. Si Excadrill cae, usar Chandelure para revivirlo, sacrifica a Chande y volver a entrar con Excadrill para debilitarlo.",
+      "detail": "Se queda  ➜ Gengar  Otra Vez para observar velocidad ",
       "variant": []
     },
     {
-      "detail": "Lucario → Usar Scrafty con +3. / Usar Paliza para debilitar a Haxorus.",
+      "detail": "Gallade Pañuelo elegido  ➜ Gengar  +2 +2 );(pañuelo)",
+      "variant": []
+    },
+    {
+      "detail": "Gallade Banda Focus ➜ Gengar Otra Vez  +6 +2  + Otra Vez",
       "variant": []
     }
   ]
