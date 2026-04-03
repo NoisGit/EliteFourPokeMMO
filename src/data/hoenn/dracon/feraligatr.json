@@ -2,59 +2,38 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡Amortiguador💡",
   "tricks": [
     {
-      "detail": "Aggron ➝ coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "No se retira ➝ Chandelure con +4+0. / Atacar con Bola Sombra para barrer el equipo.",
-          "variant": []
-        },
-        {
-          "detail": "Entra Kingdra ➝ cambia a Poliwrath, luego a Metagross y usa Truco:",
-          "variant": [
-            {
-              "detail": "Si usa Surf ➝ Poliwrath con +6+2.",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Aggron ➝ Chandelure con +4+0. / Atacar con Bola Sombra para barrer el equipo.",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    
-    {
-      "detail": "Metagross ➝ Chandelure lo debilita con Lanzallamas, observar quién entra después:",
-      "variant": [
-        {
-          "detail": "Si entra Feraligatr ➝ Poliwrath con +6, usar Raíz Grande para curarse y luego +2.",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Floatzel ➝ cambia a Poliwrath y luego a Chandelure para usar Truco:",
-          "variant": [
-            {
-              "detail": "Si usa HidroBomba ➝ Poliwrath con +6+2.",
-              "variant": []
-            },
-            {
-              "detail": "Si usa Triturar ➝ Scrafty con +3.",
-              "variant": []
-            }
-          ]
-        }       
-      ]
-    },
-    {
-      "detail": "Ampharos ➝ Excadrill con +4+2, si huye Metagross no importa, continuar con el boosteo.",
+      "detail": "Gallade➜ Gengar  Otra Vez  +4 0 Velocidad; luego Otra Vez (banda focus Gallade)",
       "variant": []
     },
     {
-      "detail": "Cascada ➝ Poliwrath con +6+2.",
+      "detail": "Se queda  ➜ para observar movimiento ",
+      "variant": []
+    },
+    {
+      "detail": "Fuerza Bruta ➜ Amortiguador  esperar a Gallade ; Gengar  Otra Vez  +4 0 Velocidad ; luego Otra Vez  (sacrificio Banda Focus  Gallade) ",
+      "variant": []
+    },
+    {
+      "detail": "Cascada  ➜ Contador ",
+      "variant": []
+    },
+    {
+      "detail": "Gallade➜ cambiar a Jirachi; cambiar a Gengar Otra Vez  +4 0 Velocidad ; (luego Otra Vez  y mata a gallade tiene banda focus )",
+      "variant": []
+    },
+    {
+      "detail": "vs floatzel Mienshao ➜ Gengar  Otra Vez  +4 0 Velocidad ",
+      "variant": []
+    },
+    {
+      "detail": "Ampharos ➜ Gengar  Otra Vez ; cambiar a Jirachi frente a Sceptile; Jirachi Otra Vez ; Chandelure +2 +2 ",
+      "variant": []
+    },
+    {
+      "detail": "Vuelo violento  ➜ Jirachi Otra Vez (Encore); Chandelure +2 +2 ",
       "variant": []
     }
   ]
