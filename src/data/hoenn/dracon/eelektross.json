@@ -2,23 +2,22 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y observa el movimiento:",
+  "initialMove": "🪨TrampaRocas🪨 (gallade Banda focus)",
   "tricks": [
     {
-      "detail": "Lanzallamas ➝ cambia a Metagross para que reciba el daño de Voltio Cambio, entra Bisharp / Aggron, coloca Trampa Rocas y observa si Metagross ha sido debilitado:",
-      "variant": [
-        {
-          "detail": "Si no fue debilitado ➝ entra Chandelure con +4+0 y barre con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Si fue debilitado ➝ entra Scrafty, luego cambia a Chandelure con +4+0 y barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
+      "detail": "Fuerza Bruta  ➜ Amortiguador  frente a Gallade ; cambiar a Gengar  Otra Vez  +4  0 Velocidad ; (tiene banda focus  Gallade) ",
+      "variant": []
     },
     {
-      "detail": "Puño Fuego ➝ usa Truco para bloquear Voltio Cruel, luego entra Excadrill con +4+2.",
+      "detail": "Puño Drenaje  ➜ Gengar  Otra Vez ; cambiar a Jirachi",
+      "variant": []
+    },
+    {
+      "detail": "Lapras ➜ Rayo  frente a Nidoking; Otra Vez   Chandelure +2 +2",
+      "variant": []
+    },
+    {
+      "detail": "Salamence ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
       "variant": []
     }
   ]
