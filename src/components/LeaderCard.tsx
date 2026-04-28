@@ -4,17 +4,10 @@ interface LeaderCardProps {
   leader: ConfigLeader
   isExpanded: boolean
   onClick: (leaderId: string) => void
-  trimWhiteFrame?: boolean
 }
 
-const leaderFrameFixes: Record<string, string> = {
-  bruno: 'scale-[1.18] group-hover:scale-[1.24] contrast-[1.04] saturate-[1.08]',
-}
-
-export const LeaderCard = ({ leader, isExpanded, onClick, trimWhiteFrame = false }: LeaderCardProps) => {
+export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => {
   const leaderImage = `${import.meta.env.BASE_URL}images/lideres/${leader.name.toLowerCase().replace(/ /g, '_')}.png`
-  const leaderKey = leader.name.toLowerCase().replace(/ /g, '_')
-  const frameFixClass = leaderFrameFixes[leaderKey]
 
   return (
     <button
@@ -31,11 +24,7 @@ export const LeaderCard = ({ leader, isExpanded, onClick, trimWhiteFrame = false
         <img
           src={leaderImage}
           alt={leader.name}
-          className={`h-full w-full object-contain transition-transform duration-300 ${
-            frameFixClass || (trimWhiteFrame
-              ? 'scale-[1.12] group-hover:scale-[1.18]'
-              : 'group-hover:scale-105')
-          }`}
+          className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
           loading="lazy"
         />
       </div>
