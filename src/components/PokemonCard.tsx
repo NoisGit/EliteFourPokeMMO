@@ -11,27 +11,26 @@ interface PokemonCardProps {
   pokemon: Pokemon
   isSelected: boolean
   onClick: (pokemon: Pokemon) => void
-  useGen9Sprite?: boolean
 }
 
-export const PokemonCard = ({ pokemon, isSelected, onClick, useGen9Sprite = false }: PokemonCardProps) => {
-  const getInitialSprite = () => useGen9Sprite ? getPokemonDbGen9SpriteUrl(pokemon.name) : getPokemonGen8SpriteUrl(pokemon.name)
+export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) => {
+  const getInitialSprite = () => getPokemonDbGen9SpriteUrl(pokemon.name)
   const [spriteSrc, setSpriteSrc] = useState(getInitialSprite)
   const [fallbackStep, setFallbackStep] = useState(0)
 
   useEffect(() => {
     setSpriteSrc(getInitialSprite())
     setFallbackStep(0)
-  }, [pokemon.name, useGen9Sprite])
+  }, [pokemon.name])
 
   const handleSpriteError = () => {
-    if (useGen9Sprite && fallbackStep === 0) {
+    if (fallbackStep === 0) {
       setFallbackStep(1)
       setSpriteSrc(getPokemonGen8SpriteUrl(pokemon.name))
       return
     }
 
-    if (fallbackStep <= 1) {
+    if (fallbackStep === 1) {
       setFallbackStep(2)
       setSpriteSrc(getPokemonAnimatedSpriteUrl(pokemon.name))
       return
@@ -58,7 +57,7 @@ export const PokemonCard = ({ pokemon, isSelected, onClick, useGen9Sprite = fals
         <img
           src={spriteSrc}
           alt={pokemon.name}
-          className="max-h-24 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-110 sm:max-h-28"
+          className="h-full w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
           loading="lazy"
           onError={handleSpriteError}
         />
