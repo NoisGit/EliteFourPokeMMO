@@ -4,6 +4,9 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "CAMBIA A CHANDELURE",
   "tricks": [
-    {"detail": "Utiliza Truco para encerrar Escaldar de Slowbro, entra Poliwrath 6+2", "variant": []}
+    {
+      "detail": "Con Chandelure: usa Truco para bloquear Escaldar de Slowbro. Luego cambia a Poliwrath 6+2.",
+      "variant": []
+    }
   ]
 }
