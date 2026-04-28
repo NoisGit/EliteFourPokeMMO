@@ -1,12 +1,12 @@
 import type { Pokemon } from '../interfaces/Pokemon'
-import type { Language, translations } from '../i18n/translations'
+import type { Language, TranslationLabels } from '../i18n/translations'
 import { formatStrategyText, translateStrategyText } from '../utils/strategyText'
 import { TrickItem } from './TrickItem'
 
 interface PokemonDetailsProps {
   pokemon: Pokemon
   language: Language
-  labels: typeof translations[Language]
+  labels: TranslationLabels
 }
 
 export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProps) => {
