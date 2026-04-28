@@ -4,8 +4,29 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "CAMBIA A CHANDELURE",
   "tricks": [
-    {"detail": "Nidoking / Nidoqueen, usa Truco para bloquear movimiento de tierra, entra Excadrill 6+2 (Usa terremoto para matar a Lapras)", "variant": []},
-    {"detail": "Hariyama, usa Truco para bloquear Roca Afilada, sale Scrafty +3 (Usa A Bocajarro para matar a Hariyama, Puño Drenaje para Lapras, Paliza para Nidoqueen)", "variant": []},
-    {"detail": "Si No Cambia usa Lanzallamas para bajar la vida a Togekiss, luego cambia a Scrafty y vuelve a cambiar Chandelure para usar Truco y encerrar el Roca Afilada, saca a Scrafty +3 (Usa A Bocajarro para matar a Conkeldurr, Puño Drenaje para Lapras, Paliza para Gliscor)", "variant": []}
+    {
+      "detail": "Si entra Nidoking o Nidoqueen: usa Truco con Chandelure para bloquear un movimiento tipo Tierra. Luego entra con Excadrill 6+2.",
+      "variant": [
+        {
+          "detail": "Usa Terremoto para debilitar a Lapras cuando corresponda."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Hariyama: usa Truco con Chandelure para bloquear Roca Afilada. Luego cambia a Scrafty +3.",
+      "variant": [
+        {
+          "detail": "Con Scrafty: usa A Bocajarro contra Hariyama, Puño Drenaje contra Lapras y Paliza contra Nidoqueen."
+        }
+      ]
+    },
+    {
+      "detail": "Si Togekiss no cambia: usa Lanzallamas para bajarle vida. Luego cambia a Scrafty y vuelve a Chandelure para usar Truco y bloquear Roca Afilada.",
+      "variant": [
+        {
+          "detail": "Después saca a Scrafty +3. Usa A Bocajarro contra Conkeldurr, Puño Drenaje contra Lapras y Paliza contra Gliscor."
+        }
+      ]
+    }
   ]
 }

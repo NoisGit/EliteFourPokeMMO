@@ -2,11 +2,18 @@
   "id": "articuno",
   "name": "Articuno",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Pantalla Luz",
+  "initialMove": "PANTALLA LUZ",
   "tricks": [
     {
-      "detail": "Sale Nidoking así que cambia a Cloyster para luego cambiar a Metagross, Truco, Cloyster +6 // Carámbano para Lucario",
-      "variant": []
+      "detail": "Si entra Nidoking: cambia a Cloyster y luego cambia a Metagross.",
+      "variant": [
+        {
+          "detail": "Con Metagross: usa Truco."
+        },
+        {
+          "detail": "Después vuelve a Cloyster +6. Si aparece Lucario, usa Carámbano."
+        }
+      ]
     }
   ]
 }

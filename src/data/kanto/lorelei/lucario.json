@@ -4,7 +4,24 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "CAMBIA A CHANDELURE",
   "tricks": [
-    {"detail": "Si cambia a Nidoking utiliza Truco con Chandelure para encerrar en movimiento tipo tierra, cambia a Cloyster +6 (Utiliza Carámbano contra Lucario) (Hay una pequeña posibilidad de que no mates a Lapras)", "variant": []},
-    {"detail": "Si se queda en Lucario, utiliza Truco para que encierres en Triturar / Roca Afilada, cambia a Scrafty +3 (Si Chandelure muere, utiliza 1 Danza Dragón extra)", "variant": []}
+    {
+      "detail": "Si Lucario cambia a Nidoking: usa Truco con Chandelure para bloquear un movimiento tipo Tierra. Luego cambia a Cloyster +6.",
+      "variant": [
+        {
+          "detail": "Cuando vuelva Lucario, usa Carámbano con Cloyster."
+        },
+        {
+          "detail": "Ten en cuenta que existe una pequeña posibilidad de no debilitar a Lapras."
+        }
+      ]
+    },
+    {
+      "detail": "Si Lucario se queda en campo: usa Truco con Chandelure para bloquear Triturar o Roca Afilada. Luego cambia a Scrafty +3.",
+      "variant": [
+        {
+          "detail": "Si Chandelure cae debilitado antes de terminar la ruta, usa 1 Danza Dragón extra con Scrafty."
+        }
+      ]
+    }
   ]
 }
