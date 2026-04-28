@@ -140,14 +140,26 @@ Strategies are stored as JSON files. Each Pokémon has an opening action and a l
 
 Use small branches and pull requests.
 
+Branch flow:
+
+```text
+feature/* / fix/* / chore/* / docs/* → develop → main
+```
+
+Rules:
+
+- `main` is production and deploys to GitHub Pages.
+- `develop` is the integration branch for ongoing work.
+- Feature, fix, chore, and docs branches must open pull requests into `develop`.
+- When `develop` is stable, open a release pull request from `develop` into `main`.
+- Pull requests and commit messages should be written in English.
+- Issues and gameplay task descriptions can be written in Spanish.
+
 Recommended branch naming examples:
 
 ```text
 feature/improve-kanto-lorelei-strategies
+fix/add-home-sprite-fallbacks
 docs/update-readme-english
-fix/github-pages-deploy
+chore/add-security-baseline
 ```
-
-Pull requests and commit messages should be written in English.
-
-Issues and task descriptions can be written in Spanish to keep the gameplay planning clear.
