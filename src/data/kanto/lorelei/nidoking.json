@@ -2,8 +2,62 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-    {"detail": "Cambia a Excadrill y utiliza Trampa Rocas, luego cambia a Cloyster +6", "variant": []}
+    {
+      "detail": "Si entra Lapras, cambia a Poliwrath y luego cambia a Slowbro. Cuando salga Mantine, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Cuando salga Magnezone, sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x1 y Especial X."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Golduck, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Si Golduck se queda, cambia a Slowbro cuando salga Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lapras después de Golduck, cambia a Slowbro y usa Bostezo frente a Magnezone.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Bronzong, usa Encanto con Chansey.",
+      "variant": [
+        {
+          "detail": "Si Bronzong usa un ataque Psíquico o de tipo Tierra, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Explosión y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Explosión y entra Nidoking, usa Amortiguador con Chansey hasta quedar con PS al máximo."
+        },
+        {
+          "detail": "Si Bronzong se queda, usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Después saca a Politoed y deja que caiga. Entra con Poliwrath y usa Tambor hasta +6 Ataque."
+        }
+      ]
+    }
   ]
 }
