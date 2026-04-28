@@ -2,11 +2,18 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Encanto",
   "tricks": [
     {
-      "detail": "Chandelure +4+0 con la vida curada al máximo, utiliza Lanzallamas para barrer todo el equipo. (Si Chandelure muere por Hitmonchan, saca a Cloyster +4)",
-      "variant": []
+      "detail": "Usa Encanto frente a Aggron. Luego toma una Max Poción y usa Amortiguador para mantener a Chansey sana.",
+      "variant": [
+        {
+          "detail": "Cuando salga Hitmonchan, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
+        }
+      ]
     }
   ]
 }

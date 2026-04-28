@@ -2,15 +2,38 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "USAR TRAMPA ROCAS",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "TORTERRA→ Cambia a Cloyster, luego a Metagross con Truco, bloquea Terremoto, Cloyster +4 + Especial X",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Machamp, cambia a Gengar y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Hitmonlee, cambia a Gengar y luego a Slowbro. Si Hitmonlee se queda, usa Bostezo."
+        },
+        {
+          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
+        }
+      ]
     },
     {
-      "detail": "NO CAMBIA→ Poliwrath 6+2+6",
-      "variant": []
+      "detail": "Si entra Darmanitan, elige una de estas rutas.",
+      "variant": [
+        {
+          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3. ⚠️ Cuidado con un Fuerza Bruta crítico: puede dejarte cerca de 51% PS."
+        },
+        {
+          "detail": "Ruta RNG: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

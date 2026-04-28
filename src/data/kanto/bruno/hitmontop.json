@@ -2,36 +2,13 @@
   "id": "hitmontop",
   "name": "Hitmontop",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE Y UTILIZA BOLA SOMBRA",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si lo matas y entra Staraptor → Cambia a Metagross y usa Truco → Enciérralo en Steelix → Entra Cloyster + 4 + Especial X",
-      "variant": []
-    },
-    {
-      "detail": "Si lo matas y entra Steelix → Cambia a Cloyster → Luego cambia a Metagross y usa Truco → Enciérralo en Terremoto → Cloyster + 4 + Especial X",
-      "variant": []
-    },
-    {
-      "detail": "Si lo matas y entra Machamp → Cambia a Metagross → Luego cambia a Chandelure y usa Truco → Enciérralo en Roca Afilada → Excadrill 4+2",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia directo Machamp y lo alcanzas a golpear → Cambia a Metagross:",
+      "detail": "Coloca Trampa Rocas y cambia a Volcarona.",
       "variant": [
         {
-          "detail": "Contra Steelix o Staraptor: Usa Truco → Si usa Terremoto o entra Steelix → Cloyster + 6 + Defensa → (Si entra Slowbro mientras haces Truco, coloca Trampa Rocas, cambia a Chandelure y usa Especial X, barre todo con Lanzallamas"
-        },
-        {
-          "detail": "Si Machamp no se retira (Observa si bajo su defensa Especial)",
-          "variant": [
-            {
-              "detail": "NO BAJO SU DEFENSA : Utiliza Truco, Si sale Steelix, saca Cloyster +6 + Defensa X (Si entra Slowbro, pon Trampa Rocas y cambia a Chandelure + Especial X, con Lanzallamas barres todo."
-            },
-            {
-              "detail": "SI BAJO SU DEFENSA: Cambia a Chandelure y utiliza Truco, encierra el Roca Afilada, Excadrill 4+2"
-            }
-          ]
+          "detail": "Usa Danza Aleteo x1 y barre."
         }
       ]
     }

@@ -2,22 +2,35 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Amortiguador",
   "tricks": [
     {
-      "detail": "Si Eelektross no se retira → Truco para ver qué movimiento usa",
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Si usa Voltio Cruel → Excadrill 6+2"
+          "detail": "Si entra Machamp, cambia a Gengar y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Si usa Rayo → Excadrill 4+2"
+          "detail": "Si entra Infernape, usa Amortiguador para recibir A Bocajarro. Luego cambia a Gengar, usa Otra Vez y Maquinación hasta +4."
+        },
+        {
+          "detail": "Si entra Hitmonchan, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
         }
       ]
     },
     {
-      "detail": "Contra Torterra → Truco para encerrarlo en Terremoto, Cloyster +4 + Especial X",
-      "variant": []
+      "detail": "Si entra Darmanitan, elige una de estas rutas.",
+      "variant": [
+        {
+          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3."
+        },
+        {
+          "detail": "Ruta RNG: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

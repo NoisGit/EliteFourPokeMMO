@@ -2,22 +2,21 @@
   "id": "hitmonlee",
   "name": "Hitmonlee",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "UTILIZA TRAMPA ROCAS",
+  "initialMove": "Cambia a Gengar",
   "tricks": [
     {
-      "detail": "Si entra Machamp → Cambia a Chandelure y usa Truco",
+      "detail": "Cambia a Gengar y luego a Slowbro.",
       "variant": [
         {
-          "detail": "Si sale Blastoise → Poliwrath 6+2"
+          "detail": "Si Hitmonlee se queda, usa Bostezo."
         },
         {
-          "detail": "Si usa Roca Afilada → Excadrill 4+2"
+          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
         }
       ]
-    },
-    {
-      "detail": "Si entra Metagross → Chandelure usa Lanzallamas para matarlo. Si luego sale Blastoise → Poliwrath 6+2",
-      "variant": []
     }
   ]
 }

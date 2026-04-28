@@ -1,5 +1,6 @@
 import type { Pokemon } from '../interfaces/Pokemon'
 import type { Language, TranslationLabels } from '../i18n/translations'
+import { translateExactStrategyText } from '../utils/exactStrategyTranslations'
 import { formatStrategyText, translateStrategyText } from '../utils/strategyText'
 import { TrickItem } from './TrickItem'
 
@@ -10,7 +11,9 @@ interface PokemonDetailsProps {
 }
 
 export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProps) => {
-  const initialMove = formatStrategyText(translateStrategyText(pokemon.initialMove, language))
+  const initialMove = formatStrategyText(
+    translateStrategyText(translateExactStrategyText(pokemon.initialMove, language), language),
+  )
 
   return (
     <section className="animate-in slide-in-from-bottom duration-300 rounded-[2rem] border border-white/10 bg-slate-950/70 p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-6">
