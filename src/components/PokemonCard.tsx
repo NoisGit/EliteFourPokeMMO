@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { Pokemon } from '../interfaces/Pokemon'
 import {
   getLocalPokemonSpriteUrl,
   getPokemonAnimatedSpriteUrl,
+  getPokemonDbGen9SpriteUrl,
   getPokemonGen8SpriteUrl,
 } from '../utils/pokemonSprites'
 
@@ -10,21 +11,34 @@ interface PokemonCardProps {
   pokemon: Pokemon
   isSelected: boolean
   onClick: (pokemon: Pokemon) => void
+  useGen9Sprite?: boolean
 }
 
-export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) => {
-  const [spriteSrc, setSpriteSrc] = useState(getPokemonGen8SpriteUrl(pokemon.name))
+export const PokemonCard = ({ pokemon, isSelected, onClick, useGen9Sprite = false }: PokemonCardProps) => {
+  const getInitialSprite = () => useGen9Sprite ? getPokemonDbGen9SpriteUrl(pokemon.name) : getPokemonGen8SpriteUrl(pokemon.name)
+  const [spriteSrc, setSpriteSrc] = useState(getInitialSprite)
   const [fallbackStep, setFallbackStep] = useState(0)
 
+  useEffect(() => {
+    setSpriteSrc(getInitialSprite())
+    setFallbackStep(0)
+  }, [pokemon.name, useGen9Sprite])
+
   const handleSpriteError = () => {
-    if (fallbackStep === 0) {
+    if (useGen9Sprite && fallbackStep === 0) {
       setFallbackStep(1)
+      setSpriteSrc(getPokemonGen8SpriteUrl(pokemon.name))
+      return
+    }
+
+    if (fallbackStep <= 1) {
+      setFallbackStep(2)
       setSpriteSrc(getPokemonAnimatedSpriteUrl(pokemon.name))
       return
     }
 
-    if (fallbackStep === 1) {
-      setFallbackStep(2)
+    if (fallbackStep === 2) {
+      setFallbackStep(3)
       setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))
     }
   }
@@ -40,11 +54,11 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
       onClick={() => onClick(pokemon)}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-300/10 via-transparent to-rose-400/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-      <div className="relative flex h-20 items-center justify-center sm:h-24">
+      <div className="relative flex h-24 items-center justify-center sm:h-28">
         <img
           src={spriteSrc}
           alt={pokemon.name}
-          className="max-h-20 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-110 sm:max-h-24"
+          className="max-h-24 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-110 sm:max-h-28"
           loading="lazy"
           onError={handleSpriteError}
         />
