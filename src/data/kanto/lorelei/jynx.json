@@ -2,6 +2,11 @@
   "id": "jynx",
   "name": "Jynx",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Scrafty +2 (Utiliza A Bocajarro para acabar con Hariyama, Paliza con Togekiss y Puño drenaje con Lapras)",
-  "tricks": []
+  "initialMove": "CAMBIA A SCRAFTY +2",
+  "tricks": [
+    {
+      "detail": "Con Scrafty preparado: usa A Bocajarro contra Hariyama, Paliza contra Togekiss y Puño Drenaje contra Lapras.",
+      "variant": []
+    }
+  ]
 }
