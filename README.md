@@ -119,16 +119,16 @@ Strategies are stored as JSON files. Each Pokémon has an opening action and a l
 {
   "id": "slowbro",
   "name": "Slowbro",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "STEALTH ROCK",
   "tricks": [
     {
-      "detail": "Sale Lucario → cambia a Gengar, usa Otra Vez, usa Maquinación hasta +4 y luego usa Velocidad X para quedar +2 Velocidad.",
+      "detail": "Lucario comes in → switch to Gengar, use Encore, use Nasty Plot to +4, then use X Speed to reach +2 Speed.",
       "variant": [
         {
-          "detail": "Mantén Otra Vez cada vez que puedas para controlar al rival."
+          "detail": "Keep using Encore whenever possible to control the opponent."
         },
         {
-          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
+          "detail": "When Gengar is ready, sweep with Shadow Ball."
         }
       ]
     }
@@ -154,12 +154,3 @@ Rules:
 - When `develop` is stable, open a release pull request from `develop` into `main`.
 - Pull requests and commit messages should be written in English.
 - Issues and gameplay task descriptions can be written in Spanish.
-
-Recommended branch naming examples:
-
-```text
-feature/improve-kanto-lorelei-strategies
-fix/add-home-sprite-fallbacks
-docs/update-readme-english
-chore/add-security-baseline
-```
