@@ -2,22 +2,18 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si Dragonite NO cambia: usa Poder Oculto con Chandelure. Repite Poder Oculto mientras Dragonite siga en campo.",
+      "detail": "Coloca Trampa Rocas frente a Lucario. Cuando entre Lapras, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si luego entra Lapras: cambia a Poliwrath. Ejecuta la secuencia 6+2 indicada para Poliwrath. Si Lapras usa Rayo de forma inesperada, cambia a Excadrill y ejecuta 6+2."
+          "detail": "Después saca a Politoed y deja que caiga para darle entrada segura a Poliwrath."
         },
         {
-          "detail": "Si luego entra Lucario: cambia a Scrafty. Después vuelve a Chandelure, usa Truco para bloquear Triturar o Roca Afilada, y vuelve a sacar a Scrafty +2."
+          "detail": "Con Poliwrath en campo, usa Tambor para quedar en +6 Ataque y comienza a barrer. 🐸"
         }
       ]
-    },
-    {
-      "detail": "Si Dragonite cambia a Slowbro: usa Truco con Chandelure para bloquear Escaldar. Luego cambia a Poliwrath y ejecuta 6+2.",
-      "variant": []
     }
   ]
 }
