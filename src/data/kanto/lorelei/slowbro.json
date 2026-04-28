@@ -2,12 +2,18 @@
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "TRAMPA ROCAS",
   "tricks": [
-    {"detail": "SI UTILIZA LANZALLAMAS, usa Truco para encerrar en Escaldar, Poliwrath 6+2", "variant": []},
-    {"detail": "Si cambia a Dragonite usa Poder Oculto para bajar vida hasta que cambie:", "variant": [
-      {"detail": "LAPRAS: Poliwrath 6+2+6 (Aún no se que significa el último +6, me imagino que es otro Tambor para que se cure el Poliwrath) (Si te atacan con Rayo cambia a Excadrill 6+2)"},
-      {"detail": "LUCARIO: Cambia a Scrafty, vuelve a entrar Chandelure para usar Truco y encerrar en Triturar / Roca Afilada, vuelve a salir Scrafty +2"}
-    ]}
+    {
+      "detail": "Sale Lucario → cambia a Gengar, usa Otra Vez, usa Maquinación hasta +4 y luego usa Velocidad X para quedar +2 Velocidad.",
+      "variant": [
+        {
+          "detail": "Mantén Otra Vez cada vez que puedas para controlar al rival."
+        },
+        {
+          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
+        }
+      ]
+    }
   ]
 }
