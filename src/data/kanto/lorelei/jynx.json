@@ -2,11 +2,18 @@
   "id": "jynx",
   "name": "Jynx",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A SCRAFTY +2",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "Con Scrafty preparado: usa A Bocajarro contra Hariyama, Paliza contra Togekiss y Puño Drenaje contra Lapras.",
-      "variant": []
+      "detail": "Cambia a Slowbro. Cuando salga Hariyama, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Después saca a Politoed y deja que caiga para darle entrada segura a Poliwrath."
+        },
+        {
+          "detail": "Con Poliwrath, usa Tambor para quedar en +6 Ataque. 🐸 Usa Puño Drenaje contra Jynx."
+        }
+      ]
     }
   ]
 }
