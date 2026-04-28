@@ -120,6 +120,7 @@ export default function PokemonGuide() {
   const currentRegion = regions.find((region) => region.id === expandedRegion)
   const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
   const currentLeaderPokemons = currentLeader?.pokemons || []
+  const useLoreleiGen9Sprites = currentRegion?.id === 'kanto' && currentLeader?.id === 'lorelei'
 
   return (
     <div className="min-h-screen overflow-hidden bg-[#0b1020] text-slate-50">
@@ -251,6 +252,7 @@ export default function PokemonGuide() {
                   pokemon={pokemon}
                   isSelected={selectedPokemon?.id === pokemon.id}
                   onClick={handlePokemonClick}
+                  useGen9Sprite={useLoreleiGen9Sprites}
                 />
               ))}
             </div>
