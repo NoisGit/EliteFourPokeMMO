@@ -1,10 +1,20 @@
 {
-    "id": "golurk",
-    "name": "Golurk",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "TRUCO (Verificar ya que es lo mismo que Exeggutor)",
-    "tricks": [
-        {"detail": "Si cambia a Magneton / Magnezone, cambia a Excadrill y matalo con Terremoto, debería de salir Lapras, cambia a Poliwrath 6+2", "variant": []},
-        {"detail": "Si cambia a Nidoking, cambia a Cloyster +6", "variant": []}
-    ]
+  "id": "golurk",
+  "name": "Golurk",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "TRUCO",
+  "tricks": [
+    {
+      "detail": "Si cambia a Magneton o Magnezone: cambia a Excadrill y debilítalo con Terremoto.",
+      "variant": [
+        {
+          "detail": "Después debería entrar Lapras: cambia a Poliwrath 6+2."
+        }
+      ]
+    },
+    {
+      "detail": "Si cambia a Nidoking: cambia a Cloyster +6.",
+      "variant": []
+    }
+  ]
 }
