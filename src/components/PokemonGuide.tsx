@@ -6,6 +6,7 @@ import type { Region } from "../interfaces/Region"
 import type { Language } from "../i18n/translations"
 
 import { languages, translations } from "../i18n/translations"
+import { validatePokemonStrategy } from "../utils/strategyValidation"
 import { useDynamicImports } from "../hooks/useDynamicImports"
 import { RegionCard } from "./RegionCard"
 import { LeaderCard } from "./LeaderCard"
@@ -56,10 +57,12 @@ export default function PokemonGuide() {
               try {
                 const module = await import(`../data/${region.id}/${leader.id}/${file.replace('.json', '')}.json`)
                 const data = module.default || module
-                pokemons.push({
-                  ...data,
-                  id: data.id || data.name?.toLowerCase() || file.replace('.json', ''),
-                })
+
+                pokemons.push(validatePokemonStrategy(data, {
+                  regionId: region.id,
+                  leaderId: leader.id,
+                  fileName: file,
+                }))
               } catch (error) {
                 console.error(`Error importing ${file}:`, error)
               }
