@@ -1,5 +1,6 @@
 const GEN_8_SPRITE_BASE_URL = 'https://play.pokemonshowdown.com/sprites/gen8'
 const ANIMATED_SPRITE_BASE_URL = 'https://play.pokemonshowdown.com/sprites/ani'
+const POKEMON_DB_GEN_9_SPRITE_BASE_URL = 'https://img.pokemondb.net/sprites/scarlet-violet/normal'
 
 const specialSpriteSlugs: Record<string, string> = {
   'rotom hielo': 'rotom-frost',
@@ -29,6 +30,10 @@ export const getPokemonSpriteSlug = (name: string) => {
 
 export const getPokemonGen8SpriteUrl = (name: string) => {
   return `${GEN_8_SPRITE_BASE_URL}/${getPokemonSpriteSlug(name)}.png`
+}
+
+export const getPokemonDbGen9SpriteUrl = (name: string) => {
+  return `${POKEMON_DB_GEN_9_SPRITE_BASE_URL}/${getPokemonSpriteSlug(name)}.png`
 }
 
 export const getPokemonAnimatedSpriteUrl = (name: string) => {
