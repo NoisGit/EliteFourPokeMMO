@@ -15,7 +15,7 @@ interface PokemonCardProps {
 }
 
 export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) => {
-  const getInitialSprite = () => getPokemonDbGen9SpriteUrl(pokemon.name)
+  const getInitialSprite = () => getPokemonDbHomeSpriteUrl(pokemon.name)
   const [spriteSrc, setSpriteSrc] = useState(getInitialSprite)
   const [fallbackStep, setFallbackStep] = useState(0)
 
@@ -27,7 +27,7 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
   const handleSpriteError = () => {
     if (fallbackStep === 0) {
       setFallbackStep(1)
-      setSpriteSrc(getPokemonDbHomeSpriteUrl(pokemon.name))
+      setSpriteSrc(getPokemonDbGen9SpriteUrl(pokemon.name))
       return
     }
 
