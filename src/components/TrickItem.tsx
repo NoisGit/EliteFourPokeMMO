@@ -2,6 +2,7 @@ import { ChevronRight, ChevronDown } from "lucide-react"
 import { useState } from "react"
 import type { Language } from "../i18n/translations"
 import type { Tricks } from "../interfaces/Pokemon"
+import { translateExactStrategyText } from "../utils/exactStrategyTranslations"
 import { formatStrategyText, translateStrategyText } from "../utils/strategyText"
 
 interface TrickItemProps {
@@ -14,7 +15,9 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
   const variants = trick.variant || []
   const hasVariants = variants.length > 0
   const [isExpanded, setIsExpanded] = useState(level === 0)
-  const strategyText = formatStrategyText(translateStrategyText(trick.detail, language))
+  const strategyText = formatStrategyText(
+    translateStrategyText(translateExactStrategyText(trick.detail, language), language),
+  )
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded)
