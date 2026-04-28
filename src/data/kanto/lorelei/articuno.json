@@ -2,16 +2,16 @@
   "id": "articuno",
   "name": "Articuno",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "PANTALLA LUZ",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si entra Nidoking: cambia a Cloyster y luego cambia a Metagross.",
+      "detail": "Coloca Trampa Rocas frente a Lucario. Cuando entre Lapras, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Con Metagross: usa Truco."
+          "detail": "Después saca a Politoed y deja que caiga para darle entrada segura a Poliwrath."
         },
         {
-          "detail": "Después vuelve a Cloyster +6. Si aparece Lucario, usa Carámbano."
+          "detail": "Con Poliwrath en campo, usa Tambor para quedar en +6 Ataque y comienza a barrer. 🐸"
         }
       ]
     }

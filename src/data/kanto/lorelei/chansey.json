@@ -2,9 +2,27 @@
   "id": "chansey",
   "name": "Chansey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-    {"detail": "Si utiliza MOV. SÍSMICO cambia a Scrafty, utiliza +1 luego + Raíz Energía para recuperar salud y boostea +1 (Paliza para Vileplume y Bronzong)", "variant": []},
-    {"detail": "Si sale NIDOKING cambia a Excadrill +6 + 0", "variant": []}
+    {
+      "detail": "Coloca Trampa Rocas frente a Bronzong y luego usa Encanto para bajar su Ataque. ❤️",
+      "variant": [
+        {
+          "detail": "Si Bronzong usa Cabezazo Zen o Terremoto, cambia a Slowbro. Frente a Nidoking, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Nidoking, usa Amortiguador hasta recuperar los PS al máximo."
+        },
+        {
+          "detail": "Si después de curarte el rival se queda, usa Teletransporte. Entra Slowbro, usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si cambia a Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    }
   ]
 }

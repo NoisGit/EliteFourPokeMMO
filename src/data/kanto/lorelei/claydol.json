@@ -2,13 +2,16 @@
   "id": "claydol",
   "name": "Claydol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Después de poner Trampa Rocas: cambia a Cloyster y luego a Metagross.",
+      "detail": "Coloca Trampa Rocas frente a Lucario. Cuando entre Lapras, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Contra Lapras: usa Truco para bloquear Hidrobomba y luego cambia a Poliwrath +6 +2."
+          "detail": "Después saca a Politoed y deja que caiga para darle entrada segura a Poliwrath."
+        },
+        {
+          "detail": "Con Poliwrath en campo, usa Tambor para quedar en +6 Ataque y comienza a barrer. 🐸"
         }
       ]
     }
