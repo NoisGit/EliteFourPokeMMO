@@ -19,6 +19,7 @@ export default function PokemonGuide() {
   const [showTips, setShowTips] = useState(false)
   const [language, setLanguage] = useState<Language>('es')
   const [regions, setRegions] = useState<Region[]>([])
+  const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
   const { getPokemonFiles } = useDynamicImports()
   const t = translations[language]
 
@@ -37,7 +38,7 @@ export default function PokemonGuide() {
 
   useEffect(() => {
     const loadPokemonData = async () => {
-      if (regions.length === 0 || regions.some((region) => region.leaders.some((leader) => leader.pokemons && leader.pokemons.length > 0))) return
+      if (regions.length === 0 || pokemonDataLoaded) return
 
       const updatedRegions = []
 
@@ -82,10 +83,11 @@ export default function PokemonGuide() {
       }
 
       setRegions(updatedRegions)
+      setPokemonDataLoaded(true)
     }
 
     loadPokemonData()
-  }, [regions, getPokemonFiles])
+  }, [regions, pokemonDataLoaded])
 
   const handleRegionClick = (regionId: string) => {
     if (expandedRegion === regionId) {
@@ -124,7 +126,7 @@ export default function PokemonGuide() {
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.22),_transparent_32%),radial-gradient(circle_at_top_right,_rgba(59,130,246,0.2),_transparent_28%),linear-gradient(135deg,_#0b1020_0%,_#111827_45%,_#1e1b4b_100%)]" />
 
       <main className="relative mx-auto min-h-screen w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <section className="mb-8 rounded-[2rem] border border-white/10 bg-white/8 p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-8">
+        <section className="mb-8 rounded-[2rem] border border-white/10 bg-white/[0.08] p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-8">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div className="max-w-3xl">
               <span className="mb-3 inline-flex rounded-full border border-rose-300/30 bg-rose-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.24em] text-rose-100">
