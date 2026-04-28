@@ -2,15 +2,15 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Amortiguador",
   "tricks": [
     {
-      "detail": "Si NO SE RETIRA, usa Truco. para encerrar Puño Trueno, cambia a Excadrill 4+2",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia a SEISMITOAD, usa Truco para encerrarlo en Terremoto, cambia a Cloyster +4",
-      "variant": []
+      "detail": "Usa Amortiguador para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte hacia Gengar, usa Otra Vez y Maquinación hasta +4."
+        }
+      ]
     }
   ]
 }
