@@ -2,11 +2,18 @@
   "id": "heracross",
   "name": "Heracross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Amortiguador",
   "tricks": [
     {
-      "detail": "Cambia a Rhyperior, saca a Cloyster +4",
-      "variant": []
+      "detail": "Usa Amortiguador para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Gengar, usa Otra Vez y Maquinación hasta +4."
+        },
+        {
+          "detail": "Usa Otra Vez nuevamente cuando sea necesario, porque Heracross tiene Banda Focus."
+        }
+      ]
     }
   ]
 }
