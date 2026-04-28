@@ -21,9 +21,13 @@ const moveTranslations: Array<[RegExp, string]> = [
   [/\bCabezazo Zen\b/gi, 'Zen Headbutt'],
   [/\bGiro Bola\b/gi, 'Gyro Ball'],
   [/\bAutodestrucci[oó]n\b/gi, 'Self-Destruct'],
+  [/\bExplosi[oó]n\b/gi, 'Explosion'],
   [/\bHuesomerang\b/gi, 'Bonemerang'],
   [/\bEscaldar\b/gi, 'Scald'],
+  [/\bRayo Hielo\b/gi, 'Ice Beam'],
   [/\bRayo\b/gi, 'Thunderbolt'],
+  [/\bAcua Cola\b/gi, 'Aqua Tail'],
+  [/\bCascada\b/gi, 'Waterfall'],
   [/\bPoder Oculto\b/gi, 'Hidden Power'],
   [/\bBostezo\b/gi, 'Yawn'],
   [/\bAmortiguador\b/gi, 'Soft-Boiled'],
@@ -31,10 +35,18 @@ const moveTranslations: Array<[RegExp, string]> = [
   [/\bPuño Drenaje\b/gi, 'Drain Punch'],
   [/\bBola Sombra\b/gi, 'Shadow Ball'],
   [/\bEncanto\b/gi, 'Charm'],
+  [/\bPs[ií]quico\b/gi, 'Psychic'],
 ]
 
 const itemTranslations: Array<[RegExp, string]> = [
   [/\bLlamasfera\b/gi, 'Flame Orb'],
+  [/\bVidasfera\b/gi, 'Life Orb'],
+  [/\bRevivir Hierba\b/gi, 'Revival Herb'],
+  [/\bMedicina Pequeña\b/gi, 'Small Medicine'],
+]
+
+const abilityTranslations: Array<[RegExp, string]> = [
+  [/\bPiel Seca\b/gi, 'Dry Skin'],
 ]
 
 const phraseTranslations: Array<[RegExp, string]> = [
@@ -72,6 +84,7 @@ const phraseTranslations: Array<[RegExp, string]> = [
   [/\bencerrar en\b/gi, 'lock into'],
   [/\bcontra\b/gi, 'against'],
   [/\bfrente a\b/gi, 'against'],
+  [/\btipo Tierra\b/gi, 'Ground-type'],
 ]
 
 const regionTranslations: Array<[RegExp, string]> = [
@@ -81,7 +94,7 @@ const regionTranslations: Array<[RegExp, string]> = [
 export const translateStrategyText = (text: string, language: Language) => {
   if (language === 'es') return text
 
-  return [...moveTranslations, ...itemTranslations, ...phraseTranslations, ...regionTranslations]
+  return [...moveTranslations, ...itemTranslations, ...abilityTranslations, ...phraseTranslations, ...regionTranslations]
     .reduce((currentText, [pattern, replacement]) => currentText.replace(pattern, replacement), text)
 }
 
