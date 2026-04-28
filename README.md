@@ -16,7 +16,7 @@ https://noisgit.github.io/EliteFourPokeMMO/
 - Spanish as the primary in-app language, with an English UI option.
 - Dynamic strategy loading from JSON files grouped by region and trainer.
 - Redesigned cards for regions, trainers, Pokémon, and strategy steps.
-- Gen 8-style Pokémon sprites with animated and local fallbacks.
+- Pokémon HOME sprites with Scarlet/Violet, Gen 8, animated, and local fallbacks.
 - Context-aware boost notes for common setup routes.
 - GitHub Pages deployment from the `main` branch.
 
@@ -72,6 +72,16 @@ The production build is generated in:
 ```text
 dist/
 ```
+
+## Security checks
+
+Run the dependency audit before merging dependency updates:
+
+```bash
+npm run security:audit
+```
+
+See [`SECURITY.md`](./SECURITY.md) for the project security policy.
 
 ## GitHub Pages deployment
 
