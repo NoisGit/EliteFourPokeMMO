@@ -1,4 +1,10 @@
+import { useEffect, useState } from 'react'
 import type { ConfigLeader } from '../interfaces/Region'
+import {
+  getCleanTrainerSpriteUrl,
+  getLocalTrainerSpriteUrl,
+  shouldCleanTrainerSprite,
+} from '../utils/trainerSprites'
 
 interface LeaderCardProps {
   leader: ConfigLeader
@@ -7,7 +13,24 @@ interface LeaderCardProps {
 }
 
 export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => {
-  const leaderImage = `${import.meta.env.BASE_URL}images/lideres/${leader.name.toLowerCase().replace(/ /g, '_')}.png`
+  const localLeaderImage = getLocalTrainerSpriteUrl(leader.name)
+  const [leaderImage, setLeaderImage] = useState(localLeaderImage)
+
+  useEffect(() => {
+    let isMounted = true
+
+    setLeaderImage(localLeaderImage)
+
+    if (!shouldCleanTrainerSprite(leader.name)) return
+
+    getCleanTrainerSpriteUrl(localLeaderImage).then((cleanedImage) => {
+      if (isMounted) setLeaderImage(cleanedImage)
+    })
+
+    return () => {
+      isMounted = false
+    }
+  }, [leader.name, localLeaderImage])
 
   return (
     <button
