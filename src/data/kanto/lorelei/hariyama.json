@@ -2,21 +2,16 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🐌 Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "SI NO CAMBIA utiliza Truco para encerrar en Roca Afilada, cambia a Scrafty +3 (Utiliza A Bocajarro contra Hariyama y Gliscor)(Puño Drenaje contra Lapras)",
+      "detail": "Cambia a Slowbro y usa Bostezo para dormir la amenaza.",
       "variant": [
         {
-          "detail": "Si Entra Nidoking, cambia a Excadrill y luego cambia a Chandelure para usar Truco y encerrar Tierra viva, vuelve a Excadrill 4+2"
-        }
-      ]
-    },
-    {
-      "detail": "NIDOKING, utiliza Truco para encerrar en Tierra Viva, cambia a Excadrill 4+2 (Utiliza Terremoto para acabar con Lapras)",
-      "variant": [
+          "detail": "Después saca a Politoed y deja que caiga para darle entrada segura a Poliwrath."
+        },
         {
-          "detail": "Si entra Lapras mientras te preparas, cambia a Poliwrath 6+2"
+          "detail": "Con Poliwrath, usa Tambor para quedar en +6 Ataque. 🐸 Usa Puño Drenaje contra Jynx."
         }
       ]
     }
