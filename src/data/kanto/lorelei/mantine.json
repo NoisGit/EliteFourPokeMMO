@@ -2,28 +2,75 @@
   "id": "mantine",
   "name": "Mantine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "UTILIZA PUÑO TRUENO (Si MANTINE NO CAMBIA SIGUE ATACANDO)",
+  "initialMove": "TRAMPA ROCAS",
   "tricks": [
-    {"detail": "Si cambia a Magnezone, saca a Excadrill y matalo con Terremoto, observa:", "variant": [
-      {"detail": "Si sale Mantine, saca a Chandelure y utiliza Truco para encerrar en Escaldar, saca a Scrafty + 1 Defensa Especial X + 2 Danza Dragón (Mantine necesita ser golpeado 2 veces)"},
-      {"detail": "Si sale Lapras, coloca Trampa Rocas, cambia a Poliwrath 6+2"}
-    ]},
-    {"detail": "Si cambia a Chansey, saca a Scrafty +1 luego utiliza Raíz Energía para recuperar PS y vuelva a usar Danza Dragón +1 (Utiliza Paliza para eliminar a Vileplume o Bronzong) // Mantine y Vileplume necesitan 2 Golpes // Curas con Lapras al final", "variant": [
-      {"detail": "Si mientras estás preparando el Scrafty sale Nidoking, cambia a Excadrill luego cambia a Chandelure y utiliza Truco para encerrar en Terremoto, vuelve con Excadrill, Trampa Rocas y +6"}
-    ]},
-    {"detail": "Si cambia a Nidoking, saca a Excadrill luego a Chandelure y observa el movimiento:", "variant": [
-      {"detail": "Roca Afilada, usa Truco y observa:", "variant": [
-        {"detail": "Si usa Tierra Viva, observa la vida de Mantine:", "variant": [
-          {"detail": "Si tiene Vida Completa, entra Excadrill + Trampa Rocas, luego cambia a Cloyster +6"},
-          {"detail": "No está Full Vida, entra Excadrill +6 +0"}
-        ]},
-        {"detail": "Si usa Rayo, saca a Excadrill, Trampa Rocas +6 +0 (Si Mantine no tiene full vida, puedes omitir las Trampa Rocas)"}
-      ]},
-      {"detail": "Rayo Hielo, usa Truco y bloquea el Tierra Viva, entra Excadrill, Trampa Rocas y cambias a Cloyster +6"},
-      {"detail": "Llamarada, usa Truco y bloquea el Tierra Viva, luego revisa la vida de Mantine:", "variant": [
-        {"detail": "Si tiene Vida Completa, entra Excadrill + Trampa Rocas + 6 + 0"},
-        {"detail": "Si No está Full Vida, entra Excadrill +4 +0"}
-      ]}
-    ]}
+    {
+      "detail": "Si entra Lapras: cambia a Poliwrath. Si luego entra Slowbro y después sale Mantine, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si frente a Mantine sale Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona +1 y usa Ataque Especial X."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lucario: cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath +6."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Bronzong: usa Encanto.",
+      "variant": []
+    },
+    {
+      "detail": "Si recibe un ataque tipo Psíquico o Tierra: cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath +6."
+        }
+      ]
+    },
+    {
+      "detail": "Si usa Explosión y luego sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath +6.",
+      "variant": []
+    },
+    {
+      "detail": "Si usa Explosión y luego sale Nidoking: usa Amortiguador hasta quedar con PS al máximo.",
+      "variant": []
+    },
+    {
+      "detail": "Si Mantine se queda en campo: usa Teletransporte hacia Slowbro y luego usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath +6."
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath +6.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Golduck: cambia a Gengar.",
+      "variant": []
+    },
+    {
+      "detail": "Si el rival se queda después de Golduck: cambia a Slowbro. Si luego sale Mantine, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona +1 y usa Ataque Especial X."
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lapras después de Golduck: cambia a Slowbro y usa Bostezo frente a Magnezone.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Poliwrath. Después entra con Volcarona +2 y usa Ataque Especial X."
+        }
+      ]
+    }
   ]
 }
