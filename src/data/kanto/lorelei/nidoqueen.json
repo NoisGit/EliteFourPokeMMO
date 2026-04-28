@@ -4,6 +4,13 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "TRUCO",
   "tricks": [
-    {"detail": "Cambia a Excadrill 6+2 (Terremoto para matar a Lapras) (Si Lapras aparece mientras te estas preparando, cambia a Poliwrath 6+2)", "variant": []}
+    {
+      "detail": "Después de Truco: cambia a Excadrill 6+2. Usa Terremoto para debilitar a Lapras cuando corresponda.",
+      "variant": [
+        {
+          "detail": "Si Lapras aparece mientras preparas a Excadrill: cambia a Poliwrath 6+2."
+        }
+      ]
+    }
   ]
 }
