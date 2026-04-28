@@ -4,25 +4,82 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "TRAMPA ROCAS",
   "tricks": [
-    {"detail": "Surf → Cambia a Poliwrath 6+2 // (Si entra Slowbro, cambia a Chandelure, Truco para encerrar en Escaldar, luego cambia a Poliwrath 6+2)", "variant": []},
-    {"detail": "Rayo → Cambia a Excadrill 6+2 // (Si entra Slowbro, cambia a Chandelure, Truco para encerrar en Escaldar, luego cambia a Poliwrath 6+2)", "variant": []},
-    {"detail": "Taladradora→ Cambia a Excadrill para poner Trampa Rocas, luego cambia a Chandelure para hacer Truco a Mantine, saca a Scrafty +2 // (A Mantine hay que golpearlo 2 veces) // Si te saca crítico usa Raíz Energía", "variant": []},
-    {"detail": "Hidrobomba → Usa Trampa Rocas, luego cambia a Poliwrath 2 Veces Tambor +Velocidad X.", "variant": [
-      {"detail": "(Si Metagross no aguanta el ataque y no puedes poner Trampa Rocas, dale Defensa X a Poliwrath y usa 2 tambores.)"},
-      {"detail": "Lucario te mata → Saca a Chandelure, Truco para encerrar en Triturar / Roca Afilada, saca a Scrafty +2"}
-    ]},
-    {"detail": "Nidoqueen → Observa el ítem intercambiado:", "variant": [
-      {"detail": "Vidasfera → Cambia a Excadrill 6+2 (Mata a Lapras con Terremoto)"},
-      {"detail": "Casco Dentado → Cambia a Excadrill Trampa Rocas, 4+2 (Terremoto para matar a Nido)"}
-    ]},
-   {"detail": "Nidoking → Cambia a Excadrill para colocar Trampa Rocas, luego cambia a Cloyster +6", "variant": []},
-    {"detail": "Slowbro → Cambia a Chandelure y utiliza Poder Oculto para bajarle vida a Dragonite, luego cambia a Excadrill", "variant": [
-      {"detail": "Si entra Lapras / Slowbro → Cambia a Poliwrath 6+2"},
-      {"detail": "Lucario → Cambia a Chandelure y utiliza Truco para encerrar en Triturar / Roca Afilada, luego cambia a Scrafty +2"} 
-      ]},
-    {"detail": "Blissey / Jigglypuff → Cambia a Chandelure y utiliza Truco para encerrar el Tierra Viva de Nidoking, luego cambia a Excadrill +6", "variant": []},
-    {"detail": "Magnezone → Cambia a Excadrill, utiliza Trampa Rocas luego Terremoto para matar a Magnezone // Si entra Lapras, cambia a Poliwrath 6+2", "variant": []},
-    {"detail": "Bronzong → Saca a Excadrill 6+2, luego pon Trampa Rocas", "variant": []}
+    {
+      "detail": "Surf → cambia a Poliwrath y ejecuta 6+2.",
+      "variant": [
+        {
+          "detail": "Si entra Slowbro: cambia a Chandelure, usa Truco para bloquear Escaldar y luego vuelve a Poliwrath 6+2."
+        }
+      ]
+    },
+    {
+      "detail": "Rayo → cambia a Excadrill y ejecuta 6+2.",
+      "variant": [
+        {
+          "detail": "Si entra Slowbro: cambia a Chandelure, usa Truco para bloquear Escaldar y luego vuelve a Poliwrath 6+2."
+        }
+      ]
+    },
+    {
+      "detail": "Taladradora → cambia a Excadrill y pon Trampa Rocas. Luego cambia a Chandelure, usa Truco sobre Mantine y saca a Scrafty +2.",
+      "variant": [
+        {
+          "detail": "Contra Mantine: necesitas golpearlo 2 veces. Si recibes un crítico y quedas en riesgo, usa Raíz Energía."
+        }
+      ]
+    },
+    {
+      "detail": "Hidrobomba → usa Trampa Rocas. Luego cambia a Poliwrath, usa Tambor 2 veces y usa Velocidad X.",
+      "variant": [
+        {
+          "detail": "Si Metagross no aguanta y no alcanza a poner Trampa Rocas: usa Defensa X en Poliwrath y luego usa 2 Tambores."
+        },
+        {
+          "detail": "Si Lucario debilita a Poliwrath: saca a Chandelure, usa Truco para bloquear Triturar o Roca Afilada, y luego saca a Scrafty +2."
+        }
+      ]
+    },
+    {
+      "detail": "Nidoqueen → revisa el objeto que recibió con Truco.",
+      "variant": [
+        {
+          "detail": "Vidasfera → cambia a Excadrill 6+2. Usa Terremoto para debilitar a Lapras cuando corresponda."
+        },
+        {
+          "detail": "Casco Dentado → cambia a Excadrill, pon Trampa Rocas y ejecuta 4+2. Usa Terremoto para debilitar a Nidoqueen."
+        }
+      ]
+    },
+    {
+      "detail": "Nidoking → cambia a Excadrill para poner Trampa Rocas. Luego cambia a Cloyster +6.",
+      "variant": []
+    },
+    {
+      "detail": "Slowbro → cambia a Chandelure y usa Poder Oculto para bajar la vida de Dragonite. Luego cambia a Excadrill.",
+      "variant": [
+        {
+          "detail": "Si después entra Lapras o Slowbro: cambia a Poliwrath y ejecuta 6+2."
+        },
+        {
+          "detail": "Si entra Lucario: cambia a Chandelure, usa Truco para bloquear Triturar o Roca Afilada, y luego cambia a Scrafty +2."
+        }
+      ]
+    },
+    {
+      "detail": "Blissey / Jigglypuff → cambia a Chandelure y usa Truco para bloquear Tierra Viva de Nidoking. Luego cambia a Excadrill +6.",
+      "variant": []
+    },
+    {
+      "detail": "Magnezone → cambia a Excadrill, pon Trampa Rocas y usa Terremoto para debilitar a Magnezone.",
+      "variant": [
+        {
+          "detail": "Si después entra Lapras: cambia a Poliwrath 6+2."
+        }
+      ]
+    },
+    {
+      "detail": "Bronzong → saca a Excadrill 6+2 y luego pon Trampa Rocas.",
+      "variant": []
+    }
   ]
 }
-        
