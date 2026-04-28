@@ -1,14 +1,18 @@
 const GEN_8_SPRITE_BASE_URL = 'https://play.pokemonshowdown.com/sprites/gen8'
 const ANIMATED_SPRITE_BASE_URL = 'https://play.pokemonshowdown.com/sprites/ani'
 const POKEMON_DB_GEN_9_SPRITE_BASE_URL = 'https://img.pokemondb.net/sprites/scarlet-violet/normal'
+const POKEMON_DB_HOME_SPRITE_BASE_URL = 'https://img.pokemondb.net/sprites/home/normal/1x'
 
 const specialSpriteSlugs: Record<string, string> = {
+  'rotom agua': 'rotom-wash',
+  'rotom lavadora': 'rotom-wash',
+  'rotom wash': 'rotom-wash',
   'rotom hielo': 'rotom-frost',
   'rotom-hielo': 'rotom-frost',
   'rotom calor': 'rotom-heat',
-  'rotom lavadora': 'rotom-wash',
   'rotom corte': 'rotom-mow',
   'rotom ventilador': 'rotom-fan',
+  'rotom abanico': 'rotom-fan',
   'nidoran macho': 'nidoran-m',
   'nidoran hembra': 'nidoran-f',
   'mime jr': 'mime-jr',
@@ -34,6 +38,10 @@ export const getPokemonGen8SpriteUrl = (name: string) => {
 
 export const getPokemonDbGen9SpriteUrl = (name: string) => {
   return `${POKEMON_DB_GEN_9_SPRITE_BASE_URL}/${getPokemonSpriteSlug(name)}.png`
+}
+
+export const getPokemonDbHomeSpriteUrl = (name: string) => {
+  return `${POKEMON_DB_HOME_SPRITE_BASE_URL}/${getPokemonSpriteSlug(name)}.png`
 }
 
 export const getPokemonAnimatedSpriteUrl = (name: string) => {

@@ -4,6 +4,7 @@ import {
   getLocalPokemonSpriteUrl,
   getPokemonAnimatedSpriteUrl,
   getPokemonDbGen9SpriteUrl,
+  getPokemonDbHomeSpriteUrl,
   getPokemonGen8SpriteUrl,
 } from '../utils/pokemonSprites'
 
@@ -26,18 +27,24 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
   const handleSpriteError = () => {
     if (fallbackStep === 0) {
       setFallbackStep(1)
-      setSpriteSrc(getPokemonGen8SpriteUrl(pokemon.name))
+      setSpriteSrc(getPokemonDbHomeSpriteUrl(pokemon.name))
       return
     }
 
     if (fallbackStep === 1) {
       setFallbackStep(2)
-      setSpriteSrc(getPokemonAnimatedSpriteUrl(pokemon.name))
+      setSpriteSrc(getPokemonGen8SpriteUrl(pokemon.name))
       return
     }
 
     if (fallbackStep === 2) {
       setFallbackStep(3)
+      setSpriteSrc(getPokemonAnimatedSpriteUrl(pokemon.name))
+      return
+    }
+
+    if (fallbackStep === 3) {
+      setFallbackStep(4)
       setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))
     }
   }
