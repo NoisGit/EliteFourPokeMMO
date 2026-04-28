@@ -63,3 +63,5 @@ export const translations = {
     initialMoveLabel: 'Recommended opener',
   },
 } as const
+
+export type TranslationLabels = typeof translations.es
