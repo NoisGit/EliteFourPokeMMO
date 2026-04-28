@@ -54,13 +54,13 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
       type="button"
       className={`group relative min-w-0 cursor-pointer overflow-hidden rounded-2xl border bg-slate-950/60 p-2 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200/40 hover:bg-slate-900/90 ${
         isSelected
-          ? 'scale-[1.03] border-cyan-200/70 ring-2 ring-cyan-300/70'
+          ? 'scale-[1.02] border-cyan-200/70 ring-2 ring-cyan-300/70 sm:scale-[1.03]'
           : 'border-white/10'
       }`}
       onClick={() => onClick(pokemon)}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-300/10 via-transparent to-rose-400/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-      <div className="relative flex h-24 items-center justify-center sm:h-28">
+      <div className="relative flex h-20 items-center justify-center min-[380px]:h-24 sm:h-28">
         <img
           src={spriteSrc}
           alt={pokemon.name}

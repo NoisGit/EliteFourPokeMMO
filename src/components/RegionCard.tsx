@@ -26,10 +26,10 @@ export const RegionCard = ({ region, isExpanded, onClick }: RegionCardProps) => 
       onClick={() => onClick(region.id)}
     >
       <div className={`absolute inset-0 bg-gradient-to-br ${regionAccent[region.id] || 'from-cyan-300/20 to-rose-400/10'} opacity-80`} />
-      <div className="relative flex h-20 items-end sm:h-24">
-        <div>
+      <div className="relative flex h-16 items-end sm:h-24">
+        <div className="min-w-0">
           <span className="mb-2 block h-1 w-10 rounded-full bg-cyan-200 transition-all duration-300 group-hover:w-16" />
-          <span className="block text-xl font-black text-white sm:text-2xl">{region.name}</span>
+          <span className="block truncate text-xl font-black text-white sm:text-2xl">{region.name}</span>
         </div>
       </div>
     </button>
