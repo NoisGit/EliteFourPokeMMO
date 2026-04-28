@@ -1,34 +1,4 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 1rem;
+  min-height: 100vh;
   width: 100%;
-}
-
-body {
-  background-color: #f9fafb;
-  color: #111827;
-}
-
-.dark body {
-  background-color: #111827;
-  color: #f9fafb;
-}
-
-/* Support for Pokemon Guide component */
-.pokemon-guide {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  #root {
-    padding: 0.5rem;
-  }
-  
-  .pokemon-guide {
-    max-width: 100%;
-  }
 }
