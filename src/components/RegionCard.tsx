@@ -1,27 +1,37 @@
-import type { Region } from '../interfaces/Region';
+import type { Region } from '../interfaces/Region'
+
+const regionAccent: Record<string, string> = {
+  kanto: 'from-red-400/25 to-amber-300/10',
+  johto: 'from-yellow-300/25 to-orange-400/10',
+  hoenn: 'from-emerald-300/25 to-cyan-400/10',
+  sinnoh: 'from-indigo-300/25 to-sky-400/10',
+  teselia: 'from-violet-300/25 to-rose-400/10',
+}
 
 interface RegionCardProps {
-  region: Region;
-  isExpanded: boolean;
-  onClick: (regionId: string) => void;
+  region: Region
+  isExpanded: boolean
+  onClick: (regionId: string) => void
 }
 
 export const RegionCard = ({ region, isExpanded, onClick }: RegionCardProps) => {
   return (
-    <div
-      className={`relative cursor-pointer rounded-lg overflow-hidden transition-all duration-300 bg-[#1e293b] border border-gray-700 flex-shrink-0 min-w-0 ${
+    <button
+      type="button"
+      className={`group relative min-w-0 overflow-hidden rounded-3xl border p-4 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 ${
         isExpanded
-          ? "ring-2 ring-blue-400 transform scale-105"
-          : "hover:transform hover:scale-102"
+          ? 'border-cyan-200/70 bg-slate-900/90 ring-2 ring-cyan-300/70'
+          : 'border-white/10 bg-slate-950/55 hover:border-white/25 hover:bg-slate-900/80'
       }`}
       onClick={() => onClick(region.id)}
     >
-      <div 
-        className="w-full h-16 sm:h-20 md:h-24 bg-[#2a3a51]"
-      ></div>
-      <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-        <span className="text-white font-bold text-xs sm:text-sm md:text-lg text-center px-1">{region.name}</span>
+      <div className={`absolute inset-0 bg-gradient-to-br ${regionAccent[region.id] || 'from-cyan-300/20 to-rose-400/10'} opacity-80`} />
+      <div className="relative flex h-20 items-end sm:h-24">
+        <div>
+          <span className="mb-2 block h-1 w-10 rounded-full bg-cyan-200 transition-all duration-300 group-hover:w-16" />
+          <span className="block text-xl font-black text-white sm:text-2xl">{region.name}</span>
+        </div>
       </div>
-    </div>
-  );
-};
+    </button>
+  )
+}

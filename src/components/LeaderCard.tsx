@@ -1,31 +1,36 @@
-import type { ConfigLeader } from '../interfaces/Region';
+import type { ConfigLeader } from '../interfaces/Region'
 
 interface LeaderCardProps {
-  leader: ConfigLeader;
-  isExpanded: boolean;
-  onClick: (leaderId: string) => void;
+  leader: ConfigLeader
+  isExpanded: boolean
+  onClick: (leaderId: string) => void
 }
 
 export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => {
+  const leaderImage = `${import.meta.env.BASE_URL}images/lideres/${leader.name.toLowerCase().replace(/ /g, '_')}.png`
+
   return (
-    <div
-      className={`relative cursor-pointer rounded-lg overflow-hidden transition-all duration-300 bg-[#1e293b] border border-gray-700 flex-shrink-0 min-w-0 ${
+    <button
+      type="button"
+      className={`group relative min-w-0 overflow-hidden rounded-3xl border bg-slate-950/60 p-3 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-rose-200/40 hover:bg-slate-900/90 ${
         isExpanded
-          ? "ring-2 ring-red-400 transform scale-105"
-          : "hover:transform hover:scale-102"
+          ? 'scale-[1.03] border-rose-200/70 ring-2 ring-rose-300/70'
+          : 'border-white/10'
       }`}
       onClick={() => onClick(leader.id)}
     >
-      <div className="flex items-center justify-center p-1 sm:p-2">
-        <img 
-          src={`${import.meta.env.BASE_URL}images/lideres/${leader.name.toLowerCase().replace(/ /g, '_')}.png`}
-          alt={leader.name} 
-          className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain" 
+      <div className="absolute inset-0 bg-gradient-to-br from-rose-400/15 via-transparent to-cyan-300/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+      <div className="relative flex h-24 items-center justify-center sm:h-28">
+        <img
+          src={leaderImage}
+          alt={leader.name}
+          className="max-h-24 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105 sm:max-h-28"
+          loading="lazy"
         />
       </div>
-      <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-        <span className="text-white font-bold text-xs sm:text-sm md:text-lg text-center px-1">{leader.name}</span>
-      </div>
-    </div>
-  );
-};
+      <span className="relative mt-2 block truncate rounded-xl bg-black/35 px-2 py-1 text-center text-sm font-black text-white sm:text-base">
+        {leader.name}
+      </span>
+    </button>
+  )
+}

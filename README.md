@@ -1,77 +1,81 @@
-# Pokemon Guide - Vite Version
+# Farm Liga PokeMMO
 
-This project is a migration of the Pokemon Guide component from Next.js to a pure React application using Vite. The guide provides information about Pokemon trainers and their Pokemon across different regions.
+Guía visual para farmear las Ligas de PokeMMO por región, miembro del Alto Mando/Campeón y Pokémon rival.
 
-## Features
+## Características
 
-- Interactive Pokemon guide with expandable regions, leaders, and Pokemon details
-- Dynamic data loading from JSON configuration files
-- Light/dark mode toggle
-- Responsive design with Tailwind CSS
-- Animations for smooth transitions
+- Interfaz responsive con React, TypeScript, Vite y Tailwind CSS.
+- Español como idioma principal e inglés como idioma alternativo.
+- Carga dinámica de estrategias desde archivos JSON por región y líder.
+- Tarjetas rediseñadas para regiones, líderes y Pokémon.
+- Sprites modernos: primero intenta cargar sprites de generación 8 y luego usa fallbacks animados/locales.
+- Leyenda para boosts frecuentes como Maquinación, Velocidad X y Precisión X.
+- GitHub Pages configurado para desplegar desde `main`.
 
-## Setup Instructions
+## Requisitos
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+- Node.js 20 o superior recomendado.
+- npm.
 
-### Installation
+## Instalación
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/pokemon-guide.git
-   cd pokemon-guide/pkm-guide-vite
-   ```
+```bash
+git clone https://github.com/NoisGit/EliteFourPokeMMO.git
+cd EliteFourPokeMMO
+npm install
+```
 
-2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn
-   ```
+## Desarrollo local
 
-3. Start the development server
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+```bash
+npm run dev
+```
 
-4. Open your browser and navigate to http://localhost:5173
+Luego abre `http://localhost:5173`.
 
-### Project Structure
+## Build
 
-- `/src/components/` - React components including PokemonGuide and TrickItem
-- `/src/data/` - JSON configuration files for regions, leaders, and Pokemon
-- `/public/` - Static assets like images
+```bash
+npm run build
+```
 
-## Deployment to GitHub Pages
+El build se genera en `dist/`.
 
-This project is configured for easy deployment to GitHub Pages using GitHub Actions.
+## Deploy en GitHub Pages
 
-### Manual Deployment
+El workflow `.github/workflows/deploy.yml` despliega automáticamente cuando se hace push a `main`.
 
-1. Build the project
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
+La app queda preparada para publicarse con base path:
 
-2. The built files will be in the `dist` directory, which you can deploy to any static hosting service
+```ts
+base: '/EliteFourPokeMMO/'
+```
 
-### Automated Deployment with GitHub Actions
+URL esperada:
 
-This repository includes a GitHub Actions workflow that automatically deploys the application to GitHub Pages when you push to the main branch.
+```text
+https://noisgit.github.io/EliteFourPokeMMO/
+```
 
-1. Push your changes to the main branch
-   ```bash
-   git add .
-   git commit -m "Your commit message"
-   git push origin main
-   ```
+## Estructura principal
 
-2. The GitHub Actions workflow will build and deploy your application
+```text
+src/
+  components/      Componentes de interfaz
+  data/            Estrategias JSON por región y líder
+  hooks/           Carga dinámica de datos
+  i18n/            Textos ES/EN
+  interfaces/      Tipos TypeScript
+  utils/           Helpers de sprites y traducción de estrategias
+```
 
-3. Your application will be available at `https://yourusername.github.io/pokemon-guide/`
+## Notas de estrategia
+
+La guía conserva los JSON actuales como fuente principal. La traducción al inglés se aplica desde una capa de helpers para mantener el contenido existente sin duplicarlo.
+
+Ejemplo de interpretación de boosts:
+
+- `+2` con Maquinación: +2 niveles de Ataque Especial.
+- `+2` con Velocidad X: +2 niveles de Velocidad.
+- `+2` con Precisión X: +2 niveles de Precisión.
+- `+4` y `+6`: boosts acumulados.
