@@ -8,7 +8,7 @@
       "detail": "Si entra Lapras: cambia a Poliwrath. Si luego entra Slowbro y después sale Mantine, usa Bostezo.",
       "variant": [
         {
-          "detail": "Si frente a Mantine sale Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona +1 y usa Ataque Especial X."
+          "detail": "Si frente a Mantine sale Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona, usa Danza Aleteo +1 y usa Ataque Especial X."
         }
       ]
     },
@@ -16,7 +16,7 @@
       "detail": "Si entra Lucario: cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath +6."
+          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6."
         }
       ]
     },
@@ -28,12 +28,12 @@
       "detail": "Si recibe un ataque tipo Psíquico o Tierra: cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath +6."
+          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6."
         }
       ]
     },
     {
-      "detail": "Si usa Explosión y luego sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath +6.",
+      "detail": "Si usa Explosión y luego sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6.",
       "variant": []
     },
     {
@@ -44,12 +44,12 @@
       "detail": "Si Mantine se queda en campo: usa Teletransporte hacia Slowbro y luego usa Bostezo.",
       "variant": [
         {
-          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath +6."
+          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6."
         }
       ]
     },
     {
-      "detail": "Si sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath +6.",
+      "detail": "Si sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6.",
       "variant": []
     },
     {
@@ -60,7 +60,7 @@
       "detail": "Si el rival se queda después de Golduck: cambia a Slowbro. Si luego sale Mantine, usa Bostezo.",
       "variant": [
         {
-          "detail": "Frente a Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona +1 y usa Ataque Especial X."
+          "detail": "Frente a Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona, usa Danza Aleteo +1 y usa Ataque Especial X."
         }
       ]
     },
@@ -68,7 +68,7 @@
       "detail": "Si sale Lapras después de Golduck: cambia a Slowbro y usa Bostezo frente a Magnezone.",
       "variant": [
         {
-          "detail": "Luego sacrifica a Poliwrath. Después entra con Volcarona +2 y usa Ataque Especial X."
+          "detail": "Luego sacrifica a Poliwrath. Después entra con Volcarona, usa Danza Aleteo +2 y usa Ataque Especial X."
         }
       ]
     }
