@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { ChevronDown, ChevronUp } from "lucide-react"
+import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react"
 
 import type { Pokemon } from "../interfaces/Pokemon"
 import type { Region } from "../interfaces/Region"
@@ -11,6 +11,8 @@ import { RegionCard } from "./RegionCard"
 import { LeaderCard } from "./LeaderCard"
 import { PokemonCard } from "./PokemonCard"
 import { PokemonDetails } from "./PokemonDetails"
+
+const TEAM_PASTE_URL = 'https://pokepast.es/e356ee22f26cf6dc'
 
 export default function PokemonGuide() {
   const [expandedRegion, setExpandedRegion] = useState<string | null>(null)
@@ -120,8 +122,6 @@ export default function PokemonGuide() {
   const currentRegion = regions.find((region) => region.id === expandedRegion)
   const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
   const currentLeaderPokemons = currentLeader?.pokemons || []
-  const isKantoRegion = currentRegion?.id === 'kanto'
-  const useLoreleiGen9Sprites = isKantoRegion && currentLeader?.id === 'lorelei'
 
   return (
     <div className="min-h-screen overflow-hidden bg-[#0b1020] text-slate-50">
@@ -168,9 +168,23 @@ export default function PokemonGuide() {
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-200">{t.routeLabel}</p>
               <p className="mt-2 text-lg font-black text-white">{t.route}</p>
             </div>
-            <div className="rounded-2xl border border-amber-300/20 bg-amber-300/10 p-4">
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-amber-100">{t.boostLegendTitle}</p>
-              <p className="mt-2 text-sm leading-6 text-amber-50">{t.boostLegend[0]}</p>
+            <div className="rounded-2xl border border-rose-300/20 bg-rose-300/10 p-4">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-rose-100">{t.teamLabel}</p>
+              <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="text-lg font-black text-white">{t.teamTitle}</p>
+                  <p className="mt-1 text-sm leading-5 text-rose-50/80">{t.teamDescription}</p>
+                </div>
+                <a
+                  href={TEAM_PASTE_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200"
+                >
+                  {t.teamButton}
+                  <ExternalLink className="h-4 w-4" />
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -237,7 +251,6 @@ export default function PokemonGuide() {
                   leader={leader}
                   isExpanded={expandedLeader === leader.id}
                   onClick={handleLeaderClick}
-                  trimWhiteFrame={isKantoRegion}
                 />
               ))}
             </div>
@@ -254,7 +267,6 @@ export default function PokemonGuide() {
                   pokemon={pokemon}
                   isSelected={selectedPokemon?.id === pokemon.id}
                   onClick={handlePokemonClick}
-                  useGen9Sprite={useLoreleiGen9Sprites}
                 />
               ))}
             </div>

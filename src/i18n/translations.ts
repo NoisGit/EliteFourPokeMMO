@@ -5,6 +5,10 @@ export interface TranslationLabels {
   subtitle: string
   routeLabel: string
   route: string
+  teamLabel: string
+  teamTitle: string
+  teamDescription: string
+  teamButton: string
   languageLabel: string
   tipsTitle: string
   tipsBadge: string
@@ -29,6 +33,10 @@ export const translations: Record<Language, TranslationLabels> = {
     subtitle: 'Guía visual para farmear la Liga con rutas, líderes y respuestas por Pokémon.',
     routeLabel: 'Ruta recomendada',
     route: 'Teselia → Hoenn → Sinnoh → Kanto → Johto',
+    teamLabel: 'Equipo recomendado',
+    teamTitle: 'PokePaste del team',
+    teamDescription: 'Consulta naturaleza, movimientos, objetos y spreads del equipo usado por la guía.',
+    teamButton: 'Ver equipo',
     languageLabel: 'Idioma',
     tipsTitle: 'Recomendaciones antes de empezar',
     tipsBadge: 'Equipo + tips',
@@ -58,6 +66,10 @@ export const translations: Record<Language, TranslationLabels> = {
     subtitle: 'Visual guide for League farming with routes, trainers, and matchup-specific answers.',
     routeLabel: 'Recommended route',
     route: 'Unova → Hoenn → Sinnoh → Kanto → Johto',
+    teamLabel: 'Recommended team',
+    teamTitle: 'Team PokePaste',
+    teamDescription: 'Check the nature, moves, items, and spreads used by this guide.',
+    teamButton: 'View team',
     languageLabel: 'Language',
     tipsTitle: 'Before you start',
     tipsBadge: 'Team + tips',
