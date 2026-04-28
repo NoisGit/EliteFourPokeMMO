@@ -1,23 +1,41 @@
-# Farm Liga PokeMMO
+# PokeMMO Elite Four Farming Guide
 
-Guía visual para farmear las Ligas de PokeMMO por región, miembro del Alto Mando/Campeón y Pokémon rival.
+A visual guide for farming PokeMMO Elite Four rematches by region, trainer, and opposing Pokémon.
 
-## Características
+The project focuses on fast decision-making during battles: select a region, pick the Elite Four member or Champion, choose the opposing Pokémon, and follow the recommended strategy.
 
-- Interfaz responsive con React, TypeScript, Vite y Tailwind CSS.
-- Español como idioma principal e inglés como idioma alternativo.
-- Carga dinámica de estrategias desde archivos JSON por región y líder.
-- Tarjetas rediseñadas para regiones, líderes y Pokémon.
-- Sprites modernos: primero intenta cargar sprites de generación 8 y luego usa fallbacks animados/locales.
-- Leyenda para boosts frecuentes como Maquinación, Velocidad X y Precisión X.
-- GitHub Pages configurado para desplegar desde `main`.
+## Features
 
-## Requisitos
+- Responsive interface built with React, TypeScript, Vite, and Tailwind CSS.
+- Spanish as the primary in-app language, with an English UI option.
+- Dynamic strategy loading from JSON files grouped by region and trainer.
+- Redesigned cards for regions, trainers, Pokémon, and strategy steps.
+- Gen 8-style Pokémon sprites with animated and local fallbacks.
+- Context-aware boost notes for common setup routes.
+- GitHub Pages deployment from the `main` branch.
 
-- Node.js 20 o superior recomendado.
+## Battle strategy notes
+
+Strategy text is intentionally short and direct. The goal is to explain what to do on each turn without turning each route into a long paragraph.
+
+Boost values are contextual. Do not read every `+2`, `+4`, or `+6` as the same stat.
+
+Examples:
+
+- `Gengar +2` usually means using **Nasty Plot** to raise Special Attack.
+- `Gengar +4` means stacking **Nasty Plot** twice.
+- `Poliwrath +6` usually means using **Belly Drum** to maximize Attack.
+- `Volcarona +1`, `+2`, or `+3` means stacking **Quiver Dance**.
+- `X Speed` gives the Speed boost when the route asks for it.
+- `X Accuracy` gives the Accuracy boost when the route asks for it.
+- `Sacrifice Politoed` or `sacrifice Poliwrath` means letting that Pokémon faint so the next Pokémon can enter safely.
+
+## Requirements
+
+- Node.js 20 or higher is recommended.
 - npm.
 
-## Instalación
+## Installation
 
 ```bash
 git clone https://github.com/NoisGit/EliteFourPokeMMO.git
@@ -25,13 +43,17 @@ cd EliteFourPokeMMO
 npm install
 ```
 
-## Desarrollo local
+## Local development
 
 ```bash
 npm run dev
 ```
 
-Luego abre `http://localhost:5173`.
+Open:
+
+```text
+http://localhost:5173
+```
 
 ## Build
 
@@ -39,43 +61,77 @@ Luego abre `http://localhost:5173`.
 npm run build
 ```
 
-El build se genera en `dist/`.
+The production build is generated in:
 
-## Deploy en GitHub Pages
+```text
+dist/
+```
 
-El workflow `.github/workflows/deploy.yml` despliega automáticamente cuando se hace push a `main`.
+## GitHub Pages deployment
 
-La app queda preparada para publicarse con base path:
+The project is configured to deploy automatically with GitHub Actions when changes are pushed to `main`.
+
+The Vite base path is:
 
 ```ts
 base: '/EliteFourPokeMMO/'
 ```
 
-URL esperada:
+Expected production URL:
 
 ```text
 https://noisgit.github.io/EliteFourPokeMMO/
 ```
 
-## Estructura principal
+## Project structure
 
 ```text
 src/
-  components/      Componentes de interfaz
-  data/            Estrategias JSON por región y líder
-  hooks/           Carga dinámica de datos
-  i18n/            Textos ES/EN
-  interfaces/      Tipos TypeScript
-  utils/           Helpers de sprites y traducción de estrategias
+  components/      UI components
+  data/            Strategy JSON files by region and trainer
+  hooks/           Dynamic data loading
+  i18n/            Spanish and English UI copy
+  interfaces/      TypeScript interfaces
+  utils/           Sprite and strategy text helpers
 ```
 
-## Notas de estrategia
+## Strategy data structure
 
-La guía conserva los JSON actuales como fuente principal. La traducción al inglés se aplica desde una capa de helpers para mantener el contenido existente sin duplicarlo.
+Strategies are stored as JSON files. Each Pokémon has an opening action and a list of strategy steps.
 
-Ejemplo de interpretación de boosts:
+```json
+{
+  "id": "slowbro",
+  "name": "Slowbro",
+  "initialMove": "TRAMPA ROCAS",
+  "tricks": [
+    {
+      "detail": "Sale Lucario → cambia a Gengar, usa Otra Vez, usa Maquinación hasta +4 y luego usa Velocidad X para quedar +2 Velocidad.",
+      "variant": [
+        {
+          "detail": "Mantén Otra Vez cada vez que puedas para controlar al rival."
+        },
+        {
+          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
+        }
+      ]
+    }
+  ]
+}
+```
 
-- `+2` con Maquinación: +2 niveles de Ataque Especial.
-- `+2` con Velocidad X: +2 niveles de Velocidad.
-- `+2` con Precisión X: +2 niveles de Precisión.
-- `+4` y `+6`: boosts acumulados.
+## Development workflow
+
+Use small branches and pull requests.
+
+Recommended branch naming examples:
+
+```text
+feature/improve-kanto-lorelei-strategies
+docs/update-readme-english
+fix/github-pages-deploy
+```
+
+Pull requests and commit messages should be written in English.
+
+Issues and task descriptions can be written in Spanish to keep the gameplay planning clear.
