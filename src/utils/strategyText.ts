@@ -6,6 +6,8 @@ const moveTranslations: Array<[RegExp, string]> = [
   [/\bOTRA VEZ\b/gi, 'Encore'],
   [/\bOtra vez\b/gi, 'Encore'],
   [/\bMaquinaci[oó]n\b/gi, 'Nasty Plot'],
+  [/\bTambor\b/gi, 'Belly Drum'],
+  [/\bDanza Aleteo\b/gi, 'Quiver Dance'],
   [/\bVelocidad X\b/gi, 'X Speed'],
   [/\bPrecisi[oó]n X\b/gi, 'X Accuracy'],
   [/\bSurf\b/gi, 'Surf'],
@@ -26,6 +28,9 @@ const phraseTranslations: Array<[RegExp, string]> = [
   [/\bSi cambia a\b/gi, 'If it switches to'],
   [/\bcambia a\b/gi, 'switch to'],
   [/\bsaca a\b/gi, 'send out'],
+  [/\bsacrifica a\b/gi, 'sacrifice'],
+  [/\bsacrificar a\b/gi, 'sacrifice'],
+  [/\bsacrifica\b/gi, 'sacrifice'],
   [/\butiliza\b/gi, 'use'],
   [/\busa\b/gi, 'use'],
   [/\bpara luego volver con\b/gi, 'then go back to'],
@@ -40,25 +45,15 @@ const regionTranslations: Array<[RegExp, string]> = [
   [/\bTeselia\b/g, 'Unova'],
 ]
 
-const boostDescriptions: Array<[RegExp, string]> = [
-  [/(\b|\s)6\+2(\b|\s|\.|\))/g, ' +6 Sp. Atk + X Speed'],
-  [/(\b|\s)\+6(\b|\s|\.|\))/g, ' +6 Sp. Atk'],
-  [/(\b|\s)\+4(\b|\s|\.|\))/g, ' +4 Sp. Atk'],
-  [/(\b|\s)\+2(\b|\s|\.|\))/g, ' +2'],
-]
-
 export const translateStrategyText = (text: string, language: Language) => {
   if (language === 'es') return text
 
-  return [...moveTranslations, ...phraseTranslations, ...regionTranslations, ...boostDescriptions]
+  return [...moveTranslations, ...phraseTranslations, ...regionTranslations]
     .reduce((currentText, [pattern, replacement]) => currentText.replace(pattern, replacement), text)
 }
 
 export const formatStrategyText = (text: string) => {
   return text
-    .replace(/\+2/g, '+2')
-    .replace(/\+4/g, '+4')
-    .replace(/\+6/g, '+6')
     .replace(/\s+/g, ' ')
     .trim()
 }
