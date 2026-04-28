@@ -2,67 +2,98 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Cambia a Gengar + Otra Vez",
   "tricks": [
     {
-      "detail": "Puño Dinámico → Utiliza Truco y observa:",
+      "detail": "Cambia a Gengar y usa Otra Vez. Luego decide según el movimiento o el cambio del rival.",
       "variant": [
         {
-          "detail": "ROCA AFILADA, cambia a Scrafty +3 (Paliza para matar a Hitmonlee, A Bocajarro para matar a Metagross) (Si chandelure muere por el Roca Afilada usa +1 Danza Dragón Extra) (puedes usar 1 Puño Drenaje cuando estes a +2 para recuperar Salud)",
-          "variant": [
-            {
-              "detail": "Si Scrafty llega a morir, saca a Metagross y utiliza Truco, si Steelix no se mueve, cambia a Chandelure y luego a Cloyster +6. (Si accidentalmente se encierra Muk, cambia a Chandelure para Revivir a Scrafty, usa Truco 2 veces y cambia a Scrafty +3",
-              "variant": []
-            }
-          ]
+          "detail": "Si usa Puño Dinámico, cambia a Slowbro. Si Machamp se queda, usa Bostezo."
         },
         {
-          "detail": "Vendetta, Cambia a Scrafty +3 (A Bocajarro para matar a Machamp)",
-          "variant": [
-            {
-              "detail": "Si cambia a Blastoise, saca a Poliwrath 6+4 (Puño Hielo para matar a Gliscor) (Si mueres frente a Hitmonlee, Chandelure utiliza Truco y lo encierra en avalancha, cambias a Scrafty +3)",
-              "variant": []
-            }
-          ]
+          "detail": "Si entra Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Blastoise, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Torterra, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Seismitoad, usa Bostezo. Cuando salga Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     },
     {
-      "detail": "Puño Drenaje → Utiliza Truco:",
+      "detail": "Si entra Electivire, cambia a Chansey y usa Amortiguador.",
       "variant": [
         {
-          "detail": "Roca Afilada (Baya Atania) → Scrafty +3. / Si Chandelure muere, cambia a Excadrill para quedar 6+2",
-          "variant": []
-        },
-        {
-          "detail": "Roca Afilada (Llama Esfera) → Scrafty +1, luego usa Puño Drenaje para curarse y después queda +2 / Usa Paliza + Puño Drenaje para Steelix y A Bocajarro para Hitmontop",
-          "variant": []
-        },
-        {
-          "detail": "Vendetta → Scrafty usa medicina de Defensa Especial y queda en +3 / Con Puño Drenaje mata a Lucario y Krookodile. / Si Lucario mata a Scrafty, entra Metagross con Truco, revive a Chandelure y Chandelure queda en +2+2",
-          "variant": []
-        },
-        {
-          "detail": "RHYPERIOR → Cloyster +4. / Carámbano para Heracross",
-          "variant": []
+          "detail": "Cuando salga Hitmonlee, entra con Gengar, usa Otra Vez, cambia a Slowbro y luego entra con Volcarona para usar Danza Aleteo x1."
         }
       ]
     },
     {
-      "detail": "Metagross → Truco y lo encierras en Avalancha, luego cambia a Metagross para usar Truco y encerrarlo en Krookodile, Cloyster +4. / Carámbano para matar a Lucario",
-      "variant": []
+      "detail": "Si entra Steelix, cambia a Chansey y usa Amortiguador o coloca Trampa Rocas según la ruta.",
+      "variant": [
+        {
+          "detail": "Si sale Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Si sale un Pokémon tipo Lucha o Ursaring, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+        }
+      ]
     },
     {
-      "detail": "Steelix → Truco y lo encierras en Terremoto, Cloyster + 4 + medicina de Ataque Especial",
-      "variant": []
+      "detail": "Si entra Muk o Krookodile, cambia a Chansey y coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si luego sale Metagross, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
+        },
+        {
+          "detail": "Si sale Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Si sale un Pokémon tipo Lucha o Ursaring, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+        }
+      ]
     },
     {
-      "detail": "Krookodile → Truco y lo encierras en Terremoto, Cloyster +4 . / Carámbano para matar a Lucario",
-      "variant": []
+      "detail": "Si Machamp usa Puño Drenaje con Llamasfera, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Usa Maquinación hasta +2 y barre con Bola Sombra."
+        }
+      ]
     },
     {
-      "detail": "Aggron → usa Truco para bloquear en Testarazo, luego Excadrill usa Defensa X +6+2.",
-      "variant": []
+      "detail": "Si Machamp usa Puño Drenaje sin Llamasfera, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Usa Maquinación hasta +2. Si Machamp se queda, sube con Maquinación hasta +4, usa Velocidad X para +2 Velocidad y mantén Otra Vez."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Rhyperior, cambia a Chansey y usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Cuando salga Heracross, usa Amortiguador para recibir A Bocajarro. Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4."
+        }
+      ]
+    },
+    {
+      "detail": "Si mientras te boosteas el rival cambia a Metagross, entra con Volcarona.",
+      "variant": [
+        {
+          "detail": "Si luego sale Krookodile, cambia a Chansey y coloca Trampa Rocas. Si vuelve Machamp, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Staraptor y la ruta queda inconclusa, usa Bostezo y revisa el combate. ⚠️ Guía inconclusa."
+    },
+    {
+      "detail": "Si entra Slowbro rival, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
     }
   ]
 }
