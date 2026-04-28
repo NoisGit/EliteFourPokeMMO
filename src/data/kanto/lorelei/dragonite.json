@@ -4,10 +4,20 @@
   "image": "/placeholder.svg?height=80&width=80",
   "initialMove": "CAMBIA A CHANDELURE",
   "tricks": [
-    {"detail": "NO CAMBIA, utiliza Poder Oculto, si aún sigue en el campo y no cambia, sigue usando Poder Oculto:", "variant": [
-      {"detail": "Si luego entra LAPRAS, cambia a Poliwrath 6+2. (Si sorpresivamente utiliza Rayo cambia a Excadrill 6+2)"},
-      {"detail": "Si luego entra LUCARIO, cambia a Scrafty para luego volver con Chandelure, usar Truco para encerrar en Roca Afilada o Triturar, saca a Scrafty +2"}
-    ]},
-    {"detail": "Si cambia a SLOWBRO usa Truco con Chandelure para encerrar en Escaldar, cambia a Poliwrath 6+2", "variant": []}
+    {
+      "detail": "Si Dragonite NO cambia: usa Poder Oculto con Chandelure. Repite Poder Oculto mientras Dragonite siga en campo.",
+      "variant": [
+        {
+          "detail": "Si luego entra Lapras: cambia a Poliwrath. Ejecuta la secuencia 6+2 indicada para Poliwrath. Si Lapras usa Rayo de forma inesperada, cambia a Excadrill y ejecuta 6+2."
+        },
+        {
+          "detail": "Si luego entra Lucario: cambia a Scrafty. Después vuelve a Chandelure, usa Truco para bloquear Triturar o Roca Afilada, y vuelve a sacar a Scrafty +2."
+        }
+      ]
+    },
+    {
+      "detail": "Si Dragonite cambia a Slowbro: usa Truco con Chandelure para bloquear Escaldar. Luego cambia a Poliwrath y ejecuta 6+2.",
+      "variant": []
+    }
   ]
 }
