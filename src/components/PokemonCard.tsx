@@ -1,33 +1,39 @@
-import type { Pokemon } from '../interfaces/Pokemon';
+import { useState } from 'react'
+import type { Pokemon } from '../interfaces/Pokemon'
+import { getLocalPokemonSpriteUrl, getPokemonSpriteUrl } from '../utils/pokemonSprites'
 
 interface PokemonCardProps {
-  pokemon: Pokemon;
-  isSelected: boolean;
-  onClick: (pokemon: Pokemon) => void;
+  pokemon: Pokemon
+  isSelected: boolean
+  onClick: (pokemon: Pokemon) => void
 }
 
 export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) => {
+  const [spriteSrc, setSpriteSrc] = useState(getPokemonSpriteUrl(pokemon.name))
+
   return (
-    <div
-      className={`relative cursor-pointer rounded-lg overflow-hidden transition-all duration-300 bg-[#1e293b] border border-gray-700 flex-shrink-0 min-w-0 ${
+    <button
+      type="button"
+      className={`group relative min-w-0 cursor-pointer overflow-hidden rounded-2xl border bg-slate-950/60 p-2 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200/40 hover:bg-slate-900/90 ${
         isSelected
-          ? "ring-2 ring-blue-400 transform scale-105"
-          : "hover:transform hover:scale-102"
+          ? 'scale-[1.03] border-cyan-200/70 ring-2 ring-cyan-300/70'
+          : 'border-white/10'
       }`}
       onClick={() => onClick(pokemon)}
     >
-      <div className="flex items-center justify-center p-1">
+      <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+      <div className="relative flex h-20 items-center justify-center sm:h-24">
         <img
-          src={`${import.meta.env.BASE_URL}images/pokemon/${pokemon.name.toLowerCase().replace(/ /g, '_')}.png`}
+          src={spriteSrc}
           alt={pokemon.name}
-          className="w-10 h-10 sm:w-16 sm:h-16 md:w-18 md:h-18 lg:w-20 lg:h-20 object-contain"
+          className="max-h-20 w-full object-contain transition-transform duration-300 group-hover:scale-110 sm:max-h-24"
+          loading="lazy"
+          onError={() => setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))}
         />
       </div>
-      <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end">
-        <span className="text-white text-xs sm:text-sm font-medium p-1 sm:p-2 w-full text-center bg-black bg-opacity-60 truncate">
-          {pokemon.name}
-        </span>
-      </div>
-    </div>
-  );
-};
+      <span className="relative mt-2 block truncate rounded-xl bg-black/35 px-2 py-1 text-center text-xs font-black text-white sm:text-sm">
+        {pokemon.name}
+      </span>
+    </button>
+  )
+}
