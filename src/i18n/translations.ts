@@ -1,11 +1,29 @@
 export type Language = 'es' | 'en'
 
+export interface TranslationLabels {
+  title: string
+  subtitle: string
+  routeLabel: string
+  route: string
+  languageLabel: string
+  tipsTitle: string
+  tipsBadge: string
+  tips: string[]
+  boostLegendTitle: string
+  boostLegend: string[]
+  selectRegion: string
+  selectLeader: string
+  selectPokemon: string
+  noStrategies: string
+  initialMoveLabel: string
+}
+
 export const languages: Record<Language, string> = {
   es: 'ES',
   en: 'EN',
 }
 
-export const translations = {
+export const translations: Record<Language, TranslationLabels> = {
   es: {
     title: 'Farm Liga PokeMMO',
     subtitle: 'Guía visual para farmear la Liga con rutas, líderes y respuestas por Pokémon.',
@@ -62,6 +80,4 @@ export const translations = {
     noStrategies: 'No strategies available yet for',
     initialMoveLabel: 'Recommended opener',
   },
-} as const
-
-export type TranslationLabels = typeof translations.es
+}
