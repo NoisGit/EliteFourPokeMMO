@@ -1,7 +1,16 @@
 {
-    "id": "claydol",
-    "name": "Claydol",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "Trampa Rocas, cambia a Cloyster, luego a Metagross/ Contra Lapras, usa Truco para bloquear Hidrobomba, Poliwrath +6+2",
-    "tricks": []
+  "id": "claydol",
+  "name": "Claydol",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "TRAMPA ROCAS",
+  "tricks": [
+    {
+      "detail": "Después de poner Trampa Rocas: cambia a Cloyster y luego a Metagross.",
+      "variant": [
+        {
+          "detail": "Contra Lapras: usa Truco para bloquear Hidrobomba y luego cambia a Poliwrath +6 +2."
+        }
+      ]
+    }
+  ]
 }
