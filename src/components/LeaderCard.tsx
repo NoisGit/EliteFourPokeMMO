@@ -7,8 +7,14 @@ interface LeaderCardProps {
   trimWhiteFrame?: boolean
 }
 
+const leaderFrameFixes: Record<string, string> = {
+  bruno: 'scale-[1.18] group-hover:scale-[1.24] contrast-[1.04] saturate-[1.08]',
+}
+
 export const LeaderCard = ({ leader, isExpanded, onClick, trimWhiteFrame = false }: LeaderCardProps) => {
   const leaderImage = `${import.meta.env.BASE_URL}images/lideres/${leader.name.toLowerCase().replace(/ /g, '_')}.png`
+  const leaderKey = leader.name.toLowerCase().replace(/ /g, '_')
+  const frameFixClass = leaderFrameFixes[leaderKey]
 
   return (
     <button
@@ -21,14 +27,14 @@ export const LeaderCard = ({ leader, isExpanded, onClick, trimWhiteFrame = false
       onClick={() => onClick(leader.id)}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-rose-400/15 via-transparent to-cyan-300/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-      <div className="relative flex h-24 items-center justify-center overflow-hidden rounded-2xl sm:h-28">
+      <div className="relative flex h-28 items-center justify-center overflow-hidden rounded-2xl sm:h-32">
         <img
           src={leaderImage}
           alt={leader.name}
-          className={`max-h-24 w-full object-contain drop-shadow-lg transition-transform duration-300 sm:max-h-28 ${
-            trimWhiteFrame
-              ? 'scale-[1.1] group-hover:scale-[1.16]'
-              : 'group-hover:scale-105'
+          className={`h-full w-full object-contain transition-transform duration-300 ${
+            frameFixClass || (trimWhiteFrame
+              ? 'scale-[1.12] group-hover:scale-[1.18]'
+              : 'group-hover:scale-105')
           }`}
           loading="lazy"
         />
