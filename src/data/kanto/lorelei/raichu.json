@@ -2,11 +2,18 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Con Chandelure: usa Truco para bloquear Escaldar de Slowbro. Luego cambia a Poliwrath 6+2.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Cuando salga Lucario, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para quedar en +2 Velocidad."
+        },
+        {
+          "detail": "Mantén Otra Vez cada vez que puedas para controlar al rival. Cuando Gengar esté listo, barre con Bola Sombra."
+        }
+      ]
     }
   ]
 }
