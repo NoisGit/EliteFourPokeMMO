@@ -23,7 +23,10 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
       return
     }
 
-    setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))
+    if (fallbackStep === 1) {
+      setFallbackStep(2)
+      setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))
+    }
   }
 
   return (
