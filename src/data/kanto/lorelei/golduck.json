@@ -2,9 +2,21 @@
   "id": "golduck",
   "name": "Golduck",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-    {"detail": "Si cambia a Magneton / Magnezone, cambia a Excadrill,trampa rocas y matalo con Terremoto, debería de salir Lapras, cambia a Poliwrath 6+2", "variant": []},
-    {"detail": "Si cambia a Nidoking, cambia a Cloyster +6", "variant": []}
+    {
+      "detail": "Coloca Trampa Rocas y cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro cuando entre Mantine. Usa Bostezo frente a Magnezone y sacrifica a Poliwrath para darle entrada segura a Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+        },
+        {
+          "detail": "Después de Mantine, usa Revivir Hierba en Poliwrath, una Medicina Pequeña y continúa la ruta."
+        }
+      ]
+    }
   ]
 }

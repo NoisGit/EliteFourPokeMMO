@@ -1,10 +1,41 @@
 {
-    "id": "exeggutor",
-    "name": "Exeggutor",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "TRUCO",
-    "tricks": [
-        {"detail": "MAGNEZONE → Excadrill coloca Trampa Rocas, luego Terremoto lo mata. / Frente a Lapras, Poliwrath +6+2 (no necesita Puño Hielo)", "variant": []},
-        {"detail": "NIDOKING → Excadrill coloca Trampa Rocas, luego Cloyster +6", "variant": []}
-    ]
+  "id": "exeggutor",
+  "name": "Exeggutor",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas. 🔔 Si Exeggutor no cambia, usa Amortiguador para mantener a Chansey sana. 🔔",
+      "variant": [
+        {
+          "detail": "Si entra Lapras, cambia a Politoed. Luego cambia a Slowbro cuando salga Mantine."
+        },
+        {
+          "detail": "Con Slowbro frente a Mantine, usa Bostezo. Cuando salga Magnezone, sacrifica a Poliwrath para darle entrada segura a Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Golduck, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Si Golduck se queda, cambia a Slowbro cuando salga Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lapras directamente, cambia a Slowbro y usa Bostezo frente a Magnezone.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+        }
+      ]
+    }
+  ]
 }

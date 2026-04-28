@@ -2,73 +2,60 @@
   "id": "mantine",
   "name": "Mantine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si entra Lapras: cambia a Poliwrath. Si luego entra Slowbro y después sale Mantine, usa Bostezo.",
+      "detail": "Si entra Lapras, cambia a Poliwrath y luego cambia a Slowbro. Cuando salga Mantine, usa Bostezo.",
       "variant": [
         {
-          "detail": "Si frente a Mantine sale Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona, usa Danza Aleteo +1 y usa Ataque Especial X."
+          "detail": "Cuando salga Magnezone, sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x1 y Especial X."
         }
       ]
     },
     {
-      "detail": "Si entra Lucario: cambia a Slowbro y usa Bostezo.",
+      "detail": "Si entra Lucario, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6."
+          "detail": "Después saca a Politoed y deja que caiga. Entra con Poliwrath y usa Tambor hasta +6 Ataque."
         }
       ]
     },
     {
-      "detail": "Si entra Bronzong: usa Encanto.",
-      "variant": []
-    },
-    {
-      "detail": "Si recibe un ataque tipo Psíquico o Tierra: cambia a Slowbro y usa Bostezo.",
+      "detail": "Si entra Bronzong, usa Encanto con Chansey.",
       "variant": [
         {
-          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6."
+          "detail": "Si Bronzong usa un ataque Psíquico o de tipo Tierra, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Explosión y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Explosión y entra Nidoking, usa Amortiguador con Chansey hasta quedar con PS al máximo."
+        },
+        {
+          "detail": "Si Bronzong se queda, usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     },
     {
-      "detail": "Si usa Explosión y luego sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6.",
-      "variant": []
-    },
-    {
-      "detail": "Si usa Explosión y luego sale Nidoking: usa Amortiguador hasta quedar con PS al máximo.",
-      "variant": []
-    },
-    {
-      "detail": "Si Mantine se queda en campo: usa Teletransporte hacia Slowbro y luego usa Bostezo.",
+      "detail": "Si entra Golduck, cambia a Gengar.",
       "variant": [
         {
-          "detail": "Luego saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6."
+          "detail": "Si Golduck se queda, cambia a Slowbro cuando salga Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X."
         }
       ]
     },
     {
-      "detail": "Si sale Chansey: saca a Politoed para sacrificarlo. Después entra con Poliwrath y usa Tambor +6.",
-      "variant": []
-    },
-    {
-      "detail": "Si sale Golduck: cambia a Gengar.",
-      "variant": []
-    },
-    {
-      "detail": "Si el rival se queda después de Golduck: cambia a Slowbro. Si luego sale Mantine, usa Bostezo.",
+      "detail": "Si entra Lapras después de Golduck, cambia a Slowbro y usa Bostezo frente a Magnezone.",
       "variant": [
         {
-          "detail": "Frente a Magnezone: sacrifica a Poliwrath. Luego entra con Volcarona, usa Danza Aleteo +1 y usa Ataque Especial X."
-        }
-      ]
-    },
-    {
-      "detail": "Si sale Lapras después de Golduck: cambia a Slowbro y usa Bostezo frente a Magnezone.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Poliwrath. Después entra con Volcarona, usa Danza Aleteo +2 y usa Ataque Especial X."
+          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X."
         }
       ]
     }

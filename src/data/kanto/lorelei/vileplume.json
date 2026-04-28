@@ -2,8 +2,27 @@
   "id": "vileplume",
   "name": "Vileplume",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-    {"detail": "Utiliza Lanzallamas para derrotar, saldrá Bronzong así que cambia a Excadrill 6+2 y Trampa Rocas", "variant": []}
+    {
+      "detail": "Coloca Trampa Rocas. Cuando salga Bronzong, usa Encanto con Chansey.",
+      "variant": [
+        {
+          "detail": "Si Bronzong usa un ataque Psíquico o Terremoto, cambia a Slowbro y usa Bostezo. Cuando salga Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Explosión y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Explosión y entra Nidoking, usa Amortiguador con Chansey hasta quedar con PS al máximo."
+        },
+        {
+          "detail": "Si Bronzong se queda, usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    }
   ]
 }
