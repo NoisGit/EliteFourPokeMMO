@@ -2,18 +2,10 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "👀",
   "tricks": [
     {
-      "detail": "Si cambia a Magneton o Magnezone: cambia a Excadrill y debilítalo con Terremoto.",
-      "variant": [
-        {
-          "detail": "Después debería entrar Lapras: cambia a Poliwrath 6+2."
-        }
-      ]
-    },
-    {
-      "detail": "Si cambia a Nidoking: cambia a Cloyster +6.",
+      "detail": "U cant see me",
       "variant": []
     }
   ]

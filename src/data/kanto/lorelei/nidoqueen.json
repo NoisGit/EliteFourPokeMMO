@@ -2,13 +2,16 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "Después de Truco: cambia a Excadrill 6+2. Usa Terremoto para debilitar a Lapras cuando corresponda.",
+      "detail": "Cambia a Slowbro. Cuando salga Hariyama, usa Bostezo.",
       "variant": [
         {
-          "detail": "Si Lapras aparece mientras preparas a Excadrill: cambia a Poliwrath 6+2."
+          "detail": "Si entra Nidoking, saca a Politoed y deja que caiga. Luego entra con Poliwrath y usa Tambor hasta +6 Ataque. 🔔 Usa Piel Seca contra Jynx. 🔔"
+        },
+        {
+          "detail": "Si entra Jynx, entra con Volcarona y usa Danza Aleteo x3."
         }
       ]
     }

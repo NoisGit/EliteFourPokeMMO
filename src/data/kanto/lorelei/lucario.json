@@ -2,24 +2,22 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Gengar + Otra Vez",
   "tricks": [
     {
-      "detail": "Si Lucario cambia a Nidoking: usa Truco con Chandelure para bloquear un movimiento tipo Tierra. Luego cambia a Cloyster +6.",
+      "detail": "Entra con Gengar, usa Otra Vez y luego cambia a Slowbro para revisar el objeto de Lucario.",
       "variant": [
         {
-          "detail": "Cuando vuelva Lucario, usa Carámbano con Cloyster."
+          "detail": "Si tiene Vidasfera, cambia a Chansey. Cuando salga Lapras, coloca Trampa Rocas. Cuando vuelva Lucario, cambia a Slowbro y usa Bostezo."
         },
         {
-          "detail": "Ten en cuenta que existe una pequeña posibilidad de no debilitar a Lapras."
-        }
-      ]
-    },
-    {
-      "detail": "Si Lucario se queda en campo: usa Truco con Chandelure para bloquear Triturar o Roca Afilada. Luego cambia a Scrafty +3.",
-      "variant": [
+          "detail": "Si Lucario se queda, usa Teletransporte hacia Volcarona. Usa Danza Aleteo x1, derrótalo y cuando salga Dragonite usa Especial X. Mantén los PS sobre 35%."
+        },
         {
-          "detail": "Si Chandelure cae debilitado antes de terminar la ruta, usa 1 Danza Dragón extra con Scrafty."
+          "detail": "Si después sale Lapras, usa Volcarona con Danza Aleteo x2. Mantén los PS sobre 46%."
+        },
+        {
+          "detail": "Si no tiene Vidasfera, cambia a Chansey y coloca Trampa Rocas. Luego cambia a Slowbro y usa Bostezo. Cuando salga Lapras, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     }

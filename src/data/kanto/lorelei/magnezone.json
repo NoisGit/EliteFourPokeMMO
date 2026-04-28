@@ -2,10 +2,29 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-    {"detail": "Lapras → Dragonite +3 (No encares)", "variant": []},
-    {"detail": "Golduck → Gengar encara y +6", "variant": []
+    {
+      "detail": "Coloca Trampa Rocas y mantén Amortiguador hasta que el rival cambie.",
+      "variant": [
+        {
+          "detail": "Si entra Golduck, cambia a Gengar."
+        },
+        {
+          "detail": "Si Golduck se queda, cambia a Slowbro. Cuando salga Mantine, usa Bostezo. Frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lapras, cambia a Slowbro y usa Bostezo frente a Magnezone.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+        }
+      ]
     }
   ]
 }
