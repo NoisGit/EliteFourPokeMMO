@@ -2,15 +2,18 @@
   "id": "hitmonchan",
   "name": "Hitmonchan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "UTILIZA ROCA AFILADA",
+  "initialMove": "Gengar +4",
   "tricks": [
     {
-      "detail": "Si utiliza Terremoto, cambia a Cloyster +6",
-      "variant": []
-    },
-    {
-      "detail": "Si utiliza A Bocajarro, cambia a Chandelure, Truco, Cloyster +6",
-      "variant": []
+      "detail": "Entra con Gengar y usa Maquinación hasta +4.",
+      "variant": [
+        {
+          "detail": "No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
+        }
+      ]
     }
   ]
 }
