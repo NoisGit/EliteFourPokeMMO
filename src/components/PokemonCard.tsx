@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import type { Pokemon } from '../interfaces/Pokemon'
-import { getLocalPokemonSpriteUrl, getPokemonSpriteUrl } from '../utils/pokemonSprites'
+import {
+  getLocalPokemonSpriteUrl,
+  getPokemonAnimatedSpriteUrl,
+  getPokemonGen8SpriteUrl,
+} from '../utils/pokemonSprites'
 
 interface PokemonCardProps {
   pokemon: Pokemon
@@ -9,7 +13,18 @@ interface PokemonCardProps {
 }
 
 export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) => {
-  const [spriteSrc, setSpriteSrc] = useState(getPokemonSpriteUrl(pokemon.name))
+  const [spriteSrc, setSpriteSrc] = useState(getPokemonGen8SpriteUrl(pokemon.name))
+  const [fallbackStep, setFallbackStep] = useState(0)
+
+  const handleSpriteError = () => {
+    if (fallbackStep === 0) {
+      setFallbackStep(1)
+      setSpriteSrc(getPokemonAnimatedSpriteUrl(pokemon.name))
+      return
+    }
+
+    setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))
+  }
 
   return (
     <button
@@ -21,14 +36,14 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
       }`}
       onClick={() => onClick(pokemon)}
     >
-      <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+      <div className="absolute inset-0 bg-gradient-to-b from-cyan-300/10 via-transparent to-rose-400/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
       <div className="relative flex h-20 items-center justify-center sm:h-24">
         <img
           src={spriteSrc}
           alt={pokemon.name}
-          className="max-h-20 w-full object-contain transition-transform duration-300 group-hover:scale-110 sm:max-h-24"
+          className="max-h-20 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-110 sm:max-h-24"
           loading="lazy"
-          onError={() => setSpriteSrc(getLocalPokemonSpriteUrl(pokemon.name))}
+          onError={handleSpriteError}
         />
       </div>
       <span className="relative mt-2 block truncate rounded-xl bg-black/35 px-2 py-1 text-center text-xs font-black text-white sm:text-sm">
