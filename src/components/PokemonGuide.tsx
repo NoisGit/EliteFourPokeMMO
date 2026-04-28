@@ -1,224 +1,250 @@
 import { useState, useEffect } from "react"
 import { ChevronDown, ChevronUp } from "lucide-react"
 
-// Import interfaces
 import type { Pokemon } from "../interfaces/Pokemon"
 import type { Region } from "../interfaces/Region"
+import type { Language } from "../i18n/translations"
 
-// Import hooks
+import { languages, translations } from "../i18n/translations"
 import { useDynamicImports } from "../hooks/useDynamicImports"
-
-// Import components
 import { RegionCard } from "./RegionCard"
 import { LeaderCard } from "./LeaderCard"
 import { PokemonCard } from "./PokemonCard"
 import { PokemonDetails } from "./PokemonDetails"
 
 export default function PokemonGuide() {
-  const [expandedRegion, setExpandedRegion] = useState<string | null>(null);
-  const [expandedLeader, setExpandedLeader] = useState<string | null>(null);
-  const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null);
-  const [lightMode, setLightMode] = useState(false);
-  const [showTips, setShowTips] = useState(false);
-  const [regions, setRegions] = useState<Region[]>([]);
-  const { getPokemonFiles } = useDynamicImports();
+  const [expandedRegion, setExpandedRegion] = useState<string | null>(null)
+  const [expandedLeader, setExpandedLeader] = useState<string | null>(null)
+  const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null)
+  const [showTips, setShowTips] = useState(false)
+  const [language, setLanguage] = useState<Language>('es')
+  const [regions, setRegions] = useState<Region[]>([])
+  const { getPokemonFiles } = useDynamicImports()
+  const t = translations[language]
 
-  // Load region config when component mounts
   useEffect(() => {
     const loadRegionConfig = async () => {
       try {
-        // In Vite, we need to use dynamic import
-        const regionConfigModule = await import('../data/config-region.json');
-        setRegions(regionConfigModule.regions || []);
+        const regionConfigModule = await import('../data/config-region.json')
+        setRegions(regionConfigModule.regions || [])
       } catch (error) {
-        console.error('Error loading region config:', error);
+        console.error('Error loading region config:', error)
       }
-    };
-    
-    loadRegionConfig();
-  }, []);
+    }
 
-  // Load pokemon data for leaders when regions are loaded
+    loadRegionConfig()
+  }, [])
+
   useEffect(() => {
     const loadPokemonData = async () => {
-      if (regions.length === 0) return;
-      
-      const updatedRegions = [];
-      
+      if (regions.length === 0 || regions.some((region) => region.leaders.some((leader) => leader.pokemons && leader.pokemons.length > 0))) return
+
+      const updatedRegions = []
+
       for (const region of regions) {
-        const updatedLeaders = [];
-        
+        const updatedLeaders = []
+
         for (const leader of region.leaders) {
           try {
-            const pokemonFiles = await getPokemonFiles(region.id, leader.id);
-            const pokemons = [];
-            
-            // Import each file
+            const pokemonFiles = await getPokemonFiles(region.id, leader.id)
+            const pokemons = []
+
             for (const file of pokemonFiles) {
               try {
-                // Use dynamic import with the relative path
-                const module = await import(`../data/${region.id}/${leader.id}/${file.replace('.json', '')}.json`);
-                const data = module.default || module;
+                const module = await import(`../data/${region.id}/${leader.id}/${file.replace('.json', '')}.json`)
+                const data = module.default || module
                 pokemons.push({
                   ...data,
                   id: data.id || data.name?.toLowerCase() || file.replace('.json', ''),
-                });
+                })
               } catch (error) {
-                console.error(`Error importing ${file}:`, error);
+                console.error(`Error importing ${file}:`, error)
               }
             }
-            
+
             updatedLeaders.push({
               ...leader,
               pokemons,
-            });
+            })
           } catch (error) {
-            console.error(`Error loading pokemon data for ${leader.name}:`, error);
+            console.error(`Error loading pokemon data for ${leader.name}:`, error)
             updatedLeaders.push({
               ...leader,
               pokemons: [],
-            });
+            })
           }
         }
-        
+
         updatedRegions.push({
           ...region,
           leaders: updatedLeaders,
-        });
+        })
       }
 
-      setRegions(updatedRegions);
-    };
-
-    loadPokemonData();
-  }, [regions.length]);
-
-  const handleRegionClick = async (regionId: string) => {
-    if (expandedRegion === regionId) {
-      setExpandedRegion(null);
-      setExpandedLeader(null);
-      setSelectedPokemon(null);
-    } else {
-      setExpandedRegion(regionId);
-      setExpandedLeader(null);
-      setSelectedPokemon(null);
-     
+      setRegions(updatedRegions)
     }
-  };
+
+    loadPokemonData()
+  }, [regions, getPokemonFiles])
+
+  const handleRegionClick = (regionId: string) => {
+    if (expandedRegion === regionId) {
+      setExpandedRegion(null)
+      setExpandedLeader(null)
+      setSelectedPokemon(null)
+      return
+    }
+
+    setExpandedRegion(regionId)
+    setExpandedLeader(null)
+    setSelectedPokemon(null)
+  }
 
   const handleLeaderClick = (leaderId: string) => {
     if (expandedLeader === leaderId) {
-      setExpandedLeader(null);
-      setSelectedPokemon(null);
-    } else {
-      setExpandedLeader(leaderId);
-      setSelectedPokemon(null);
+      setExpandedLeader(null)
+      setSelectedPokemon(null)
+      return
     }
-  };
 
-  const handlePokemonClick = (pokemon: Pokemon) => {
-    setSelectedPokemon(selectedPokemon?.name === pokemon.name ? null : pokemon)
+    setExpandedLeader(leaderId)
+    setSelectedPokemon(null)
   }
 
-  const currentRegion = regions.find((r) => r.id === expandedRegion);
-  // Find the current leader from the regions data to get the pokemons
-  const currentLeader = regions
-    .find((r) => r.id === expandedRegion)
-    ?.leaders.find((l) => l.id === expandedLeader);
-  const currentLeaderPokemons = currentLeader?.pokemons || [];
+  const handlePokemonClick = (pokemon: Pokemon) => {
+    setSelectedPokemon(selectedPokemon?.id === pokemon.id ? null : pokemon)
+  }
+
+  const currentRegion = regions.find((region) => region.id === expandedRegion)
+  const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
+  const currentLeaderPokemons = currentLeader?.pokemons || []
 
   return (
-    <div
-      className={`min-h-screen transition-colors duration-300 ${
-        lightMode ? "bg-gray-100 text-gray-900" : "bg-[#111827] text-white"
-      }`}
-    >
+    <div className="min-h-screen overflow-hidden bg-[#0b1020] text-slate-50">
+      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.22),_transparent_32%),radial-gradient(circle_at_top_right,_rgba(59,130,246,0.2),_transparent_28%),linear-gradient(135deg,_#0b1020_0%,_#111827_45%,_#1e1b4b_100%)]" />
 
-      <div className="container mx-auto px-4 py-8">
-        {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-2">Farm Liga PokeMMO</h1>
-          <p className="text-blue-400 font-bold mb-4">
-            <span className="mr-2"></span>
-            
-            <a href="https://youtu.be/qroUOLDMZv8" target="_blank" rel="noreferrer">
-              <span className="inline-flex items-center text-blue-400 hover:text-blue-600 transition-colors">
-                <img className="w-6 h-6" src={`${import.meta.env.BASE_URL}images/youtube.png`} alt="Guía en Video" />
-                <span className="mr-2 pl-2">Ver tutorial en video</span>
+      <main className="relative mx-auto min-h-screen w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <section className="mb-8 rounded-[2rem] border border-white/10 bg-white/8 p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-8">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+            <div className="max-w-3xl">
+              <span className="mb-3 inline-flex rounded-full border border-rose-300/30 bg-rose-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.24em] text-rose-100">
+                PokeMMO Elite Four
               </span>
-            </a> 
-            <span className="mr-2">|</span>
-            <a href="https://discord.gg/SDCx66c5AM" target="_blank" rel="noreferrer">
-              <span className="inline-flex items-center text-blue-400 hover:text-blue-600 transition-colors">
-                <img className="w-6 h-6" src={`${import.meta.env.BASE_URL}images/discord.png`} alt="Reportes" />
-                <span className="mr-2 pl-2">Reportes</span> 
-              </span>
-            </a> 
-           
-            
-          </p>
-          <p className="text-gray-400 mb-4">Ruta recomendada: 
-          <span className="mr-2 pl-2 text-blue-400">Teselia → Hoenn(casa) → Sinnoh(casa) → Kanto(casa) → Johto</span>
-          </p>          
-        </div>
+              <h1 className="text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">
+                {t.title}
+              </h1>
+              <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-300 sm:text-base">
+                {t.subtitle}
+              </p>
+            </div>
 
-        {/* Tips Toggle */}
-        <div className="flex flex-col items-center justify-center mb-2">
-            <button 
-              onClick={() => setShowTips(!showTips)} 
-              className="flex items-left justify-left gap-2 hover:text-blue-300 transition-colors cursor-pointer"
-            >
-              {showTips ? (
-                <ChevronUp className="w-4 h-4 text-blue-400" />
-              ) : (
-                <ChevronDown className="w-4 h-4 text-blue-400" />
-              )}
-              <span className="text-blue-400 font-medium pb-2">RECOMENDACIONES ANTES DE EMPEZAR <b>(EQUIPO - TIPS)</b></span>
-            </button>
-            {showTips && (
-              <ul className="list-disc text-left max-w-2xl mx-auto pl-6 text-gray-300 animate-in slide-in-from-top duration-300">
-                <li>EQUIPO NECESARIO PARA LA GUIA: <a href="https://imgur.com/jDkRW8k" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-600 transition-colors"> 👉 VER 👈 </a></li>
-                <li className="mb-2">Completa cada Liga de cada región 5 veces antes de emplear esta guía; solo así llegarás al nivel 100 y los pasos serán precisos.</li>
-                <li className="mb-2">Las estrategias presuponen que el equipo está correctamente configurado (objetos, EV/IV y salud al 100 % tras cada combate).</li>
-                <li className="mb">Usar equipos "económicos" o distintos a los recomendados puede generar resultados imprecisos.</li>
-                <li className="mb">Si encuentras algún error o tienes sugerencias, por favor, reporta en el canal de Discord. 👉 <a href="https://discord.gg/SDCx66c5AM" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-600 transition-colors">DISCORD 👈</a></li>
-                <li className="mb">Al bloquear con CLOYSTER, usar contra GENGAR(Surf) y LUCARIO,HOUNDOOM, SHARPEDO(Carambano)</li>
+            <div className="flex flex-col gap-3 rounded-2xl border border-white/10 bg-slate-950/40 p-3">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.languageLabel}</span>
+              <div className="grid grid-cols-2 gap-2">
+                {(Object.keys(languages) as Language[]).map((currentLanguage) => (
+                  <button
+                    key={currentLanguage}
+                    type="button"
+                    onClick={() => setLanguage(currentLanguage)}
+                    className={`rounded-xl px-4 py-2 text-sm font-bold transition-all duration-300 ${
+                      language === currentLanguage
+                        ? 'bg-rose-400 text-slate-950 shadow-lg shadow-rose-500/25'
+                        : 'bg-white/10 text-slate-200 hover:bg-white/15'
+                    }`}
+                  >
+                    {languages[currentLanguage]}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 grid gap-3 md:grid-cols-[1.4fr_1fr]">
+            <div className="rounded-2xl border border-cyan-300/20 bg-cyan-300/10 p-4">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-200">{t.routeLabel}</p>
+              <p className="mt-2 text-lg font-black text-white">{t.route}</p>
+            </div>
+            <div className="rounded-2xl border border-amber-300/20 bg-amber-300/10 p-4">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-amber-100">{t.boostLegendTitle}</p>
+              <p className="mt-2 text-sm leading-6 text-amber-50">{t.boostLegend[0]}</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-6 rounded-3xl border border-white/10 bg-slate-950/45 p-4 backdrop-blur-xl">
+          <button
+            type="button"
+            onClick={() => setShowTips(!showTips)}
+            className="flex w-full items-center justify-between gap-3 rounded-2xl px-2 py-2 text-left transition-colors hover:bg-white/5"
+          >
+            <span>
+              <span className="block text-sm font-black uppercase tracking-[0.18em] text-rose-100">{t.tipsTitle}</span>
+              <span className="mt-1 block text-xs font-bold uppercase tracking-[0.16em] text-slate-400">{t.tipsBadge}</span>
+            </span>
+            {showTips ? <ChevronUp className="h-5 w-5 text-rose-200" /> : <ChevronDown className="h-5 w-5 text-rose-200" />}
+          </button>
+
+          {showTips && (
+            <div className="grid gap-4 pt-4 md:grid-cols-[1.2fr_0.8fr] animate-in slide-in-from-top duration-300">
+              <ul className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm leading-6 text-slate-200">
+                {t.tips.map((tip) => (
+                  <li key={tip} className="flex gap-3">
+                    <span className="mt-2 h-2 w-2 flex-none rounded-full bg-rose-300" />
+                    <span>{tip}</span>
+                  </li>
+                ))}
               </ul>
-            )}
-        </div>
 
-        {/* Regions Row */}
-        <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4 mb-6">
-          {regions.map((region) => (
-            <RegionCard 
-              key={region.id}
-              region={region}
-              isExpanded={expandedRegion === region.id}
-              onClick={handleRegionClick}
-            />
-          ))}
-        </div>
+              <div className="rounded-2xl border border-amber-300/20 bg-amber-300/10 p-4">
+                <h2 className="mb-3 text-sm font-black uppercase tracking-[0.18em] text-amber-100">{t.boostLegendTitle}</h2>
+                <ul className="space-y-2 text-sm leading-6 text-amber-50">
+                  {t.boostLegend.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
+        </section>
 
-        {/* Leaders Row */}
-        {expandedRegion && currentRegion && currentRegion.leaders.length > 0 && (
-          <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4 mb-6 animate-in slide-in-from-top duration-300">
-            {currentRegion.leaders.map((leader) => (
-              <LeaderCard 
-                key={leader.id}
-                leader={leader}
-                isExpanded={expandedLeader === leader.id}
-                onClick={handleLeaderClick}
+        <section className="mb-6">
+          <div className="mb-3 flex items-center justify-between">
+            <h2 className="text-xs font-black uppercase tracking-[0.22em] text-slate-400">{t.selectRegion}</h2>
+          </div>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+            {regions.map((region) => (
+              <RegionCard
+                key={region.id}
+                region={region}
+                isExpanded={expandedRegion === region.id}
+                onClick={handleRegionClick}
               />
             ))}
-          </div> 
+          </div>
+        </section>
+
+        {expandedRegion && currentRegion && currentRegion.leaders.length > 0 && (
+          <section className="mb-6 animate-in slide-in-from-top duration-300">
+            <h2 className="mb-3 text-xs font-black uppercase tracking-[0.22em] text-slate-400">{t.selectLeader}</h2>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+              {currentRegion.leaders.map((leader) => (
+                <LeaderCard
+                  key={leader.id}
+                  leader={leader}
+                  isExpanded={expandedLeader === leader.id}
+                  onClick={handleLeaderClick}
+                />
+              ))}
+            </div>
+          </section>
         )}
 
-        {/* Pokemon Grid */}
         {expandedLeader && (
-          <div className="mb-6 animate-in slide-in-from-top duration-300">
-            <div className="grid grid-cols-6 sm:grid-cols-4 md:grid-cols-8 lg:grid-cols-8 xl:grid-cols-12 gap-1 sm:gap-2">
+          <section className="mb-6 animate-in slide-in-from-top duration-300">
+            <h2 className="mb-3 text-xs font-black uppercase tracking-[0.22em] text-slate-400">{t.selectPokemon}</h2>
+            <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10">
               {currentLeaderPokemons.map((pokemon) => (
-                <PokemonCard 
+                <PokemonCard
                   key={pokemon.id || pokemon.name}
                   pokemon={pokemon}
                   isSelected={selectedPokemon?.id === pokemon.id}
@@ -226,30 +252,13 @@ export default function PokemonGuide() {
                 />
               ))}
             </div>
-          </div>
+          </section>
         )}
 
-        {/* Pokemon Details */}
         {selectedPokemon && (
-          <PokemonDetails pokemon={selectedPokemon} />
+          <PokemonDetails pokemon={selectedPokemon} language={language} labels={t} />
         )}
-
-        {/* Credits and Light Mode Toggle */}
-        <div className="flex items-center justify-between mt-8 pt-4 border-t border-gray-700">
-          <div className="flex items-center gap-2">
-
-            <span className="text-gray-400">Creditos</span>
-            <img 
-              src={`${import.meta.env.BASE_URL}images/pokemon/munchlax.png`} 
-              alt="Creditos" 
-              className="w-16 h-16"
-            />
-          </div>
-          <button onClick={() => setLightMode(!lightMode)} className="text-gray-400 hover:text-white transition-colors">
-            {lightMode ? "Dark Mode" : "Light Mode"}
-          </button>
-        </div>
-      </div>
+      </main>
     </div>
   )
 }
