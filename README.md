@@ -4,6 +4,12 @@ A visual guide for farming PokeMMO Elite Four rematches by region, trainer, and 
 
 The project focuses on fast decision-making during battles: select a region, pick the Elite Four member or Champion, choose the opposing Pokémon, and follow the recommended strategy.
 
+## Live demo
+
+```text
+https://noisgit.github.io/EliteFourPokeMMO/
+```
+
 ## Features
 
 - Responsive interface built with React, TypeScript, Vite, and Tailwind CSS.
@@ -77,7 +83,7 @@ The Vite base path is:
 base: '/EliteFourPokeMMO/'
 ```
 
-Expected production URL:
+Production URL:
 
 ```text
 https://noisgit.github.io/EliteFourPokeMMO/
