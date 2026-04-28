@@ -2,84 +2,96 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Surf → cambia a Poliwrath y ejecuta 6+2.",
+      "detail": "Coloca Trampa Rocas. Si Lapras se queda en campo, revisa su movimiento.",
       "variant": [
         {
-          "detail": "Si entra Slowbro: cambia a Chandelure, usa Truco para bloquear Escaldar y luego vuelve a Poliwrath 6+2."
-        }
-      ]
-    },
-    {
-      "detail": "Rayo → cambia a Excadrill y ejecuta 6+2.",
-      "variant": [
-        {
-          "detail": "Si entra Slowbro: cambia a Chandelure, usa Truco para bloquear Escaldar y luego vuelve a Poliwrath 6+2."
-        }
-      ]
-    },
-    {
-      "detail": "Taladradora → cambia a Excadrill y pon Trampa Rocas. Luego cambia a Chandelure, usa Truco sobre Mantine y saca a Scrafty +2.",
-      "variant": [
-        {
-          "detail": "Contra Mantine: necesitas golpearlo 2 veces. Si recibes un crítico y quedas en riesgo, usa Raíz Energía."
-        }
-      ]
-    },
-    {
-      "detail": "Hidrobomba → usa Trampa Rocas. Luego cambia a Poliwrath, usa Tambor 2 veces y usa Velocidad X.",
-      "variant": [
-        {
-          "detail": "Si Metagross no aguanta y no alcanza a poner Trampa Rocas: usa Defensa X en Poliwrath y luego usa 2 Tambores."
+          "detail": "Si usa Rayo Hielo, sacrifica a Politoed. Luego entra con Poliwrath, usa Tambor para quedar en +6 Ataque y usa Cascada contra Banette. 🔔 Si un Rayo Hielo crítico debilita a Poliwrath, cambia de estrategia. 🔔"
         },
         {
-          "detail": "Si Lucario debilita a Poliwrath: saca a Chandelure, usa Truco para bloquear Triturar o Roca Afilada, y luego saca a Scrafty +2."
-        }
-      ]
-    },
-    {
-      "detail": "Nidoqueen → revisa el objeto que recibió con Truco.",
-      "variant": [
-        {
-          "detail": "Vidasfera → cambia a Excadrill 6+2. Usa Terremoto para debilitar a Lapras cuando corresponda."
+          "detail": "Si usa Acua Cola, cambia a Politoed. Luego cambia a Slowbro y espera a Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
         },
         {
-          "detail": "Casco Dentado → cambia a Excadrill, pon Trampa Rocas y ejecuta 4+2. Usa Terremoto para debilitar a Nidoqueen."
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
         }
       ]
     },
     {
-      "detail": "Nidoking → cambia a Excadrill para poner Trampa Rocas. Luego cambia a Cloyster +6.",
-      "variant": []
-    },
-    {
-      "detail": "Slowbro → cambia a Chandelure y usa Poder Oculto para bajar la vida de Dragonite. Luego cambia a Excadrill.",
+      "detail": "Si entra Golduck, cambia a Gengar.",
       "variant": [
         {
-          "detail": "Si después entra Lapras o Slowbro: cambia a Poliwrath y ejecuta 6+2."
+          "detail": "Si Golduck se queda, cambia a Slowbro y espera a Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
         },
         {
-          "detail": "Si entra Lucario: cambia a Chandelure, usa Truco para bloquear Triturar o Roca Afilada, y luego cambia a Scrafty +2."
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine, da Revivir Hierba a Poliwrath, usa una Medicina Pequeña y continúa. 🔔"
         }
       ]
     },
     {
-      "detail": "Blissey / Jigglypuff → cambia a Chandelure y usa Truco para bloquear Tierra Viva de Nidoking. Luego cambia a Excadrill +6.",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone → cambia a Excadrill, pon Trampa Rocas y usa Terremoto para debilitar a Magnezone.",
+      "detail": "Si entra Lapras, cambia a Slowbro y usa Bostezo frente a Magnezone.",
       "variant": [
         {
-          "detail": "Si después entra Lapras: cambia a Poliwrath 6+2."
+          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X. 🔔 Usa Psíquico contra Mantine, da Revivir Hierba a Poliwrath, usa una Medicina Pequeña y continúa. 🔔"
         }
       ]
     },
     {
-      "detail": "Bronzong → saca a Excadrill 6+2 y luego pon Trampa Rocas.",
-      "variant": []
+      "detail": "Si entra Hariyama, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si después entra Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Jynx. 🔔"
+        },
+        {
+          "detail": "Si después entra Jynx, entra con Volcarona y usa Danza Aleteo x2."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lucario, elige la ruta según su objeto.",
+      "variant": [
+        {
+          "detail": "Ruta rápida: usa Teletransporte para revisar el objeto."
+        },
+        {
+          "detail": "Si tiene Vidasfera, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para quedar en +2 Velocidad. Barre con Bola Sombra."
+        },
+        {
+          "detail": "Si no tiene Vidasfera, envía a Slowbro y usa Bostezo frente a Lapras. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si quieres ahorrar dinero, entra con Gengar, usa Otra Vez y Maquinación hasta +2. Si Lucario se queda, sube con Maquinación hasta +4 y usa Velocidad X para quedar en +2 Velocidad. Barre con Bola Sombra."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Mantine, cambia a Chansey y usa Amortiguador frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Velocidad X para quedar en +2 Velocidad. 🔔 Barre con Bola Sombra. 🔔"
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Bronzong, usa Encanto con Chansey.",
+      "variant": [
+        {
+          "detail": "Si usa un ataque Psíquico o de tipo Tierra, cambia a Slowbro y usa Bostezo frente a Nidoking. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Nidoking, usa Amortiguador con Chansey hasta quedar con PS al máximo."
+        },
+        {
+          "detail": "Si Bronzong se queda, usa Teletransporte. Entra Slowbro, usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }
