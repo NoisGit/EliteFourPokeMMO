@@ -2,20 +2,66 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-    {"detail": "NIDOQUEEN, saca a Excadrill 6+2", "variant": []},
-    {"detail": "GIRO BOLA, usa Trampa Rocas. Cambiará a Nidoking y tu cambia a Excadrill 4+0", "variant": []},
-    {"detail": "TERREMOTO, cambia a Excadrill 6+2 y luego Trampa Rocas", "variant": []},
-    {"detail": "SLOWBRO, cambia a Chandelure ya que el cambiara a Dragonite, utiliza Poder Oculto para bajarle vida y luego cambia a Excadrill 6+2",
-    "variant": [
-        {"detail": "Si Slowbro cambia a Lucario utiliza Truco con Chandelure para encerrar en Roca Afilada / Triturar, luego cambia a Scrafty +2"},
-        {"detail": "Si cambia a Lapras o Slowbro se queda, cambia a Poliwrath 6+2 (Slowbro muere de 2 TERREMOTOS) (Usar A BOCAJARRO contra Bronzong)", "variant": []}
-    ]},
-    {"detail": "DRAGONITE, saca a Chandelure y utiliza Poder Oculto para ver que hace:", "variant": [
-        {"detail": "Si entra Lapras cambia a Poliwrath 6 + 2"},
-        {"detail": "Si entra Lucario cambia a Scrafty para cambiar a Chandelure inmediatamente utiliza Truco para encerrar en Roca Afilada o Triturar, vuelve Scrafty +2", "variant": []}
-    ]},
-    {"detail": "LUCARIO, Chandelure utiliza Truco para luego cambiar a Scrafty +3", "variant": []}
+    {
+      "detail": "Coloca Trampa Rocas y revisa qué hace Bronzong antes de elegir la ruta.",
+      "variant": [
+        {
+          "detail": "Si Bronzong se queda en campo, revisa su movimiento."
+        },
+        {
+          "detail": "Si usa Giro Bola, cambia a Volcarona, usa Especial X y barre con ataques súper efectivos. 🔔 Si Bronzong se quema, puedes usar Danza Aleteo x2 antes de atacar."
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Chansey, saca a Politoed y deja que caiga. Luego entra Poliwrath, usa Tambor para quedar en +6 Ataque y barre."
+        },
+        {
+          "detail": "Si usa Cabezazo Zen o Terremoto, cambia a Slowbro. Frente a Nidoking, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Nidoking, usa Amortiguador con Chansey hasta quedar con PS al máximo."
+        },
+        {
+          "detail": "Si después de curarte el rival se queda, usa Teletransporte. Entra Slowbro, usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si cambia a Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Hariyama, revisa su objeto antes de decidir.",
+      "variant": [
+        {
+          "detail": "Si tiene Llamasfera, cambia a Slowbro. Luego cambia a Gengar, usa Otra Vez y usa Maquinación hasta +4 Ataque Especial más Velocidad X para quedar en +2 Velocidad. 🔔 Barre con Bola Sombra."
+        },
+        {
+          "detail": "Si no tiene Llamasfera, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Jynx."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Walrein o Dewgong, usa la ruta de Gengar con Otra Vez.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez y luego Maquinación hasta +2 Ataque Especial."
+        },
+        {
+          "detail": "Si el rival se queda encerrado, sube con Maquinación hasta +6 Ataque Especial. 🔔 Barre con Bola Sombra."
+        },
+        {
+          "detail": "Si cambia a Lapras, sigue atacando hasta llegar a Bronzong. Frente a Bronzong, entra Volcarona y usa Danza Aleteo x1 antes de barrer."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lucario, usa la ruta de Gengar.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez y luego Maquinación hasta +4 Ataque Especial más Velocidad X para quedar en +2 Velocidad. 🔔 Barre con Bola Sombra."
+        }
+      ]
+    }
   ]
 }
