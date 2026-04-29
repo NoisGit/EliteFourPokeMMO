@@ -2,30 +2,16 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Steelix / Garchomp → coloca Trampa Rocas (aguanta Colmillo Ígneo), cambia a Chandelure con Truco, bloquea a Lapras, entra Poliwrath 6 + 2; si no cambia, repite Truco varias veces, no se va ni a la fuerza, entra Chandelure con +2 Especial X + Vel. X // Barre con Lanzallamas) (Testear la opción de que no cambie)",
-      "variant": []
-    },
-    {
-      "detail": "(Flygon) → cambia a Chandelure con Truco, intercambia objeto, Cloyster mata con Carámbano, entra Lapras, entra Excadrill con refuerzo 2 (ataque) + 0, usa Terremoto para matar a Lapras",
-      "variant": []
-    },
-    {
-      "detail": "(Metagross) → Excadrill entra con 4 + 2 y vuelve a colocar Trampa Rocas.",
-      "variant": []
-    },
-    {
-      "detail": "(Surf) → usa Truco una vez más",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "(Flygon) → Cloyster mata con Carámbano, entra Lapras, entra Excadrill con refuerzo +2 + 0, Terremoto mata a Lapras",
-          "variant": []
+          "detail": "Si entra Scizor, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "(No se va) → entra Poliwrath 6 + 2",
-          "variant": []
+          "detail": "Si entra Metagross, cambia a Volcarona frente a Aerodactyl. Sacrifica a Politoed y entra con Poliwrath. Usa Ataque X antes de barrer. 🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔"
         }
       ]
     }
