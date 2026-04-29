@@ -2,6 +2,21 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia directamente a Poliwrath → +6 +2",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro",
+  "tricks": [
+    {
+      "detail": "Cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
+        }
+      ]
+    }
+  ]
 }
