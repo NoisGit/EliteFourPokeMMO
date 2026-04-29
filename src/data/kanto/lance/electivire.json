@@ -2,11 +2,18 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE Y TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Luego enviar a Excadrill con Trampa Rocas +4 +2",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa si Electivire se queda.",
+      "variant": [
+        {
+          "detail": "Si Electivire se queda, usa Amortiguador mientras esperas a Lucario. Luego entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+        },
+        {
+          "detail": "Si entra Lucario, cambia a Slowbro y usa Bostezo frente a Electivire. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }
