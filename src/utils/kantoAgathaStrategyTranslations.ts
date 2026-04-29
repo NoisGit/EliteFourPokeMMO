@@ -1,20 +1,18 @@
 export const kantoAgathaStrategyTranslations: Record<string, string> = {
   'Encanto + Teletransporte': 'Charm + Teleport',
+  'Cambia a Gengar + Otra Vez': 'Switch to Gengar + Encore',
 
   'Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.': 'Set up Stealth Rock, use Teleport, and bring in Slowbro.',
   'Con Slowbro, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'With Slowbro, use Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   '🔔 Usa Puño Hielo contra Gengar. 🔔': '🔔 Use Ice Punch against Gengar. 🔔',
+  '🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨': '🚨 If Slowbro gets paralyzed, do not use Yawn yet. Use Full Heal first. 🚨',
 
   'Coloca Trampa Rocas y revisa el movimiento de Arbok.': 'Set up Stealth Rock and check Arbok’s move.',
   'Si usa Lanza Mugre, usa Teletransporte hacia Slowbro. Usa Bostezo, luego Protección y Bostezo frente a Gengar. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If it uses Gunk Shot, use Teleport into Slowbro. Use Yawn, then Protect, and use Yawn against Gengar. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
   'Si usa Puya Nociva, cambia a Slowbro y usa Bostezo.': 'If it uses Poison Jab, switch to Slowbro and use Yawn.',
-  'Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If Rotom comes in, use Protect and then Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
   'Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If another Pokémon comes in, sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
   'Si entra Marowak, usa Teletransporte hacia Slowbro y luego Bostezo.': 'If Marowak comes in, use Teleport into Slowbro and then use Yawn.',
-  'Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
-  '🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨': '🚨 If Slowbro gets paralyzed, do not use Yawn yet. Use Full Heal first. 🚨',
   'Si entra Alakazam, usa Teletransporte hacia Slowbro y luego Bostezo.': 'If Alakazam comes in, use Teleport into Slowbro and then use Yawn.',
-  'Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
 
   'Coloca Trampa Rocas y cambia a Slowbro.': 'Set up Stealth Rock and switch to Slowbro.',
   'Usa Bostezo frente a Gengar. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Use Yawn against Gengar. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
@@ -22,29 +20,19 @@ export const kantoAgathaStrategyTranslations: Record<string, string> = {
 
   'Coloca Trampa Rocas. Si Gengar usa Onda Certera, revisa su objeto.': 'Set up Stealth Rock. If Gengar uses Focus Blast, check its item.',
   'Si tiene Vidasfera, cambia a Gengar y usa Otra Vez. Luego cambia a Slowbro y usa Bostezo.': 'If it has Life Orb, switch to Gengar and use Encore. Then switch to Slowbro and use Yawn.',
-  'Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If Rotom comes in, use Protect and then Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
-  'Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If another Pokémon comes in, sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si no tiene Vidasfera, revisa el daño de Onda Certera.': 'If it does not have Life Orb, check Focus Blast damage.',
   'Si hace 24–28% de daño, toma una Defensa Especial X, usa Amortiguador y fuerza el cambio. Si te baja la Defensa Especial, toma otra Defensa Especial X.': 'If it deals 24–28% damage, use X Sp. Def, use Soft-Boiled, and force the switch. If your Special Defense drops, use another X Sp. Def.',
   'Si Gengar se queda después de 3 Amortiguadores, cambia a Gengar, usa Otra Vez, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If Gengar stays in after 3 Soft-Boiled uses, switch to Gengar, use Encore, switch to Slowbro, and use Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si hace 34–40% de daño, probablemente es Zoroark. Cambia a Slowbro. Si no huye, usa Bostezo y entra con Volcarona para usar Danza Aleteo x1.': 'If it deals 34–40% damage, it is probably Zoroark. Switch to Slowbro. If it does not switch out, use Yawn and bring in Volcarona to use Quiver Dance x1.',
   'Si entra Krookodile, usa Teletransporte y revisa el ataque.': 'If Krookodile comes in, use Teleport and check its attack.',
-  'Si usa Terremoto, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If it uses Earthquake, switch to Slowbro and use Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si usa Triturar, entra con Poliwrath, usa Tambor hasta +6 Ataque, toma una Max Poción y usa Velocidad X.': 'If it uses Crunch, bring in Poliwrath, use Belly Drum to reach +6 Attack, take a Max Potion, and use X Speed.',
-  'Si entra Crobat, cambia a Slowbro y usa Bostezo.': 'If Crobat comes in, switch to Slowbro and use Yawn.',
-  'Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
-  'Si entra Arbok, cambia a Slowbro y usa Bostezo.': 'If Arbok comes in, switch to Slowbro and use Yawn.',
   'Si entra Marowak, usa Encanto y luego Teletransporte hacia Slowbro.': 'If Marowak comes in, use Charm and then Teleport into Slowbro.',
-  'Usa Bostezo. Si Marowak se queda o entra Rotom, usa Protección y luego Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Use Yawn. If Marowak stays in or Rotom comes in, use Protect and then Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si entra Gengar, Mismagius o Seismitoad, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If Gengar, Mismagius, or Seismitoad comes in, sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si entra Muk, usa Teletransporte hacia Slowbro y luego Bostezo.': 'If Muk comes in, use Teleport into Slowbro and then use Yawn.',
-  'Si Muk se queda, usa Protección y luego Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If Muk stays in, use Protect and then Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si entra Toxicroak o Lucario, cambia a Slowbro y usa Bostezo.': 'If Toxicroak or Lucario comes in, switch to Slowbro and use Yawn.',
 
   'Cambia a Slowbro frente a Marowak y usa Bostezo.': 'Switch to Slowbro against Marowak and use Yawn.',
   'Cambia a Slowbro y usa Bostezo.': 'Switch to Slowbro and use Yawn.',
-  'Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If Rotom comes in, use Protect and then Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
-  'Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If another Pokémon comes in, sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   '🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔': '🔔 Use Ice Punch against Gengar and Waterfall against Gyarados. 🔔',
 
   'Coloca Trampa Rocas y revisa el movimiento de Houndoom.': 'Set up Stealth Rock and check Houndoom’s move.',
@@ -54,7 +42,6 @@ export const kantoAgathaStrategyTranslations: Record<string, string> = {
 
   'Coloca Trampa Rocas y revisa el movimiento de Hydreigon.': 'Set up Stealth Rock and check Hydreigon’s move.',
   'Si usa Onda Certera, cambia a Slowbro y usa Bostezo.': 'If it uses Focus Blast, switch to Slowbro and use Yawn.',
-  'Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If Rotom comes in, use Protect and then Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
   'Si entra Alakazam, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If Alakazam comes in, use Teleport into Slowbro and then use Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
 
   'Si Krookodile tiene Intimidación, coloca Trampa Rocas. Cuando salga Toxicroak, cambia a Slowbro y usa Bostezo.': 'If Krookodile has Intimidate, set up Stealth Rock. When Toxicroak comes in, switch to Slowbro and use Yawn.',
@@ -67,9 +54,6 @@ export const kantoAgathaStrategyTranslations: Record<string, string> = {
   'Si usa A Bocajarro y no logras colocar Trampa Rocas, cambia a Gengar, usa Otra Vez y Bola Sombra. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'If it uses Close Combat and you fail to set up Stealth Rock, switch to Gengar, use Encore and Shadow Ball. Then switch to Slowbro, use Yawn, sacrifice Politoed, and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
   'Si usa Poder Oculto, usa Teletransporte. Si Lucario se queda, entra con Gengar, usa Otra Vez, cambia a Slowbro y usa Bostezo.': 'If it uses Hidden Power, use Teleport. If Lucario stays in, bring in Gengar, use Encore, switch to Slowbro, and use Yawn.',
   'Si entra Gengar, Hydreigon, Rotom o Alakazam, sigue la ruta de sueño con Slowbro.': 'If Gengar, Hydreigon, Rotom, or Alakazam comes in, follow the Slowbro sleep route.',
-  'Contra Gengar o Hydreigon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Against Gengar or Hydreigon, sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
-  'Contra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Against Rotom, use Protect and then Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
-  'Contra Alakazam, cambia o usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.': 'Against Alakazam, switch or use Teleport into Slowbro. Use Yawn, sacrifice Politoed, and bring in Poliwrath to use Belly Drum and reach +6 Attack.',
 
   '🔔 Usa Puño Hielo contra Mandibuzz y Cascada contra Gengar. 🔔': '🔔 Use Ice Punch against Mandibuzz and Waterfall against Gengar. 🔔',
   'Usa Encanto frente a Marowak y revisa el movimiento.': 'Use Charm against Marowak and check its move.',
@@ -95,8 +79,6 @@ export const kantoAgathaStrategyTranslations: Record<string, string> = {
 
   'Mantén Encanto hasta que salga Muk. Usa Amortiguador si Chansey queda cerca de media vida.': 'Keep using Charm until Muk comes in. Use Soft-Boiled if Chansey gets close to half HP.',
   'Luego usa Teletransporte. Si entra Slowbro, usa Bostezo.': 'Then use Teleport. If Slowbro comes in, use Yawn.',
-  'Si entra Gyarados, entra con Volcarona, luego cambia a Slowbro y usa Bostezo. Después continúa la ruta de sueño.': 'If Gyarados comes in, bring in Volcarona, then switch to Slowbro and use Yawn. After that, continue the sleep route.',
-
   'Cambia a Slowbro y revisa qué Pokémon entra después.': 'Switch to Slowbro and check which Pokémon comes in next.',
   'Si entra Marowak, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If Marowak comes in, use Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
   'Si entra Arbok, usa Bostezo, luego Protección y Bostezo otra vez. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔': 'If Arbok comes in, use Yawn, then Protect, and Yawn again. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Ice Punch against Gengar. 🔔',
@@ -106,7 +88,6 @@ export const kantoAgathaStrategyTranslations: Record<string, string> = {
   'Si usa Terremoto, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad. 🔔': 'If it uses Earthquake, switch to Slowbro and use Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Waterfall against Gengar and Drain Punch against Seismitoad. 🔔',
   'Si usa Hidrobomba, Tierra Viva o Fuerza Bruta, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Gyarados y Puño Hielo contra Gengar. 🔔': 'If it uses Hydro Pump, Earth Power, or Superpower, use Teleport into Slowbro and then use Yawn. Sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Waterfall against Gyarados and Ice Punch against Gengar. 🔔',
   'Si entra Muk, usa Encanto y luego Teletransporte.': 'If Muk comes in, use Charm and then Teleport.',
-  'Si Muk se queda, entra con Slowbro y usa Bostezo.': 'If Muk stays in, bring in Slowbro and use Yawn.',
   'Si entra Gyarados, entra con Volcarona y luego cambia a Slowbro para usar Bostezo. Continúa con la ruta de sueño.': 'If Gyarados comes in, bring in Volcarona and then switch to Slowbro to use Yawn. Continue with the sleep route.',
   'Si entra Lucario, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Gengar. 🔔': 'If Lucario comes in, switch to Slowbro and use Yawn. Then sacrifice Politoed and bring in Poliwrath to use Belly Drum and reach +6 Attack. 🔔 Use Waterfall against Gengar. 🔔',
 
