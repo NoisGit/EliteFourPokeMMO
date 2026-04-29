@@ -2,11 +2,15 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Amortiguador",
   "tricks": [
     {
-      "detail": "Terremoto → Cloyster +4",
-      "variant": []
+      "detail": "Usa Amortiguador. Cuando salga Infernape, vuelve a usar Amortiguador para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4."
+        }
+      ]
     }
   ]
 }
