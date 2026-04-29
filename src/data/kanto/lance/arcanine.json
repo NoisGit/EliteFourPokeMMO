@@ -2,32 +2,18 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "Envite Ígneo → Chandelure usa Truco.",
+      "detail": "Cambia a Slowbro y luego a Chansey para revisar la ruta.",
       "variant": [
         {
-          "detail": "Dragonite → Cambiar a Metagross, colocar Trampa Rocas, Poliwrath +6+2.",
-          "variant": []
+          "detail": "Si entra Ampharos, coloca Trampa Rocas. Luego cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos. 🔔"
         },
         {
-          "detail": "Feraligatr → Poliwrath +6+2.",
-          "variant": []
-        },
-        {
-          "detail": "Gyarados → Cambiar a Metagross, colocar Trampa Rocas, Cloyster usa 1 Defensa X +4.",
-          "variant": []
-        },
-        {
-          "detail": "Voltio Cruel → Excadrill entra a colocar Trampa Rocas con +4+2.",
-          "variant": []
+          "detail": "Si entra Hydreigon, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
-    },
-    {
-      "detail": "Steelix → Chandelure usa Truco para bloquear Terremoto, Cloyster entra +4. / Carámbano derrota a Lucario.",
-      "variant": []
     }
   ]
 }
