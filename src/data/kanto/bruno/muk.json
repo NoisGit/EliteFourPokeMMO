@@ -2,25 +2,21 @@
   "id": "muk",
   "name": "Muk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Puño Fuego → Coloca Rocas, luego revisa si Metagross sobrevive",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Si no muere → Chandelure 2+2. / Lanzallamas para barrer al equipo. Slowbro necesita ser golpeado dos veces"
+          "detail": "Si entra Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
         },
         {
-          "detail": "Si muere → Cambia a Excadrill (Para tentar a la IA a seguir atacando), luego cambia de nuevo a Chandelure 2+2. / Lanzallamas para barrer. Slowbro necesita ser golpeado dos veces"
+          "detail": "Si entra Ursaring o un Pokémon tipo Lucha, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
         },
         {
-          "detail": "Si Chandelure es derrotado por Slowbro con golpe crítico → Poliwrath 6+2 (a confirmar, enviar registro de combate)"
+          "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez. Luego cambia a Chansey. Cuando salga Staraptor, sigue la ruta de Staraptor."
         }
       ]
-    },
-    {
-      "detail": "Steelix → Cloyster +6 / Carámbano contra Steelix",
-      "variant": []
     }
   ]
 }
