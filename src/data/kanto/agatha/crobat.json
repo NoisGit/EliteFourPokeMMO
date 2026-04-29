@@ -2,11 +2,18 @@
   "id": "crobat",
   "name": "Crobat",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Encerrar a Krookodile o Seismitoad → Cambiar a Cloyster +6 (Usa Carámbano contra Houndoom)",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo frente a Gengar. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad. 🔔"
+        }
+      ]
     }
   ]
 }

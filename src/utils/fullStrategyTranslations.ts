@@ -1,4 +1,5 @@
 import type { Language } from '../i18n/translations'
+import { kantoAgathaStrategyTranslations } from './kantoAgathaStrategyTranslations'
 import { kantoBrunoStrategyTranslations } from './kantoBrunoStrategyTranslations'
 import { translateExactStrategyText } from './exactStrategyTranslations'
 
@@ -9,5 +10,5 @@ export const translateFullStrategyText = (text: string, language: Language) => {
 
   if (exactTranslation !== text) return exactTranslation
 
-  return kantoBrunoStrategyTranslations[text] || text
+  return kantoAgathaStrategyTranslations[text] || kantoBrunoStrategyTranslations[text] || text
 }

@@ -2,30 +2,18 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Onda Certera → Cambiar a Chandelure y usar Bola Sombra para debilitar, entra Hydreigon, Scrafty +2",
-      "variant": []
-    },
-    {
-      "detail": "Bola Sombra → Scrafty Defensa Especial X +3. Si es más rápido que Scrafty utiliza 1 Danza Dragón Extra, tener cuidado con la recuperación de vida",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon → Cambiar a Chandelure y usar Truco",
+      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
       "variant": [
         {
-          "detail": "No se retira → Cambiar a Scrafty y si al cambiar a Scrafty sigue sin retirarse boostea a +2"
+          "detail": "Con Slowbro, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Contra Rotom → Excadrill con Trampa Rocas 4 + 2"
+          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔"
         }
       ]
-    },
-    {
-      "detail": "Sale Rotom → Cambiar a Metagross, poner Trampa Rocas, luego Poliwrath 6 + 2",
-      "variant": []
     }
   ]
 }

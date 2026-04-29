@@ -2,15 +2,32 @@
   "id": "marowak",
   "name": "Marowak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Encanto",
   "tricks": [
     {
-      "detail": "Si utiliza Terremoto, cambia a Cloyster +4 (Utiliza Carámbano con Gengar)",
-      "variant": []
+      "detail": "Usa Encanto frente a Marowak y revisa el movimiento.",
+      "variant": [
+        {
+          "detail": "Si usa Huesomerang, usa Teletransporte hacia Slowbro. Si Marowak se queda, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Arbok, usa Bostezo, Protección y luego Bostezo otra vez. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Terremoto, usa Teletransporte hacia Slowbro y luego cambia a Volcarona."
+        }
+      ]
     },
     {
-      "detail": "Si utiliza Huesomerang, cambia a Cloyster +6 (Utiliza Surf con Gengar)(Si surf esta bloqueado usa Carambano contra Rotom)",
-      "variant": []
+      "detail": "Si entra Rotom, usa Danza Aleteo con Volcarona y presiona hasta Houndoom.",
+      "variant": [
+        {
+          "detail": "Frente a Houndoom, usa Danza Aleteo x2 y termina la ruta."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Gengar, entra con Volcarona, usa Danza Aleteo x1 y Especial X."
     }
   ]
 }
