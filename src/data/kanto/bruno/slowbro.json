@@ -2,58 +2,48 @@
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "ACUA COLA → Ver si acierta",
+      "detail": "Coloca Trampa Rocas y revisa qué hace el rival.",
       "variant": [
         {
-          "detail": "Acierta → Volver a usar Truco para bloquear a Krookodile, Cloyster +4. / Carámbano para matar a Lucario"
+          "detail": "Si usa Puño Drenaje, usa Teletransporte. Si se queda, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
         },
         {
-          "detail": "Falla → Colocar Trampa Rocas, evaluar situación:",
-          "variant": [
-            {
-              "detail": "Slowbro no se retira → Poliwrath 6+2"
-            },
-            {
-              "detail": "Sale Metagross → Chandelure usa Truco para bloquear Avalancha / Roca Afilada, luego cambia a Metagross y Truco para bloquear a Krookodile, Cloyster +4"
-            }
-          ]
+          "detail": "Si entra Hitmonchan, usa Teletransporte para recibir A Bocajarro. Luego entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Si entra Staraptor, cambia a Gengar y usa Otra Vez. Si eres más rápido, usa Maquinación hasta +4. Si eres más lento, usa Maquinación hasta +2 y Precisión X."
+        },
+        {
+          "detail": "Si entra Ursaring, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
         }
       ]
     },
     {
-      "detail": "LANZALLAMAS → Colocar Trampa Rocas, luego ver el objeto",
+      "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez.",
       "variant": [
         {
-          "detail": "Casco Dentado → Chandelure 2+2. / Lanzallamas para barrer"
+          "detail": "Si usa Puño Dinámico, cambia a Chansey. Cuando salga Muk, usa Amortiguador."
         },
         {
-          "detail": "Restos → Chandelure +2 Píldoras (At. Esp.). / Lanzallamas para barrer"
-        }
-      ]
-    },
-    {
-      "detail": "AGGRON → Chandelure +2 Píldoras (At. Esp.). / Lanzallamas para barrer / Si Chandelure es eliminado por Terremoto de Hitmonchan → Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "KROOKODILE → Cloyster +4. / Carámbano para matar a Lucario",
-      "variant": []
-    },
-    {
-      "detail": "STEELIX → Cloyster +6. / Carámbano para matar a Steelix",
-      "variant": []
-    },
-    {
-      "detail": "METAGROSS → Cambiar a Chandelure",
-      "variant": [
-        {
-          "detail": "Si no se retira → Usar una vez Poder Oculto Hielo para bajar PS, luego cambiar a Excadrill contra Slowbro, colocar Trampa Rocas, Poliwrath 6+2"
+          "detail": "Si entra Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
         },
         {
-          "detail": "Contra Krookodile → Truco para bloquear Terremoto, Cloyster +4. / Carámbano para matar a Lucario"
+          "detail": "Si entra Ursaring, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+        },
+        {
+          "detail": "Si usa A Bocajarro o Puño Drenaje, cambia a Chansey. Si entra Staraptor, vuelve a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+        },
+        {
+          "detail": "Si entra Salamence, cambia a Slowbro. Cuando salga Metagross, usa Bostezo. Cuando vuelva Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
+        },
+        {
+          "detail": "Si Machamp se queda, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+        },
+        {
+          "detail": "Si entra Metagross, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
         }
       ]
     }
