@@ -2,52 +2,67 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "TERREMOTO → Excadrill 4+2",
-      "variant": []
-    },
-    {
-      "detail": "MACHADA → Cambia a Chandelure:",
+      "detail": "Coloca Trampa Rocas. Si Metagross se queda, revisa su ataque.",
       "variant": [
         {
-          "detail": "Contra Krookodile → Truco para encerrarlo en Terremoto, Cloyster +4 / Carámbano para matar a Lucario // No importa si Salamence te intimida // Surf para Machamp"
+          "detail": "Si usa Puño Meteoro, usa Teletransporte hacia Slowbro y luego Bostezo."
         },
         {
-          "detail": "Si no se va → Lanza una Poder Oculto para bajarle vida, luego cambia a Excadrill para enfrentarse a Slowbro, coloca Trampa Rocas, Poliwrath 6+2"
+          "detail": "Si usa Hierba Lazo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Machada, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
         }
       ]
     },
     {
-      "detail": "PODER OCULTO → Coloca Trampa Rocas, Chandelure 2+2. / Lanzallamas para barrer el equipo (Blastoise necesita 2 lanzallamas)",
-      "variant": []
-    },
-    {
-      "detail": "Puño Meteoro → Cambia a Chandelure:",
+      "detail": "Si entra Heracross, usa Protección y luego Bostezo.",
       "variant": [
         {
-          "detail": "Contra Rhyperior → Truco para encerrarlo en Terremoto, Cloyster +4"
-        },
-        {
-          "detail": "Si no se va → Lanzallamas para matarlo, sale Rhyperior, cambia a Excadrill y luego a Chandelure para hacer Truco, encierra en Terremoto, Cloyster +4"
-        },
-        {
-          "detail": "Si Chandelure es derrotado por Metagross → Metagross entra y remata con Puño Trueno, luego sale Rhyperior, revive a Chandelure, hace Truco y encierra en Terremoto, Cloyster + 4"
+          "detail": "Cuando salga Salamence, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     },
     {
-      "detail": "Puño Hielo → Cambia a Chandelure frente a Rhyperior, Truco para encerrarlo en Terremoto, Cloyster +4",
-      "variant": []
+      "detail": "Si entra Infernape, usa Amortiguador para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte hacia Gengar, usa Otra Vez y Maquinación hasta +2."
+        }
+      ]
     },
     {
-      "detail": "Rhyperior → Cloyster +4",
-      "variant": []
+      "detail": "Si entra Heracross y recibes A Bocajarro, usa Amortiguador y luego Teletransporte hacia Gengar.",
+      "variant": [
+        {
+          "detail": "Con Gengar, usa Otra Vez y Maquinación hasta +4. Usa Otra Vez de nuevo cuando sea necesario, porque Heracross tiene Banda Focus."
+        }
+      ]
     },
     {
-      "detail": "Krookodile → Cloyster +4. / Carámbano para Lucario",
-      "variant": []
+      "detail": "Si entra Darmanitan, elige una de estas rutas.",
+      "variant": [
+        {
+          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3."
+        },
+        {
+          "detail": "Ruta rápida: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

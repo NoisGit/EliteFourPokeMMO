@@ -2,19 +2,18 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lucario no se retira → Truco y lo encierras en Pulso Umbrío, Scrafty +3. / Paliza + Puño drenaje para matar a Krookodile, Si scrafty esta +5 y sale Metagross, usa Paliza si no lleva a +5 utiliza a Bocajarro para Metagross // Si Machamp te mata a Scrafty con Ultrapuño, saca a Metagross, Truco, Chandelure termina de barrer",
-      "variant": []
-    },
-    {
-      "detail": "Contra Metagross → Truco y lo encierras en Avalancha, luego cambia a Metagross y usa Truco para encerrarlo en Krookodile, Cloyster +4. / Usa Carámbano para matar a Lucario",
-      "variant": []
-    },
-    {
-      "detail": "Contra Krookodile → Truco y lo encierras en Terremoto, Cloyster +4. / Usa Carámbano para matar a Lucario",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Cuando salga Metagross, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Cuando salga Salamence, usa Teletransporte hacia Volcarona."
+        },
+        {
+          "detail": "Con Volcarona, usa Danza Aleteo x1 y continúa la ruta."
+        }
+      ]
     }
   ]
 }

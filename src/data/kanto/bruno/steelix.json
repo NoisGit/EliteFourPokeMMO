@@ -2,15 +2,24 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Revestimiento Metálico → Cloyster +6. / Cloyster usa Carámbano para matar a Steelix.",
-      "variant": []
-    },
-    {
-      "detail": "Casco Dentado → Cloyster +4 + Medicina de At. Esp. // Surf hitmontop y machamp",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Steelix usa Terremoto, usa Encanto y luego Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si entra Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Si entra Machamp, cambia a Gengar, usa Otra Vez y luego cambia a Chansey. Cuando salga Staraptor, sigue la ruta de Staraptor."
+        },
+        {
+          "detail": "Si entra un Pokémon tipo Lucha, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+        },
+        {
+          "detail": "Si entra Staraptor directamente, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+        }
+      ]
     }
   ]
 }

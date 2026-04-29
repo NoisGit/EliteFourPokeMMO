@@ -2,11 +2,15 @@
   "id": "ursaring",
   "name": "Ursaring",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Bloquea a Steelix → Cloyster +6",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Luego entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": [
+        {
+          "detail": "Mantén Otra Vez cada vez que puedas para controlar al rival."
+        }
+      ]
     }
   ]
 }

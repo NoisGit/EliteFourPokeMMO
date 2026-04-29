@@ -2,19 +2,35 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Cambia a Gengar + Otra Vez",
   "tricks": [
     {
-      "detail": "A Bocajarro → Colocar Trampa Rocas, Chandelure usa Lanzallamas, entra Slowbro, Poliwrath 6+0. / Slowbro necesita dos golpes. Si hace Tambor y sale Machamp, no importa, simplemente barre.",
-      "variant": []
+      "detail": "Cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Si eres más rápido, usa Maquinación hasta +2 y golpea con Onda Certera. Si fallas, usa Otra Vez y vuelve a intentarlo."
+        },
+        {
+          "detail": "Si sale Steelix, cambia a Chansey y coloca Trampa Rocas. Cuando salga un Pokémon tipo Lucha, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+        },
+        {
+          "detail": "Si eres más lento, cambia a Slowbro y usa Bostezo. Cuando salga Steelix, cambia a Chansey y usa Amortiguador."
+        }
+      ]
     },
     {
-      "detail": "Steelix con Chaleco→ Cloyster +6",
-      "variant": []
-    },
-    {
-      "detail": "Steelix con Casco Dentado O rev. metálico → Cloyster +4 + Medicina de At. Esp.",
-      "variant": []
+      "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey. Cuando salga Muk, usa Amortiguador hasta que vuelva Staraptor."
+        },
+        {
+          "detail": "Contra Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Contra un Pokémon tipo Lucha, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+        }
+      ]
     }
   ]
 }
