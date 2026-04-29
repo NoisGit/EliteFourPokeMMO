@@ -2,15 +2,18 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si utiliza Surf, usa Trampa Rocas, Cambia a Poliwrath Vel X + Defensa X + Tambor (Si sale Dragonite mientras te estas preparando utiliza Puño Hielo para matarlo y sigue preparándote)",
-      "variant": []
-    },
-    {
-      "detail": "Steelix → Cloyster +4",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Infernape.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y mantenlo en campo. Usa Bostezo frente a Dragonite."
+        },
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }
