@@ -2,6 +2,24 @@
   "id": "shiftry",
   "name": "Shiftry",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usar Puño Trueno, sale Seismitoad, Cloyster +6 // Surf contra Gengar.",
-  "tricks": []
+  "initialMove": "Cambia a Volcarona",
+  "tricks": [
+    {
+      "detail": "Cambia a Volcarona y revisa si Shiftry se queda.",
+      "variant": [
+        {
+          "detail": "Si Shiftry se queda, usa Danza Aleteo x1 y dos Especial X. 💊 Si quieres ahorrar, usa Danza Aleteo x5. 💰"
+        },
+        {
+          "detail": "Si entra Muk, cambia a Slowbro y usa Bostezo. Si Muk se queda, usa Protección y luego Bostezo."
+        },
+        {
+          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
+        },
+        {
+          "detail": "Si entra Gengar o Seismitoad, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
+        }
+      ]
+    }
+  ]
 }
