@@ -2,6 +2,21 @@
   "id": "rotom_hielo",
   "name": "Rotom Hielo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Excadrill 4+2 / Cabeza Hierro para Gengar",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro",
+  "tricks": [
+    {
+      "detail": "Cambia a Slowbro y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Marowak, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
+        },
+        {
+          "detail": "🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨"
+        },
+        {
+          "detail": "Si entra Arbok, usa Bostezo, luego Protección y Bostezo otra vez. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
+        }
+      ]
+    }
+  ]
 }
