@@ -2,24 +2,21 @@
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "LANZALLAMAS → Chandelure 2+2 / Lanzallamas para avanzar en el equipo",
+      "detail": "Coloca Trampa Rocas y revisa si entra Golurk.",
       "variant": [
         {
-          "detail": "Si el rival cambia a Golurk, usa Truco, luego entra Excadrill +4 +2 y vuelve a colocar Trampa Rocas.",
-          "variant": []
+          "detail": "Si entra Golurk, cambia a Gengar y usa Otra Vez."
         },
         {
-          "detail": "Si el rival cambia a Slowbro, entra Scrafty +1 en Defensa Especial + 1 Danza Dragón + Raíz Energía + 1 Danza Dragón / Liepard tiene banda Focus pero no te mata",
-          "variant": []
+          "detail": "Usa Maquinación hasta +4 y Velocidad X para +2 Velocidad."
+        },
+        {
+          "detail": "Continúa atacando con Bola Sombra."
         }
       ]
-    },
-    {
-      "detail": "GOLURK → Excadrill 4+2 y lanza Trampa Rocas, (si entra Drowzee), cambia a Poliwrath, luego a Scrafty 2(SpD)+2",
-      "variant": []
     }
   ]
 }
