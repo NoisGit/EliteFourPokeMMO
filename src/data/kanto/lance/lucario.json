@@ -2,36 +2,29 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "(A Bocajarro) → usa Truco para bloquear Puño Hielo, Cloyster +4.",
-      "variant": []
-    },
-    {
-      "detail": "(Esfera Aural) → usa Truco y revisa el objeto",
+      "detail": "Coloca Trampa Rocas y revisa si Lucario usa A Bocajarro.",
       "variant": [
         {
-          "detail": "Banda Focus → entra Scrafty 3 / usa Paliza + Puño Drenaje para matar a Steelix",
-          "variant": []
+          "detail": "Si usa A Bocajarro, cambia a Slowbro y usa Bostezo frente a Electivire. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Vidasfera → entra Scrafty +4 o +2 + medicina de ataque",
-          "variant": []
+          "detail": "🚨 Si no logras colocar Trampa Rocas, usa la ruta de emergencia. 🚨"
+        },
+        {
+          "detail": "Ruta de emergencia: si mueres por crítico y no hay Trampa Rocas, entra con Gengar y usa Bola Sombra. Luego cambia a Slowbro y usa Bostezo para recuperar el control de la partida."
         }
       ]
     },
     {
-      "detail": "(Contra Dragonite → usa Truco para bloquear Cola Dragón, Cloyster entra con + Defensa X + 4 / Carambano mata a Lucario. Si accidentalmente se bloquea a Scrafty, usa medicina de defensa para aguantar, luego entra Cloyster para fortalecerse (Eso último de bloquear a Scrafty falta testear)",
-      "variant": []
-    },
-    {
-      "detail": "(Contra Steelix) → Truco para bloquear Terremoto, Cloyster entra con+ 4 / Carambano mata a Lucario",
-      "variant": []
-    },
-    {
-      "detail": "(Contra Scrafty) → Truco para bloquear Triturar, usa medicina de defensa (creo que es para tentar a que Scrafty se quede, Cloyster entra con Defensa X + 4 / Carambano mata a Lucario",
-      "variant": []
+      "detail": "Si entra Arcanine, cambia a Slowbro y usa Bostezo frente a Ampharos o Hydreigon.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔"
+        }
+      ]
     }
   ]
 }
