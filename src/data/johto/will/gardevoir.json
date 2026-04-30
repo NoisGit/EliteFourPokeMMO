@@ -2,26 +2,16 @@
   "id": "gardevoir",
   "name": "Gardevoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "LANZALLAMAS [Zoroark disfrazado] → Truco para bloquear en Pulso Umbrío, Scrafty +2",
-      "variant": []
-    },
-    {
-      "detail": "CLEFABLE → Cambia a Scrafty y observa el movimiento",
+      "detail": "Usa Amortiguador y revisa si entra Lucario.",
       "variant": [
         {
-          "detail": "Si no es Pulso Umbrío → Scrafty +2 / Si está envenenado, cura primero.",
-          "variant": []
+          "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X."
         },
         {
-          "detail": "Ataques físicos te hacen 100 de daño fijo, si tienes menos de 100 PS usa Raíz Energía y sigue subiendo stats",
-          "variant": []
-        },
-        {
-          "detail": "Si es Pulso Umbrío [poca probabilidad] → Cambia a Chandelure y usa Truco para bloquear en Pulso Umbrío, Scrafty +2",
-          "variant": []
+          "detail": "Si la cobertura principal queda limitada, usa Onda Certera para cubrir a Xatu."
         }
       ]
     }
