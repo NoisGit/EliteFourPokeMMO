@@ -2,11 +2,30 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y Truco",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si Lucario no cambia y utiliza Triturar / Roca Afilada / Otro movimiento al que Scrafty sea resistente cambia a Scrafty +2",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Lucario usa A Bocajarro, revisa el objeto y si lograste poner las rocas.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera y colocaste Trampa Rocas, usa Teletransporte. Si usa Triturar o Puño Bala, pasa por Poliwrath y luego entra con Gengar. Usa Otra Vez, Maquinación hasta +4 y Precisión X."
+        },
+        {
+          "detail": "Si tiene Vidasfera y usa A Bocajarro o Velocidad Extrema, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
+        },
+        {
+          "detail": "Si tiene Vidasfera y no colocaste Trampa Rocas, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
+        },
+        {
+          "detail": "Si no tiene Vidasfera, usa Teletransporte. Luego entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra."
+    },
+    {
+      "detail": "Si aparece un segundo Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
     }
   ]
 }

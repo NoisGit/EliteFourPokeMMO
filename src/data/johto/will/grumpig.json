@@ -2,11 +2,15 @@
   "id": "grumpig",
   "name": "Grumpig",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Entra Blissey, Scrafty +1, A bocajarro para matar a Blissey",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa si entra Electivire.",
+      "variant": [
+        {
+          "detail": "Si entra Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,22 @@
 {
-    "id": "claydol",
-    "name": "Claydol",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "Excadrill y usas Trampa Rocas, entra Mantine, cambia a Chandelure y usa Truco, lo deja bloqueado en Escaldar, cambia a Poliwrath 6+2",
-    "tricks": []
-  }
+  "id": "claydol",
+  "name": "Claydol",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas. Si Claydol se queda, aguanta con Defensa Especial X y usa Amortiguador frente a Girafarig.",
+      "variant": [
+        {
+          "detail": "Cuando entre Girafarig, cambia a Gengar y usa Otra Vez."
+        },
+        {
+          "detail": "Luego cambia a Slowbro frente a Mantine y usa Bostezo frente a Magnezone."
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    }
+  ]
+}

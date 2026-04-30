@@ -1,34 +1,38 @@
 {
-    "id": "altaria",
-    "name": "Altaria",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "TRUCO",
-    "tricks": [
-      {
-        "detail": "LLAMARADA: Cambia Scrafty +Def. Esp X + 2 +Raiz Energia Si estas en rojo. + 1 Danza Dragón. (Crítico de Llamarada baja 46.2%)",
-        "variant": [
-          {
-            "detail": "Si Altaria mata a Scrafty Por Criticó Cambia Chandelure usa una vez Lanzallamas, luego entra Poliwrath frente a Empoleon, cambia a Chandelure y usa Truco para Encerrar en Cascada,cambia Poliwrath 2 Veces tambor + Velocidad X. / Puño Hielo para matar a Alakazam.",
-            "variant": []
-          }
-        ]
-      },
-      {
-        "detail": "LANZALLAMAS Es [Zorua Disfrazado] : Cambia a Chandelure usa Truco para cambiar el ítem, luego cambia Scrafty +4.(Si Metagross murió o está quemado, haz otra Danza Dragón Extra.)",
-        "variant": []
-      },
-      {
-        "detail": "CLEFABLE: cambia a Chandelure.",
-        "variant": [
-          {
-            "detail": "Lucario o Gardevoir, usa Truco para Encerrar en Triturar, Pulso Umbrío o Bola Sombra, Scrafty +2.",
-            "variant": []
-          },
-          {
-            "detail": "Si Clefable no se va, Scrafty 1 + usa Raíz Energía para curar y boostear otra vez.",
-            "variant": []
-          }
-        ]
-      }
-    ]
-  }
+  "id": "altaria",
+  "name": "Altaria",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "🥚 Amortiguador 🥚",
+  "tricks": [
+    {
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Stantler, cambia a Gengar y usa Otra Vez. Cuando salga Alakazam, elige ruta estable o ruta RNG."
+        },
+        {
+          "detail": "Ruta estable: cambia a Chansey, usa Teletransporte y entra con Slowbro. Usa Bostezo, luego Protección para dormir a Alakazam. Después usa Bostezo frente a Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Ruta RNG: entra con Slowbro, usa Bostezo y luego Protección. Cuando salga Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Lucario, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Usa Maquinación hasta +6 y Precisión X. Mantén Otra Vez cuando sea necesario."
+        }
+      ]
+    },
+    {
+      "detail": "Si Lucario usa un movimiento de fuego, probablemente es Zoroark.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez sobre el movimiento de fuego y luego entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad."
+        }
+      ]
+    }
+  ]
+}
