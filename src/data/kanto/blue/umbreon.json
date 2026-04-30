@@ -2,11 +2,18 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Scrafty +3",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Usa A Bocajarro para derrotar a Machamp // Paliza contra Jolteon",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Machamp.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon."
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

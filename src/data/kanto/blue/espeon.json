@@ -2,22 +2,16 @@
   "id": "espeon",
   "name": "Espeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "(Contra Umbreon) → Scrafty +3. / Usar A Bocajarro para matar a Machamp, Pulso Paliza contra Jolteon. Si entra Blastoise, Scrafty +2. / A Bocajarro a Machamp, Paliza a Jolteon.",
-      "variant": []
-    },
-    {
-      "detail": "(Contra Machamp) → Usar Truco,",
+      "detail": "Coloca Trampa Rocas frente a Machamp.",
       "variant": [
         {
-          "detail": "si responde con Payback o cambia a Umbreon, usar Scrafty +3",
-          "variant": []
+          "detail": "Cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon."
         },
         {
-          "detail": "si entra Blastoise, usar Scrafty +2. Paliza a Jolteon, A Bocajarro a Machamp.",
-          "variant": []
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     }

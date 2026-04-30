@@ -2,11 +2,18 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Utiliza directamente Puño Trueno",
+  "initialMove": "👻 Cambia a Gengar 👻",
   "tricks": [
     {
-      "detail": "cambiará a Nidoking, saca a Cloyster +6",
-      "variant": []
+      "detail": "Cambia a Gengar y revisa si Electivire se queda.",
+      "variant": [
+        {
+          "detail": "Si Electivire se queda, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. 🔔 Barre con Bola Sombra y mantén a Gengar con buena salud. 🔔"
+        },
+        {
+          "detail": "Si Gengar cae, envía a Slowbro y usa Bostezo hasta tener a Nidoking enfrente. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Leafeon. 🔔"
+        }
+      ]
     }
   ]
 }

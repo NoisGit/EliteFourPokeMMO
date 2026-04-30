@@ -2,49 +2,10 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💀 Sin solución 💀",
   "tricks": [
     {
-      "detail": "Giro Bola→ Trampa Rocas, entra Nidoking, Excadrill 4+0.",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto → Excadrill 6+2 y luego lanza Trampa Rocas.",
-      "variant": []
-    },
-    {
-      "detail": "Slowbro → Cambia a Chandelure para enfrentarse a Dragonite, lanza un Poder Oculto para bajarle vida, luego cambia a Excadrill, entra Lapras, Poliwrath 6+2.",
-      "variant": [
-        {
-          "detail": "Contra Lucario → Cambia a Chandelure y usa Truco, lo dejas atrapado en Trampa Rocas o Triturar, luego entra Scrafty 2.",
-          "variant": []
-        },
-        {
-          "detail": "Contra Lapras o Slowbro → Poliwrath 6+2.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Después de Nidoking → Excadrill 6+2. / Terremoto para matar a Lapras.",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite → Chandelure usa Poder Oculto para bajarle vida y ver qué entra:",
-      "variant": [
-        {
-          "detail": "Si entra Lapras, Poliwrath 6+2",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Lucario, cambia a Scrafty, luego cambia a Chandelure y usa Truco para dejarlo atrapado en Trampa Rocas o Triturar, luego Scrafty 2.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Lucario → Chandelure usa Truco para cambiar objeto, luego Scrafty 3.",
-      "variant": []
+      "detail": "No hay una ruta registrada para resolver este inicio de forma estable."
     }
   ]
 }

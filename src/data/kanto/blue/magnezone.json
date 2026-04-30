@@ -2,18 +2,19 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Globo Helio → Colocar trampas y dejarse vencer (no se puede escapar por Imán), luego Excadrill con +4 + 2. Si no hay trampas, coloca Trampa Rocas",
-      "variant": []
-    },
-    {
-      "detail": "Refleluz → Excadrill con +6 +2 +Defensa especial.X // Si Excadrill es derrotado por Alakazam al intentar entrar, revisar la siguiente línea:",
+      "detail": "Coloca Trampa Rocas. Si Magnezone se queda, toma una Defensa Especial X y usa Amortiguador para forzar el cambio.",
       "variant": [
         {
-          "detail": "Entra Metagross y remata con Puño Trueno, el rival cambia a Sandslash → coloca trampas, se deja vencer, Chandelure usa Truco para bloquear Terremoto, luego Cloyster se potencia hasta +6. (NO SE ENTIENDE ESTO SI SUPUESTAMENTE METAGROSS DEBÍA DE MORIR)",
-          "variant": []
+          "detail": "Si entra Sandslash o Gyarados, usa Teletransporte y entra con Slowbro. Usa Bostezo, Protección y Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
+        },
+        {
+          "detail": "Si entra Poliwrath, sacrifica a Politoed. Luego entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+        },
+        {
+          "detail": "Ruta ahorro contra Poliwrath: usa Maquinación hasta +6 y Velocidad X para +2 Velocidad."
         }
       ]
     }

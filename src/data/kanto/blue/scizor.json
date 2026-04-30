@@ -2,22 +2,13 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA SI TU METAGROSS TIENE FULL VIDA",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si tiene PS completos → Usar Truco para bloquear a Golem, luego Excadrill +6+2.",
-      "variant": []
-    },
-    {
-      "detail": "Si no tiene PS completos → Cambiar a Chandelure.",
+      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Vaporeon.",
       "variant": [
         {
-          "detail": "Si entra contra Golem → Usar Truco para bloquear Terremoto, luego Excadrill +6+2.",
-          "variant": []
-        },
-        {
-          "detail": "Si el rival no se cambia → Usar Truco para bloquear Persecución, luego volver a cambiar a Metagross y usar Truco para bloquear a Golem, Excadrill +6+2.",
-          "variant": []
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     }

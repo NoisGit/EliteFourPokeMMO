@@ -2,19 +2,38 @@
   "id": "venusaur",
   "name": "Venusaur",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto → Cloyster +6",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Venusaur se queda, identifica el movimiento.",
+      "variant": [
+        {
+          "detail": "Si usa Latigazo, usa Teletransporte. Si Venusaur se queda, cambia a Slowbro y usa Bostezo. Revisa su precisión: si acierta, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2; si falla, cambia directo a Volcarona y usa Danza Aleteo x2."
+        },
+        {
+          "detail": "Si entra Poliwrath, cambia a Poliwrath y luego a Politoed. Después entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ruta ahorro: Maquinación hasta +6 y Velocidad X para +2 Velocidad."
+        }
+      ]
     },
     {
-      "detail": "Drenadoras → Metagross coloca Trampa Rocas, Cloyster +6",
-      "variant": []
+      "detail": "Si usa Drenadoras, usa Encanto frente a Gyarados y luego Teletransporte.",
+      "variant": [
+        {
+          "detail": "Si Venusaur se queda, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego cambia a Poliwrath y deja que caiga. Entra con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
+        },
+        {
+          "detail": "Si entra Sandslash, cambia a Slowbro y usa Relajo para recibir Terremoto. Luego usa Bostezo frente a Magnezone, cambia a Poliwrath y deja que caiga. Entra con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
+        },
+        {
+          "detail": "Si entra Poliwrath, sacrifica a Politoed. Luego entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ruta ahorro: Maquinación hasta +6 y Velocidad X para +2 Velocidad."
+        },
+        {
+          "detail": "Si entra Gyarados, usa Teletransporte y entra con Slowbro. Usa Bostezo, Protección y Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
+        }
+      ]
     },
     {
-      "detail": "Sandslash → Metagross coloca Trampa Rocas, Cloyster +6 // Si falla al colocar Trampa Rocas (muere), entonces Cloyster +6 con medicina de defensa especial + golpe crítico potenciado (Píldora Directo)",
-      "variant": []
+      "detail": "Si entra Sandslash directamente, usa Teletransporte y entra con Slowbro. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
     }
   ]
 }

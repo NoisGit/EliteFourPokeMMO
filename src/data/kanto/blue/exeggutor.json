@@ -2,11 +2,18 @@
   "id": "exeggutor",
   "name": "Exeggutor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure contra Magnezone y usa Truco para bloquear Rayo",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Excadrill coloca Trampa Rocas +4+2",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Poliwrath y usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+        },
+        {
+          "detail": "Ruta ahorro: usa Maquinación hasta +6 y Velocidad X para +2 Velocidad."
+        }
+      ]
     }
   ]
 }
