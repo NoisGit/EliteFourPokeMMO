@@ -2,11 +2,18 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear a Nidoking",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "luego entra Cloyster con +6",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Machamp, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Puño Drenaje contra Leafeon. 🔔"
+        }
+      ]
     }
   ]
 }
