@@ -2,15 +2,24 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "(Terremoto) → Cloyster con +4 + Defensa X. / Cloyster mata a Lucario con Carámbano.",
-      "variant": []
-    },
-    {
-      "detail": "(Colmillo Ígneo) → poner Trampa Rocas, cambiar a Chandelure y usar Truco, bloquear a Lapras, Poliwrath entra con 6 + 2.. /// Si el rival no cambia, usar Truco varias veces hasta que caiga, luego Chandelure con 2 + 2. / Luego barrer con Lanzallamas.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Steelix.",
+      "variant": [
+        {
+          "detail": "Si usa Terremoto, cambia a Slowbro y usa Bostezo. Si Steelix se queda, mantén a Slowbro en campo y sigue usando Bostezo hasta que cambie."
+        },
+        {
+          "detail": "Si entra Dragonite, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Metagross, cambia a Volcarona frente a Aerodactyl. Sacrifica a Politoed y entra con Poliwrath. Usa Ataque X antes de barrer. 🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔"
+        },
+        {
+          "detail": "Si entra Arcanine, cambia a Slowbro y usa Bostezo frente a Ampharos. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔"
+        }
+      ]
     }
   ]
 }
