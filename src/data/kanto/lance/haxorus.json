@@ -2,19 +2,18 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto → Cambia a Cloyster +6.",
-      "variant": []
-    },
-    {
-      "detail": "(Dragonite) → cambia a Chandelure, usa Truco para bloquear a Feraligatr, luego entra Poliwrath con 6+2+6 (aprovecha Absorbe Agua para curarse completamente) / lleva Haxorus con Banda Focus. (Se recomienda usar Defensa X en vez del segundo Tambor si tienes miedo a un crítico de Haxorus)",
-      "variant": []
-    },
-    {
-      "detail": "(Metagross) → entra Excadrill con 2+2 y luego coloca Trampa Rocas.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Ampharos.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Puño Drenaje contra Ampharos, Haxorus o Metagross. 🔔"
+        }
+      ]
     }
   ]
 }

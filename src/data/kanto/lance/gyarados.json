@@ -2,22 +2,16 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Puño Trueno remata, observa quién entra.",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Arcanine → Cambia a Chandelure y usa Truco para bloquear con Voltio Cruel; luego Excadrill entra y hace 4+2 + Trampa Rocas",
-      "variant": []
-    },
-    {
-      "detail": "(Steelix / Ampharos) → cambia a Excadrill, luego a Chandelure para usar Truco:",
+      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Ampharos.",
       "variant": [
         {
-          "detail": "Si se bloquea Rayo, Excadrill entra y hace +4+2 + Trampa Rocas",
-          "variant": []
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Si se bloquea Terremoto, entra Cloyster +4 / remata a Lucario con Carámbano",
-          "variant": []
+          "detail": "🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔"
         }
       ]
     }

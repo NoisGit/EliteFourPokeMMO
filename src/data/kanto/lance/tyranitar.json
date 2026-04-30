@@ -2,15 +2,18 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "PONER TRAMPA ROCAS Y OBSERVAR",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "(Fuerza Bruta) → cambiar a Chandelure y usar Truco, bloquear a Feraligatr o Dragonite, entra Poliwrath con 6 + 2. Si Feraligatr usa Triturar inesperadamente, entra Scrafty con +2..",
-      "variant": []
-    },
-    {
-      "detail": "(Triturar) → entra Scrafty con +2.",
-      "variant": []
+      "detail": "Cambia a Slowbro y usa Bostezo frente a Eelektross o Metagross. Luego cambia a Chansey y coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si entra Metagross, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Tyranitar, cambia a Gengar y usa Maquinación. Luego barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás."
+        }
+      ]
     }
   ]
 }

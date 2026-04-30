@@ -2,97 +2,48 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "NO CAMBIA → usa Lanzallamas para rematar",
+      "detail": "Cambia a Slowbro y luego a Chansey para revisar la ruta.",
       "variant": [
         {
-          "detail": "LAPRAS → Poliwrath 6 + 2, si cambias a Poliwrath y recibe un rayo, entra Excadrill con 2 + 2 + Trampa Rocas",
-          "variant": []
+          "detail": "Si Scizor se queda, vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Metagross. 🔔"
         },
         {
-          "detail": "FERALIGATR → cambia a Poliwrath y luego a Metagross, observar el movimiento:",
-          "variant": [
-            {
-              "detail": "Si usa Fuerza Bruta → usar Truco",
-              "variant": [
-                {
-                  "detail": "Si usa Cascada → Poliwrath 6 + 2 + Defensa X",
-                  "variant": []
-                },
-                {
-                  "detail": "(Dragonite) → Scrafty consume objeto de defensa especial +3 / usa Paliza para matar a Axew (pendiente de confirmar)",
-                  "variant": []
-                },
-                {
-                  "detail": "(Metagross) → Excadrill 2 + 2 y vuelve a poner Trampa Rocas",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "(Puño Hielo) → usar Truco y bloquear a Steelix, Cloyster +4",
-              "variant": []
-            },
-            {
-              "detail": "(Rayo Hielo) → usar Truco",
-              "variant": [
-                {
-                  "detail": "(Flygon) → cambia a Chandelure y observar qué movimiento usa:",
-                  "variant": [
-                    {
-                      "detail": "(Terremoto) → Cloyster mata con Carámbano, entra Lapras, Excadrill entra con +2 + 0 y usa Terremoto para matar a Lapras",
-                      "variant": []
-                    },
-                    {
-                      "detail": "(Colmillo Ígneo) → usa Truco para intercambiar objeto, Cloyster mata con Carámbano, entra Lapras, Excadrill entra con +2 + 0 y usa Terremoto para matar a Lapras",
-                      "variant": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "detail": "(Escaldar) → Poliwrath 6 + 2, lleva Banda Focus Metagross (Usar defensa X después del Vel X por seguridad)",
-              "variant": []
-            },
-            {
-              "detail": "TRITURAR → usar Truco",
-              "variant": [
-                {
-                  "detail": "Si es Steelix, Cloyster +4",
-                  "variant": []
-                },
-                {
-                  "detail": "Si es Cascada, poner Trampa Rocas, Poliwrath 6 + 2. Si no logra poner trampas, Poliwrath usa objeto de defensa",
-                  "variant": []
-                }
-              ]
-            }
-          ]
-        },    
+          "detail": "Si entra Lapras, coloca Trampa Rocas frente a Scizor. Luego cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
         {
-          "detail": "(Entra Flygon) → cambia a Excadrill, luego a Chandelure, usa Truco para bloquear Terremoto, Cloyster mata con Carámbano, entra Lapras → Excadrill entra con +2 + 0 y Terremoto mata a Lapras",
-          "variant": []
+          "detail": "Si entra Ampharos, coloca Trampa Rocas y revisa el siguiente cambio."
         }
       ]
-    },    
-    {
-      "detail": "METAGROSS → usar Truco y bloquear Terremoto, Excadrill 2 + 2 y vuelve a poner Trampa Rocas",
-      "variant": []
     },
     {
-      "detail": "GARCHOMP / FLYGON → usar Truco y bloquear Terremoto, Cloyster mata con Carámbano, entra Lapras → Excadrill entra con +4 + 0 + Trampa Rocas y Terremoto mata a Lapras",
-      "variant": []
+      "detail": "Si entra Scizor, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
+        }
+      ]
     },
     {
-      "detail": "DRAGONITE → cambia a Metagross y usa Truco para bloquear Llamarada, luego cambia a Chandelure y usa Truco para bloquear a Feraligatr, Poliwrath 6 + 2 + 6 (se cura con Absorbe Agua), lleva Banda Focus Haxorus (No es pregriloso)",
-      "variant": []
+      "detail": "Si entra Feraligatr, elige una de estas rutas.",
+      "variant": [
+        {
+          "detail": "Ruta segura: cambia a Volcarona y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
+        },
+        {
+          "detail": "Ruta suerte: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
+        }
+      ]
     },
     {
-      "detail": "IDA Y VUELTA / ENTRA FERALIGATR → sacrificar a Chandelure con Poder Oculto, Metagross usa Truco para bloquear a Steelix, Cloyster +4",
-      "variant": []
+      "detail": "Si entra Dragonite, coloca Trampa Rocas frente a Infernape. Luego cambia a Slowbro y mantenlo en campo.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo frente a Dragonite, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

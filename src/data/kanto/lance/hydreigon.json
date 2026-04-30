@@ -2,15 +2,15 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "(Pulso Umbrío) → Scrafty +4 o +2 + Ataque X",
-      "variant": []
-    },
-    {
-      "detail": "(Dragonite) → cambia a Chandelure, luego a Poliwrath, hace frente a Feraligatr, entra Excadrill 4+2",
-      "variant": []
+      "detail": "Cambia a Slowbro frente a Arcanine y usa Bostezo contra Hydreigon.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

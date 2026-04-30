@@ -2,45 +2,29 @@
   "id": "ampharos",
   "name": "Ampharos",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si Ampharos se queda y te intercambia Vidasfera, utiliza Trampa Rocas. (Si Metagross se paraliza o recibe golpe crítico, cambia a Excadrill 4+2+ Trampa Rocas)",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Si Ampharos no cambia, saca Excadrill 4+2",
-          "variant": []
+          "detail": "Si entra Arcanine, cambia a Slowbro y usa Bostezo frente a Ampharos. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos y Steelix. 🔔"
         },
         {
-          "detail": "Si cambia a Steelix, usa Roca Afilada y sacrifica a Metagross, Luego entra Chandelure para usar Truco y encerrar en Terremoto, cambia a Cloyster +4",
-          "variant": []
-        },
-        {
-          "detail": "Si cambia por Dragonite, saca a Chandelure y utiliza Truco para encerrar en Cascada, cambia a Poliwrath Tambor + Vel x",
-          "variant": []
+          "detail": "Si entra Scizor o Haxorus, cambia a Slowbro y usa Bostezo frente a Ampharos. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos y Metagross. 🔔"
         }
       ]
     },
     {
-      "detail": "Si Ampharos se queda y te intercambia Pañuelo Elegido, utiliza Truco otra vez. (Si Metagross se paraliza, cambia a Excadrill 2+2)",
+      "detail": "Si entra Feraligatr, elige una de estas rutas.",
       "variant": [
         {
-          "detail": "Si Amparos no cambia. saca a Excadrill 2+2 + Trampa Rocas.",
-          "variant": []
+          "detail": "Ruta estable: cambia a Volcarona y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos y Metagross. 🔔"
         },
         {
-          "detail": "Si cambia por Dragonite, saca a Chandelure y utiliza Truco para encerrar a Feraligatr, cambia a Poliwrath Tambor+Vel. x+Tambor (El último Tambor es para que te puedas curar totalmente con tu habilidad Absorbe Agua) (Puño Hielo para matar a Haxorus)",
-          "variant": []
+          "detail": "Ruta suerte: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos y Metagross. 🔔"
         }
       ]
-    },
-    {
-      "detail": "Si cambia por Metagross, cambia a Excadrill 2+2, luego Trampa Rocas.",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia por Dragonite, cambia a Chandelure y utiliza Truco para encerrar a Feraligatr, saca a Poliwrath Tambor + Vel. x + Tambor (Puño Hielo para matar a Haxorus)",
-      "variant": []
     }
   ]
 }

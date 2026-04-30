@@ -2,63 +2,59 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "(Terremoto) → revisa el objeto",
+      "detail": "Coloca Trampa Rocas. Si Metagross usa Puño Meteoro, usa Teletransporte y observa el daño que recibe por Vidasfera.",
       "variant": [
         {
-          "detail": "Vidasfera → Excadrill 4 + 2 y luego coloca Trampa Rocas",
-          "variant": []
+          "detail": "Si Metagross queda cerca de 90%, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Casco Dentado → Excadrill 2 + 2 y luego coloca Trampa Rocas",
-          "variant": []
+          "detail": "Si Metagross queda cerca de 90,3%, cambia a Volcarona frente a Aerodactyl. Sacrifica a Politoed y entra con Poliwrath. Usa Ataque X antes de barrer. 🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔"
+        },
+        {
+          "detail": "Si no acierta los dos golpes, cambia a Slowbro y usa Bostezo."
         }
       ]
     },
     {
-      "detail": "PODER OCULTO → coloca Trampa Rocas",
-      "variant": [
-        {
-          "detail": "NO CAMBIA → Poliwrath 6 + Raíz Energía + 2 / Abocajarro Eelektross / Si tu vida está amarilla cuando salga dragonite cambia a chandelure y poder oculto",
-          "variant": []
-        },
-        {
-          "detail": "Entra Tyranitar → cambia a Chandelure y observa el movimiento",
-          "variant": [
-            {
-              "detail": "Triturar → Scrafty +2",
-              "variant": []
-            },
-            {
-              "detail": "Fuerza Bruta → usa Truco para bloquear a Feraligatr/Dragonite, Poliwrath 6 + 2. Si Feraligatr usa Triturar, entra Scrafty +2",
-              "variant": []
-            }
-          ]
-        }        
-      ]
+      "detail": "Si usa Golpe Planta o entra Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
     },
     {
-      "detail": "(Machada) → Chandelure usa Lanzallamas para matar",
+      "detail": "Si entra Lapras, cambia a Chansey y usa Amortiguador frente a Metagross.",
       "variant": [
         {
-          "detail": "Entra Lapras → Poliwrath 6 + 2",
-          "variant": []
-        },
-        {
-          "detail": "Entra Flygon → cambia a Excadrill y luego a Chandelure, usa Truco para bloquear Terremoto, Cloyster mata con Carámbano, entra Lapras, Excadrill entra 2 + 0, usa Terremoto para matar a Lapras",
-          "variant": []
-        },
-        {
-          "detail": "Entra Feraligatr → Poliwrath 6 + Raíz + 2 / usa A Bocajarro para matar a Lapras",
-          "variant": []
+          "detail": "Luego cambia a Volcarona frente a Aerodactyl. Sacrifica a Politoed y entra con Poliwrath. Usa Ataque X antes de barrer. 🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔"
         }
       ]
     },
     {
-      "detail": "GARCHOMP → cambia a Chandelure, usa Truco, intercambia objeto → Cloyster mata con Carámbano, entra Lapras → entra Excadrill 2 + Trampa Rocas y usa Terremoto para matar a Lapras",
-      "variant": []
+      "detail": "Si Metagross usa Machada o Cabezazo Zen, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Scizor o Haxorus, cambia a Slowbro y usa Bostezo frente a Ampharos.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Feraligatr, elige una de estas rutas.",
+      "variant": [
+        {
+          "detail": "Ruta segura: cambia a Volcarona y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
+        },
+        {
+          "detail": "Ruta suerte: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
+        }
+      ]
     }
   ]
 }

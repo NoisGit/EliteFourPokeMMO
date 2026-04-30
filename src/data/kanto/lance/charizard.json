@@ -2,32 +2,18 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE, LANZA BOLA SOMBRA // SI CHARIZARD NO CAMBIA SEGUIR PRESIONANDO CON BOLA SOMBRA",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si sale Scrafty → Cambiar a Scrafty, luego cambiar a Chandelure para usar Truco, bloquear Triturar, luego cambiar a Cloyster con + Defensa X y +4. / Carámbano para derrotar a Lucario.",
-      "variant": []
-    },
-    {
-      "detail": "Si entra Dragonite o Feraligatr → Cambiar a Poliwrath, revisar la salud de Chandelure:",
+      "detail": "Coloca Trampa Rocas frente a Lucario.",
       "variant": [
         {
-          "detail": "Chandelure con poca vida, contra Dragonite → Cambiar a Metagross, luego a Chandelure para usar Truco, bloquear Cola Agua, Cloyster entra +2 defensa y +4. / Carámbano para Lucario.",
-          "variant": []
+          "detail": "Luego cambia a Slowbro y usa Bostezo frente a Electivire."
         },
         {
-          "detail": "Chandelure con poca vida, contra Feraligatr → Cambiar a Metagross para usar Truco, bloquear Cascada, Cloyster +2 defensa y +4. / Carámbano para Lucario.",
-          "variant": []
-        },
-        {
-          "detail": "Chandelure con vida completa → Directamente Truco, bloquear Cola Agua o Cascada, Cloyster +2 defensa y +4. / Carámbano para Lucario.",
-          "variant": []
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
-    },
-    {
-      "detail": "Si Chandelure es derrotado por Charizard → Entra Metagross, usa Puño Trueno para rematar. Luego entra Electivire, revivir Chandelure, cambiar a Chandelure, usar Truco para intercambiar objetos, Excadrill entra con Trampa Rocas +4+2. (Caso en prueba -- reportar resultados de batalla).",
-      "variant": []
     }
   ]
 }
