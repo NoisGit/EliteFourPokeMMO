@@ -2,20 +2,21 @@
   "id": "poliwrath",
   "name": "Poliwrath",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "Si el rival no se retira → Usar Truco para bloquear Cascada.",
+      "detail": "Cambia a Slowbro e identifica si Poliwrath lleva Vidasfera.",
       "variant": [
         {
-          "detail": "Poliwrath 6+2+6 (aprovecha Absorber Agua para curarse al máximo). // A Bocajarro mata a Magnezone // Puño Hielo mata a Aerodactyl",
-          "variant": []
+          "detail": "Si tiene Vidasfera, cambia a Chansey y coloca Trampa Rocas. Si entra Poliwrath, sacrifica a Politoed, entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+        },
+        {
+          "detail": "Si entra Flareon, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego usa Protección y Bostezo, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2."
+        },
+        {
+          "detail": "Si no tiene Vidasfera, cambia a Chansey y coloca Trampa Rocas. Luego cambia a Slowbro y usa Bostezo frente a Jolteon. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Skarmory. 🔔"
         }
       ]
-    },
-    {
-      "detail": "Contra Rhyperior → Usar Truco para bloquear Terremoto, luego Cloyster +6. // Matas a todo con Carámbano",
-      "variant": []
     }
   ]
 }
