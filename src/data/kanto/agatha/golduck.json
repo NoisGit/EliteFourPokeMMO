@@ -2,11 +2,21 @@
   "id": "golduck",
   "name": "Golduck",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "ENCIERRA A MAROWAK → Cloyster +6 / Surf para Gengar / Si se bloquea Surf, Carámbano para matar a Rotom",
-      "variant": []
+      "detail": "Cambia a Slowbro frente a Marowak y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔"
+        },
+        {
+          "detail": "🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨"
+        }
+      ]
     }
   ]
 }

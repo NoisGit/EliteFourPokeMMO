@@ -2,11 +2,21 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Puño Trueno mata a GYARADOS, entra Sandslash, se sacrifica a Metagross, Chandelure usa Truco y bloquea Terremoto",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Excadrill usa Danza Espada una vez y luego pone Trampa Rocas, entra Cloyster +6.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo, Protección y luego Bostezo otra vez para forzar la salida de Magnezone o Venusaur."
+        },
+        {
+          "detail": "Cambia a Poliwrath y deja que caiga. Luego entra con Volcarona, usa Danza Aleteo x1 y Especial X."
+        },
+        {
+          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔"
+        }
+      ]
     }
   ]
 }

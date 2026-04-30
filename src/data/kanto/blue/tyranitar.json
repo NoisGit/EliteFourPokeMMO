@@ -2,15 +2,18 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Bloquea a Sandslash → Cloyster +6",
-      "variant": []
-    },
-    {
-      "detail": "Si Truco bloquea a otra cosa → Resuelve según la situación (Saca algo que tenga buena cobertura con el movimiento encerrado) (No hay más información)",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Kingler y sacrifica a Politoed.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez."
+        },
+        {
+          "detail": "🔔 Usa Onda Certera contra Skarmory. 🔔"
+        }
+      ]
     }
   ]
 }

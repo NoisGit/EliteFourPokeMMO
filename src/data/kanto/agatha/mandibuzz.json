@@ -2,24 +2,16 @@
   "id": "mandibuzz",
   "name": "Mandibuzz",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Krookodile → Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad → Cloyster +4 / Carámbano para matar a Lucario / Houndoom",
-      "variant": []
-    },
-    {
-      "detail": "Finta (No se que es) → Trampa Rocas, entra Scrafty, luego entra Chandelure:",
+      "detail": "Coloca Trampa Rocas y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Contra Toxicroak → Truco para bloquear Avalancha, Scrafty +3 / A Bocajarro para matar a Mandibuzz"
+          "detail": "Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Contra Rotom → Truco para bloquear Houndoom, Scrafty +3 / A Bocajarro para matar a Mandibuzz (pendiente de prueba)"
+          "detail": "🔔 Usa Puño Hielo contra Mandibuzz y Cascada contra Gengar. 🔔"
         }
       ]
     }

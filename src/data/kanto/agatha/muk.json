@@ -2,22 +2,24 @@
   "id": "muk",
   "name": "Muk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Encanto + Teletransporte",
   "tricks": [
     {
-      "detail": "Puño Fuego → Chandelure usa Lanzallamas para debilitar, observa al siguiente:",
+      "detail": "Usa Encanto y luego Teletransporte para revisar la ruta.",
       "variant": [
         {
-          "detail": "Si entra Gyarados → Poliwrath +6+2"
+          "detail": "Si Muk se queda, entra con Slowbro y usa Bostezo."
         },
         {
-          "detail": "Si entra Seismitoad → Cloyster +6"
+          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Gyarados, entra con Volcarona, luego cambia a Slowbro y usa Bostezo. Después continúa la ruta de sueño."
         }
       ]
-    },
-    {
-      "detail": "Seismitoad → Cloyster +6",
-      "variant": []
     }
   ]
 }

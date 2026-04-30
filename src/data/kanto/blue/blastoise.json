@@ -2,36 +2,18 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "(Machamp) → Cambiar a Chandelure.",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "(No se retira) → Usa Truco para bloquear Blastoise/Umbreon, Scrafty +2. / A Bocajarro para matar a Machamp, Paliza para Jolteon",
-          "variant": []
+          "detail": "Si entra Machamp, cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "(Contra Espeon) → Scrafty 3. / A Bocajarro para matar a Machamp",
-          "variant": []
-        },
-        {
-          "detail": "(Contra Blastoise), Scrafty +2. Machamp con A Bocajarro, Paliza contra Jolteon.",
-          "variant": []
+          "detail": "Si entra Electivire o Arcanine, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Leafeon. 🔔"
         }
       ]
-    },
-    {
-      "detail": "(Umbreon o Espeon) → Scrafty +3. (Usar Defensa X, si tienes miedo a Crítico) / A Bocajarro para matar a Machamp.",
-      "variant": []
-    },
-    {
-      "detail": "(Nidoking) → Cloyster +6.",
-      "variant": []
-    },
-    {
-      "detail": "No se retira Blastoise → Scrafty +2 / A Bocajarro para eliminar Machamp, Paliza para Jolteon",
-      "variant": []
     }
   ]
 }

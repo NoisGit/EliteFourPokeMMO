@@ -2,11 +2,35 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Varias opciones",
   "tricks": [
     {
-      "detail": "Encierras en Terremoto, Cloyster +4 + Especial X / Carámbano contra Hitmonlee",
-      "variant": []
+      "detail": "Ruta rápida: coloca Trampa Rocas, recibe Acróbata y cambia a Slowbro para usar Bostezo.",
+      "variant": [
+        {
+          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
+        },
+        {
+          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Ruta ahorro: usa Amortiguador, recibe Acróbata y vuelve a usar Amortiguador.",
+      "variant": [
+        {
+          "detail": "Cuando salga Hitmonlee, cambia a Gengar, usa Otra Vez y luego cambia a Slowbro."
+        },
+        {
+          "detail": "Si Hitmonlee se queda, usa Bostezo."
+        },
+        {
+          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
+        },
+        {
+          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

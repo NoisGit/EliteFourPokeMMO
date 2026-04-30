@@ -2,30 +2,19 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Houndoom no se retira → Usar Truco Cambia a Metagross y observa que Hace.",
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Houndoom.",
       "variant": [
         {
-          "detail": "Persecución → Cambiar a Metagross, poner Trampa Rocas, Scrafty +2. / A Bocajarro para vencer a Toxicroak, Probar a Bocajarro para para vencer a Mandibuzz"
+          "detail": "Si usa Llamarada, usa Teletransporte. Si Houndoom se queda, entra con Volcarona, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🚨 Cuidado con una quemadura inesperada: usa Velocidad X, porque la lluvia no alcanzará. 🚨"
         },
         {
-          "detail": "Pulso Umbrío → Trampa Rocas, Scrafty +3. / A Bocajarro para vencer a Seismitoad"
+          "detail": "Si entra Krookodile o Crobat, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Seismitoad → Cloyster +4. / Carámbano para vencer a Lucario / Surf contra Gengar / Si se bloquea Surf, Carámbano para Houndoom"
-        }
-      ]
-    },
-    {
-      "detail": "Contra Seismitoad → Usar Truco y revisar el objeto:",
-      "variant": [
-        {
-          "detail": "Restos → Cloyster +4. / Carámbano para vencer a Lucario"
-        },
-        {
-          "detail": "Casco Dentado → Cloyster +6. / Carámbano para vencer a Houndoom"
+          "detail": "Si entra Toxicroak o Lucario, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Mandibuzz y Cascada contra Gengar. 🔔"
         }
       ]
     }

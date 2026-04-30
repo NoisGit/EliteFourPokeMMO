@@ -2,15 +2,18 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Nidoking → Cloyster +6",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior → Cloyster +6. // Todo se mata con Carámbano",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Poliwrath, cambia a Slowbro y usa Bostezo frente a Jolteon. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Skarmory. 🔔"
+        },
+        {
+          "detail": "Si entra Electivire o Arcanine, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Leafeon. 🔔"
+        }
+      ]
     }
   ]
 }

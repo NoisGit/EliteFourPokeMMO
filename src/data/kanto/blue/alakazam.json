@@ -2,14 +2,13 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear Sandlash, Metagross pone Trampa Rocas, Cloyster +6",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si Metagross falla en poner Trampa Rocas (KO por golpe crítico), ver siguiente:",
+      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
       "variant": [
         {
-          "detail": "(Fallo al poner Trampa Rocas) → Cloyster +6 con golpe crítico + potenciador + medicina de defensa especial. / Carámbano para matar a Magnezone.",
-          "variant": []
+          "detail": "Con Slowbro, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     }

@@ -2,15 +2,26 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA SI TIENE INTIMIDACIÓN",
+  "initialMove": "Observa la habilidad",
   "tricks": [
     {
-      "detail": "Si tiene, utiliza Truco para encerrar en Terremoto, saca a Cloyster +4",
-      "variant": []
+      "detail": "Si Krookodile tiene Intimidación, coloca Trampa Rocas. Cuando salga Toxicroak, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Toxicroak tiene Piel Seca. 🔔"
+        }
+      ]
     },
     {
-      "detail": "No tiene, cambia directamente a Cloyster +6 (Usa Carámbano contra Houndoom) (Surf contra Gengar si aún no mataste a Houndoom)",
-      "variant": []
+      "detail": "Si Krookodile no tiene Intimidación, coloca Trampa Rocas y revisa el ataque.",
+      "variant": [
+        {
+          "detail": "Si usa Terremoto, cambia a Slowbro y usa Bostezo. Cuando salga Gengar, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Triturar, entra con Poliwrath, usa Tambor hasta +6 Ataque, toma una Max Poción y usa Velocidad X x2."
+        }
+      ]
     }
   ]
 }

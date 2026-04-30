@@ -2,6 +2,21 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Scrafty +2. / A Bocajarro mata a Umbreon / Si Paliza está bloqueado, A Bocajarro limpia el equipo",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro",
+  "tricks": [
+    {
+      "detail": "Cambia a Slowbro frente a Marowak y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔"
+        },
+        {
+          "detail": "🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨"
+        }
+      ]
+    }
+  ]
 }

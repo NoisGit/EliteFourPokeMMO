@@ -2,24 +2,18 @@
   "id": "pidgeot",
   "name": "Pidgeot",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Umbreon → Scrafty +3. // Paliza para Jolteon // A Bocajarro para Machamp",
-      "variant": []
-    },
-    {
-      "detail": "Machamp → Cambiar a Chandelure, luego a Scrafty.",
+      "detail": "Coloca Trampa Rocas frente a Machamp.",
       "variant": [
         {
-          "detail": "Si el rival saca Blastoise o Umbreon: Scrafty +2. // Puño Drenaje mata a Blastoise // A Bocajarro mata a Machamp.",
-          "variant": []
+          "detail": "Cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon."
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
-    },
-    {
-      "detail": "Onda Ígnea → Scrafty +3. // A Bocajarro mata a Machamp.",
-      "variant": []
     }
   ]
 }

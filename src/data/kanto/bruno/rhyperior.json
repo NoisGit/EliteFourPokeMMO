@@ -2,11 +2,18 @@
   "id": "rhyperior",
   "name": "Rhyperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Amortiguador",
   "tricks": [
     {
-      "detail": "Terremoto → Cloyster +4",
-      "variant": []
+      "detail": "Usa Amortiguador hasta que salga Heracross.",
+      "variant": [
+        {
+          "detail": "Frente a Heracross, usa Amortiguador para recibir A Bocajarro."
+        },
+        {
+          "detail": "Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4. Usa Otra Vez de nuevo cuando sea necesario, porque Heracross tiene Banda Focus."
+        }
+      ]
     }
   ]
 }

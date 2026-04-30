@@ -2,15 +2,21 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Varias opciones",
   "tricks": [
     {
-      "detail": "Si quieres hacerlo rápido → Chandelure 4+0, Lanzallamas para barrer el equipo.",
-      "variant": []
-    },
-    {
-      "detail": "Si quieres ahorrar → Truco, cambia a Scrafty +3 ( A Bocajarro para matar a Machamp o Metagross)",
-      "variant": []
+      "detail": "Contra Darmanitan tienes tres rutas posibles. Elige según si quieres ahorrar recursos o jugar más estable.",
+      "variant": [
+        {
+          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3. ⚠️ Cuidado con un Fuerza Bruta crítico: puede dejarte cerca de 51% PS."
+        },
+        {
+          "detail": "Ruta RNG: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

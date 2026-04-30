@@ -2,42 +2,44 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "LLAMARADA → Usar Truco",
+      "detail": "Coloca Trampa Rocas y revisa si Ninetales usa Llamarada.",
       "variant": [
         {
-          "detail": "Rayo Solar → Cambiar a Metagross y usar Truco, bloquear a Rhyperior, luego Cloyster con +6",
-          "variant": [
-            {
-              "detail": "Ninetales no se retira → Chandelure usa Bola Sombra, si entra Golduck o Rhyperior, usar Truco y sacrificarse. Luego, Metagross usa Truco para bloquear a Rhyperior o Terremoto. Cloyster +6 limpia.",
-              "variant": []
-            }
-          ]
+          "detail": "Si usa Llamarada, usa Teletransporte. Si Ninetales se queda, cambia a Poliwrath y luego a Politoed. Deja que Politoed caiga y vuelve a Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Poder Oculto → Scrafty +3 /// Paliza + Puño Drenaje para Magnezone /////// A Bocajarro para Poliwrath //// Paliza para Sandslash //// Si Magnezone está a rango de Activar Baya (VIDA EN ROJO) usa Raíz Energía para curarte y seguir barriendo.",
-          "variant": []
+          "detail": "Si Poliwrath recibe Tiro Vital al azar, usa Bostezo con Slowbro frente a Exeggutor. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1."
         },
         {
-          "detail": "Psicocarga → Scrafty +3 // Paliza + Puño Drenaje para Magnezone",
-          "variant": [
-            {
-              "detail": "Si el Rival cambia a Vaporeon, usa Defensa Especial X y sigue boosteando. (CRÍTICO -51.7%) // a Bocajarro para Machamp",
-              "variant": []
-            }
-          ]
+          "detail": "Si entra Leafeon, cambia a Volcarona y usa Danza Aleteo x2."
         },
         {
-          "detail": "Vaporeon → Cambiar a Metagross y usar Truco para bloquear a Magnezone, Excadrill 4 + 2 + Trampa Rocas",
-          "variant": []
+          "detail": "Si entra Charizard, cambia a Poliwrath y luego a Volcarona para usar Danza Aleteo x2."
         }
       ]
-    },    
+    },
     {
-      "detail": "RHYPERIOR → Usar Truco para bloquear Terremoto, luego Cloyster +6",
-      "variant": []
+      "detail": "Si entra Machamp, elige la ruta según el cambio del rival.",
+      "variant": [
+        {
+          "detail": "Ruta Slowbro: entra con Slowbro y usa Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x2."
+        },
+        {
+          "detail": "Ruta Gengar: cambia a Gengar y usa Maquinación hasta +2. No uses Otra Vez. Si Machamp se queda, sube con Maquinación hasta +6 y barre con Bola Sombra."
+        },
+        {
+          "detail": "Si entra Charizard, presiona hasta Magnezone y usa Bola Sombra. Si Vaporeon recibe el golpe, usa Maquinación y sigue barriendo. 🚨 Si Gengar cae usando Maquinación, entra con Volcarona y usa Danza Aleteo x2. 🚨"
+        },
+        {
+          "detail": "Si Gengar cae, entra con Volcarona y usa Psíquico frente a Machamp. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Vaporeon, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x2."
+        }
+      ]
     }
   ]
 }

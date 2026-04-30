@@ -2,19 +2,35 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "A Bocajarro → Truco para bloquear con Avalancha, Politoed +6 + Raíz Energía +2 / A Bocajarro para matar a Mandibuzz, Puño Hielo para matar a Rotom",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa la situación frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Si usa A Bocajarro y logras colocar Trampa Rocas, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa A Bocajarro y no logras colocar Trampa Rocas, cambia a Gengar, usa Otra Vez y Bola Sombra. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si usa Poder Oculto, usa Teletransporte. Si Lucario se queda, entra con Gengar, usa Otra Vez, cambia a Slowbro y usa Bostezo."
+        }
+      ]
     },
     {
-      "detail": "Esfera Aural → Lanzallamas para debilitar, entra Hydreigon, Scrafty +2 / Si Chandelure tiene menos del 93% de vida, no debilitar directamente --- usar Truco para bloquear Pulso Umbrío, luego Scrafty +2",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad → Truco para bloquear Terremoto, Cloyster +4 / Carámbano para matar a Lucario / Surf para Gengar",
-      "variant": []
+      "detail": "Si entra Gengar, Hydreigon, Rotom o Alakazam, sigue la ruta de sueño con Slowbro.",
+      "variant": [
+        {
+          "detail": "Contra Gengar o Hydreigon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Contra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Contra Alakazam, cambia o usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

@@ -2,19 +2,15 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE Y TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Rayo / Voltio Cruel, luego enviar a Excadrill con Trampa Rocas +4 ataque y 0 velocidad.",
-      "variant": []
-    },
-    {
-      "detail": "Arbok con casco dentado → Confirmar y continuar con Cloyster +6, si corresponde.",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill fue dejado en rojo por un crítico de Acua Jet, y entra Dragonite →Usa Raíz Energía para aguantar un posible Velocidad Extrema, y luego continuar con el barrido del equipo.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Tyranitar.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Gengar y usa Maquinación. Barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás."
+        }
+      ]
     }
   ]
 }

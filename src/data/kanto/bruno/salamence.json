@@ -2,67 +2,27 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA SI TIENE INTIMIDACIÓN",
+  "initialMove": "Observa la habilidad",
   "tricks": [
     {
-      "detail": "Sin Intimidación → Truco para bloquear a Rhyperior / Seismitoad, Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "Con Intimidación → Cambiar a Chandelure",
+      "detail": "Si Salamence tiene Intimidación, coloca Trampa Rocas.",
       "variant": [
         {
-          "detail": "Si no se retira → Poder Oculto Hielo para rematar",
-          "variant": [
-            {
-              "detail": "Sale Aggron → Poliwrath con A Bocajarro para rematar, observar quién entra después:",
-              "variant": [
-                {
-                  "detail": "Sale Hitmonchan → Chandelure usa Truco para cambiar objetos, Cloyster +6."
-                },
-                {
-                  "detail": "Sale Slowbro → Scrafty +2 (Def. Esp.) +2. / A Bocajarro para matar a Machamp"
-                },
-                {
-                  "detail": "Sale Machamp → Cambiar a Chandelure, Truco para bloquear Avalancha / Roca Afilada, Scrafty +2. Si cambia a Slowbro, Scrafty +2, si queda sin vida usar Raíz Grande para recuperar salud"
-                }
-              ]
-            },
-            {
-              "detail": "Sale Hitmonchan → Cloyster +6"
-            },
-            {
-              "detail": "Sale Slowbro → Cambiar a Metagross para poner Trampa Rocas, Poliwrath 6+2. Si entra Krookodile, cambiar a Cloyster, luego Metagross y usar Truco para bloquear Terremoto, Cloyster +4"
-            }
-          ]
+          "detail": "Si entra Hitmonchan, cambia a Poliwrath para recibir A Bocajarro. Luego entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
         },
         {
-          "detail": "Contra Krookodile → Truco para bloquear Terremoto, Cloyster +4. / Carámbano para eliminar a Lucario"
+          "detail": "Si entra Metagross, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
+        }
+      ]
+    },
+    {
+      "detail": "Si Salamence no tiene Intimidación, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si entra Infernape, usa Amortiguador para recibir A Bocajarro. Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4."
         },
         {
-          "detail": "Contra Metagross → Truco para bloquear Avalancha, cambiar a Metagross y usar Truco para bloquear a Krookodile, Cloyster +4. / Carámbano para matar a Lucario"
-        },
-        {
-          "detail": "Contra Slowbro → Cambiar a Metagross para ver qué ataque usa",
-          "variant": [
-            {
-              "detail": "Escaldar → Poliwrath 6+2. / A Bocajarro para eliminar a Machamp"
-            },
-            {
-              "detail": "Acua Cola → Coloca Trampa Rocas, Poliwrath 6+2"
-            }
-          ]
-        },
-        {
-          "detail": "Contra Aggron → Poliwrath con A Bocajarro para rematar, observar quién entra después:",
-          "variant": [
-            {
-              "detail": "Sale Hitmonchan → Chandelure usa Truco para cambiar objetos, Cloyster +6, Si cambia a Slowbro, Scrafty +2 (Def. Esp.) +2. / A Bocajarro para matar a Machamp"
-            },
-            {
-              "detail": "Sale Slowbro → Scrafty +2 (Def. Esp.) +2. / A Bocajarro para matar a Machamp"
-            }
-          ]
+          "detail": "Si entra Heracross, usa Amortiguador para recibir A Bocajarro. Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4. Mantén Otra Vez cuando sea necesario, porque Heracross tiene Banda Focus."
         }
       ]
     }

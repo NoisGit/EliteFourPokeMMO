@@ -2,39 +2,41 @@
   "id": "arbok",
   "name": "Arbok",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si Arbok se queda y te intercambio una Cinta Xperto cambia Cloyster +6 (Utiliza Carámbano contra Gengar)",
-      "variant": []
-    },
-    {
-      "detail": "Si Arbok se queda y te intercambio Vidasfera cambia a Cloyster +6 (Surf para matar a Gengar) (Si Surf se bloqueo, utiliza Carámbano para matar a Rotom)",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia por Marowak, entra Cloyster +6 (Surf para matar a Gengar) (Si Surf se bloqueo, utiliza Carámbano para matar a Rotom)",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia por Hydreigon, utiliza Trampa Rocas, luego cambia a Chandelure para usar Truco (Si no logras meter Trampa Rocas, no importa igual cambia a Chandelure)",
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Arbok.",
       "variant": [
         {
-          "detail": "Si Hydreigon no cambia, saca a Scrafty +2"
+          "detail": "Si usa Lanza Mugre, usa Teletransporte hacia Slowbro. Usa Bostezo, luego Protección y Bostezo frente a Gengar. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
         },
         {
-          "detail": "Si entra Rotom, cambia a Poliwrath Tambor + Vel x. (Si no hay rocas en el campo utiliza Poliwrath con 1 Defensa Especial X )"
+          "detail": "Si usa Puya Nociva, cambia a Slowbro y usa Bostezo."
+        },
+        {
+          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
+        },
+        {
+          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
         }
       ]
     },
     {
-      "detail": "Si cambia por Rotom Lavadora, utiliza Trampa Rocas y Observa:",
+      "detail": "Si entra Marowak, usa Teletransporte hacia Slowbro y luego Bostezo.",
       "variant": [
         {
-          "detail": "Si usa Rayo, cambia a Excadrill 4+2"
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
         },
         {
-          "detail": "Si usa Hidrobomba, cambia a Poliwrath Tambor + Vel x"
+          "detail": "🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨"
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Alakazam, usa Teletransporte hacia Slowbro y luego Bostezo.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     }

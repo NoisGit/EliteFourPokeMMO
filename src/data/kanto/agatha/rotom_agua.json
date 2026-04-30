@@ -2,48 +2,37 @@
   "id": "rotom_agua",
   "name": "Rotom Agua",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Rotom-W (Ataca primero), HidroBomba → Politoed +6+2",
-      "variant": []
-    },
-    {
-      "detail": "Rotom-W (Ataca primero), Rayo / Trueno → Excadrill +6+2. / Terremoto mata a Gengar. Si falla colocar rocas (por parálisis), Excadrill vuelve a ponerlas +6+2",
-      "variant": []
-    },
-    {
-      "detail": "Metagross (Ataca primero), Rayo / Trueno → Excadrill +4+2 / Cabezahierro contra Gengar",
-      "variant": []
-    },
-    {
-      "detail": "Metagross (Ataca primero), HidroBomba → evalúa el daño:",
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Rotom Agua.",
       "variant": [
         {
-          "detail": "Si es 65% o más → Politoed +6+2"
+          "detail": "Si usa Rayo, tienes dos rutas."
         },
         {
-          "detail": "Si es 40% (con crítico 60%) → Cambia a Poliwrath, luego a Metagross, espera que use Volt Switch. Si entra Krookodile, Cloyster +6. // Si sale Crobat usa Puño Trueno para forzar la salida de Krookodile // Surf para Gengar"
+          "detail": "Ruta estable: toma una Defensa Especial X y usa Amortiguador hasta que salga Alakazam. Luego usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Si falla Hidrobomba → Cambia a Politoed, luego a Metagross, evalúa situación:",
-          "variant": [
-            {
-              "detail": "Hydro Pump (sin más) → Politoed +6+2"
-            },
-            {
-              "detail": "Voltiocambio y entra Krookodile → Cloyster +6"
-            },
-            {
-              "detail": "Contra Crobat → Truco, encierra a Seismitoad/Krookodile, Cloyster +6"
-            }
-          ]
+          "detail": "Ruta RNG: usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     },
     {
-      "detail": "Entra KROOKODILE → Cloyster +6",
-      "variant": []
+      "detail": "Si usa Hidrobomba, usa Teletransporte hacia Slowbro y luego Bostezo.",
+      "variant": [
+        {
+          "detail": "Cuando salga Gengar, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
+    },
+    {
+      "detail": "Si entra Toxicroak, Krookodile o Alakazam, usa la ruta de Slowbro.",
+      "variant": [
+        {
+          "detail": "Cambia o usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,18 @@
   "id": "sandslash",
   "name": "Sandslash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "COLOCAR TRAMPA ROCAS",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Cambiar a Chandelure para usar Truco y bloquear Terremoto → Cloyster +6",
-      "variant": []
+      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo frente a Magnezone y sacrifica a Poliwrath."
+        },
+        {
+          "detail": "Luego entra con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
+        }
+      ]
     }
   ]
 }

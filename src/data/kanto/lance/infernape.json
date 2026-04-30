@@ -2,11 +2,18 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambio a Chandelure con Truco",
+  "initialMove": "Cambia a Gengar",
   "tricks": [
     {
-      "detail": "Bloquea Puño Trueno, Excadrill entra con 2 + 0",
-      "variant": []
+      "detail": "Cambia a Gengar y luego a Slowbro frente a Dragonite. Después coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si entra Infernape, cambia a Slowbro y mantenlo en campo. Usa Bostezo frente a Dragonite, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si entra Scizor, cambia a Slowbro y usa Bostezo frente a Dragonite. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }
