@@ -2,37 +2,18 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "Cambia a Slowbro",
   "tricks": [
     {
-      "detail": "Puño Certero → Truco.",
+      "detail": "Cambia a Slowbro y luego a Chansey para revisar la ruta.",
       "variant": [
         {
-          "detail": "Vendetta → Ver objeto:",
-          "variant": [
-            {
-              "detail": "Baya Atania → Scrafty con +3 / A Bocajarro mata a Machamp.",
-              "variant": []
-            },
-            {
-              "detail": "Restos → Scrafty con +2 + medicina de defensa. / Paliza + Puño Drenaje eliminan a Golem. A Bocajarro mata a Scizor.",
-              "variant": []
-            }
-          ]
+          "detail": "Si entra Vaporeon, coloca Trampa Rocas frente a Machamp. Usa Teletransporte y entra con Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "Blastoise → Scrafty con +2. / A Bocajarro mata a Machamp. Paliza para Jolteon.",
-          "variant": []
-        },
-        {
-          "detail": "Umbreon → Scrafty con +3 / A Bocajarro mata a Machamp. Si Blastoise entra, Scrafty con +2. / A Bocajarro contra Machamp, Paliza para Jolteon.",
-          "variant": []
+          "detail": "Si entra Jolteon, coloca Trampa Rocas frente a Machamp. Cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
-    },    
-    {
-      "detail": "Contra Umbreon → Scrafty con +3. / A Bocajarro mata a Machamp, Paliza a Jolteon. Si entra Blastoise, Scrafty con +2. / A Bocajarro contra Machamp, Paliza para Jolteon. // Solo +2 si tienes miedo de Crítico (Probar)",
-      "variant": []
     }
   ]
 }
