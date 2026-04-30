@@ -2,39 +2,19 @@
   "id": "politoed",
   "name": "Politoed",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A POLIWRATH",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si no se retira → Cambiar a Chandelure, usar Truco para bloquear Hidrobomba → Poliwrath 6+2+6+6 // Fijate los turnos de lluvia ya que si luego entra Kingdra será más rápido que Poliwrath",
-      "variant": []
-    },
-    {
-      "detail": "NIDOQUEEN → Sacrificar a Poliwrath, Metagross usa Truco, Cloyster +6 / Carámbano para Skarmory.",
-      "variant": []
-    },
-    {
-      "detail": "Contra Blastoise (de entrada) → Cambiar a Metagross para ver el movimiento.",
+      "detail": "Coloca Trampa Rocas. Si Politoed se queda, usa Teletransporte y entra con Slowbro para usar Bostezo.",
       "variant": [
         {
-          "detail": "Rayo Hielo → Usar Truco",
-          "variant": [
-            {
-              "detail": "Después de Nidoking → Cloyster +6",
-              "variant": []
-            },
-            {
-              "detail": "Scizor → Usar Truco de nuevo, cambiar a Chandelure frente a Scizor, luego Cloyster +6",
-              "variant": []
-            },
-            {
-              "detail": "Blastoise no se retira → Poliwrath 6+2",
-              "variant": []
-            }
-          ]
+          "detail": "Si entra Jolteon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Skarmory. Si la lluvia termina, no importa. 🔔"
         },
         {
-          "detail": "Esfera Aural → Usar Truco para bloquear a Nidoking, luego Cloyster +6 // Si Blastoise no se retira → Poliwrath 6+2",
-          "variant": []
+          "detail": "Si usa Poder Oculto Planta, usa Bostezo frente a Jolteon. Luego usa Protección y Bostezo frente a Nidoqueen o Blastoise. Después usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2."
+        },
+        {
+          "detail": "Si entra Heracross, cambia a Volcarona para recibir dos A Bocajarro. Heracross debe quedar en -2. Luego entra con Gengar, usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. No uses Otra Vez. 🚨 Gengar debe estar con PS al máximo para barrer con Bola Sombra. 🚨"
         }
       ]
     }
