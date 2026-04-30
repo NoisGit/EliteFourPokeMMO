@@ -2,36 +2,16 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Golem → Excadrill +6+2",
-      "variant": []
-    },
-    {
-      "detail": "Cascada → Poliwrath +6 en ataque, +2 en defensa y +2 en velocidad.",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Cambia a Golem, se sacrifica con Tambor, entra Chandelure, usa Truco para bloquear Terremoto, Excadrill +6 en ataque y +2 en velocidad.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "HIDROBOMBA o PODER OCULTO → Coloca Trampa Rocas y observa si tiene éxito:",
-      "variant": [
-        {
-          "detail": "SI TIENE ÉXITO→ Poliwrath +6 en ataque y +2 en velocidad. // Si no colocas Trampa Rocas (Metagross murió) mata todo lo que puedas con Poliwrath pero terminarás sacrificandolo. // Entra Chandelure y utiliza Truco para encerrar a Rhyperior, Cloyster +4 // Si el rival saca a Charizard o Rhyperior mientras te estás boosteando, sacrifica a Poliwrath, entra Chandelure con Truco, Cloyster con +4 en ataque. Usa Surf contra Skarmory (Solo si colocaste Trampa Rocas)",
-          "variant": []
+          "detail": "Si entra Machamp, usa Teletransporte y entra con Slowbro. Usa Bostezo frente a Vaporeon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         },
         {
-          "detail": "FALLASTE → Poliwrath usa Tambor y luego Terremoto para debilitar.",
-          "variant": [
-            {
-              "detail": "Entra Poliwrath de nuevo, Chandelure bloquea Cascada con Truco y sacrifica a Chandelure, Cloyster se refuerza con medicina de Defensa y alcanza +6. // Usa Tambor, y si entra Charizard o Rhyperior, se sacrifica, entra Chandelure con Truco, Cloyster con +4. Usa Surf contra Skarmory.",
-              "variant": []
-            }
-          ]
+          "detail": "Si entra Poliwrath, cambia a Slowbro y usa Bostezo frente a Jolteon. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Skarmory. 🔔"
         }
       ]
     }
