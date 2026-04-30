@@ -1,16 +1,30 @@
 {
-    "id": "bronzong",
-    "name": "Bronzong",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "Chandelure usa Lanzallamas para debilitar y revelar al Pokémon rival",
-    "tricks": [
-      {
-        "detail": "ABSOL: cambia a Scrafty +2",
-        "variant": []
-      },
-      {
-        "detail": "EMPOLEON: cambia a Poliwrath 6+2",
-        "variant": []
-      }
-    ]
-  }
+  "id": "bronzong",
+  "name": "Bronzong",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "🥚 Amortiguador 🥚",
+  "tricks": [
+    {
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Absol, entra con Gengar, usa Maquinación hasta +4 y Precisión X. 🔔 Absol tiene Pañuelo Elegido. 🔔"
+        },
+        {
+          "detail": "Si entra Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2."
+        }
+      ]
+    },
+    {
+      "detail": "Si Flareon se queda, derrota a Flareon y revisa el siguiente cambio.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, usa Bola Sombra y luego sacrifica a Politoed. Entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Absol tiene Pañuelo Elegido. 🔔"
+        },
+        {
+          "detail": "Si vuelve Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Bronzong. 🔔"
+        }
+      ]
+    }
+  ]
+}
