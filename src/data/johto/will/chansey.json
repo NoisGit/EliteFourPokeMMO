@@ -1,12 +1,16 @@
 {
-    "id": "chansey",
-    "name": "Chansey",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "CAMBIA A SCRAFTY",
-    "tricks": [
-      {
-        "detail": "Scrafty +1 → 2 Puño drenaje para derrotar a chansey",
-        "variant": []
-      }
-    ]
-  }
+  "id": "chansey",
+  "name": "Chansey",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+        }
+      ]
+    }
+  ]
+}
