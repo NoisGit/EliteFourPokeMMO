@@ -2,15 +2,18 @@
   "id": "hypno",
   "name": "Hypno",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Politoed cae",
   "tricks": [
     {
-      "detail": "GOLURK, Excadrill 4+2, Terremoto para matar a Drowzee / Musharna",
-      "variant": []
-    },
-    {
-      "detail": "HYPNO NO CAMBIA Y SE QUEDA ENCERRADO EN MOV. SÍSMICO. Saca a chandelure usa bola sombra y debilitarlo luego cambia a metagross y sacrifica para entrar con chandelure y truco. Improvisa xD",
-      "variant": []
+      "detail": "Deja caer a Politoed y entra con Poliwrath.",
+      "variant": [
+        {
+          "detail": "Usa Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "🔔 Usa Cascada contra Hypno. 🔔"
+        }
+      ]
     }
   ]
 }
