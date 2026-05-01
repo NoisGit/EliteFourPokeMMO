@@ -2,35 +2,33 @@
   "id": "metagross_4",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Mamoswine ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez  ; cambiar a Gallade +4 +2  priorizando usar x velocidad primero",
-      "variant": []
-    },
-    {
-      "detail": "Machada  ➜ cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Machada ➜ ESTABILIZAR Trampa Rocas dos veces; Otra Vez  sacrificio ; Chandelure +2 +2  con Golpe Crítico (CT); si la salud es baja 27% usar Otra Vez directamente",
-      "variant": []
-    },
-    {
-      "detail": "Nidoqueen ➜ Jirachi Otra Vez ; Chandelure +2 +2 / Gallade +2 +2; hacia Jirachi hay probabilidad de recibir movimiento de Fuego",
-      "variant": []
-    },
-    {
-      "detail": "Puño Meteoro  ➜ cambiar a Jirachi; Protección ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  ➜ cambiar a Gallade; Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Poder Oculto Fuego  ➜ Jirachi Otra Vez ; Gallade +2 +2 ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué movimiento usa Metagross.",
+      "variant": [
+        {
+          "detail": "Si usa Machada, cambia a Slowbro y luego a Volcarona frente a Serperior. Volcarona usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa Puño Meteoro, usa Teletransporte hacia Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mamoswine, usa Encanto y cambia a Slowbro. Usa Bostezo frente a Mismagius y revisa la salud de Slowbro.",
+          "variant": [
+            {
+              "detail": "Si Slowbro queda con menos del 79% de vida, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Metagross.",
+              "variant": []
+            },
+            {
+              "detail": "Si Slowbro queda con más del 79% de vida, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
