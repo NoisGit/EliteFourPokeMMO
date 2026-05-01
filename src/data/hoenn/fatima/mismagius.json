@@ -2,11 +2,20 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lucario ➜ cambiar a Gengar  Otra Vez  debilitar ; cambiar a Chansey  Amortiguador ; frente a Luxray Gengar  Otra Vez  +4 no velo  usar x defensa ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
