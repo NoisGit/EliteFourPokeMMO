@@ -2,63 +2,59 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Intimidacion mira abajo 💡",
+  "initialMove": "💡 Revisa la habilidad 💡",
   "tricks": [
     {
-      "detail": "Intimidación  ➜ ASEGURAR Trampa rocas y  frente a Absol ; Gengar Otra Vez  +2 no velo",
-      "variant": []
+      "detail": "Si tiene Intimidación, coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, cambia a Gengar y usa Maquinación hasta +2. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Luxray, cambia a Gengar y usa Maquinación hasta +4. Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Autoestima  ➜ ASEGURAR Trampa rocas",
-      "variant": []
-    },
-    {
-      "detail": "Darmanitan ➜ cambiar a Gengar  +6 no velo  (drama pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Golurk ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Toxicroak ➜ cambiar a Gengar  Otra Vez  +4 no velo; y ataca  tras Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Se queda con Acua Cola ➜ cambiar a Jirachi Rayo ; si es enfrentamiento directo no hace falta Rayo",
-      "variant": []
-    },
-    {
-      "detail": "Electivire / Absol ➜ Otra Vez ; cambiar a Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ cambiar a Gengar  Otra Vez (Encore) +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Gallade +4 +2 , primero asegurar x velocidad ",
-      "variant": []
-    },
-    {
-      "detail": "Maquinación  y huye hacia Mightyena ➜ ataca ",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ cambiar a huevo  Pantalla de Luz ; cambio pesado ",
-      "variant": []
-    },
-    {
-      "detail": "Luxray ➜ cambiar a huevo; cambiar a Gengar Otra Vez ; frente a Excadrill, ver las variantes de Excadrill",
-      "variant": []
-    },
-    {
-      "detail": "Luxray ➜ Gengar  Otra Vez ; cambiar a Jirachi ante Excadrill; Jirachi Otra Vez ; Gallade +4 +2 , primero asegurar x velocidad",
-      "variant": []
+      "detail": "Si no tiene Intimidación, coloca Trampa Rocas y revisa el movimiento o cambio rival.",
+      "variant": [
+        {
+          "detail": "Si usa Acua Cola, usa Amortiguador frente a Absol. Luego cambia a Gengar, usa Maquinación hasta +4 y barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Darmanitan, cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Ataca siempre con el movimiento súper eficaz. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Absol, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Bostezo fuerza la salida de un atacante especial, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si usa Tajo Umbrío, revisa si Slowbro sobrevive.",
+              "variant": [
+                {
+                  "detail": "Si Slowbro sobrevive, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Golpe Bajo no es amenaza.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si Slowbro cae, cambia a Chansey. Luego entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar objetos, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Luxray, usa Amortiguador y espera a Absol. Luego cambia a Gengar, usa Maquinación hasta +2 y Precisión X. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
