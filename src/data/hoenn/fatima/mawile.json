@@ -2,6 +2,16 @@
   "id": "mawile",
   "name": "Mawile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Dragonite usar x defensa ; Danza Dragón x1 ; usar x ataque ; si los PS bajan de 35, usar Máxima Poción ; no aguantar Golpe Crítico ; aguantar un golpe de Bisharp 💡",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
