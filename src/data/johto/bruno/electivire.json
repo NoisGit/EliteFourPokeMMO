@@ -2,32 +2,45 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Aggron o Golem → Cloister 4+ +Especial X, usa Surf para acabar con Metagross y Hitmonp",
-      "variant": []
-    },
-    {
-      "detail": "Lanzallamas → Chandelure usa Truco, luego Excadrill 4+2.",
-      "variant": []
-    },
-    {
-      "detail": "Gigalith → Cloister 4.",
-      "variant": []
-    },
-    {
-      "detail": "Slowbro → elegir según situación.",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Para quitar velocidad → pon Roca Afilada, entra Aggron, luego Cloister 4+ , usa Surf para matar a Conkeldurr.",
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo repetidamente hasta que salga Golem. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Para ahorrar → pon Trampa Rocas, entra Aggron, luego Cloister 4, usa Surf para matar a Conkeldurr.",
+          "detail": "Si sale Golem, usa Encanto y Amortiguador hasta que salga Metagross. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
           "variant": []
         }
       ]
-    }    
+    },
+    {
+      "detail": "Si Electivire se queda, cambia a Gengar y usa Maquinación hasta +4. Barre con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Si sale Salamence, sigue barriendo hasta que salga Aggron.",
+          "variant": []
+        },
+        {
+          "detail": "Si Gengar derrota a Aggron con crítico, termina de barrer.",
+          "variant": []
+        },
+        {
+          "detail": "Si Aggron derrota a Gengar y no activa Cuerpo Maldito, entra con Volcarona, derrota a Aggron y frente a Slowbro enemigo usa Danza Aleteo antes de atacar.",
+          "variant": []
+        },
+        {
+          "detail": "Si Aggron derrota a Gengar y se activa Cuerpo Maldito, entra con Volcarona y usa Danza Aleteo x1.",
+          "variant": []
+        }
+      ]
+    }
   ]
 }
