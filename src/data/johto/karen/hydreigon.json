@@ -2,11 +2,16 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🥚 Chansey + Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Truco, si no se retira / encierra a Hydreigon, Scrafty 3. Usa paliza para matar a primeape",
-      "variant": []
+      "detail": "Chansey usa Amortiguador frente a Primeape.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 🔔 Primeape tiene Banda Focus. 🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }
