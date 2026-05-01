@@ -2,13 +2,22 @@
   "id": "cacturne",
   "name": "Cacturne",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨",
+  "initialMove": "🔔 Opciones para resolver 🔔",
   "tricks": [
     {
-      "detail": "Puño dranaje → Cambia a Gengar usa Otra Vez 6+2",
+      "detail": "Ruta rápida: coloca Trampa Rocas, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
       "variant": [
         {
-          "detail": "Darmanitan → Chandelure 2+2",
+          "detail": "Ataca siempre con el movimiento súper eficaz para avanzar el combate.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta de ahorro: usa Encanto y Amortiguador para estabilizar el combate.",
+      "variant": [
+        {
+          "detail": "Coloca Trampa Rocas frente a Darmanitan. Luego cambia a Gengar, usa Maquinación hasta +6 y barre con Bola Sombra. No uses Otra Vez.",
           "variant": []
         }
       ]
