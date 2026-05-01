@@ -2,15 +2,24 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Tierra Viva / después de Nidoking → Cloyster +6. / Debilita a todos con Carámbano. Si te queman por error, confirma que es Zoroark y sigue la segunda línea.",
-      "variant": []
-    },
-    {
-      "detail": "Lanzallamas [Zoroark disfrazado] → Chandelure usa Truco para cambiar objeto, Scrafty 3. / Usa Puño Drenaje + A Bocajarro para matar a Skarmory.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Nidoqueen.",
+      "variant": [
+        {
+          "detail": "Si usa Tierra Viva o Bomba Lodo, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
+          "variant": []
+        },
+        {
+          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado contra Zoroark. Barre hasta Electrode o Tentacruel y usa Danza Aleteo una vez más para terminar.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona retrocede, cambia a Chansey, cura a Volcarona al máximo y repite la ruta anterior.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
