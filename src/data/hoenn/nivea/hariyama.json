@@ -2,6 +2,33 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨 Gengar Otra Vez +4 +2 (rayo para Frosslas)",
-  "tricks": []
+  "initialMove": "🐸 Opciones para resolver 🐸",
+  "tricks": [
+    {
+      "detail": "Ruta rápida: coloca Trampa Rocas y cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Barre con Bola Sombra. Si te quedas bloqueado, usa Onda Certera.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta de ahorro: cambia a Slowbro, luego a Chansey y coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Usa Cascada contra Froslass.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

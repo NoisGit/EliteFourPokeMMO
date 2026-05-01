@@ -2,15 +2,20 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 💡Gengar (jugada arriesgada Chandelure +2 no velo frente a skarmory te curas)",
+  "initialMove": "👻 Gengar 👻",
   "tricks": [
     {
-      "detail": "Se queda  ➜ Gengar +4; NO usar Otra Vez ; (cuidado con Banda Focus de Skarmory)",
-      "variant": []
-    },
-    {
-      "detail": "Cambiar a otro poke  ➜ Chansey Amortiguador/tramparoca aguantar golpe fuerte de Lucha ; Gengar  Otra Vez  +2 para Gallade; NO usar Otra Vez ",
-      "variant": []
+      "detail": "Cambia a Gengar y usa Maquinación hasta +6.",
+      "variant": [
+        {
+          "detail": "Ataca con Bola Sombra para cerrar la ruta.",
+          "variant": []
+        },
+        {
+          "detail": "Si Skarmory conecta un crítico, usa Max Poción antes de continuar.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

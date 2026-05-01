@@ -2,31 +2,36 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Mienshao ➜ cambiar a Gengar mata a mienshao ; cambiar a Chansey  ",
-      "variant": []
-    },
-    {
-      "detail": "Blissey ➜ cambiar a Gengar  Maquinación ; cambiar a Chansey  +6 0 Velocidad atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Hariyama ➜ Gengar Otra Vez  +4  +2  (usar movimiento Eléctrico para  Froslass)",
-      "variant": []
-    },
-    {
-      "detail": "Cambiar a  ➜ Chansey  Amortiguador ; aguantar golpe fuerte ",
-      "variant": []
-    },
-    {
-      "detail": "Beartic ➜ Gengar  Otra Vez  +4 0 Velocidad ; si se elimina la quemadura ; cambiar a Walrein o Dewgong o priorizar Velocidad  directamente +2; necesita resistir daño",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Gengar  +4 +0 Velocidad ; NO usar Otra Vez ; frente a Walrein o Dewgong resistir daño fortalecer ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Skarmory no cambia, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y ataca con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo hasta que entre Mismagius. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Walrein o Dewgong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hariyama, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gallade, cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Usa Onda Certera contra Walrein, Dewgong o Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Beartic, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Usa Onda Certera contra Beartic, Walrein, Dewgong o Skarmory.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

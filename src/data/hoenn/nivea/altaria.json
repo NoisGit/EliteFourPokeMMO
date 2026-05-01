@@ -2,24 +2,20 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨 (Glalie,mienshao banda focus)",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Mienshao → Cambia a Gengar usa Otra Vez +2",
+      "detail": "Coloca Trampa Rocas frente a Mienshao.",
       "variant": [
         {
-          "detail": "Sale Altaria → Cambia a Jirachi usa Otra Vez luego saca a Dragonite +2",
+          "detail": "Cambia a Gengar y usa Maquinación hasta +2.",
           "variant": []
-        },  
-        {    
-          "detail": "Sale Metagross → Cambia a Dragonite usa Otra Vez +2",
+        },
+        {
+          "detail": "Barre con Bola Sombra.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Garra dragon → Cambia a Jirachi luego a Gallade usa Otra Vez 2+2",
-      "variant": []
     }
   ]
 }

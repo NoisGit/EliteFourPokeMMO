@@ -1,7 +1,21 @@
-   {
+{
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz 💡 Frente a Metagross Cambia a Gengar Otra Vez +4 no velo ",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas frente a Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y luego a Volcarona cuando entre Serperior.",
+          "variant": []
+        },
+        {
+          "detail": "Volcarona usa Danza Aleteo x2. Serperior no debilita a Volcarona en esta ruta.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
