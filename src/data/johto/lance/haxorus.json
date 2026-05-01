@@ -2,19 +2,20 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Gengar + Bola Sombra",
   "tricks": [
     {
-      "detail": "METAGROSS / KANGASKHAN → Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite → Chandelure usa Bola Sombra, entra Kangaskhan, Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "TERREMOTO → Cloyster +4",
-      "variant": []
+      "detail": "Cambia a Gengar y úsalo como sacrificio atacando con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Luego Slowbro usa Bostezo frente a Scizor.",
+          "variant": []
+        },
+        {
+          "detail": "Entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
