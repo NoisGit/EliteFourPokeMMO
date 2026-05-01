@@ -2,15 +2,25 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Fuerza Bruta  ➜ Gengar  +6  NO usar Otra Vez ",
-      "variant": []
+      "detail": "Ruta rápida: cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
+      "variant": [
+        {
+          "detail": "Ataca siempre con el movimiento súper eficaz para avanzar el combate.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Buscando superar velocidad  ➜ ASEGURAR (NAIL) Chandelure +2 +2 ; si no se puede asegurar trampa rocas al azar ; Gyarados y Absol apostar por Arcanine si no se puede asegurar )",
-      "variant": []
+      "detail": "Ruta de ahorro: cambia a Gengar y usa Maquinación hasta +6. No uses Otra Vez.",
+      "variant": [
+        {
+          "detail": "Barre con Bola Sombra cuando ya estés preparado.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
