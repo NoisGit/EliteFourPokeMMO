@@ -2,15 +2,34 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Tramparocas🪨",
+  "initialMove": "🔔 Opciones para resolver 🔔",
   "tricks": [
     {
-      "detail": "Puño Drenaje  y se queda  ➜ cambiar a Gengar; Bola Sombra",
-      "variant": []
+      "detail": "Ruta rápida: coloca Trampa Rocas y cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ataca siempre con el movimiento súper eficaz.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Debilitar  o frente a Darmanitan ➜ Chandelure +2 +2 ",
-      "variant": []
+      "detail": "Ruta de ahorro: usa Encanto y Amortiguador para estabilizar el combate.",
+      "variant": [
+        {
+          "detail": "Coloca Trampa Rocas frente a Darmanitan. Luego cambia a Gengar, usa Maquinación hasta +6 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si usas Amortiguador frente a Darmanitan, cambia a Gengar y usa Otra Vez con Maquinación hasta +2 para derrotarlo.",
+      "variant": [
+        {
+          "detail": "Frente a Absol, cambia a Chansey y luego vuelve a Gengar para usar Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
