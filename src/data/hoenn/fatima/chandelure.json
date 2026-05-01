@@ -2,11 +2,20 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lucario ➜ Chandelure +2 +2 (pañuelo)",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Para ahorrar objetos, puedes subir a Maquinación hasta +6 con Gengar.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
