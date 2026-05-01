@@ -60,7 +60,7 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
       onClick={() => onClick(pokemon)}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-300/20 via-transparent to-rose-400/15 opacity-70 transition-opacity duration-300 group-hover:opacity-100" />
-      <div className="relative flex h-18 items-center justify-center rounded-lg bg-black/20 min-[380px]:h-20 sm:h-24 lg:h-28">
+      <div className="relative flex h-[4.5rem] items-center justify-center rounded-lg bg-black/20 min-[380px]:h-20 sm:h-24 lg:h-28">
         <img
           src={spriteSrc}
           alt={pokemon.name}
