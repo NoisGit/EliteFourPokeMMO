@@ -5,7 +5,8 @@ import type { Pokemon } from "../interfaces/Pokemon"
 import type { Region } from "../interfaces/Region"
 import type { Language } from "../i18n/translations"
 
-import { languages, translations } from "../i18n/translations"
+import { translations } from "../i18n/translations"
+import leagueFarmBanner from "../assets/league-farm-banner.png"
 import { validatePokemonStrategy } from "../utils/strategyValidation"
 import { useDynamicImports } from "../hooks/useDynamicImports"
 import { RegionCard } from "./RegionCard"
@@ -14,6 +15,10 @@ import { PokemonCard } from "./PokemonCard"
 import { PokemonDetails } from "./PokemonDetails"
 
 const TEAM_PASTE_URL = 'https://pokepast.es/e356ee22f26cf6dc'
+const LANGUAGE_OPTIONS: Array<{ value: Language; label: string }> = [
+  { value: 'es', label: 'ES' },
+  { value: 'en', label: 'EN' },
+]
 
 export default function PokemonGuide() {
   const [expandedRegion, setExpandedRegion] = useState<string | null>(null)
@@ -137,29 +142,37 @@ export default function PokemonGuide() {
               <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs sm:tracking-[0.24em]">
                 PokeMMO Elite Four
               </span>
-              <h1 className="break-words text-3xl font-black leading-none tracking-tight text-white min-[420px]:text-4xl sm:text-5xl lg:text-6xl">
-                {t.title}
-              </h1>
+              <h1 className="sr-only">{t.title}</h1>
+              <div className="flex w-full justify-start">
+                <img
+                  src={leagueFarmBanner}
+                  alt={t.title}
+                  className="h-auto w-full max-w-[34rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] sm:max-w-[40rem]"
+                />
+              </div>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:mt-4 sm:text-base">
                 {t.subtitle}
               </p>
             </div>
 
-            <div className="flex w-full flex-col gap-3 rounded-2xl border border-white/15 bg-white/10 p-3 sm:w-auto sm:min-w-52">
-              <span className="text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-300 sm:text-xs sm:tracking-[0.2em]">{t.languageLabel}</span>
-              <div className="grid grid-cols-2 gap-2">
-                {(Object.keys(languages) as Language[]).map((currentLanguage) => (
+            <div className="flex w-full max-w-[12.5rem] items-center justify-between gap-2 self-start rounded-full border border-white/15 bg-white/10 px-2 py-1.5 backdrop-blur-md sm:w-auto sm:max-w-none">
+              <span className="pl-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:text-[0.68rem]">
+                {t.languageLabel}
+              </span>
+              <div className="flex rounded-full bg-slate-950/65 p-0.5">
+                {LANGUAGE_OPTIONS.map((currentLanguage) => (
                   <button
-                    key={currentLanguage}
+                    key={currentLanguage.value}
                     type="button"
-                    onClick={() => setLanguage(currentLanguage)}
-                    className={`rounded-xl px-3 py-2 text-sm font-black transition-all duration-300 sm:px-4 ${
-                      language === currentLanguage
-                        ? 'bg-cyan-300 text-slate-950 shadow-lg shadow-cyan-500/25'
-                        : 'bg-slate-950/60 text-slate-200 hover:bg-white/15'
+                    onClick={() => setLanguage(currentLanguage.value)}
+                    aria-label={`Change language to ${currentLanguage.label}`}
+                    className={`rounded-full px-2.5 py-1 text-[0.7rem] font-black leading-none transition-all duration-300 sm:px-3 sm:text-xs ${
+                      language === currentLanguage.value
+                        ? 'bg-cyan-300 text-slate-950 shadow-md shadow-cyan-500/25'
+                        : 'text-slate-300 hover:bg-white/10 hover:text-white'
                     }`}
                   >
-                    {languages[currentLanguage]}
+                    {currentLanguage.label}
                   </button>
                 ))}
               </div>
