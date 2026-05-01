@@ -2,31 +2,33 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Mira Que Habilidad Tiene💡",
+  "initialMove": "💡 Revisa la habilidad 💡",
   "tricks": [
     {
-      "detail": "Intimidación ➜ Pantalla de Luz ",
-      "variant": []
+      "detail": "Si tiene Intimidación, usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Usa Gigadrenado contra Luxray.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Huye hacia Absol ➜ Dragonite; asegurar x defensa ; Danza Dragón x2 ; x ataque  ",
-      "variant": []
-    },
-    {
-      "detail": "Sin Intimidación  ➜ ASEGURAR Trampa rocas  ; cambiar a Jirachi Otra Vez; Chandelure +2 +2 ; Chandelure +2; Bola Sombra  objetivo aleatorio",
-      "variant": []
-    },
-    {
-      "detail": "Probando sin Intimidación  ➜ ASEGURAR trampa rocas ; cambiar a Gengar  Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  ➜ Click hasta debilitar; ver instrucciones abajo",
-      "variant": []
-    },
-    {
-      "detail": "Aggron ➜ cambiar a Jirachi; cambiar a Dragonite Otra Vez ; Danza Dragón x2 ",
-      "variant": []
+      "detail": "Si no tiene Intimidación, coloca Trampa Rocas, sacrifica a Politoed y entra con Poliwrath. Usa Puño Hielo para derrotar a Salamence.",
+      "variant": [
+        {
+          "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas. Mantén los PS por encima del 23%.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hariyama, Poliwrath usa Ataque X. Usa Cascada contra Hariyama.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
