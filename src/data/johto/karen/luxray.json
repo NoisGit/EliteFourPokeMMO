@@ -2,11 +2,20 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Chansey + Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Bloqueado en Rayo. Excadrill entra, pone Trampa Rocas con 4+2.",
-      "variant": []
+      "detail": "Chansey usa Amortiguador y luego coloca Trampa Rocas frente a un tipo Lucha.",
+      "variant": [
+        {
+          "detail": "Después cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
