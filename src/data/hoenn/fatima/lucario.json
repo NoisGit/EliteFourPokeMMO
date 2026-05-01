@@ -2,43 +2,32 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Gengar y Mira la situacion 💡",
+  "initialMove": "💡 Cambia a Slowbro 💡",
   "tricks": [
     {
-      "detail": "Se queda  ➜ para ver la habilidad ",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta  ➜ Gengar  Otra Vez ; debilitar ",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir ➜ Dragonite Otra Vez; Danza Dragón x2 ; huye hacia Meganium para continuar fortalecimiento ",
-      "variant": []
-    },
-    {
-      "detail": "Houndoom ➜ cambiar a Chansey  ASEGURAR Trampa rocas",
-      "variant": []
-    },
-    {
-      "detail": "Luxray ➜ Gengar  Otra Vez  +4 no velo; usar x2 defensa ",
-      "variant": []
-    },
-    {
-      "detail": "A bocajarro  ➜ cambiar a Chansey ; ver quién entra:",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ ASEGURAR trampa roca; frente a Lucario usar Chandelure +2 +2; Pañuelo elegido se bloquea solo; huye hacia columna de hielo  para resistir daño y fortalecerse",
-      "variant": []
-    },
-    {
-      "detail": "Honchkrow ➜ cambiar a Jirachi; ASEGURAR Trampa rocas; Otra Vez ; Dragonite +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ cambiar a Chandelure; cambiar a Chansey; Gengar  Otra Vez  +4 +2 ",
-      "variant": []
+      "detail": "Cambia a Slowbro y revisa el movimiento o cambio rival.",
+      "variant": [
+        {
+          "detail": "Si usa A Bocajarro, cambia a Chansey y coloca Trampa Rocas frente a Lucario. Luego cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa Patada Salto Alta, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Elimina la quemadura antes de barrer.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Honchkrow, usa Bostezo. Si Honchkrow permanece, o si sale Hydreigon o Lucario, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje para mantener una buena línea de salud.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Banette, cambia a Chansey y coloca Trampa Rocas frente a Honchkrow. Luego sacrifica a Politoed y entra con Poliwrath. Presiona hasta Hydreigon y usa Ataque X. Usa Puño Hielo contra Honchkrow.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Arcanine, Slowbro usa Bostezo frente a Raichu. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
