@@ -31,6 +31,12 @@ button {
   font: inherit;
 }
 
+img[src*="league-farm-banner"] {
+  mix-blend-mode: screen;
+  filter: brightness(1.12) contrast(1.25) saturate(1.08);
+  background: transparent;
+}
+
 @layer utilities {
   .animate-in {
     animation: fadeIn 0.28s ease-out both;
