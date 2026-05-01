@@ -2,15 +2,34 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "DARMANITAN NO CAMBIA → Chandelure +4+0 , Usa Lanzallamas para limpiar equipo.",
-      "variant": []
+      "detail": "Opción para asegurar:",
+      "variant": [
+        {
+          "detail": "Entra con Volcarona y usa Danza Aleteo x3.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "SEISMITOAD → Truco para bloquear Terremoto, luego Cloyster +4.",
-      "variant": []
+      "detail": "Opción estable:",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Opción arriesgada:",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
