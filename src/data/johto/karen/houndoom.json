@@ -2,97 +2,108 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO / Si Houndoom ataca primero es Pañuelo Elegido",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lanzallamas → revisar objeto",
+      "detail": "Coloca Trampa Rocas. Si Houndoom se queda, revisa su objeto. Si falla el turno, usa Amortiguador.",
       "variant": [
         {
-          "detail": "Cinta Xperto → cambiar a Chandelure, ayudar a Metagross con Revivir o Cura Quemadura / usar Bola Sombra.",
-          "variant": [
-            {
-              "detail": "Hydreigon → Scrafty +3. / Paliza para Primeape",
-              "variant": []
-            }
-          ]
-        },    {
-          "detail": "Banda Focus / Vidasfera → cambiar a Chandelure y usar Truco.",
-          "variant": [
-            {
-              "detail": "Houndoom se queda → Scrafty +4 o +2 con X Ataque. / Paliza mata a Vileplume en 2 turnos",
-              "variant": []
-            },
-            {
-              "detail": "Feraligatr → Cloyster +4 + Defensa X (Primero la medicina)",
-              "variant": []
-            },
-            {
-              "detail": "Tyranitar → Scrafty +3. / Si Scrafty recibe Terremoto, cambiar a Cloyster +6",
-              "variant": []
-            },
-            {
-              "detail": "Rhyperior / Quagsire → Cloyster +4 / Si Cloyster se encuentra inesperadamente contra Gyarados → cambiar a Scrafty, usar Medicina Defensa X +3 / Cuidado con tu vida",
-              "variant": []
-            },
-            {
-              "detail": "Gyarados (Pañuelo Elegido) → cambiar a Poliwrath, luego cambiar a Scrafty. // Si Metagross está quemado, usar a Poliwrath para ayudar a quitar la quemadura (contra Slowbro), luego Scrafty +3",
-              "variant": [
-                {
-                  "detail": "Slowbro → Scrafty +3 / / Si tienes bajos PS usar Raíz Energía",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Gyarados (Restos) → Cloyster +4 con Medicina Defensa X. / / Primero usar medicina",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },  
-    {
-      "detail": "Llamarada (Pañuelo Elegido) → cambiar a Chandelure; ver qué movimiento usa Houndoom después. // Si Metagross falla Truco, no hay problema. ¡Chandelure no debe usar ningún movimiento!",
-      "variant": [
-        {
-          "detail": "Poder Oculto → Excadrill coloca Trampa Rocas, 4+2+2 (con Defensa Especial X)",
+          "detail": "Si tiene Vidasfera, usa Amortiguador dos veces. Si se queda, sacrifica a Politoed y entra con Poliwrath. Usa Ataque X y empieza a barrer.",
           "variant": []
         },
         {
-          "detail": "Llamarada / Vozarrón → Ayudar a Metagross con Revivir o Raíz Energía // Mirar la situación 👇🏻 ¡Chandelure no debe usar ningún movimiento!",
-          "variant": [
-            {
-              "detail": "Houndoom no se va → (Ayudar a Metagross a curarse hasta 90% o más) / un Poder Oculto para bajar PS / cambiar a Metagross frente a Gengar / Truco para bloquear a Quagsire / Cloyster +4",
-              "variant": []
-            },
-            {
-              "detail": "Blastoise → (Ayudar a Metagross a curarse hasta 83% o más) / cambiar a Poliwrath / cambiar a Metagross y usar Truco / bloquear a Quagsire / Cloyster +4",
-              "variant": []
-            }
-          ]
+          "detail": "Si no tiene Vidasfera, usa Amortiguador hasta que el rival cambie.",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Quagsire / Rhyperior → Cloyster +4 / Carámbano mata a Houndoom",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp → Cloyster +6 + Medicina Crítica. / Todo muere con Carámbano",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill → Mira el objeto.",
+      "detail": "Rutas con cambios directos:",
       "variant": [
         {
-          "detail": "Vidasfera → Cloyster +4. / Carámbano mata a Houndoom.",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
           "variant": []
         },
         {
-          "detail": "Globo Helio → Usa Truco para recuperarlo, luego vuelve a usar Truco para bloquear Terremoto, Cloyster +6. / Carámbano mata a Houndoom y Tyranitar.",
+          "detail": "Si sale Feraligatr, usa Encanto, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Honchkrow, Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Tyranitar, cambia a Poliwrath para derrotarlo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Absol, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gallade o Roserade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    }    
+    },
+    {
+      "detail": "Ruta con Gyarados o Victreebel:",
+      "variant": [
+        {
+          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados, barre hasta Houndoom e ignora la amenaza.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si vuelve Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta con Excadrill:",
+      "variant": [
+        {
+          "detail": "Si Excadrill tiene Globo Helio, usa Encanto y Amortiguador frente a Tyranitar. Luego cambia a Poliwrath para derrotar a Tyranitar.",
+          "variant": []
+        },
+        {
+          "detail": "Si Excadrill no tiene Globo Helio, cambia a Slowbro y usa Bostezo. Si se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1, barre hasta Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 frente a Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta con Rhyperior:",
+      "variant": [
+        {
+          "detail": "Usa Encanto y cambia a Slowbro.",
+          "variant": []
+        },
+        {
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon y entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y Bostezo otra vez frente a Leafeon. Luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
+    }
   ]
 }
