@@ -16,19 +16,23 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
   )
 
   return (
-    <section className="animate-in slide-in-from-bottom duration-300 rounded-[2rem] border border-white/10 bg-slate-950/70 p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-6">
-      <div className="mb-5 flex flex-col gap-4 border-b border-white/10 pb-5 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <span className="text-xs font-black uppercase tracking-[0.22em] text-rose-200">{labels.initialMoveLabel}</span>
-          <h3 className="mt-2 text-2xl font-black text-white">{initialMove}</h3>
+    <section className="animate-in slide-in-from-bottom duration-300 overflow-hidden rounded-[1.5rem] border border-white/10 bg-slate-950/70 p-3 shadow-2xl shadow-black/30 backdrop-blur-xl sm:rounded-[2rem] sm:p-6">
+      <div className="mb-4 flex flex-col gap-3 border-b border-white/10 pb-4 sm:mb-5 sm:flex-row sm:items-center sm:justify-between sm:pb-5">
+        <div className="min-w-0">
+          <span className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-rose-200 sm:text-xs sm:tracking-[0.22em]">
+            {labels.initialMoveLabel}
+          </span>
+          <h3 className="mt-2 min-w-0 break-words text-xl font-black leading-tight text-white [overflow-wrap:anywhere] sm:text-2xl">
+            {initialMove}
+          </h3>
         </div>
-        <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-right">
-          <span className="block text-xs font-bold uppercase tracking-[0.18em] text-slate-400">Matchup</span>
-          <span className="text-lg font-black text-white">{pokemon.name}</span>
+        <div className="w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-left sm:w-auto sm:px-4 sm:py-3 sm:text-right">
+          <span className="block text-[0.65rem] font-bold uppercase tracking-[0.16em] text-slate-400 sm:text-xs sm:tracking-[0.18em]">Matchup</span>
+          <span className="block truncate text-base font-black text-white sm:text-lg">{pokemon.name}</span>
         </div>
       </div>
 
-      <div className="space-y-3">
+      <div className="min-w-0 space-y-3 overflow-hidden">
         {pokemon.tricks && pokemon.tricks.length > 0 ? (
           pokemon.tricks.map((trick, index) => (
             <TrickItem key={`${pokemon.id}-${index}`} trick={trick} language={language} />
