@@ -2,119 +2,66 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "DRAGONITE → Cambia a Chandelure y observa el movimiento:",
+      "detail": "Coloca Trampa Rocas. Si Feraligatr se queda, revisa el movimiento.",
       "variant": [
         {
-          "detail": "Puño Fuego → Usa Truco para bloquear con Feraligatr, luego entra Poliwrath con +6 y +2+2 (Def. Esp.). Si recibe un golpe crítico de Esfera Aural y queda debilitado, usa Raíz Grande para curarse y seguir barriendo (prevención contra prioridad)",
+          "detail": "Cascada: cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Llamarada → Usa Poder Oculto al punto; si Dragonite no cambia, sigue atacando",
-          "variant": [
-            {
-              "detail": "Sale Scrafty → Cambia a Metagross para colocar Trampa Rocas. Si Scrafty no se retira, o si sale Infernape, cambia a Chandelure y usa Truco.👇🏻",
-              "variant": [
-                {
-                  "detail": "Triturar → Según la vida de Dragonite:",
-                  "variant": [
-                    {
-                      "detail": "Si no tiene los PS completos → Scrafty +3",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Si tiene PS completos → usa Protec. Esp. (Píldora para que el equipo no baje estadísticas) para sacrificarse y luego entra Poliwrath con +2+2. // Prioriza movimientos eficaces",
-                      "variant": []
-                    }
-                  ]
-                },
-                {
-                  "detail": "Puño Trueno → Excadrill +4+2",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Sale Feraligatr → Cambia a Metagross para colocar trampas, sacrificarlo, luego entra Chandelure y usa Truco para bloquear con Cascada, luego entra Poliwrath con +6+2. // Si no pudiste colocar trampas, no importa, solo usa una medicina de Def. Esp. // Si recibe crítico de Esfera Aural, usa Raíz Energía para curarse",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "STEELIX → Depende del objeto:",
-      "variant": [
-        {
-          "detail": "Casco Dentado → Cloyster +4 // Lucario muere con Carámbano",
+          "detail": "Fuerza Bruta: usa Teletransporte para revisar. Si vuelve a usar Fuerza Bruta, Slowbro usa Bostezo frente a Ampharos. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Baya Chiri → Metagross coloca Trampa Rocas, luego Excadrill con +2 Ataque, No necesitas velocidad. Si luego entra Lapras, ignóralo: ya estás completamente potenciado",
+          "detail": "Otro movimiento: cambia a Poliwrath, luego a Slowbro y usa Bostezo frente a Ampharos. Después entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "METAGROSS → Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "AMPHAROS → Excadrill coloca Trampa Rocas +4+2. / Terremoto mata a Arcanine",
+      "detail": "Ruta con Scizor:",
       "variant": [
         {
-          "detail": "Dragonite → Usa Cabeza Hierro para romper la habilidad, luego cambia a Chandelure y remata con Poder Oculto, observa qué sale después👇🏻",
-          "variant": [
-            {
-              "detail": "Arcanine → (Chandelure ayuda a Excadrill a quitar la quemadura), Excadrill coloca Trampa Rocas +4+2 y se cura con Raíz Energía",
-              "variant": []
-            },
-            {
-              "detail": "Feraligatr → cambia a Metagross (Trampa Rocas), sacrifica, Chandelure usa Truco para bloquear en Cascada, Poliwrath +6+2",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "HYDREIGON → Cambia a Chandelure y usa Truco",
-      "variant": [
-        {
-          "detail": "Si Hydreigon no se va, Scrafty usa medicina de Def. Esp. y se potencia a +3. / Puño Drenaje derrota a Lucario // Si Scrafty fue derrotado por Lucario → Chandelure usa Truco para bloquear con Pulso Umbrío, revive a Scrafty, Scrafty entra con +3",
+          "detail": "Usa Teletransporte y evalúa el daño.",
           "variant": []
         },
         {
-          "detail": "Si entra Feraligatr, Poliwrath +6+2+2 (Def. Esp.) Si Poliwrath recibe un crítico de Esfera Aural, usa Raíz Grande para curarse y seguir barriendo",
+          "detail": "Daño cercano al 60%: envía a Slowbro, usa Bostezo y luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Daño cercano al 90%: entra con Volcarona, usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona cae por crítico, usa la ruta de Slowbro con Bostezo y Poliwrath con Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "TYRANITAR → Excadrill +6+2",
-      "variant": []
-    },
-    {
-      "detail": "SCRAFTY → Cambia a Chandelure contra Infernape, usa Truco para bloquear con Puño Trueno, luego entra Excadrill con +4+2 y trampa rocas",
-      "variant": []
-    },
-    {
-      "detail": "FLYGON / GARCHOMP → Cambia a Chandelure (resiste Llamarada), usa Truco para intercambiar objeto, luego entra Excadrill, Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "TERREMOTO → Excadrill +4+2",
-      "variant": []
-    },
-    {
-      "detail": "ESCALDAR → Coloca Trampa Rocas, luego Poliwrath +6+2+6 (gracias a Absorbe Agua se cura completamente)",
-      "variant": []
-    },
-    {
-      "detail": "CASCADA → Poliwrath +6+2+2 (Def. Esp.). // Si hay Lucario con Banda Focus, y recibe un crítico de Esfera Aural, usa Raíz Grande para curarse y seguir barriendo",
-      "variant": []
+      "detail": "Rutas por cambio rival:",
+      "variant": [
+        {
+          "detail": "Haxorus: cambia a Slowbro y usa Bostezo. Frente a Scizor, entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Dragonite: cambia a Slowbro y usa Bostezo. Contra Scizor usa la ruta de Poliwrath. Contra Flygon usa Protección y Bostezo antes de entrar con Poliwrath. Usa Puño Drenaje contra Steelix.",
+          "variant": []
+        },
+        {
+          "detail": "Lucario: cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad. Lucario no tiene objeto elegido.",
+          "variant": []
+        },
+        {
+          "detail": "Infernape: cambia a Slowbro y usa Bostezo frente a Electivire. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

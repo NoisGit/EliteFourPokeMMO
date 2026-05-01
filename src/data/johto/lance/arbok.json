@@ -2,11 +2,16 @@
   "id": "arbok",
   "name": "Arbok",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO PARA ENCERRAR A GARCHOMP/ FLYGON TERREMOTO",
+  "initialMove": "Slowbro + Bostezo",
   "tricks": [
     {
-      "detail": "Cloyster +4",
-      "variant": []
+      "detail": "Cambia a Slowbro y usa Bostezo frente a Eelektross.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

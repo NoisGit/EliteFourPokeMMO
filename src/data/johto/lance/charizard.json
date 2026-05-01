@@ -2,11 +2,24 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO PARA ENCERRAR EN LLAMARADA",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Cambia a Chandelure y luego a Scrafty, frente a Tyranitar, Excadrill 6 + 2",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Tyranitar y cambia a Poliwrath para derrotarlo.",
+      "variant": [
+        {
+          "detail": "Después entra con Chansey y usa Amortiguador.",
+          "variant": []
+        },
+        {
+          "detail": "Espera a que entre Metagross, usa Teletransporte hacia Slowbro y luego Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

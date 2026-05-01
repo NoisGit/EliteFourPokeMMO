@@ -2,15 +2,20 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si usa Surf coloca Trampa Rocas, Luego cambia a Poliwrath 2 Tambores, 1 Velocidad X.(Si no Lograste Poner Trampa Rocas + Defensa X a Poliwrath).",
-      "variant": []
-    },
-    {
-      "detail": "Si cambia a Steelix Cambia a Cloyster +4",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa si sale Scizor.",
+      "variant": [
+        {
+          "detail": "Si sale Scizor, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

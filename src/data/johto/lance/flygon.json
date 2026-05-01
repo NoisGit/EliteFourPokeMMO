@@ -2,15 +2,20 @@
   "id": "flygon",
   "name": "Flygon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto → Excadrill +4+2 y luego coloca Trampa Rocas",
-      "variant": []
-    },
-    {
-      "detail": "Llamarada → Chandelure usa Truco para intercambiar objeto, luego Excadrill +4+2 y coloca Trampa Rocas",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Lucario, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad. Lucario no tiene objeto elegido.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo frente a Flygon. Luego usa Protección y Bostezo, y entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
