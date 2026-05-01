@@ -2,33 +2,24 @@
   "id": "electrode",
   "name": "Electrode",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "NIDOQUEEN → Cloyster 6. / Mátalos a todos con Carambano. Si Cloyster recibe Fuego por error, confirma que es Zoroark y sigue la segunda línea.",
-      "variant": []
-    },
-    {
-      "detail": "Lanzallamas [Zoroark disfraz] → Chandelure usa Truco para cambiar objeto, Scrafty 3. / Usa Puño Drenaje + A Bocajarro para matar a Skarmory.",
-      "variant": []
-    },
-    {
-      "detail": "RAYO → Excadrill 6+2 / para huir de Nidoking, mira abajo 👇🏻",
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Electrode.",
       "variant": [
         {
-          "detail": "Cambia a Excadrill contra Nidoking → cambia a Chandelure para usar Truco y mira el movimiento:",
-          "variant": [
-            {
-              "detail": "Si usa Tierra Viva, Cloyster 6 / mátalos a todos con Carambano",
-              "variant": []
-            },
-            {
-              "detail": "Si usa Onda Tóxica, Scrafty 3 / usa Puño Drenaje + A Bocajarro para matar a Skarmory.",
-              "variant": []
-            }
-          ]
+          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado para derrotar a Zoroark. Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona recibe retrocesos, cambia a Chansey, cura a Volcarona con Max Poción y repite la ruta.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa Rayo, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS de Volcarona por encima del 50%; de lo contrario, Electrode puede usar Autodestrucción.",
+          "variant": []
         }
       ]
-    }    
+    }
   ]
 }
