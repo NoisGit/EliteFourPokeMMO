@@ -2,11 +2,20 @@
   "id": "starmie",
   "name": "Starmie",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "FLYGON → Truco para bloquear Terremoto, Cloyster +4 / Carámbano para Toxicroak y Crobat",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Toxicroak, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "🔔 Toxicroak tiene Banda Focus. 🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }
