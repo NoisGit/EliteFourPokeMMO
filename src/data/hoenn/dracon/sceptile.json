@@ -2,46 +2,20 @@
   "id": "sceptile",
   "name": "Sceptile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Slowbro + Bostezo 💡",
   "tricks": [
     {
-      "detail": "Ampharos → Excadrill +4 Ataque +2 Velocidad. Si sale Metagross, no hace falta cambiar; continúa boosteando.",
-      "variant": []
-    },
-    {
-      "detail": "Metagross → Chandelure usa Lanzallamas para debilitar y observa quién entra:",
+      "detail": "Cambia a Slowbro frente a Feraligatr y usa Bostezo frente a Sceptile.",
       "variant": [
         {
-          "detail": "Feraligatr → Poliwrath +6 Ataque con Raíz Energía +2 Velocidad.",
+          "detail": "Luego entra con Volcarona, usa Danza Aleteo x2 y Especial X.",
           "variant": []
         },
         {
-          "detail": "Floatzel → Cambia a Poliwrath y luego a Chandelure para usar Truco:",
-          "variant": [
-            {
-              "detail": "Hidrobomba, Poliwrath +6 Ataque +2 Velocidad.",
-              "variant": []
-            },
-            {
-              "detail": "Triturar, Scrafty +3.",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Poder Oculto → Depende:",
-      "variant": [
-        {
-          "detail": "Económico → Scrafty +4. / Dos Puño Drenaje para matar a Metagross.",
-          "variant": []
-        },
-        {
-          "detail": "Velocidad → Poliwrath 6 +2. / Ten en cuenta que Sceptile es más rápido que Poliwrath +2, si tiene poca vida, recuerda curarlo.",
+          "detail": "Mantén los PS de Volcarona por encima del 75%.",
           "variant": []
         }
       ]
-    }    
+    }
   ]
 }

@@ -2,6 +2,20 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 Chandelure 2+ 2+",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas y cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Usa ataques súper eficaces para avanzar la ruta.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

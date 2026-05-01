@@ -2,13 +2,17 @@
   "id": "regirock",
   "name": "Regirock",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "PANTALLA LUZ",
+  "initialMove": "👻 Cambia a Gengar 👻",
   "tricks": [
     {
-      "detail": "Puño drenaje/Elektross → Gengar Otra Vez 4+2",
+      "detail": "Cambia a Gengar y revisa la ruta rival.",
       "variant": [
         {
-          "detail": "Salamence/Pull comun → Gengar pushea hasta metagross luego cambia a Dragonite +3 (No Otra Vez)",
+          "detail": "Si usa Puño Drenaje, Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Eelektross, cambia a Chansey y luego vuelve a Gengar. Usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
           "variant": []
         }
       ]

@@ -2,11 +2,20 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz💡",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Gallade ➜ cambiar a Gengar  Otra Vez  +4 0 Velocidad ; luego Otra Vez y ataca (gallade Banda focus) ",
-      "variant": []
+      "detail": "Usa Amortiguador frente a Gallade.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez y Maquinación hasta +4. Gallade tiene Banda Focus.",
+          "variant": []
+        },
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

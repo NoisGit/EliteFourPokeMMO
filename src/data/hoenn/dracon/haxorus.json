@@ -2,20 +2,16 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Gengar 👻",
   "tricks": [
     {
-      "detail": "NO CAMBIA → Usar Truco para bloquear con Avalancha, luego sacar a Scrafty +3. Si por error queda bloqueado en Garra Dragón, dejarlo caer y entrar con Excadrill +2+2. / Priorizar el movimiento de mayor potencia.",
+      "detail": "Cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
       "variant": [
         {
-          "detail": "Si Excadrill muere por un golpe crítico de Garra Dragón → Sacar a Metagross para revivir a Excadrill (entra Ampharos), luego usar Excadrill +4+2.",
+          "detail": "Barre con Bola Sombra.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Contra Lucario en campo → Sacar a Scrafty con +3. / Paliza para debilitar a Haxorus con Banda Focus.",
-      "variant": []
     }
   ]
 }
