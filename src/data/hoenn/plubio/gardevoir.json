@@ -2,58 +2,35 @@
   "id": "gardevoir",
   "name": "Gardevoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Whiscash o Lanturn, usa Excadrill +4+2. Si por sorpresa recibe Escaldar, entra Poliwrath +6+2. Puede usar A Bocajarro para eliminar a Milotic.",
-      "variant": []
-    },
-    {
-      "detail": "Milotic, usa Poliwrath +6+2. (Primero Tambor) Puede usar A Bocajarro para eliminar a Milotic.",
+      "detail": "Coloca Trampa Rocas y revisa el objeto o movimiento de Gardevoir.",
       "variant": [
         {
-          "detail": "Si el rival cambia a Togekiss después del Tambor, usa A Bocajarro para eliminarlo. Luego si aparece Roserade, cambia a Scrafty y observa el movimiento:",
-          "variant": [
-            {
-              "detail": "Si usa Psíquico, Scrafty +3",
-              "variant": []
-            },
-            {
-              "detail": "Si lanza Bomba Lodo, entra Excadrill +4+2.",
-              "variant": []
-            }
-          ]
-        }        
-      ]
-    },
-    {
-      "detail": "Registeel, coloca Trampa Rocas y luego entra Excadrill +2+2.",
-      "variant": []
-    },
-    {
-      "detail": "Bola Sombra, entra Scrafty +3.",
-      "variant": []
-    },
-    {
-      "detail": "Esfera Aural, cambia a Chandelure y utiliza Truco",
-      "variant": [
-        {
-          "detail": "Si Gardevoir no se retira, entra Scrafty +3.",
+          "detail": "Si tiene Vidasfera y usa Psicocarga, usa Teletransporte hacia Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si aparece Milotic, entra Poliwrath +6+2 // Si el rival cambia a Togekiss después del Tambor, usa A Bocajarro para eliminarlo. Luego si aparece Vileplume, cambia a Scrafty y observa el movimiento:",
-          "variant": [
-            {
-              "detail": "Si usa Psíquico, Scrafty +3",
-              "variant": []
-            },
-            {
-              "detail": "Si lanza Bomba Lodo, entra Excadrill +4+2.",
-              "variant": []
-            }
-          ]
-        }        
+          "detail": "Si no tiene Vidasfera y usa Psicocarga, usa Teletransporte hacia Gengar y deja que Gengar caiga usando un movimiento.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Whiscash, la ruta segura es Slowbro con Bostezo frente a Roserade, sacrificio de Politoed y Poliwrath con Tambor hasta +6 Ataque. La ruta arriesgada es sacrificar a Politoed directo y entrar con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Milotic, Slowbro usa Bostezo frente a Roserade. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Togekiss, usa Onda Certera y sacrifica a Gengar. Slowbro usa Defensa Especial X y Bostezo frente a Roserade. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Eelektross, Gengar usa Otra Vez. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
       ]
     }
   ]
