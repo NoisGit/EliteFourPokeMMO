@@ -2,50 +2,33 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "REGISTEEL: observa el objeto.",
+      "detail": "Coloca Trampa Rocas y revisa si Serperior usa Lluevehojas.",
       "variant": [
         {
-          "detail": "Baya Zidra/Atania: coloca Trampa Rocas y entra Excadrill +4+2.",
+          "detail": "Si Lluevehojas deja a Serperior en +4 de Ataque Especial, usa Teletransporte hacia Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Cinta Experto: entra Excadrill +4+2.",
-          "variant": []
-        },
-        {
-          "detail": "GAFAS ELEGIDAS: entra Excadrill +2+2.",
+          "detail": "Si Lluevehojas deja a Serperior en +2 de Ataque Especial, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Poder Oculto: cambia a Chandelure.",
+      "detail": "Rutas por cambio rival:",
       "variant": [
         {
-          "detail": "Si no se retira, usa Lanzallamas para derrotarlo. Luego, si entra Milotic o Wailord, entra Poliwrath +6+2.",
+          "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo frente a Serperior. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
           "variant": []
         },
         {
-          "detail": "Si aparece Registeel frente a Chandelure: usa Truco.",
-          "variant": [
-            {
-              "detail": "Terremoto, entra Excadrill +4+2.",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Wailord, entra Poliwrath +6+4.",
-              "variant": []
-            }
-          ]
+          "detail": "Si sale Eelektross, Gengar usa Otra Vez. Luego cambia a Slowbro frente a Milotic y usa Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
         }
       ]
-    },
-    {
-      "detail": "Lluevehojas: usa Truco para recuperar el objeto, luego coloca Trampa Rocas y sacrifica al Pokémon. Después entra Chandelure y usa Lanzallamas para debilitarlo (si entra Milotic), entonces entra Poliwrath +6+2 (Falta probar)",
-      "variant": []
     }
   ]
 }
