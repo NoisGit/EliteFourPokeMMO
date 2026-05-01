@@ -2,19 +2,20 @@
   "id": "ditto",
   "name": "Ditto",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "TRUCO FALLA (parálisis), cambia directo a Excadrill 4+2.",
-      "variant": []
-    },
-    {
-      "detail": "PUÑO TRUENO → Excadrill 4+2, ¡no pongas Trampa Rocas!",
-      "variant": []
-    },
-    {
-      "detail": "NIDOKING → Cloyster 4, último Ditto, cambia a Poliwrath para rematar.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Ditto se queda, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Si se sigue quedando, entra con Poliwrath, usa Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad. Usa Puño Drenaje contra Magmortar.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Sacrifica a Politoed, entra con Poliwrath y usa Ataque X. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
