@@ -2,11 +2,28 @@
   "id": "hitmonlee",
   "name": "Hitmonlee",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Gengar → Slowbro → Chansey 💡",
   "tricks": [
     {
-      "detail": "Steelix, luego Cloyster +6.",
-      "variant": []
+      "detail": "Entra con Gengar, luego cambia a Slowbro y usa Bostezo. Después cambia a Chansey y coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si Hitmonlee se queda, vuelve a Gengar y derrótalo con Bola Sombra. Si sale Machamp, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez y Maquinación hasta +2.",
+          "variant": []
+        },
+        {
+          "detail": "Si Machamp se queda, usa Maquinación hasta +6. Mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, cambia a Poliwrath y luego vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Machamp o Luxray, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Si se queda, sube con Maquinación hasta +6 y mantén Otra Vez cada vez que puedas.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,38 +2,17 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Steelix → Metagross pone Trampa Rocas, Excadrill 2+0 (Si sale Lapras no importa, ya tienes todas las mejoras hechas)",
-      "variant": []
-    },
-    {
-      "detail": "Donphan → Excadrill 6+2",
-      "variant": []
-    },
-    {
-      "detail": "Rayo + Baya → Excadrill 6+2",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Tyranitar → Scrafty +4 o +2 y ATK X",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Rayo + Gafas Elegidas → Excadrill 4+2",
-      "variant": []
-    },
-    {
-      "detail": "Surf → Revisa el objeto",
-      "variant": [
-        {
-          "detail": "Baya Atania → Poliwrath 6+2",
+          "detail": "Si sale Tyranitar, cambia a Poliwrath para derrotarlo. Luego cambia a Chansey y usa Amortiguador. Espera a Metagross, usa Teletransporte hacia Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Gafas Elegidas → Pone Trampa Rocas, Poliwrath 6+2",
+          "detail": "Si sale Scizor, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

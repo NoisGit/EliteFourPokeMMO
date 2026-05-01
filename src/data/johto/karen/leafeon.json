@@ -2,33 +2,42 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Tijera X → Cambia a Chandelure.",
+      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
       "variant": [
         {
-          "detail": "Contra Rhyperior → Usa Truco para bloquear con Terremoto, luego entra Cloyster +4.",
+          "detail": "Si Leafeon se queda, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
           "variant": []
         },
         {
-          "detail": "Si no se va → usa Lanzallamas para debilitar, mira quién entra abajo:",
-          "variant": [
-            {
-              "detail": "Si entra Rhydon → cambia a Excadrill, luego Chandelure usa Truco para bloquear Terremoto, luego Cloyster +4.",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Houndoom → cambia a Poliwrath para revivir a Chandelure, usa Truco para bloquear Juego Sucio, luego Scrafty +3.",
-              "variant": []
-            }
-          ]
-        }        
+          "detail": "Si sale Leafeon después de otra ruta, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
       ]
     },
     {
-      "detail": "Rhyperior → Cloyster +4",
-      "variant": []
+      "detail": "Ruta con Rhyperior:",
+      "variant": [
+        {
+          "detail": "Usa Encanto y cambia a Slowbro.",
+          "variant": []
+        },
+        {
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon y luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta con Gyarados:",
+      "variant": [
+        {
+          "detail": "Usa Bostezo, Protección y Bostezo otra vez frente a Leafeon. Luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,20 @@
   "id": "stunfisk",
   "name": "Stunfisk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🦋 Cambia a Volcarona 🦋",
   "tricks": [
     {
-      "detail": "Bloquear Tierra Viva, Cloyster 4",
-      "variant": []
+      "detail": "Cambia a Volcarona. Si sale Scizor, prepara el sweep.",
+      "variant": [
+        {
+          "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si un crítico derrota a Volcarona, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

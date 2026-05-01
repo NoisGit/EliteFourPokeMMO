@@ -1,29 +1,19 @@
 {
-    "id": "absol",
-    "name": "Absol",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "CAMBIA A CHANDELURE",
-    "tricks": [
-      {
-        "detail": "TAJO UMBRÍO → Entrar con Scrafty → Scrafty +3 → Bronzong necesita dos Puño Drenaje para ser derrotado",
-        "variant": []
-      },
-      {
-        "detail": "A BOCAJARRO → Chandelure usa Truco para intercambiar objetos → Luego entrar con Scrafty → Scrafty +2 → Bronzong necesita dos Puño Drenaje para ser derrotado",
-        "variant": []
-      },
-      {
-        "detail": "BRONZONG → Chandelure usa Lanzallamas para debilitar:",
-        "variant": [
-          {
-            "detail": "Si entra Absol → Scrafty +2",
-            "variant": []
-          },
-          {
-            "detail": "Si entra Empoleon → Poliwrath +6 +2 / Si te congela, descongela con Cura Total o una Baya dependiendo de tus Ps",
-            "variant": []
-          }
-        ]
-      }
-    ]
-  }
+  "id": "absol",
+  "name": "Absol",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "👻 Gengar +4 + Precisión X 👻",
+  "tricks": [
+    {
+      "detail": "Entra con Gengar, usa Maquinación hasta +4 y luego Precisión X.",
+      "variant": [
+        {
+          "detail": "No uses Otra Vez en esta ruta."
+        },
+        {
+          "detail": "Cuando Gengar esté listo, barre con la cobertura correspondiente."
+        }
+      ]
+    }
+  ]
+}

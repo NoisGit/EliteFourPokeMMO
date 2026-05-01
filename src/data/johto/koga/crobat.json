@@ -2,96 +2,84 @@
   "id": "crobat",
   "name": "Crobat",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "ONDA ÍGNEA + BANDA FOCUS → Cambia a Chandelure y usa Truco",
+      "detail": "Coloca Trampa Rocas. Si Crobat se queda, observa qué ataque usa.",
       "variant": [
         {
-          "detail": "Crobat no se retira, entra Excadrill con +6 de Ataque y +2 de Velocidad. / Usa Terremoto para derrotar a Skuntank",
+          "detail": "Si usa Superdiente, cambia a Slowbro.",
           "variant": []
         },
         {
-          "detail": "Ampharos, entra Poliwrath +6 en Ataque y +4 en Velocidad",
+          "detail": "Si después sale Magmortar, usa Bostezo, sacrifica a Politoed y entra con Poliwrath. Usa Ataque X y empieza a barrer. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Rhyperior, Slowbro usa Bostezo y recibe Megacuerno. Luego usa Protección y Bostezo hasta quedar frente a Gengar o Lapras. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Onda Ígnea + Vidasfera → Cambia a Chandelure // Si Crobat cambia directamente a Rhyperior o Stunfisk utiliza Truco, cambia a Cloyster+6 (Carámbano para Sharpedo)",
+      "detail": "Si Crobat usa Puya Nociva o Pájaro Osado, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Onda Ígnea acierta (Se activa el Abs. Fuego) // Usa Lanzallamas y observa qué Pokémon entra:",
-          "variant": [
-            {
-              "detail": "Rhyperior: cambia a Excadrill, luego a Chandelure y usa Truco para bloquear en Terremoto, luego entra Cloyster con +6. / Usa Carámbano para eliminar a Sharpedo",
-              "variant": []
-            },
-            {
-              "detail": "Tentacruel: cambia a Poliwrath, luego a Metagross para colocar Trampa Rocas, Poliwrath 6+2. / Usa primero la medicina de Velocidad. / Si queda congelado, descongela pues huevón! xd / Si crobat no a muerto utiliza otra velocidad X / A Bocajarro contra Skarmory",
-              "variant": []
-            },
-            {
-              "detail": "Electrode: cambia a Excadrill, luego a Chandelure, espera a que se autodestruya (entra Tentacruel), luego cambia a Metagross para colocar Trampa Rocas, Poliwrath 6+2. / Usa primero la medicina de Velocidad. Si Crobat no ha muerto, usar otra medicina de Velocidad",
-              "variant": []
-            },
-            {
-              "detail": "Floatzel: cambia a Poliwrath, luego a Chandelure y usa Truco",
-              "variant": [
-                {
-                  "detail": "Triturar, entra Scrafty con +3. / Usa Puño Drenaje + A Bocajarro para vencer a Scizor",
-                  "variant": []
-                },
-                {
-                  "detail": "Hidrobomba, entra Poliwrath 6+2",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Stunfisk: Excadrill +4 y +2",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Onda Ígnea falla (no se activa Absorbe Fuego) → Usar Truco:",
-          "variant": [
-            {
-              "detail": "Rhyperior o Stunfisk → entra Cloyster +6. / Usar Carámbano para eliminar a Sharpedo",
-              "variant": []
-            },
-            {
-              "detail": "Tentacruel → cambiar a Metagross para colocar Trampa Rocas, luego Poliwrath 6+4. / Usar medicina de Velocidad",
-              "variant": []
-            },
-            {
-              "detail": "Si Crobat no se retira → atacar con Lanzallamas, luego seguir el plan del escenario con Absorbe Fuego activado",
-              "variant": []
-            }
-          ]
+          "detail": "Si el rival se queda, entra con Volcarona, usa Danza Aleteo x1 y Psíquico. Frente a Electrode, vuelve a usar Danza Aleteo y termina de barrer.",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Lanzallamas [Zoroark disfrazado] → Chandelure usa Truco para intercambiar objetos, luego entra Scrafty con +3. / Usa Puño Drenaje + A Bocajarro para derrotar a Skarmory",
-      "variant": []
+      "detail": "Si Slowbro usa Bostezo frente a Zoroark, entra con Volcarona, usa Danza Aleteo x1 y Gigadrenado para derrotarlo.",
+      "variant": [
+        {
+          "detail": "Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más y termina de barrer.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona retrocede, cambia a Chansey, cura a Volcarona con Max Poción y repite la ruta.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Superdiente → entra Excadrill con Trampa Rocas, 4+2. // Terremoto para derrotar a Weezing / Nidoking. // Si luego entra Ditto al final del combate, cambia a Cloyster para derrotarlo // El daño de Superdiente se reduce y no te mata, ¡NO TE ASUSTES!",
-      "variant": []
+      "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte para sacar a Volcarona.",
+      "variant": [
+        {
+          "detail": "Volcarona usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más y termina de barrer.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Pájaro Osado → usa nuevamente Truco, bloquea a Rhyperior, // Luego Excadrill +6 y +2, coloca Trampa Rocas. / Terremoto para eliminar a Gengar",
-      "variant": []
-    },
-    {
-      "detail": "Nidoqueen → entra Cloyster +6. / Elimina todo con Carámbano // Si recibe daño de Lanzallamas, confirma que es Zoroark disfrazado y ajusta la estrategia según el patrón de ataque",
-      "variant": []
-    },
-    {
-      "detail": "RHYPERIOR → entra Excadrill +6 y+2, luego coloca Trampa Rocas. / Terremoto para derrotar a Gengar",
-      "variant": []
+      "detail": "Rutas por cambio rival:",
+      "variant": [
+        {
+          "detail": "Si sale Samurott, cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Ariados, usa Encanto y Amortiguador para forzar el cambio.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Rhyperior, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte hacia Poliwrath, usa Tambor hasta +6 Ataque y Puño Drenaje. Frente a Sharpedo, usa Velocidad X para +2 Velocidad y termina de barrer.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Observa si Tangrowth acierta: si acierta, usa Teletransporte hacia Volcarona; si falla, entra con Volcarona. En ambos casos, Volcarona usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Si Volcarona cae por crítico, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

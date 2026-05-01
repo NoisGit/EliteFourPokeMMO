@@ -2,111 +2,37 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Cambia a Gengar 👻",
   "tricks": [
     {
-      "detail": "LUCARIO NO CAMBIA → Usar Truco con Chandelure para ver el movimiento.",
+      "detail": "Si usa A Bocajarro, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Pulso Umbrío → Scrafty con +5 o +3 + ATQ X",
+          "detail": "Luego cambia a Slowbro y usa Bostezo frente a Flygon.",
           "variant": []
         },
         {
-          "detail": "Triturar → Scrafty con +3. / Usar Paliza + Puño Drenaje para vencer a Steelix. (Esto es para que no llegue a rango de Baya Chiri) / Aerodactyl banda focus",
+          "detail": "Cambia a Chansey y coloca Trampa Rocas. Después vuelve a Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "DRAGONITE → Chandelure lanza un Poder Oculto (Hielo), verificar si acierta Cometa Draco.",
+      "detail": "Rutas por cambio rival:",
       "variant": [
         {
-          "detail": "Si acierta y Chandelure es debilitado → Sacar Metagross y colocar Trampa Rocas.",
-          "variant": [
-            {
-              "detail": "Scrafty → Cambiar a Poliwrath, revivir a Chandelure, usar Truco para bloquear en Triturar, luego Scrafty con +2.",
-              "variant": []
-            },
-            {
-              "detail": "Ampharos → Cambiar a Excadrill, luego a Metagross y usar Truco para bloquear en Rayo, Excadrill +4+2 (pendiente de testeo).",
-              "variant": []
-            },
-            {
-              "detail": "Hydreigon → Revivir a Chandelure, usar Truco con Chandelure para bloquear en Pulso Umbrío, luego Scrafty con +3. (priorizar Puño Drenaje, pendiente de testeo).",
-              "variant": []
-            },
-            {
-              "detail": "Dragonite no cambia → Revivir a Chandelure, cambiar entre Scrafty y Chandelure:",
-              "variant": [
-                {
-                  "detail": "Si entra Arcanine → Excadrill +4+2",
-                  "variant": []
-                },
-                {
-                  "detail": "Si entra Feraligatr → Usar Truco con Chandelure para bloquear en Cascada, luego Poliwrath +6+2.",
-                  "variant": []
-                }        
-              ]
-            }
-          ]
-        },
-        {
-          "detail": "SI ACIERTA Y NO DEBILITA → Seguir usando Poder Oculto (Hielo)",
-          "variant": [
-            {
-              "detail": "Si entra Arcanine o Electivire → Excadrill con +4+2 + Trampa Rocas",
-              "variant": []
-            },
-            {
-              "detail": "FERALIGATR → Cambiar a Metagross, usar Truco para bloquear en Cascada, luego Poliwrath +6+2+6 / No es necesario Puño Hielo.",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si Cometa Draco falla → Seguir usando Poder Oculto (Hielo) y ver quién entra.",
-          "variant": [
-            {
-              "detail": "Si entra Arcanine → Excadrill +4+2",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Feraligatr → Cambiar a Metagross, usar Truco para bloquear en Cascada, luego Poliwrath +6+2 (con +2 Defensa Especial). Si Poliwrath es dañado por un golpe crítico de Pulso Dragón, usar Raíz Grande para curarse y continuar el sweep.",
-              "variant": []
-            }      
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Contra Hydreigon → Usar Truco para bloquear en Pulso Umbrío, Scrafty con +4 y medicina de Defensa Especial. Si Chandelure cae, hacerlo con +3. // Si Scrafty es derrotado por un crítico de Lucario → Metagross usa Truco:",
-      "variant": [
-        {
-          "detail": "Si entra Ampharos → Excadrill con +4+2",
+          "detail": "Si sale Infernape, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si entra Dragonite → Poliwrath con +6 y curación con Raíz Grande, luego +2",
+          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque. Usa Puño Drenaje contra Lucario y Ampharos.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Feraligatr, sacrifica a Gengar con Bola Sombra. Luego Slowbro usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque. Usa Puño Drenaje para mantener la salud.",
           "variant": []
         }
       ]
-    },    
-    {
-      "detail": "Contra Scrafty rival → Cambiar a Metagross y usar Truco para bloquear en Triturar, luego cambiar a Excadrill.",
-      "variant": [
-        {
-          "detail": "Si Scrafty no cambia → Colocar Trampa Rocas, usar Protec. Esp, luego Poliwrath +2+2 (priorizar movimientos de alta potencia).",
-          "variant": []
-        },
-        {
-          "detail": "Contra Infernape → Cambiar a Chandelure y usar Truco para bloquear en Puño Trueno, luego Excadrill con +4+2.",
-          "variant": []
-        }
-      ]
-    },    
-    {
-      "detail": "Contra Ampharos → Usar Truco para bloquear en Rayo, luego Excadrill con +4+2, usar TRAMPA ROCAS. Terremoto derrota a Arcanine.",
-      "variant": []
     }
   ]
 }

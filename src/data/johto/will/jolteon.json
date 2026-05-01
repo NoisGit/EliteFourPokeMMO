@@ -2,19 +2,18 @@
   "id": "jolteon",
   "name": "Jolteon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO PARA BLOQUEAR EN RAYO, LUEGO CAMBIA EXCADRILL",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "NO CAMBIA: Trampa Rocas con Excadrill y 4+2",
-      "variant": []
-    },
-    {
-      "detail": "GOLURK: cambia a Chandelure, usa Truco para bloquear en Terremoto, entra Excadrill con +2 de Ataque y lanza Trampa Rocas. // Si luego entra Slowbro, cambia a Poliwrath, luego cambia a Scrafty con +2 en Defensa Especial y usa Danza Dragón (+2).",
-      "variant": []
-    },
-    {
-      "detail": "FALLA TRUCO POR PARÁLISIS: se sacrifica, entra Chandelure, usa Truco para bloquear en Rayo, luego entra Excadrill con Trampa Rocas y +2 de Ataque.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa si entra Golurk.",
+      "variant": [
+        {
+          "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad."
+        },
+        {
+          "detail": "Barre con Bola Sombra."
+        }
+      ]
     }
   ]
 }

@@ -2,6 +2,24 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Chandelure y usar Truco para bloquear en Puño Trueno, luego Excadrill con Trampa Rocas entra y se potencia con +4 en ataque y +2 en velocidad.",
-  "tricks": []
+  "initialMove": "👻 Gengar + Trampa Rocas 👻",
+  "tricks": [
+    {
+      "detail": "Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite.",
+      "variant": [
+        {
+          "detail": "Coloca Trampa Rocas frente a Infernape.",
+          "variant": []
+        },
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,21 +2,21 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE Y TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Pulso Umbrío, Scrafty usa + Defensa Especial X y sube a +4 // Si Chandelure muere, cambia el +4 por +3, luego usar Puño Drenaje + Paliza para derrotar a Dragonite // Paliza + Puño Drenaje para Lucario",
-      "variant": []
-    },
-    {
-      "detail": "Scrafty es derrotado por Lucario con un golpe crítico:",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Metagross usa Truco : Si sale Ampharos: Excadrill 4+2",
+          "detail": "Si sale Feraligatr, usa Encanto. Luego cambia a Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Dragonite: Poliwrath 6, usar Raíz Grande para curarse y luego subir +2 Velocidad",
+          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Primeape, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
           "variant": []
         }
       ]

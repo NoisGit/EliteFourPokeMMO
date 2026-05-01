@@ -2,15 +2,28 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Casco Dentado → Cloyster 6.",
-      "variant": []
-    },
-    {
-      "detail": "Cinta Elegida → Cloyster 4 + medicina de Ataque Especial. Si no usas la medicina de Sp. Atk, hay 12.5% de probabilidad de que Slowbro te reviente.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
+      "variant": [
+        {
+          "detail": "Si Steelix usa Terremoto, usa Encanto y luego Amortiguador hasta que salga Heracross.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Heracross, usa Amortiguador y luego Teletransporte para recibir A Bocajarro. Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hitmonlee, entra con Gengar y usa Bola Sombra. Cuando lo derrotes y salga Machamp, continúa con Bola Sombra, luego cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Machamp directo, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

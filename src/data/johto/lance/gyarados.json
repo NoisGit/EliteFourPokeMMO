@@ -2,19 +2,20 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Puño Trueno derrota, espera a ver qué entra 👇🏻",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Garchomp → Cambia a Chandelure para sacrificarlo, entra Metagross con Truco, bloquea con Terremoto, Cloyster +6 // Surf para debilitar a Metagross.",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross → Cambia a Chandelure y usa Truco para bloquear con Rayo, Excadrill +4+2",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar → Cambia a Cloyster +6 // Surf para debilitar a Metagross.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y usa Teletransporte hacia Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo y luego Teletransporte hacia Gengar.",
+          "variant": []
+        },
+        {
+          "detail": "Gengar usa Maquinación y ataca para barrer.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

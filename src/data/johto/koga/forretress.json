@@ -2,11 +2,16 @@
   "id": "forretress",
   "name": "Forretress",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear a Rhyperior/Nidoking",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Excadrill 4 + 2",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Samurott, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

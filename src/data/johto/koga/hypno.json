@@ -2,19 +2,16 @@
   "id": "hypno",
   "name": "Hypno",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Para encerrar a Rhydon, elige lo que prefieras.",
-      "variant": []
-    },
-    {
-      "detail": "Más Rápido → Excadrill 4+2.",
-      "variant": []
-    },
-    {
-      "detail": "Más barato → Excadrill pone Trampa Rocas, Cloyster 4.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Samurott, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

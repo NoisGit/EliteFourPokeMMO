@@ -2,11 +2,29 @@
   "id": "exeggutor",
   "name": "Exeggutor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CLOYSTER",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Bronzong, luego cambia a Poliwrath contra Empoleon, Poliwrath 6+2",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
+        },
+        {
+          "detail": "Si entra Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2."
+        }
+      ]
+    },
+    {
+      "detail": "Si Flareon se queda, derrótalo y revisa el siguiente cambio.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        },
+        {
+          "detail": "Si sale Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+        }
+      ]
     }
   ]
 }

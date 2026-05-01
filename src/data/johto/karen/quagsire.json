@@ -2,6 +2,32 @@
   "id": "quagsire",
   "name": "Quagsire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear con Terremoto, luego entra Cloyster +4. // Usa Poder Oculto (Planta) seguido de Carámbano para derrotar a Quagsire / Surf para Gengar y Houndoom, si Surf está bloqueado usar Carámbano",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, entra con Volcarona y usa Danza Aleteo x2. Volcarona aguanta Persecución de Absol; el límite extremo con crítico ronda el 50%.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
+          "variant": []
+        },
+        {
+          "detail": "Si Rhyperior se queda, usa Bostezo y, frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y Bostezo otra vez. Frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

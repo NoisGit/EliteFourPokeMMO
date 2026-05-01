@@ -2,50 +2,28 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Gengar + Trampa Rocas 👻",
   "tricks": [
     {
-      "detail": "ENVITE ÍGNEO → Truco",
+      "detail": "Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite para colocar Trampa Rocas.",
       "variant": [
         {
-          "detail": "ENVITE ÍGNEO (SEGUNDA VEZ) → Usar Truco hasta que cambie de movimiento o cambie de poke",
-          "variant": [
-            {
-              "detail": "ARCANINE NO RE RETIRA / AMPHAROS → Excadrill +2 + Trampa Rocas +Velocidad X. → Terremoto para derrotar a Arcanine",
-              "variant": []
-            },
-            {
-              "detail": "Hydreigon → cambia a Metagross para poner Trampa Rocas, luego Scrafty +2",
-              "variant": []
-            },
-            {
-              "detail": "SALAMANCE → Cambiar a Metagross para poner Trampa Rocas, luego Scrafty +2",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "VOLTIOCRUEL→ Excadrill 4+2",
+          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "FERALIGATR → Ver objeto:",
-          "variant": [
-            {
-              "detail": "VIDASFERA → Poliwrath 6+2+2 (Defensa especial) → Necesita Puño Hielo // Si recibe un golpe crítico, cura con raíz energía y sigue barriendo",
-              "variant": []
-            },
-            {
-              "detail": "PAÑ. ELEGIDO → Cambiar a Metagross para poner Trampa Rocas, luego Poliwrath 6+2",
-              "variant": []
-            }
-          ]
+          "detail": "Si sale Scizor, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Feraligatr, usa Encanto. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
         }
       ]
-    },
-    {
-      "detail": "STEELIX → Truco para encerrar en Terremoto → Cloyster +4",
-      "variant": []
     }
   ]
 }

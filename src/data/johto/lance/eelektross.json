@@ -2,11 +2,16 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE Y USA TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Bloquear Rayo, luego entra Excadrill con +6 +2.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Luego usa Teletransporte o sacrifica a Politoed.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar frente a Dragonite, usa Maquinación y barre al equipo con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,28 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "bloquea Terremoto, Cloister + 6. Carámbano para matar a Houndoom.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y cambia a Poliwrath para derrotar a Tyranitar.",
+      "variant": [
+        {
+          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados, barre hasta Houndoom e ignora la amenaza.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si vuelve Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,21 +2,17 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Gengar + Slowbro 👻",
   "tricks": [
     {
-      "detail": "Truco, Rhydon →Cloister 4. Usa Carambano para matar a Houndoom.",
-      "variant": []
-    },
-    {
-      "detail": "Ataque Sorpresa → revisa si Chandelure murió :",
+      "detail": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si murió → cambia a Scrafty y luego Metagross, contra Vileplume usa Truco para bloquear a Rhydon, luego Cloister 4. Usa Carambano para matar a Houndoom.",
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si no murió → Scrafty 4 o 2+ con Ataque. Usa Paliza para matar a Houndoom.",
+          "detail": "Cura la quemadura si ocurre antes de seguir barriendo.",
           "variant": []
         }
       ]

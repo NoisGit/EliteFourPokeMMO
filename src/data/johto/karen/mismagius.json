@@ -2,26 +2,44 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Garchomp → Cloyster +6 + Crítico. / Todo muere con Carámbano.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Mismagius se queda, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Si se mantiene, entra con Volcarona y usa Gigadrenado. Luego cambia a Chansey, usa Teletransporte hacia Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si quedas frente a Houndoom, sacrifica a Politoed y entra con Poliwrath. Usa Ataque X y empieza a barrer.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Excadrill → Cloyster +4. / Carámbano para Houndoom.",
-      "variant": []
+      "detail": "Ruta con Excadrill:",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta quedar frente a Houndoom. Luego usa Danza Aleteo una vez más y termina el combate.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 frente a Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Hydreigon → Cambia a Chandelure y usa Truco, si Hydreigon se queda o bloqueas a Houndoom, Scrafty +3. / Paliza mata a Primeape.",
-      "variant": []
-    },
-    {
-      "detail": "Bola Sombra → Scrafty +3 / Paliza mata a Primeape.",
-      "variant": []
-    },
-    {
-      "detail": "Rayo → Excadrill Trampa Rocas, +4 +2.",
+      "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

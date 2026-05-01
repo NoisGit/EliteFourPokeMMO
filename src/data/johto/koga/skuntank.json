@@ -2,11 +2,20 @@
   "id": "skuntank",
   "name": "Skuntank",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Truco, Scrafty sube defensa +3, Paliza para eliminar a Gliscor",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Lucario, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "🔔 Skuntank tiene Pañuelo Elegido. 🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

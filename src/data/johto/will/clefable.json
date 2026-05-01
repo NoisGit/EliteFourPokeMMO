@@ -1,28 +1,25 @@
 {
-    "id": "clefable",
-    "name": "Clefable",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "CAMBIA A CHANDELURE",
-    "tricks": [
-      {
-        "detail": "MOV. SÍSMICO O EL SEGUNDO CLEFABLE→ Entra Scrafty +2. / Si está envenenado, primero curar el estado. Mov. Sísmico hace siempre 100 PS de daño; si te deja con más de 100, puedes curarte con Raíz Energía y seguir potenciando.",
-        "variant": []
-      },
-      {
-        "detail": "LLAMARADA → Usar Truco para bloquear a Umbreon o a Clefable con Hierba Lazo, luego entra Scrafty +2.",
-        "variant": []
-      },
-      {
-        "detail": "Lanzallamas [Zoroark disfrazado] → Usar Truco para bloquear Pulso Noche, luego entra Scrafty +2 (Si Chandelure Murió Un Danza Dragón extra)",
-        "variant": []
-      },
-      {
-        "detail": "CLEFABLE SE QUEDA saca a Scrafty y a +2.",
-        "variant": []
-      },
-      {
-        "detail": "GOLURK → Truco para bloquear en Terremoto, Excadrill 4+2, usa Terremoto para derrotar a Drowzee.",
-        "variant": []
-      }
-    ]
-  }
+  "id": "clefable",
+  "name": "Clefable",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "🥚 Amortiguador 🥚",
+  "tricks": [
+    {
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X. Mantén Otra Vez cada vez que puedas."
+        },
+        {
+          "detail": "Si el movimiento principal no sirve contra Xatu, usa la cobertura especial dos veces."
+        },
+        {
+          "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X. Mantén Otra Vez cada vez que puedas."
+        },
+        {
+          "detail": "Si Lucario revela que es Zoroark, usa Otra Vez sobre su movimiento y entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad."
+        }
+      ]
+    }
+  ]
+}
