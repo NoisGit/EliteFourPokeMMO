@@ -2,11 +2,16 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla Luz💡",
+  "initialMove": "💡 Slowbro + Bostezo 💡",
   "tricks": [
     {
-      "detail": "Arcanine ➜ Gengar  Otra Vez ; bostezo manual +4 +2 +2 ; usar x defensa ",
-      "variant": []
+      "detail": "Cambia a Slowbro frente a Arcanine y usa Bostezo frente a Raichu.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
