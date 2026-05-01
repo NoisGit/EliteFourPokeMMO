@@ -2,20 +2,24 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "NIDOQUEEN → Cloyster +6 // Elimina todo con Carámbano",
+      "detail": "Coloca Trampa Rocas y revisa el movimiento de Skarmory.",
       "variant": [
         {
-          "detail": "Si inesperadamente recibe Lanzallamas → Confirma que es Zoroark así que revisa la Estrategia de abajo.",
+          "detail": "Si usa Pico Taladro, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
+          "variant": []
+        },
+        {
+          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado contra Zoroark. Barre hasta Electrode o Tentacruel y usa Danza Aleteo una vez más para terminar.",
+          "variant": []
+        },
+        {
+          "detail": "Si Volcarona recibe retrocesos, cambia a Chansey, cura a Volcarona con Max Poción y repite la ruta.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "LANZALLAMAS (Zoroark Disfraz) → Chandelure usa Truco para intercambiar objeto, Scrafty +3 // Puño Drenaje + A Bocajarro para eliminar Skarmory",
-      "variant": []
     }
   ]
 }
