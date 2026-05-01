@@ -2,15 +2,20 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "GASTA RECURSOS PERO RÁPIDO → Excadrill 6+2, luego pone Trampa Rocas. / Terremoto para matar a Gengar.",
-      "variant": []
-    },
-    {
-      "detail": "AHORRAR RECURSOS PERO LENTO → Excadrill hace Danza Espada una vez, luego pone Trampa Rocas, Cloyster +6.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Crobat, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Mantén Bostezo hasta que salga Gengar o Lapras.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

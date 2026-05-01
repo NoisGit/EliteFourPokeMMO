@@ -2,17 +2,13 @@
   "id": "samurott",
   "name": "Samurott",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Bloquear a Rhyhorn, elige tú.",
+      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Rápido --> Excadrill 4+2",
-          "variant": []
-        },
-        {
-          "detail": "Ahorrar --> Excadrill pone Trampa Rocas, Cloyster 4",
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

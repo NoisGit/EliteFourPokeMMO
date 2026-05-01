@@ -2,11 +2,24 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Encerrar Tierra Viva, Cloyster +4. / Último Ditto, cambia a Poliwrath y usa A Bocajarro para rematar.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Crobat, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo hasta que salga Magmortar.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed, entra con Poliwrath y usa Ataque X.",
+          "variant": []
+        },
+        {
+          "detail": "Usa Puño Drenaje contra Magmortar. Si entra Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

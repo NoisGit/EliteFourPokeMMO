@@ -2,11 +2,20 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Encerrar a Rhyperior, Excadrill 6+2 y luego poner Trampa Rocas. / Terremoto para matar a Gengar.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Crobat, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Mantén Bostezo hasta que salga Gengar o Lapras.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

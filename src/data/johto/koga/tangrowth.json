@@ -2,11 +2,24 @@
   "id": "tangrowth",
   "name": "Tangrowth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto, cambia a Cloyster +4 (Sharpedo muere con Carámbano)",
-      "variant": []
+      "detail": "Coloca Trampa Rocas, usa Teletransporte hacia Slowbro y luego Bostezo.",
+      "variant": [
+        {
+          "detail": "Observa si Tangrowth acierta su ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Tangrowth acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si Tangrowth falla, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
