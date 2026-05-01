@@ -2,23 +2,28 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Beartic ➜ cambiar a Gengar  Otra Vez ; +2 no Velocidad ",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ cambiar a Gengar Otra Vez ; +2 0 Velocidad ",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ abrir con Pantalla Luz ; Gengar  Otra Vez ; Maquinación ; permanecer con Gengar +4 0 Velocidad Serperior  a salud completa; Gengar sin amenaza  / cambiar para seguir fortaleciendo ; Curar  tras Golpe Crítico ",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ cambiar a Gengar +4 0 Velocidad  NO usar Otra Vez ; si se elimina la quemadura puede entrar Chandelure +2 +2 ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y luego a Volcarona frente a Serperior. Volcarona usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gallade, cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Usa Onda Certera contra Walrein, Dewgong o Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Beartic, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Usa Onda Certera contra Beartic, Walrein, Dewgong o Skarmory.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
