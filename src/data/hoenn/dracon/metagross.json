@@ -2,54 +2,45 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto → Ver objeto:",
+      "detail": "Coloca Trampa Rocas. Si Metagross se queda, revisa la situación.",
       "variant": [
         {
-          "detail": "Pañuelo Elegido → Excadrill 4+2",
+          "detail": "Si tiene Vidasfera y sube su Ataque, Chansey usa Teletransporte hacia Volcarona. Volcarona usa Lanzallamas. Frente a Flygon, Slowbro usa Bostezo; luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Vidasfera → Excadrill 2+2 y luego colocar Trampa Rocas",
-          "variant": []
-        },
-        {
-          "detail": "Cinta Xperto → Excadrill 4+2 y luego colocar Trampa Rocas",
+          "detail": "En otras situaciones, cambia a Slowbro y usa Bostezo.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Puño Meteoro → Usa un Puño Trueno para debilitarlo un poco, luego cambia a Chandelure y usa Lanzallamas para debilitarlo. Ver qué entra después:",
+      "detail": "Rutas por cambio rival:",
       "variant": [
         {
-          "detail": "Si entra Feraligatr → Poliwrath 6 + Raíz Grande +2, usar Carámbano para derrotar a Salamence",
+          "detail": "Si sale Lapras o Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si entra Floatzel → Cambia a Poliwrath, luego a Chandelure para usar Truco",
-          "variant": [
-            {
-              "detail": "Si hace HidroBomba → Poliwrath 6+2",
-              "variant": []
-            },
-            {
-              "detail": "Si hace Triturar → Scrafty 3, usar Carámbano para derrotar a Salamence",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Ampharos → Cambia a Scrafty, luego a Chandelure y usa Truco para bloquear en Poder Oculto (tipo Roca), luego entra Scrafty +3",
-              "variant": []
-            }
-          ]
-        }       
+          "detail": "Si sale Salamence, usa Protección y Bostezo frente a Nidoking. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Eelektross o Regice, cambia a Slowbro y usa Bostezo. Frente a Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, cambia a Gengar y usa Maquinación hasta +4. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
+          "variant": []
+        }
       ]
-    },
-    {
-      "detail": "Ampharos → Excadrill 4+2 // Si cambia a Metagross, no importa, sigue con Danza Espada",
-      "variant": []
     }
   ]
 }
