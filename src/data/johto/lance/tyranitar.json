@@ -2,6 +2,24 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Excadrill +6 +2",
-  "tricks": []
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
+    {
+      "detail": "Coloca Trampa Rocas y cambia a Poliwrath para derrotar a Tyranitar.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey y usa Amortiguador. Si los PS están bajos, usa Max Poción.",
+          "variant": []
+        },
+        {
+          "detail": "Espera a Metagross, usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
