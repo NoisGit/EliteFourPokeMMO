@@ -2,11 +2,42 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Truco, para encerrar en Triturar, Scrafty +2. Dos Palizas seguidas para matar a Gliscor.",
-      "variant": []
+      "detail": "Opción rápida:",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si Crobat pega crítico:",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Opción estable:",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar y usa Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Cambia a Slowbro y luego a Chansey para colocar Trampa Rocas.",
+          "variant": []
+        },
+        {
+          "detail": "Cuando salga Lucario, vuelve a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
