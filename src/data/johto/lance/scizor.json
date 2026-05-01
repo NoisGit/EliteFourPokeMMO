@@ -2,80 +2,28 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "SI NO SE RETIRA → Usar Lanzallamas para matar.",
+      "detail": "Coloca Trampa Rocas y evalúa el daño de Scizor.",
       "variant": [
         {
-          "detail": "Feraligatr → Seguir usando Lanzallamas y observar el resultado:",
-          "variant": [
-            {
-              "detail": "Feraligatr ataca primero y deja a Chandelure con poca vida → Cambiar a Metagross para colocar Trampa Rocas, luego entrar con Poliwrath +6 ataque y +2 velocidad.",
-              "variant": []
-            },
-            {
-              "detail": "Feraligatr ataca primero y debilita completamente a Chandelure → Sacar a Metagross y usar Truco:",
-              "variant": [
-                {
-                  "detail": "Si entra Steelix o Metagross, luego Cloyster +4.",
-                  "variant": []
-                },
-                {
-                  "detail": "Si el rival no se cambia, Excadrill +4 ataque y +2 velocidad.",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Si Feraligatr ataca después y debilita o daña a Chandelure → Cambiar a Metagross y usar Truco:",
-              "variant": [
-                {
-                  "detail": "Si entra Steelix, poner Trampa Rocas y luego Excadrill 2+2.",
-                  "variant": []
-                },
-                {
-                  "detail": "Cascada, poner Trampa Rocas y luego Poliwrath +6 ataque y +2 velocidad. // (Si entra Lapras después, no importa: ya estás completamente potenciado).",
-                  "variant": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "detail": "Haxorus → Cambiar a Cloyster, luego a Chandelure, usar Truco para bloquear con Terremoto, luego Cloyster +4.",
+          "detail": "Si el daño es cercano al 90%, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
           "variant": []
         },
         {
-          "detail": "Lapras → Cambiar a Metagross para colocar Trampa Rocas, luego Poliwrath +6 ataque y +2 velocidad.",
+          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si el daño es cercano al 60%, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si cae por crítico y no alcanzaste a colocar Trampa Rocas, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "ENTRA FERALIGATR DESPUES DE IDA Y VUELTA → Cambiar a Metagross para colocar Trampa Rocas, luego Poliwrath +6 ataque y +2 velocidad.",
-      "variant": []
-    },
-    {
-      "detail": "STEELIX → Usar Truco para bloquear con Terremoto, luego cambiar a Metagross para colocar Trampa Rocas, luego Excadrill +2 ataque y sin boost de velocidad. // (Si entra Lapras, ignorarlo: ya puedes barrer al equipo).",
-      "variant": []
-    },
-    {
-      "detail": "METAGROSS → Usar Truco y observar el objeto:",
-      "variant": [
-        {
-          "detail": "Gema Acero → luego Cloyster +4.",
-          "variant": []
-        },
-        {
-          "detail": "Casco Dentado → luego Excadrill +4 ataque sin velocidad.",
-          "variant": []
-        }
-      ]
-    },   
-    {
-      "detail": "Kangaskhan → Cloyster +4.",
-      "variant": []
     }
   ]
 }
