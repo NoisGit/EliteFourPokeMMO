@@ -2,39 +2,35 @@
   "id": "registeel",
   "name": "Registeel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Truco para observar el movimiento",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto, revisa el objeto:",
+      "detail": "Coloca Trampa Rocas. Si Registeel se queda, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez y luego cambia a Slowbro. Frente a Milotic o Swampert, usa Bostezo. Si Milotic se queda usando Escaldar, sigue usando Bostezo.",
       "variant": [
         {
-          "detail": "Restos: Scrafty +3 y usa A Bocajarro para eliminar a Milotic.",
-          "variant": []
-        },
-        {
-          "detail": "Cinta Experto: entra Excadrill +4+2",
-          "variant": []
-        },
-        {
-          "detail": "Gafas elegidas: entra Excadrill +4+2",
-          "variant": []
-        },
-        {
-          "detail": "Baya Ziuela: entra Excadrill con Trampa Rocas puesta +2+2",
+          "detail": "Si usa Poder Oculto Eléctrico, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    },    
+    },
     {
-      "detail": "Aura Sphere: cambia a Chandelure y usa Truco para bloquear a Milotic. Luego entra Poliwrath +6+2",
+      "detail": "Si sale Altaria, cambia a Chansey para atraer a Eelektross. Usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Rayo: entra Excadrill +2+2",
+      "detail": "Si sale Serperior, usa Protección y Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Movimiento Sísmico: entra Scrafty +1, usa Raíz Energía para recuperar salud y luego potenciador de ataque. Después usa a Bocajarro para eliminar a Milotic.",
+      "detail": "Si sale Gardevoir o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo contra Serperior. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
       "variant": []
     }
   ]

@@ -2,42 +2,45 @@
   "id": "togekiss",
   "name": "Togekiss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Teletransporte 💡",
   "tricks": [
     {
-      "detail": "Lanzallamas → Observa el objeto",
+      "detail": "Usa Teletransporte y revisa el daño recibido por Chansey.",
       "variant": [
         {
-          "detail": "Gafas Elegid. → Cambia a Chandelure y usa Truco. Luego envía a Poliwrath, potencia +6 Ataque y +2 Velocidad. ( Togekiss inesperadamente se queda en el combate, cambia a Metagross para sacrificarlo, y después envía nuevamente a Chandelure para usar Truco otra vez.) (No es necesario gastar Gema Hielo)",
+          "detail": "Si falla el cambio, revisa el daño. Si no hay golpe, compara con la ruta de Roserade con Vidasfera para confirmar el equipo rival.",
           "variant": []
         },
         {
-          "detail": "Restos → Puño Trueno y sacrifica",
-          "variant": [
-            {
-              "detail": "Scrafty, usa una Defensa Especial X + 3 Danza Dragón. / A Bocajarro para Milotic",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "ESFERA AURAL, cambia a Chandelure y usa Truco:",
-      "variant": [
-        {
-          "detail": "Vidasfera, sigue con Excadrill +4+2",
+          "detail": "Si el golpe a Chansey hace menos del 15%, envía a Slowbro, usa Defensa Especial X y Bostezo frente a Roserade. Luego usa Teletransporte hacia Volcarona y usa Danza Aleteo x4. Mantén los PS por encima del 70%.",
           "variant": []
         },
         {
-          "detail": "Restos, entra Poliwrath +6+2",
+          "detail": "Si el golpe a Chansey hace más del 15%, envía a Slowbro, usa Defensa Especial X y Bostezo frente a Roserade. Luego usa Teletransporte hacia Volcarona, Danza Aleteo x1 y Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "LANTURN O WHISCASH, entra Excadrill +4+2. Si cae por Escaldar inesperado, entra Poliwrath +6+2 // Usa A Bocajarro para eliminar a Milotic",
-      "variant": []
+      "detail": "Si usa Poder Oculto, revisa el daño.",
+      "variant": [
+        {
+          "detail": "Si el golpe a Chansey hace menos del 20%, Gengar usa Otra Vez. Luego cambia a Slowbro frente a Milotic y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Si es Poder Oculto Eléctrico, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Roserade, Volcarona usa Danza Aleteo x4. Antes de barrer, mantén los PS por encima del 70%.",
+          "variant": []
+        },
+        {
+          "detail": "Si el golpe a Chansey hace más del 20%, envía a Slowbro, usa Bostezo frente a Roserade y Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

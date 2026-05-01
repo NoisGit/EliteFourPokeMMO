@@ -2,14 +2,10 @@
   "id": "wailord",
   "name": "Wailord",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🐸 Poliwrath 🐸",
   "tricks": [
     {
-      "detail": "Registeel, entra Excadrill +4+2.",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto, cambia a Chandelure para enfrentarlo, utiliza Truco para bloquearlo con Terremoto y luego entra Excadrill +4+2.",
+      "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

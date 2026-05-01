@@ -2,78 +2,68 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "GAFAS ELEGIDAS, entra Poliwrath +6+2.",
+      "detail": "Usa Amortiguador y revisa el movimiento o cambio rival.",
       "variant": [
         {
-          "detail": "Gardevoir hace un golpe crítico que derrota a Poliwrath, cambia a Chandelure y usa Truco para bloquear, luego entra Scrafty +3. // Si después entra Registeel, usa A Bocajarro para eliminarlo.",
+          "detail": "Si usa Surf o Hidrobomba, usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Roserade, entra con Volcarona y usa Danza Aleteo x4.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Ludicolo o usa Rayo Hielo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Escaldar, usa Teletransporte hacia Slowbro y usa Bostezo. Si Milotic no cambia, sigue usando Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Serperior, usa Protección y Bostezo hasta que salga Lanturn. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gardevoir, Metagross, Regice, Registeel o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "CASCO DENTADO, entra Poliwrath +6+2. Usa A Bocajarro para eliminar a Walrein o Milotic",
+      "detail": "Rutas de Roserade y Empoleon:",
       "variant": [
         {
-          "detail": "Si el rival cambia a Togekiss después del Tambor, usa a Bocajarro para eliminarlo. Luego si aparece Roserade, cambia a Scrafty y observa el movimiento:",
-          "variant": [
-            {
-              "detail": "Si usa Psíquico, Scrafty +3",
-              "variant": []
-            },
-            {
-              "detail": "Si lanza Bomba Lodo, entra Excadrill +4+2",
-              "variant": []
-            }
-          ]
-        },        
-        {
-          "detail": "Si entra Gyarados tras el Tambor, cambia a Chandelure y usa Truco para bloquear Cascada.",
-          "variant": [
-            {
-              "detail": "Si Chandelure cae, cambia a Metagross, usa objeto curativo fuerte en Poliwrath, y luego entra Poliwrath +6+2",
-              "variant": []
-            },
-            {
-              "detail": "Si Chandelure sobrevive, cura a Poliwrath, cambia a Scrafty y luego a Poliwrath +6+2",
-              "variant": []
-            }
-          ]
-        }       
-      ]
-    },
-    {
-      "detail": "REGISTEEL, revisa su objeto:",
-      "variant": [
-        {
-          "detail": "Cinta Experto: entra Excadrill +4+2",
+          "detail": "Si sale Roserade, usa Teletransporte y revisa el objeto. Con Vidasfera, Volcarona usa Danza Aleteo x1 y Especial X. Sin Vidasfera, Volcarona usa Danza Aleteo x2 y Especial X. Mantén los PS por encima del 70%.",
           "variant": []
         },
         {
-          "detail": "Baya Atania: entra Excadrill con Trampa Rocas puesta +2+2",
-          "variant": []
-        },
-        {
-          "detail": "Gafas Elegidas: entra Excadrill +2+2",
+          "detail": "Si sale Empoleon, coloca Trampa Rocas para revisar el movimiento. Contra Cascada, Slowbro usa Bostezo frente a Roserade, Teletransporte hacia Volcarona y Danza Aleteo x1. Contra Terremoto, Slowbro usa Bostezo hasta Roserade y luego Volcarona usa Danza Aleteo x3.",
           "variant": []
         }
       ]
-    },    
-    {
-      "detail": "METAGROSS, usa Chandelure con Lanzallamas para debilitarlo. Luego si entra Whiscash o Milotic, entra Poliwrath +6+2. Usa A Bocajarro para derrotar a Milotic o Walrein. // Si se congela utiliza Cura Total",
-      "variant": []
     },
     {
-      "detail": "Whiscash o Lanturn, entra Excadrill +4+2. // Si recibe escaldado por sorpresa, entra Poliwrath +6+2. Usa A Bocajarro para eliminar a Milotic.",
-      "variant": []
-    },
-    {
-      "detail": "Swampert, cambia a Excadrill y luego a Chandelure. Entra Gyarados, usa Truco para bloquear Cascada. Entra Poliwrath +6+2. Usa A Bocajarro para eliminar a Milotic.",
+      "detail": "Rutas especiales:",
       "variant": [
         {
-          "detail": "Si Chandelure fue debilitado y Poliwrath tiene 75% de salud, cambia a Scrafty y luego entra Poliwrath para potenciarse.",
+          "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo frente a Serperior. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Dragonite, usa Encanto, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Whiscash, usa Encanto, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque, Raíz Grande y Velocidad X.",
+          "variant": []
+        },
+        {
+          "detail": "Si Poliwrath cae por crítico, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
           "variant": []
         }
       ]

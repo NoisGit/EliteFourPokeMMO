@@ -2,24 +2,24 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "CASCADA, entra Poliwrath +6+2. Luego, usa A Bocajarro para eliminar a Milotic",
-      "variant": []
-    },
-    {
-      "detail": "REGISTEEL, cambia a Scrafty y observa el movimiento.",
+      "detail": "Usa Amortiguador frente a Eelektross.",
       "variant": [
         {
-          "detail": "TERREMOTO, Scrafty +2; luego puedes usar Puño Drenaje seguido de Paliza para vencer a Milotic",
+          "detail": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo frente a Altaria.",
           "variant": []
         },
         {
-          "detail": "MOV. SÍSMICO, haz Scrafty +1, luego usa Raíz Energía para recuperar y aplica Medicina de Ataque. Después, usa A Bocajarro para eliminar a Milotic",
+          "detail": "Cambia a Chansey y espera a Eelektross. Usa Teletransporte hacia Slowbro y vuelve a usar Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    }    
+    }
   ]
 }

@@ -2,15 +2,24 @@
   "id": "walrein",
   "name": "Walrein",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🐸 Poliwrath 🐸",
   "tricks": [
     {
-      "detail": "Metagross, cambia a Chandelure y usa Lanzallamas para debilitarlo. Si luego entra Seaking o Milotic, entra Poliwrath +6+2 // Usa A Bocajarro para eliminar a Milotic o Dewgong. // Si Poliwrath resulta congelado, utiliza Curación Total para recuperarlo.",
-      "variant": []
-    },
-    {
-      "detail": "Milotic, entra Poliwrath +6+2 // Usa A Bocajarro para eliminar a Milotic o Dewgong.",
-      "variant": []
+      "detail": "Cambia a Politoed y sacrifícalo.",
+      "variant": [
+        {
+          "detail": "Entra con Metagross y deja que caiga para abrir paso seguro.",
+          "variant": []
+        },
+        {
+          "detail": "Luego entra con Poliwrath y usa Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Poliwrath cae por crítico, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

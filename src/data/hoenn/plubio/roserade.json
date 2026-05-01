@@ -2,27 +2,49 @@
   "id": "roserade",
   "name": "Roserade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Metagross: entra Chandelure y utiliza Lanzallamas para debilitarlo. Luego puede entrar Seaking o Milotic; en ambos casos entra Poliwrath +6+2. // Usa A Bocajarro para eliminar a Milotic o Walrein. // Si fuiste congelado, usa Cura Total.",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa el objeto y movimiento de Roserade.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera y usa Lluevehojas o Bomba Lodo, usa Teletransporte hacia Slowbro, Bostezo y luego Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si no tiene Vidasfera y usa Lluevehojas, usa Teletransporte. Si Roserade se queda, entra con Volcarona y usa Danza Aleteo x4. Mantén los PS por encima del 70%.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gardevoir o Milotic, Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si no tiene Vidasfera y usa Bomba Lodo, usa Teletransporte hacia Volcarona y debilita a Roserade. Revisa qué Pokémon entra después.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Milotic: entra Poliwrath +6+2 y usa A Bocajarro para derrotarlo",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross: cambia a Chandelure frente a Milotic, utiliza Truco para bloquear Escaldar, luego entra Poliwrath +6+2 y usa A Bocajarro para eliminar a Milotic o Dewgong",
-      "variant": []
-    },
-    {
-      "detail": "Whiscash: entra Excadrill +4+2",
-      "variant": []
-    },
-    {
-      "detail": "Poder Oculto: entra Poliwrath +6+2 y usa A Bocajarro para eliminar a Milotic",
-      "variant": []
+      "detail": "Rutas posteriores a Roserade:",
+      "variant": [
+        {
+          "detail": "Si sale Milotic, cambia a Chansey para revisar movimiento. Contra Hidrobomba o Surf, usa Teletransporte hacia Slowbro y Bostezo frente a Ludicolo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Milotic usa Escaldar, cambia a Slowbro y usa Bostezo frente a Gardevoir. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Togekiss o Gardevoir, sacrifica a Volcarona. Slowbro aguanta con Defensa Especial X y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si Poliwrath cae, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Usa Bola Sombra contra Seaking.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

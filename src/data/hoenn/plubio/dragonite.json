@@ -2,11 +2,16 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💕 Encanto 💕",
   "tricks": [
     {
-      "detail": "Bloquea Puño Fuego, luego cambia a Chandelure y vuelve a usar Truco para bloquear a Milotic o Wailord, después entra Poliwrath con +6+2.",
-      "variant": []
+      "detail": "Usa Encanto para bajar el daño de Dragonite.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,65 +2,52 @@
   "id": "lanturn",
   "name": "Lanturn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Registeel, entra Excadrill +4+2",
-      "variant": []
-    },
-    {
-      "detail": "Milotic, entra Poliwrath +6+2. Puede usar A Bocajarro para eliminar a Milotic.",
+      "detail": "Usa Amortiguador. Si Lanturn se queda, aguanta con Defensa Especial X y usa Amortiguador dos veces.",
       "variant": [
         {
-          "detail": "Si el rival cambia a Togekiss después del Tambor, usa A Bocajarro para eliminarlo. Luego si aparece Vileplume, cambia a Scrafty y observa el movimiento:",
+          "detail": "Si Lanturn sigue en campo, usa Teletransporte hacia Gengar y ataca con Bola Sombra para revisar el daño.",
           "variant": [
             {
-              "detail": "Si usa Psíquico, Scrafty +3",
+              "detail": "Si Bola Sombra hace más del 40% de daño, sacrifica a Politoed. Luego Slowbro usa Bostezo, Teletransporte y entra Poliwrath para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Si lanza Bomba Lodo, entra Excadrill +4+2",
+              "detail": "Si Bola Sombra hace menos del 35% de daño, Gengar usa Maquinación. Si Gengar no cae, derrota con Bola Sombra y reinicia la ruta con Chansey si sale Togekiss o Roserade. Si Gengar cae, entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75% antes de barrer.",
               "variant": []
             }
           ]
-        }        
+        }
       ]
     },
     {
-      "detail": "Ludicolo, entra Poliwrath +6+2.",
-      "variant": []
-    },
-    {
-      "detail": "Rayo, entra Excadrill +4+2. Luego usa Terremoto para eliminar a Ludicolo / Roserade.",
-      "variant": []
-    },
-    {
-      "detail": "Casco Dentado + Escaldar, entra Poliwrath +6+2.",
-      "variant": []
-    },
-    {
-      "detail": "Baya Ziuela + Escaldar, entra Poliwrath +6+2. Puede usar A Bocajarro para eliminar a Milotic.",
-      "variant": []
-    },
-    {
-      "detail": "Restos + Escaldar, observa si Escaldar causa quemadura o golpe crítico:",
+      "detail": "Rutas por cambio rival:",
       "variant": [
         {
-          "detail": "Si causa quemadura o crítico, entra Poliwrath +6+2.",
+          "detail": "Si sale Dragonite, usa Encanto, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si no hay quemadura ni crítico, cambia a Chandelure y observa:",
-          "variant": [
-            {
-              "detail": "Si Lanturn no se retira, entra Poliwrath +6+2",
-              "variant": []
-            },
-            {
-              "detail": "Si aparece Registeel, entra Excadrill +4+2",
-              "variant": []
-            }
-          ]
+          "detail": "Si sale Regice o Registeel, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Milotic, usa Teletransporte hacia Slowbro y Bostezo frente a Roserade. Luego entra con Volcarona y usa Danza Aleteo x4.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Empoleon, cambia a Slowbro y usa Bostezo frente a Roserade. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 70%.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gardevoir, usa Teletransporte hacia Slowbro y Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Roserade, usa Teletransporte para revisar el movimiento. Si usa movimiento de Planta, Volcarona usa Danza Aleteo x4. Si usa movimiento de Veneno, Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
         }
       ]
     }

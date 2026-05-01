@@ -2,11 +2,16 @@
   "id": "ludicolo",
   "name": "Ludicolo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Slowbro + Bostezo 💡",
   "tricks": [
     {
-      "detail": "Bloquea Hidrobomba, luego entra Poliwrath +6+2.",
-      "variant": []
+      "detail": "Usa Teletransporte hacia Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
