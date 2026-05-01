@@ -2,6 +2,20 @@
   "id": "whiscash",
   "name": "Whiscash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear Terremoto, Excadrill 4+2",
-  "tricks": []
+  "initialMove": "💡 Encanto 💡",
+  "tricks": [
+    {
+      "detail": "Usa Encanto para bajar el daño de Whiscash.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Usa Raíz Grande y Velocidad X para +2 Velocidad antes de cerrar la ruta.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
