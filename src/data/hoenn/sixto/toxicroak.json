@@ -2,15 +2,16 @@
   "id": "toxicroak",
   "name": "Toxicroak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Gengar 👻",
   "tricks": [
     {
-      "detail": "Gengar  Otra Vez  +4 no velo ; Otra Vez; ataca ",
-      "variant": []
-    },
-    {
-      "detail": "Huye hacia Mightyena ➜ cambiar a chansey ASEGURAR trampa rocas; atraer movimiento lucha ; Gengar  Otra Vez  +0 +2 ",
-      "variant": []
+      "detail": "Cambia a Gengar, usa Maquinación hasta +4 y luego usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Toxicroak tiene Banda Focus. Barre con Bola Sombra después de preparar a Gengar.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

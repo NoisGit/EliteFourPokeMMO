@@ -2,19 +2,20 @@
   "id": "tentacruel",
   "name": "Tentacruel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz 💡",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Pantalla de Luz frente a Absol ➜ cambiar a Dragonite; usar x defensa ; Danza Dragón x3 ; x ataque; curar hasta 20% ",
-      "variant": []
-    },
-    {
-      "detail": "Scizor ➜ lanzallamas scizor",
-      "variant": []
-    },
-    {
-      "detail": "Scrafty ➜ Dragonite +4 +2 ; si no hay suficiente  curar ; ante bajada de defensa , asegurar con x defensa ",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Usa Gigadrenado contra Luxray.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,31 +2,20 @@
   "id": "scrafty",
   "name": "Scrafty",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Absol ➜ cambiar a Gengar ; cambiar a Jirachi frente a Scrafty Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Salamence ➜ luego usar Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Scrafty con Puño Drenaje  ➜ Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Scizor ➜ cambiar a Chandelure para debilitarlo; frente a Absol ver instrucciones arriba",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ cambiar a Jirachi Protección frente a Salamence; Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Tentacruel ➜ cambiar a Chansey Amortiguador  frente a Absol",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Usa Gigadrenado contra Luxray.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

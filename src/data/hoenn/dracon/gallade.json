@@ -2,23 +2,24 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar💡",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Lucario ➜ cambiar a Chansey ; asegura Trampa rocas cambio a Gengar  Otra Vez  no ataque especial  +2 Velocidad ; (si no hay golpe crítico  no es amenaza",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  ➜ Gengar  Otra Vez para observar velocidad ",
-      "variant": []
-    },
-    {
-      "detail": "Gallade Pañuelo elegido  ➜ Gengar  +2 +2 );(pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Gallade Banda Focus ➜ Gengar Otra Vez  +6 +2  + Otra Vez",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa la ruta rival.",
+      "variant": [
+        {
+          "detail": "Si usa Espada Santa, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario. Gallade tiene Banda Focus.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, Gengar usa Maquinación. Cuando entre Haxorus, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez y Maquinación hasta +4. Haxorus tiene Banda Focus.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Haxorus, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez cuando sea necesario. Haxorus tiene Banda Focus.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,20 @@
   "id": "glalie",
   "name": "Glalie",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Mienshao → Gengar Otra Vez +2 no velo ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y usa Maquinación hasta +2.",
+          "variant": []
+        },
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

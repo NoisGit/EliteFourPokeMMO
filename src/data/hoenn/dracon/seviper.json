@@ -2,24 +2,20 @@
   "id": "seviper",
   "name": "Seviper",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Flygon → Metagross coloca Trampa Rocas, luego entra Cloyster con +6. Si Metagross no logra colocar las rocas, revisa la siguiente situación.",
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Si Metagross cae por un golpe crítico → entra Excadrill con +2 +2, coloca Trampa Rocas. Si mientras Danza Espada, entra Lapras; después entra Poliwrath con +6 +2. ( Lucario con Banda Focus).",
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo frente a Lapras. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gallade, cambia a Slowbro y usa Bostezo frente a Empoleon. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Krookodile → Excadrill con +4 +2 y luego coloca Trampa Rocas.",
-      "variant": []
-    },
-    {
-      "detail": "Metagross → Excadrill Trampa Rocas y 2+2.",
-      "variant": []
     }
   ]
 }

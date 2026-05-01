@@ -2,15 +2,20 @@
   "id": "honchkrow",
   "name": "Honchkrow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Roca 🪨 Jirachi Otra Vez ",
+  "initialMove": "Slowbro + Bostezo",
   "tricks": [
     {
-      "detail": "Fuerza Bruta ➜ Dragonite Danza Dragón x2 ; aguantar Golpe Crítico ; curar",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Dragonite Danza Dragón x2 ; esperar a que se bloquee solo ; antes de presionar, volver a tener más de la mitad de la vida ",
-      "variant": []
+      "detail": "Cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Honchkrow permanece, o si sale Hydreigon o Lucario, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje para mantener una buena línea de salud.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Banette, cambia a Chansey y coloca Trampa Rocas frente a Honchkrow. Luego sacrifica a Politoed y entra con Poliwrath. Usa Puño Hielo contra Honchkrow; cuando entre Hydreigon, usa Ataque X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

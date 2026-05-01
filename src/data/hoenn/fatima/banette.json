@@ -2,15 +2,20 @@
   "id": "banette",
   "name": "Banette",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨USAR TRAMPA ROCAS🪨en honchkrow mira abajo ",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Método 1 ➜ Amortiguador ; cambiar a Dragonite Danza Dragón x1; Máxima Poción ; Danza Dragón x1; antes de presionar, mantener línea de PS en 150hp si falta salud, usar medicina",
-      "variant": []
-    },
-    {
-      "detail": "Método 2 ➜ cambiar a Gengar  Otra Vez  cambiar a chansey  hacia Hydreigon; Gengar +4 no velo  usar x defensa ; Hydreigon se bloquea solo en Llamarada ; Gengar  aguantar Golpe Crítico; ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Honchkrow.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath cuando aparezca Hydreigon.",
+          "variant": []
+        },
+        {
+          "detail": "Usa Ataque X con Poliwrath y completa la ruta. Usa Puño Hielo para eliminar a Honchkrow.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

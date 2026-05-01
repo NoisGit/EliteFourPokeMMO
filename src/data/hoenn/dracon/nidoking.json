@@ -2,11 +2,20 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Bloquea en Tierra Viva, luego entra Cloyster +6 // Usa Surf para derrotar a Regirock.",
-      "variant": []
+      "detail": "Usa Amortiguador frente a Eelektross.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": []
+        },
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

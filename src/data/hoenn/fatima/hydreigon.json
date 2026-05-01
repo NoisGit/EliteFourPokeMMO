@@ -2,59 +2,28 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨trampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Honchkrow ➜ cambiar a Jirachi Otra Vez ; Dragonite Danza Dragón x2 ",
-      "variant": []
-    },
-    {
-      "detail": "Onda Certera  ➜ verificar objeto ",
-      "variant": []
-    },
-    {
-      "detail": "Vida Esfera ➜ Pantalla de Luz  + Amortiguador  para forzar el cambio del rival",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir  ➜ cambiar a Jirachi; cambiar a Dragonite Otra Vez ; Danza Dragón x3 ; Sombra Vil  Chandelure hace 52%; esperar y curar",
-      "variant": []
-    },
-    {
-      "detail": "Mawile ➜ Dragonite usar x defensa ; Danza Dragón x1; usar x ataque ; si hay poca vida usar Máxima Poción  ( Terremoto para Froslass)",
-      "variant": []
-    },
-    {
-      "detail": "Rotom Lavado  ➜ cambiar a Chansey; cambiar a Jirachi; frente a Dusknoir Dragonite Otra Vez ; Danza Dragón x3 ",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir ➜ Dragonite Otra Vez ; Danza Dragón x3 ; rezar estabilidad ; primero cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ cambiar a Gengar ",
-      "variant": []
-    },
-    {
-      "detail": "A bocajarro  ➜ cambiar a Chansey; Pantalla de Luz; Chandelure +2 +2 ; (Pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta  ➜ cambiar a Gengar ; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir  ➜ Dragonite Otra Vez ; Danza Dragón x3 ",
-      "variant": []
-    },
-    {
-      "detail": "Mawile  ➜ Dragonite usar x defensa; Danza Dragón x1; usar x ataque ; si hay poca vida usar Máxima Poción ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa el movimiento o cambio rival.",
+      "variant": [
+        {
+          "detail": "Si usa Onda Certera, usa Teletransporte. Si Hydreigon permanece, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Honchkrow, sacrifica a Politoed y entra con Poliwrath. Usa Puño Hielo contra Honchkrow; si entra Hydreigon, usa Ataque X y completa la ruta.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

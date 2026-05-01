@@ -2,27 +2,20 @@
   "id": "floatzel",
   "name": "Floatzel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Gallade ➜ cambiar a Gengar Otra Vez +6 +2  ; luego Otra Vez  Atacar +4; (notas Krookodile ; sacrificio Banda Focus para Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Feraligatr ➜ Contador ",
-      "variant": []
-    },
-    {
-      "detail": "Sceptile ➜ Jirachi Otra Vez ; cambiar a Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Ampharos ➜ Jirachi Otra Vez  frente a Salamence; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Vuelo violento  ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Gallade, cambia a Slowbro y usa Bostezo frente a Empoleon. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

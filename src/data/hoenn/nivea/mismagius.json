@@ -2,15 +2,19 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
-     {
-      "detail": "Mienshao → Gengar Otra Vez y Maquinacion, frente a Walrein o Derwgong usa Maquinacion y Pushea",
+    {
+      "detail": "Coloca Trampa Rocas frente a Mienshao y cambia a Gengar para usar Bola Sombra.",
       "variant": [
-         {
-          "detail": "Blissey → Gengar +6 (Blissey no te hara daño no te preocupes)",
+        {
+          "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo hasta que entre Mismagius. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
           "variant": []
-         }
+        },
+        {
+          "detail": "Si sale Walrein o Dewgong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        }
       ]
     }
   ]

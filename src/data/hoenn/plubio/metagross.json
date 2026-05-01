@@ -2,11 +2,16 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y utiliza Truco para bloquear con Avalancha",
+  "initialMove": "🐸 Poliwrath 🐸",
   "tricks": [
     {
-      "detail": "Luego entra Scrafty +3. // Si aparece Milotic después, usa A Bocajarro para eliminarlo. Puedes aprovechar el +2 de Puño Drenaje para recuperar PS.",
-      "variant": []
+      "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": [
+        {
+          "detail": "Si Poliwrath cae, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

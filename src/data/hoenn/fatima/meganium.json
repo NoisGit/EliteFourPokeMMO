@@ -2,39 +2,20 @@
   "id": "meganium",
   "name": "Meganium",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Arcanine ➜ Amortiguador ; Gengar Otra Vez +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Mandibuzz ➜ Rayo ; cambiar a Chansey contador atraer a Arcanine contador ; se queda arcanine; Gengar +2 +2  usando x defensa",
-      "variant": []
-    },
-    {
-      "detail": "Meganium ➜ Gallade Otra Vez  +2 +2 ; Sombra Vil hace 75%; rezar estabilidad; usar x defensa ",
-      "variant": []
-    },
-    {
-      "detail": "Mandibuzz  ➜ Espada Santa ",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ cambiar a Chandelure; cambiar a Chansey contador ; atraer a Arcanine; se queda ; Gengar +4 +2  usando x defensa",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  ➜ Gengar +4 +2  usando x defensa",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ cambiar a Gengar  Otra Vez ; debilitar; cambiar a Chansey Amortiguador ; frente a Luxray cambiar a Chansey  y luego a Gengar",
-      "variant": []
-    },
-    {
-      "detail": "Luxray ➜ Gengar Otra Vez +4 no velo ; usar x2 defensa ; ( priorizar velocidad  +2 +0 +2 )",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo frente a Raichu. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

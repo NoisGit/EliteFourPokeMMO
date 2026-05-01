@@ -2,31 +2,41 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 (Lapras Se queda Usa Amortiguador)",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lucario ➜ cambiar a Gengar  para observar movimiento ",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta ➜ Gengar (ghost) +2 0 Velocidad ; NO usar Otra Vez (pañuelo elegido)",
-      "variant": []
-    },
-    {
-      "detail": "A Bocajarro (close combat) ➜ Gengar (ghost) Otra Vez  +4 0 Velocidad  cambiar a  Altaria; continuar con Maquinación",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross / Pillar ➜ Gengar  Otra Vez  +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ cambiar a Chandelure para debilitar; frente a Flygon, cambiar a Dragonite  y luego a Jirachi Otra Vez ; Gallade +2 +2 ; (si Chandelure tiene PS bajos  puede cambiar directamente a Jirachi Otra Vez (",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus ➜ Amortiguador ; Gengar  Otra Vez  +4 no velo ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Lapras se queda, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
+          "variant": [
+            {
+              "detail": "A Bocajarro: Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
+              "variant": []
+            },
+            {
+              "detail": "Patada Salto Alta: puedes arriesgar usando Maquinación y barrer directo, aunque la ruta puede ser aleatoria contra Lapras. La ruta segura es cambiar a Slowbro, luego a Chansey y volver a Gengar.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Haxorus, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Ataca hasta que aparezca Lucario, luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario directamente, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Eelektross o Regice, cambia a Slowbro y usa Bostezo frente a Nidoking. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,139 +2,51 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA SI TIENE INTIMIDACIÓN",
+  "initialMove": "🔔 Revisa si tiene Intimidación 🔔",
   "tricks": [
     {
-      "detail": "Tiene intimidación → Cambia a Chandelure.",
+      "detail": "Si tiene Intimidación, usa Amortiguador y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Si no se retira, lanza un Poder Oculto.",
-          "variant": [
-            {
-              "detail": "Si lo derrota al 100%, observa quién entra después:",
-              "variant": [
-                {
-                  "detail": "Aggron → Excadrill coloca Trampa Rocas, luego usa Terremoto para acabarlo. Si entra Feraligatr, Poliwrath entra con +2 +2. / Prioriza el movimiento de mayor potencia. Si Excadrill es debilitado, Chandelure lo revive, se sacrifica, y luego vuelve a entrar Excadrill para rematar.",
-                  "variant": []
-                },
-                {
-                  "detail": "Regirock → Cambia a Scrafty y luego a Chandelure, usa Truco para bloquear en Roca Afilada, Scrafty entra con +2. / Usa a Bocajarro para matar a Eelektross. Se puede aprovechar el +1 con Puño Drenaje para recuperar salud.",
-                  "variant": []
-                },
-                {
-                  "detail": "Metagross → Excadrill entra con +4 +2.",
-                  "variant": []
-                },
-                {
-                  "detail": "Feraligatr → Cambia a Poliwrath y luego a Chandelure para usar Truco y bloquear en Cascada, entra Poliwrath +6 +2. Si intenta pasar Velocidad: Poliwrath entra con +6 + Raíz Grande +2.",
-                  "variant": []
-                },
-                {
-                  "detail": "Floatzel → Cambia a Poliwrath, luego a Chandelure y usa Truco.",
-                  "variant": [
-                    {
-                      "detail": "Si usa Hidrobomba, entra Poliwrath +6 +2.",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Si usa Triturar, entra Scrafty +3. / Usa Puño Drenaje para matar a Metagross.",
-                      "variant": []
-                    }        
-                  ]
-                }
-              ]
-            },
-            {
-              "detail": "Si baja al 90% aprox. → Cambia a Metagross y usa Truco para bloquear en Llamarada, entra Poliwrath +6 +2. Si por error queda bloqueado en Metagross, Chandelure lo quema con Lanzallamas, y si entra Feraligatr o Floatzel, Poliwrath +6 + Raíz Energía +2.",
-              "variant": []
-            },
-            {
-              "detail": "Si baja al 60%–73% aprox., cambia a Metagross y observa a quién enfrenta:",
-              "variant": [
-                {
-                  "detail": "Contra Empoleon → Lanza un Puño Trueno.",
-                  "variant": [
-                    {
-                      "detail": "Si entra Krokodile, Excadrill entra con Trampa Rocas +4 +2.",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Si no se retira, inflige gran daño (entra NO SE ENTIENDE), Excadrill entra con Trampa Rocas +4 +2.",
-                      "variant": []
-                    }
-                  ]
-                },
-                {
-                  "detail": "Contra Eelektross → Usa Puño Trueno, si entra Krookodile, Excadrill entra con Trampa Rocas +4 +2. Si Eelektross no se retira, sigue usando Puño Trueno.",
-                  "variant": []
-                }
-              ]
-            }   
-          ]
-        },
-        {
-          "detail": "Contra Aggron → Excadrill coloca Trampa Rocas, luego usa Terremoto para debilitar. Si luego entra Feraligatr, entra Poliwrath con +2 +2. / Prioriza el movimiento de mayor potencia. // Si Excadrill es derrotado, usa Chandelure para revivir a Excadrill, déjalo caer y vuelve a meter a Excadrill para rematar.",
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile. Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X. Mantén los PS por encima del 75%.",
           "variant": []
         },
         {
-          "detail": "Contra Krookodile → Excadrill +4 +2, luego vuelve a colocar Trampa Rocas.",
+          "detail": "Si sale Gallade, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Gallade tiene Banda Focus.",
           "variant": []
         },
         {
-          "detail": "Contra Regirock → Chandelure usa Truco para bloquear en Roca Afilada, luego entra Scrafty.",
+          "detail": "Si sale Eelektross o Regice, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
           "variant": []
         }
       ]
-    },       
-    
+    },
     {
-      "detail": "NO Tiene intimidación → Truco",
+      "detail": "Si no tiene Intimidación, coloca Trampa Rocas y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "Si usa Llamarada → Verifica el objeto:",
+          "detail": "Si sale Lucario, cambia a Gengar y revisa el movimiento.",
           "variant": [
             {
-              "detail": "Si lleva Banda Focus o Vidasfera → Chandelure usa Truco para intercambiar objeto, luego entra Cloyster +6.",
+              "detail": "A Bocajarro: Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
               "variant": []
             },
             {
-              "detail": "Si lleva Pañuelo Elegido → Cambia a Chandelure y observa el movimiento.",
-              "variant": [
-                {
-                  "detail": "Si usa Llamarada → Chandelure hace Truco para intercambiar objeto, luego Excadrill Trampa rocas con 2 +2. Si entra Lapras, entra Poliwrath +6 +2.",
-                  "variant": []
-                },
-                {
-                  "detail": "Si usa Terremoto → Excadrill entra con 2 +2. Si entra Lapras, entra Poliwrath +6 +2.",
-                  "variant": []
-                },
-                {
-                  "detail": "Si usa Garra Dragón → Excadrill toma una Medicina de Defensa, luego entra con 2 +2.",
-                  "variant": []
-                }
-              ]
-            }
-          ]
-        },     
-        {
-          "detail": "Si usa Terremoto → Revisa el objeto:",
-          "variant": [
-            {
-              "detail": "Si lleva Pañuelo Elegido → Excadrill entra con 2 +2. / Si entra Lapras, luego entra Poliwrath +6 +2. Si Excadrill es golpeado con Garra Dragón, usa Medicina de Defensa, y entra con 2 +2.",
-              "variant": []
-            },
-            {
-              "detail": "Si lleva Banda Focus o Vidasfera → Cloyster entra con +6 (Metagross no muere de carámbano Cuidado).",
+              "detail": "Patada Salto Alta: puedes arriesgar usando Maquinación y barrer directo, aunque la ruta puede ser aleatoria contra Lapras. La ruta segura es cambiar a Slowbro, luego a Chansey y volver a Gengar.",
               "variant": []
             }
           ]
-        },        
+        },
         {
-          "detail": "Contra Lucario → Chandelure usa Truco para cambiar objeto, Scrafty entra con +3. / Usa Pulso Umbrío para matar a Haxorus.",
+          "detail": "Si sale Haxorus, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Ataca hasta que aparezca Lucario. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos. Lucario tiene Pañuelo Elegido.",
           "variant": []
         },
         {
-          "detail": "Contra Metagross → Excadrill entra con +4 +2 y luego coloca Trampa Rocas.",
+          "detail": "Si sale Lucario directamente, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo frente a Lapras. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si Metagross se queda, sigue usando Bostezo.",
           "variant": []
         }
       ]

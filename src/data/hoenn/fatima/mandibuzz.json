@@ -2,11 +2,16 @@
   "id": "mandibuzz",
   "name": "Mandibuzz",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡PANTALLA LUZ💡",
+  "initialMove": "💡 Slowbro + Bostezo 💡",
   "tricks": [
     {
-      "detail": "Arcanine → Gengar Otra Vez  +4 +2",
-      "variant": []
+      "detail": "Cambia a Slowbro frente a Arcanine y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Raichu, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

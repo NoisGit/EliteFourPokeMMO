@@ -2,11 +2,47 @@
   "id": "abomasnow",
   "name": "Abomasnow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Chandelure 💡 Gallade otra Vez +4 +2 ",
+  "initialMove": "⬇️ Opciones para resolver ⬇️",
   "tricks": [
     {
-      "detail": "-.",
-      "variant": []
+      "detail": "Ruta con suerte: sacrifica a Politoed, entra con Poliwrath y usa Puño Drenaje.",
+      "variant": [
+        {
+          "detail": "Frente a Empoleon, usa Ataque X y luego barre.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta rápida: cambia a Gengar y revisa si se activa Cuerpo Maldito.",
+      "variant": [
+        {
+          "detail": "Si Cuerpo Maldito se activa, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Cuerpo Maldito no se activa, Gengar usa Otra Vez y revisa la situación.",
+          "variant": [
+            {
+              "detail": "Si Gengar cae, entra con Volcarona y usa Danza Aleteo x2.",
+              "variant": []
+            },
+            {
+              "detail": "Si Gengar sobrevive, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Ruta de ahorro: usa Encanto tres veces, luego Teletransporte hacia Volcarona.",
+      "variant": [
+        {
+          "detail": "Volcarona usa Danza Aleteo x2. Mantén los PS por encima del 70%.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

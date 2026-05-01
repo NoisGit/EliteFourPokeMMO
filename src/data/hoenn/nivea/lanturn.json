@@ -2,35 +2,40 @@
   "id": "lanturn",
   "name": "Lanturn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Mienshao ➜ Gengar  Otra Vez  +2 no velo ; cambiar a Chansey +6; completar carga ; cambiar a Walrein o Dewgong; usar x def especial  y fortalecer ",
-      "variant": []
-    },
-    {
-      "detail": "Beartic ➜ Gengar Otra Vez  +2 0 velocidad",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Gengar  Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Priorizar Velocidad ➜ +4 no velo ; frente a Walrein o Dewgong resistir daño ",
-      "variant": []
-    },
-    {
-      "detail": "Asegurar estabilidad  ➜ cambiar a Jirachi movimiento Eléctrico frente a Nido; Jirachi Otra Vez; Gallade +2+2  / Chandelure +2+2 ",
-      "variant": []
-    },
-    {
-      "detail": "Hariyama ➜ Gengar Otra Vez  +4 +2 ; Rayo  para debilitar  a Froslass; cambiar a Chansey  usar Amortiguador  para aguantar golpe fuerte",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Gengar  +4 0 Velocidad; NO usar Otra Vez ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Hariyama, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro. Luego cambia a Volcarona frente a Serperior y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y usa Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo hasta que entre Mismagius. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Walrein o Dewgong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gallade, cambia a Gengar, usa Maquinación hasta +4 y barre con Bola Sombra. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Beartic, cambia a Gengar, usa Otra Vez y Maquinación hasta +4. Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

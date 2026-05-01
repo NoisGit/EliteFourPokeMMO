@@ -2,6 +2,24 @@
   "id": "swampert",
   "name": "Swampert",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Truco para bloquear con Terremoto, luego cambia a Excadrill y después a Chandelure para enfrentar a Gyarados. Utiliza Truco nuevamente para bloquear Cascada, entra Poliwrath +6+2. // Usa A Bocajarro para eliminar a Milotic // Si Chandelure muere y Poliwrath tiene un 75% de PS, entra Scrafty, luego vuelve a cambiar a Poliwrath +6+2.",
-  "tricks": []
+  "initialMove": "🥚 Amortiguador 🥚",
+  "tricks": [
+    {
+      "detail": "Usa Amortiguador frente a Eelektross.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo frente a Altaria.",
+          "variant": []
+        },
+        {
+          "detail": "Cambia a Chansey y espera a Eelektross. Usa Teletransporte hacia Slowbro y vuelve a usar Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

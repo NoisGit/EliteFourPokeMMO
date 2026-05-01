@@ -2,11 +2,16 @@
   "id": "mightyena",
   "name": "Mightyena",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨USA TRAMPA ROCAS🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Absol ➜ Gengar Otra Vez +2 no velo ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Absol.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Gengar, usa Maquinación hasta +4 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

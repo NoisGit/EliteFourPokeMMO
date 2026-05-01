@@ -2,48 +2,64 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lanzallamas → Truco para observar el movimiento del rival.",
+      "detail": "Coloca Trampa Rocas. Si usa Fuerza Bruta, Gengar usa Otra Vez y luego cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Voltio Cruel → Se cambia a Excadrill con +6+0.",
+          "detail": "Si Milotic tiene Restos, usa Bostezo. Frente a Serperior, usa Protección y luego Bostezo otra vez. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Rayo → Se entra con Excadrill Trampa Roca con +2+2.",
+          "detail": "Si Milotic no tiene Restos, usa Bostezo. Si usa Escaldar, sigue usando Bostezo hasta forzar la ruta.",
           "variant": []
         },
         {
-          "detail": "Voltiocambio y entra Starmie → Se cambia a Metagross y se usa Truco.",
-          "variant": [
-            {
-              "detail": "Si el rival usa Hidrobomba, entra Poliwrath con +6+2. // Si luego del Tambor aparece Eelektross, se continúa con Excadrill con +2+2.",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Registeel o el rival usa Rayo, entra Excadrill con +2+2.",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Voltiocambio y entra Milotic → Entra Poliwrath con +6+2.",
+          "detail": "Si Milotic usa Poder Oculto Eléctrico, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    },   
-    {
-      "detail": "Puño Fuego → Se usa Truco para bloquear Voltio Cruel, luego entra Excadrill con +6+2.",
-      "variant": []
     },
     {
-      "detail": "Milotic → Se usa Truco para bloquear Escaldar y entra Poliwrath con +6+2. Puede usarse A Bocajarro para vencer a Sealeo o Milotic, sin necesidad de gastar Carámbano.",
-      "variant": []
+      "detail": "Rutas por cambio rival:",
+      "variant": [
+        {
+          "detail": "Si sale Serperior, usa Protección y luego Bostezo frente a Eelektross. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Altaria, usa Protección y Bostezo. Frente a Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Swampert, usa Bostezo frente a Altaria. Cambia a Chansey para atraer a Eelektross, usa Teletransporte hacia Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gardevoir, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y usa Otra Vez. Frente a Milotic, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Mienshao permite la ruta de Serperior, cambia a Slowbro y usa Bostezo contra Serperior. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, la ruta estable es cambiar a Slowbro y usar Bostezo. La ruta directa es sacrificar a Politoed y entrar con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Metagross → Se usa Truco para bloquear Avalancha, luego entra Scrafty con +3. Puede usarse A Bocajarro para vencer a Milotic, y también se puede recuperar PS usando Puño Drenaje desde +2.",
+      "detail": "Si Gengar atrapa a Eelektross en un ataque eléctrico, cambia a Chansey y usa Max Poción. Luego cambia a Slowbro y usa Bostezo frente a Altaria. Usa Chansey para atraer a Eelektross, Teletransporte hacia Slowbro, Bostezo, sacrificio de Politoed y Poliwrath con Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

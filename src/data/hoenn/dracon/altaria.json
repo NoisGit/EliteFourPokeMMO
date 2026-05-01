@@ -2,15 +2,20 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Uso de movimiento Fuego  ➜ cambiar a Chandelure; cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ cambiar a Gengar Otra Vez  +4 0 Velocidad ; cambiar a (run to) Altaria o Lapras para continuar fortaleciendo ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar y usa Maquinación hasta +4.",
+          "variant": []
+        },
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,19 +2,20 @@
   "id": "huntail",
   "name": "Huntail",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Absol ➜ cambiar a Gengar Otra Vez  +2 ataca y su cambia a   Garchomp",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ Gengar  rematalo ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Gallade +4 +2, primero asegurar x velocidad ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Ataca con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y usa Bola Sombra. Frente a Mandibuzz o Spiritomb, entra con Volcarona y usa Danza Aleteo x2. Usa Gigadrenado contra Absol.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

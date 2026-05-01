@@ -2,31 +2,49 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar Cambia a Jirachi Trampa rocas 💡",
+  "initialMove": "💡 Gengar + Slowbro 💡",
   "tricks": [
     {
-      "detail": "Mienshao permanecer  ➜ cambiar a Gengar  usar Bola Sombra ",
-      "variant": []
+      "detail": "Cambia a Gengar y luego a Slowbro para recibir Roca Afilada. Revisa el objeto y la precisión.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera, cambia a Chansey para recibir Ida y Vuelta. Coloca Trampa Rocas frente a Mienshao, cambia a Gengar y espera a que se desgaste solo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo hasta que entre Mismagius. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Walrein o Dewgong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+          "variant": []
+        },
+        {
+          "detail": "Si no tiene Vidasfera, usa Slowbro y Bostezo frente a Nidoking. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Chansey  ➜ Gengar  +4 0 Velocidad  NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Walrein ➜ Chandelure +2 +2 ; NO usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Nidoqueen ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Blissey ➜ Chandelure +2 +2  / Gengar  +4 0 Velocidad ; NO usar Otra Vez",
-      "variant": []
+      "detail": "Si no tienes precisión segura, cambia a Chansey para revisar el objeto.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera y usa Ida y Vuelta, coloca Trampa Rocas frente a Mienshao. Luego cambia a Gengar y espera a que se desgaste solo.",
+          "variant": []
+        },
+        {
+          "detail": "Si cambia a Nidoking, coloca Trampa Rocas frente a Mienshao. Luego cambia a Gengar, usa Maquinación y barre si no hay crítico en contra.",
+          "variant": []
+        },
+        {
+          "detail": "Si cambia a Mismagius, entra con Gengar y ataca hasta debilitarlo.",
+          "variant": []
+        },
+        {
+          "detail": "Contra Skarmory, Walrein o Dewgong, usa la ruta de Slowbro con Bostezo, sacrificio de Politoed y Poliwrath con Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

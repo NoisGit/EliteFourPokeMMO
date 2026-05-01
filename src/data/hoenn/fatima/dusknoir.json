@@ -2,103 +2,58 @@
   "id": "dusknoir",
   "name": "Dusknoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Mira Que Habilidad tiene 💡",
+  "initialMove": "💡 Revisa si tiene Presión 💡",
   "tricks": [
     {
-      "detail": "Presión ➜ ASEGURAR Trampa rocas ",
-      "variant": []
+      "detail": "Si tiene Presión, coloca Trampa Rocas. Si Dusknoir se queda, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
+          "variant": [
+            {
+              "detail": "A Bocajarro: Gengar usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+              "variant": []
+            },
+            {
+              "detail": "Patada Salto Alta: Gengar usa Maquinación hasta +2 y se sacrifica frente a Houndoom. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si hay quemadura, usa Restaurar Todo.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Honchkrow, sacrifica a Politoed. Poliwrath barre hasta Hydreigon, usa Ataque X y sigue barriendo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo frente a Raichu. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hydreigon, usa Teletransporte. Si Hydreigon se queda, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Honchkrow  ➜ cambiar a Jirachi Otra Vez; Dragonite Danza Dragón x2 ",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ cambiar a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "A bocajarro  ➜ Chandelure +2 +2 ; NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta  ➜ cambiar a Chansey ; cambiar a Gengar ; cambiar a Chansey Amortiguador ",
-      "variant": []
-    },
-    {
-      "detail": "Luxray ➜ Gengar  Otra Vez  +4  0 Velocidad; usar x2 defensa ",
-      "variant": []
-    },
-    {
-      "detail": "Mawile ➜ Dragonite usar x defensa; Danza Dragón x1; usar x ataque; si hay poca vida usar Máxima Poción ",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ Amortiguador ; Gengar Otra Vez  +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  ➜ Dragonite Otra Vez ; Danza Dragón x3 ; terremoto para  Froslass ",
-      "variant": []
-    },
-    {
-      "detail": "Mawile (repetido) ➜ Dragonite usar x defensa; Danza Dragón x1; usar x ataque; si hay poca vida usar Máxima Poción ",
-      "variant": []
-    },
-    {
-      "detail": "Puño Hielo  ➜ Amortiguador ; ver ruta de Se queda ?'",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Mawile ➜ cambiar a Dragonite x defensa; +1; usar x ataque; curar con cuidado; terremoto debilita a Froslass",
-      "variant": []
-    },
-    {
-      "detail": "(Niebla) ➜ abrir Pantalla de Luz ; Amortiguador  para forzar cambio del rival ; ver rutas anteriores según el Pokémon que entre",
-      "variant": []
-    },
-    {
-      "detail": "Sin Presión ➜ abrir Pantalla de Luz ; frente a Lucario cambiar a Gengar  Zoroark",
-      "variant": []
-    },
-    {
-      "detail": "A bocajarro ➜ Gengar  Otra Vez (Encore) +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Gengar fortalecido  huye hacia Dusknoir ➜ cambiar a Jirachi Otra Vez  Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Gengar fortalecido  huye hacia Dusknoir real ➜ Dragonite Otra Vez ; Danza Dragón x2",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta  ➜ Gengar Otra Vez ; tener Pantalla de Luz activa; Hydreigon golpea a Gengar pero no cae ",
-      "variant": []
-    },
-    {
-      "detail": "Gengar Pot  ➜ cambiar a Chansey ASEGURAR trampa rocas",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir Real  ➜ cambiar a Jirachi; cambiar a Dragonite Otra Vez; Danza Dragón x2 ; cambio directo a Dragonite tiene probabilidad de recibir Puño Hielo ",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Bola Sombra ; Jirachi Otra Vez ; Chandelure +2 +2 ; Bola Sombra rompe Banda Focus de Hydreigon; lanza llamas ",
-      "variant": []
-    },
-    {
-      "detail": "Se Queda  ➜ Bola Sombra ",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon (ruta alternativa) ➜ Jirachi Otra Vez ; Chandelure +2 +2 ; si Gengar cae por crítico , cambiar directo a Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Debilitar si Hydreigon entra  ➜ Bola Sombra; cambiar a Dragonite; cambiar a Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
+      "detail": "Si no tiene Presión, es Zoroark disfrazado de Dusknoir.",
+      "variant": [
+        {
+          "detail": "Coloca Trampa Rocas frente a Lucario y revisa la posición de Lucario en el equipo rival.",
+          "variant": []
+        },
+        {
+          "detail": "Lucario en posición 2 con A Bocajarro: cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Lucario en posición 3 con Patada Salto Alta: cambia a Slowbro y usa Bostezo frente al Dusknoir falso. Usa Protección y Bostezo si sale Hydreigon. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
