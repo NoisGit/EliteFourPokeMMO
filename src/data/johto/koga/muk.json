@@ -2,15 +2,20 @@
   "id": "muk",
   "name": "Muk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Puño Fuego → Truco para encerrar Puya Nociva / Sombra Vil, Excadrill 4+2.",
-      "variant": []
-    },
-    {
-      "detail": "Contra Rhydon o Rhyperior → Truco para encerrar Terremoto, Excadrill 4+2.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Samurott, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "En esta ruta no sale Ditto.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
