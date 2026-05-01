@@ -2,19 +2,41 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Slowbro + revisar objeto",
   "tricks": [
     {
-      "detail": "A BOCAJARRO → Chandelure usa Lanzallamas para debilitar o matar, entra Krookodile, luego Cloyster +4 + Especial X // Usa Carámbano para matar a Lucario.",
-      "variant": []
+      "detail": "Cambia a Slowbro y revisa si Staraptor tiene Vidasfera.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera, usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Si se queda, usa Teletransporte hacia Chansey, coloca Trampa Rocas y vuelve con Teletransporte hacia Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X. 🔔 Heracross tiene Banda Focus. 🔔",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Heracross, usa Protección, cambia a Chansey y espera a Steelix. Coloca Trampa Rocas y mantén Amortiguador hasta que vuelva a cambiar.",
+          "variant": []
+        },
+        {
+          "detail": "Si Heracross se queda, continúa usando Amortiguador.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Staraptor o Machamp, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "STEELIX → Cloyster +4 con medicina de Ataque Especial.",
-      "variant": []
-    },
-    {
-      "detail": "METAGROSS → Excadrill con Trampa Rocas y 4+2",
-      "variant": []
+      "detail": "Si Staraptor no tiene Vidasfera:",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo. Cuando salga Lucario, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS de Volcarona por encima del 17%.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
