@@ -2,89 +2,45 @@
   "id": "metagross_2",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto, revisar el objeto:",
+      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
       "variant": [
         {
-          "detail": "Refleluz → Excadrill con Trampa Rocas + 4 Atq / +2 Vel",
+          "detail": "Si Metagross se queda, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Baya Zidra → Cloyster +4",
+          "detail": "Si sale Darmanitan, puedes elegir entre ahorro con Volcarona usando Danza Aleteo x3, ruta estable con Slowbro usando Bostezo y Poliwrath con Tambor hasta +6 Ataque, o ruta RNG sacrificando a Politoed y entrando directo con Poliwrath.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando vuelva Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Machada, cambiar a Chandelure",
+      "detail": "Si sale Machamp, cambia a Gengar y revisa el ataque.",
       "variant": [
         {
-          "detail": "Golem → Usar Truco para bloquear Terremoto, luego Cloyster +4",
+          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si no se retira → Usar Lanzallamas para debilitar, entra Golem, cambiar a Metagross para sacrificarlo, luego Chandelure con Truco para bloquear Terremoto, Cloyster +4",
+          "detail": "Si usa Puño Drenaje, usa Otra Vez con Gengar. Luego cambia a Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Puño Hielo, cambiar a Chandelure",
-      "variant": [
-        {
-          "detail": "Machamp o Eelektross → Usar Truco",
-          "variant": [
-            {
-              "detail": "Roca Afilada / Avalancha o Vendetta → Scrafty +3. / Usar A Bocajarro para eliminar a Metagross",
-              "variant": []
-            },
-            {
-              "detail": "Blastoise → Poliwrath +6 Atq / +2 Vel",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Blaziken → Excadrill +4 Atq / +2 Vel",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Poder Oculto, usar directamente Chandelure + 2 Píldoras de Ataque SP. / Usar Lanzallamas para barrer el equipo",
-      "variant": []
-    },
-    {
-      "detail": "Machamp, cambiar a Chandelure",
-      "variant": [
-        {
-          "detail": "Si no se retira → Usar Bola Sombra continuamente",
-          "variant": [
-            {
-              "detail": "Blastoise → Poliwrath +6 / +2. / Si cambia a Eelektross saca a Excadrill, luego a Chandelure y usar Truco para bloquear Puño Trueno, Excadrill +4 / +2",
-              "variant": []
-            },
-            {
-              "detail": "Eelektross → Cambiar a Excadrill, luego a Chandelure con Truco para bloquear Puño Trueno, Excadrill +4 / +2. Si entra Blastoise mientras te boosteas,entonces cambia Poliwrath +6 / +2",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Gliscor → Usar Truco para bloquear Terremoto, Cloyster +6 + Medicina Defensa",
-          "variant": []
-        },
-        {
-          "detail": "Golem → Usar Truco para bloquear terremoto, Cloyster +4",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Golem → Cloyster +4",
-      "variant": []
     }
   ]
 }
