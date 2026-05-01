@@ -2,11 +2,20 @@
   "id": "golem",
   "name": "Golem",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "❤️ Encanto + 🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "bloquear Terremoto, luego Cloyster +4. // Carámbano para Machamp",
-      "variant": []
+      "detail": "Usa Encanto y coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

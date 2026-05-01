@@ -2,19 +2,16 @@
   "id": "blaziken",
   "name": "Blaziken",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE Y TRUCO",
+  "initialMove": "💡 Cambia a Gengar 💡",
   "tricks": [
     {
-      "detail": "NO SE RETIRA → Excadrill 4+2.",
-      "variant": []
-    },
-    {
-      "detail": "BLASTOISE → Poliwrath 6+2",
-      "variant": []
-    },
-    {
-      "detail": "MACHAMP → Scrafty 3. / A Bocajarro para matar a Machamp y Metagross.",
-      "variant": []
+      "detail": "Cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+      "variant": [
+        {
+          "detail": "🔔 Blaziken tiene Pañuelo Elegido. 🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

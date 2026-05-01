@@ -2,124 +2,45 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "💡 Revisa la habilidad 💡",
   "tricks": [
     {
-      "detail": "Metagross (Vidasfera) → Cambia a Chandelure",
+      "detail": "Si Salamence tiene Intimidación, usa Amortiguador y revisa qué Pokémon entra después.",
       "variant": [
         {
-          "detail": "No se retira → Bola Sombra para eliminar, observa el siguiente movimiento👇🏻",
-          "variant": [
-            {
-              "detail": "Golem → Cambia a Metagross, se sacrifica, entra Chandelure y usa Truco para bloquear Terremoto, Cloyster +4",
-              "variant": []
-            },
-            {
-              "detail": "Machamp → Cambia a Scrafty, luego a Chandelure y usa Truco para bloquear Roca Afilada, Excadrill +4+2",
-              "variant": []
-            },
-            {
-              "detail": "Muk → Excadrill +4+2",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Contra Golem / Rhyperior → Truco para bloquear Terremoto, Cloyster +4",
-          "variant": []
-        }
-      ]
-    }, 
-    {
-      "detail": "Metagross (Restos) → Cambia a Chandelure",
-      "variant": [
-        {
-          "detail": "No se retira → Llamarada para eliminar, entra Blastoise, Poliwrath +6+2",
+          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez cada vez que puedas.",
           "variant": []
         },
         {
-          "detail": "Machamp → Truco",
-          "variant": [
-            {
-              "detail": "Vendetta, Scrafty +3",
-              "variant": []
-            },
-            {
-              "detail": "Blastoise, Poliwrath +6+2",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Golem → Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "Steelix → Cloyster +6",
-      "variant": []
-    },
-    {
-      "detail": "Machamp → Cambia a Chandelure",
-      "variant": [
-        {
-          "detail": "No se retira → Truco",
-          "variant": [
-            {
-              "detail": "Blastoise, Poliwrath +6+2",
-              "variant": []
-            },
-            {
-              "detail": "Si sigue en campo, usa Lanzallamas para debilitarlo, entra Blastoise, Poliwrath +6+2",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Eelektross → Truco",
-          "variant": [
-            {
-              "detail": "Rayo, Excadrill +4+2",
-              "variant": []
-            },
-            {
-              "detail": "Blastoise, Poliwrath +6+2",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },    
-    {
-      "detail": "Terremoto → Cloyster +6 con píldora de critico",
-      "variant": []
-    },
-    {
-      "detail": "Onda Ígnea / Lanzallamas → Chandelure usa objeto para aumentar Ataque Especial 4+0 / Lanzallamas para barrer al equipo",
-      "variant": []
-    },
-    {
-      "detail": "Lanzallamas→ Revisar objeto",
-      "variant": [
-        {
-          "detail": "Vidasfera → Cambia a Chandelure y usa Truco para intercambiar objeto, Cloyster +4",
+          "detail": "Si sale Metagross, cambia a Chansey y usa Amortiguador. Si luego sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No es necesario usar Otra Vez.",
           "variant": []
         },
         {
-          "detail": "Gema Dragón → Chandelure usa Poder Oculto para eliminar, entra",
-          "variant": [
-            {
-              "detail": "Blastoise, Poliwrath +6+2",
-              "variant": []
-            },
-            {
-              "detail": "Aggron : Cloyster +4 + Especial X / Hitmontop Surf",
-              "variant": []
-            }
-          ]
+          "detail": "Si sale Blaziken directo, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No es necesario usar Otra Vez.",
+          "variant": []
         }
       ]
-    }   
+    },
+    {
+      "detail": "Si Salamence no tiene Intimidación, coloca Trampa Rocas.",
+      "variant": [
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hitmonlee, entra con Gengar y usa Bola Sombra. Si lo derrotas y sale Machamp, sigue con Bola Sombra; luego cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
+          "variant": []
+        },
+        {
+          "detail": "Si el rival cambia a Machamp, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Golem, usa Encanto y Amortiguador hasta que salga Metagross. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
   ]
 }

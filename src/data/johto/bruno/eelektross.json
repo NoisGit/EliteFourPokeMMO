@@ -2,19 +2,28 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure.",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "NO CAMBIA → Truco para bloquear Rayo, Excadrill 4+2",
-      "variant": []
-    },
-    {
-      "detail": "MACHAMP → Truco para bloquear Roca afilada, Scrafty +5 / usa Raíz Energía para curar si tienes muy poca vida (cuidado Hitmonchan puede tener ultrapuño)",
-      "variant": []
-    },
-    {
-      "detail": "TORTERRA / SWAMPERT / METAGROSS → Truco para bloquear Terremoto, Cloyster +4",
-      "variant": []
+      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. 🔔 Blaziken tiene Pañuelo Elegido. 🔔",
+          "variant": []
+        },
+        {
+          "detail": "Si quedas frente a Darmanitan, elige una ruta: ahorro con Volcarona usando Danza Aleteo x3; estable con Slowbro usando Bostezo, sacrificando a Politoed y entrando con Poliwrath para usar Tambor hasta +6 Ataque; o RNG sacrificando a Politoed y entrando directo con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,20 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Bloquear Terremoto, luego Cloyster 6 + Defensa X",
-      "variant": []
+      "detail": "Usa Amortiguador y prepara la ruta con Slowbro.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo contra Metagross.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

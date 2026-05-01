@@ -2,11 +2,20 @@
   "id": "poliwrath",
   "name": "Poliwrath",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "USA PUÑO TRUENO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Entra Krookodile: Cambia a Cloyster y Rompecoraza a +6. /Usa Carámbano para Debilitar a Lucario, Metagross.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Machamp, cambia a Gengar y usa Otra Vez. Luego cambia a Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

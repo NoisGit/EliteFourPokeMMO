@@ -2,11 +2,20 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas → Gengar 🪨",
   "tricks": [
     {
-      "detail": "Bloquear a Steelix, luego Cloyster +6.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
+        {
+          "detail": "Si Luxray se queda, usa Maquinación hasta +6. Mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Salamence, derrótalo con Bola Sombra. Cuando salga Machamp, cambia a Poliwrath y luego vuelve a Gengar. Usa Otra Vez, Maquinación hasta +6 y mantén Otra Vez cada vez que puedas para derrotar a todos con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

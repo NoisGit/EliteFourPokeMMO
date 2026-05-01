@@ -2,96 +2,121 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "💡 Gengar 💡",
   "tricks": [
     {
-      "detail": "Puño Drenaje → Usar Truco",
+      "detail": "Entra con Gengar y revisa el ataque de Machamp.",
       "variant": [
         {
-          "detail": "Roca Afilada → Excadrill 4 + 2",
+          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo.",
           "variant": []
         },
         {
-          "detail": "Corpulencia / Descanso → Cambiar a Metagross",
-          "variant": [
-            {
-              "detail": "Metagross → Truco y bloquear Terremoto, luego Cloyster +4",
-              "variant": []
-            },
-            {
-              "detail": "Darmanitan → Cambiar a Chandelure:",
-              "variant": [
-                {
-                  "detail": "Opción Rápida: Usar Chandelure con +4 en Ataque Especial, luego Truco para intercambiar objeto // Barrer con Lanzallamas",
-                  "variant": []
-                },
-                {
-                  "detail": "Ahorra Recursos: Usar Truco dos veces, bloquear con Avalancha // Scrafty +3",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Machamp no se retira → Truco para bloquear Quagsire / Torterra / Metagross / Seismitoad , Cloyster +4",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Puño Drenaje → Usar Lanzallamas // Si Machamp no se retira o aparece Torterra, seguir usando Lanzallamas",
-          "variant": [
-            {
-              "detail": "Entra Darmanitan → Excadrill 4 + 0 // Si darmanitan recupera salud cambia a Chandelure +4 + 0 y utiliza Truco 1 vez // Lanzallamas para barrer",
-              "variant": []
-            },
-            {
-              "detail": "Entra Quagsire / Seismitoad → Cambiar a Cloyster y luego a Metagross con Truco, bloquear Terremoto, Cloyster +4",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Vendetta→ Excadrill pone Trampa Rocas, luego cambiar a Scrafty y después a Metagross // Si aparece Volcarona, usar Puño Trueno (si entra Steelix), Cloyster +2 + Medicina Especial",
+          "detail": "Si usa Vendetta, usa Bostezo. Cuando salga Metagross o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Quagsire / Torterra / Seismitoad → Cloyster +4",
+          "detail": "Si usa Roca Afilada, usa Bostezo.",
           "variant": []
         },
         {
-          "detail": "Darmanitan → Scrafty +3",
+          "detail": "Si usa Puño Hielo, usa Bostezo frente a Metagross. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Puño Dinámico → Truco y revisar el objeto",
+      "detail": "Ruta con Salamence sin Intimidación:",
       "variant": [
         {
-          "detail": "Baya Atania → Scrafty +3 (A Bocajarro mata a Hitmontop) // Te puedes curar con Puño Drenaje si estás +2",
+          "detail": "Cambia a Chansey y coloca Trampa Rocas. Frente a Hitmonlee, entra con Gengar y usa Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Restos → Scrafty usa medicina de Defensa y boostea a +3 (puede curarse con Puño Drenaje si está +2) // A Bocajarro para matara a Machamp o 2 Puño Drenaje si quieres curarte",
+          "detail": "Si el rival saca Machamp, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez y Maquinación hasta +4.",
           "variant": []
         },
         {
-          "detail": "Blastoise → Poliwrath +6 +2",
+          "detail": "Gengar tiene una probabilidad baja de debilitar a Steelix. Si Gengar cae, entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Krookodile → Cloyster +4 + Especial X // Carámbano para Lucario",
-      "variant": []
+      "detail": "Ruta por Patada Salto Alta o si Hitmonlee huye frente a Machamp:",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y luego a Chansey frente a Luxray. Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Golem → Truco y bloquear Terremoto → Cloyster +4",
-      "variant": []
+      "detail": "Rutas por cambios del rival:",
+      "variant": [
+        {
+          "detail": "Si sale Eelektross, usa Encanto con Chansey. Frente a Aggron usa Amortiguador; cuando vuelva Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Eelektross o Torterra, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "STEELIX → Cloyster +4 + Medicina Especial // Si no usas medicina especial, hay un 12.5% de probabilidad de ser derrotado de un golpe HERACROSS Tiene Banda Focus usar Carámbano",
-      "variant": []
+      "detail": "Si Machamp usa Puño Drenaje con Llamaesfera:",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
+          "variant": []
+        },
+        {
+          "detail": "Si se queda, derrótalo. Si sale Steelix, cambia a Slowbro y usa Bostezo. Si se queda, usa Protección y luego Bostezo otra vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Heracross, cambia a Chansey y luego a Gengar. Usa Maquinación hasta +4 y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Si Heracross cambia a Steelix, coloca Trampa Rocas con Chansey.",
+          "variant": []
+        },
+        {
+          "detail": "Si Machamp vuelve, cambia a Gengar y luego a Chansey. Frente a Staraptor, entra con Gengar, usa Maquinación hasta +2 y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Staraptor, cambia a Slowbro. Si después sale Lucario, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross y luego Lucario, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si Machamp usa Puño Drenaje sin Llamaesfera:",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Golem, usa Teletransporte hacia Chansey y coloca Trampa Rocas. Si luego sale Metagross, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Derrótalo; cuando salga Golem, usa otra Maquinación y sigue barriendo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Eelektross o Torterra, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

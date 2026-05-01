@@ -2,6 +2,16 @@
   "id": "hitmonchan",
   "name": "Hitmonchan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure y usa Truco para bloquear Roca Afilada, Scrafty +3 / A Bocajarro para eliminar Machamp. // Si Chandelure cae, ajusta a Scrafty +4 o también puede boostear a +2 + objeto Ataque X. (Depende de si lo quieres hacer rápido o quieres ahorrar)",
-  "tricks": []
+  "initialMove": "Slowbro + Bostezo",
+  "tricks": [
+    {
+      "detail": "Cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
