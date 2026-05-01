@@ -2,11 +2,20 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CLOISTER",
+  "initialMove": "❤️ Encanto ❤️",
   "tricks": [
     {
-      "detail": "Aggron: Cloyster usa Rompecoraza + 4 + Especial X. // Usa Surf para matar a Hitmontop / Machamp.",
-      "variant": []
+      "detail": "Usa Encanto y toma una Max Poción.",
+      "variant": [
+        {
+          "detail": "Luego usa Amortiguador contra Machamp.",
+          "variant": []
+        },
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
