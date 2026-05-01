@@ -2,15 +2,30 @@
   "id": "shiftry",
   "name": "Shiftry",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampasRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Aggron ➜ cambiar a Jirachi; cambiar a Dragonite Otra Vez ; Danza Dragón x2 ",
-      "variant": []
-    },
-    {
-      "detail": "Absol (pañuelo elegido) ➜ Chandelure +2 +2 ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si entra Absol, cambia a Gengar, usa Maquinación hasta +4 y barre con Bola Sombra. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si entra Aggron, sacrifica a Politoed y entra con Poliwrath para derrotarlo.",
+          "variant": [
+            {
+              "detail": "Si luego entra Shiftry, cambia a Volcarona, usa Danza Aleteo x2 y Lanzallamas contra Shiftry. Contra el resto de plantas, usa Psíquico. Mantén los PS por encima del 23%.",
+              "variant": [
+                {
+                  "detail": "Si entra Hariyama, Poliwrath usa Ataque X y ataca. Usa Cascada contra Hariyama.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
