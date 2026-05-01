@@ -2,23 +2,20 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar otra vez para que se muera ",
+  "initialMove": "👻 Gengar 👻",
   "tricks": [
     {
-      "detail": "Excadrill ➜ Chansey  ASEGURAR Trampa rocas  quedarse y usar Amortiguador ",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ cambiar a Gengar ; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Si Persecución  debilita a Gengar  ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
+      "detail": "Cambia a Gengar y derrota a Mienshao con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Frente a Mandibuzz o Spiritomb, cambia a Chansey y coloca Trampa Rocas.",
+          "variant": []
+        },
+        {
+          "detail": "Frente a Absol, entra con Volcarona, usa Danza Aleteo x2 y Gigadrenado contra Absol.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

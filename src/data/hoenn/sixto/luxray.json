@@ -2,43 +2,37 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨",
+  "initialMove": "🔔 Revisa la habilidad 🔔",
   "tricks": [
     {
-      "detail": "Intimidación : Frente a Absol ➜ cambiar a Gengar  Otra Vez ; revisar objeto",
-      "variant": []
+      "detail": "Si tiene Intimidación, usa Amortiguador y revisa la ruta rival.",
+      "variant": [
+        {
+          "detail": "Si usa Fuerza Bruta, coloca Trampa Rocas. Frente a Absol, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Usa Gigadrenado contra Luxray.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Absol Pañuelo elegido  ➜ cambiar a Gengar; cambiar a Dragonite frente a Scrafty Danza Dragón x2  + x ataque ",
-      "variant": []
-    },
-    {
-      "detail": "Absol con Mal de Ojo  ➜ Gengar +4 no velo y atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Gengar ; cambiar a Dragonite; cambiar a Jirachi Otra Vez ; Dragonite Danza Dragón x2 ; probar grado de fuerza ; rezar por estabilidad +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Scrafty ➜ Chansey ; cambiar a Chandelure frente a Scizor para eliminarlo ; cambiar a chansey Amortiguador  frente a Absol; cambiar a Gengar; cambiar a Dragonite ante Scrafty Danza Dragón x2 + Atk X",
-      "variant": []
-    },
-    {
-      "detail": "Vidasfera  con Fuerza Bruta  ➜ cambiar a Gengar Otra Vez ; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Otra Vez ; Dragonite Danza Dragón x2 ",
-      "variant": []
-    },
-    {
-      "detail": "Scizor ➜ lanzallamas frente a Tentacruel; cambiar a chansey Amortiguador  frente a Absol; cambiar a Gengar; cambiar a Dragonite ante Scrafty Danza Dragón x2 + Atk X",
-      "variant": []
-    },
-    {
-      "detail": "Sin Intimidación  ➜ Gengar  Otra Vez  +2 no velo ; atacar",
-      "variant": []
+      "detail": "Si no tiene Intimidación, elige una ruta para resolver.",
+      "variant": [
+        {
+          "detail": "Ruta segura: coloca Trampa Rocas, entra con Gengar, usa Otra Vez y Maquinación hasta +2 para derrotar a Luxray. Frente a Absol, pasa por Chansey y vuelve a Gengar con Otra Vez y Maquinación hasta +2.",
+          "variant": []
+        },
+        {
+          "detail": "Ruta alternativa: cambia a Slowbro y usa Bostezo frente a Gyarados. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
