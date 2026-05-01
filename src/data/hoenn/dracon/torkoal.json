@@ -2,19 +2,20 @@
   "id": "torkoal",
   "name": "Torkoal",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A JIRACHI",
+  "initialMove": "💡 Encanto 💡",
   "tricks": [
     {
-      "detail": "Gallade → Gengar +2 (No Otra Vez)",
+      "detail": "Usa Encanto. Si quieres arriesgar, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
-    }, 
+    },
     {
-      "detail": "Fuerza Bruta → Chandelure 2+2",
-      "variant": []
-    },  
-    {
-      "detail": "Salamence → Otra Vez y Saca a chandelure 2+2",
-      "variant": []
+      "detail": "Si usa Fuerza Bruta, usa Amortiguador y espera a Gallade o Roserade.",
+      "variant": [
+        {
+          "detail": "Frente a Gallade, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
