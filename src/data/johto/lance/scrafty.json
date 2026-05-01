@@ -2,28 +2,20 @@
   "id": "scrafty",
   "name": "Scrafty",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Dragonite → Colocar Trampa Rocas, dejarlo debilitar para que Poliwrath recupere todos los PS, luego entra con +2 en Ataque y +2 en Velocidad; prioriza siempre los movimientos de mayor potencia. // Si Poliwrath ha sido quemado, usar Cura Total para eliminar el estado y evitar el daño de habilidades de prioridad.",
-      "variant": []
-    },
-    {
-      "detail": "Triturar → Cambiar a Excadrill.",
+      "detail": "Coloca Trampa Rocas frente a Primeape.",
       "variant": [
         {
-          "detail": "Scrafty no se retira → Colocar Trampa Rocas, usar Protec. Esp., luego entra Poliwrath con +2 en Ataque y +2 en Velocidad; prioriza siempre movimientos de mayor potencia, se requiere la Gema Hielo para asegurar el KO.",
+          "detail": "Luego cambia a Slowbro y usa Bostezo frente a Electivire.",
           "variant": []
         },
         {
-          "detail": "Contra Infernape → Cambiar a Chandelure, usar Truco para bloquear Puño Trueno, luego entra Excadrill, +4 +2 Trampa Rocas",
+          "detail": "Entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Puño Drenaje → Cambiar a Chandelure, usar Truco para bloquear Puño Trueno, luego entra Excadrill a completar +4 +2 Trampa Rocas",
-      "variant": []
     }
   ]
 }
