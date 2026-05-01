@@ -2,15 +2,24 @@
   "id": "ferrothorn",
   "name": "Ferrothorn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Nidoking → Cloyster +4, último Ditto, cambia a Poliwrath para rematar.",
-      "variant": []
-    },
-    {
-      "detail": "Swalot → Chandelure usa Truco para cambiar objeto, Excadrill 4+2, Terremoto para matar a Nidoking, si rompe el globo sigue barriendo, cuando salga Ditto cambia a Cloyster para rematar.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si sale Crobat, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Mantén Bostezo hasta tener a Magmortar enfrente.",
+          "variant": []
+        },
+        {
+          "detail": "Sacrifica a Politoed, entra con Poliwrath, usa Ataque X y empieza a barrer.",
+          "variant": []
+        },
+        {
+          "detail": "Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
