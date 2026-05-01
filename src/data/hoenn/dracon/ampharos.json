@@ -2,31 +2,33 @@
   "id": "ampharos",
   "name": "Ampharos",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Feraligatr ➜ contador ; verificar quién entra después",
-      "variant": []
-    },
-    {
-      "detail": "Salamence / Sceptile ➜ cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus ➜ Amortiguador ; cambiar a Gengar  Otra Vez ; +4  +2 ; si baja la defensa  permanecer; ( usar Banda Focus  contra Haxorus)",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ cambiar a Gengar ",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta  ➜ Gengar x especial +2 Velocidad ; NO usar Otra Vez ; si no hay golpe crítico  no es amenaza; mantener estabilidad y usar X Velocidad",
-      "variant": []
-    },
-    {
-      "detail": "A Bocajarro  ➜ Gengar  Otra Vez  +4 0 Velocidad ; cambiar a  Ampharos / Altaria; luego usar Maquinación  una vez",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Haxorus, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Ataca hasta que aparezca Lucario. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
+          "variant": [
+            {
+              "detail": "Patada Salto Alta: puedes arriesgar usando Maquinación y barrer directo, o jugar seguro cambiando a Slowbro, luego a Chansey y volver a Gengar.",
+              "variant": []
+            },
+            {
+              "detail": "A Bocajarro: Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
