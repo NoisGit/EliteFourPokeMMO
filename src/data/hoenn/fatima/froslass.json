@@ -2,11 +2,24 @@
   "id": "froslass",
   "name": "Froslass",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz💡",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Mawile ➜ Dragonite usar x defensa; Danza Dragón x1 ; usar x ataque ; si tiene poca vida  usar Máxima Poción ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Froslass se queda, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hydreigon, usa Teletransporte. Si Hydreigon permanece, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si vuelve Mawile, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
