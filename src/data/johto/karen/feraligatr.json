@@ -2,19 +2,20 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "❤️ Encanto ❤️",
   "tricks": [
     {
-      "detail": "GARCHOMP → Cloyster +6 + crítico. / Todo muere con Carámbano.",
-      "variant": []
-    },
-    {
-      "detail": "RHYDON → Cloyster +4. Usa Carámbano para matar a Houndoom.",
-      "variant": []
-    },
-    {
-      "detail": "CASCADA → Cloyster sube defensa +4 Especial X Si no temes al crítico, puedes no usar Especial X",
-      "variant": []
+      "detail": "Usa Encanto y revisa el daño recibido.",
+      "variant": [
+        {
+          "detail": "Si el daño es menor a 36%, coloca Trampa Rocas. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si el daño es mayor a 39%, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Cura la quemadura si ocurre.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

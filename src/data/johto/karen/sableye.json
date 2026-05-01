@@ -2,15 +2,28 @@
   "id": "sableye",
   "name": "Sableye",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Rhyperior, Cloyster +4",
-      "variant": []
-    },
-    {
-      "detail": "Pulso Umbrío → cambio a Chandelure contra Rhyperior, Truco bloquea Terremoto, Cloister +4. Dusclops no se va, entra Scrafty +2. / A Bocajarro mata a Rhyperior, a Dusclops hay que pegarle dos veces.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Sableye se queda, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
+          "variant": []
+        },
+        {
+          "detail": "Si Rhyperior se queda, usa Bostezo y, frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y otro Bostezo más. Frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

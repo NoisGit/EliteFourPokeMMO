@@ -2,11 +2,20 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA CHANDELURE",
+  "initialMove": "👻 Gengar + Slowbro 👻",
   "tricks": [
     {
-      "detail": "Cambiar a Chandelure y usar Bola Sombra; si entra Hydreigon, entrar con Scrafty +3. // Paliza para matar a Primeape (Banda Focus)",
-      "variant": []
+      "detail": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si el crítico de Typhlosion debilita a Poliwrath, entra con Gengar, usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

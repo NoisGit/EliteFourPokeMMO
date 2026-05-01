@@ -2,15 +2,20 @@
   "id": "electrode",
   "name": "Electrode",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Garchomp → entra Cloister +6 +Pildora Directo. / Si no, todo con ataques de Carámbano. Puede salir Feraligatr pero no hay peligro.",
-      "variant": []
-    },
-    {
-      "detail": "Rayo → entra Excadrill, pone Trampa Rocas 4+2. Si viene Garchomp, cambio a Chandelure y uso Truco, lo dejo bloqueado en Terremoto. Luego entra Cloister +6 +Pildora Directo. / Si no, barre con Carámbano.",
-      "variant": []
+      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro para usar Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Slowbro está paralizado y no puede usar Bostezo, cambia a Chansey, recupera vida al máximo y repite la operación.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,20 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Scrafty +3 // 2 Paliza derrotan a Garchomp (Si usas Puño Drenaje te harás daño)",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Umbreon usa Juego Sucio y se queda, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si entra Houndoom, sacrifica a Politoed y entra con Poliwrath. Usa Ataque X y empieza a barrer.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

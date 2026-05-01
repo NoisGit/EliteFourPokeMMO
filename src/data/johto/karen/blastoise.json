@@ -2,15 +2,20 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Bloquear a SEISMITOAD, luego Cloyster +4. Dos Poder Oculto para matar a Seismitoad. / Metagross Surf",
-      "variant": []
-    },
-    {
-      "detail": "Bloquear a QUAGSIRE, luego Cloyster +6. / Carámbano para Houndoom y Absol / Surf para Gengar",
-      "variant": []
+      "detail": "Coloca Trampa Rocas frente a Absol y entra con Volcarona.",
+      "variant": [
+        {
+          "detail": "Volcarona usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Usa Gigadrenado contra Absol. Frente a Houndoom no hay amenaza importante.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

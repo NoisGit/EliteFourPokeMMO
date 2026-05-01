@@ -2,24 +2,24 @@
   "id": "weavile",
   "name": "Weavile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO // SI TRUCO FALLA (POR RETROCESO), SEGUIR USANDO TRUCO",
+  "initialMove": "🥚 Amortiguador + 🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Carámbano, Patada Baja o Golpe Bajo → Cambiar a Chandelure.",
+      "detail": "Usa Amortiguador para recibir el golpe de hielo. Luego coloca Trampa Rocas frente a Excadrill.",
       "variant": [
         {
-          "detail": "Si aún no se retira → Usar Truco para intercambiar el objeto, luego sacar a Scrafty +4 o +2 con medicina de ataque. / Paliza o derrota al Houndoom.",
+          "detail": "Usa Teletransporte y envía a Slowbro para usar Bostezo.",
           "variant": []
         },
         {
-          "detail": "Excadrill → Usar Truco para bloquear con Terremoto, luego Cloyster +6. / Carámbano mata a Houndoom.",
+          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y barre hasta Houndoom. Luego usa Danza Aleteo una vez más y termina el combate.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 frente a Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "EXCADRILL → Cloyster +4. / Carámbano mata a Houndoom.",
-      "variant": []
     }
   ]
 }

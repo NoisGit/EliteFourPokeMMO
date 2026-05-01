@@ -2,24 +2,20 @@
   "id": "honchkrow",
   "name": "Honchkrow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "Slowbro + Bostezo",
   "tricks": [
     {
-      "detail": "FUERZA BRUTA → cambia a Chandelure.",
+      "detail": "Cambia a Slowbro y usa Bostezo frente a Houndoom.",
       "variant": [
         {
-          "detail": "NO SE VA → Truco para bloquear a Rhydon, luego Cloyster +4. // Usa Carámbano para matar a Houndoom.",
+          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "RHYPERIOR → Truco para bloquear Terremoto, luego Cloister 4. // Usa Carámbano para matar a Houndoom.",
+          "detail": "Cura la quemadura si ocurre antes de seguir barriendo.",
           "variant": []
         }
       ]
-    },   
-    {
-      "detail": "RHYPERIOR → Cloyster +6. Usa Carámbano para matar a Houndoom.",
-      "variant": []
     }
   ]
 }

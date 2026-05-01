@@ -2,11 +2,32 @@
   "id": "rhyperior",
   "name": "Rhyperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRUCO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Bloquea Terremoto, Cloyster +4. Usa Carámbano para matar a Houndoom y Gallade",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Rhyperior se queda, usa Encanto y cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Si Rhyperior se queda, usa Bostezo y, frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y otro Bostezo más. Frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Honchkrow, Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gallade o Roserade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

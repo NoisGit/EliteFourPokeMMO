@@ -2,15 +2,16 @@
   "id": "primeape",
   "name": "Primeape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Gengar 👻",
   "tricks": [
     {
-      "detail": "Frente a Hydreigon, saco a Scrafty +3. / Paliza para Primeape",
-      "variant": []
-    },
-    {
-      "detail": "No se va, usó Truco para bloquearlo en Garra Umbría, saca a Scrafty +3",
-      "variant": []
+      "detail": "Cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": [
+        {
+          "detail": "🔔 Primeape tiene Banda Focus. 🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }
