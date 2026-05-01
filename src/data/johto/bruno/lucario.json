@@ -2,15 +2,20 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "NO SE VA → Usar Truco para bloquear Pulso Umbrío o Bola Sombra, luego entra Scrafty con +4; también puedes usar A Bocajarro para eliminar a Poliwrath o Metagross",
-      "variant": []
-    },
-    {
-      "detail": "KROOKODILE→ Cloyster entra con +4 y usa Medicina Especial X para potenciar el ataque, también puedes usar Carámbano para eliminar a Lucario si entra en relevo",
-      "variant": []
+      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "variant": [
+        {
+          "detail": "Si sale Machamp, cambia a Gengar y usa Otra Vez. Luego cambia a Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
