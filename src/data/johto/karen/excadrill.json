@@ -2,17 +2,46 @@
   "id": "excadrill",
   "name": "Excadrill",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA SI TIENE GLOBO HELIO",
+  "initialMove": "💡 Observa qué objeto tiene 💡",
   "tricks": [
     {
-      "detail": "NO TIENE GLOBO HELIO, Truco para encerrar en Terremoto, Cloyster +4 (Houndoom muere de carámbano)",
-      "variant": []
-    },
-    {
-      "detail": "SI TIENE GLOBO HELIO, cambia a Cloyster e inmediatamente cambia a Chandelure, usa Truco para encerrar en Terremoto para así sacar a Cloyster y boostear +6",
+      "detail": "Si tiene Globo Helio:",
       "variant": [
         {
-          "detail": "Chandelure podría morir de un crítico de Avalancha, si esto llega a pasar haz lo siguiente) - Saca a Metagross para revivir a Chandelure y sacrifica al Metagross, Chandelure usa Truco, saca a Cloyster +6",
+          "detail": "Usa Encanto y coloca Trampa Rocas. Si Excadrill se queda, usa Amortiguador. Frente a Tyranitar, cambia a Poliwrath para derrotarlo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados, barre hasta Houndoom e ignora la amenaza.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si vuelve Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si vuelve Excadrill, sigue usando Gigadrenado hasta derrotarlo.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si no tiene Globo Helio:",
+      "variant": [
+        {
+          "detail": "Usa Encanto y coloca Trampa Rocas. Mantén Amortiguador hasta que el rival cambie.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Slowbro rival, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez cuando sea necesario.",
+          "variant": []
+        },
+        {
+          "detail": "Si Excadrill entra mientras intentas boostearte, cambia a Slowbro y luego a Chansey. Usa Encanto, vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
