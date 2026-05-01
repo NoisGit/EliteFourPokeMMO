@@ -2,11 +2,24 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡PantallaLuz Amortiguador 💡 ",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Politoed  ➜ Dragonite usar x defensa ; Danza Dragón x1  usar x ataque ; si los PS son bajos , usar Máxima Poción ",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si Umbreon se queda, usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hydreigon, usa Teletransporte. Si Hydreigon permanece, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si vuelve Mawile, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
