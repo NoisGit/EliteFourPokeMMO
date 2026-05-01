@@ -14,13 +14,22 @@ interface TrickItemProps {
 export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
   const variants = trick.variant || []
   const hasVariants = variants.length > 0
-  const [isExpanded, setIsExpanded] = useState(level === 0)
+  const [isExpanded, setIsExpanded] = useState(false)
   const strategyText = formatStrategyText(
     translateStrategyText(translateFullStrategyText(trick.detail, language), language),
   )
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded)
+  }
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (!hasVariants) return
+
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault()
+      toggleExpand()
+    }
   }
 
   return (
@@ -33,6 +42,10 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
         }`}
         style={{ marginLeft: `${level * 0.85}rem` }}
         onClick={hasVariants ? toggleExpand : undefined}
+        onKeyDown={handleKeyDown}
+        role={hasVariants ? 'button' : undefined}
+        tabIndex={hasVariants ? 0 : undefined}
+        aria-expanded={hasVariants ? isExpanded : undefined}
       >
         <div className="flex items-start gap-3">
           {hasVariants ? (
