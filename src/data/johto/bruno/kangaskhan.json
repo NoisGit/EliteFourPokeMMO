@@ -2,11 +2,16 @@
   "id": "kangaskhan",
   "name": "Kangaskhan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "PUÑO TRUENO",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "STEELIX → Cloyster +4 + Especial X / Carámbano para Heracross",
-      "variant": []
+      "detail": "Coloca Trampa Rocas. Si quedas frente a Heracross, usa Amortiguador y luego Teletransporte para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. 🔔 Heracross tiene Banda Focus. 🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }
