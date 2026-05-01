@@ -2,51 +2,112 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "💡 Cambia a Slowbro 💡",
   "tricks": [
     {
-      "detail": "Sin Vidasfera  ➜ cambiar a Gengar  Otra Vez  +4 +2 ; (contra Gengar veloz, ver abajo)",
-      "variant": []
+      "detail": "Si Absol tiene Vidasfera, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si usa Tajo Umbrío, cambia a Chansey y usa Encanto frente a Garchomp. Luego coloca Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Magnezone. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Electivire o Toxicroak.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, cambia a Chansey y coloca Trampa Rocas.",
+          "variant": [
+            {
+              "detail": "Si luego sale Absol, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Barre con Bola Sombra.",
+              "variant": []
+            },
+            {
+              "detail": "Si luego sale Luxray, cambia a Gengar, usa Otra Vez y Maquinación hasta +4. Barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Excadrill sin Globo Helio  al azar ➜ rezar por estabilidad , ver abajo",
-      "variant": []
-    },
-    {
-      "detail": "Fortalecerse y huir hacia Excadrill ➜ cambiar a Dragonite, cambiar a Jirachi Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Globo Helio  ➜ Galladee +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Sin Globo Helio  ➜ Dragonite +2 )",
-      "variant": []
-    },
-    {
-      "detail": "Absol Pañuelo elegido  ➜ Dragonite aguanta x Defensa Danza Dragón x3 / Gengar  +6 +0 +2  (querer hacer daño);( Gengar +6 al azar, para matar a  (crafty)",
-      "variant": []
-    },
-    {
-      "detail": "Cambiar Gengar  ante Hariyama ➜ cambiar a huevo, cambiar a Gengar Otra Vez; frente a Aggron puede aguantar mucho, cambiar a Dragonite Otra Vez , Danza Dragón x2 ",
-      "variant": []
-    },
-    {
-      "detail": "Shiftry ➜ Dragonite Danza Dragón x2 ",
-      "variant": []
-    },
-    {
-      "detail": "Vidasfera (Life Orb) ➜ cambiar a Jirachi Otra Vez (Encore), cambiar a Chandelure +2 +2 (22)",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Otra Vez (Encore) para bloquear en Colmillo Ígneo (fire fang); Chandelure +2 +2 (22)",
-      "variant": []
-    },
-    {
-      "detail": "Electivire ➜ Otra Vez (Encore) para bloquear en Fuego; cambiar a Chandelure +2 +2 (22)",
-      "variant": []
+      "detail": "Si Absol no tiene Vidasfera, usa Teletransporte y revisa el movimiento.",
+      "variant": [
+        {
+          "detail": "Si usa Tajo Umbrío, Chansey coloca Trampa Rocas. Si el golpe es crítico, usa Max Poción antes de cambiar a Gengar.",
+          "variant": [
+            {
+              "detail": "Cuando recibas A Bocajarro, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Persecución, envía a Chansey, luego cambia a Gengar, usa Otra Vez y Bola Sombra. Después cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si el rival se queda, usa Protección y Bostezo frente a Huntail o Excadrill. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Huntail, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Luxray, envía a Chansey y usa Amortiguador.",
+          "variant": [
+            {
+              "detail": "Si vuelve Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Usa Gigadrenado contra Luxray.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Magnezone, envía a Chansey y coloca Trampa Rocas.",
+          "variant": [
+            {
+              "detail": "Si sale Darmanitan, cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+              "variant": []
+            },
+            {
+              "detail": "Si vuelve Absol, Gengar usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar objetos, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Salamence con Intimidación, envía a Chansey y usa Amortiguador.",
+          "variant": [
+            {
+              "detail": "Si vuelve Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Usa Gigadrenado contra Luxray.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Salamence sin Intimidación, envía a Chansey, sacrifica a Politoed y usa Puño Hielo con Poliwrath.",
+          "variant": [
+            {
+              "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Hariyama, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
