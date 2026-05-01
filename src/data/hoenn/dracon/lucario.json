@@ -2,27 +2,24 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "CAMBIA A CHANDELURE",
+  "initialMove": "👻 Cambia a Gengar 👻",
   "tricks": [
     {
-      "detail": "ESFERA AURAL / A BOCAJARRO → Usa Truco para bloquear en Pulso Umbrío o Triturar, luego entra Scrafty +3. // Paliza contra Ampharos // en caso de parálisis salamence/metagross no te matan usar antiparalisis",
-      "variant": []
-    },
-    {
-      "detail": "PATADA SALTO ALTA → Usa Truco y espera a que se debilite solo; luego entra Lapras, después Poliwrath 6+2. / Haxorus banda Focus, no es pregriloso",
-      "variant": []
-    },
-    {
-      "detail": "SACRIFICIO → Usa Truco para intercambiar objetos, luego entra Scrafty +3. Previsto para enfrentarse a Haxorus con Banda Focus.",
-      "variant": []
-    },
-    {
-      "detail": "METAGROSS → Usa Truco para bloquear en Terremoto, luego entra Excadrill 2+2 y coloca Trampa Rocas.",
-      "variant": []
-    },
-    {
-      "detail": "FLYGON → Usa Truco para bloquear en Terremoto, luego entra Excadrill 2+2 y coloca Trampa Rocas. Si haces Danza Espada y entra Lapras, luego Poliwrath 6+2. Previsto para Lucario con Banda Focus.",
-      "variant": []
+      "detail": "Cambia a Gengar y revisa el movimiento de Lucario.",
+      "variant": [
+        {
+          "detail": "Si usa A Bocajarro, Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo frente a Lapras. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa Patada Salto Alta, Gengar usa Maquinación y Lucario se debilita solo. Frente a Haxorus, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez y Maquinación hasta +4. Haxorus tiene Banda Focus.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y luego a Chansey frente a Lapras. Coloca Trampa Rocas frente a Metagross, vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
