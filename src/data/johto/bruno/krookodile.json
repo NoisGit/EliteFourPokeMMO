@@ -2,10 +2,10 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🦋 Volcarona +2",
+  "initialMove": "🦋 Volcarona usa Danza Aleteo x2",
   "tricks": [
     {
-      "detail": "-",
+      "detail": "Después de preparar a Volcarona con Danza Aleteo x2, continúa atacando para cerrar la ruta.",
       "variant": []
     }
   ]
