@@ -2,10 +2,10 @@
   "id": "hitmontop",
   "name": "Hitmontop",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Machamp → Gengar, Otra Vez, +4",
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
       "variant": []
     }
   ]
