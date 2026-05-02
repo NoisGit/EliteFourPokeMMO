@@ -2,39 +2,39 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Metagross ➜ Cambiar a Slowbro y usar Bostezo (repetidamente) hasta que salga Golem → sacrifica a Politoed → entra con Poliwrath +6🐸🥊",
+      "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo repetidamente hasta que salga Golem. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Golem ➜ Encanto, amortiguador → sale Metagross ➜ cambiar a Slowbro bostezo → Sacrifica Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Golem, usa Encanto y Amortiguador. Cuando salga Metagross, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Machamp → Gengar, Otra Vez, +2",
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Gengar +4 🔔(Barre con Bola Sombra)🔔",
+          "detail": "Si Machamp se queda, usa Maquinación hasta +4 y barre con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Sale Salamence → Barrre hasta que salga Aggron",
+          "detail": "Si sale Salamence, usa Bola Sombra hasta que salga Aggron.",
           "variant": [
             {
-              "detail": "Gengar derrota con critico a Aggron → Termina de Barrer",
+              "detail": "Si Gengar derrota a Aggron con un golpe crítico, termina de barrer.",
               "variant": []
             },
             {
-              "detail": "Aggron derrota a Gengar (no activa cuerpo maldito) → Saca a Volcarona elimina a Aggdron, entra Slowbro enemigo usa danza aleteo y ataca",
+              "detail": "Si Aggron derrota a Gengar y no activa Cuerpo Maldito, entra con Volcarona, derrota a Aggron y usa Danza Aleteo x1 frente al Slowbro rival.",
               "variant": []
             },
             {
-              "detail": "Aggron derrota a Gengar (Activa cuerpo maldito) → Volcarona +1",
+              "detail": "Si Aggron derrota a Gengar y se activa Cuerpo Maldito, entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
-            } 
-          ]  
+            }
+          ]
         }
       ]
     }

@@ -2,30 +2,30 @@
   "id": "hitmonlee",
   "name": "Hitmonlee",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar → Slowbro, Bostezo → Chansey, Trampa rocas💡",
+  "initialMove": "💡 Gengar → Slowbro con Bostezo → Chansey con Trampa Rocas 💡",
   "tricks": [
     {
-      "detail": "Hitmonlee → Gengar, derrótalo → sale Machamp, cambia a Chansey → Gengar, otra vez, +2",
+      "detail": "Si sale Hitmonlee, entra con Gengar y derrótalo. Si luego sale Machamp, cambia a Chansey y vuelve a Gengar. Usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Gengar +6, utiliza Otra Vez cada que puedas. Derrota a todos con Bola Sombra",
+          "detail": "Si Machamp se queda, usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Salamence → Derrótalo, sale Machamp → Poliwrath → Gengar +6, utiliza Otra Vez cada que puedas. Derrota a todos con Bola Sombra",
+          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Machamp/Luxray → Gengar, otra vez, +2",
+      "detail": "Si sale Machamp o Luxray, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Gengar +6, utiliza Otra Vez cada que puedas. Derrota a todos con Bola Sombra",
+          "detail": "Si se queda, usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Salamence → Derrótalo, sale Machamp → Poliwrath → Gengar +6, utiliza Otra Vez cada que puedas. Derrota a todos con Bola Sombra",
+          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
         }
       ]

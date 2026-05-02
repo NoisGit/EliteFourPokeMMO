@@ -2,76 +2,76 @@
   "id": "heracross",
   "name": "Heracross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Varias Opciones💡",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Ruta Arriesgada → Trampa Rocas",
+      "detail": "Ruta arriesgada: coloca Trampa Rocas.",
       "variant": [
         {
-          "detail": "No crítico → Gengar, Otra Vez, +2 + Precisión X (heracross tiene banda focus)",
+          "detail": "Si no recibes crítico, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Heracross tiene Banda Focus.",
           "variant": []
         },
         {
-          "detail": "Crítico pero usas Trampa Rocas → Politoed (sacrificar), Poliwrath → Gengar, Otra Vez, +2 + Precisión X",
+          "detail": "Si recibes crítico pero colocaste Trampa Rocas, sacrifica a Politoed, entra con Poliwrath y luego cambia a Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Crítico pero no usas Trampa Rocas → GG, Rip, Reinicia :)",
+          "detail": "Si recibes crítico y no colocaste Trampa Rocas, reinicia la ruta.",
           "variant": []
         }
       ]
     },
     {
-      "detail": " Ruta Segura → Gengar, Otra Vez, +2",
+      "detail": "Ruta segura: cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Derrótalo, sale Steelix → Slowbro, Bostezo → Teletransporte → Chansey, Trampa Rocas",
+          "detail": "Si Heracross se queda, derrótalo. Si luego sale Steelix, cambia a Slowbro, usa Bostezo y después Teletransporte hacia Chansey para colocar Trampa Rocas.",
           "variant": [
             {
-              "detail": "Machamp → Gengar, Otra Vez → Chansey, sale Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+              "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, luego pasa por Chansey. Frente a Staraptor, vuelve a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
               "variant": []
             },
             {
-              "detail": "Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+              "detail": "Si sale Staraptor, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Kangaskhan → Chansey, Trampa Rocas",
+          "detail": "Si sale Kangaskhan, cambia a Chansey y coloca Trampa Rocas.",
           "variant": [
             {
-              "detail": "Heracross → Amortiguador → Teletransporte → Gengar, Otra Vez, +2 + Precisión X",
+              "detail": "Si sale Heracross, usa Amortiguador y luego Teletransporte hacia Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X.",
               "variant": []
             },
             {
-              "detail": "Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+              "detail": "Si sale Staraptor, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
               "variant": []
             },
             {
-              "detail": "Machamp → Gengar Otra vez → Chansey y Frente a Staraptor → Gengar Otra vez +2 + Precisión X",
+              "detail": "Si sale Machamp, cambia a Gengar y usa Otra Vez. Luego pasa por Chansey y, frente a Staraptor, vuelve a Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Machamp → Chansey → Gengar, Otra Vez, +2",
+          "detail": "Si sale Machamp, pasa por Chansey y luego cambia a Gengar. Usa Otra Vez y Maquinación hasta +2.",
           "variant": [
             {
-              "detail": "Se queda → Derrótalo → si entra Steelix cambia a Slowbro, mantén Bostezo, sale Heracross → Teletransporte → Chansey, Trampa Rocas",
+              "detail": "Si Machamp se queda, derrótalo. Si entra Steelix, cambia a Slowbro, mantén Bostezo y cuando salga Heracross usa Teletransporte hacia Chansey para colocar Trampa Rocas.",
               "variant": [
                 {
-                  "detail": "Machamp → Gengar, Otra Vez → Chansey, frente a Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+                  "detail": "Si vuelve Machamp, cambia a Gengar, usa Otra Vez, pasa por Chansey y frente a Staraptor vuelve a Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X.",
                   "variant": []
                 },
                 {
-                  "detail": "Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+                  "detail": "Si sale Staraptor, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
                   "variant": []
                 }
               ]
             },
             {
-              "detail": "Kangaskhan → Chansey → Trampa Rocas → seguir guía de Kangaskhan arriba ",
+              "detail": "Si sale Kangaskhan, cambia a Chansey, coloca Trampa Rocas y sigue la ruta de Kangaskhan indicada arriba.",
               "variant": []
             }
           ]

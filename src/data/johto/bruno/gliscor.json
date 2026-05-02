@@ -2,10 +2,10 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Cambiar a Slowbro Bostezo contra Metagros ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "detail": "Cambia a Slowbro y usa Bostezo contra Metagross. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

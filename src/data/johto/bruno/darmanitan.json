@@ -2,18 +2,18 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Varias Opciones Mira Abajo 💡",
+  "initialMove": "💡 Varias opciones. Revisa abajo. 💡",
   "tricks": [
     {
-      "detail": "Asegurar ➜ Volcarona +3 🦋🔥",
+      "detail": "Ruta segura de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
       "variant": []
     },
     {
-      "detail": "Estable ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Ruta estable: Slowbro usa Bostezo, luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "⚠️Arriesgar⚠️ ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Ruta arriesgada: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

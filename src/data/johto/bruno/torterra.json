@@ -2,14 +2,14 @@
   "id": "torterra",
   "name": "Torterra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Varias Opciones💡",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Ahorro → Amortiguador, sale Darmanitan → Volcarona +3.",
+      "detail": "Ruta de ahorro: usa Amortiguador hasta que salga Darmanitan. Luego entra con Volcarona y usa Danza Aleteo x3.",
       "variant": []
     },
     {
-      "detail": "Estable → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+      "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
