@@ -2,25 +2,21 @@
   "id": "quagsire",
   "name": "Quagsire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Absol ➜ Volcarona x2 danza aleteo ➜ Volcarona aguanta el Persecución de Absol (límite extremo Crítico 50%)",
+      "detail": "Frente a Absol, entra con Volcarona, usa Danza Aleteo x2 y Gigadrenado.",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Encanto ➜ cambiar a Slowbro",
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": " se queda Rhyperio ➜ Usar Bostezo ➜ frente a Leafeon ➜ Volcarona +1 + Especial X 🦋🔥",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Leafeon ➜ Volcarona +1 + Especial X 🦋🔥",
-          "variant": []
-        },
-        {
-          "detail": "Gyarados ➜ usa Bostezo y Protección , Bostezo otra vez ➜ frente a Leafeon ➜ Volcarona +1 + Especial X 🦋🔥",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
