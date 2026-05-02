@@ -5,24 +5,24 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Stantler ➜ 👻 Gengar ➜ Otra Vez ➜ sale Alakazam",
+      "detail": "Si sale Stantler, cambia a Gengar y usa Otra Vez. Luego sale Alakazam.",
       "variant": [
         {
-          "detail": "Estable → Cambiar a Chansey ➜ usar Teletransporte y sacar a Slowbro ➜ usar Bostezo ➜ Protección alakazam se duerme usa bostezo frente a Roserade; sacrificar a Politoed y entrar con Poliwrath +6",
+          "detail": "Ruta estable: cambia a Chansey, usa Teletransporte hacia Slowbro y usa Bostezo. Usa Protección para dormir a Alakazam. Luego usa Bostezo frente a Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "RNG → Slowbro, Bostezo, Protección. Sale Roserade →  Sacrificar a Politoed ➜ 🐸 Poliwrath +6 🐸  ",
+          "detail": "Ruta RNG: entra con Slowbro, usa Bostezo y Protección. Cuando salga Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Lucario → 👻Gengar, Otra Vez, +6 + precisión X.",
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X.",
       "variant": []
     },
     {
-      "detail": "Cambia a Gengar, Lucario → que use ataque de fuego (Zoroark) → Gengar, Otra Vez → 🐸 Poliwrath +6 +2 🐸 ",
+      "detail": "Si Lucario revela que es Zoroark por un movimiento de tipo Fuego, Gengar usa Otra Vez. Luego entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
       "variant": []
     }
   ]
