@@ -5,49 +5,49 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Se queda → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+      "detail": "Si Metagross se queda, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Darmanitan → Varias Opciones ↓",
+      "detail": "Si sale Darmanitan, tienes varias opciones.",
       "variant": [
         {
-          "detail": "Ahorro → Volcarona +3",
+          "detail": "Ruta de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
           "variant": []
         },
         {
-          "detail": "Estable → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "RNG → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Ruta arriesgada: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Hitmonchan → Slowbro, Bostezo. Sale Metagross → Politoed (sacrificar), Poliwrath +6.",
+      "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Machamp → Gengar, ver ataque.",
+      "detail": "Si sale Machamp, cambia a Gengar y revisa qué ataque usa.",
       "variant": [
         {
-          "detail": "Puño Dinamico → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Puño Drenaje → Gengar, Otra Vez → Chansey, sale Staraptor → Volcarona +2.",
-          "variant":[]
+          "detail": "Si usa Puño Drenaje, Gengar usa Otra Vez. Luego pasa por Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Blaziken → Gengar +4 +2 (No uses Otra Vez).",
-      "variant":[]
+      "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+      "variant": []
     },
     {
-      "detail": "Krokodile/Staraptor → Volcarona +2.",
+      "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
       "variant": []
     }
   ]
