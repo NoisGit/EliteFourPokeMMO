@@ -6,7 +6,7 @@ import type { Region } from "../interfaces/Region"
 import type { Language } from "../i18n/translations"
 
 import { translations } from "../i18n/translations"
-import leagueFarmBanner from "../assets/league-farm-banner.png"
+import leagueFarmBanner from "../assets/league-farm-banner.svg"
 import { validatePokemonStrategy } from "../utils/strategyValidation"
 import { useDynamicImports } from "../hooks/useDynamicImports"
 import { RegionCard } from "./RegionCard"
