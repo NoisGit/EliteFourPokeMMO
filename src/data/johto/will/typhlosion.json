@@ -2,10 +2,10 @@
   "id": "typhlosion",
   "name": "Typhlosion",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Saca a Politoed (Sacrificar), Poliwrath +6.",
+      "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
