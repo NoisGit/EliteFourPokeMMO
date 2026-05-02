@@ -5,19 +5,19 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Absol ➜ Gengar +4 + Precisión (absol pañuelo elegido)",
+      "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. Absol tiene Pañuelo Elegido.",
       "variant": []
     },
     {
-      "detail": "Flareon ➜ 👻 Gengar Otra Vez +2 👻",
+      "detail": "Si sale Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": []
     },
     {
-      "detail": "Si se queda ➜ Usar bola sombra frente a Absol ➜ sacrifica a Politoed ➜ Poliwrath +6 (absol pañuelo elegido)",
+      "detail": "Si Bronzong se queda, usa Bola Sombra frente a Absol. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Absol tiene Pañuelo Elegido.",
       "variant": []
     },
     {
-      "detail": "Cambia a Bronzong ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊  🔔 Cascada contra Bronzong🔔 ",
+      "detail": "Si cambia a Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Bronzong.",
       "variant": []
     }
   ]

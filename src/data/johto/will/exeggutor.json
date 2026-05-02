@@ -5,18 +5,18 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Absol → Gengar, +4 + precisión X. (No es necesario Otra Vez).",
+      "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez.",
       "variant": []
     },
     {
-      "detail": "Flareon → Gengar, Otra Vez, +2.",
+      "detail": "Si sale Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Derrótalo, sale Absol → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si Flareon se queda, derrótalo. Si luego sale Absol, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Sale Bronzong → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si sale Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

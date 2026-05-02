@@ -5,15 +5,15 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Lucario --> Gengar, Otra Vez, +6 + Precisión (Usa Otra Vez cada que puedas); Si Bola Sombra se queda bloqueado → Onda Certera dos veces para golpear a Xatu",
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X. Usa Otra Vez cada vez que puedas. Si Bola Sombra queda bloqueada contra Xatu, usa Onda Certera dos veces para derrotarlo.",
       "variant": []
     },
     {
-      "detail": "Golurk --> Gengar, Otra Vez, +4 + Precisión (Usa Otra Vez cada que puedas)",
+      "detail": "Si sale Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X. Usa Otra Vez cada vez que puedas.",
       "variant": []
     },
     {
-      "detail": "Cambiar de Gengar si Lucario;  usa movimiento de fuego (es zoroark) --> Gengar usa Otra Vez al movimiento de fuego; Poliwrath +6 +2",
+      "detail": "Si Lucario revela que es Zoroark por un movimiento de tipo Fuego, cambia desde Gengar cuando corresponda. Luego Gengar usa Otra Vez sobre el movimiento de tipo Fuego y entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
       "variant": []
     }
   ]
