@@ -2,38 +2,38 @@
   "id": "empoleon",
   "name": "Empoleon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Se queda → mira el ataque",
+      "detail": "Si Empoleon se queda, revisa qué ataque usa.",
       "variant": [
         {
-          "detail": "Surf → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si usa Surf, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Hidrobomba → Teletransporte → Slowbro, Bostezo → Protección, sale Clefable, Bostezo → Politoed (sacrificar), Poliwrath +6. (Cascada Hypno)",
+          "detail": "Si usa Hidrobomba, usa Teletransporte hacia Slowbro, usa Bostezo y luego Protección. Cuando salga Clefable, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Hypno.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Absol → Gengar, +4 + precisión X. (No es necesario Otra Vez).",
+      "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez.",
       "variant": []
     },
     {
-      "detail": "Electivire → Gengar, Otra Vez, +4 + precisión X.",
+      "detail": "Si sale Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
       "variant": []
     },
     {
-      "detail": "Flareon → Gengar, Otra Vez, +2.",
+      "detail": "Si sale Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Derrótalo, sale Absol → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si Flareon se queda, derrótalo. Si luego sale Absol, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Sale Bronzong → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si sale Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
