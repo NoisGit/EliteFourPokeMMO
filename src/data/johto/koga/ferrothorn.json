@@ -2,13 +2,13 @@
   "id": "ferrothorn",
   "name": "Ferrothorn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Frente a Crobat ➜ Cambia a Slowbro usa Bostezo hasta tener en frente a Magmortar ➜ sacrifica a Palpitoad ➜ Poliwrath ➜ usa Ataque X y atacar",
+      "detail": "Frente a Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Luego sacrifica a Politoed, entra con Poliwrath, usa Ataque X y ataca.",
       "variant": [
         {
-          "detail": "🔔Puño drenaje a magmortar Frente a ditto cambia a gengar y matalo 🔔",
+          "detail": "Usa Puño Drenaje contra Magmortar. Frente a Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
           "variant": []
         }
       ]

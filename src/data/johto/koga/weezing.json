@@ -2,6 +2,11 @@
   "id": "weezing",
   "name": "Weezing",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Poner Trampa Rocas🪨 frente a Crobat ➜ cambiar a Slowbro y usar Bostezo constantemente hasta que salgan Gengar o Lapras ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 👻 Puño Hielo a Gengar 👻",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Crobat, cambia a Slowbro y usa Bostezo hasta que salga Gengar o Lapras. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+      "variant": []
+    }
+  ]
 }

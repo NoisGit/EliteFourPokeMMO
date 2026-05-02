@@ -2,10 +2,10 @@
   "id": "magmortar",
   "name": "Magmortar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Sale Crobat → Slowbro, Manten Bostezo hasta que salga Magmortar ➜ Sacrifica a Politoed ➜ Poliwrath Ataque X  (Puño Drenaje a Magmortar Si Sale ditto Cambia a Gengar y matalo con bola sombra)",
+      "detail": "Si sale Crobat, cambia a Slowbro y mantén Bostezo hasta que salga Magmortar. Luego sacrifica a Politoed, entra con Poliwrath y usa Ataque X. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
       "variant": []
     }
   ]

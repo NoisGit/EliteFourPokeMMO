@@ -2,23 +2,23 @@
   "id": "parasect",
   "name": "Parasect",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Se queda ➜ Teletransporte",
+      "detail": "Si se queda, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Aun se queda ➜ Volcarona +1 + Especial X",
+          "detail": "Si aún se queda, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Lucario ➜ Poliwrath ➜ Gengar Otra Vez +4 +2 (Bola sombra a todos)",
+          "detail": "Si sale Lucario, pasa por Poliwrath y luego entra con Gengar. Usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Lucario ➜ Gengar Otra Vez +4 +2 (Bola sombra a todos) ",
+      "detail": "Si sale Lucario, cambia a Gengar y repite la misma ruta de boosteo.",
       "variant": []
     }
   ]

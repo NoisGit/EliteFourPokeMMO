@@ -2,20 +2,20 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Varias Opciones💡",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Opción rápida ➜ Gengar, Otra vez, +6 +2 💡Bola Sombra a todos💡",
+      "detail": "Ruta rápida: Gengar usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💡Bola Sombra a todo💡",
       "variant": [
         {
-          "detail": "Crítico de Crobat ➜ Slowbro, Bostezo ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+          "detail": "Si Crobat hace crítico, cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🐸🥊",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Opción estable ➜ Gengar, Otra Vez ➜ Slowbro ➜ Chansey, trampa rocas ➜ sale Lucario ➜ Slowbro, Bostezo ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Ruta estable: Gengar usa Otra Vez → cambia a Slowbro → cambia a Chansey y coloca Trampa Rocas. Cuando salga Lucario, Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🐸🥊",
       "variant": []
     }
   ]
- }
+}

@@ -2,20 +2,20 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Pico Taladro ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Palpitoad ➜ Poliwrath +6 🐸🥊🔔Cascada a skarmory o Tentacruel🔔",
+      "detail": "Si usa Pico Taladro, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🐸🥊 Usa Cascada contra Skarmory o Tentacruel.",
       "variant": [
         {
-          "detail": "Lanzallamas/ Pulso Umbrío (zoroark) ➜ Teletransporte ➜ Volcarona x1 danza aleteo y gigadrenado a zoruak ➜ barrer hasta electrode/ Tentacruel y usar otro Danza Aleteo una vez para barrer",
+          "detail": "Si usa Lanzallamas o Pulso Umbrío, revela que es Zoroark. Usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y Gigadrenado. Luego barre hasta Electrode o Tentacruel y usa otra Danza Aleteo para cerrar.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si Volcarona recibe retrocesos, cambia a Chansey → Max pocion a Volcarona y repite el proceso.",
+      "detail": "Si Volcarona recibe retrocesos, cambia a Chansey, usa Max Poción en Volcarona y repite el proceso.",
       "variant": []
     }
   ]
- }
+}

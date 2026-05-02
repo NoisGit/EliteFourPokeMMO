@@ -2,23 +2,23 @@
   "id": "ditto",
   "name": "Ditto",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Se queda → Teletransporte",
+      "detail": "Si Ditto se queda, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Se queda → Poliwrath, +6 +2 🥊Puño Drenaje a Magmortar🥊",
+          "detail": "Si aún se queda, entra con Poliwrath, usa Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad. Usa Puño Drenaje contra Magmortar.",
           "variant": []
         },
         {
-          "detail": "Sale Crobat → Mira abajo ↓",
+          "detail": "Si sale Crobat, sigue la ruta indicada abajo.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Crobat ➜ Saca a Slowbro y usa Bostezo hasta que salga Magmortar ➜ sacrifica a Palpitoad ➜ Poliwrath usa Ataque X 🔔Puño drenaje en magmortar ,sale ditoo cambia a gengar y matalo🔔",
+      "detail": "Si sale Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Luego sacrifica a Politoed, entra con Poliwrath y usa Ataque X. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
       "variant": []
     }
   ]

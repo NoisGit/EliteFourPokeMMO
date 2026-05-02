@@ -2,17 +2,17 @@
   "id": "sharpedo",
   "name": "Sharpedo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Sale Tangrowth ➜ Teletransporte ➜ Slowbro, Bostezo (Mira la precisión de Tangrowth) ",
+      "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Observa la precisión de Tangrowth.",
       "variant": [
         {
-          "detail": "Golpea → Teletransporte ➜ Volcarona x2 Danza aleteo🦋🔥",
+          "detail": "Si acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. 🦋🔥",
           "variant": []
         },
         {
-          "detail": "Falla ➜ Volcarona x2 Danza aleteo🦋🔥",
+          "detail": "Si falla, entra con Volcarona y usa Danza Aleteo x2. 🦋🔥",
           "variant": []
         }
       ]

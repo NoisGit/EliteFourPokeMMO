@@ -2,7 +2,16 @@
   "id": "venomoth",
   "name": "Venomoth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar de Volcarona ➜ Frente a Scizor ➜ Volcarona x1 danza aleteo + Especial X 🔔 Si el Crítico debilita a volcarona cambiar a Politoed y Poliwrath +6 🔔",
-  "tricks": []
+  "initialMove": "Cambia a Volcarona.",
+  "tricks": [
+    {
+      "detail": "Frente a Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+      "variant": [
+        {
+          "detail": "Si un golpe crítico derrota a Volcarona, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
-  
