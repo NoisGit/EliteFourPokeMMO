@@ -11,7 +11,7 @@
           "detail": "Si tiene Llamasfera, usa Amortiguador hasta que salga Golurk. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
         },
         {
-          "detail": "Si no tiene Llamasfera, cambia a Slowbro y usa Bostezo. Cuando salga Magnezone, usa Protección y cambia a Chansey. Cuando salga Girafarig, coloca Trampa Rocas. Luego usa Gengar con Otra Vez, cambia a Slowbro frente a Mantine y usa Bostezo. Después entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si no tiene Llamasfera, cambia a Slowbro y usa Bostezo. Cuando salga Magnezone, usa Protección y cambia a Chansey. Cuando salga Girafarig, coloca Trampa Rocas. Luego usa Gengar con Otra Vez, cambia a Slowbro frente a Mantine y usa Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     },
@@ -19,7 +19,7 @@
       "detail": "Si entra Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Si Flareon se queda, derrótalo. Si luego sale Absol o Bronzong, entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si Flareon se queda, derrótalo. Si luego sale Absol o Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
         }
       ]
     },
