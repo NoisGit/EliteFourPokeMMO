@@ -2,82 +2,82 @@
   "id": "crobat",
   "name": "Crobat",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Se queda → Mira el ataque",
+      "detail": "Si Crobat se queda, revisa qué ataque usa.",
       "variant": [
         {
-          "detail": "Superdiente → Cambia a Slowbro",
-          "variant": [  
-            {
-              "detail": "Se queda → Slowbro usa Bostezo frente a Magmortar → Sacrifica Politoed → Poliwrath Toma un Ataque X y luego Barre 🔔(Puño Drenaje a Magmortar // Si sale Ditto, cambia a Gengar y lo Derrotas)🔔",
-              "variant": []
-            },    
-            {
-              "detail": "Rhyperior ➜ Slowbro usa Bostezo y recibe Megacuerno ➜ luego usar Protección y Bostezo ➜ frente a Gengar/Lapras ➜ sacrifica a politoed ➜ Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
-               "variant": []
-            }
-          ]  
-        },
-        {
-          "detail": "Puya Nociva / Pájaro Osado ➜ Cambiar a Slowbro y usar Bostezo",
+          "detail": "Si usa Superdiente, cambia a Slowbro.",
           "variant": [
             {
-              "detail": " Si se Queda ➜ Volcarona +1 y usa Psíquico ➜ frente a Electrode usar Danza Aleteo y termina de Barrer",
+              "detail": "Si se queda, Slowbro usa Bostezo frente a Magmortar. Luego sacrifica a Politoed, entra con Poliwrath, toma un Ataque X y barre. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
               "variant": []
             },
             {
-              "detail": "Slowbro bostezo frente a Zoroark ➜ Volcarona +1 y usa Gigadrenado para derrotarlo ➜ frente a Electrode/Tentacruel usa Danza Aleteo y Termina de Barrer 🚨(Si Volcarona retrocede, cambia a Chansey y cura a Volcarona)🚨",
+              "detail": "Si sale Rhyperior, Slowbro usa Bostezo y recibe Megacuerno. Luego usa Protección y Bostezo. Frente a Gengar o Lapras, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
               "variant": []
-            }    
-          ] 
+            }
+          ]
         },
-        { 
-          "detail": "Pulso Umbrío/Lanzallamas de Zoroark ➜ Usar Teletransporte para sacar a Volcarona +1 y usa Gigadrenado ➜ frente a Electrode/Tentacruel usa Danza Aleteo y Termina de Barrer",
-          "variant": [] 
-        }  
-      ]   
-    },
-    {
-      "detail": "Samurott ➜ Slowbro, Bostezo ➜ sacrifica a Palpitoad ➜ Poliwrath +6 🐸🥊",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Gengar, Otra Vez, 4+2 🔔(Barre con Bola Sombra)🔔",
-      "variant": []
-    },
-    {
-      "detail": " Ariados ➜ Encanto y Amortiguador para forzar el cambio",
-      "variant": [
         {
-          "detail": " Rhyperior → Slowbro, Bostezo → Teletransporte → Poliwrath +6 y usa Puño Drenaje → Toma un velocidad X frente a Sharpedo y Termina de Barrer",
-          "variant": []
-        },    
+          "detail": "Si usa Puya Nociva o Pájaro Osado, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si se queda, entra con Volcarona, usa Danza Aleteo x1 y Psíquico. Frente a Electrode, usa otra Danza Aleteo y termina de barrer.",
+              "variant": []
+            },
+            {
+              "detail": "Si Slowbro usa Bostezo frente a Zoroark, entra con Volcarona, usa Danza Aleteo x1 y Gigadrenado para derrotarlo. Frente a Electrode o Tentacruel, usa otra Danza Aleteo y termina de barrer. Si Volcarona retrocede, cambia a Chansey y cura a Volcarona.",
+              "variant": []
+            }
+          ]
+        },
         {
-          "detail": "Tangrowth → ⬇️Mira la Solucion Abajo⬇️",
+          "detail": "Si revela que es Zoroark por Pulso Umbrío o Lanzallamas, usa Teletransporte para sacar a Volcarona. Usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Tangrowth → Teletransporte → Slowbro usa Bostezo 🔔(Mira Si Acierta el Ataque)🔔",
+      "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Ariados, usa Encanto y Amortiguador para forzar el cambio.",
       "variant": [
         {
-          "detail": "Acierta → Teletransporte → Volcarona +2",
+          "detail": "Si sale Rhyperior, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte hacia Poliwrath, usa Tambor hasta +6 Ataque y Puño Drenaje. Frente a Sharpedo, usa Velocidad X y termina de barrer.",
           "variant": []
         },
         {
-          "detail": "Falla → Volcarona +2",
+          "detail": "Si sale Tangrowth, sigue la solución de Tangrowth indicada abajo.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Scizor → Volcarona +1 + Ataque Especial X",
+      "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Revisa si Tangrowth acierta el ataque.",
       "variant": [
         {
-          "detail": "☠️Volcarona Muere☠️ → Entra Poliwrath → Politoed (sacrificar), Poliwrath +6",
+          "detail": "Si acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        },
+        {
+          "detail": "Si falla, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+      "variant": [
+        {
+          "detail": "Si Volcarona cae, entra con Poliwrath, sacrifica a Politoed y vuelve a Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
