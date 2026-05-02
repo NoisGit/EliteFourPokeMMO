@@ -2,62 +2,62 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Usar Amortiguador y esperar el cambio",
+      "detail": "Si Gyarados se queda, usa Amortiguador y espera el cambio.",
       "variant": [
         {
-          "detail": "Leafeon --> Volcarona +1 + Especial X",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Rhyperior --> Usar Encanto; cambiar a Slowbro",
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Bostezo frente a Leafeon; Volcarona +1 + Especial X",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Leafeon --> Volcarona +1 + Especial X",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Gyarados --> Usar Bostezo; Protección; Bostezo frente a Leafeon; Volcarona +1 + Especial X",
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y luego Bostezo frente a Leafeon. Después entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Tyranitar --> Cambiar a Poliwrath para matarlo ",
+      "detail": "Si sale Tyranitar, cambia a Poliwrath para derrotarlo.",
       "variant": [
         {
-          "detail": "Gyarados --> Volcarona +1 + Especial X; Psíquico a Gyarados; corre hasta Houndoom; ignorar amenaza",
+          "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
           "variant": []
         },
         {
-          "detail": "Victreebel → Cambia a Gengar, luego a Slowbro",
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro.",
           "variant": [
             {
-              "detail": "Si se queda → Bostezo; cambia a Volcarona, +1 + SpAtk X",
+              "detail": "Si Victreebel se queda, usa Bostezo. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
               "variant": []
             },
             {
-              "detail": "Gyarados → Volcarona, +1 + SpAtk X",
+              "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Excadrill --> Usar Gigadrenado hasta que muera",
+          "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Excadrill --> Usar Encanto; Amortiguador frente a Tyranitar; cambiar a Poliwrath matar a  Tyranitar",
+      "detail": "Si sale Excadrill, usa Encanto. Luego usa Amortiguador frente a Tyranitar y cambia a Poliwrath para derrotarlo.",
       "variant": []
     }
   ]
