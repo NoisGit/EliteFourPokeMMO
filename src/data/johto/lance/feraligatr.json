@@ -2,72 +2,23 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Ver movimiento",
-      "variant": [
-        {
-          "detail": "Cascada ➜ Cambiar a Slowbro y usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Fuerza Bruta ➜ Teletransporte para ver movimiento",
-          "variant": [
-            {
-              "detail": "Fuerza Bruta ➜ Slowbro usa Bostezo frente a Ampharos ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Otro movimiento ➜ Cambiar a Poliwrath ➜ luego a Slowbro y usar Bostezo ➜ frente a Ampharos ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Scizor ➜ Teletransporte; evaluar daño",
-      "variant": [
-        {
-          "detail": "Si el daño es ~60% ➜ Enviar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño es ~90% ➜ Volcarona +1 + Especial X 🔔mantener PS por encima del 51%🔔",
-          "variant": [
-            {
-              "detail": "Si Volcarona cae por Crítico ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Haxorus ➜ Cambiar a Slowbro y usar Bostezo ➜ frente a Scizor ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si Feraligatr se queda, revisa su movimiento. Si usa Cascada, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Dragonite ➜ Cambiar a Slowbro y usar Bostezo",
-      "variant": [
-        {
-          "detail": "Scizor ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Flygon ➜ Protección , Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔Puño Drenaje Steelix🔔",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Lucario ➜ Gengar +2 +2 + Precisión X 🔔ahorrar +6 +2 lucario no tiene objeto elegido🔔",
+      "detail": "Si sale Scizor, usa Teletransporte y evalúa el daño. Si el daño es bajo, sigue con Slowbro y Bostezo. Si el daño es alto, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": []
     },
     {
-      "detail": "Infernape ➜ Cambiar a Slowbro y usar Bostezo ➜ frente a Electivire ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo. Frente a Flygon, usa Protección y Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Lucario, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
       "variant": []
     }
   ]
-}  
+}
