@@ -5,10 +5,10 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Sale Lucario ➜ cambiar a Gengar, otra vez +6 + precisión X",
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X.",
       "variant": [
         {
-          "detail": "Si te bloquean Bola sombra, Onda certera derrota a Xatu.",
+          "detail": "Si Bola Sombra queda bloqueada contra Xatu, usa Onda Certera para derrotarlo.",
           "variant": []
         }
       ]
