@@ -2,13 +2,13 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🦋Cambia a Volcarona🦋",
+  "initialMove": "🦋 Cambia a Volcarona 🦋",
   "tricks": [
     {
-      "detail": "Danza Aleteo + Especial X",
+      "detail": "Usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": [
         {
-          "detail": "Crítico derrota a Volcarona ➜ Poliwrath ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+          "detail": "Si un golpe crítico derrota a Volcarona, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque. 🐸🥊",
           "variant": []
         }
       ]
