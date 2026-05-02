@@ -2,10 +2,10 @@
   "id": "forretress",
   "name": "Forretress",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Sale Samurott ➜ Slowbro, Bostezo ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
