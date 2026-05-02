@@ -2,13 +2,13 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Scizor --> Teletransporte; Volcarona +1 + Especial X; 🔔mantener PS por encima del 51%🔔",
+      "detail": "Si sale Scizor, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Mantén los PS de Volcarona por encima del 51%.",
       "variant": [
         {
-          "detail": "Si Volcarona cae por Crítico --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si Volcarona queda fuera por un golpe crítico, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
