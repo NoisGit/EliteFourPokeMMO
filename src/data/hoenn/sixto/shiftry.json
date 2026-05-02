@@ -13,17 +13,15 @@
         },
         {
           "detail": "Si entra Aggron, sacrifica a Politoed y entra con Poliwrath para derrotarlo.",
-          "variant": [
-            {
-              "detail": "Si luego entra Shiftry, cambia a Volcarona, usa Danza Aleteo x2 y Lanzallamas contra Shiftry. Contra el resto de plantas, usa Psíquico. Mantén los PS por encima del 23%.",
-              "variant": [
-                {
-                  "detail": "Si entra Hariyama, Poliwrath usa Ataque X y ataca. Usa Cascada contra Hariyama.",
-                  "variant": []
-                }
-              ]
-            }
-          ]
+          "variant": []
+        },
+        {
+          "detail": "Si entra Shiftry, cambia a Volcarona, usa Danza Aleteo x2 y Lanzallamas contra Shiftry. Contra el resto de plantas, usa Psíquico. Mantén los PS por encima del 23%.",
+          "variant": []
+        },
+        {
+          "detail": "Si entra Hariyama, Poliwrath usa Ataque X y ataca. Usa Cascada contra Hariyama.",
+          "variant": []
         }
       ]
     }

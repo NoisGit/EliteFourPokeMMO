@@ -23,16 +23,15 @@
     },
     {
       "detail": "Si sale Aggron, sacrifica a Politoed y entra con Poliwrath para usar Puño Drenaje.",
-      "variant": [
-        {
-          "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Hariyama, Poliwrath usa Ataque X y termina con Cascada contra Hariyama.",
-          "variant": []
-        }
-      ]
+      "variant": []
+    },
+    {
+      "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Hariyama, Poliwrath usa Ataque X y termina con Cascada contra Hariyama.",
+      "variant": []
     }
   ]
 }
