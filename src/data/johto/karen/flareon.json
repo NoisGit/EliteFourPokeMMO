@@ -2,10 +2,10 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar usa Otra Vez; cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6 🐸",
+  "initialMove": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
   "tricks": [
     {
-      "detail": "Si el Crítico de Typhlosion debilita a Poliwrath --> Gengar +6 +2",
+      "detail": "Si un golpe crítico de Typhlosion derrota a Poliwrath, entra con Gengar, usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
       "variant": []
     }
   ]
