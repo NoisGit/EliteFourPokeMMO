@@ -2,31 +2,31 @@
   "id": "rhyperior",
   "name": "Rhyperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Encanto y cambia a Slowbro",
+      "detail": "Si Rhyperior se queda, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Usar Bostezo ➜ frente a Leafeon ➜ Volcarona +1 + Especial X",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Leafeon ➜ Volcarona +1 + Especial X",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Gyarados ➜ Bostezo y Protección y otro bostezo mas ➜ frente a Leafeon ➜ Volcarona +1 + Especial X",
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y luego otro Bostezo frente a Leafeon. Después entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Honchkrow ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+      "detail": "Si sale Honchkrow, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Gallade / Roserade ➜ Gengar usa Otra Vez ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+      "detail": "Si sale Gallade o Roserade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

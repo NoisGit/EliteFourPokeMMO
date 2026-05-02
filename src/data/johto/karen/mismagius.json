@@ -2,49 +2,49 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Teletransporte",
+      "detail": "Si Mismagius se queda, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si se mantiene ➜ Volcarona Gigadrenado ➜ cambiar a Chansey y usar Teletransporte ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+          "detail": "Si se mantiene en campo, entra con Volcarona y usa Gigadrenado. Luego cambia a Chansey, usa Teletransporte hacia Slowbro y usa Bostezo. Después deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Feraligatr ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Cambiar a Politoed Frente a Houndoom ➜ Poliwrath usa Ataque X🐸🥊 y ataca",
+          "detail": "Si sale Houndoom, deja caer a Politoed. Luego entra con Poliwrath, usa Ataque X y ataca.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Feraligatr ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": [
         {
-          "detail": "Cambiar a Politoed Frente a Houndoom ➜ Poliwrath usa Ataque X🐸🥊 y ataca ",
+          "detail": "Si sale Houndoom, deja caer a Politoed. Luego entra con Poliwrath, usa Ataque X y ataca.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Excadrill ➜ Teletransporte ➜ enviar a Slowbro y usar Bostezo",
+      "detail": "Si sale Excadrill, usa Teletransporte hacia Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Teletransporte ➜ Volcarona +1 Ataca hasta tener en frente a Houndoom y usa Danza Aleteo una vez y barrer completo",
+          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta tener a Houndoom enfrente. Frente a Houndoom, usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         },
         {
-          "detail": "Mismagius ➜ Volcarona +1 frente a Houndoom ➜ usa Danza Aleteo una vez y barrer completo",
+          "detail": "Si sale Mismagius, entra con Volcarona frente a Houndoom, usa Danza Aleteo x1, luego usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Primeape ➜ Cambiar a Slowbro y usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

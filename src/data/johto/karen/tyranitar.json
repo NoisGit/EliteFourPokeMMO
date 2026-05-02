@@ -2,27 +2,27 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨; cambiar a Poliwrath para matar a tyranitar",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨 y luego cambia a Poliwrath para derrotar a Tyranitar.",
   "tricks": [
     {
-      "detail": "Gyarados --> Volcarona +1 + Especial X; barrer hasta Houndoom; ignorar amenaza; 🔔Psíquico a Gyarados🔔",
+      "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
       "variant": []
     },
     {
-          "detail": "Victreebel → Cambia a Gengar, luego a Slowbro",
-          "variant": [
-            {
-              "detail": "Si se queda → Bostezo; cambia a Volcarona, +1 + SpAtk X",
-              "variant": []
-            },
-            {
-              "detail": "Gyarados → Volcarona, +1 + SpAtk X",
-              "variant": []
-            }
-          ]
+      "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro.",
+      "variant": [
+        {
+          "detail": "Si Victreebel se queda, usa Bostezo. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Excadrill --> Gigadrenado hasta matarlo ",
+      "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
       "variant": []
     }
   ]

@@ -2,37 +2,15 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego cambia a Gengar y usa Otra Vez.",
   "tricks": [
     {
-      "detail": "Poder Oculto --> Cambiar a Gengar, Usar Otra Vez",
-      "variant": [
-        {
-          "detail": "Si se queda --> Gengar otra vez +6 🔔(Tiene banda focus y Barre con Bola Sombra)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Salamence --> Cambiar a Slowbro, mantenerte usando Bostezo (Ver abajo guía del Salamence)",
-          "variant": []
-        },
-        {
-          "detail": "Rapidash --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        }
-      ]
+      "detail": "Si Lucario se queda, Gengar usa Maquinación hasta +6, Velocidad X para +2 Velocidad y ataca con Bola Sombra.",
+      "variant": []
     },
     {
-      "detail": "Salamence --> Cambiar a Slowbro, bostezo, luego protección y vuelve a usar bostezo, sale Spiritomb; sacrificar a Politoed; Poliwrath +6 🔔 Spiritomb despierto no es amenaza 🔔",
-      "variant": [
-        {
-          "detail": "Spiritomb --> Sacrificar a Politoed; Poliwrath +6 🔔(Si Spiritomb despierta, no es amenaza)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Lucario → Sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Salamence, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }
