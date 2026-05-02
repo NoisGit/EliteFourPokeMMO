@@ -2,14 +2,14 @@
   "id": "poliwrath",
   "name": "Poliwrath",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Krookodile/Staraptor ➜ Volcarona +2.",
+      "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
       "variant": []
     },
     {
-      "detail": "Machamp ➜ Gengar, Otra Vez → Chansey, sale Staraptor → Volcarona +2.",
+      "detail": "Si sale Machamp, cambia a Gengar y usa Otra Vez. Luego pasa por Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
       "variant": []
     }
   ]
