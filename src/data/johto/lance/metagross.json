@@ -2,39 +2,31 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Puño Meteoro --> Teletransporte; enviar a Slowbro y usar Bostezo",
+      "detail": "Si usa Puño Meteoro, usa Teletransporte hacia Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Enviar a Slowbro frente a Tyranitar --> Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Frente a Tyranitar, usa Bostezo con Slowbro. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Hierba Lazo / Ampharos --> Sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si sale Ampharos, Scizor, Dragonite o Lapras, entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Scizor --> Sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Dragonite / Lapras --> Sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Eelektross --> Teletransporte; Gengar usa Maquinación y barre",
+          "detail": "Si sale Eelektross, usa Teletransporte hacia Gengar, usa Maquinación y barre.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Scizor --> Cambiar a Slowbro y usar Bostezo ; sacrificar a Politoed; Poliwrath +6",
+      "detail": "Si sale Scizor, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Tyranitar --> Cambiar a Poliwrath puño drenaje en  tyranitar ; cambiar a Chansey y usar Amortiguador; esperar a Metagross; Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "detail": "Si sale Tyranitar, cambia a Poliwrath y usa Puño Drenaje. Luego cambia a Chansey, usa Amortiguador y espera a Metagross. Usa Teletransporte hacia Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
