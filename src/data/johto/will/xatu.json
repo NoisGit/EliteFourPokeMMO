@@ -2,62 +2,62 @@
   "id": "xatu",
   "name": "Xatu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Se queda → Mira el Item",
+      "detail": "Si Xatu se queda, revisa su objeto.",
       "variant": [
         {
-          "detail": "Llamaesfera → Amortiguador hasta que salga Golurk → Gengar, Otra Vez, +4 + precisión X.",
+          "detail": "Si tiene Llamasfera, usa Amortiguador hasta que salga Golurk. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Sin Llamaesfera → Cambia a Slowbro, Bostezo. sale Magnezone → Protección, cambia a Chansey. sale Girafarig → Trampa rocas → Gengar, Otra Vez → Slowbro, sale Mantine → Bostezo, sale Girafarig → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si no tiene Llamasfera, cambia a Slowbro y usa Bostezo. Cuando salga Magnezone, usa Protección y cambia a Chansey. Cuando salga Girafarig, coloca Trampa Rocas. Luego Gengar usa Otra Vez; cambia a Slowbro frente a Mantine y usa Bostezo. Cuando vuelva Girafarig, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Flareon → Gengar, Otra Vez, +2.",
+      "detail": "Si sale Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Se queda → Derrótalo, sale Absol → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si Flareon se queda, derrótalo. Si luego sale Absol, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Sale Bronzong → Politoed (sacrificar), Poliwrath +6.",
+          "detail": "Si sale Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
-   {
-    "detail": "Absol → Gengar, +4 + precisión X. (No es necesario Otra Vez).",
-    "variant": []
-   },
-   {
-    "detail": "Golurk → Gengar, Otra Vez, +4 +2 + precisión X. (Otra Vez cada que puedas)",
-    "variant": []
-   },
-   {
-    "detail": "Lucario → Teletransporte → Mira el item",
-    "variant": [
-     {
-      "detail": "Vidaesfera → Gengar, Otra Vez, +4 + precisión X. (Otra Vez cada que puedas)",
+    {
+      "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez.",
       "variant": []
-     },
-     {
-      "detail": "Sin Vidaesfera → Gengar, Otra Vez, +2 +2 + precisión X. (Otra Vez cada que puedas)",
+    },
+    {
+      "detail": "Si sale Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Usa Otra Vez cada vez que puedas.",
       "variant": []
-     },
-     {
-      "detail": "Inesperadamente usa Ataque tipo Fuego → Gengar, Otra Vez → Poliwrath +6 +2.",
+    },
+    {
+      "detail": "Si sale Lucario, usa Teletransporte y revisa su objeto.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X. Usa Otra Vez cada vez que puedas.",
+          "variant": []
+        },
+        {
+          "detail": "Si no tiene Vidasfera, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Usa Otra Vez cada vez que puedas.",
+          "variant": []
+        },
+        {
+          "detail": "Si revela que es Zoroark por un movimiento de tipo Fuego, Gengar usa Otra Vez y luego entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Usa Otra Vez cada vez que puedas.",
       "variant": []
-     }
-    ]
-   },
-   {
-    "detail": "Electivire → Gengar, Otra Vez, +2 + Precisión X. (Otra Vez cada que puedas)",
-    "variant": []
-   }
+    }
   ]
 }
