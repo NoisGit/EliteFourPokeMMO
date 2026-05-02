@@ -2,14 +2,14 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Tyranitar --> Cambiar a Poliwrath para matar a tyranitar; cambiar a Chansey y usar Amortiguador; esperar a Metagross; Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "detail": "Si sale Tyranitar, cambia a Poliwrath para enfrentarlo. Luego cambia a Chansey, usa Amortiguador y espera a Metagross. Usa Teletransporte hacia Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Scizor --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "detail": "Si sale Scizor, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
