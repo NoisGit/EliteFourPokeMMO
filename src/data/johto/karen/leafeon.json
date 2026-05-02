@@ -2,25 +2,25 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Volcarona +1 + Especial X",
+      "detail": "Si Leafeon se queda, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": []
     },
     {
-      "detail": "Rhyperior --> Encanto; cambiar a Slowbro",
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Bostezo hacia Leafeon; Volcarona +1 + Especial X",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Leafeon --> Volcarona +1 + Especial X",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Gyarados --> Bostezo; Protección; Bostezo frente a Leafeon; Volcarona +1 + Especial X",
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y luego Bostezo frente a Leafeon. Después entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
