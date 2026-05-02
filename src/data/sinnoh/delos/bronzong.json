@@ -2,31 +2,6 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS🪨",
-  "tricks": [
-    {
-      "detail": "Gallade ➜ Cambiar a Gengar ",
-      "variant": []
-    },
-    {
-      "detail": "Método de Maldición arriesgado  ➜ Gengar Otra Vez (Encore) +6 +2  y atacar); Bola Sombra  debilita a Bellossom ; (toque de Maldición  ver abajo)",
-      "variant": []
-    },
-    {
-      "detail": "Bola Sombra  ➜ Cambiar a Chansey  abrir Pantalla de Luz ; si envían a Hydreigon, cambiar a Gengar  +4 no velo); NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Buscando velocidad  ➜ Cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Chandelure +2 +2 ; NO usar Otra Vez (pañuelo) ",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse  ➜ Jirachi Otra Vez, Chandelure +2 +2 (pañuelo)",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Gallade; entrar con Gengar  +6 +2 + Precisión ",
+  "tricks": []
 }

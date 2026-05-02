@@ -2,11 +2,6 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Coloca Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Honchkrow ➜ Gengar Otra Vez +6 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro frente a Honchkrow , usar Bostezo ante Chandelure ; sacrificar a Politoed y entrar con Poliwrath +6",
+  "tricks": []
 }

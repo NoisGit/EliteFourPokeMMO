@@ -2,22 +2,6 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usa Contador 💡",
-  "tricks": [
-    {
-      "detail": "SAMUROTT → Gengar con Otra Vez +4 +2 [Si baja la defensa de Chansey, usar x defensa y luego cambiar a Gengar]",
-      "variant": []
-    },
-    {
-      "detail": "BISHARP (Globo Helio) → Cambiar a Jirachi, luego a Gengar con Otra Vez +4 +2",
-      "variant": [
-        {
-          "detail": "Si Gengar usa Otra Vez +4 +2 → Cambiar a Chansey y activar Pantalla de Luz"
-        },
-        {
-          "detail": "Frente a SAMUROTT → Cambiar a Gengar con Otra Vez +4 +2"
-        }
-      ]
-    }
-  ]
+  "initialMove": "💡Sacrificar a Politoed y entrar con Poliwrath +6💡",
+  "tricks": []
 }

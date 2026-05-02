@@ -2,41 +2,51 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 (Si Lapras se queda, usa Amortiguador)",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Lapras se queda, usa Amortiguador.",
+      "detail": "Lucario ➜ Cambiar a Gengar para ver el movimiento",
+      "variant": []
+    },
+    {
+      "detail": "A Bocajarro ➜ Gengar +4  Bola Sombra a todo",
       "variant": [
-        {
-          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
-          "variant": [
-            {
-              "detail": "A Bocajarro: Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
-              "variant": []
-            },
-            {
-              "detail": "Patada Salto Alta: puedes arriesgar usando Maquinación y barrer directo, aunque la ruta puede ser aleatoria contra Lapras. La ruta segura es cambiar a Slowbro, luego a Chansey y volver a Gengar.",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si sale Haxorus, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Ataca hasta que aparezca Lucario, luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Lucario directamente, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Eelektross o Regice, cambia a Slowbro y usa Bostezo frente a Nidoking. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
+        
       ]
+    },
+    {
+      "detail": "Patada Salto Alta ➜ Opción para resolver",
+      "variant": []
+    },
+    {
+      "detail": "Arriesgar ➜ Maquinación y barrer directamente ➜ aleatorio contra Lapras",
+      "variant": []
+    },
+    {
+      "detail": "Seguro ➜ Cambiar a Slowbro, luego a Chansey y volver a Gengar",
+      "variant": []
+    },
+    {
+      "detail": "Haxorus ➜ Gengar otra vez +2 ➜ atacar hasta Lucario ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 ",
+      "variant": []
+    },
+    {
+      "detail": "Lucario ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 Pueño drenaje a Ampharos",
+      "variant": [
+        
+      ]
+    },
+    {
+      "detail": "Haxorus ➜ Gengar +2 ➜ atacar  hasta Lucario ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Metagross ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Eelektross / Regice ➜ Slowbro usa Bostezo frente a Nidoking ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
     }
   ]
 }

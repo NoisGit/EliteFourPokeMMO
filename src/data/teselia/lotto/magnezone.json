@@ -2,34 +2,32 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨 ",
+  "initialMove": "🪨Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Breloom ➜ Cambia a Jirachi, cambia a Gengar Otra Vez, cambia a Gallade para debilitar a Tyranitar",
-      "variant": []
+      "detail": "Breloom --> Gengar, Otra Vez, +4 y Precisión (Mantener Otra Vez)",
+      "variant": [
+        {
+          "detail": "Huir de Conkeldurr --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Gyarados ➜ Cambia a Chansey Amortiguador mira abajo y sigue ",
-      "variant": []
+      "detail": "Medicham --> Cambiar a Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Magnezone --> Protección y Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Crawdaunt --> Sacrificar a Politoed y entrar con Poliwrath +6",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Breloom/Conkeldurr ➜ Cambia a Gengar Otra Vez +6 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Cambia a Gallade/ frente a Conkeldurr ➜ Cambia a Jirachi, cambia a Gengar Otra Vez, cambia a Gallade para debilitar a Tyranitar, luego ver arriba",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Chandelure +2 +2; Jugada de riesgo Gengar +4 (No usar Otra Vez) / Gengar o Magnezone aleatorio",
-      "variant": []
-    },
-    {
-      "detail": "Toxicroak ➜ Cambia a Gengar , cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +4; frente a Magnezone cambia a Chansey Pantalla de Luz (💡esto falta testear 💡 ) ",
+      "detail": "Toxicroak / Conkeldurr --> Cambiar a Slowbro y usar Bostezo frente a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     }
   ]

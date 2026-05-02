@@ -2,21 +2,6 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
-      "variant": [
-        {
-          "detail": "Usa Bostezo, Protección y luego Bostezo otra vez para forzar la salida de Magnezone o Venusaur."
-        },
-        {
-          "detail": "Cambia a Poliwrath y deja que caiga. Luego entra con Volcarona, usa Danza Aleteo x1 y Especial X."
-        },
-        {
-          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨, luego Teletransporte y saca a Slowbro, Usa Bostezo + Proteccion + Bostezo, para forzar la salida de Magnezone/Venusaur, cambia a Poliwrath y sacrificalo, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+  "tricks": []
 }

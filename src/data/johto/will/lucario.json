@@ -2,30 +2,41 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Lucario usa A Bocajarro, revisa el objeto y si lograste poner las rocas.",
+      "detail": "A Bocajarro → Mira el item",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera y colocaste Trampa Rocas, usa Teletransporte. Si usa Triturar o Puño Bala, pasa por Poliwrath y luego entra con Gengar. Usa Otra Vez, Maquinación hasta +4 y Precisión X."
+          "detail": "Vidaesfera + colocaste trampa rocas → Teletransporte",
+          "variant": [
+            {
+              "detail": "Triturar/Puño Bala → Poliwrath → Gengar, Otra Vez, +4 + precisión X.",
+              "variant": []
+            },
+            {
+              "detail": "A Bocajarro/Velocidad Extrema → Gengar, Otra Vez, +4 + precisión X.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si tiene Vidasfera y usa A Bocajarro o Velocidad Extrema, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
+          "detail": "Vidaesfera + NO colocaste trampa rocas → Gengar, Otra Vez, +4 + precisión X.",
+          "variant": []
         },
         {
-          "detail": "Si tiene Vidasfera y no colocaste Trampa Rocas, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
-        },
-        {
-          "detail": "Si no tiene Vidasfera, usa Teletransporte. Luego entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+          "detail": "Sin Vidasfera → Teletransporte → Gengar, Otra Vez, +2 +2 + precisión X.",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra."
+      "detail": "Golurk → Gengar, Otra Vez, +4 +2. (Bola sombra a todos).",
+      "variant": []
     },
     {
-      "detail": "Si aparece un segundo Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
+      "detail": "Segundo Lucario → Gengar, Otra Vez, +4 + precisión X.",
+      "variant": []
     }
   ]
 }

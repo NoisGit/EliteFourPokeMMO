@@ -2,15 +2,11 @@
   "id": "grumpig",
   "name": "Grumpig",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si entra Electivire.",
-      "variant": [
-        {
-          "detail": "Si entra Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        }
-      ]
+      "detail": "Sale Electivire ➜ Gengar, Otra Vez, +2 + precisión X.",
+      "variant": []
     }
   ]
 }

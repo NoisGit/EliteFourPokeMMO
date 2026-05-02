@@ -2,21 +2,19 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Varias opciones",
+  "initialMove": "VARIAS OPCIONES",
   "tricks": [
     {
-      "detail": "Contra Darmanitan tienes tres rutas posibles. Elige según si quieres ahorrar recursos o jugar más estable.",
-      "variant": [
-        {
-          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3. ⚠️ Cuidado con un Fuerza Bruta crítico: puede dejarte cerca de 51% PS."
-        },
-        {
-          "detail": "Ruta RNG: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Ahorro → Volcarona +3 ⚠️ Cuidado con Superpower crítico (~51% PS)",
+      "variant": []
+    },
+    {
+      "detail": "RNG → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Estable → Cambiar a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+      "variant": []
     }
   ]
 }

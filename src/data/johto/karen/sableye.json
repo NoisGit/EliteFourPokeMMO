@@ -2,25 +2,25 @@
   "id": "sableye",
   "name": "Sableye",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 🥚 Si Sableye se queda usa Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Sableye se queda, usa Amortiguador.",
+      "detail": "Leafeon ➜ Volcarona +1 + Especial X",
+      "variant": []
+    },
+    {
+      "detail": "Rhyperior ➜ Encanto; cambiar a Slowbro",
       "variant": [
         {
-          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "detail": "Se Queda Rhyperior ➜ Bostezo y frente a Leafeon ➜ Volcarona +1 + Especial X",
           "variant": []
         },
         {
-          "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
+          "detail": "Leafeon ➜ Volcarona +1 + Especial X",
           "variant": []
         },
         {
-          "detail": "Si Rhyperior se queda, usa Bostezo y, frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gyarados, usa Bostezo, Protección y otro Bostezo más. Frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "detail": "Gyarados ➜ Bostezo y Protección , otro Bostezo mas ➜ frente a Leafeon ➜ Volcarona +1 + Especial X",
           "variant": []
         }
       ]

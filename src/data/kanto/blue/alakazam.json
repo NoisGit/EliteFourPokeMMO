@@ -2,15 +2,6 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
-      "variant": [
-        {
-          "detail": "Con Slowbro, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨, usa Teletransporte, saca a Slowbro y usa Bostezo, sacrifica a politoed luego saca a poliwrath +6",
+  "tricks": []
 }

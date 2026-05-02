@@ -2,10 +2,10 @@
   "id": "beautifly",
   "name": "Beautifly",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz 💡",
+  "initialMove": "💡Slowbro y usa Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊💡",
   "tricks": [
     {
-      "detail": "Scizor ➜ Amortiguador  cambia a Dragonite (Defensa X);  x2 Danza Dragón ; sin crítico ; sin peligro )",
+      "detail": "🔔Frente a Flygon ➜ usar Protección y Bostezo🔔",
       "variant": []
     }
   ]

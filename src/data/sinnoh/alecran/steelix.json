@@ -2,11 +2,6 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 (sceptile y omastar tienen banda focus)",
-  "tricks": [
-    {
-      "detail": "Kingler ➜ Gengar +6 no velo ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Kingler ➜ cambiar a Slowbro y usa Bostezo ➜ frente a Sceptile  entra con Volcarona +1 🦋🔥",
+  "tricks": []
 }

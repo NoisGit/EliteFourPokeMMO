@@ -2,18 +2,15 @@
   "id": "espeon",
   "name": "Espeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro + Bostezo",
+  "initialMove": "Slowbro, Bostezo (Presiona al cambio)",
   "tricks": [
     {
-      "detail": "Entra con Slowbro y usa Bostezo para presionar el cambio.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Chansey y coloca Trampa Rocas. Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Si mientras colocas Trampa Rocas el rival no cambia, usa Amortiguador hasta que cambie. Después sigue la ruta anterior."
-        }
-      ]
+      "detail": "Cambia a Chansey, trampa rocas, sale Lucario → Gengar, otra vez, +2 +2 + precisión X",
+      "variant": []
+    },
+    {
+      "detail": "Si en trampa rocas no cambia, usa amortiguador hasta que cambie → sigue la guía ↑",
+      "variant": []
     }
   ]
 }

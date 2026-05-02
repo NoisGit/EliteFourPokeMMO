@@ -2,28 +2,24 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento o cambio rival.",
+      "detail": "Cascada ➜ Teletransporte para sacar a Slowbro y usar Bostezo",
       "variant": [
         {
-          "detail": "Si usa Cascada, usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "detail": "Triturar ➜ Sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si usa Triturar, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Sceptile ➜ Volcarona +3 🔔(Mantener PS por encima del 75%)🔔",
           "variant": []
-        },
-        {
-          "detail": "Si sale Sceptile, entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gallade o Roserade, sacrifica a Politoed. Luego Slowbro mantiene Bostezo frente a Salamence y usa Teletransporte para entrar con Poliwrath y usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+        }  
+      ]  
+    },
+    {
+      "detail": "Gallade/Roserade ➜ Sacrificar a Politoed; Slowbro mantiene Bostezo frente a Salamence ➜ Teletransporte para sacar a Poliwrath +6",
+      "variant": []
     }
   ]
 }

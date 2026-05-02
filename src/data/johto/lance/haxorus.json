@@ -2,20 +2,6 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar + Bola Sombra",
-  "tricks": [
-    {
-      "detail": "Cambia a Gengar y úsalo como sacrificio atacando con Bola Sombra.",
-      "variant": [
-        {
-          "detail": "Luego Slowbro usa Bostezo frente a Scizor.",
-          "variant": []
-        },
-        {
-          "detail": "Entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "Cambiar a Gengar para sacrificar con Bola Sombra; Slowbro usa Bostezo frente a Scizor; sacrificar a Politoed; Poliwrath +6",
+  "tricks": []
 }

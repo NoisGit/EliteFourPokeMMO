@@ -2,18 +2,18 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Jirachi 💡",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Garchomp ➜ Jirachi Otra Vez; Dragonite Danza Dragón x3  / Chandelure +2 +2 ; Otra Vez  (frente a movimiento de fuego; Chandelure +2 +2",
+      "detail": "Heracross ➜ Usar Teletransporte ➜ entra con Gengar +6 (No usar Otra Vez) 🔔usar Onda Certera contra Clefable🔔",
       "variant": []
     },
     {
-      "detail": "Heracross ➜ Chandelure +2 +2",
+      "detail": "Cambio a Bronzong ➜ Sacrifica a Politoed ➜ entrar con Poliwrath +6 🐸🥊",
       "variant": []
     },
     {
-      "detail": "Ahorrar medicina/recursos  ➜ Amortiguador ; Gengar  +6 no velo ; NO usar Otra Vez ",
+      "detail": "Garchomp ➜ Usar Encanto ➜ Slowbro usa Bostezo y si garchomp se duerme usa bostezo hasta que entre Glaceon/Roserade ➜ sacrifica a Politoed ➜  Poliwrath +6 🐸🥊 🔔 Cascada contra Metagross🔔",
       "variant": []
     }
   ]

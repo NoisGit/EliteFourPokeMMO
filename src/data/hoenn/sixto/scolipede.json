@@ -2,20 +2,15 @@
   "id": "scolipede",
   "name": "Scolipede",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 si no cambia usa 🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Scolipede no cambia, usa Amortiguador.",
-      "variant": [
-        {
-          "detail": "Si sale Absol, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Para ahorrar objetos, puedes subir a Maquinación hasta +6. Absol no tiene Banda Focus.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Luxray, usa Amortiguador y espera quedar frente a Absol o Crawdaunt. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
-          "variant": []
-        }
-      ]
+      "detail": "Absol ➜ Gengar Otra Vez +2 + Precisión X 🔔para ahorrar dinero: Gengar +6 Absol no tiene banda focus🔔",
+      "variant": []
+    },
+    {
+      "detail": "Luxray ➜ Amortiguador ➜ esperar a Absol / Crawdaunt ➜ Gengar Otra Vez  +2 + Precisión X🔔para ahorrar dinero: Gengar +6🔔",
+      "variant": []
     }
   ]
 }

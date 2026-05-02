@@ -2,19 +2,6 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
-  "tricks": [
-    {
-      "detail": "Quedarse (stay) ➜ Pantalla Luz ; cambiar a Jirachi Otra Vez; Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": " si un Golpe crítico debilita a Jirachi ➜ Usa a Chandelure eliminarlo",
-      "variant": []
-    },
-    {
-      "detail": "Jellicent ➜ Sacrificar  Chandelure; Dragonite Danza Dragón x2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨, Teletransporte ➜ Slowbro usa Bostezo usar Protección con Slowbro y se duerme el rival usa  bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+  "tricks": []
 }

@@ -5,68 +5,111 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto  ➜ Ver objeto ",
+      "detail": "Si se queda --> Revisar objeto ",
+      "variant": [
+        {
+          "detail": "Vidaesfera  --> Usar Teletransporte enviar a Slowbro y usar Bostezo para ver movimientos",
+          "variant": [
+            {
+              "detail": "Terremoto --> Sacrificar a Politoed ; entrar con Poliwrath +6  🔔usar Puño Hielo contra Gengar🔔 ",
+              "variant": []
+            },
+            {
+              "detail": "Megacuerno acierta --> Usar Teletransporte ; entrar con Volcarona , usar Especial X y presionar",
+              "variant": []
+            },
+            {
+              "detail": "Megacuerno falla --> Entrar con Volcarona , usar Especial X y presionar",
+              "variant": []
+            },
+            {
+              "detail": "Gengar --> Sacrificar a Politoed ; entrar con Poliwrath  +6 y usar Puño Hielo contra Gengar ",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Sin Vidaesfera --> Usar Amortiguador  y Encanto ; mantener línea de HP con Amortiguador; si el  🔔 HP está bajo, usar max pocion primero 🔔",
+          "variant": [
+            {
+              "detail": "Si se queda --> Cambiar a Slowbro y usar Bostezo ",
+              "variant": []
+            },
+            {
+              "detail": "Terremoto --> Usar Teletransporte  entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
+              "variant": []
+            },
+            {
+              "detail": "Gengar / Parasect --> Entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Durant --> Enviar a Slowbro y usar Bostezo al enfrentar a Gengar ; entrar con Volcarona +1 🔔usar Psíquico al enfrentar a Gengar🔔",
       "variant": []
     },
     {
-      "detail": "Vidasfera  ➜ Ver Velocidades ",
+      "detail": "Parasect --> Cambiar a Volcarona",
+      "variant": [
+        {
+          "detail": "Si se queda --> Volcarona +1",
+          "variant": []
+        },
+        {
+          "detail": "Rhyperior --> Absorber hasta que debilite al enfrentar a Blastoise ; entrar con Chansey y atraer a Parasect ; entrar con Volcarona +1",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Absol --> Cambiar a Slowbro y luego a Volcarona ; al enfrentar a Gengar o Nidoking  Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
       "variant": []
     },
     {
-      "detail": "stone edge thunder flower (falta traducir esta ruta ",
+      "detail": "Absol --> Cambiar a Slowbro y usar Bostezo ; entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
       "variant": []
     },
     {
-      "detail": "Frente a Tangrowth ➜ Rayo frente a Camerupt; Protección  + Otra Vez   Chandelure no x especial  +2",
+      "detail": "Emboar --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔 Si el HP de Druddigon baja del 36% dos veces, darle medicina primero 🔔",
       "variant": []
     },
     {
-      "detail": "vs. Chansey rápido  ➜ Gallade Otra Vez  +2 +2",
-      "variant": []
+      "detail": "Durant --> Usar Teletransporte ; enviar a Slowbro y usar Bostezo ",
+      "variant": [
+        {
+          "detail": "Si se queda --> Usar Teletransporte entrar con Volcarona +1 y usar Especial X",
+          "variant": []
+        },
+        {
+          "detail": "Gengar --> Entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar (ghost) 🔔",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "vs. Chansey lento ➜ Gallade  Otra Vez ) +4 +0",
-      "variant": []
-    },
-    {
-      "detail": "【Inesperado】 Roca Afilada ➜ Cambia a Dragonite Otra Vez cambia a Jirachi frente a  Tangrowth Jirachi rayo frente a Camerupt; Jirachi proteccion  + Otra Vez ; Chandelure no x especial +2",
-      "variant": []
-    },
-    {
-      "detail": "Sin Vidasfera  ➜ Cambia a Jirachi, cambia a Gallade Otra Vez +6 +2; después de fortalecer usar Otra Vez  una vez; Rhyperior tiene BANDA FOCUS ",
-      "variant": []
-    },
-    {
-      "detail": "Amoonguss  ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Sin Vidasfera Roca Violenta  ➜ contador  frente a Paras; Chandelure +2 +2 (cura si tiene la vida baja )",
-      "variant": []
-    },
-    {
-      "detail": "Durant ➜ Cambia a Gengar  Otra Vez y Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Emboar ➜ Gengar  Otra Vez y Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior ➜ GalladeOtra Vez  +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "si tienes la vida en rojo  ➜ Dragonite Otra Vez  Danza Dragón x4",
-      "variant": []
-    },
-    {
-      "detail": " Se queda ➜ Continuar fortaleciendo  hasta +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Cambia a Jirachi Otra Vez  Chandelure +2 +2",
-      "variant": []
+      "detail": "Parasect --> Cambiar a Volcarona ",
+      "variant": [
+        {
+          "detail": "Si se queda --> Volcarona +1",
+          "variant": []
+        },
+        {
+          "detail": "Rhyperior --> Absorber al enfrentar a Blastoise  entrar con Slowbro  y usar Bostezo ",
+          "variant": [
+            {
+              "detail": "Si se queda --> Usar Protección  y Relajo  al enfrentar a Parasect ; entrar con Volcarona  +1",
+              "variant": []
+            },
+            {
+              "detail": "Parasect --> Entrar con Volcarona +1",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

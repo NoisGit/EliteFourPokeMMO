@@ -2,34 +2,34 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔 Revisa la habilidad 🔔",
+  "initialMove": "🔔 Ver habilidad 🔔",
   "tricks": [
     {
-      "detail": "Si tiene Intimidación, usa Amortiguador y revisa la ruta rival.",
+      "detail": "Intimidación ➜ Amortiguador",
       "variant": [
         {
-          "detail": "Si usa Fuerza Bruta, coloca Trampa Rocas. Frente a Absol, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+          "detail": "Fuerza Bruta ➜ Trampa Rocas y frente a Absol cambia Gengar otra vez +2 + Precisión X ",
           "variant": []
         },
         {
-          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
+          "detail": "Scizor ➜ Volcarona x2 Danza aleteo + Especial X 🔔gigadrenado a Luxray🔔",
           "variant": []
         },
         {
-          "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "detail": "Absol ➜ Gengar +4 + Precisión X (No usar Otra Vez)",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si no tiene Intimidación, elige una ruta para resolver.",
+      "detail": "Sin Intimidación ➜ Opciones para resolver",
       "variant": [
         {
-          "detail": "Ruta segura: coloca Trampa Rocas, entra con Gengar, usa Otra Vez y Maquinación hasta +2 para derrotar a Luxray. Frente a Absol, pasa por Chansey y vuelve a Gengar con Otra Vez y Maquinación hasta +2.",
+          "detail": "Ruta Segura ➜ Trampa Rocas entra Gengar otra vez  +2 y mata a luxray y frente a Absol cambia a Chansey y luego mete a Gengar otra vez  +2",
           "variant": []
         },
         {
-          "detail": "Ruta alternativa: cambia a Slowbro y usa Bostezo frente a Gyarados. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Prueba ➜ Cambiar a Slowbro y usar Bostezo frente a Gyarados; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         }
       ]

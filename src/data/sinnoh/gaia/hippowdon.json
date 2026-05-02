@@ -2,26 +2,14 @@
   "id": "hippowdon",
   "name": "Hippowdon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla Luz💡",
+  "initialMove": "💡 Opciones para resolver 💡",
   "tricks": [
     {
-      "detail": "Durant ➜ Gengar  Otra Vez y Bola Sombra ",
+      "detail": "Estable --> Cambiar a Slowbro al enfrentar a Durant; usar Bostezo ; usar Teletransporte  entrar con Volcarona +1 para debilitar al enfrentar a Hippowdon; usar Especial X y presionar",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Dragonite Otra Vez  +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Amoonguss ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Hippowdon ➜ Cambia a Gallade, cambia a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Amoonguss ➜ Chandelure +2 +2; bostea si aguantas",
+      "detail": "Rápido --> Usar Encanto al enfrentar a Durant; entrar con Volcarona +1 y usar Especial X",
       "variant": []
     }
   ]

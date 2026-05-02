@@ -2,18 +2,6 @@
   "id": "sandslash",
   "name": "Sandslash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
-      "variant": [
-        {
-          "detail": "Usa Bostezo frente a Magnezone y sacrifica a Poliwrath."
-        },
-        {
-          "detail": "Luego entra con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨, Teletransporte, saca a Slowbro y usa Bostezo frente a Magnezone, sacrifica a Poliwrath, 💊entra Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+  "tricks": []
 }

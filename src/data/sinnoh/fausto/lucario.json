@@ -2,15 +2,6 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "¿Ver si se puede ahorrar $? medicina",
-  "tricks": [
-    {
-      "detail": "ruta rapida  ➜ Cambia a Jirachi Otra Vez ); Haxorus ➜ Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $ medicina ➜ Abrir Pantalla de Luz  frente a Haxorus; Amortiguador  Gengar Otra Vez  +6 0 velocidad)",
-      "variant": []
-    }
-  ]
+  "initialMove": "🔔Usar Amortiguador ➜ Frente a Haxorus usar Amortiguador o Teletransporte ➜ Gengar  otra vez +6🔔",
+  "tricks": []
 }

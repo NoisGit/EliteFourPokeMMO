@@ -2,18 +2,11 @@
   "id": "hypno",
   "name": "Hypno",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Politoed cae",
+  "initialMove": "Politoed (sacrificar)",
   "tricks": [
     {
-      "detail": "Deja caer a Politoed y entra con Poliwrath.",
-      "variant": [
-        {
-          "detail": "Usa Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "🔔 Usa Cascada contra Hypno. 🔔"
-        }
-      ]
+      "detail": "Poliwrath +6. (Cascada a Hypno)",
+      "variant": []
     }
   ]
 }

@@ -2,20 +2,15 @@
   "id": "honchkrow",
   "name": "Honchkrow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro + Bostezo",
+  "initialMove": "🔔 Cambiar a Slowbro y usar Bostezo 🔔",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Si Honchkrow permanece, o si sale Hydreigon o Lucario, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje para mantener una buena línea de salud.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Banette, cambia a Chansey y coloca Trampa Rocas frente a Honchkrow. Luego sacrifica a Politoed y entra con Poliwrath. Usa Puño Hielo contra Honchkrow; cuando entre Hydreigon, usa Ataque X.",
-          "variant": []
-        }
-      ]
+      "detail": "Si permanece / Hydreigon / Lucario ➜ Sacrificar a Politoed ➜ Poliwrath +6 🔔 Puño Drenaje  para mantener la línea de salud 🔔",
+      "variant": []
+    },
+    {
+      "detail": "Banette ➜ Cambiar a Chansey y usar Trampa Rocas frente a Honchkrow ➜ sacrificar a Politoed  ➜ Poliwrath Puño H ➜ Cuando entra Hydreigon usa Ataque X  🔔 Puño Hielo para Honchkrow 🔔",
+      "variant": []
     }
   ]
 }

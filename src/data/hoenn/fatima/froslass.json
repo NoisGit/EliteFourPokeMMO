@@ -2,21 +2,21 @@
   "id": "froslass",
   "name": "Froslass",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "💡 Trampa Rocas ➜ si Froslass se queda, usa Amortiguador 💡",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Froslass se queda, usa Amortiguador.",
+      "detail": "Mawile ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed; Poliwrath +6 🐸🥊 💡Puño Hielo a Froslass💡",
+      "variant": []
+    },
+    {
+      "detail": "Hydreigon ➜ Teletransporte",
       "variant": [
         {
-          "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "detail": "Si permanece ➜ slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6 🐸🥊 💡Puño Hielo a Froslass💡",
           "variant": []
         },
         {
-          "detail": "Si sale Hydreigon, usa Teletransporte. Si Hydreigon permanece, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
-          "variant": []
-        },
-        {
-          "detail": "Si vuelve Mawile, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "detail": "Mawile ➜ slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6 🐸🥊 💡Puño Hielo a Froslass; si el Puño Trueno paraliza, usar Cura Total💡",
           "variant": []
         }
       ]

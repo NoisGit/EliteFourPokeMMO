@@ -2,18 +2,14 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
+  "initialMove": "🥚Amortiguador🥚",
   "tricks": [
     {
-      "detail": "Honckrow ➜ Gengar Otra vez +6 +2 (si entra Krookodile ➜ Dragonite +2 danza dragon; no usar otra vez, tiene pañuelo)",
+      "detail": "Staraptor / Garchomp ➜ Cambiar a Slowbro y usa bostezo ➜ frente a Chandelure ➜ sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊 🔔(Puño Drenaje a Sharpedo)🔔",
       "variant": []
     },
     {
-      "detail": "Staraptor ➜ Gengar +4 +2 x Defensa (tiene pañuelo staraptor)",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Dragonite Cambia a Jirachi Otra Vez ➜ Dragonite +2 danza (si usa Colmillo fuego Dragonite xdefensa y +2 danza dragon)",
+      "detail": "Honchkrow ➜ Cambiar a Slowbro y usa Bostezo ➜ frente a Chandelure ➜ sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊",
       "variant": []
     }
   ]

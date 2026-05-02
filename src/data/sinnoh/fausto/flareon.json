@@ -2,11 +2,6 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Chandelure +2 +2💡",
-  "tricks": [
-    {
-      "detail": "-",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Gengar otra vez +6 usar Bola Sombra a todos 💡 si cambia a Bronzong ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 ",
+  "tricks": []
 }

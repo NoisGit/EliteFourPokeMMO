@@ -2,11 +2,17 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 frente a Metagross, Gengar Otra Vez +2",
   "tricks": [
     {
-      "detail": "Metagross ➜ Gengar Otra Vez +4 no velo (Milotic aguanta Rayo, no eliminar a Milotic todavía, primero curar)",
+      "detail": "Si se Queda → Gengar +6 (Mantener el Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Bronzong / Milotic → Sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada a Bronzong)🔔",
       "variant": []
     }
   ]
 }
+  
+

@@ -2,16 +2,6 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Absol.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Gengar, usa Maquinación hasta +4 y barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨 TRAMPA ROCAS 🪨 Frente a Absol; Gengar +4 (Bola Sombra a todo)",
+  "tricks": []
 }

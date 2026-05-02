@@ -2,14 +2,27 @@
   "id": "quagsire",
   "name": "Quagsire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🔔Cambiar a Slowbro 🔔",
   "tricks": [
     {
-      "detail": "RHYPERIOR ➜ Jirachi ➜ Gallade: Otra Vez +4 +2  y rhyperior volver a Jirachi para recibir Terremoto",
+      "detail": "Si se queda --> Usar Bostezo al enfrentar a Gengar entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar 🔔",
       "variant": []
     },
     {
-      "detail": "si estas que te bosteas y cambia a Amoonguss  ➜ Cambia a Chandelure +2 +2",
+      "detail": "Rhyperior --> Usar Bostezo ",
+      "variant": [
+        {
+          "detail": "Megacuerno acierta --> Usar Teletransporte entrar con Volcarona  usar Especial X y presionar",
+          "variant": []
+        },
+        {
+          "detail": "Megacuerno falla --> Entrar con Volcarona , usar Especial X y presionar",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Gengar --> Entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar 🔔",
       "variant": []
     }
   ]

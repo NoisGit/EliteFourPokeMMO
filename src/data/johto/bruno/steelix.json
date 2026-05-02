@@ -5,22 +5,22 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
+      "detail": "Terremoto → Encanto → Amortiguador hasta que salga Heracross → Amortiguador → Teletransporte (recibes A Bocajarro) → Gengar: Otra Vez +2 + Precisión X",
+      "variant": []
+    },
+    {
+      "detail": "Heracross → Amortiguador → Teletransporte (recibes A Bocajarro) → Gengar: Otra Vez +2 + Precisión X",
+      "variant": []
+    },
+    {
+      "detail": "Hitmonlee → Gengar: Bola Sombra",
       "variant": [
         {
-          "detail": "Si Steelix usa Terremoto, usa Encanto y luego Amortiguador hasta que salga Heracross.",
+          "detail": "Derrótalo → sale Machamp → continuar Bola Sombra → Slowbro: Bostezo → sale Salamence → Teletransporte → Volcarona +1",
           "variant": []
         },
         {
-          "detail": "Si sale Heracross, usa Amortiguador y luego Teletransporte para recibir A Bocajarro. Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Hitmonlee, entra con Gengar y usa Bola Sombra. Cuando lo derrotes y salga Machamp, continúa con Bola Sombra, luego cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Machamp directo, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
+          "detail": "Sale Machamp → Slowbro: Bostezo → sale Salamence → Teletransporte → Volcarona +1",
           "variant": []
         }
       ]

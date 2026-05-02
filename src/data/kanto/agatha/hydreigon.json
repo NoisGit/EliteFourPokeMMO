@@ -2,24 +2,24 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento de Hydreigon.",
+      "detail": "Onda Certera → Cambia a Slowbro y usa Bostezo",
       "variant": [
         {
-          "detail": "Si usa Onda Certera, cambia a Slowbro y usa Bostezo."
+          "detail": "Si entra Rotom --> Usa Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
+          "variant": []
         },
         {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
-        },
-        {
-          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
-        },
-        {
-          "detail": "Si entra Alakazam, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar. 🔔"
-        }
-      ]
+          "detail": "Si entra Otro --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
+          "variant": []
+        }  
+      ]  
+    }, 
+    {
+      "detail": "Alakazam --> Usa Teletransporte y saca a Slowbro, Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
+      "variant": [] 
     }
   ]
 }

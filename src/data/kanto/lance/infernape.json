@@ -2,18 +2,15 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar",
+  "initialMove": "Cambia a Gengar luego a Slowbro frente a Dragonite, usa Trampa Rocas",
   "tricks": [
     {
-      "detail": "Cambia a Gengar y luego a Slowbro frente a Dragonite. Después coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Si entra Infernape, cambia a Slowbro y mantenlo en campo. Usa Bostezo frente a Dragonite, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Scizor, cambia a Slowbro y usa Bostezo frente a Dragonite. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
+      "detail": "Infernape --> Cambia a Slowbro (Mantenerlo), Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Scizor --> Cambia a Slowbro, Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    } 
   ]
 }

@@ -2,24 +2,6 @@
   "id": "empoleon",
   "name": "Empoleon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 frente a Gallade ➜ Cambiar a Gengar cambiar a Jirachi Otra Vez; Chandelure +2 +2",
-  "tricks": [
-    {
-      "detail": "Cambiar de Jirachi a Dragonite ➜ Jirachi Otra Vez ; Chandelure +0 +2; Bisharp",
-      "variant": [
-        {
-          "detail": "-",
-          "variant": []
-        },
-        {
-          "detail": "-",
-          "variant": []
-        },
-        {
-          "detail": "-",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🔔Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6🔔",
+  "tricks": []
 }

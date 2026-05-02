@@ -2,14 +2,14 @@
   "id": "bastiodon",
   "name": "Bastiodon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨; cambiar a Slowbro y usar Bostezo",
   "tricks": [
     {
-      "detail": "Se Queda ➜ Cambiar a Gengar Maquinación ; si NO usa Represión Metal , primero Otra Vez y atacar ; si usa Represión Metal, entonces continuar Maquinación ",
+      "detail": "Serperior --> 💊Entrar con Volcarona +2 y usar Atk. Especial X💊 🚨(Mantener PS por encima del 29%)🚨",
       "variant": []
     },
     {
-      "detail": "Garchomp ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Chandelure +2 +2  / Gallade +2 +2 ",
+      "detail": "Jellicent --> Usar Protección, luego bostezo; cambiar a Volcarona ante Serperior; 💊Volcarona +2 y AtkSpecial X💊 🚨(Mantener PS por encima del 29%)🚨",
       "variant": []
     }
   ]

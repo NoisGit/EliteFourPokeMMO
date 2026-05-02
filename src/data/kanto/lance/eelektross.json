@@ -2,15 +2,6 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Tyranitar.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Gengar y usa Maquinación. Barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Tyranitar, cambia a Gengar y usa Maquinacion luego Barre 🔔(Onda Certera contra Tyranitar)🔔",
+  "tricks": []
 }

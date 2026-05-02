@@ -5,29 +5,25 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Honchkrow --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill --> Teletransporte; enviar a Slowbro y usar Bostezo",
       "variant": [
         {
-          "detail": "Si sale Honchkrow, Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si se queda --> Teletransporte; Volcarona +1; barrer hasta Houndoom; luego usar Danza Aleteo una vez y barrer completo",
           "variant": []
         },
         {
-          "detail": "Si sale Excadrill, usa Teletransporte hacia Slowbro y usa Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y barre hasta Houndoom. Luego usa Danza Aleteo una vez más y termina el combate.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 frente a Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gallade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Mismagius --> Volcarona +1 frente a Houndoom; luego usar Danza Aleteo una vez y barrer completo",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Gallade --> Gengar usa Otra Vez; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
     }
   ]
 }

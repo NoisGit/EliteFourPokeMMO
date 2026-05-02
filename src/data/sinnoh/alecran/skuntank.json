@@ -2,18 +2,23 @@
   "id": "skuntank",
   "name": "Skuntank",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
+  "initialMove": "💡🪨Trampa Rocas🪨 y cambiar a Gengar💡",
   "tricks": [
     {
-      "detail": "Llamarada ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
+      "detail": "Puya Nociva ➜ Gengar usa Otra Vez al movimiento Veneno ➜ cambiar a Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Si se queda ➜ Usar Protección y Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Octillery ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "variant": []
+        }  
+      ]  
     },
     {
-      "detail": "Puya Nociva ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2; Chansey recibe veneno puede usar Autodestrucción , ver abajo",
-      "variant": []
-    },
-    {
-      "detail": " si usa Autodestrucción  frente a Flygon ➜ Jirachi Otra Vez , Gallade +4 +2",
+      "detail": "Autodestrucción y entra Durant ➜ Slowbro usa Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
       "variant": []
     }
   ]

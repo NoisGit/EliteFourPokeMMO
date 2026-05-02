@@ -2,38 +2,59 @@
   "id": "venusaur",
   "name": "Venusaur",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Venusaur se queda, identifica el movimiento.",
+      "detail": "Si se queda → Identifica el Movimiento",
       "variant": [
         {
-          "detail": "Si usa Latigazo, usa Teletransporte. Si Venusaur se queda, cambia a Slowbro y usa Bostezo. Revisa su precisión: si acierta, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2; si falla, cambia directo a Volcarona y usa Danza Aleteo x2."
+          "detail": "Latigazo → Usa Teletransporte",
+          "variant": [
+            {
+              "detail": "Si se queda → Cambia a Slowbro y usa Bostezo 🔔(Mira su Precision)🔔",
+              "variant": [
+                {
+                  "detail": "Acierta → Usa Teletransporte, entra Volcarona +2",
+                  "variant": []
+                },  
+                {
+                  "detail": "Falla → Cambia a Volcarona +2",
+                  "variant": []  
+                } 
+              ]   
+            },     
+            {
+              "detail": "Poliwrath → Cambia a Poliwrath luego a Politoed, entra Chansey y usa Teletransportacion, 💊Gengar 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
+              "variant": [] 
+            }    
+          ]  
         },
         {
-          "detail": "Si entra Poliwrath, cambia a Poliwrath y luego a Politoed. Después entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ruta ahorro: Maquinación hasta +6 y Velocidad X para +2 Velocidad."
-        }
-      ]
+          "detail": "🌱Drenadoras🌱 → Encanto frente a Gyarados, usa Teletransporte",
+          "variant": [
+            {
+              "detail": "Si se queda → Cambia a SLowbro y usa Bostezo frente a Magnzone, cambia a Poliwrath y deja que muera, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+              "variant": []
+            },  
+            {
+              "detail": "Sandlash → Cambia a Slowbro y usa relajo para recibir el terremoto, Bostezo frente a Magnezone, cambia a Poliwrath y deja que muera, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+              "variant": []
+            } 
+          ] 
+        }  
+      ]     
     },
     {
-      "detail": "Si usa Drenadoras, usa Encanto frente a Gyarados y luego Teletransporte.",
-      "variant": [
-        {
-          "detail": "Si Venusaur se queda, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego cambia a Poliwrath y deja que caiga. Entra con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        },
-        {
-          "detail": "Si entra Sandslash, cambia a Slowbro y usa Relajo para recibir Terremoto. Luego usa Bostezo frente a Magnezone, cambia a Poliwrath y deja que caiga. Entra con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        },
-        {
-          "detail": "Si entra Poliwrath, sacrifica a Politoed. Luego entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ruta ahorro: Maquinación hasta +6 y Velocidad X para +2 Velocidad."
-        },
-        {
-          "detail": "Si entra Gyarados, usa Teletransporte y entra con Slowbro. Usa Bostezo, Protección y Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        }
-      ]
+      "detail": "Poliwrath → Sacrifica a Politoed luego entra Chansey y usa Teletransportacion, 💊Gengar 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
+      "variant": []
     },
     {
-      "detail": "Si entra Sandslash directamente, usa Teletransporte y entra con Slowbro. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
+      "detail": "Sandlash → Usa Teletransporte y saca a Slowbro, Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+      "variant": []
+    },
+    {  
+      "detail": "Gyarados → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+      "variant": [] 
     }
   ]
 }

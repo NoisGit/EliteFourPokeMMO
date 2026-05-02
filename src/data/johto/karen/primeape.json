@@ -2,16 +2,6 @@
   "id": "primeape",
   "name": "Primeape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar 👻",
-  "tricks": [
-    {
-      "detail": "Cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
-      "variant": [
-        {
-          "detail": "🔔 Primeape tiene Banda Focus. 🔔",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "👻 Gengar otra vez +2 +2 + Precisión X 👻 (Primeape Banda Focus)",
+  "tricks": []
 }

@@ -2,16 +2,6 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar 👻",
-  "tricks": [
-    {
-      "detail": "Cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
-      "variant": [
-        {
-          "detail": "Barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "👻 Gengar +4 +2 Bola Sombra a todos 👻",
+  "tricks": []
 }

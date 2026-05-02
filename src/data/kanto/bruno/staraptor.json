@@ -2,33 +2,31 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar + Otra Vez",
+  "initialMove": "Cambia a Gengar, Usa Otra Vez",
   "tricks": [
     {
-      "detail": "Cambia a Gengar y usa Otra Vez.",
+      "detail": "Si eres más rapido → Gengar +2 y golpea con Onda Certera, Si fallas usa Otra Vez y vuelve a Intentar → Sale Steelix",
       "variant": [
         {
-          "detail": "Si eres más rápido, usa Maquinación hasta +2 y golpea con Onda Certera. Si fallas, usa Otra Vez y vuelve a intentarlo."
-        },
-        {
-          "detail": "Si sale Steelix, cambia a Chansey y coloca Trampa Rocas. Cuando salga un Pokémon tipo Lucha, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        },
-        {
-          "detail": "Si eres más lento, cambia a Slowbro y usa Bostezo. Cuando salga Steelix, cambia a Chansey y usa Amortiguador."
+          "detail": "Steelix → Chansey, trampa rocas. Sale un tipo lucha → Gengar, Otra Vez, +2 + Precisión X",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez.",
+      "detail": "Si eres más lento → Slowbro, bostezo. Sale Steelix → Cambia a Chansey, amortiguador",
       "variant": [
         {
-          "detail": "Luego cambia a Chansey. Cuando salga Muk, usa Amortiguador hasta que vuelva Staraptor."
+          "detail": "Machamp → Gengar, Otra Vez → Chansey, sale Muk → Amortiguador hasta que salga Staraptor",
+          "variant": []
         },
         {
-          "detail": "Contra Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
+          "detail": "Staraptor → Gengar, +4 + Precisión X (No es necesario Otra Vez)",
+          "variant": []
         },
         {
-          "detail": "Contra un Pokémon tipo Lucha, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+          "detail": "Pokemon Tipo Lucha → Gengar, Otra Vez, +4 +2 + Precisión (Mantener Otra Vez)",
+          "variant": []
         }
       ]
     }

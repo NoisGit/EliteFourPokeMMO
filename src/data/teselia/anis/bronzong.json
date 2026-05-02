@@ -2,15 +2,6 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa rocas",
-  "tricks": [
-    {
-      "detail": "Absol: gengar Otra Vez Cambia a Jirachi va Salir Hydreigon Tiene Pañuelo Elegido Cambia a Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": ".",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa rocas🪨 Frente a Absol, Gengar Otra vez 4+2 🔔(Barre con Bola Sombra)🔔",
+  "tricks": []
 }

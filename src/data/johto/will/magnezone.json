@@ -5,23 +5,20 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Magnezone se queda, usa Teletransporte.",
-      "variant": [
-        {
-          "detail": "Si aún se queda, cambia a Slowbro y usa Bostezo. Slowbro aguanta Rayo por la Banda Focus."
-        },
-        {
-          "detail": "Entra con Volcarona, usa Danza Aleteo x1 y derrota a Magnezone con Psíquico o Lanzallamas. Luego, frente a Typhlosion, deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Se Queda Magnezone ➜ usa Teletransporte",
+      "variant": []
     },
     {
-      "detail": "Si entra Girafarig, cambia a Gengar y usa Otra Vez.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Slowbro frente a Mantine y usa Bostezo frente a Magnezone. Deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Si aún se queda Slowbro bostezo ➜ entra volcarona x1 danza aleteo 🔔ataca con psiquico y lanzallamas🔔 Si entra Typhlosion ; sacrifica a Politoed ➜ Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Girafarig ➜ Cambia de Volcarona a Gengar y usa Otra Vez y cambia a Slowbro, frente a Mantine ➜ usa Bostezo y frente a Magnezone , sacrifica a Politoed ➜ Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Girafarig ➜ Gengar usa Otra Vez y cambia a Slowbro ➜ frente a Mantine usar Bostezo ➜ frente a Magnezone ➜ sacrifica a Politoed ➜ Poliwrath +6",
+      "variant": []
     }
   ]
 }

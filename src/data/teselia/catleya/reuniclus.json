@@ -2,15 +2,6 @@
   "id": "reuniclus",
   "name": "Reuniclus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 ",
-  "tricks": [
-    {
-      "detail": "Gengar +2 +2 (No usar Otra Vez)",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao con Pañuelo Elegido (Pañuelo E) ➜ Se queda bloqueado, dejar que se debilite / No importa",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Cambiar a Slowbro frente a Mienshao; usar Bostezo al enfrentar a Jolteon; sacrificar a Politoed y entrar con Poliwrath +6💡 🔔(Cascada a Reuniclus)🔔",
+  "tricks": []
 }

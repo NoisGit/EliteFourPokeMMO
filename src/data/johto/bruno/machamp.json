@@ -2,118 +2,87 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar 💡",
+  "initialMove": "💡Gengar💡",
   "tricks": [
     {
-      "detail": "Entra con Gengar y revisa el ataque de Machamp.",
+      "detail": "Puño Dinámico ➜ Cambia a Slowbro, bostezo",
       "variant": [
         {
-          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo.",
+          "detail": "Vendetta → bostezo, sale metagross/eelektross → Sacrifica a Politoed , Poliwrath +6🐸🥊",
           "variant": []
         },
         {
-          "detail": "Si usa Vendetta, usa Bostezo. Cuando salga Metagross o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Roca Afilada → Bostezo",
+          "variant": [
+            {
+              "detail": "Salamence (sin intimidación) → Chansey, trampa rocas → Gengar frente a hitmonlee → Gengar Bola sombra",
+              "variant": [
+                {
+                  "detail": "si el riva saca a Machamp ➜ cambia a Chansey y cambia a Gengar otra vez +4. Gengar tiene un 20% de probabilidad de debilitar a Steelix ➜ Si gengar muere saca a Volcarona x1 Danza aleteo.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si el rival usa Patada Salto Alta (o si Hitmonlee huye) Frente Machamp ➜ cambiar a Slowbro y luego a chansey frente Luxray ➜ Gengar otra vez 2 + Precisión X",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Eelektross → Chansey encanto y frente a Aggron usa Amortiguador → Machamp → Gengar Otra Vez +4",
+              "variant": []
+            },
+            {
+              "detail": "Metagross → Sacrifica a Politoed, Poliwrath +6🐸🥊",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si usa Roca Afilada, usa Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Si usa Puño Hielo, usa Bostezo frente a Metagross. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Puño Hielo → Bostezo frente a Metagross → Sacrifica a Politoed , Poliwrath +6🐸🥊",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta con Salamence sin Intimidación:",
+      "detail": "Puño Drenaje + Llamaesfera → Gengar, otra vez, +2",
       "variant": [
         {
-          "detail": "Cambia a Chansey y coloca Trampa Rocas. Frente a Hitmonlee, entra con Gengar y usa Bola Sombra.",
-          "variant": []
+          "detail": "Se queda → Derrótalo → Steelix → Slowbro, bostezo",
+          "variant": [
+            {
+              "detail": "Se queda → Protección → Bostezo → Heracross → Chansey → Gengar +4 + precisión X",
+              "variant": []
+            },
+            {
+              "detail": "Heracross → Chansey → Steelix → Trampa rocas",
+              "variant": [
+                {
+                  "detail": "Machamp → Gengar → Chansey → Staraptor → Gengar +2 + precisión X",
+                  "variant": []
+                },
+                {
+                  "detail": "Staraptor → Slowbro → Lucario → Volcarona +2",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Si el rival saca Machamp, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez y Maquinación hasta +4.",
-          "variant": []
-        },
-        {
-          "detail": "Gengar tiene una probabilidad baja de debilitar a Steelix. Si Gengar cae, entra con Volcarona y usa Danza Aleteo x1.",
+          "detail": "Metagross → Slowbro → Lucario → Volcarona +2",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta por Patada Salto Alta o si Hitmonlee huye frente a Machamp:",
+      "detail": "Puño Drenaje (Sin llamaesfera) → Slowbro, Bostezo",
       "variant": [
         {
-          "detail": "Cambia a Slowbro y luego a Chansey frente a Luxray. Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Rutas por cambios del rival:",
-      "variant": [
-        {
-          "detail": "Si sale Eelektross, usa Encanto con Chansey. Frente a Aggron usa Amortiguador; cuando vuelva Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+          "detail": "Golem → Teletransporte → Chansey, trampa rocas. Sale Metagross → Gengar, Otra Vez, +2 derrota, sale Golem, otro maquinación y derrotalos.",
           "variant": []
         },
         {
-          "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Eelektross o Torterra, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Si Machamp usa Puño Drenaje con Llamaesfera:",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
-          "variant": []
-        },
-        {
-          "detail": "Si se queda, derrótalo. Si sale Steelix, cambia a Slowbro y usa Bostezo. Si se queda, usa Protección y luego Bostezo otra vez.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Heracross, cambia a Chansey y luego a Gengar. Usa Maquinación hasta +4 y Precisión X.",
-          "variant": []
-        },
-        {
-          "detail": "Si Heracross cambia a Steelix, coloca Trampa Rocas con Chansey.",
-          "variant": []
-        },
-        {
-          "detail": "Si Machamp vuelve, cambia a Gengar y luego a Chansey. Frente a Staraptor, entra con Gengar, usa Maquinación hasta +2 y Precisión X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Staraptor, cambia a Slowbro. Si después sale Lucario, entra con Volcarona y usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Metagross y luego Lucario, entra con Volcarona y usa Danza Aleteo x2.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Si Machamp usa Puño Drenaje sin Llamaesfera:",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Golem, usa Teletransporte hacia Chansey y coloca Trampa Rocas. Si luego sale Metagross, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Derrótalo; cuando salga Golem, usa otra Maquinación y sigue barriendo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Eelektross o Torterra, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Eelektross/Torrterra → Politoed (sacrificar), Poliwrath +6",
           "variant": []
         }
       ]

@@ -2,11 +2,6 @@
   "id": "wailord",
   "name": "Wailord",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐸 Poliwrath 🐸",
-  "tricks": [
-    {
-      "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-      "variant": []
-    }
-  ]
+  "initialMove": "🐸 SACRIFICA AL SAPITO Y ENTRA POLIWRATH +6 🐸",
+  "tricks": []
 }

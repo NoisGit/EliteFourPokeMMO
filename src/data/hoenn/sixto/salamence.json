@@ -2,30 +2,30 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Revisa la habilidad 💡",
+  "initialMove": "💡 Mira Qué Habilidad Tiene 💡",
   "tricks": [
     {
-      "detail": "Si tiene Intimidación, usa Amortiguador y revisa qué Pokémon entra después.",
+      "detail": "Intimidación ➜ 🥚Amortiguador🥚",
       "variant": [
         {
-          "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "detail": "Absol ➜ Gengar +4 + Precisión (No usar Otra Vez)",
           "variant": []
         },
         {
-          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
+          "detail": "Scizor ➜ Volcarona x2 Danza aleteo + Especial X 💡gigadrenado a Luxray💡",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si no tiene Intimidación, coloca Trampa Rocas, sacrifica a Politoed y entra con Poliwrath. Usa Puño Hielo para derrotar a Salamence.",
+      "detail": "Sin Intimidación ➜ Trampa Rocas y sacrifica a Politoed y con Poliwrath puño hielo para matarlo",
       "variant": [
         {
-          "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas. Mantén los PS por encima del 23%.",
+          "detail": "Shiftry ➜ Volcarona x2 Danza aleteo y usa lanzallamas  contra Shiftry y el resto de plantas usar Psíquico (Mantener HP por encima del 23%)",
           "variant": []
         },
         {
-          "detail": "Si sale Hariyama, Poliwrath usa Ataque X. Usa Cascada contra Hariyama.",
+          "detail": "Hariyama ➜ Con  Poliwrath usa Ataque X 💡con Cascada contra Hariyama💡",
           "variant": []
         }
       ]

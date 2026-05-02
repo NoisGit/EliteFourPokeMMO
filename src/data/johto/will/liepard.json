@@ -2,18 +2,11 @@
   "id": "liepard",
   "name": "Liepard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si entra Golurk.",
-      "variant": [
-        {
-          "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad."
-        },
-        {
-          "detail": "Barre con Bola Sombra."
-        }
-      ]
+      "detail": "Sale Golurk ➜ Gengar Otra Vez +4 +2. (Bola sombra a todos)",
+      "variant": []
     }
   ]
 }

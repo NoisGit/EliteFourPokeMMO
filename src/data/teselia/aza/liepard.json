@@ -2,14 +2,14 @@
   "id": "liepard",
   "name": "Liepard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 ",
+  "initialMove": "🪨TrampaRocas🪨 frente a Garchomp, usar Teletransporte para sacar a Slowbro y usar Bostezo",
   "tricks": [
     {
-      "detail": "Garchomp ➜ Dragonite Cambia a Jirachi Otra Vez ➜ Chandelure +2 +2 (Terremoto (Dragonite +2 Danza) ",
+      "detail": "Sin crítico --> Usar Bostezo continuamente hasta que salga Chandelure; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "",
+      "detail": "Si hay crítico --> sacrificar a Politoed , entrar con Poliwrath +6",
       "variant": []
     }
   ]

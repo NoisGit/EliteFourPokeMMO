@@ -2,10 +2,10 @@
   "id": "heracross",
   "name": "Heracross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 (si no cambia ➜ Gengar +2 ",
+  "initialMove": "💡Gengar Otra vez +2 y Bola Sombra 💡",
   "tricks": [
     {
-      "detail": "Durant ➜ Gengar +2 no velo (no usar otra vez) ",
+      "detail": "Drapion ➜ Cambia a Chansey usa Trampa Rocas al enfrentar a Durant ➜ entra con Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
       "variant": []
     }
   ]

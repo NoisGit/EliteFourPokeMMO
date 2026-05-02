@@ -2,10 +2,6 @@
   "id": "scrafty",
   "name": "Scrafty",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Chandelure +2 +2💡",
-  "tricks": [
-    {
-      
-    }
-  ]
+  "initialMove": "💡Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed y entrar con Poliwrath +6💡",
+  "tricks": []
 }

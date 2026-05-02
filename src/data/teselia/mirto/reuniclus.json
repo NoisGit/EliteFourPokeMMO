@@ -2,23 +2,6 @@
   "id": "reuniclus",
   "name": "Reuniclus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Coloca Trampa Rocas🪨",
-  "tricks": [
-    {
-      "detail": "Lucario ➜ Gengar  Otra Vez matalo; cambia a Jirachi Otra Vez a Excadrill, Dragonite x3  Danza Dragón (💡 Bola Sombra  debilita a Dragonite💡)",
-      "variant": []
-    },
-    {
-      "detail": "Gengar  Otra Vez  frente a Volcarona ➜ Chandelure +2 +2; Zumbido golpea alrededor de 14%",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Empoleon ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜  a Chandelure, Jirachi Otra Vez , Dragonite x3 Danza Dragón ",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Usar 🪨Trampa Rocas🪨 al enfrentar a Lucario; Slowbro usa Bostezo, sacrificar a Politoed y entrar con Poliwrath +6💡 🔔(Puño drenaje a Volcarona y Cascada a Reuniclus / Si Volcarona despierta no es amenza)🔔",
+  "tricks": []
 }

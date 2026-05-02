@@ -2,37 +2,23 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Cambia a Gengar 👻",
+  "initialMove": "👻 Cambiar a Gengar 👻",
   "tricks": [
     {
-      "detail": "Si usa A Bocajarro, Gengar usa Otra Vez.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Slowbro y usa Bostezo frente a Flygon.",
-          "variant": []
-        },
-        {
-          "detail": "Cambia a Chansey y coloca Trampa Rocas. Después vuelve a Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "A Bocajarro ➜ Gengar usa Otra Vez ➜ cambiar a Slowbro y usar Bostezo frente a Flygon ➜ cambiar a Chansey y usar 🪨 Trampa Rocas 🪨➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "variant": []
     },
     {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
-        {
-          "detail": "Si sale Infernape, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque. Usa Puño Drenaje contra Lucario y Ampharos.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Feraligatr, sacrifica a Gengar con Bola Sombra. Luego Slowbro usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque. Usa Puño Drenaje para mantener la salud.",
-          "variant": []
-        }
-      ]
+      "detail": "Infernape ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Arcanine ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6🐸🥊 🔔puño drenaje a Lucario y Ampharos🔔",
+      "variant": []
+    },
+    {
+      "detail": "Feraligatr ➜ Sacrificar a Gengar con Bola Sombra ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔usar Puño Drenaje  para mantener salud🔔",
+      "variant": []
     }
   ]
 }

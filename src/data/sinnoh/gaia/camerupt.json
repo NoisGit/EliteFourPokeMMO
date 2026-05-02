@@ -2,6 +2,20 @@
   "id": "camerupt",
   "name": "Camerupt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz (Riperior➤ Dragonite Otra vez ➤ Chandelure y si sale bronzong ➤ Chandelure +4 no velo 💡  ",
-  "tricks": []
+  "initialMove": "💡Cambiar a Slowbro💡",
+  "tricks": [
+    {
+      "detail": "Rhyperior --> Usar Bostezo  🔔Revisar la precisión de Megacuerno 🔔",
+      "variant": [
+        {
+          "detail": "Si acierta --> Usar Teletransporte ; entrar con Volcarona , usar Especial X y presionar",
+          "variant": []
+        },
+        {
+          "detail": "Si falla --> Cambiar a Volcarona , usar Especial X y presionar",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

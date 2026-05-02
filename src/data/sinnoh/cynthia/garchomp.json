@@ -2,79 +2,83 @@
   "id": "garchomp",
   "name": "Garchomp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Heracross ➜ Cambiar a Gengar Otra Vez ; cambiar a Gallade (si Jirachi no protege, Gallade +4 +4 ); primero buscar velocidad +4",
-      "variant": []
+      "detail": "Vidasfera + Terremoto ➜ Revisar daño",
+      "variant": [
+        {
+          "detail": "32 - 39% (Crítico 49 - 59%) ➜ Usar Amortiguador esperando a Heracross ➜ usar Teletransporte ➜ entrar con Gengar +4 + Precisión",
+          "variant": []
+        },
+        {
+          "detail": "40 - 48% (Crítico 60 - SASH %) ➜ Usar Encanto ➜ cambiar a Slowbro y usar Bostezo",
+          "variant": []
+        },
+        {
+          "detail": "Roserade ➜ Sacrifica a Politoed ➜  Poliwrath +6 usar Cascada contra Metagross",
+          "variant": []
+        },
+        {
+          "detail": "Eelektross ➜ Usar Protección y cambia rapido a Poliwrath y frente Heracross usar Tambor y que muera ahora entra con Gengar +6 (No usar Otra Vez,Heracross Tiene Pañuelo)",
+          "variant": []
+        },
+        {
+          "detail": "Lapras ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Aerodactyl ➜ Usa Bostezo hasta forzar la salida de glaceon o Roserade y sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Tyranitar ➜ Gallade mata a tyranitar",
-      "variant": []
+      "detail": "Sin Vidasfera + Terremoto ➜ Sacrifica a Gengar ➜ cambia a Slowbro y usa Bostezo (Seguir usando Bostezo si se queda)",
+      "variant": [
+        {
+          "detail": "Nidoking o Nidoqueen / Lucario / Chandelure ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 usar Cascada contra Bronzong",
+          "variant": []
+        },
+        {
+          "detail": "Jellicent ➜ Usar Protección ➜ cambiar a Volcarona ante Serperior ➜ Volcarona +2 y usar Especial X (mantener PS por encima del 29%)",
+          "variant": []
+        },
+        {
+          "detail": "Serperior ➜ Entrar con Volcarona +2 y usar Especial X (mantener PS por encima del 29%)",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Heracross ➜ Cambiar a Chansey  y sacrificar  Jirachi Otra Vez; Chandelure +2 +2  Gengar ) Otra Vez +6 no velo ",
-      "variant": []
+      "detail": "Heracross ➜ Usar Teletransporte y revisar objeto",
+      "variant": [
+        {
+          "detail": "Vidasfera ➜ Entrar con Gengar +4 + Precisión X",
+          "variant": []
+        },
+        {
+          "detail": "Sin Vidasfera ➜ Entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
+          "variant": []
+        },
+        {
+          "detail": "Cambio a Bronzong enemigo ➜ Sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Si NO usa A Bocajarro  y debilita a Chansey  ➜ Jirachi Otra Vez ; Gallade +4 +2  / Gengar  +4 no  velo ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  Vidasfera  ➜ Cambiar a un Pokémon rápido tipo Dragón; cambiar a Jirachi Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite frente a Heracross ➜ Cambiar a Jirachi Protección ",
-      "variant": []
-    },
-    {
-      "detail": "Bloqueado en Roca Afilada  ➜ Cambiar a Gallade +2 +2 ; empujar ; Heracross tiene 10% de probabilidad de usar un movimiento aleatorio x3; al fortalecer a Gallade por segunda vez, si la salud está por debajo de 35%, usar Deseo) para estabilizar; tomar Restaurar Todo / Poción Máxima (200/max pot)",
-      "variant": []
-    },
-    {
-      "detail": "Vidasfera (Life Orb) A Bocajarro  ➜ Cambiar a Gengar  Otra Vez ; cambiar a Gallade; debilitar a Tyranitar; frente a Garchomp / Excadrill cambiar a Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto (earthquake) ➜ Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Fuego tras Otra Vez  ➜ Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  sin Vidasfera ➜ Cambiar a Dragón; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Movimiento bloqueado Terremoto ➜ Cambiar a Gallade; NO usar Otra Vez  +4 +2 ; autobloqueo de Sharpedo",
-      "variant": []
-    },
-    {
-      "detail": "si cambia hacia  Altaria ➜ Jirachi Otra Vez  frente a Fuego; Chandelure +2 +2 (22)",
-      "variant": []
-    },
-    {
-      "detail": "Cambio de movimiento ➜ Jirachi Otra Vez; Chandelure +2 +2  Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Cambiar a Gengar  Otra Vez  +4 no velo  frente a Arcanine resistir daño ",
-      "variant": []
+      "detail": "Lucario ➜ Usar Teletransporte y revisar objeto",
+      "variant": [
+        {
+          "detail": "Vidasfera ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Sin Vidasfera ➜ Entra con Gengar Otra vez +4 🔔Lucario Banda Focus🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

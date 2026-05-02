@@ -5,30 +5,31 @@
   "initialMove": "Amortiguador",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si entra Machamp, cambia a Gengar y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Infernape, usa Amortiguador para recibir A Bocajarro. Luego cambia a Gengar, usa Otra Vez y Maquinación hasta +4."
-        },
-        {
-          "detail": "Si entra Hitmonchan, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
-        }
-      ]
+      "detail": "Machamp → Cambia a Gengar luego a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     },
     {
-      "detail": "Si entra Darmanitan, elige una de estas rutas.",
+      "detail": "Infernape → Amortiguador (recibe el A Bocajarro), cambia a Gengar, Otra Vez, +4",
+      "variant": []
+    },
+    {
+      "detail": "Hitmonchan → Gengar +4 (No es necesario Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Darmanitan → VARIAS OPCIONES",
       "variant": [
         {
-          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3."
+          "detail": "Ahorro → Volcarona +3",
+          "variant": []
         },
         {
-          "detail": "Ruta RNG: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "RNG → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Estable → Cambiar a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+          "variant": []
         }
       ]
     }

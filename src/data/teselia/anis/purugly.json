@@ -2,17 +2,13 @@
   "id": "purugly",
   "name": "Purugly",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa rocas 🪨 ",
+  "initialMove": "🪨TrampaRocas🪨",
   "tricks": [
     {
-      "detail": "Hydreigon ➜ Amortiguador (si no cambia Amortiguador otra vez) ↓",
+      "detail": "Hydreigon --> Gengar Otra Vez 6+2 🔔(Onda Certera a Purugly)🔔",
       "variant": [
         {
-          "detail": "Golurk ➜ Gengar Otra Vez +4 sin velocidad x",
-          "variant": []
-        },
-        {
-          "detail": "Notas Chandelure Gafas elegidas / Lucario Banda Focus",
+          "detail": "Ida y Vuelta activa Cuerpo Maldito --> Gengar usa Otra Vez, cambiar a Poliwrath para matar a purugly 🐈",
           "variant": []
         }
       ]

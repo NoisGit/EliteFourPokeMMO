@@ -2,21 +2,17 @@
   "id": "ariados",
   "name": "Ariados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": " Usa 🪨Trampa Rocas🪨 si no cambia usa Amortiguador y ver si cambia",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Ariados no cambia, usa Amortiguador y revisa si entra Tangrowth.",
+      "detail": "Sale Tangrowth ➜ Teletransporte → Slowbro, Bostezo  🔔Mira la precisión de Tangrowth🔔 ",
       "variant": [
         {
-          "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y luego Bostezo. Observa si Tangrowth acierta su ataque.",
+          "detail": "Golpea ➜ Teletransporte → Poliwrath +6 ➜ Puño Drenaje a Tangrowth  ➜ sale sharpedo ➜ usa Velocidad X y puño drenaje 🔔Sharpedo Banda Focus🔔",
           "variant": []
         },
         {
-          "detail": "Si Tangrowth acierta, usa Teletransporte hacia Poliwrath. Usa Tambor hasta +6 Ataque, Puño Drenaje contra Tangrowth y, frente a Sharpedo, usa Velocidad X para +2 Velocidad y Puño Drenaje. 🔔 Sharpedo tiene Banda Focus. 🔔",
-          "variant": []
-        },
-        {
-          "detail": "Si Tangrowth falla, entra con Volcarona y usa Danza Aleteo x2.",
+          "detail": "Falla ➜ Volcarona x2  danza aleteo 🦋🔥 ",
           "variant": []
         }
       ]

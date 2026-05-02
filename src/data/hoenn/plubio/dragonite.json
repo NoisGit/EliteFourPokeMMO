@@ -2,16 +2,6 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💕 Encanto 💕",
-  "tricks": [
-    {
-      "detail": "Usa Encanto para bajar el daño de Dragonite.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "💕🐸 Encanto; sacrificar a Politoed; Poliwrath +6 🐸💕",
+  "tricks": []
 }

@@ -2,15 +2,6 @@
   "id": "braviary",
   "name": "Braviary",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨  ➜ Sacrificar a Chansey  ➜ Sacar a Jirachi con Otra Vez",
-  "tricks": [
-    {
-      "detail": "Manectric ➜ Jirachi Otra Vez , Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Sandslash ➜ Gallade Otra Vez  +2 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Gengar usa Otra Vez ➜ cambiar a Chansey ante Vaporeon usar 🪨Trampa Rocas🪨 frente Lucario ➜ Cambia a Slowbro y usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊💡",
+  "tricks": []
 }

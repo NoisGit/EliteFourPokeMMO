@@ -5,21 +5,16 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Feraligatr, usa Encanto. Luego cambia a Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Primeape, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
-          "variant": []
-        }
-      ]
+      "detail": "Feraligatr ➜ Encanto ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Arcanine ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Primeape ➜ Gengar +2 +2 + Precisión X",
+      "variant": []
     }
   ]
 }

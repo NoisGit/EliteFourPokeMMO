@@ -5,22 +5,12 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Ruta rápida: cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
-      "variant": [
-        {
-          "detail": "Ataca siempre con el movimiento súper eficaz para avanzar el combate.",
-          "variant": []
-        }
-      ]
+      "detail": "Rápido --> Gengar +2 + Precisión (No usar Otra Vez); usar movimientos súper eficaces",
+      "variant": []
     },
     {
-      "detail": "Ruta de ahorro: cambia a Gengar y usa Maquinación hasta +6. No uses Otra Vez.",
-      "variant": [
-        {
-          "detail": "Barre con Bola Sombra cuando ya estés preparado.",
-          "variant": []
-        }
-      ]
+      "detail": "Ahorrar dinero --> Gengar +6 (No usar Otra Vez); Bola Sombra a todo",
+      "variant": []
     }
   ]
 }

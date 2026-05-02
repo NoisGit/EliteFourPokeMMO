@@ -2,90 +2,109 @@
   "id": "magmortar",
   "name": "Magmortar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa roca🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Blaziken ➜ Cambia a Chandelure +2 +2  (Tiene pañuelo)",
+      "detail": "Se Queda Magmortar ➜ Observar Que Movimiento usa ",
+      "variant": [
+        {
+          "detail": "Tajo Cruzado ➜ Gengar Otra vez +2 y atacar ➜ Frente a Steelix ➜ cambia a Slowbro, Bostezo ➜ Frente a Maractus ➜  Volcarona  +3 ",
+          "variant": []
+        },
+        {
+          "detail": "Llamarada ➜ Usar Amortiguador Hasta que se retire ",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Conkeldurr ➜ Entrar con Gengar otra vez +2",
+      "variant": [
+        {
+          "detail": "Conkeldur no cambia ➜ Gengar +4 + Precisión X ",
+          "variant": []
+        },
+        {
+          "detail": "Salamence ➜ Gengar Bola sombra a Salamence ➜ Frente a Steelix ➜ sacrifica a Politoed ➜ Poliwrath usar Ataque X y presionar 🔔 Cascada a Steelix / Conkeldurr Puño Drenaje 🔔",
+          "variant": []
+        },
+        {
+          "detail": "Ludicolo ➜ Cambiar a Slowbro  y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Medicham ➜ Usar Teletransporte ",
+      "variant": [
+        {
+          "detail": "Vidasfera ➜ Slowbro usa Bostezo ➜ Frente a Maractus ➜ Volcarona +3 ",
+          "variant": []
+        },
+        {
+          "detail": "Sin Vidasfera ➜ Gengar +4 (No usar Otra Vez)",
+          "variant": []
+        },
+        {
+          "detail": "Si no acierta el golpe ➜ Cambiar a Slowbro  y usar Bostezo ",
+          "variant": [
+            {
+              "detail": "Maractus ➜ Volcarona  +3 🔔 puede usar Especial X 🔔",
+              "variant": []
+            },
+            {
+              "detail": "Magmortar ➜ Cambiar a Chansey  y usar Amortiguador ➜ Frente a Medicham ➜ Gengar, +2 (se suicida el medicham, es Pañuelo), sale Bronzong ➜ Volcarona +1, si se queda Bronzong o si sale Houndoom  usar Especial X y presionar para completar",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Blaziken / Arcanine ➜ Cambiar a Slowbro, Bostezo ➜ Frente a Maractus ➜ sacrifica a Politoed  ➜ Poliwrath  +6",
       "variant": []
     },
     {
-      "detail": "Medicham ➜ Gengar Bola Sombra ; ver si no es Vidasfera ",
+      "detail": "Infernape ➜ Usar Amortiguador o Teletransporte ➜ Gengar otra vez +4 +2 🔔usar Bola Sombra a todos🔔",
       "variant": []
     },
     {
-      "detail": "Vidasfera  ➜ Gengar  Bola Sombra; frente a Steelix, Dragonite Otra Vez  Danza Dragón x3 (si  Steelix  cambia directamente a Dragonite Otra Vez  Danza Dragón x3 ",
+      "detail": "Haxorus --> Usar Amortiguador o Teletransporte ➜  Gengar otra vez +6",
       "variant": []
     },
     {
-      "detail": "(Pañuelo elegido) ➜ Gengar ataca  ",
-      "variant": []
+      "detail": "Bouffalant ➜ Gengar usa Maquinación ➜ Frente a Dragonite ➜ atacar con bola sombra",
+      "variant": [
+        {
+          "detail": "Magmortar ➜ Sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Steelix ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": [
+            {
+              "detail": "Arriesgado ➜ Sacrifica directamente a Politoed ➜ Poliwrath +6",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Maractus ➜ Usar Trampa Rocas para recibir Esfuerzo y usar Amortiguador ",
+          "variant": [
+            {
+              "detail": "Lopunny / Medicham ➜ Cambiar a Slowbro y usar Bostezo ➜ Frente a Maractus entrar con Volcarona +3 🔔 puedes usar Especial X y Gigadrenado a Steelix 🔔",
+              "variant": []
+            },
+            {
+              "detail": "Magmortar ➜ Gengar otra vez +2 y presionar hasta tener en frente a  Steelix ➜ cambiar a Slowbro y usar Bostezo ➜ Frente a Maractus ➜  Volcarona  +3 🔔 Gigadrenado a Steelix, puedes usar Especial X 🔔",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Steelix ➜ Dragonite Otra Vez  Danza Dragón x3 ",
-      "variant": []
-    },
-    {
-      "detail": "Bronzong ➜ Cambia a Chansey Pantalla de Luz",
-      "variant": []
-    },
-    {
-      "detail": "Magmortar ➜ Gengar  Otra Vez  +4 no velo si corre a Ludicolo es igual , fortalecer y eliminar quemadura ",
-      "variant": []
-    },
-    {
-      "detail": "Ludicolo ➜ Cambia a Chansey , cambia a Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Cambia a Gengar  Otra Vez; frente a Steelix, Dragonite Otra Vez Danza Dragón x2, luego Otra Vez una vez más y presionar al equipo; quedarse con Gengar +6 no velo  ",
-      "variant": []
-    },
-    {
-      "detail": "Tajo Cruzado quedarse ➜ Cambia a Gengar Otra Vez  Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Dragonite Otra Vez  Danza Dragón x2 Otra Vez  y atacar )",
-      "variant": []
-    },
-    {
-      "detail": "Entei ➜ Debilitar frente a Steelix  mismo procedimiento que arriba ",
-      "variant": []
-    },
-    {
-      "detail": "Bouffalant ➜ Cambia a Chandelure +2 y ataca",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus ➜ ",
-      "variant": []
-    },
-    {
-      "detail": "Rezar estabilidad ) ➜ Gengar  Otra Vez ; cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Salamence / Magmortar ➜ Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Flareon ➜ Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $? medicina ➜ Amortiguador; Gengar Otra Vez  +6 no velo )",
-      "variant": []
-    },
-    {
-      "detail": "Camerupt ➜ Amortiguador  frente a Bouffalant; Chandelure +2 no velo  ",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ Gengar  Otra Vez ; cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➜ Jirachi Otra Vez; Chandelure +2 +2 ",
+      "detail": "Camerupt ➜ Usar Amortiguador  y esperar a Bouffalant ➜ ver estrategia de Bouffalant",
       "variant": []
     }
   ]

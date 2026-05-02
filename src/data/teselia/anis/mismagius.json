@@ -2,11 +2,6 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Toxicroak ➜ Gengar Cambia a Chansey ➜ Gengar va entrar Toxicroak (está encerrado en Terremoto), Dragonite x4 Danza / Gallade +2 +2 no usar Otra Vez",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨TrampaRocas🪨 frente a Toxicroak; cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed , entrar con Poliwrath +6",
+  "tricks": []
 }

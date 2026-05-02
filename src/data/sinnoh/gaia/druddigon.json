@@ -2,26 +2,22 @@
   "id": "druddigon",
   "name": "Druddigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Emboar ➜ Cambia a Gengar Otra Vez, Maquinación ",
+      "detail": "Si se queda --> Usar Amortiguador y esperar a Rhyperior",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Gallade Otra Vez +6 +2",
+      "detail": "Rhyperior --> Usar Teletransporte para enviar a Slowbro y usar Bostezo ; sacrificar a Politoed y entrar con Poliwrath +6 🔔Hielo golpea a Gengar🔔",
       "variant": []
     },
     {
-      "detail": "Duddrigon ➜ Gallade Otra Vez (Encore) +6 +2",
+      "detail": "Emboar --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant ; usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 35% dos veces, darle medicina primero🔔",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Gallade Otra Vez +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  ➜ Amortiguador x2; si cambia  a Rhyperior, Gallade +6+2  ",
+      "detail": "Durant --> Gengar usa Otra Vez  cambiar a Slowbro  al enfrentar a Rhyperior; usar Bostezo al enfrentar a Durant usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 35% dos veces, darle medicina primero🔔",
       "variant": []
     }
   ]

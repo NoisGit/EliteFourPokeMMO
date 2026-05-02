@@ -2,20 +2,11 @@
   "id": "tentacruel",
   "name": "Tentacruel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 TRAMPA ROCAS 🪨,",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si sale Eelektross.",
-      "variant": [
-        {
-          "detail": "Si sale Eelektross, Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo frente a Milotic.",
-          "variant": []
-        },
-        {
-          "detail": "Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Eelektross ➜ Gengar Otra Vez despues cambia a Slowbro y usa Bostezo Frete Milotic ➜ sacrifica a Politoed ➜ Poliwrath +6 🥊",
+      "variant": []
     }
   ]
 }

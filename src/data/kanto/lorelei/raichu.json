@@ -2,18 +2,11 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas, Sale Lucario → Cambia a Gengar, Otra Vez, +4 +2",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Cuando salga Lucario, cambia a Gengar.",
-      "variant": [
-        {
-          "detail": "Con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para quedar en +2 Velocidad."
-        },
-        {
-          "detail": "Mantén Otra Vez cada vez que puedas para controlar al rival. Cuando Gengar esté listo, barre con Bola Sombra."
-        }
-      ]
+      "detail": "Mantener Otra Vez cada que puedas, a todos los barres con Bola Sombra",
+      "variant": []
     }
   ]
 }

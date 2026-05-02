@@ -2,18 +2,11 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Encanto",
+  "initialMove": "Encanto → Toma una Max Poción, Usa Amortiguador → Sale Hitmonchan",
   "tricks": [
     {
-      "detail": "Usa Encanto frente a Aggron. Luego toma una Max Poción y usa Amortiguador para mantener a Chansey sana.",
-      "variant": [
-        {
-          "detail": "Cuando salga Hitmonchan, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
-        },
-        {
-          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
-        }
-      ]
+      "detail": "Saca a Gengar +4. (No es necesario Otra Vez), (Barres con Bola Sombra)",
+      "variant": []
     }
   ]
 }

@@ -2,6 +2,15 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " Gengar Otra Vez +4 +2 xDefensa 💡 ",
-  "tricks": []
+  "initialMove": "💡Gengar Otra Vez +2💡",
+  "tricks": [
+    {
+      "detail": "Quedarse --> bola sombra  al enfrentar a Lucario / Skarmory; cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Conkeldurr; Gengar +4 🔔Bola Sombra a todo🔔",
+      "variant": []
+    },
+    {
+      "detail": "Conkeldurr --> Cambiar a Chansey y luego a Gengar +2; bola sombra  al enfrentar a Skarmory; Chansey usa 🪨Trampa Rocas🪨 al enfrentar a Haxorus; Gengar +4 🔔Bola Sombra a todo🔔",
+      "variant": []
+    }
+  ]
 }

@@ -2,30 +2,41 @@
   "id": "octillery",
   "name": "Octillery",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Skuntank ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
+      "detail": "Si se queda ➜ Revisar si Chansey tiene un estado alterado",
+      "variant": [
+        {
+          "detail": "Sin estado alterado ➜ Usar Teletransporte enviar a Slowbro y usar Bostezo ➜ sacrificar Politoed ➜ entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Con estado alterado ➜ Cambia a Slowbro",
+          "variant": [
+            {
+              "detail": "Kabutops ➜ Usa Bostezo 🥱",
+              "variant": [
+                {
+                  "detail": "Yanmega ➜ Sacrificar a Politoed y entra con Poliwrath +6 🐸🥊",
+                  "variant": []
+                },
+                {
+                  "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥 ",
+                  "variant": []
+                }   
+              ]   
+            },
+            {
+              "detail": "Flygon ➜ Usar Relajo para recibir Cometa Draco ➜ usa Bostezo al enfrentar a Yanmega ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Se queda  ➜  Pantalla Luz , (cambia a Jirachi se queda presiona Rayo frente a Flygon)",
-      "variant": []
-    },
-    {
-      "detail": "Kabutops ➜ Rayo  frente a Flygon; (se queda Jirachi toma Poción Máxima , presiona Rayo hasta debilitar) ",
-      "variant": []
-    },
-    {
-      "detail": "mov Tierra  ➜ Gallade +2 +2 / Dragonite  x2 Danza Dragón ;( Gallade probabilidad de recibir arañazo , Dragonite +5 en efecto 1 Ferrothorn)",
-      "variant": []
-    },
-    {
-      "detail": "mov Fuego (encorefire) ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Otra Vez , Gallade +2 +2",
+      "detail": "Skuntank --> Sacrifica a Politoed ➜ cambiar a Volcarona luego a Gengar ➜ frente a Durant cambia a Slowbro y usa Bostezo luego Teletransporte ➜ entrar con Poliwrath +6 y usa Puño Drenaje ➜ 💊frente Crustle usar Velocidad X luego termina de Barrer💊",
       "variant": []
     }
   ]

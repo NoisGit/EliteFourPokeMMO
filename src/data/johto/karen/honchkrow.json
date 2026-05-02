@@ -2,20 +2,6 @@
   "id": "honchkrow",
   "name": "Honchkrow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro + Bostezo",
-  "tricks": [
-    {
-      "detail": "Cambia a Slowbro y usa Bostezo frente a Houndoom.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Cura la quemadura si ocurre antes de seguir barriendo.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🔔 Cambiar a Slowbro; usar Bostezo frente a Houndoom; sacrificar a Politoed; Poliwrath +6; Curar Quemadura 🔔",
+  "tricks": []
 }

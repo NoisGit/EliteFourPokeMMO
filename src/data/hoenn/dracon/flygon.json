@@ -2,20 +2,6 @@
   "id": "flygon",
   "name": "Flygon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Metagross.",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo frente a Lapras.",
-          "variant": []
-        },
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Metagross; cambiar a Slowbro y usar Bostezo frente a Lapras; sacrificar a Politoed; Poliwrath +6",
+  "tricks": []
 }

@@ -2,35 +2,33 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 ",
- "tricks": [
+  "initialMove": "🪨 Trampa Rocas 🪨",
+  "tricks": [
     {
-      "detail": "Vidasfera Puño Meteoro ➜ Cambia a Jirachi, cambia a Gallade Otra Vez +2 +2",
-      "variant": []
+      "detail": "Puño Meteoro ➜ Revisar si sube el Ataque",
+      "variant": [
+        {
+          "detail": "No sube +1 ➜ Slowbro usa Bostezo ➜ Frente a Emolga ➜ sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Si sube +1 ➜ Cambiar a Volcarona ➜ Frente usar Salamence ➜ Slowbro y Bostezo ante Emolga ➜ sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Salamence ➜ Cambia a Chansey usar Max pocion ; Amortiguador frente a tipo lucha; Gengar  Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr  ➜ Cambia a Gengar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "A Bocajarro  Llamasfera  ➜ Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Krookodile ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, Dragonite x3 danza dragon",
-      "variant": []
-    },
-    {
-      "detail": " Se queda  ➜ Gengar +4 +2  y atacar ",
-      "variant": []
-    },
-    {
-      "detail": "A Bocajarro  Vidasfera ➜ Gengar  +2 y atacar ",
-      "variant": []
+      "detail": "Conkeldurr ➜ Cambiar a Gengar 🔔revisar objeto🔔",
+      "variant": [
+        {
+          "detail": "Llamasfera ➜ Gengar Otra Vez +4 +2 🔔Bola Sombra a todo 🔔 Si cambia a gyarados cuando estas bosteandote cambia a chansey para atraer al tipo lucha (gengar +4 +2)",
+          "variant": []
+        },
+        {
+          "detail": "Sin Llamasfera ➜ Gengar Otra Vez +4 🔔Bola Sombra a todo🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

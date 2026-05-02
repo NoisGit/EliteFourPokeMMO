@@ -1,12 +1,12 @@
 {
-  "id": "golurk",
-  "name": "Golurk",
-  "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👀",
-  "tricks": [
-    {
-      "detail": "En la base de datos no se ha registrado que Lorelei inicie con este Pokémon.",
-      "variant": []
-    }
-  ]
+    "id": "golurk",
+    "name": "Golurk",
+    "image": "/placeholder.svg?height=80&width=80",
+    "initialMove": "👀",
+    "tricks": [
+        {
+            "detail": "U cant see me",
+            "variant": []
+        }
+    ]
 }

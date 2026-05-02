@@ -2,21 +2,23 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Magnezone se queda, toma una Defensa Especial X y usa Amortiguador para forzar el cambio.",
-      "variant": [
-        {
-          "detail": "Si entra Sandslash o Gyarados, usa Teletransporte y entra con Slowbro. Usa Bostezo, Protección y Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        },
-        {
-          "detail": "Si entra Poliwrath, sacrifica a Politoed. Luego entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Ruta ahorro contra Poliwrath: usa Maquinación hasta +6 y Velocidad X para +2 Velocidad."
-        }
-      ]
+      "detail": "Si se queda → 💊Toma un Def. Especial X💊, Amortiguador para forzar cambio 🔔(Identifica a quien cambia 👇)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Sandlash → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊  🔔(Gigadrenado contra Alakazam)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Gyarados → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Poliwrath → Sacrifica a Politoed, entra Chansey y usa Teletransporte, 💊Gengar 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
+      "variant": [] 
     }
   ]
 }

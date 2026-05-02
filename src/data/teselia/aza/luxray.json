@@ -2,39 +2,6 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " Amortiguador 🪨 Trampa Rocas 🪨 si no cambia una pantalla luz",
-  "tricks": [
-    {
-      "detail": "Absol ➜ Gengar Otra Vez +4 no velo (mata a absol tiene banda focus) ",
-      "variant": []
-    },
-    {
-      "detail": "Salamance Muere ↓ ",
-      "variant": []
-    },
-    {
-      "detail": "Bisharp ➜ Chansey Amortiguador/contador ",
-      "variant": []
-    },
-    {
-      "detail": "Samuroot ➜ Gengar +4 sin velo ",
-      "variant": []
-    },
-    {
-      "detail": " Tajo o Espada santa ➜ chansey Amoprtiguador contador ",
-      "variant": []
-    },
-    {
-      "detail": "Samurott ➜ Gengar Otra Vez +4 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "",
-      "variant": []
-    },
-    {
-      "detail": "",
-      "variant": []
-    }
-  ]
+  "initialMove": "Usa Amortiguador hasta tener en frete a Absol y cambia a Gengar, Otra Vez, +2 + Precision X  🔔absol tiene banda focus🔔",
+  "tricks": []
 }

@@ -2,16 +2,6 @@
   "id": "starmie",
   "name": "Starmie",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Slowbro + Bostezo 💡",
-  "tricks": [
-    {
-      "detail": "Cambia a Slowbro y usa Bostezo frente a Serperior.",
-      "variant": [
-        {
-          "detail": "Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro y usa Bostezo contra Serperior, despues usa Teletransporte y saca a Volcarona +2 🔥",
+  "tricks": []
 }

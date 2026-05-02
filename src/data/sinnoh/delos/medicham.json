@@ -2,15 +2,6 @@
   "id": "medicham",
   "name": "Medicham",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar Chandelure Matalo💡",
-  "tricks": [
-    {
-      "detail": "Dragonite / Empoleon / Raichu ➜ Cambiar a Chansey, cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Cambiar a Slowbro y usar Bostezo al enfrentar a Raichu; sacrificar a Politoed; entrar con Poliwrath +6 💡",
+  "tricks": []
 }

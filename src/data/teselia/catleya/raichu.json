@@ -2,23 +2,6 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Mienshao ➜ Cambia a Gengar, cambia a Gallade para debilitar a Snorlax",
-      "variant": []
-    },
-    {
-      "detail": "Cinccino ➜ Cambia a Jirachi Otra Vez, Chandelure 0 +2 velo (no ataque especial x ",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Jirachi, usa Defensa X; frente a Xatu usa Otra Vez, Chandelure 0 2( no ataque especial x )",
-      "variant": []
-    },
-    {
-      "detail": "Debilitar a Snorlax frente a Xatu ➜ Cambia a Jirachi Otra Vez, Chandelure 0 +2 velo (no ataque especial)",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Mienshao; cambiar a Gengar luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+  "tricks": []
 }

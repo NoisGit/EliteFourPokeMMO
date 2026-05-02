@@ -2,38 +2,22 @@
   "id": "exeggutor",
   "name": "Exeggutor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 🔔(Si no cambia usa Amortiguador)🔔",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. 🔔 Si Exeggutor no cambia, usa Amortiguador para mantener a Chansey sana. 🔔",
-      "variant": [
-        {
-          "detail": "Si entra Lapras, cambia a Politoed. Luego cambia a Slowbro cuando salga Mantine."
-        },
-        {
-          "detail": "Con Slowbro frente a Mantine, usa Bostezo. Cuando salga Magnezone, sacrifica a Poliwrath para darle entrada segura a Volcarona."
-        },
-        {
-          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
-        }
-      ]
+      "detail": "Lapras ➜ Cambiar a Politoed luego cambiar a Slowbro frente a Mantine ➜ usar Bostezo frente a Magnezone ➜ sacrificar a Poliwrath ➜ Volcarona +1 + Especial X 🔔(Psíquico a Mantine)🔔",
+      "variant": []
     },
     {
-      "detail": "Si entra Golduck, cambia a Gengar.",
+      "detail": "Golduck ➜ Cambiar a Gengar",
       "variant": [
         {
-          "detail": "Si Golduck se queda, cambia a Slowbro cuando salga Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
+          "detail": "Si se queda ➜ Cambiar a Slowbro frente a Mantine ➜ usar Bostezo frente a Magnezone ➜ sacrificar a Poliwrath ➜ Volcarona +1 + Especial X 🔔(Psíquico a Mantine)🔔",
+          "variant": []
         },
         {
-          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Lapras directamente, cambia a Slowbro y usa Bostezo frente a Magnezone.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X. 🔔 Usa Psíquico contra Mantine. 🔔"
+          "detail": "Lapras ➜ Cambiar a Slowbro y usar Bostezo frente a Magnezone ➜ sacrificar a Poliwrath ➜ Volcarona +2 + Especial X 🔔(Psíquico a Mantine)🔔",
+          "variant": []
         }
       ]
     }

@@ -5,19 +5,45 @@
   "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2",
+      "detail": "Si se queda ➜ Cambiar a Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Yanmega ➜ Sacrifica a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Drapion ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥 ",
+          "variant": []
+        },
+        {
+          "detail": "Scizor ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []  
+        }
+      ]
+    },
+    {
+      "detail": "Flygon ➜ Usar Teletransporte ➜ enviar a Slowbro  🔔(Revisar daño de Terremoto)🔔",
+      "variant": [
+        {
+          "detail": "29.4 - 34.5% (Crítico 43.7 - 51.7%) --> Usar Relajo para recibir Cometa Draco ➜ usa Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "36.5 - 44% (Crítico 54 - 65%) ➜ Usa Bostezo hasta enfrentar a Drapion/Scizor ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Durant ➜ Entra con Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
       "variant": []
     },
     {
-      "detail": "Durant ➜ Gengar +2; (No usar Otra Vez)",
-      "variant": []
-    },
-    {
-      "detail": "Cascada / Roca Afilada  ➜ contador Amortiguador; contador  (kabuto tiene banda focus)",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2 / Dragonite x2  ( Terremoto  1 Ferrothorn +2 puede presionar ",
+      "detail": "Scizor ➜ Chansey usa Amortiguador esperando a Flygon ➜ cambia a Slowbro y usar Bostezo al enfrentar a Drapion ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
       "variant": []
     }
   ]

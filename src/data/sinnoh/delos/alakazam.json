@@ -2,43 +2,6 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz💡",
-  "tricks": [
-    {
-      "detail": "Presionar caída  Kecleon frente a Gallade ➜ Cambiar a Chansey  abrir Pantalla de Luz ; frente a Lucario, Gengar Otra Vez  +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Buscando para hacer rapido  ➜ Chandelure +2 +2 ; (cinta elegida)",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $ medicina ➜ Gengar  Otra Vez; cambiar a Gallade debilita",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Espada Santa  ➜ Gengar  +4 +2  / Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Psicocorte  ➜ Protección  cambia a Chansey Amortiguador Gengar (ghost) +4 +2 Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": " hacerlo rapido ➜ Cambiar a Jirachi, quedarse ante Psicocarga / Lucario; Jirachi Otra Vez  Chandelure +2 +2  (probando)",
-      "variant": []
-    },
-    {
-      "detail": "Abrir Pantalla de Luz corre a Lucario ➜ Cambiar a Gengar Otra Vez; cambiar a Gallade debilitar a Kecleon",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Gallade➜ Cambiar a Jirachi Protección frente a Alakazam; Jirachi Otra Vez Poder Oculto Fuego , Chandelure +2 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Usar Amortiguador al enfrentar a Lucario; entrar con Gengar  +2 +2 + Precisión 💡 Si no cambia, usa Amortiguador",
+  "tricks": []
 }

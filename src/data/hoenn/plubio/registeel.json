@@ -2,35 +2,39 @@
   "id": "registeel",
   "name": "Registeel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 TRAMPA ROCAS 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Registeel se queda, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si se queda ➜ Sacrifica al sapito y luego entra Poliwrath +6 🥊",
       "variant": []
     },
     {
-      "detail": "Si sale Eelektross, Gengar usa Otra Vez y luego cambia a Slowbro. Frente a Milotic o Swampert, usa Bostezo. Si Milotic se queda usando Escaldar, sigue usando Bostezo.",
+      "detail": "Eelektross ➜ Gengar Otra Vez despues cambia a Slowbro, frente a Milotic/Swampert usa Bostezo 😴 (Si se queda haciendo Escaldar sigue usando Bostezo)",
       "variant": [
-        {
-          "detail": "Si usa Poder Oculto Eléctrico, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+         {
+           "detail": "Poder Oculto Electrico ➜ Sacrifica al sapito y luego entra Poliwrath +6 🥊",
+           "variant": []
+         },
+         {    
+            "detail": "Altaria ➜ Cambia a Chansey para atraer a Eelektross, usa Teletransporte y entra Slowbro usa Bostezo luego sacrifica al sapito y entra Poliwrath +6 🥊",
+            "variant": []
+         },
+         {  
+            "detail": "Serperior ➜ Usa Proteccion y Bostezo, despues sacrifica al sapito y entra Poliwrath +6 🥊",
+            "variant": []
+         },
+         {  
+            "detail": "Eelektross ➜ Sacrifica al sapito y entra Poliwrath +6 🥊",
+            "variant": []
+         },
+         {       
+            "detail": "Gardevoir ➜ Sacrifica al sapito y entra Poliwrath +6 🥊",
+            "variant": []
+         } 
+      ]  
     },
     {
-      "detail": "Si sale Altaria, cambia a Chansey para atraer a Eelektross. Usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-      "variant": []
-    },
-    {
-      "detail": "Si sale Serperior, usa Protección y Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-      "variant": []
-    },
-    {
-      "detail": "Si sale Gardevoir o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-      "variant": []
-    },
-    {
-      "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo contra Serperior. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
+      "detail": "Mienshao ➜ Cambia a Slowbro y usa Bostezo contra Serperior, despues usa Teletransporte y entra Volcarona +1 🔥",
       "variant": []
     }
   ]

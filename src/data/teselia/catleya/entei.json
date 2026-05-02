@@ -2,46 +2,31 @@
   "id": "entei",
   "name": "Entei",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Contador 💡",
+  "initialMove": "❤️Encanto❤️",
   "tricks": [
     {
-      "detail": "Entei con Banda Focus ➜ Trampa Rocas + Contador para debilitar (Ojo: 💡 puede curarse)",
+      "detail": "Vidasfera ➜ Cambiar a Slowbro frente a Mienshao, usar Bostezo, sacrifica a Politoed ➜Poliwrath +6🐸🥊 🔔(Puño Drenaje a Mienshao y Cascada a Musharna/Metagross)🔔",
       "variant": []
     },
     {
-      "detail": "Alakazam ➜ cambia a Jirachi Otra Vez, cambia a Gengar +2 no velo ataca (lock) si usa Bola Sombra, cambia a Dragonite x2 Danza Dragón",
-      "variant": []
+      "detail": "No Vidasfera ➜ 🪨Usa Trampa rocas🪨 🔔(Si se queda, cambiar a Slowbro y usar Bostezo)🔔",
+      "variant": [
+        {
+          "detail": "Alakazam ➜ Teletransporte, sacar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Metagross ➜ Cambiar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Leafeon ➜ Usar Amortiguador, Encanto y Amortiguador para forzar el cambio ⬆️(Mira la Solucion Arriba)⬆️",
+          "variant": []
+        }
+      ]
     },
-    {
-      "detail": "Frente a Metagross ➜ cambia a Jirachi, cambia a Dragonite Otra Vez x3 Danza Dragón; si es Metagross con Globo Helio usa primero Garra Dragón",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Leafeon ➜ usar Máx. Poción, mira si te curas o usas Contador para eliminar a Entei; frente a Metagross cambia a Jirachi y luego a Gallade Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ cambia a Gengar, cambia a Gallade para debilitar a Umbreon",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Altaria ➜ cambia a Jirachi Otra Vez, cambia a Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Prueba (testing) ➜ cambia a Chansey si alguien usa algo tipo lucha, Gengar +4 a (Altaria no te mata/ignorar)",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ cambia a Jirachi y usa Protección",
-      "variant": []
-    },
-    {
-      "detail": "Mantener frente a Puño Hielo ➜ usar Defensa X, luego Protección frente a Altaria y Otra Vez con Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Altaria y Otra Vez con Chandelure +2 +2",
+    { 
+      "detail": "Alakazam ➜ 🪨Trampa rocas🪨 luego usa Teletransporte, sacar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
       "variant": []
     }
   ]

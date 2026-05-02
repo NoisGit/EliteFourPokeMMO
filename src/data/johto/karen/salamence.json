@@ -2,20 +2,11 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Absol; Volcarona +2 🔔(aguantar el Persecución de Absol; límite extremo Crítico 50%)🔔",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas frente a Absol y entra con Volcarona.",
-      "variant": [
-        {
-          "detail": "Volcarona usa Danza Aleteo x2. Aguanta Persecución de Absol; el límite extremo con crítico ronda el 50%.",
-          "variant": []
-        },
-        {
-          "detail": "Usa Danza Aleteo una vez y barre hasta Houndoom. Luego usa Danza Aleteo otra vez para quedar en total con Danza Aleteo x2 y termina de barrer.",
-          "variant": []
-        }
-      ]
+      "detail": "Usar Danza Aleteo una vez y barrer hasta Houndoom --> Luego usar Danza Aleteo otra vez (Total +2) y barrer ",
+      "variant": []
     }
   ]
 }

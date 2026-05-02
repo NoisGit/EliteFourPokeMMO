@@ -2,23 +2,6 @@
   "id": "glaceon",
   "name": "Glaceon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambia a Jirachi 💡",
-  "tricks": [
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto tras Otra Vez  ➜ Dragonite Danza Dragón x4  / Gallade +4 +2 ; buscando superar velocidad ; Gallade +2 +2  resistir Puño Meteoro ",
-      "variant": []
-    },
-    {
-      "detail": "Aerodactyl ➜ Protección  frente a Garchomp; ver lo anterior ",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse  ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Usar Encanto, cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6; usar Cascada contra Metagross 💡",
+  "tricks": []
 }

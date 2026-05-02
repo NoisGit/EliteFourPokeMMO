@@ -2,20 +2,11 @@
   "id": "bisharp",
   "name": "Bisharp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si entra Crobat.",
-      "variant": [
-        {
-          "detail": "Si sale Crobat, cambia a Slowbro y mantén Bostezo hasta que salga Gengar o Lapras.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
-          "variant": []
-        }
-      ]
+      "detail": "Sale Crobat ➜ Cambia a Slowbro ➜ Manten Bostezo hasta que salga Gengar/Lapras ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 (Puño Hielo a Gengar)",
+      "variant": []
     }
   ]
 }

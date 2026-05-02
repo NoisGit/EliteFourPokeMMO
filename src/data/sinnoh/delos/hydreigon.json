@@ -2,14 +2,14 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Amortiguador",
+  "initialMove": "🥚 Amortiguador 🥚 y observa qué objeto tienen",
   "tricks": [
     {
-      "detail": "Fuerza Bruta  con Vidaesfera ➜ Trampa rocas frente a Gallade Gengar  Otra Vez +6 +2 ",
+      "detail": "Vidasfera --> Cambiar a Slowbro ante Gallade o Roserade; usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Fuerza Bruta con Pañuelo Elegido➜ Trampa rocas frente a Gallade; cambiar a Gengar , cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ; si envían a Hydreigon, NO usar Otra Vez ",
+      "detail": "Sin Vidasfera --> Usar Trampa Rocas al enfrentar a Gallade o Roserade; entrar con Gengar +4 +2 + Precisión",
       "variant": []
     }
   ]

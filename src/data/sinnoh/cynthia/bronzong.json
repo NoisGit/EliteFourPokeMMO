@@ -2,75 +2,37 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 (Si se queda, usar Amortiguador)",
   "tricks": [
     {
-      "detail": "Heracross ➜ Amortiguador ; ver objeto",
+      "detail": "Heracross --> Usar Teletransporte y revisar objeto",
+      "variant": [
+        {
+          "detail": "Vidasfera --> Entrar con Gengar +4 + Precisión",
+          "variant": []
+        },
+        {
+          "detail": "Sin Vidasfera --> Entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Cambio a Bronzong enemigo --> Sacrificar a Politoed; entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Vidasfera  ➜ Gengar  Otra Vez ; cambiar a Gallade",
+      "detail": "Garchomp --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6; usar Cascada contra Bronzong",
       "variant": []
     },
     {
-      "detail": "Tyranitar ➜ Debilitar tyranitar ",
-      "variant": []
-    },
-    {
-      "detail": "Heracross ➜ Sacrificar Chansey ; Jirachi Otra Vez ; Chandelure +2 +2 ; (si Chansey muere al comienzo, cambiar a Gengar  y sacrificar ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Gallade +4 +2 )",
-      "variant": []
-    },
-    {
-      "detail": "Pañuelo Elección ➜ Chandelure +2 +2 ; NO usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Cambiar a Gallade +4 +2 ; este inicio frente a Garchomp debería ser siempre pañuelo ; si hay una situación distinta, (porfavor reportar)",
-      "variant": []
-    },
-    {
-      "detail": "Giro Bola  ➜ Cambiar a Jirachi, cambiar a Chansey   Pantalla Luz ; Jirachi recibe Llamarada , regresa debilitado ; no se puede usar Otra Vez )",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Cambiar a Jirachi frente a Lucario ➜ Otra Vez ; Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto ➜ Cambiar a Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Cambiar a Chansey (egg), cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Nidoqueen / Altaria / Lucario ➜ Jirachi Otra Vez (Encore); Chandelure +2 +2 (22)",
-      "variant": []
-    },
-    {
-      "detail": "se queda  ➜ Gallade Otra Vez ; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Altaria ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Gengar Otra Vez ; frente a Garchomp Gallade +4 +2 ; (tiene pañuelo?)",
-      "variant": []
+      "detail": "Lucario --> Usar Teletransporte; cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
+      "variant": [
+        {
+          "detail": "Si Slowbro retrocede, saca politoed (sacrificar), Poliwrath +2 (con Ataque X), (manten HP 70%).",
+          "variant":  []
+        }
+      ]
     }
   ]
 }

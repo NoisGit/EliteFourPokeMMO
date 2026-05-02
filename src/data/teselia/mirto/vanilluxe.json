@@ -2,19 +2,6 @@
   "id": "vanilluxe",
   "name": "Vanilluxe",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Pantalla luz 💡",
-  "tricks": [
-    {
-      "detail": "Ventisca y  se queda ➜ Cambia a Jirachi Protección  ↓ ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Jirachi Otra Vez , Dragonite x4 Danza Dragón ",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Excadrill ➜ Sacrifica  a Chandelure, Jirachi Otra Vez, cambia a Dragonite  x4 Danza Dragón ",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Cambiar a Slowbro y usar Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6+2💡",
+  "tricks": []
 }

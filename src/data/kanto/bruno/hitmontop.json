@@ -2,15 +2,12 @@
   "id": "hitmontop",
   "name": "Hitmontop",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y cambia a Volcarona.",
-      "variant": [
-        {
-          "detail": "Usa Danza Aleteo x1 y barre."
-        }
-      ]
+      "detail": "Cambia a Volcarona, +1. Barre",
+      "variant": []
     }
   ]
 }
+    

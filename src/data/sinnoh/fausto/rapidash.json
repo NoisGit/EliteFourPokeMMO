@@ -2,26 +2,18 @@
   "id": "rapidash",
   "name": "Rapidash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 Gengar Otra Vez Jirachi (ataques fuego contra dulicolo es neutro)",
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Conkeldurr; entrar con Gengar +2",
   "tricks": [
     {
-      "detail": "Cambia a Jirachi frente a Vuelo violento ➜ Otra Vez , Chandelure +2 +2 ",
+      "detail": "Si se queda --> Gengar +4 + Precisión ",
       "variant": []
     },
     {
-      "detail": "Cambia a Jirachi frente a Ludicolo ➜ Cambia a Chansey  Pantalla de Luz",
+      "detail": "Salamence --> Atacar hasta debilitar al enfrentar a Steelix; sacrificar a Politoed (皇); entrar con Poliwrath , usar Ataque X y presionar con Cascada  a Steelix / Conkeldurr restante con Puño Drenaje ",
       "variant": []
     },
     {
-      "detail": "Cambia Jirachi a Steelix ➜ Cambia a Dragonite Otra Vez  Danza Dragón x3 ; (para hacerlo mas rapido dranza dragon x ataque )",
-      "variant": []
-    },
-    {
-      "detail": "🪨Trampa rocas🪨 y cambia  Conkeldurr ➜ Cambia a Gengar  Otra Vez  Maquinación  frente a Steelix; Gallade Otra Vez  +2 +2 (para hacerlo mas rapido dranza dragon x ataque )",
-      "variant": []
-    },
-    {
-      "detail": "Cambia a Gengar frente a Ludicolo ➜ Cambia a Chansey  Pantalla de Luz ",
+      "detail": "Ludicolo --> Cambiar a Slowbro  y usar Bostezo  sacrificar a Politoed  entrar con Poliwrath  +6",
       "variant": []
     }
   ]

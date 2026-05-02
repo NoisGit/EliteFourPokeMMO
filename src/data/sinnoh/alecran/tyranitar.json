@@ -2,50 +2,31 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Scizor ➜ Chandelure debilitalo ; (No cambiar a Chansey  directo a Dragonite  x1 Danza Dragón ; atacar  ？",
-      "variant": []
+      "detail": "Si se queda ➜ Cambiar a Poliwrath y usa Puño Drenaje 🚨(Metodo Arriesgado: Directamente sacrifica a Politoed para entrar con Poliwrath +6)🚨",
+      "variant": [
+        {
+          "detail": "Ferrothorn ➜ Volcarona +1",
+          "variant": []
+        },
+        {
+          "detail": "Gastrodon ➜ Sacrificar a Politoed ➜ entrar con Poliwrath y usar Ataque X para Barrer 🔔(Puño Drenaje a Volcarona)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Drapion ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño Drenaje a Volcarona)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Gliscor ➜ Puño Hielo y deja que muera ➜ entra Volcarona +1",
+          "variant": []  
+        }   
+      ]  
     },
     {
-      "detail": "Drapion ➜ Cambia a Chansey , cambia a Dragonite",
-      "variant": []
-    },
-    {
-      "detail": "Kingler ➜ x1 Danza Dragón atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar ➜ Cambia a Chansey, cambia a Dragonite",
-      "variant": []
-    },
-    {
-      "detail": "Kingler ➜  x1 Danza Dragón atacar  ",
-      "variant": []
-    },
-    {
-      "detail": "Prueba de velocidad ) ➜ Amortiguador , Dragonite Danza Dragón x2",
-      "variant": []
-    },
-    {
-      "detail": "Se queda Triturar / Roca Afilada ➜ Amortiguador (, devuelve el golpe contador  debilita",
-      "variant": []
-    },
-    {
-      "detail": "Ferrothorn ➜ Cambia a Chandelure debilita",
-      "variant": []
-    },
-    {
-      "detail": "Drapion ➜ Cambia a Chansey toma Poción Máxima  contador  debilita",
-      "variant": []
-    },
-    {
-      "detail": "Gliscor/ astrodon ➜ Dragonite Otra Vez  Danza Dragón x3",
-      "variant": []
-    },
-    {
-      "detail": "Gliscor ➜ Gallade Otra Vez +2 +2; Otra Vez  atacarr ",
+      "detail": "Scizor ➜ Slowbro usa Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
       "variant": []
     }
   ]

@@ -2,58 +2,65 @@
   "id": "dusknoir",
   "name": "Dusknoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Revisa si tiene Presión 💡",
+  "initialMove": "💡(Observa si tiene Presión)💡",
   "tricks": [
     {
-      "detail": "Si tiene Presión, coloca Trampa Rocas. Si Dusknoir se queda, usa Amortiguador.",
+      "detail": "Con Presión ➜ Trampa Rocas 🔔(Si se queda usa Amortiguador)🔔",
       "variant": [
         {
-          "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza, usa Cura Total.",
+          "detail": "Mawile ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed, Poliwrath +6 🔔(Puño Hielo a Froslass)🔔 🚨(Si el Puño trueno te paraliza usa una Curacion Total)🚨",
           "variant": []
         },
         {
-          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
+          "detail": "Lucario ➜ Cambiar a Gengar para ver movimiento",
           "variant": [
             {
-              "detail": "A Bocajarro: Gengar usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Para ahorrar objetos, puedes subir a Maquinación hasta +6.",
+              "detail": "A Bocajarro ➜ Gengar +2 + Precisión X (No usar Otra Vez) 💰(Si quieres Ahorrar: Gengar +6)💰",
+              "variant": []
+            }, 
+            { 
+              "detail": "Patada Salto Alta ➜ Gengar +2, suicidate frente a Houndoom, sacrificar a Politoed, Poliwrath +6 🚨(Si hay quemadura, usar Restaurar Todo)🚨",
+              "variant": []
+            }
+          ] 
+        },
+        { 
+          "detail": "Honchkrow ➜ Sacrificar a Politoed, Poliwrath Barre hasta llegar a Hydreigon, usar un Ataque X y seguir Barrriendo",
+          "variant": []
+        },
+        {
+          "detail": "Arcanine ➜ Cambiar a Slowbro y usar Bostezo frente a Raichu, sacrificar a Politoed, Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Hydreigon ➜ Teletransporte",
+          "variant": [
+            {
+              "detail": "Si se queda ➜ Enviar a Slowbro y usar Bostezo, sacrificar a Politoed, Poliwrath +6 🔔(Puño Hielo a Froslass)🔔",
               "variant": []
             },
             {
-              "detail": "Patada Salto Alta: Gengar usa Maquinación hasta +2 y se sacrifica frente a Houndoom. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si hay quemadura, usa Restaurar Todo.",
+              "detail": "Mawile ➜ Enviar a Slowbro y usar Bostezo, sacrificar a Politoed, Poliwrath +6 🔔(Puño Hielo a Froslass)🔔 🚨(Si el Puño trueno te paraliza usa una Curacion Total)🚨",
               "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si sale Honchkrow, sacrifica a Politoed. Poliwrath barre hasta Hydreigon, usa Ataque X y sigue barriendo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo frente a Raichu. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Hydreigon, usa Teletransporte. Si Hydreigon se queda, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
-          "variant": []
+            } 
+          ]  
         }
       ]
     },
     {
-      "detail": "Si no tiene Presión, es Zoroark disfrazado de Dusknoir.",
+      "detail": "Sin Presión (Zoroark) ➜ Trampa Rocas frente a Lucario 🔔(Revisar posición de Lucario en el Equipo)🔔",
       "variant": [
         {
-          "detail": "Coloca Trampa Rocas frente a Lucario y revisa la posición de Lucario en el equipo rival.",
+          "detail": "Posición 2 (A Bocajarro) ➜ Gengar Otra Vez 4+2 🔔(Barre con Bola Sombra)🔔",
           "variant": []
-        },
+        },    
         {
-          "detail": "Lucario en posición 2 con A Bocajarro: cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Lucario en posición 3 con Patada Salto Alta: cambia a Slowbro y usa Bostezo frente al Dusknoir falso. Usa Protección y Bostezo si sale Hydreigon. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Posición 3 (Patada Salto Alta) ➜ Cambiar a Slowbro y usar Bostezo frente al Dusknoir falso, usar Protección y Bostezo si sale Hydreigon, sacrifica a Politoed, Poliwrath +6 🥊",
           "variant": []
         }
       ]
     }
   ]
 }
+  
+

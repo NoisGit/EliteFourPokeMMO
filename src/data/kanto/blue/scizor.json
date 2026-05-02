@@ -2,15 +2,6 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Vaporeon.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨, cambia a Slowbro y usa Bostezo frente a Vaporeon, sacrifica a Politoed, entra Poliwrath +6",
+  "tricks": []
 }

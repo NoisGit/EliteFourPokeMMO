@@ -2,15 +2,11 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Amortiguador",
+  "initialMove": "AMORTIGUADOR, recibes a Bocajarro",
   "tricks": [
     {
-      "detail": "Usa Amortiguador para recibir A Bocajarro.",
-      "variant": [
-        {
-          "detail": "Luego usa Teletransporte hacia Gengar, usa Otra Vez y Maquinación hasta +4."
-        }
-      ]
+      "detail": "Teletransporte → Gengar, Otra Vez, +4",
+      "variant": []
     }
   ]
 }

@@ -2,15 +2,6 @@
   "id": "sharpedo",
   "name": "Sharpedo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨trampa Rocas🪨",
-  "tricks": [
-    {
-      "detail": "Staraptor ➜ Gengar +4 +2 xdefensa (no usar otra vez)",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Dragonite cambia a Jirachi Otra Vez ➜ Chandelure +2 +2",
-      "variant": []
-    }
-  ]
-}
+  "initialMove": "🥚Amortiguador🥚 cambiar a Slowbro , usar Bostezo frente a Chandelure sacrificar a Politoed y entrar con Poliwrath +6",
+  "tricks": []
+} 

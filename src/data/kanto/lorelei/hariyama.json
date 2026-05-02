@@ -2,18 +2,6 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐌 Cambia a Slowbro",
-  "tricks": [
-    {
-      "detail": "Cambia a Slowbro y usa Bostezo para dormir la amenaza.",
-      "variant": [
-        {
-          "detail": "Después saca a Politoed y deja que caiga para darle entrada segura a Poliwrath."
-        },
-        {
-          "detail": "Con Poliwrath, usa Tambor para quedar en +6 Ataque. 🐸 Usa Puño Drenaje contra Jynx."
-        }
-      ]
-    }
-  ]
-}
+  "initialMove": "🐌 Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6 🐸 Puño Drenaje a Jynx",
+  "tricks": []
+}   

@@ -2,15 +2,6 @@
   "id": "garchomp",
   "name": "Garchomp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
-  "tricks": [
-    {
-      "detail": "Cambia a Slowbro frente a Scizor y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "Cambia a Slowbro frente a Scizor, Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+  "tricks": []
 }

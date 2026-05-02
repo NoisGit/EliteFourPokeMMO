@@ -2,15 +2,6 @@
   "id": "sigilyph",
   "name": "Sigilyph",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
-  "tricks": [
-    {
-      "detail": "Gallade ➜ Gengar +4 +2 / chandelure +2 +2 (no usar Otra Vez y curate si estas quemado ?",
-      "variant": []
-    },
-    {
-      "detail": "-",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Gallade o Roserade; entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra para todos",
+  "tricks": []
 }

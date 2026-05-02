@@ -2,20 +2,6 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar 👻",
-  "tricks": [
-    {
-      "detail": "Cambia a Gengar y usa Maquinación hasta +6.",
-      "variant": [
-        {
-          "detail": "Ataca con Bola Sombra para cerrar la ruta.",
-          "variant": []
-        },
-        {
-          "detail": "Si Skarmory conecta un crítico, usa Max Poción antes de continuar.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "👻Cambia a Gengar +6👻 🔔(Barrer con Bola Sombra)🔔 🚨(Si Skarmory hace Critico usa Max Pocion)🚨",
+  "tricks": []
 }

@@ -2,18 +2,15 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
+  "initialMove": "Cambia a Slowbro luego a Chansey",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y luego a Chansey para revisar la ruta.",
-      "variant": [
-        {
-          "detail": "Si entra Ampharos, coloca Trampa Rocas. Luego cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos. 🔔"
-        },
-        {
-          "detail": "Si entra Hydreigon, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Ampharos → Trampa rocas, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Hydreigon → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
     }
   ]
 }

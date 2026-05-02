@@ -2,21 +2,6 @@
   "id": "claydol",
   "name": "Claydol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas. Si Claydol se queda, aguanta con Defensa Especial X y usa Amortiguador frente a Girafarig.",
-      "variant": [
-        {
-          "detail": "Cuando entre Girafarig, cambia a Gengar y usa Otra Vez."
-        },
-        {
-          "detail": "Luego cambia a Slowbro frente a Mantine y usa Bostezo frente a Magnezone."
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨🔔 Si Claydol se queda: aguantar con x defensa especial  y usar Amortiguador 🔔 frente a Girafarig; Gengar usa Otra Vez; cambiar a Slowbro frente a Mantine; usar Bostezo frente a Magnezone; sacrificar a Politoed; Poliwrath +6",
+  "tricks": []
 }

@@ -2,42 +2,34 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento o cambio rival.",
+      "detail": "Poder Oculto --> Cambiar a Gengar, Usar Otra Vez",
       "variant": [
         {
-          "detail": "Si usa Poder Oculto, cambia a Gengar y usa Otra Vez.",
+          "detail": "Si se queda --> Gengar otra vez +6 🔔(Tiene banda focus y Barre con Bola Sombra)🔔",
           "variant": []
         },
         {
-          "detail": "Si Lucario se queda, Gengar usa Otra Vez y Maquinación hasta +6. 🔔 Lucario tiene Banda Focus. Barre con Bola Sombra. 🔔",
+          "detail": "Salamence --> Cambiar a Slowbro, mantenerte usando Bostezo (Ver abajo guía del Salamence)",
           "variant": []
         },
         {
-          "detail": "Si sale Rapidash, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Spiritomb, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si Spiritomb despierta, no es amenaza.",
-          "variant": []
-        },
-        {
-          "detail": "Si vuelve Lucario, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Rapidash --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta con Salamence:",
+      "detail": "Salamence --> Cambiar a Slowbro, bostezo, luego protección y vuelve a usar bostezo, sale Spiritomb; sacrificar a Politoed; Poliwrath +6 🔔 Spiritomb despierto no es amenaza 🔔",
       "variant": [
         {
-          "detail": "Cambia a Slowbro y mantén Bostezo.",
+          "detail": "Spiritomb --> Sacrificar a Politoed; Poliwrath +6 🔔(Si Spiritomb despierta, no es amenaza)🔔",
           "variant": []
         },
         {
-          "detail": "Si sale Spiritomb después de Bostezo y Protección, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Spiritomb despierto no es amenaza.",
+          "detail": "Lucario → Sacrificar a Politoed; Poliwrath +6",
           "variant": []
         }
       ]

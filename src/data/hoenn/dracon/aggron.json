@@ -2,20 +2,6 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Encanto + Amortiguador 💡",
-  "tricks": [
-    {
-      "detail": "Usa Encanto y luego Amortiguador para estabilizar el combate.",
-      "variant": [
-        {
-          "detail": "Frente a Gallade, cambia a Gengar, usa Otra Vez y Maquinación hasta +4. Gallade tiene Banda Focus.",
-          "variant": []
-        },
-        {
-          "detail": "Barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "💡 Encanto; Amortiguador y Frente a Gallade(banda focus) Gengar Otra vez +4 (Bola Sombra a todo) 💡",
+  "tricks": []
 }

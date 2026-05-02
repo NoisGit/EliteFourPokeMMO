@@ -2,19 +2,6 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
-  "tricks": [
-    {
-      "detail": "Pájaro Osado quédate  ➜ Amortiguador , cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Otra Vez  Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Amortiguador; Gengar Otra Vez  +2 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨TrampaRocas🪨  al enfrentar a Absol; cambiar a Slowbro y usar Bostezo ; entrar con Volcarona (+1 🔔 Usar Psíquico al enfrentar a Gengar 🔔",
+  "tricks": []
 }

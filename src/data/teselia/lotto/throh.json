@@ -2,55 +2,24 @@
   "id": "throh",
   "name": "Throh",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Chandelure Cambia a Jirachi 🪨 Trampa rocas 🪨 ",
+  "initialMove": "❤️Encanto❤️",
   "tricks": [
     {
-      "detail": "Seismitoad ➜ Cambia a Chansey  Pantalla de Luz ",
+      "detail": "Aggron --> Usar 🪨Trampa Rocas🪨 al enfrentar a Conkeldurr; Gengar usa Otra Vez y cambiar a Volcarona frente a Seismitoad; 💊1 Danza Aleteo + Especial X💊",
       "variant": []
     },
     {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +4  +2 (Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad ➜ Gallade Otra Vez +4  +2 (Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "Throh ➜ Gengar +4  +2 (Defensa X); ( 💡No usar Otra Vez💡)",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad ➜ Gallade Otra Vez +4 +0 +2 (Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar  Otra Vez, usa  Rayo ",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad ➜ Gallade Otra Vez +4 +0 +2 (Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": " Ruta en testeo  : método original Aggron puede mantenerse  ➜ cambio de apertura a Gallade; prueba completada ",
-      "variant": []
-    },
-    {
-      "detail": "Aggron ➜ Espada Santa  debilitar",
-      "variant": []
-    },
-    {
-      "detail": "Skarmory ➜ Cambia a Chansey Amortiguador ; Se queda usa  Contador ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar  Otra Vez +4  +2 (Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad ➜ Gallade Otra Vez +4  +2 (Defensa X)",
-      "variant": []
+      "detail": "Conkeldurr --> Usa Encanto contra Aggron y pon las Trampa Rocas",
+      "variant": [
+        {
+          "detail": "Conkeldurr --> Ver el caso anterior de Conkeldurr",
+          "variant": []
+        },
+        {
+          "detail": "Dusknoir --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Si Aggron entra contra Politoed, espera que muera y luego entra con Poliwrath +6)🔔",
+          "variant": []
+        } 
+      ]  
     }
   ]
 }

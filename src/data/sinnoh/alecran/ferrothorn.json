@@ -2,35 +2,64 @@
   "id": "ferrothorn",
   "name": "Ferrothorn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨 ",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, Chandelure +2 +2 o Gallade +4 +2",
+      "detail": "Si se queda ➜ Identificar movimiento",
+      "variant": [
+        {
+          "detail": "Latigazo / Giro Rápido ➜ Chansey usa Encanto y Amortiguador al enfrentar a Tyranitar luego cambia a Poliwrath y usa Puño Drenaje",
+          "variant": [
+            {
+              "detail": "Ferrothorn ➜ Volcarona +1 🦋🔥",
+              "variant": []
+            },
+            {
+              "detail": "Gastrodon ➜ Slowbro usa Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": " 🌱 Drenadoras 🌱 ➜ Cambiar a Slowbro",
+          "variant": [
+            {
+              "detail": "Flygon ➜ Usar Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+              "variant": []
+            },
+            {
+              "detail": "Kabutops ➜ Usar Bostezo",
+              "variant": [
+                {
+                  "detail": "Yanmega ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+                  "variant": []
+                },
+                {
+                  "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥",
+                  "variant": []
+                }
+              ]  
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Flygon ➜ Usar Teletransporte ➜ enviar a Slowbro y usar Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
       "variant": []
     },
     {
-      "detail": "Latigazo /Giro Rápido (se queda ➜ Devuelve el golpe Contador  presiona debilitado frente a Tyranitar ; cambia a gallande y ataca ",
-      "variant": []
-    },
-    {
-      "detail": "Volcarona ➜ Sacrifica  a Gallade, Dragonite Danza Dragón x1; si sale Gliscor sigue bosteando ",
-      "variant": []
-    },
-    {
-      "detail": "Gliscor ➜ Cambia a Dragonite  x1 Danza Dragón; si sale Gliscor sigue bosteando",
-      "variant": []
-    },
-    {
-      "detail": "Drenadoras ➜ Cambia a Chandelure, cambia a Chansey , contador debilita a Kabutops; cambia a Dragonite, cambia a Jirachi Otra Vez (Encore) Flygon Chandelure +2 +2 / Gallade / Roserade (rose) +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Chandelure frente a Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Kabutops ➜ Chansey contador ; cambia a Dragonite, cambia a Jirachi Otra Vez  Flygon Chandelure +2 +2 / Gallade +4 +2",
-      "variant": []
+      "detail": "Kabutops ➜ Cambiar a Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Yanmega ➜ Usar Protección y Bostezo al enfrentar a Octillery ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥",
+          "variant": []
+        }
+      ]
     }
   ]
 }
