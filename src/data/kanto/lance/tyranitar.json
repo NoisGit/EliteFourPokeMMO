@@ -2,18 +2,15 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
+  "initialMove": "Cambia a Slowbro y usa Bostezo frente a Eelektross/Metagross, cambia a Chansey y pon Trampa Rocas",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y usa Bostezo frente a Eelektross o Metagross. Luego cambia a Chansey y coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Si entra Metagross, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Tyranitar, cambia a Gengar y usa Maquinación. Luego barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás."
-        }
-      ]
+      "detail": "Metagross → Usa Teletransporte, saca a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Tyranitar → Cambiar a Gengar y usa Maquinacion luego Barre 🔔(Onda certera contra Tyranitar y Bola sombra contra los demas)🔔",
+      "variant": []
     }
   ]
 }

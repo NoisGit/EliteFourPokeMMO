@@ -2,20 +2,15 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Darmanitan, cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Ataca siempre con el movimiento súper eficaz.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Absol, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ataca siempre con el movimiento súper eficaz.",
-          "variant": []
-        }
-      ]
+      "detail": "Darmanitan ➜ Gengar +2 + Precisión X (No usar Otra Vez) 🔔usar movimientos súper eficaces🔔",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Gengar, Otra Vez, +2 +2 + Precisión X 🔔 usar movimientos súper eficaces🔔",
+      "variant": []
     }
   ]
 }

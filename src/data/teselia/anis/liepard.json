@@ -2,11 +2,20 @@
   "id": "liepard",
   "name": "Liepard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS 🪨",
+  "initialMove": "🪨TRAMPA ROCAS🪨",
   "tricks": [
     {
-      "detail": "Eelektross ➜ Gengar +4 +2",
-      "variant": []
+      "detail": "Eelektross ➜ Gengar usa Otra Vez, cambiar a Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Gengar ➜ Usar Protección, cambiar a Poliwrath frente a Chandelure, Volcarona +2 🔔(Psiquico a Gengar)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Chandelure ➜ Usar Protección y Bostezo frente a Gengar, Teletransporte, Volcarona +2 🔔(Psiquico a Gengar y puedes usar Lanzallamas contra Chandelure)🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

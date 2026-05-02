@@ -2,23 +2,6 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Pantalla Luz 💡",
-  "tricks": [
-    {
-      "detail": "Garchomp ➜ Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "No Cambia  ➜ Ver si te gana en velocidad",
-      "variant": []
-    },
-    {
-      "detail": " Te gana  ➜ Cambiar a Jirachi Otra Vez ; Chandelure +2 +2; Cambiar a Jirachi frente a Garchomp directamente; cambiar a Gallade +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $? medicina ➜ Mantener Amortiguador frente a Garchomp; Gallade +4 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "Teletransporte ➜ cambiar a Slowbro y usar Bostezo , usar Protección y Bostezo al enfrentar a Nidoqueen ➜ sacrifica a Politoed ➜ entra con Poliwrath +6 🥊 🔔(Usar Cascada contra Bronzong)🔔",
+  "tricks": []
 }

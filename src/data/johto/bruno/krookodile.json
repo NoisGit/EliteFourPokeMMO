@@ -2,10 +2,10 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🦋 Volcarona +2 🦋",
+  "initialMove": "🦋 Volcarona +2",
   "tricks": [
     {
-      "detail": "Entra con Volcarona y usa Danza Aleteo x2.",
+      "detail": "-",
       "variant": []
     }
   ]

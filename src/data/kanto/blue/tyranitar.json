@@ -2,18 +2,6 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Kingler y sacrifica a Politoed.",
-      "variant": [
-        {
-          "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez."
-        },
-        {
-          "detail": "🔔 Usa Onda Certera contra Skarmory. 🔔"
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Kingler, sacrifica a politoed, 💊Gengar +4 + Precision X💊 (No usar Otra Vez) 🔔(Onda Certera contra Skarmory)🔔 ",
+  "tricks": []
 }

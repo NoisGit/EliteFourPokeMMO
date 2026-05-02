@@ -2,11 +2,6 @@
   "id": "espeon",
   "name": "Espeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 Frente a Gallade cambiar a gengar cambia a jirachi otra vez chande +2 +2 ",
-  "tricks": [
-    {
-      "detail": "Cambiar de Jirachi a Dragonite ➜ Jirachi Otra Vez ; Chandelure +0 +2 ; Bisharp",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro ante Gallade ; usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
+  "tricks": []
 }

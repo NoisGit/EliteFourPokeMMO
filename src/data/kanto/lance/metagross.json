@@ -2,59 +2,58 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Metagross usa Puño Meteoro, usa Teletransporte y observa el daño que recibe por Vidasfera.",
+      "detail": "Puño meteoro → Usa Teletransporte 🔔(Observa el daño que recibe Metagross por Vidasfera)🔔",
       "variant": [
         {
-          "detail": "Si Metagross queda cerca de 90%, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Metagross se queda a 90% → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si Metagross queda cerca de 90,3%, cambia a Volcarona frente a Aerodactyl. Sacrifica a Politoed y entra con Poliwrath. Usa Ataque X antes de barrer. 🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔"
+          "detail": "Metagross se queda a 90,3% → Cambia Volcarona frente a Aerodactyl, sacrifica a Politoed, 💊entra Poliwrath + Ataque X💊 🔔(Puño drenaje contra Aerodactyl y Cascada contra Steelix)🔔",
+          "variant": []
+        },  
+        {
+          "detail": "No acierta los dos golpes → Cambia a Slowbro y usa Bostezo",
+          "variant": [
+            {
+              "detail": "Golpe Planta/Eelektross → Sacrifica a Politoed, entra Poliwrath +6",
+              "variant": []
+            },
+            {   
+              "detail": "Lapras → Cambia a Chansey y usa Amortiguador frente a Metagross, cambia a Volcarona frente a Aerodactyl, sacrifica a Politoed, 💊entra Poliwrath + Ataque X💊 🔔(Puño drenaje contra Aerodactyl y Cascada contra Steelix)🔔",
+              "variant": []
+            } 
+          ]  
+        }  
+      ]
+    },
+    {
+      "detail": "Machada → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },    
+    {
+      "detail": "Cabezazo Zen → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Scizor/Haxorus → Cambia a Slowbro y usa Bostezo frente a Ampharos, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Feraligatr → ⬇️Opciones Para Resolver⬇️",
+      "variant": [
+        {
+          "detail": "✅Segura✅ → Cambia a Volcarona luego a Slowbro, Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
+          "variant": []
         },
         {
-          "detail": "Si no acierta los dos golpes, cambia a Slowbro y usa Bostezo."
-        }
-      ]
-    },
-    {
-      "detail": "Si usa Golpe Planta o entra Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-    },
-    {
-      "detail": "Si entra Lapras, cambia a Chansey y usa Amortiguador frente a Metagross.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Volcarona frente a Aerodactyl. Sacrifica a Politoed y entra con Poliwrath. Usa Ataque X antes de barrer. 🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔"
-        }
-      ]
-    },
-    {
-      "detail": "Si Metagross usa Machada o Cabezazo Zen, cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Scizor o Haxorus, cambia a Slowbro y usa Bostezo frente a Ampharos.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Feraligatr, elige una de estas rutas.",
-      "variant": [
-        {
-          "detail": "Ruta segura: cambia a Volcarona y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
-        },
-        {
-          "detail": "Ruta suerte: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
-        }
-      ]
+          "detail": "🍀Suerte🍀 → Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
+          "variant": []
+        }  
+      ]  
     }
   ]
 }

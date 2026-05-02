@@ -2,26 +2,32 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Tramparocas🪨",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Gallade ➜ Gengar Otra Vez , cambiar a Chansey , cambiar a Jirachi",
-      "variant": []
+      "detail": "Fuerza Bruta --> Entrar con Slowbro y usar Bostezo ",
+      "variant": [
+        {
+          "detail": "Ninetales --> Usar Protección  y Bostezo ; sacrificar a Politoed ; entrar con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Absol --> Sacrificar a Politoed  entrar con Poliwrath  +6; abrir y observar la situación",
+          "variant": [
+            {
+              "detail": "Situación ① Girafarig  vs Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
+              "variant": []
+            },
+            {
+              "detail": "Situación ② Ninetales vs Girafarig  (primer enfrentamiento) --> Presionar directamente; si no hay golpe crítico no debilita; si hay golpe crítico y cae, entrar con Gengar  +2 para completar",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Gallade ➜ Jirachi Otra Vez , Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Fuerza Bruta  ➜ Gengar  Otra Vez ) +4 no velo  );si cambia a otros  +2 +no velo y ataca ",
-      "variant": []
-    },
-    {
-      "detail": "Cambiar a Gengar  frente a Gallade ➜ Cambiar a Jirachi; Gengar  Otra Vez (Encore) +2 no velo y ataca ",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Cambiar a Gengar  +2 +2  (pañuelo)",
+      "detail": "Gallade--> Entrar con Slowbro y usar Bostezo al enfrentar a Raichu; sacrificar a Politoed  entrar con Poliwrath  +6",
       "variant": []
     }
   ]

@@ -2,11 +2,6 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Samurot ➜ Gengar Otra Vez +4 +2 Gengar Frente a Garchomp Matarlo Cambiar a chansey  ",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro frente a Samurott, usar Bostezo sacrificar a Politoed y entrar con Poliwrath 🐸 +6",
+  "tricks": []
 }

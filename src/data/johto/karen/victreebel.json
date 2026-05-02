@@ -2,33 +2,34 @@
   "id": "victreebel",
   "name": "Victreebel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 🥚 Si se queda usar Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Victreebel se queda, usa Amortiguador.",
+      "detail": "Excadrill --> Usar Encanto; Amortiguador frente a Tyranitar; cambiar a Poliwrath para matar Tyranitar",
+      "variant": []
+    },
+    {
+      "detail": "Tyranitar --> Cambiar a Poliwrath para matar a Tyranitar",
       "variant": [
         {
-          "detail": "Si sale Excadrill, usa Encanto y Amortiguador frente a Tyranitar. Luego cambia a Poliwrath para derrotar a Tyranitar.",
+          "detail": "Gyarados --> Volcarona +1 + Especial X; barrer hasta Houndoom; ignorar amenaza; 🔔Psíquico a Gyarados🔔",
           "variant": []
         },
         {
-          "detail": "Si sale Tyranitar, cambia a Poliwrath para derrotarlo.",
-          "variant": []
+          "detail": "Victreebel → Cambia a Gengar, luego a Slowbro",
+          "variant": [
+            {
+              "detail": "Si se queda → Bostezo; cambia a Volcarona, +1 + SpAtk X",
+              "variant": []
+            },
+            {
+              "detail": "Gyarados → Volcarona, +1 + SpAtk X",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados, barre hasta Houndoom e ignora la amenaza.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si vuelve Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
+          "detail": "Excadrill --> Gigadrenado hasta matarlo",
           "variant": []
         }
       ]

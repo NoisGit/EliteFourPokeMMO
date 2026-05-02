@@ -2,15 +2,6 @@
   "id": "entei",
   "name": "Entei",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Contador💡",
-  "tricks": [
-    {
-      "detail": "Lopunny/Magmotar ➜ Gengar Otra Vez Maquinacion",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Dragonite Otra vez x2 danza dragon ( terremoto cactus)",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨TrampaRocas🪨 cambia a Slowbro , Bostezo ➜ Frente a Maractus ➜ Volcarona +3 ",
+  "tricks": []
 }

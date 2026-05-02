@@ -2,27 +2,6 @@
   "id": "dustox",
   "name": "Dustox",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
-  "tricks": [
-    {
-      "detail": "Se queda  ➜ Cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Recibe Remolino  ➜ Luego cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  ➜ Rayo  frente a Flygon; Otra Vez  Gallade +2 +2 o Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Otra Vez  Chandelure +2 +2 / Gallade +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Flygon ➜ cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊 🔔(Si no Cambia usa Amortiguador)🔔",
+  "tricks": []
 }

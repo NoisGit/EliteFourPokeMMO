@@ -2,51 +2,32 @@
   "id": "samurott",
   "name": "Samurott",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambia a Gengar vuelve a cambia a Dragonite 💡",
+  "initialMove": "Cambiar a Slowbro y usar Bostezo🥱",
   "tricks": [
     {
-      "detail": "TAJO UMBRÍO → Cambiar a Chansey, Cambia a Gengar con Otra Vez y Maquinación. 💡 Nota: Absol tiene Banda Focus 💡",
+      "detail": "Megacuerno --> Cambiar a chansey y usar Amortiguador frente a Absol; entrar con Gengar +2 + Precision X + Otra Vez 🔔(Absol Banda Focus)🔔",
       "variant": []
     },
     {
-      "detail": "Absol se Queda → Gengar +4 0 velo mata a Absol, cambiar a Chansey, Cambia a Gengar con Otra Vez +4 0.",
+      "detail": "Poder Oculto Eléctrico --> Sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "SALAMENCE → Empujar hacia Bisharp o Absol",
-      "variant": []
-    },
-    {
-      "detail": "BISHARP → Chansey con Amortiguador + Trampa rocas, cambia a Gengar con Otra Vez +2 no velo",
-      "variant": []
-    },
-    {
-      "detail": "ABSOL → Cambiar a Chansey, luego a Gengar con Otra Vez +4 0 (mata a todos)",
-      "variant": []
-    },
-    {
-      "detail": "BISHARP (Reingreso) → Chansey con Amortiguador + Trampa rocas y Gengar con Otra Vez +2 no velo",
-      "variant": []
-    },
-    {
-      "detail": "Acua Cola → Cambiar a Chansey (para ver con que ruta seguir)",
-      "variant": []
-    },
-    {
-      "detail": "RAYO HIELO → Gengar con Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "DANZA ESPADA / ACUACOLA → Cambiar a Gengar con Otra Vez. Cambia a gallade para matar a tyranitar. Cambiar a Chansey con Amortiguador y contador vs bisharp. Gengar con Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "【INESPERADO】 SERPERIOR → Cambiar a Chansey y Pantalla de Luz. Frente a Samurott, usar Gengar con Otra Vez +2 +2",
+      "detail": "Serperior Cambiar a Chansey y usar Amortiguador",
       "variant": [
         {
-          "detail": "【Si serperior no cambia】 Cambiar a Jirachi con Otra Vez y luego Chandelure +2 +2"
+          "detail": "Samurot --> 💊Gengar 2+2 + Precision X💊",
+          "variant": []
+        },
+        {
+          "detail": "Tyranitar --> Sacrificar a Politoed y entrar con Poliwrath +6",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Mismagius --> Cambiar a Chansey y usar Amortiguador frente a Absol; entrar con Gengar +2 + Precision X + Otra Vez 🔔(Absol Banda Focus)🔔",
+      "variant": []
     }
   ]
 }

@@ -2,24 +2,20 @@
   "id": "electrode",
   "name": "Electrode",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento de Electrode.",
+      "detail": "Lanzallamas/Pulso umbrio es (Zoroark) → Teletransporte → Volcarona x1 danza aleteo usa gigadrenado para matar a zoruark ➜ frente a electrode /Tentacruel usa Danza Aleteo una vez más.",
       "variant": [
         {
-          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado para derrotar a Zoroark. Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona recibe retrocesos, cambia a Chansey, cura a Volcarona con Max Poción y repite la ruta.",
-          "variant": []
-        },
-        {
-          "detail": "Si usa Rayo, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS de Volcarona por encima del 50%; de lo contrario, Electrode puede usar Autodestrucción.",
+          "detail": "Si Volcarona recibe retrocesos, cambia a Chansey → Max pocion a Volcarona y repite el proceso",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Usa Rayo → Teletransporte → Volcarona x2 danza aleteo 🔔 Mantener los PS por encima del 50% de lo contrario, Electrode usará Autodestrucción 🔔",
+      "variant": []
     }
   ]
 }

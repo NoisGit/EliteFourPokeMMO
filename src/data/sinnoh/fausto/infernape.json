@@ -2,11 +2,6 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Amortiguador💡 Gengar Otra Vez +4 +2  ",
-  "tricks": [
-    {
-      "detail": "Ifernape puede matar ala gordita si no confias cambia a gengar directamente)",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Usa Amortiguador o Teletransporte y cambia a Gengar otra vez +4 +2 💡 Bola Sombra a todos",
+  "tricks": []
 }

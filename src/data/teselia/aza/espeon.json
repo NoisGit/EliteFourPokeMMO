@@ -2,33 +2,28 @@
   "id": "espeon",
   "name": "Espeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "pantalla luz 💡",
+  "initialMove": "🥚Amortiguador🥚 🔔(Si se queda sigue usando Amortiguador)🔔",
   "tricks": [
     {
-      "detail": "Espeon se Queda ➜ Trampa rocas , cambia a Dragonite cambia a Jirachi Otra Vez",
+      "detail": "Garchomp --> Poner Trampas y resistir el golpe, usar Teletransporte cambia a Slowbro y usar Bostezo 🔔(Ver si el Terremoto de Garchomp es golpe crítico)🔔",
+      "variant": [
+        {
+          "detail": "No hay Golpe Critico --> (Mantener) Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Si hay Golpe Crítico --> sacrificar a Politoed, entrar con Poliwrath +6",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Haxorus --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Atrapado en Fuego ➜ Chandelure +2 +2",
-      "variant": [
-        {
-          "detail": " Atrapado en Tierra ➜ Dragonite +2 Danza",
-          "variant": []
-        },
-        {
-          "detail": "Haxorus ➜ Amortiguador Gengar Otra Vez +6 +2",
-          "variant": []
-        },
-        {
-          "detail": "Garchomp ➜ Trampa rocas cambia a Dragonite cambia a Jirachi Otra Vez  Dragonite Danza +2",
-          "variant": [
-            {
-              "detail": "Scrafty --> Cambia  directamente Chandelure +2 +2",
-              "variant": []
-            }
-          ]
-        }
-      ]
+      "detail": "Scrafty --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
+      "variant": []
     }
   ]
 }

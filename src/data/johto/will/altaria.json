@@ -5,34 +5,25 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "detail": "Stantler ➜ 👻 Gengar ➜ Otra Vez ➜ sale Alakazam",
       "variant": [
         {
-          "detail": "Si entra Stantler, cambia a Gengar y usa Otra Vez. Cuando salga Alakazam, elige ruta estable o ruta RNG."
+          "detail": "Estable → Cambiar a Chansey ➜ usar Teletransporte y sacar a Slowbro ➜ usar Bostezo ➜ Protección alakazam se duerme usa bostezo frente a Roserade; sacrificar a Politoed y entrar con Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Ruta estable: cambia a Chansey, usa Teletransporte y entra con Slowbro. Usa Bostezo, luego Protección para dormir a Alakazam. Después usa Bostezo frente a Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Ruta RNG: entra con Slowbro, usa Bostezo y luego Protección. Cuando salga Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "RNG → Slowbro, Bostezo, Protección. Sale Roserade →  Sacrificar a Politoed ➜ 🐸 Poliwrath +6 🐸  ",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Lucario, cambia a Gengar y usa Otra Vez.",
-      "variant": [
-        {
-          "detail": "Usa Maquinación hasta +6 y Precisión X. Mantén Otra Vez cuando sea necesario."
-        }
-      ]
+      "detail": "Lucario → 👻Gengar, Otra Vez, +6 + precisión X.",
+      "variant": []
     },
     {
-      "detail": "Si Lucario usa un movimiento de fuego, probablemente es Zoroark.",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar, usa Otra Vez sobre el movimiento de fuego y luego entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad."
-        }
-      ]
+      "detail": "Cambia a Gengar, Lucario → que use ataque de fuego (Zoroark) → Gengar, Otra Vez → 🐸 Poliwrath +6 +2 🐸 ",
+      "variant": []
     }
   ]
 }

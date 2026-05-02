@@ -2,10 +2,6 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💀 Sin solución 💀",
-  "tricks": [
-    {
-      "detail": "No hay una ruta registrada para resolver este inicio de forma estable."
-    }
-  ]
+  "initialMove": "💀 No hay Solucion 💀",
+  "tricks": []
 }

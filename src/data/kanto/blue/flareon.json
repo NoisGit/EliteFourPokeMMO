@@ -2,21 +2,15 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
+  "initialMove": "Cambia a Slowbro luego a Chansey, frente a Magnezone pon 🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y luego a Chansey. Frente a Magnezone, coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Si entra Poliwrath, usa Teletransporte. Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Ruta ahorro contra Poliwrath: usa Maquinación hasta +6 y Velocidad X para +2 Velocidad."
-        },
-        {
-          "detail": "Si entra Flareon, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego usa Protección y Bostezo, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2."
-        }
-      ]
+      "detail": "Poliwrath → Usa Teletransporte, 💊Gengar 2+2 + Precion X💊 💰(Si quieres Ahorrar: 6+2)💰",
+      "variant": []
+    },
+    {
+      "detail": "Flareon → Cambia a Slowbro y usa Bostezo frente a magnezone, usar Proteccion y Bostezo, luego usa Teletransporte y entra con Volcarona +2",
+      "variant": []
     }
   ]
 }

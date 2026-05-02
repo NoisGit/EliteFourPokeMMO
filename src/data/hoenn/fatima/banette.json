@@ -2,20 +2,6 @@
   "id": "banette",
   "name": "Banette",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Honchkrow.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath cuando aparezca Hydreigon.",
-          "variant": []
-        },
-        {
-          "detail": "Usa Ataque X con Poliwrath y completa la ruta. Usa Puño Hielo para eliminar a Honchkrow.",
-          "variant": []
-        }
-      ]
-    }
-  ]
-}
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Honchkrow ➜ sacrificar a Politoed ➜ 🐸Poliwrath🐸 cuando entre Hydreigon ➜ usar Ataque X  y completar (puño hielo para eliminar a Honchkrow)",
+  "tricks": []
+}   

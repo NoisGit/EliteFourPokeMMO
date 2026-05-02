@@ -2,27 +2,40 @@
   "id": "sableye",
   "name": "Sableye",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨( se queda Pantalla luz)",
+  "initialMove": "🔔Cambiar a Slowbro🔔",
   "tricks": [
     {
-      "detail": "Durant ➜ Gengar Otra Vez Maquinación ",
+      "detail": "Si se queda --> Usar Bostezo",
       "variant": []
     },
     {
-      "detail": "Hippowdon ➜ Cambia a Gallade Otra Vez +6 +2; si cambia a  Amoonguss  Chandelure +2 +2",
+      "detail": "Rhyperior / Camerupt --> Usar Teletransporte entrar con Volcarona , usar Especial X y presionar",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Gallade  Otra Vez  +6 +2",
+      "detail": "Serperior --> Entrar con Volcarona +2",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Gallade Otra Vez +6",
+      "detail": "Durant --> Usar Teletransporte ; entrar con Volcarona +1 para debilitar al enfrentar a Hippowdon; usar Especial X y presionar",
       "variant": []
     },
     {
-      "detail": "Corre a Tangrowth ➜ Cambia a Chandelure +2 +0",
+      "detail": "Durant --> Usar Bostezo ; usar Teletransporte ; entrar con Volcarona +1 para debilitar al enfrentar a Hippowdon; usar Especial X y presionar para completar",
       "variant": []
+    },
+    {
+      "detail": "Rhyperior --> Usar Bostezo 🔔 Revisar si Megacuerno acierta 🔔",
+      "variant": [
+        {
+          "detail": "Acierta --> Usar Teletransporte ; entrar con Volcarona , usar Especial X y presionar",
+          "variant": []
+        },
+        {
+          "detail": "Falla --> Cambiar a Volcarona , usar Especial X y presionar",
+          "variant": []
+        }
+      ]
     }
   ]
 }

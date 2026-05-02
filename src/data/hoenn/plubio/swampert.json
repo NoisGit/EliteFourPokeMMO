@@ -2,24 +2,6 @@
   "id": "swampert",
   "name": "Swampert",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 Amortiguador 🥚",
-  "tricks": [
-    {
-      "detail": "Usa Amortiguador frente a Eelektross.",
-      "variant": [
-        {
-          "detail": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo frente a Altaria.",
-          "variant": []
-        },
-        {
-          "detail": "Cambia a Chansey y espera a Eelektross. Usa Teletransporte hacia Slowbro y vuelve a usar Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🥚Amortiguador frente a Eelektross ➜ Gengar usa Otra Vez ➜ cambiar a Slowbro usar  Bostezo frente a Altaria ➜ cambiar a Chansey y esperar a Eelektross ➜ Teletransporte ➜ Slowbro usa Bostezo ➜ sacrificar a Politoed ➜ 🐸🥊 Poliwrath +6🥚",
+  "tricks": []
 }

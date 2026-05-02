@@ -2,34 +2,19 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Varias opciones 💡",
+  "initialMove": "💡Varias Opciones💡",
   "tricks": [
     {
-      "detail": "Opción ahorro:",
-      "variant": [
-        {
-          "detail": "Usa Amortiguador. Si sale Darmanitan, entra con Volcarona y usa Danza Aleteo x3.",
-          "variant": []
-        }
-      ]
+      "detail": "Ahorro → Amortiguador, sale Darmanitan → Volcarona +3.",
+      "variant": []
     },
     {
-      "detail": "Opción estable:",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Estable → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
     },
     {
-      "detail": "Opción RNG:",
-      "variant": [
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "RNG → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
     }
   ]
 }

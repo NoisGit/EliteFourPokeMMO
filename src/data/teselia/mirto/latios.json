@@ -2,14 +2,32 @@
   "id": "latios",
   "name": "Latios",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 y si no cambia usa Pantalla luz",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Excadrill ➜sacrifica a chandelure ➜ jirachi otra vez ➜ dragonite x3 danza dragon ",
-      "variant": []
+      "detail": "Excadrill --> Sacrificar a Gengar; Slowbro usa Bostezo",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Excadrill / Observa Quien sale Primero)🔔",
+          "variant": [
+            {
+              "detail": "Si sale Vanilluxe primero --> 💊Tomar una velocidad X y presionar de nuevo💊",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Volcarona primero --> Presión completa",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6+2 🔔(Puño drenaje contra Volcarona)🔔",
+          "variant": []
+        }
+      ]  
     },
     {
-      "detail": "Escavalir ➜ Chandelure +2 +2 ",
+      "detail": "Escavalier/Magcargo --> Slowbro usa Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     }
   ]

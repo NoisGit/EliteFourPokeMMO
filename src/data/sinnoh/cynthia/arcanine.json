@@ -2,34 +2,23 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Lucario ➜ Cambiar a Gengar  +4 No velo ; NO usar Otra Vez ; frente a Arcanine resistir daño ",
-      "variant": []
-    },
+      "detail": "Si se queda ➜ Usar Trampa Rocas ➜ cambiar a Slowbro y usar Bostezo",
+      "variant": [
+       {
+         "detail": "Serperior ➜ Usar Protección y Bostezo al enfrentar a Jellicent, sacrifica a Politoed, entra con Poliwrath +6 🐸🥊",
+         "variant": []
+       },
+       {
+        "detail": "Jellicent ➜ Usar Protección, cambiar a Volcarona ante Serperior, 💊Volcarona +2 + atk. Especial X💊 🚨(Mantener PS por encima del 29%)🚨",
+        "variant": []
+       }
+      ]  
+    },  
     {
-      "detail": "Garchomp ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Dragonite Danza Dragón x4 ) / Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Braviary ➜ Cambiar a Gengar Otra Vez ; Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Bastiodon ➜ Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Trampa Rocas / Tóxico ➜ Otra Vez  y atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Represión Metal  ➜ Continuar Maquinación hacia otra habilidad; Otra Vez ;y atacar otra vez) o usar Otra Vez y Gallade +2 +2 ; y atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse y usar movimiento Fuego / Velocidad Extrema  ➜ Chandelure +2 +2 ; si te envenenan, eliminar veneno",
+      "detail": "Lucario ➜ Entrar con Gengar, Otra Vez +4",
       "variant": []
     }
   ]

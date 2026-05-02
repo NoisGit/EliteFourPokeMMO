@@ -2,24 +2,11 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Tyranitar ➜ cambia a Poliwrath para matar a tyranitar",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas frente a Tyranitar y cambia a Poliwrath para derrotarlo.",
-      "variant": [
-        {
-          "detail": "Después entra con Chansey y usa Amortiguador.",
-          "variant": []
-        },
-        {
-          "detail": "Espera a que entre Metagross, usa Teletransporte hacia Slowbro y luego Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Despues entra con Chansey y usa Amortiguador y Espera que entre Metagross Para usar Teletransporte y con Slowbro usa Bostezo, sacrifica a Politoed ➜ Poliwrath +6",
+      "variant": []
     }
   ]
 }

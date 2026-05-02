@@ -2,6 +2,15 @@
   "id": "medicham",
   "name": "Medicham",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Chandelure +2 +2 / o Cambiar a Gengar +4 ( pero puede entrar Magnezone )",
-  "tricks": []
+  "initialMove": "💡Slowbro usa Bostezo💡",
+  "tricks": [
+    {
+      "detail": "Magnezone --> Protección y Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Crawdaunt --> Sacrificar a Politoed y entrar con Poliwrath +6",
+      "variant": []
+    }
+  ]
 }

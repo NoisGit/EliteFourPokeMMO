@@ -2,14 +2,14 @@
   "id": "omastar",
   "name": "Omastar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨 ",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "ESCAVALIER ➜ Cambiar a Chandelure ➜ Cambiar a Dragonite con Otra Vez  y x3 Danza Dragón (FRENTE A GASTRODON ➜ Aguantar daño ➜ Danza Dragón (Limpiar quemadura) ",
+      "detail": "Escavalier ➜ Sacrificar a Politoed ➜ Poliwrath +6 🐸🥊",
       "variant": []
     },
     {
-      "detail": "KINGLER  ➜ Cambiar a Gengar (ghost) con Otra Vez (Encore) ➜ Carga 6-0",
+      "detail": "Kingler ➜ Cambiar a Slowbro usa Bostezo ➜ frente a Sceptile entra con Volcarona +1 🦋🔥",
       "variant": []
     }
   ]

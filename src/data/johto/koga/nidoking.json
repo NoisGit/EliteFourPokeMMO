@@ -2,24 +2,11 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": " 🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si sale Crobat, cambia a Slowbro.",
-      "variant": [
-        {
-          "detail": "Usa Bostezo hasta que salga Magmortar.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed, entra con Poliwrath y usa Ataque X.",
-          "variant": []
-        },
-        {
-          "detail": "Usa Puño Drenaje contra Magmortar. Si entra Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
-          "variant": []
-        }
-      ]
+      "detail": "Sale Crobat ➜ Slowbro, usa Bostezo hasta que salga Magmortar ➜ Sacrifica a Politoed ➜ Poliwrath usar Ataque X ➜ Usa Puño Drenaje en Magmortar Si entra ditto cambia a gengar y matalo🔔",
+      "variant": []
     }
   ]
 }

@@ -2,39 +2,20 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 frente a Metagross, cambiar a Volcarona y usar Lanzallamas",
   "tricks": [
     {
-      "detail": "Metagross ➜ Gengar Otra Vez ➜ Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Muere por Gallade, entra Staraptor (va a usar Sacrificio). Cambia a Gengar +4 no velo (no usar Otra Vez).",
+      "detail": "Staraptor --> Gengar +4 + Precisión X 🔔(Tiene Pañuelo elegido)🔔",
       "variant": [
         {
-          "detail": "Nidoqueen ➜ Dragonite Otra Vez + x4 Danza Dragón.",
-          "variant": [
-            {
-              "detail": "Houndoom ➜ Chansey Pantalla Luz",
-              "variant": [
-                {
-                  "detail": "Metagross ➜ Gengar Otra Vez +4 +2",
-                  "variant": [
-                    {
-                      "detail": "Milotic ➜ Chansey Amortiguador (Nota 💡 Puede entrar Dragonite, usa Defensa X + x4 Danza Dragón antes de debilitar a Milotic, cura tu vida).",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Metagross ➜ Gengar Otra Vez +4 no velo (Nota 💡 Si entra Milotic, resiste el daño, Defensa X +4, no debilitar a Milotic primero, curar. Si tienes más de la mitad de PS, avanza).",
-                      "variant": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "detail": "Si cambia a Milotic --> Cambiar a Chansey y usar Amortiguador para atraer a Staraptor; Volcarona +3 🔔(Gigadrenado + Lanzallamas a Umbreon)🔔",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Milotic / Houndoom --> Sacrificar a Politoed y entrar con Poliwrath +6",
+      "variant": []
     }
   ]
 }

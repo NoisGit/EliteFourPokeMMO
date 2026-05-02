@@ -2,18 +2,6 @@
   "id": "hitmonchan",
   "name": "Hitmonchan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar +4",
-  "tricks": [
-    {
-      "detail": "Entra con Gengar y usa Maquinación hasta +4.",
-      "variant": [
-        {
-          "detail": "No es necesario usar Otra Vez."
-        },
-        {
-          "detail": "Cuando Gengar esté listo, barre con Bola Sombra."
-        }
-      ]
-    }
-  ]
+  "initialMove": "Gengar +4 (No es necesario Otra Vez)",
+  "tricks": []
 }

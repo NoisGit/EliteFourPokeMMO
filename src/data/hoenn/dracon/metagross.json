@@ -5,42 +5,47 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Metagross se queda, revisa la situación.",
+      "detail": "Metagross se queda ➜ Ver situación",
+      "variant": []
+    },
+    {
+      "detail": "Si tiene Vidasfera y sube su ataque ➜ Chansey usa Teletransporte y cambia a Volcarona lanzallamas ➜ frente a Flygon ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed; Poliwrath +6",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera y sube su Ataque, Chansey usa Teletransporte hacia Volcarona. Volcarona usa Lanzallamas. Frente a Flygon, Slowbro usa Bostezo; luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Otras situaciones ➜ Slowbro usa Bostezo",
+          "variant": [
+            {
+              "detail": "Lapras / Nidoking ➜ Sacrifica a Politoed ➜ Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Salamence ➜ Protección y Bostezo frente a Nidoking ➜ sacrifica a Politoed ➜ Poliwrath +6",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Eelektross / Regice ➜ Cambiar a Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Nidoking ➜ Sacrifica a Politoed ➜ Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "En otras situaciones, cambia a Slowbro y usa Bostezo.",
+          "detail": "Salamence ➜ Protección y Bostezo frente a Nidoking ➜ sacrifica a Politoed ➜ Poliwrath +6",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
-        {
-          "detail": "Si sale Lapras o Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Salamence, usa Protección y Bostezo frente a Nidoking. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Eelektross o Regice, cambia a Slowbro y usa Bostezo. Frente a Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Lucario, cambia a Gengar y usa Maquinación hasta +4. Barre con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
-          "variant": []
-        }
-      ]
+      "detail": "Lucario ➜ Gengar +4 🔔 Bola Sombra a todo🔔 ",
+      "variant": []
+    },
+    {
+      "detail": "Feraligatr ➜ Cambiar a Slowbro y usar Bostezo frente a Sceptile ➜ Volcarona +3 🔔 (mantener PS por encima del 75%)🔔 ",
+      "variant": []
     }
   ]
 }

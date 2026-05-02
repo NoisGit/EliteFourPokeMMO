@@ -2,42 +2,48 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Revisa la habilidad 💡",
+  "initialMove": "💡Revisa la Habilidad💡",
   "tricks": [
     {
-      "detail": "Si Salamence tiene Intimidación, usa Amortiguador y revisa qué Pokémon entra después.",
+      "detail": "Intimidación → Amortiguador",
       "variant": [
         {
-          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez cada vez que puedas.",
-          "variant": []
+          "detail": "Machamp → Gengar, Otra Vez, +4 +2. Utiliza Otra Vez cada que puedas.",
+          "variant": [
+            {
+              "detail": "Sale Metagross → Chansey, amortiguador. sale Blaziken → Gengar +4 +2. (Otra Vez no es necesario).",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si sale Metagross, cambia a Chansey y usa Amortiguador. Si luego sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No es necesario usar Otra Vez.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Blaziken directo, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No es necesario usar Otra Vez.",
+          "detail": "Blaziken → Gengar +4 +2 (Otra Vez no es necesario).",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si Salamence no tiene Intimidación, coloca Trampa Rocas.",
+      "detail": "Sin Intimidación → Trampa Rocas.",
       "variant": [
         {
-          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Metagross → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
           "variant": []
         },
         {
-          "detail": "Si sale Hitmonlee, entra con Gengar y usa Bola Sombra. Si lo derrotas y sale Machamp, sigue con Bola Sombra; luego cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
-          "variant": []
+          "detail": "Hitmonlee → Gengar, Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Lo derrotas, sale Machamp → Continua bola sombra → Slowbro, Bostezo. sale Salamence → Teletransporte → Volcarona +1.",
+              "variant": []
+            },
+            {
+              "detail": "Cambia a Machamp → Slowbro, Bostezo. sale Salamence → Teletransporte → Volcarona +1.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si el rival cambia a Machamp, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Golem, usa Encanto y Amortiguador hasta que salga Metagross. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Golem → Encanto, Amortiguador hasta que salga Metagross → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
           "variant": []
         }
       ]

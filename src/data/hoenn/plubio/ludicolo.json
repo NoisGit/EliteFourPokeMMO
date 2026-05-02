@@ -2,16 +2,6 @@
   "id": "ludicolo",
   "name": "Ludicolo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Slowbro + Bostezo 💡",
-  "tricks": [
-    {
-      "detail": "Usa Teletransporte hacia Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "💡 Teletransporte; enviar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6 💡",
+  "tricks": []
 }

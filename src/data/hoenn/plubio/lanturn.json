@@ -5,49 +5,66 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador. Si Lanturn se queda, aguanta con Defensa Especial X y usa Amortiguador dos veces.",
+      "detail": "Si se queda --> Aguantar con boosts de SpDef + Amortiguador dos veces",
       "variant": [
         {
-          "detail": "Si Lanturn sigue en campo, usa Teletransporte hacia Gengar y ataca con Bola Sombra para revisar el daño.",
+          "detail": "Si se queda --> Teletransporte; Gengar usa Bola Sombra; ver daño",
           "variant": [
             {
-              "detail": "Si Bola Sombra hace más del 40% de daño, sacrifica a Politoed. Luego Slowbro usa Bostezo, Teletransporte y entra Poliwrath para usar Tambor hasta +6 Ataque.",
+              "detail": "Más del 40% (Crítico 60%) --> Sacrificar a Politoed; Slowbro usa Bostezo; Teletransporte; Poliwrath +6",
               "variant": []
             },
             {
-              "detail": "Si Bola Sombra hace menos del 35% de daño, Gengar usa Maquinación. Si Gengar no cae, derrota con Bola Sombra y reinicia la ruta con Chansey si sale Togekiss o Roserade. Si Gengar cae, entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75% antes de barrer.",
+              "detail": "Menos del 35% (Crítico 52%) --> Maquinación",
+              "variant": [
+                {
+                  "detail": "Gengar no muere → derrota con Bola Sombra, sale Togekiss / Roserade → Chansey, vuelta a empezar",
+                  "variant": []
+                },
+                {
+                  "detail": "Gengar muere → Volcarona +3 (antes de empezar a barrer, PS por encima del 75%)",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Giros inesperados → guiarse con las opciones inferiores",
               "variant": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
+        },
         {
-          "detail": "Si sale Dragonite, usa Encanto, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Dragonite --> Encanto; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si sale Regice o Registeel, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Regice / Registeel --> Sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si sale Milotic, usa Teletransporte hacia Slowbro y Bostezo frente a Roserade. Luego entra con Volcarona y usa Danza Aleteo x4.",
+          "detail": "Milotic --> Teletransporte; enviar a Slowbro; Bostezo frente a Roserade; Volcarona +4",
           "variant": []
         },
         {
-          "detail": "Si sale Empoleon, cambia a Slowbro y usa Bostezo frente a Roserade. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 70%.",
+          "detail": "Empoleon --> Cambiar a Slowbro y usar Bostezo frente a Roserade; Volcarona +3; 🔔 PS por encima del 70% 🔔",
           "variant": []
         },
         {
-          "detail": "Si sale Gardevoir, usa Teletransporte hacia Slowbro y Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Gardevoir --> Teletransporte; enviar a Slowbro; Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si sale Roserade, usa Teletransporte para revisar el movimiento. Si usa movimiento de Planta, Volcarona usa Danza Aleteo x4. Si usa movimiento de Veneno, Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Roserade --> Teletransporte para ver movimiento",
+          "variant": [
+            {
+              "detail": "Movimiento Planta --> Volcarona +4",
+              "variant": []
+            },
+            {
+              "detail": "Movimiento Veneno --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+              "variant": []
+            }
+          ]
         }
       ]
     }

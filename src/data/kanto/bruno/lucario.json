@@ -2,18 +2,11 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Cuando salga Metagross, cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Cuando salga Salamence, usa Teletransporte hacia Volcarona."
-        },
-        {
-          "detail": "Con Volcarona, usa Danza Aleteo x1 y continúa la ruta."
-        }
-      ]
+      "detail": "Sale Metagross → Cambia a Slowbro, bostezo. sale Salamence → Teletransporte a Volcarona, +1",
+      "variant": []
     }
   ]
 }

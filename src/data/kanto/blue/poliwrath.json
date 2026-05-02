@@ -2,21 +2,24 @@
   "id": "poliwrath",
   "name": "Poliwrath",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
+  "initialMove": "Cambia a Slowbro 🔔(Identifica si porta el Objeto)🔔",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro e identifica si Poliwrath lleva Vidasfera.",
+      "detail": "Tiene vidasfera → Cambia a Chansey y usa Trampa rocas",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera, cambia a Chansey y coloca Trampa Rocas. Si entra Poliwrath, sacrifica a Politoed, entra con Chansey y usa Teletransporte hacia Gengar. Usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+          "detail": "Poliwrath → Sacrifica a Politoed, entra Chansey y usa Teletransporte, 💊Gengar 2+2 + Precision X💊",
+          "variant": []
         },
         {
-          "detail": "Si entra Flareon, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego usa Protección y Bostezo, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2."
-        },
-        {
-          "detail": "Si no tiene Vidasfera, cambia a Chansey y coloca Trampa Rocas. Luego cambia a Slowbro y usa Bostezo frente a Jolteon. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Skarmory. 🔔"
+          "detail": "Flareon → Cambia a Slowbro y usa Bostezo frente a Magnezone, Proteccion y Bostezo, Teletransporte, entra Volcarona +2",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "No tiene Vidasfera → Cambia a Chansey y usa Trampa rocas, cambia a Slowbro y usa Bostezo frente a Jolteon, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Skarmory)🔔",
+      "variant": []
     }
   ]
 }

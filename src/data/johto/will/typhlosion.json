@@ -2,15 +2,11 @@
   "id": "typhlosion",
   "name": "Typhlosion",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y prepara la entrada segura de Poliwrath.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Saca a Politoed (Sacrificar), Poliwrath +6.",
+      "variant": []
     }
   ]
 }

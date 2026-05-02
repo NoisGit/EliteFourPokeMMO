@@ -2,18 +2,14 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨 Coloca Trampa Rocas 🪨",
+  "initialMove": " 🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Emboar ➜ Gengar Otra Vez  cambia a Jirachi",
+      "detail": "Emboar --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; usar Teletransporte  entrar con Volcarona (moth) +1 y usar Especial X 🔔Si el HP de Druddigon baja del 36% dos veces, darle medicina primero🔔",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Gallade Otra Vez (Encore) +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "Druddigon ➜ Dragonite  Otra Vez  Danza Dragón x2, Atk +X; (Terremoto debilita a Dragonite)",
+      "detail": "Durant --> Gengar  usa Otra Vez cambiar a Slowbro  al enfrentar a Rhyperior; usar Bostezo al enfrentar a Durant; usar Teletransporte  entrar con Volcarona  +1 y usar Especial X 🔔Si el HP de Druddigon baja del 36% dos veces, darle medicina primero🔔",
       "variant": []
     }
   ]

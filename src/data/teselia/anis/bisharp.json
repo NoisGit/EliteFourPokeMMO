@@ -2,83 +2,68 @@
   "id": "bisharp",
   "name": "Bisharp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Eelektross ➜ Gengar Otra Vez +4 +2 (Si cambia mira abajo)",
+      "detail": "Se queda ➜ Ver el ataque",
       "variant": [
         {
-          "detail": "Dragonite ➜ Jirachi Usa Otra Vez ➜ Chandelure +2 +2",
-          "variant": []
-        },
-        {
-          "detail": "Si usa Patada Baja + Vidasfera ➜ Gengar Otra vez +4 +2 o cambiar a Chandelure +2 +2 (Rayo/Energibola para Froslass)",
+          "detail": "Patada Baja ➡ Amortiguador 4 veces",
           "variant": [
             {
-              "detail": "Jellicent ➜ Chansey Amortiguador si no cambia usa Pantalla Luz cambia a Dragonite +4 usa X Especial para aguantar (no ir con baja vida?)",
+              "detail": "Patada Baja ➡ Volcarona +3 🔔(Gigadrenado al Pokemon en 2da Posición (Zoroark), Psiquico al verdadero Chandelure)🔔",
               "variant": [
                 {
-                  "detail": "Persian ➜ Jirachi Protección Otra vez a Chandelure cambia a tu Chandelure +2 +2",
+                  "detail": "☠️Si muere por Critico☠️ ➜ Gengar 2+2 + Precisión X",
                   "variant": []
-                },
-                {
-                  "detail": "Gliscor ➜ Jirachi ➜ Gallade Otra Vez +4 +2",
+                },  
+                {  
+                  "detail": "Te Bosteas y Entra Dragonite ➜ 💊Toma un Especial X luego Barre💊 🔔(Gigadrenado a Frosslas)🔔",
                   "variant": []
                 }
               ]
+            },  
+            {
+              "detail": "Cabeza de Hierro ➡ Cambiar a Slowbro y usar Bostezo frente a Chandelure, sacrifica a Politoed, Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
+              "variant": []
+            }  
+          ]
+        },
+        {
+          "detail": "Cabeza de Hierro ➡ Cambiar a Slowbro y usar Bostezo frente a Chandelure/Eelektross, sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Eelektross ➡ Gengar usa Otra Vez luego cambia a Slowbro",
+      "variant": [
+        {
+          "detail": "Se queda ➡ Bostezo ",
+          "variant": [
+            {
+              "detail": "Gengar ➡ Protección , cambiar a Poliwrath frente Chandelurem Volcarona +2 🔔(Psiquico a Gengar)🔔",
+              "variant": []
             },
             {
-              "detail": "Toxicroak ➜ Gengar ➜ Chansey entra tu Gengar y entra Toxicroak ➜ Gallade +2 +2 (Dragonite x4 Danza Dragón)(Garra Dragón Umbreon/Toxi Scarf)",
+              "detail": "Chandelure ➡ Protección , Bostezo frente a Gengar, Teletransporte, Volcarona +2 🔔(Psiquico a Gengar)🔔",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Dragonite ➜ Gengar Cambia a Jirachi otra vez ➜ Chandelure +2 +2",
-          "variant": []
-        },
-        {
-          "detail": "Vidasfera + Cabeza de Hierro ➜ Chansey Amortiguador entra Eelektross Cambia a Gengar +4 +2",
-          "variant": []
-        },
-        {
-          "detail": "Dragonite ➜ Jirachi Otra vez ➜ Chandelure +2 +2 (Energibola Froslass)",
-          "variant": []
-        },
-        {
-          "detail": "Eelektross ➜ Gengar Otra Vez +4 +2 (Rayo Froslass tiene Cuerpo Maldito)",
+          "detail": "Dragonite ➡ Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Dragonite ➜ Jirachi Otra vez ➜ Chandelure +2 +2 (Energibola Frosslass)",
+      "detail": "Toxicroak ➡ Cambiar a Slowbro, Bostezo frente a Chandelure, sacrifica a Politoed, Poliwrath +6🐸🥊",
       "variant": []
     },
     {
-      "detail": "Bisharp no cambió ➜ Jirachi Protección ↓",
+      "detail": "Dragonite ➡ Cambiar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
       "variant": []
-    },
-    {
-      "detail": "Chandelure ➜ Cambia a Chansey Amortiguador ↓",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross ➜ Cambia a Gengar Otra Vez ➜ Jirachi ↓",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➜ Otra vez Cambia a Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Bisharp ➜ Contador ➜ si sale Eelektross (entra Gengar Otra vez ➜ Jirachi ↓)",
-      "variant": [
-        {
-          "detail": "Dragonite ➜ Otra vez Chandelure +2 +2",
-          "variant": []
-        }
-      ]
     }
   ]
 }

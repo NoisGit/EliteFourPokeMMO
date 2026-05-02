@@ -2,51 +2,54 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Lucario ➜ Cambiar a Gengar , cambiar a Jirachi",
-      "variant": []
+      "detail": "Lucario ➜ Gengar usa Otra Vez",
+      "variant": [
+        {
+          "detail": "Si se queda ➜ Entrar con Gengar +2/+2 + Precisión",
+          "variant": []
+        },
+        {
+          "detail": "Dragonite ➜ Cambiar a Slowbro y usar bostezo hasta que cambie a Gallade o Roserade ➜ usa Protección y Bostezo ➜ Frente a Raichu ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Dragonite ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Triturar➜ Jirachi Otra Vez ; Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Cambiar a Gengar  Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➜ Cambiar a Chansey , cambiar a Jirachi; Gallade Sombra Vil a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Jirachi Otra Vez Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Cambiar a Chansey, cambiar a Jirachi; (hacia Jirachi daño por retroalimentación de Patada Salto Alta) ",
-      "variant": []
-    },
-    {
-      "detail": "Gallade / Sawsbuck➜ Jirachi Otra Vez  Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  vs. Gengar  lento ➜ Chandelure +2 +2 Gengar +4 +2 ; NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "vs. Gengar rápido ➜ Gengar +4 +2 ",
-      "variant": []
+      "detail": "Gallade / Roserade --> Gengar usa Otra Vez",
+      "variant": [
+        {
+          "detail": "Protección ➜ Entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra a todos",
+          "variant": []
+        },
+        {
+          "detail": "Espada Santa (vs Gengar rápido) --> Entrar con Gengar +2/+2 + Precisión (No usar Otra Vez)",
+          "variant": []
+        },
+        {
+          "detail": "Espada Santa (vs Gengar lento) --> Entrar con Gengar +4/+2 (No usar Otra Vez)",
+          "variant": []
+        },
+        {
+          "detail": "Golpe Bajo --> Sacrificar a Politoed; entrar con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Al enfrentar a Dragonite --> Cambiar a Slowbro y usar Bostezo",
+          "variant": [
+            {
+              "detail": "Raichu --> Sacrificar a Politoed; entrar con Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Gallade / Roserade (Alakazam) --> Usar Protección y Bostezo al enfrentar a Raichu; sacrificar a Politoed; entrar con Poliwrath +6",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

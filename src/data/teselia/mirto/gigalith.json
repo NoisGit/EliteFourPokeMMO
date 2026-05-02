@@ -2,23 +2,29 @@
   "id": "gigalith",
   "name": "Gigalith",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 y cambia a jirachi ( 💡 dragonite no puede matar a excadrill porque tiene globo 💡) ",
+  "initialMove": "💕Usar Encanto, luego 🪨Trampa Rocas🪨 🔔(Si no cambia Usar Amortiguador)🔔",
   "tricks": [
     {
-      "detail": "Terremoto  ➜ Dragonite Otra Vez x4 Danza Dragón ",
-      "variant": []
-    },
-    {
-      "detail": "Autodestrucción frente a Excadrill ➜ Jirachi Otra Vez , Dragonite  x4 Danza Dragón",
-      "variant": []
-    },
-    {
-      "detail": "Autodestrucción  frente a Accelgor ➜ Chandelure +2 +2; (tiene pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Si usa trampa rocas o pedrada  ➜ Jirachi Protección  Otra Vez, cambia a Dragonite Otra Vez x4 Danza Dragón ;  (Garra Dragón  a Excadrill tiene globo",
-      "variant": []
+      "detail": "Excadrill --> Teletransporte para sacar a Slowbro y usar Bostezo😴",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Latios --> Usar Proteccion y luego Bostezo",
+          "variant": [
+           {
+             "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
+             "variant": []
+           },    
+           {
+             "detail": "Seismitoad --> Cambia a Volcarona +2",
+             "variant": []  
+           }
+          ]
+        }
+      ]
     }
-  ]
-}
+  ]  
+}  

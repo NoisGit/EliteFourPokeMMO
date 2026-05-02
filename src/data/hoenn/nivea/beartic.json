@@ -2,16 +2,6 @@
   "id": "beartic",
   "name": "Beartic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar 👻",
-  "tricks": [
-    {
-      "detail": "Cambia a Gengar, usa Otra Vez y Maquinación hasta +6.",
-      "variant": [
-        {
-          "detail": "Barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "👻Gengar Otra Vez +6👻 🔔(Barrer con Bola Sombra)🔔",
+  "tricks": []
 }

@@ -2,18 +2,15 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar +2",
+  "initialMove": "Cambiar a Gengar, +2 ",
   "tricks": [
     {
-      "detail": "Cambia a Gengar y usa Maquinación hasta +2.",
-      "variant": [
-        {
-          "detail": "Si Flareon se queda, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Si sale Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Se queda → Gengar, Otra Vez, +4 +2 + precisión X",
+      "variant": []
+    },
+    {
+      "detail": "Sale Bronzong → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
     }
   ]
 }

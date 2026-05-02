@@ -5,21 +5,16 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento de Nidoqueen.",
-      "variant": [
-        {
-          "detail": "Si usa Tierra Viva o Bomba Lodo, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
-          "variant": []
-        },
-        {
-          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado contra Zoroark. Barre hasta Electrode o Tentacruel y usa Danza Aleteo una vez más para terminar.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona retrocede, cambia a Chansey, cura a Volcarona al máximo y repite la ruta anterior.",
-          "variant": []
-        }
-      ]
+      "detail": "Tierra Viva / Bomba Lodo ➜ Teletransporte ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 usar Cascada contra Skarmory / Tentacruel",
+      "variant": []
+    },
+    {
+      "detail": "Lanzallamas/ Pulso Umbrío (zoroark) ➜Teletransporte; enviar a Volcarona x1 danza aleteo y gigadrenado a zoruak ➜ barrer hasta electrode/ Tentacruel y usar otro  Danza Aleteo una vez para barrer",
+      "variant": []
+    },
+    {
+      "detail": "Si Volcarona retrocede por retroceso ➜ Cambiar a Chansey ➜recuperar vida al máximo y repetir la operación anterior",
+      "variant": []
     }
   ]
 }

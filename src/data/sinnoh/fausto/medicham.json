@@ -2,31 +2,24 @@
   "id": "medicham",
   "name": "Medicham",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Gengar💡",
+  "initialMove": "💡 Cambiar a Slowbro y luego a Chansey💡",
   "tricks": [
     {
-      "detail": "Medicham se queda y usa Patada Salto Alta➜ Cambiar a Gengar matalo",
+      "detail": "Cacturne --> Usar Trampa Rocas para recibir Esfuerzo  usar Amortiguador al enfrentar el Trueno  de Medicham  cambiar a Slowbro  y usar Bostezo  al enfrentar a Cacturne  entrar con Volcarona  +3, 🔔puede usar Especial X y Gigadrenado a Steelix🔔",
       "variant": []
     },
     {
-      "detail": "Steelix ➜ Cambiar a Dragonite Otra Vez  Danza Dragón x3  y ataca ) (Tierra debilita a Magmortar con Banda Focus / Dragón mata  a Cacturne con Banda Focus )",
-      "variant": []
-    },
-    {
-      "detail": "Bronzong ➜ Cambiar a Chansey Pantalla de Luz",
-      "variant": []
-    },
-    {
-      "detail": "Psicocarga ➜ Cambiar a Jirachi Otra Vez Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Magmortar ➜ Gengar  Otra Vez  +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Ludicolo ➜ Cambiar a Chansey  Amortiguador frente a Magmortar; Gengar Otra Vez +4 no velo ; Jirachi Otra Vez, ( el riesgo de Fuego es grande) ",
-      "variant": []
+      "detail": "Magmortar --> Usar Trampa Rocas al enfrentar el Trueno  de Medicham  revisar la salud de Medicham ",
+      "variant": [
+        {
+          "detail": "Vida completa --> Entrar con Gengar +4 (No usar Otra Vez)",
+          "variant": []
+        },
+        {
+          "detail": "Vida baja  --> Entrar con Gengar  +2 y suicidarse al enfrentar a Bronzong  entrar con Volcarona  +1 si se queda o si sale Houndoom; usar Especial X y presionar para completar",
+          "variant": []
+        }
+      ]
     }
   ]
 }

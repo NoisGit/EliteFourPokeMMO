@@ -2,11 +2,24 @@
   "id": "excadrill",
   "name": "Excadrill",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Sacrifica a Chandelure 💡 Entra jirachi Otra Vez Gallade +4 +2",
+  "initialMove": "💡 Cambiar a Politoed 💡",
   "tricks": [
     {
-      "detail": "-",
+      "detail": "Si se queda --> Usar Cascada con Politoed hasta debilitarse al enfrentar a Jellicent; usar Amortiguador con Chansey al enfrentar a Heracross; usar Teletransporte; entrar con Gengar +4 + Precisión",
       "variant": []
+    },
+    {
+      "detail": "Heracross --> Esperar a que debilite y revisar si tiene A bocajarro",
+      "variant": [
+        {
+          "detail": "Tiene A bocajarro --> Entrar con Gengar +4 + Precisión",
+          "variant": []
+        },
+        {
+          "detail": "No tiene A bocajarro --> Usar Teletransporte con Chansey; entrar con Gengar +4 + Precisión",
+          "variant": []
+        }
+      ]
     }
   ]
 }

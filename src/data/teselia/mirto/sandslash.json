@@ -5,20 +5,43 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Excadrill ➜ Sacrifica a Chandelure, cambia a Jirachi Otra Vez , Dragonite x3 Danza Dragón ",
+      "detail": "Excadrill --> Sacrificar a Gengar; Slowbro usa Bostezo",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Excadrill / Observa Quien sale Primero)🔔",
+          "variant": [
+            {
+              "detail": "Si sale Vanilluxe primero --> 💊Tomar una velocidad X y presionar de nuevo💊",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Volcarona primero --> Presión completa",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6+2 🔔(Puño drenaje a Volcarona)🔔",
+          "variant": []
+        }
+      ]  
+    },
+    {
+      "detail": "Lucario / Braviary --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje a Volcarona)🔔",
       "variant": []
     },
     {
-      "detail": "Lucario ➜ Cambia a Gengar  Maquinación; ( Ataca tiene pañuelo elegido  ), se bloquea  en Patada Salto Alta ",
-      "variant": []
-    },
-    {
-      "detail": "Braviary ➜ Gengar  Otra Vez  +4 no velo ; (Lucario se muere), Gengar no lo mata ; reza por estabilidad, toma Velocidad X (x speed)",
-      "variant": []
-    },
-    {
-      "detail": " usas Maquinación  y cambia hacia Vaporeon ➜ Cambia a Chansey; Pantalla de Luz , fortalecer de nuevo )",
-      "variant": []
+      "detail": "Puño Certero --> Cambia a Slowbro y usa Bostezo",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6; presionar hasta Vanillish y usar Velocidad X 🔔(Puño drenaje a Volcarona)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath 6+2 🔔(Puño drenaje a Volcarona)🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

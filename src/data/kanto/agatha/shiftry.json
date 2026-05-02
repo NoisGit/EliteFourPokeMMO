@@ -5,21 +5,25 @@
   "initialMove": "Cambia a Volcarona",
   "tricks": [
     {
-      "detail": "Cambia a Volcarona y revisa si Shiftry se queda.",
+      "detail": "Si se queda --> 💊Volcarona +1 + 2 Especiales X💊 💰(Si quieres Ahorrar: 5 Danzas)💰",
+      "variant": []
+    },
+    {
+      "detail": "Muk --> Cambia a Slowbro y usa Bostezo",
       "variant": [
         {
-          "detail": "Si Shiftry se queda, usa Danza Aleteo x1 y dos Especial X. 💊 Si quieres ahorrar, usa Danza Aleteo x5. 💰"
+          "detail": "Si se queda --> Usa Proteccion y Bostezo ⬇️(Mira Abajo)⬇️",
+          "variant": []
         },
         {
-          "detail": "Si entra Muk, cambia a Slowbro y usa Bostezo. Si Muk se queda, usa Protección y luego Bostezo."
+          "detail": "Rotom --> Usa Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
+          "variant": []
         },
         {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
-        },
-        {
-          "detail": "Si entra Gengar o Seismitoad, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
-        }
-      ]
-    }
-  ]
+          "detail": "Gengar/Seismitoad --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
+          "variant": []  
+        }  
+      ]  
+    } 
+  ]  
 }

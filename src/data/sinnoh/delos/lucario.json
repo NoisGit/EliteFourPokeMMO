@@ -2,50 +2,14 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar Gengar💡",
+  "initialMove": "👻Cambiar a Gengar👻",
   "tricks": [
     {
-      "detail": "Gallade ➜ Ver abajo ",
+      "detail": "A bocajarro ➜ Entrar con Gengar +2 +2 + Precisión X",
       "variant": []
     },
     {
-      "detail": "hacer rapido ? ➜ Cambiar a Jirachi trampa rocas ; Chandelure +2 +2 ; NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $? medicina ➜ matarlo ",
-      "variant": []
-    },
-    {
-      "detail": "Raichu ➜ Cambiar a Chansey  Trampa rocas",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Gengar  Otra Vez  +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "A bocajarro  ➜ Gengar  Otra Vez ; cambiar Gallade a Kecleon; ",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Cambiar a Jirachi; Gallade con Pañuelo Elegido ",
-      "variant": []
-    },
-    {
-      "detail": "Espada Santa  ➜ Gengar +4 +2  / Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Psicocorte  ➜ Protección ",
-      "variant": []
-    },
-    {
-      "detail": "Raichu / Pesadilla  ➜ Cambiar a Chansey   Pantalla de Luz",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Gengar  +4 +2  / Chandelure +2 +2 ",
+      "detail": "Gallade ➜ Cambiar a Slowbro y usar Bostezo ➜ Frente a Golduck ➜ cambiar a Chansey, Trampa Rocas (si se queda usar Amortiguador) Frente a Gallade ➜ entrar con Gengar +4 +2 (No usar Otra Vez) Bola Sombra a todos",
       "variant": []
     }
   ]

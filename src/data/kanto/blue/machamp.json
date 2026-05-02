@@ -2,18 +2,15 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
+  "initialMove": "💡Cambia a Slowbro luego a Chansey💡",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y luego a Chansey para revisar la ruta.",
-      "variant": [
-        {
-          "detail": "Si entra Vaporeon, coloca Trampa Rocas frente a Machamp. Usa Teletransporte y entra con Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Jolteon, coloca Trampa Rocas frente a Machamp. Cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Vaporeon → 🪨Trampa Rocas🪨 frente a Machamp, usa Teletransporte y saca a Slowbro, Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },    
+    {
+      "detail": "Jolteon → 🪨Trampa Rocas🪨 frente a Machamp, cambia a Gengar luego a Slowbro, Bostezo frente a Jolteon, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
     }
   ]
 }

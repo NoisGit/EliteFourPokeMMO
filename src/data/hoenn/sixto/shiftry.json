@@ -2,26 +2,23 @@
   "id": "shiftry",
   "name": "Shiftry",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampas Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Si entra Absol ➜ Cambia a Gengar +4 (No usar Otra Vez); Bola Sombra a todo",
+      "variant": []
+    },
+    {
+      "detail": "Si entra Aggron ➜ Sacrifica a Politoed y con Poliwrath mata a aggron",
       "variant": [
         {
-          "detail": "Si entra Absol, cambia a Gengar, usa Maquinación hasta +4 y barre con Bola Sombra. No uses Otra Vez.",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Aggron, sacrifica a Politoed y entra con Poliwrath para derrotarlo.",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Shiftry, cambia a Volcarona, usa Danza Aleteo x2 y Lanzallamas contra Shiftry. Contra el resto de plantas, usa Psíquico. Mantén los PS por encima del 23%.",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Hariyama, Poliwrath usa Ataque X y ataca. Usa Cascada contra Hariyama.",
-          "variant": []
+          "detail": "Si entra Shiftry ➜ Volcarona x2 Danza aleteo 🔔 lanzallamas en Shiftry y el resto de plantas usar Psíquico (Mantener HP por encima del 23%)🔔",
+          "variant": [
+            {
+              "detail": " Si entra Hariyama ➜ Usa Ataque X con poliwrath y ataca 🔔 Cascada contra Hariyama🔔",
+              "variant": []
+            }
+          ]
         }
       ]
     }

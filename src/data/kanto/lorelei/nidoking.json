@@ -5,59 +5,51 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si entra Lapras, cambia a Poliwrath y luego cambia a Slowbro. Cuando salga Mantine, usa Bostezo.",
+      "detail": "Lapras → Cambia a Poliwrath → Cambia a Slowbro → sale Mantine → Bostezo → sale Magnezone → Sacrificar a Poliwrath → Volcarona +1 + SpAtk X",
+      "variant": []
+    },
+    {
+      "detail": "Golduck → Cambia a Gengar",
       "variant": [
         {
-          "detail": "Cuando salga Magnezone, sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x1 y Especial X."
+          "detail": "Se queda → Cambia a Slowbro → sale Mantine → Bostezo → frente a Magnezone → Sacrificar a Poliwrath → Volcarona +1 + SpAtk X",
+          "variant": []
+        },
+        {
+          "detail": "Lapras → Cambia a Slowbro → Bostezo → frente a Magnezone → Sacrificar a Poliwrath → Volcarona +2 + SpAtk X",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Golduck, cambia a Gengar.",
+      "detail": "Bronzong → Encanto",
       "variant": [
         {
-          "detail": "Si Golduck se queda, cambia a Slowbro cuando salga Mantine. Usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra con Volcarona."
+          "detail": "Ataque tipo Psíquico/Tierra → Cambia a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Con Volcarona, usa Danza Aleteo x1 y Especial X."
+          "detail": "Explosión → sale Chansey → Saca Politoed (sacrificar) → Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Explosión → sale Nidoking → Amortiguador → HP full",
+          "variant": [
+            {
+              "detail": "Se queda → Teletransporte → Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Sale Chansey → Politoed (sacrificar) → Poliwrath +6",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si entra Lapras después de Golduck, cambia a Slowbro y usa Bostezo frente a Magnezone.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Poliwrath y entra con Volcarona. Usa Danza Aleteo x2 y Especial X."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Bronzong, usa Encanto con Chansey.",
-      "variant": [
-        {
-          "detail": "Si Bronzong usa un ataque Psíquico o de tipo Tierra, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si usa Explosión y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si usa Explosión y entra Nidoking, usa Amortiguador con Chansey hasta quedar con PS al máximo."
-        },
-        {
-          "detail": "Si Bronzong se queda, usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Lucario, cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Después saca a Politoed y deja que caiga. Entra con Poliwrath y usa Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Lucario → Cambia a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+      "variant": []
     }
   ]
 }

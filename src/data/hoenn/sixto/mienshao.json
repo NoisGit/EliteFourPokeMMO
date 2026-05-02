@@ -2,20 +2,11 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar 👻",
+  "initialMove": "Cambiar a Gengar y matalo con bola sombra ",
   "tricks": [
     {
-      "detail": "Cambia a Gengar y derrota a Mienshao con Bola Sombra.",
-      "variant": [
-        {
-          "detail": "Frente a Mandibuzz o Spiritomb, cambia a Chansey y coloca Trampa Rocas.",
-          "variant": []
-        },
-        {
-          "detail": "Frente a Absol, entra con Volcarona, usa Danza Aleteo x2 y Gigadrenado contra Absol.",
-          "variant": []
-        }
-      ]
+      "detail": "Frente a Mandibuzz/spiritomb ➜ cambia a Chansey y usa Trampa Rocas ➜ frente a Absol entra con  Volcarona x2 Danza aleteo (Gigadrenado a Absol)",
+      "variant": []
     }
   ]
 }

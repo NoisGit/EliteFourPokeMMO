@@ -2,15 +2,6 @@
   "id": "volcarona",
   "name": "Volcarona",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 (drapion Banda focus)",
-  "tricks": [
-    {
-      "detail": "Se Queda ➜ Pantalla luz Cambia a Dragonite --> jirachi Otra Vez  Chandelure +2 +2  ",
-      "variant": []
-    },
-    {
-      "detail": "",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Sacrificar a Politoed ➜ entrar con Poliwrath +6 🐸🥊 (Puño Drenaje a Volcarona)💡",
+  "tricks": []
 }

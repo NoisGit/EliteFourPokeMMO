@@ -2,43 +2,45 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Rhyperior ➜ Cambia a Jirachi",
+      "detail": "Absol --> Cambiar a Slowbro y usar Bostezo ; entrar con Volcarona (moth) +1 🔔Usar Psíquico al enfrentar a Gengar🔔",
       "variant": []
     },
     {
-      "detail": "Vidasfera  Terremoto  ➜ Cambia a Gallade  Otra Vez  +4 +2",
+      "detail": "Rhyperior --> Usar Teletransporte y revisar objeto",
+      "variant": [
+        {
+          "detail": "Vidaesfera --> Slowbro usa Bostezo ; sacrificar a Politoed ; entrar con Poliwrath +6 y usar Puño Hielo contra Gengar",
+          "variant": []
+        },
+        {
+          "detail": "Sin Vidaesfera --> Enviar a Slowbro y usar Bostezo al enfrentar a Quagsire; continuar usando Bostezo",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si se queda --> Usar Teletransporte ; entrar con Volcarona  +1 🔔usar Psíquico al enfrentar a Gengar🔔 ",
       "variant": []
     },
     {
-      "detail": "Roca/Explosión  ➜ Cambia a Gallade Otra Vez  +4 +2",
+      "detail": "Gengar --> Entrar con Volcarona  +1 🔔usar Psíquico al enfrentar a Gengar🔔",
       "variant": []
     },
     {
-      "detail": "cambia a Amoonguss  o Durant  ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  sin Vidasfera ➜ Cambia a Gallade Otra Vez +4 +2; corre a Amoonguss o Durant , ver arriba Roca/Explosión",
-      "variant": []
-    },
-    {
-      "detail": "Durant ➜ Cambia a Chandelure +2 +2; (bola sombra  debilita Gengar )",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Cambia a Gengar  Otra Vez  +2 +2; (rayo para gengar)",
-      "variant": []
-    },
-    {
-      "detail": "si sale  Rhyperior mientras de bosteas ataca hasta que salga  ➜ Walrein o Dewgong; ",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior frente a Gengar ➜ Cambia a Chansey, cambia a Jirachi para Absol Otra Vez; Chandelure no x especial +2 (Energibola debilita Walrein o Dewgong)",
-      "variant": []
+      "detail": "Durant --> Opciones para resolver",
+      "variant": [
+        {
+          "detail": "Estable --> Cambiar a Slowbro y usar Bostezo al enfrentar a Gengar; entrar con Volcarona +1 y usar Psíquico al enfrentar a Gengar ",
+          "variant": []
+        },
+        {
+          "detail": "Arriesgado --> Entrar con Volcarona +1",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,33 +2,15 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS 🪨",
+  "initialMove": "🪨 TRAMPA ROCAS 🪨",
   "tricks": [
     {
-      "detail": "Maractus ➜ Jirachi Otra Vez Chandelure +2 +2 (maractus Banda focus)",
-      "variant": [
-        {
-          "detail": "Lopunny ➜ Cambia Gengar ataca ",
-          "variant": []
-        },
-        {
-          "detail": "Steelix ➜ Gallade Cambia a Jirachi ",
-          "variant": []
-        }
-      ]
-    },   
+      "detail": "Lopunny ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Maractus entrar con Volcarona +3 🔔puede usar Especial X y Gigadrenado a Steelix🔔",
+      "variant": []
+    },
     {
-      "detail": "Charizarp ➜  chandelure +2 +2 (pañuelo elegido ",
-      "variant": [
-        {
-          "detail": "-",
-          "variant": []
-        },
-        {
-          "detail": "´-",
-          "variant": []
-        }
-      ]
-    }    
+      "detail": "Maractus ➜ Gengar usa Bola Sombra para romper la Banda Focus ➜ entrar con Volcarona +3 🔔puede usar Especial X y Gigadrenado a Steelix🔔",
+      "variant": []
+    }
   ]
 }

@@ -2,28 +2,24 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 🔔 Evaluar daño 🔔",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y evalúa el daño de Scizor.",
+      "detail": "Si el daño es ~90% --> Teletransporte; Volcarona +1 + Especial X; 🔔mantener PS por encima del 51%🔔",
       "variant": [
         {
-          "detail": "Si el daño es cercano al 90%, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño es cercano al 60%, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si cae por crítico y no alcanzaste a colocar Trampa Rocas, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "detail": "Si Volcarona cae por Crítico --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Si el daño es ~60% --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Si cae por Crítico y no puso Trampa Rocas --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
     }
   ]
 }

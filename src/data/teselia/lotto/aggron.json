@@ -2,43 +2,28 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Usa Contador 💡 ",
+  "initialMove": "💡Cambia a Poliwrath y usa Puño Drenaje💡",
   "tricks": [
     {
-      "detail": "Conkeldurr ➜ Cambia a Gengar Otra Vez, cambia a Chansey ",
+      "detail": "Seismitoad / Skarmory --> Cambiar a Chansey y usar 🪨Trampa Rocas🪨 frente a Conkeldurr; Gengar usa Otra Vez, cambiar a Volcarona ante Seismitoad; 💊Volcarona +1 + Especial X💊",
       "variant": []
     },
     {
-      "detail": "Seismitoad ➜ Trampa rocas , te quedas y usar Amortiguador ",
+      "detail": "Conkeldurr --> Gengar usa Otra Vez, cambiar a Chansey y usar 🪨Trampa Rocas🪨 (⬆️Ver Solucion Arriba⬆️)",
       "variant": []
     },
     {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +2 +2 (usar Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad ➜ Gallade Otra Vez +4  +2 (usar Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir ➜ Cambia a Dragonite Otra Vez, cambia a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Frenta a skarmory  ➜ Debilitar;  cambia a Jirachi, cambia a Gengar Otra Vez +4 +0 +2 (usar Defensa X); recibir Vuelo (fly hit) con Chandelure +5 +0; Gengar Otra Vez +2; frente a Seismitoad, Dragonite Otra Vez, Danza Dragón x3 y presionar; llevar Danza Dragón x3 puede no ser suficiente",
-      "variant": []
-    },
-    {
-      "detail": "se queda ) ➜ Dejar que se debilite ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Jirachi trampa rocas , Gengar Otra Vez, Bola Sombra ",
-      "variant": []
-    },
-    {
-      "detail": "Seismitoad ➜ Gallade Otra Vez +4 +0",
-      "variant": []
+      "detail": "Dusknoir --> Cambiar a Volcarona, luego a Chansey y usar 🪨Trampa Rocas🪨 🔔(Si la rana no tiene PS, curalo al máximo)🔔",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Conkeldurr --> Gengar usa Otra Vez, cambiar a Volcarona ante Seismitoad; 💊Volcarona +1 + Especial X💊",
+          "variant": []
+        }
+      ]
     }
   ]
 }

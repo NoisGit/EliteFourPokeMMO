@@ -2,39 +2,6 @@
   "id": "musharna",
   "name": "Musharna",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 (💡 Altaria frente a Gengar o Chandelure ➜ No representa amenaza; si Mienshao cae, Chandelure 20 y presiona)",
-  "tricks": [
-    {
-      "detail": "Mienshao ➜ Cambia a Gengar, cambia a Gallade para debilitar a Umbreon",
-      "variant": []
-    },
-    {
-      "detail": "Entei ➜ Cambia a Chandelure, cambia a Chansey para usar Contador",
-      "variant": []
-    },
-    {
-      "detail": "Altaria ➜ Chandelure +2 +2 / Gengar +4 no velo (resistir daño y boostear)",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ Con Gengar mátalo; Chandelure +2 no velo",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Jirachi Protección (igual que arriba); usa Ataque X, mantener y usar Defensa X + Protección",
-      "variant": []
-    },
-    {
-      "detail": "Se queda ➜ Cambia a Gengar para debilitar",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Cambia a Chansey Amortiguador + Contador para debilitar a Entei",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Contador, cambia a Jirachi, cambia a Chandelure +2 no velo y presiona",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro frente a Mienshao; usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño Drenaje a Mienshao, Cascada para Musharna y Metagross)🔔",
+  "tricks": []
 }

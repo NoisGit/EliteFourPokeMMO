@@ -2,30 +2,18 @@
   "id": "latias",
   "name": "Latias",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a jirachi ( 💡 ESTRATEGIA INICIAL  ➜ Ver abajo: Método de combate con Trampa Rocas💡) ",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Esfera Aural  ➜ Trampa rocas Otra Vez , Chandelure +2 +2",
+      "detail": "Si se queda --> Usar Teletransporte para sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
       "variant": []
     },
     {
-      "detail": "Pulso Dragón  ➜ Cambia a Chansey ➜ frente a Excadrill presiona , cambia a Dragonite, cambia a Jirachi Otra Vez; Dragonite +4; (Excadrill Banda Focus  no recibe daño; usa movimiento Dragón tras fortalecer, luego Otra Vez ",
+      "detail": "Lucario --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Usar Cascada contra Reuniclus / Si Volcarona despierta no es amenaza)🔔",
       "variant": []
     },
     {
-      "detail": "Correr hacia Lucario ➜ Cambia a Chansey, cambia a Gengar ; usa Bola Sombra  para romper Banda Focus  de Excadrill; cambia a Dragonite, cambia a Jirachi Otra Vez ; Dragonite Danza Dragón x4",
-      "variant": []
-    },
-    {
-      "detail": "Lucario se queda y muere por su patada salto ➜   frente a Latias ➜ Cambia a Jirachi Trampa  rocas Otra Vez; Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Otra Vez , Dragonite  x4 Danza Dragón ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Otra Vez , Dragonite  x3 Danza Dragón ",
+      "detail": "Excadrill --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     }
   ]

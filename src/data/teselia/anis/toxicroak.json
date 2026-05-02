@@ -1,16 +1,12 @@
 {
-    "id": "toxicroak",
-    "name": "Toxicroak",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "Cambia a Gengar",
-    "tricks": [
-      {
-        "detail": "Dragonite ➜ Chansey Trampa roca ➜ Toxicroak ➜ Gengar Cambia a Chansey ➜ Gengar entra Toxicorak ➜ Gallade +2 +2 o Dragonite +6",
-        "variant": []
-      },
-      {
-        "detail": "",
-        "variant": []
-      }
-    ]
-  }
+  "id": "toxicroak",
+  "name": "Toxicroak",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "Cambiar a Slowbro luego cambiar a Chansey y frente a Chandelure 🪨TrampaRocas🪨",
+  "tricks": [
+    {
+      "detail": "Si Entra Toxicroak ➜ cambia a Slowbro y usa Bostezo ➜ frente a Chandelure, sacrifica a Politoed ➜ Poliwrath +6 🚨(No usar Cascada contra Toxicroak)🚨",
+      "variant": []
+    }
+  ]
+}

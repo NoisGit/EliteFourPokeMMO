@@ -2,31 +2,29 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Pantalla luz 💡",
+  "initialMove": "💡Usa Teletransporte💡",
   "tricks": [
     {
-      "detail": "Metagross ➜ Cambia a Gengar Otra Vez, cambia a Gallade para debilitar a Umbreon",
-      "variant": []
+      "detail": "Absol --> Sacar a Slowbro y usar bostezo frente  a Nidoqueen; Teletransporte y sacar a Volcarona +1 🔔(Mirar tu Situación)🔔",
+      "variant": [
+        {
+          "detail": "Si se queda --> Psiquico para Debilitarlo, frente Blissey usa Danza Aleteo dos veces luego termina de Barrer",
+          "variant": []
+        },
+        {
+          "detail": "Blissey --> Danza Aleteo dos veces y seguir Barriendo",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Staraptor ➜ Gengar +4 no velo (tiene pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Gengar Otra Vez, cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Dragonite x3 danza dragon (No usar Otra Vez, tiene pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Nidoqueen ➜ Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Blissey ➜ Chandelure +2 +2; usar movimiento de Fuego para debilitar a Togekiss; (si recibe Tóxico, presionar hasta que Togekiss entre y se cure el veneno)",
-      "variant": []
+      "detail": "Metagross --> Saca Volcarona y derrotalo, frente a Staraptor; Gengar +6 + Precisión X (No usar Otra Vez)",
+      "variant": [
+        {
+          "detail": "Huye a Milotic --> Cambiar a Chansey para atraer a Staraptor; Volcarona +3 🔔(Gigadrenado + Lanzallamas contra Umbreon)🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

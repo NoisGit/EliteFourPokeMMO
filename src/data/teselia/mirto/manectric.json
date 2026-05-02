@@ -2,27 +2,6 @@
   "id": "manectric",
   "name": "Manectric",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TRAMPA ROCAS 🪨",
-  "tricks": [
-    {
-      "detail": "Lucario → Cambia a Gengar",
-      "variant": [
-        {
-          "detail": "Patada salto alta → Gengar +2 (No usar Otra Vez)",
-          "variant": []
-        }, 
-        {    
-           "detail": "Abocajarro → Cambia a Jirachi, frente a krokodile cambia a Dragonite +2 (No usar Otra Vez)",
-           "variant": []
-        }
-      ]
-    }, 
-    { 
-      "detail": "Braviary → Gengar +4 (Lucario tiene scarf, toma velocidad-X para mas seguridad)",
-      "variant": []
-    }  
-  ] 
-}
-          
-        
-       
+  "initialMove": "🪨Trampa Rocas🪨 frente a Lucario / Braviary; cambiar a Slowbro y usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño Drenaje a Volcarona)🔔",
+  "tricks": []
+}   

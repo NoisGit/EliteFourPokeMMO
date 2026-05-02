@@ -2,14 +2,19 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Trampa Rocas",
+  "initialMove": "🥚Amortiguador🥚",
   "tricks": [
     {
-      "detail": "Absol: Cambia a Gengar otra vez Cambia a Jirachi si cambia a Hydreigon Cambia a Chandelure +2 +2",
-      "variant": []
+      "detail": "Tiene Vidasfera --> 🪨TrampaRocas🪨 frente a Golurk, Gengar Otra Vez 6+2 🔔(Onda Certera a Purugly)🔔",
+      "variant": [
+        {
+          "detail": "Ida y Vuelta activa Cuerpo Maldito --> Gengar usa Otra Vez, cambiar a Poliwrath para matarlo",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Golurk: Gengar Otra Vez +6 +2",
+      "detail": "Sin Vidasfera --> 🪨TrampaRocas🪨 frente a Absol, Gengar Otra Vez 4+2",
       "variant": []
     }
   ]

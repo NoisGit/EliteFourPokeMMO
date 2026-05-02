@@ -5,38 +5,37 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué movimiento o cambio aparece.",
+      "detail": "Puño Meteoro --> Teletransporte; enviar a Slowbro y usar Bostezo",
       "variant": [
         {
-          "detail": "Si usa Puño Meteoro, usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "detail": "Enviar a Slowbro frente a Tyranitar --> Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si quedas frente a Tyranitar, envía a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "detail": "Hierba Lazo / Ampharos --> Sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si aparece Hierba Lazo, Ampharos, Scizor, Dragonite o Lapras, entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
+          "detail": "Scizor --> Sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si sale Eelektross, usa Teletransporte hacia Gengar. Gengar usa Maquinación y barre con Bola Sombra.",
+          "detail": "Dragonite / Lapras --> Sacrificar a Politoed; Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Eelektross --> Teletransporte; Gengar usa Maquinación y barre",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta con Scizor o Tyranitar:",
-      "variant": [
-        {
-          "detail": "Si sale Scizor, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Tyranitar, cambia a Poliwrath y usa Puño Drenaje para derrotarlo. Luego cambia a Chansey, usa Amortiguador y espera a Metagross. Usa Teletransporte hacia Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Scizor --> Cambiar a Slowbro y usar Bostezo ; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Tyranitar --> Cambiar a Poliwrath puño drenaje en  tyranitar ; cambiar a Chansey y usar Amortiguador; esperar a Metagross; Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
     }
   ]
 }

@@ -2,21 +2,6 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
-  "tricks": [
-    {
-      "detail": "Cambia a Slowbro frente a Marowak y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔"
-        },
-        {
-          "detail": "🚨 Si Slowbro queda paralizado, no uses Bostezo todavía. Primero usa Cura Total. 🚨"
-        }
-      ]
-    }
-  ]
+  "initialMove": "Cambia a Slowbro frente a Marowak y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔 🚨(Si Slowbro queda paralizado no uses Bostezo, primero usa una Cura Total)🚨",
+  "tricks": []
 }

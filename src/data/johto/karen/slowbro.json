@@ -5,52 +5,53 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Puño Drenaje ➜ Volcarona x2 Danza aleteo",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill ➜ Ver objeto",
       "variant": [
         {
-          "detail": "Si usa Puño Drenaje, entra con Volcarona y usa Danza Aleteo x2.",
+          "detail": "Globo Helio ➜ usa Encanto y Amortiguador frente a Tyranitar sacas a Poliwrath para matar Tyranitar",
           "variant": []
         },
         {
-          "detail": "Si sale Tyranitar, entra con Poliwrath para derrotarlo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados y frente a Houndoom sigue atacando; no te derrota.",
-          "variant": []
+          "detail": "Sin Globo Helio ➜ Teletransporte ➜ enviar a Slowbro y usar Bostezo",
+          "variant": [
+            {
+              "detail": "Si se queda ➜ Teletransporte ➜ Volcarona x1 danza aleteo ataca hasta que entre Houndoom Para volver a usar Danza aleteo y matarlo",
+              "variant": []
+            },
+            {
+              "detail": "Mismagius ➜ Volcarona x1 danza aleteo ataca hasta que entre Houndoom Para volver a usar Danza aleteo y matarlo",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Ruta con Excadrill:",
+      "detail": "Tyranitar ➜ Entra con Poliwrath para matar a tyranitar ",
       "variant": [
         {
-          "detail": "Si tiene Globo Helio, usa Encanto y Amortiguador frente a Tyranitar. Luego cambia a Poliwrath para derrotar a Tyranitar.",
+          "detail": "Gyarados ➜ Volcarona x1 danza aleteo + Especial X y frente a Houndoom sigue atacando no te mata 🔔Psíquico a Gyarados🔔",
           "variant": []
         },
         {
-          "detail": "Si no tiene Globo Helio, usa Teletransporte hacia Slowbro y luego Bostezo. Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta que entre Houndoom. Luego usa Danza Aleteo una vez más y derrótalo.",
-          "variant": []
+          "detail": "Victreebel ➜ Cambia a Gengar, luego a Slowbro",
+          "variant": [
+            {
+              "detail": "Si se queda → Bostezo; cambia a Volcarona, x1 danza aleteo + Especial X",
+              "variant": []
+            },
+            {
+              "detail": "Gyarados ➜ Volcarona, x1 danza aleteo + Especial X",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 y ataca hasta que entre Houndoom. Luego usa Danza Aleteo una vez más y derrótalo.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Ruta con Victreebel:",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gyarados después, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
+          "detail": "Excadrill ➜ Full Gigadrenado hasta matarlo ",
           "variant": []
         }
       ]

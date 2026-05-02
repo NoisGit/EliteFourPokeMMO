@@ -2,14 +2,11 @@
   "id": "banette",
   "name": "Banette",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " (Usa Trampa Rocas 🪨 )si banete se queda usa pantalla luz Mira la segunda opcion",
+  "initialMove": "🪨Trampa Rocas🪨 🔔(Si no cambia usa Amortiguador)🔔",
   "tricks": [
     {
-      "detail": "Absol: Amortiguador Gengar Otra Vez +4 +2 Gengar Otra vez Maquinacion si cambia a Hydreigon Cambia a Chansey Amortiguador Cambia a Absol Mete Gengar Cambia Jirachi va salir Hydreigon tiene pañuelo Cambia Chandelure +2 + 2",
+      "detail": "Sale Absol --> Cambia a Gengar, Otra Vez 4+2 🔔(Barre con Bola Sombra, Absol No tiene banda focus)🔔",
       "variant": []
-    },
-    {
-     "detail": "Si usaste Pantalla luz Sale Absol , Amortiguador Cambia a Gengar Otra vez +4 +2"
     }
   ]
 }

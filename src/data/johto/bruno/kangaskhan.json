@@ -2,16 +2,11 @@
   "id": "kangaskhan",
   "name": "Kangaskhan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si quedas frente a Heracross, usa Amortiguador y luego Teletransporte para recibir A Bocajarro.",
-      "variant": [
-        {
-          "detail": "Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. 🔔 Heracross tiene Banda Focus. 🔔",
-          "variant": []
-        }
-      ]
+      "detail": "Frente a Heracross ➜ Amortiguador, Teletransporte (recibes el A Bocajarro) → Gengar, otra vez, +2 + precisión x (heracross Banda focus)",
+      "variant": []
     }
   ]
 }

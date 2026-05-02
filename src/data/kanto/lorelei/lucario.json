@@ -2,24 +2,24 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar + Otra Vez",
+  "initialMove": "Gengar, Otra Vez → Cambia a Slowbro (Mira el item)",
   "tricks": [
     {
-      "detail": "Entra con Gengar, usa Otra Vez y luego cambia a Slowbro para revisar el objeto de Lucario.",
+      "detail": "Vidaesfera → Cambia a Chansey, sale Lapras. Usa trampa rocas → Sale Lucario → Cambia a Slowbro, Bostezo",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera, cambia a Chansey. Cuando salga Lapras, coloca Trampa Rocas. Cuando vuelva Lucario, cambia a Slowbro y usa Bostezo."
+          "detail": "Si se queda → Teletransporte a Volcarona, +1. Derrotalo, sale Dragonite, usa 1 X SpAtk. Derrotalos (Mantener HP +35%).",
+          "variant": []
         },
         {
-          "detail": "Si Lucario se queda, usa Teletransporte hacia Volcarona. Usa Danza Aleteo x1, derrótalo y cuando salga Dragonite usa Especial X. Mantén los PS sobre 35%."
-        },
-        {
-          "detail": "Si después sale Lapras, usa Volcarona con Danza Aleteo x2. Mantén los PS sobre 46%."
-        },
-        {
-          "detail": "Si no tiene Vidasfera, cambia a Chansey y coloca Trampa Rocas. Luego cambia a Slowbro y usa Bostezo. Cuando salga Lapras, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Sale Lapras → Volcarona, +2. (Mantener HP +46%)",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Sin Vidaesfera → Cambia a Chansey, trampa rocas. Luego cambia a Slowbro, Bostezo. Sale lapras → Politoed (sacrificar), Poliwrah +6",
+      "variant": []
     }
   ]
 }

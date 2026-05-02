@@ -2,33 +2,40 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Varias opciones",
+  "initialMove": "VARIAS OPCIONES",
   "tricks": [
     {
-      "detail": "Ruta rápida: coloca Trampa Rocas, recibe Acróbata y cambia a Slowbro para usar Bostezo.",
+      "detail": "Rápida → Trampa Rocas, recibe Acrobata → Cambia a Slowbro, bostezo",
       "variant": [
         {
-          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
+          "detail": "Blastoise → Volcarona +1",
+          "variant": []
         },
         {
-          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta ahorro: usa Amortiguador, recibe Acróbata y vuelve a usar Amortiguador.",
+      "detail": "Ahorro → Amortiguador, recibes Acrobata, vuelve a usar Amortiguador. Sale Hitmonlee → Gengar, otra vez → Slowbro",
       "variant": [
         {
-          "detail": "Cuando salga Hitmonlee, cambia a Gengar, usa Otra Vez y luego cambia a Slowbro."
+          "detail": "Se queda → Bostezo",
+          "variant": [
+            {
+              "detail": "Blastoise → Volcarona +1",
+              "variant": []
+            },
+            {
+              "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si Hitmonlee se queda, usa Bostezo."
-        },
-        {
-          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
-        },
-        {
-          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Blastoise → Volcarona +1",
+          "variant": []
         }
       ]
     }

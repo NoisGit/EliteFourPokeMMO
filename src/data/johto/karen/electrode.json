@@ -2,20 +2,11 @@
   "id": "electrode",
   "name": "Electrode",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨; Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro para usar Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si Slowbro está paralizado y no puede usar Bostezo, cambia a Chansey, recupera vida al máximo y repite la operación.",
-          "variant": []
-        }
-      ]
+      "detail": "Si Slowbro está paralizado y no puede usar Bostezo --> Cambiar a Chansey, recuperar vida al máximo y repetir la operación",
+      "variant": []
     }
   ]
 }

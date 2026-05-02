@@ -2,30 +2,14 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Amortiguador 💡",
+  "initialMove": "🥚Amortiguador🥚",
   "tricks": [
     {
-      "detail": "Acróbata  ➜ Trampa rocas se queda, Contador  ",
+      "detail": "Fuerza Bruta ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
       "variant": []
     },
     {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Dragonite x3 Danza Dragón  / Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Fuerza Bruta  ➜ Dragonite usa Defensa X ,  x2 Danza Dragón; atacaa",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite recibe golpe crítico  【Probando】 ➜ Cambia a Chansey , cambia a Gengar , ve a Kingler; presiona Rayo ) hasta debilitar; ver quién sale:",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar  ➜ Cambia a Gallade; (Gengar puede recibir Persecución y debilitarse); debilitar si no está frente a Flygon; cambia a Chansey , saca a Scizor, Gengar Otra Vez , cambia a Jirachi para Flygon",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Cambia a Jirachi Otra Vez ; mov Fuego: Chandelure +2 +2; mov Tierra: Gallade  +2 +2",
+      "detail": "Acróbata ➜ Usar 🪨Trampa Rocas🪨 al enfrentar a Flygon ➜ Slowbro usa Bostezo al enfrentar a Scizor ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
       "variant": []
     }
   ]

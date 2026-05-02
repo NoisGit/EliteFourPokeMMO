@@ -2,27 +2,31 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Observa la habilidad",
+  "initialMove": "OBSERVA LA HABILIDAD",
   "tricks": [
     {
-      "detail": "Si Salamence tiene Intimidación, coloca Trampa Rocas.",
+      "detail": "Con Intimidación → Trampa Rocas",
       "variant": [
         {
-          "detail": "Si entra Hitmonchan, cambia a Poliwrath para recibir A Bocajarro. Luego entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
+          "detail": "Hitmonchan → Cambia a Poliwrath, recibe el A Bocajarro → Gengar, +4. (No es necesario Otra Vez)",
+          "variant": []
         },
         {
-          "detail": "Si entra Metagross, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
+          "detail": "Metagross → Slowbro, bostezo. Sale Salamence → Teletransporte a Volcarona, +1",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si Salamence no tiene Intimidación, usa Amortiguador.",
+      "detail": "Sin Intimidación → Amortiguador",
       "variant": [
         {
-          "detail": "Si entra Infernape, usa Amortiguador para recibir A Bocajarro. Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4."
+          "detail": "Infernape → Amortiguador (recibes A Bocajarro) → Gengar, Otra Vez, +4",
+          "variant": []
         },
         {
-          "detail": "Si entra Heracross, usa Amortiguador para recibir A Bocajarro. Luego entra con Gengar, usa Otra Vez y Maquinación hasta +4. Mantén Otra Vez cuando sea necesario, porque Heracross tiene Banda Focus."
+          "detail": "Heracross → Amortiguador (recibes A Bocajarro) → Gengar, Otra Vez, +4 (Mantener Otra Vez, tiene Banda Focus)",
+          "variant": []
         }
       ]
     }

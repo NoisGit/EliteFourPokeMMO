@@ -2,22 +2,10 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar Otra Vez +2 ",
+  "initialMove": "💡Gengar usa Otra Vez💡",
   "tricks": [
     {
-      "detail": "Electivire se queda ➜ ataca hasta que entre Crawdaunt, cambia a Chansey, cambia a Gengar Otra Vez +4 +2; ( 💡 Banda Focus Crawdaunt)",
-      "variant": []
-    },
-    {
-      "detail": "Machamp ➜ Cambia a Chansey, cambia a Gengar Otra Vez +4; atacar hasta que entre Crawdaunt cambia a Chansey, cambia a Gengar Otra Vez +4 +2 ( 💡 Banda Focus Crawdaunt) ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ mata a conkeldurr",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt ➜ Cambia a Chansey, cambia a Gengar Otra Vez +4 +2; ( 💡 Banda Focus Crawdaunt) ",
+      "detail": "Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6.",
       "variant": []
     }
   ]

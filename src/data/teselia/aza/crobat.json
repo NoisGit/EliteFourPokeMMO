@@ -2,11 +2,6 @@
   "id": "crobat",
   "name": "Crobat",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨Trampa Rocas 🪨 Frente a Haxorus, Amortiguador , Gengar Otra Vez +4 +2(si Crobat se queda usa Amortiguador y pantalla luz)",
-  "tricks": [
-    {
-      "detail": "Frente a Bisharp ➜ Cambia a Jirachi Frente a Chandelure Cambia a Chandelure +2 +2 (chandelure gafas elegidas) ",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Gengar luego cambiar a Slowbro; Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
+  "tricks": []
 }

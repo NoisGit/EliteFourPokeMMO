@@ -2,15 +2,6 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Chandelure💡",
-  "tricks": [
-    {
-      "detail": "Garchomp ➜ Gallade/Roserade +4 +2 ; (Pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse para debilitar a Chandelure ➜ Gallade Otra Vez  +4 +2 ; frente a Garchomp Pañuelo Elegido",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Teletransporte; entrar con Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 💡 Usar Cascada contra Bronzong",
+  "tricks": []
 }

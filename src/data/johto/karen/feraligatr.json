@@ -5,17 +5,12 @@
   "initialMove": "❤️ Encanto ❤️",
   "tricks": [
     {
-      "detail": "Usa Encanto y revisa el daño recibido.",
-      "variant": [
-        {
-          "detail": "Si el daño es menor a 36%, coloca Trampa Rocas. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño es mayor a 39%, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Cura la quemadura si ocurre.",
-          "variant": []
-        }
-      ]
+      "detail": "Menos de 36% (Crítico 54%) --> Trampa Rocas; cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Más de 39% (Crítico 59%) --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6 🔔curar quemadura🔔 ",
+      "variant": []
     }
   ]
 }

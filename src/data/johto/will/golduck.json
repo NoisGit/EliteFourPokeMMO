@@ -2,21 +2,24 @@
   "id": "golduck",
   "name": "Golduck",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si Golduck usa Tajo Cruzado.",
+      "detail": "Tajo Cruzado → Teletransporte",
       "variant": [
         {
-          "detail": "Si usa Tajo Cruzado, usa Teletransporte. Si Golduck se queda, entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+          "detail": "Se queda → Gengar, Otra Vez, +2 +2 + precisión X.",
+          "variant": []
         },
         {
-          "detail": "Si entra Lucario, puedes pasar por Poliwrath y luego volver a Gengar. Usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Si Lucario entra directo, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
+          "detail": "Lucario → Poliwrath → Gengar, Otra Vez, +2 +2 + precisión X.",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Lucario → Gengar, Otra Vez, +2 +2 + precisión X.",
+      "variant": []
     }
   ]
 }

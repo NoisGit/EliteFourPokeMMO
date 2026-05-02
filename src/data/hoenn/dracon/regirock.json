@@ -2,20 +2,15 @@
   "id": "regirock",
   "name": "Regirock",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Cambia a Gengar 👻",
+  "initialMove": "👻 Cambiar a Gengar 👻",
   "tricks": [
     {
-      "detail": "Cambia a Gengar y revisa la ruta rival.",
-      "variant": [
-        {
-          "detail": "Si usa Puño Drenaje, Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Eelektross, cambia a Chansey y luego vuelve a Gengar. Usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
+      "detail": "Puño Drenaje --> Gengar +4 +2; 🔔Bola Sombra a todo🔔",
+      "variant": []
+    },
+    {
+      "detail": "Eelektross --> Cambiar a Chansey y luego a Gengar +4 +2; 🔔Bola Sombra a todo🔔",
+      "variant": []
     }
   ]
 }

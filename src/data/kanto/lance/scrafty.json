@@ -2,18 +2,6 @@
   "id": "scrafty",
   "name": "Scrafty",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Lucario.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Slowbro y usa Bostezo frente a Electivire."
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Lucario, cambia a Slowbro y usa Bostezo frente Electivire, sacrifica a Politoed y entra Poliwrath +6",
+  "tricks": []
 }

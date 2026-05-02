@@ -2,22 +2,14 @@
   "id": "slowking",
   "name": "Slowking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Cambiar a Slowbro y usar Bostezo frente a Nidoqueen; usar Teletransporte, entrar con Volcarona +1 🔔(Mira tu Situación)🔔",
   "tricks": [
     {
-      "detail": "Absol ➜ Cambia a Gengar Otra Vez, cambia a Jirachi",
+      "detail": "Si se queda --> Usar Psíquico para Debilitarlo, frente a Blissey usar Danza Aleteo dos veces y Barrer",
       "variant": []
     },
     {
-      "detail": "Blissey ➜ Chandelure +2 +2; si recibe Tóxico, esperar a que se elimine; si entra Metagross, cambiar a Dragonite +3 Danza Dragón",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Dragonite x3 Danza Dragón (No usar Otra Vez)",
-      "variant": []
-    },
-    {
-      "detail": "Nidoqueen ➜ Otra Vez, Chandelure +2 +2",
+      "detail": "Blissey --> Usar Danza Aleteo dos veces y Barrer",
       "variant": []
     }
   ]

@@ -2,103 +2,128 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Gengar usa Onda Certera, revisa su objeto.",
+      "detail": "Onda Certera → Mira el Objeto",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera, cambia a Gengar y usa Otra Vez. Luego cambia a Slowbro y usa Bostezo."
+          "detail": "Tiene Vidaesfera → Gengar, Otra Vez → Slowbro, Bostezo",
+          "variant": [
+            {
+              "detail": "Rotom → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Otro Pokemon → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "No tiene Vidaesfera → Mira el daño ↓",
+          "variant": [
+            {
+              "detail": "24 - 28 % (Critico 35 - 42 %) → Toma un X SpDef, Amortiguador y forza al cambio (si te reduce la defsp, toma otro X SpDef)",
+              "variant": [
+                {
+                  "detail": "Si se queda luego de 3 Amortiguador → Gengar, Otra Vez → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+                  "variant": []
+                },
+                {
+                  "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+                  "variant": []
+                },
+                {
+                  "detail": "Krookodile → Teletransporte (mira el ataque)",
+                  "variant": [
+                    {
+                      "detail": "Terremoto → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Triturar → Poliwrath +6 + Max Poción + Vel X",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Crobat → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+                  "variant": []
+                },
+                {
+                  "detail": "Arbok → Slowbro, Bostezo",
+                  "variant": [
+                    {
+                      "detail": "Rotom → Protección, luego bostezo → Politoed (sacrificar), Poliwrath +6",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Otro Pokemon → Politoed (sacrificar), Poliwrath +6",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "34 - 40 % (Critico 50 - 60 %) (Zoroark) → Saca a Slowbro",
+              "variant": [
+                {
+                  "detail": "No huye → Bostezo → Volcarona +1",
+                  "variant": []
+                },
+                {
+                  "detail": "Marowak → Bostezo, Teletransporte a Volcarona, +1",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si no tiene Vidasfera, revisa el daño de Onda Certera.",
+      "detail": "Muk → Teletransporte a Slowbro, Bostezo",
       "variant": [
         {
-          "detail": "Si hace 24–28% de daño, toma una Defensa Especial X, usa Amortiguador y fuerza el cambio. Si te baja la Defensa Especial, toma otra Defensa Especial X."
+          "detail": "Se queda → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si Gengar se queda después de 3 Amortiguadores, cambia a Gengar, usa Otra Vez, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Rotom → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si hace 34–40% de daño, probablemente es Zoroark. Cambia a Slowbro. Si no huye, usa Bostezo y entra con Volcarona para usar Danza Aleteo x1."
+          "detail": "Gengar/Seismitoad → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Alakazam, usa Teletransporte hacia Slowbro y luego Bostezo.",
+      "detail": "Marowak → Encanto, Teletransporte → Slowbro, Bostezo",
       "variant": [
         {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Krookodile, usa Teletransporte y revisa el ataque.",
-      "variant": [
-        {
-          "detail": "Si usa Terremoto, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Puño Trueno / Arbok → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si usa Triturar, entra con Poliwrath, usa Tambor hasta +6 Ataque, toma una Max Poción y usa Velocidad X."
+          "detail": "Gengar/Mismagius → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Crobat, cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Toxicroak → Cambia a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     },
     {
-      "detail": "Si entra Arbok, cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Lucario → Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     },
     {
-      "detail": "Si entra Marowak, usa Encanto y luego Teletransporte hacia Slowbro.",
-      "variant": [
-        {
-          "detail": "Usa Bostezo. Si Marowak se queda o entra Rotom, usa Protección y luego Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Gengar, Mismagius o Seismitoad, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Muk, usa Teletransporte hacia Slowbro y luego Bostezo.",
-      "variant": [
-        {
-          "detail": "Si Muk se queda, usa Protección y luego Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Toxicroak o Lucario, cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     }
   ]
 }

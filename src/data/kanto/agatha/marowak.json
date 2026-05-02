@@ -2,32 +2,33 @@
   "id": "marowak",
   "name": "Marowak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Encanto",
+  "initialMove": "ENCANTO",
   "tricks": [
     {
-      "detail": "Usa Encanto frente a Marowak y revisa el movimiento.",
+      "detail": "Huesomerang → Teletransporte a Slowbro",
       "variant": [
         {
-          "detail": "Si usa Huesomerang, usa Teletransporte hacia Slowbro. Si Marowak se queda, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Se queda → Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si entra Arbok, usa Bostezo, Protección y luego Bostezo otra vez. Después sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si usa Terremoto, usa Teletransporte hacia Slowbro y luego cambia a Volcarona."
+          "detail": "Arbok → Bostezo, Protección → Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Rotom, usa Danza Aleteo con Volcarona y presiona hasta Houndoom.",
+      "detail": "Terremoto → Teletransporte a Slowbro, luego cambiar a Volcarona",
       "variant": [
         {
-          "detail": "Frente a Houndoom, usa Danza Aleteo x2 y termina la ruta."
+          "detail": "Rotom → Danza Aleteo → Presionar hasta Houndoom, usar 2 danza aleteo y terminar",
+          "variant": []
+        },
+        {
+          "detail": "Gengar → Volcarona, +1 + AtkSp X",
+          "variant": []
         }
       ]
-    },
-    {
-      "detail": "Si entra Gengar, entra con Volcarona, usa Danza Aleteo x1 y Especial X."
     }
   ]
 }

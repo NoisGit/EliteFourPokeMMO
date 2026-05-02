@@ -2,23 +2,46 @@
   "id": "skarmory",
   "name": "Skarmory",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "  🪨 Trampa rocas 🪨 tambien puede quedarte  ➜ Usar Amortiguador  por segunda vez y eliminar con Contador",
+  "initialMove": "🪨 Trampa rocas 🪨 🔔se queda sigue usando Amortiguador🔔",
   "tricks": [
     {
-      "detail": "Aggron ➜ Contador ; frente a Conkeldurr, Gengar Otra Vez, Bola Sombra frente a Seismitoad, Gallade +4 +2 (Defensa X)",
-      "variant": []
+      "detail": "Conkeldurr ➜ Cambiar a Gengar y usa Otra Vez 🔔revisar movimiento🔔",
+      "variant": [
+        {
+          "detail": "A Bocajarro ➜ Gengar Otra Vez +4 🔔Bola Sombra a todo🔔",
+          "variant": []
+        },
+        {
+          "detail": "Puño Drenaje ➜ Cambia a Volcarona ante Seismitoad ➜ Volcarona x1 Danza aleteo + Especial x",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": " Contador  frente a Dusknoir ➜ Dragonite   x4 Danza Dragón ; ( 💡 Chansey  con PS en rojo usar Max pocion ; si no es correcto, recibir Persecución ",
-      "variant": []
+      "detail": "Haxorus ➜ Gengar +4 🔔Bola Sombra a todo🔔",
+      "variant": [
+        {
+          "detail": "Conkeldurr ➜ Gengar ➜ Cambia a Poliwrath y luego a Gengar Otra vez +4",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Conkeldur ) ➜ Gengar Otra Vez +4 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus ➜ Cambia a Gengar  Otra Vez +4 +no velo ",
-      "variant": []
+      "detail": "Aggron ➜ Cambia a Poliwrath y matalo",
+      "variant": [
+        {
+          "detail": "Seismitoad / Skarmory ➜ Cambia a Chansey ,Amortiguador Frente a Conkeldurr ➜ Gengar usa Otra Vez y cambia a Volcarona Frente a Seismitoad, Volcarona +1 danza aleteo + Especial x 🔔si volcarona muere de un critico vuelve a repetir el proceso de la ruta de seismitoad🔔",
+          "variant": []
+        },
+        {
+          "detail": "Conkeldurr ➜ Gengar usa Otra Vez y cambiar a Volcarona Frente a Seismitoad ➜ Volcarona x1 Danza aleteo + Especial x",
+          "variant": []
+        },
+        {
+          "detail": "Dusknoir ➜ Sacrifica a Politoed y entrar con Poliwrath +6",
+          "variant": []
+        }
+      ]
     }
   ]
 }

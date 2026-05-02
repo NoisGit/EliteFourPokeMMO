@@ -2,25 +2,26 @@
   "id": "chansey",
   "name": "Chansey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 frente a Bronzong luego usa Encanto❤️",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas frente a Bronzong y luego usa Encanto para bajar su Ataque. ❤️",
+      "detail": "Cabezazo Zen / Terremoto --> Cambiar a Slowbro y usar Bostezo frente a Nidoking; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Autodestrucción y sale su Chansey --> Sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Autodestrucción y sale Nidoking --> Amortiguador para curar al máximo",
       "variant": [
         {
-          "detail": "Si Bronzong usa Cabezazo Zen o Terremoto, cambia a Slowbro. Frente a Nidoking, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si se queda --> Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si usa Autodestrucción y entra Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si usa Autodestrucción y entra Nidoking, usa Amortiguador hasta recuperar los PS al máximo."
-        },
-        {
-          "detail": "Si después de curarte el rival se queda, usa Teletransporte. Entra Slowbro, usa Bostezo, sacrifica a Politoed y termina con Poliwrath usando Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si cambia a Chansey, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Cambia a Chansey --> Sacrificar a Politoed; Poliwrath +6",
+          "variant": []
         }
       ]
     }

@@ -2,34 +2,22 @@
   "id": "jellicent",
   "name": "Jellicent",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨(terremoto a bastiodon)",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Salpicar  ➜ Pantalla Luz ; cambiar a Dragonite Garra Dragón  Danza Dragón x3 ; NO usar Otra Vez ;( Pañuelo Elección )",
+      "detail": "Salpicar --> Usar Teletransporte; entrar con Slowbro y usar Bostezo",
       "variant": []
     },
     {
-      "detail": "Heracross ➜ Cambiar a Gengar Otra Vez ; cambiar a Gallade",
+      "detail": "Si se queda --> Sacrificar a Politoed; entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Tyranitar ➜ gallade mata tyra ",
+      "detail": "Serperior --> Entrar con Volcarona +2 y usar Velocidad X (mantener PS por encima del 29%)",
       "variant": []
     },
     {
-      "detail": "Excadrill ➜ Jirachi Otra Vez; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Gallade +4 +2  / Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Heracross ➜ Cambiar a Chansey  Pantalla Luz ; sacrificar; Gengar  Otra Vez +4 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
+      "detail": "Heracross --> Usar Teletransporte; entrar con Gengar +4 + Precisión",
       "variant": []
     }
   ]

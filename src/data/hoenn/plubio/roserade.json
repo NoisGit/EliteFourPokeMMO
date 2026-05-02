@@ -5,46 +5,60 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa el objeto y movimiento de Roserade.",
+      "detail": "Vidasfera + Lluevehojas / Bomba Lodo --> Teletransporte; Slowbro usa Bostezo; Teletransporte; 💊Volcarona +1 + Especial X💊",
+      "variant": []
+    },
+    {
+      "detail": "Sin Vidasfera + Lluevehojas --> Teletransporte",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera y usa Lluevehojas o Bomba Lodo, usa Teletransporte hacia Slowbro, Bostezo y luego Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X.",
+          "detail": "Si se queda --> Volcarona +4 🔔(Mantener PS por encima del 70%)🔔",
           "variant": []
         },
         {
-          "detail": "Si no tiene Vidasfera y usa Lluevehojas, usa Teletransporte. Si Roserade se queda, entra con Volcarona y usa Danza Aleteo x4. Mantén los PS por encima del 70%.",
+          "detail": "Gardevoir --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si sale Gardevoir o Milotic, Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si no tiene Vidasfera y usa Bomba Lodo, usa Teletransporte hacia Volcarona y debilita a Roserade. Revisa qué Pokémon entra después.",
+          "detail": "Milotic --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Rutas posteriores a Roserade:",
+      "detail": "Sin Vidasfera + Bomba Lodo (Testeo) --> Teletransporte; Volcarona debilita 🔔(Ver quién sale)🔔",
       "variant": [
         {
-          "detail": "Si sale Milotic, cambia a Chansey para revisar movimiento. Contra Hidrobomba o Surf, usa Teletransporte hacia Slowbro y Bostezo frente a Ludicolo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Milotic --> Cambiar a Chansey para ver movimiento",
+          "variant": [
+            {
+              "detail": "Hidrobomba / Surf --> Teletransporte; Slowbro usa Bostezo frente a Ludicolo; sacrificar a Politoed; Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Escaldar --> Cambiar a Slowbro y usar Bostezo frente a Gardevoir; sacrificar a Politoed; Poliwrath +6",
+              "variant": []
+            }  
+          ]  
+        },
+        {
+          "detail": "Togekiss --> Sacrificar a Volcarona; Slowbro aguanta + X SpDef y usa Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         },
         {
-          "detail": "Si Milotic usa Escaldar, cambia a Slowbro y usa Bostezo frente a Gardevoir. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Togekiss o Gardevoir, sacrifica a Volcarona. Slowbro aguanta con Defensa Especial X y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si Poliwrath cae, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Usa Bola Sombra contra Seaking.",
+          "detail": "Gardevoir --> Sacrificar a Volcarona; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Metagross --> Sacrificar a Politoed; Poliwrath +6",
+      "variant": [
+        {
+          "detail": "☠️Si Poliwrath cae☠️ --> Gengar 4+2 🔔(Bola Sombra a Seaking)🔔",
+          "variant": []
+        }
+      ]  
     }
   ]
 }

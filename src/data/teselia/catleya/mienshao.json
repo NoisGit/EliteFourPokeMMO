@@ -2,74 +2,36 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar Otra Vez",
+  "initialMove": "👻Cambiar a Gengar y usar Otra Vez👻 🔔(Mira quien Ataca Primero)🔔",
   "tricks": [
     {
-      "detail": "Gengar Otra Vez, frente a Umbreon ➜ Cambia a Chansey Pantalla Luz, cambia a Gengar, luego cambia a Gallade para matar a Umbreon",
-      "variant": []
+      "detail": "Si Gengar ataca primero ➜ Maquinación y esperar a que se debilite solo 🔔(Ver quién entra)🔔",
+      "variant": [
+        {
+          "detail": "Raichu ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨",
+          "variant": [
+            {
+              "detail": "Metagross ➜ Cambiar a Slowbro y usar Bostezo para forzar el cambio; sacrificar a Politoed y entrar con Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Excadrill ➜ Cambiar a Chansey luego usar Encanto y Amortiguador, 🚨(Si la salud baja Hasta 30% usa una Max Pocion)🚨 🪨Trampa Rocas🪨 frente a metagros, cambiar a Slowbro y usar Bostezo ➜ sacrificas a Politoed ➜ Poliwrath +6",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Umbreon ➜ Cambiar a Chansey, luego cambiar a Slowbro; usar Bostezo frente a Musharna ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño Drenaje a Umbreon y Cascada a Musharna/Metagross)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Metagross/Entei ➜ Cambiar a Slowbro y usar Bostezo frente a Musharna ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño Drenaje a Umbreon y Cascada a Musharna/Metagross)🔔",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Umbreon ➜ muere (mira abajo)",
-      "variant": []
-    },
-    {
-      "detail": "Entei ➜ Cambia a Chandelure, cambia a Chansey contador para matar a Entei",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Jirachi Trampa Rocas, Chandelure +2 no velo (Nota: Metagross no tiene nada efectivo contra Chande)",
-      "variant": []
-    },
-    {
-      "detail": "Musharna ➜ Amortiguador, Trampa Rocas, Pantalla Luz, Chandelure +2 no velo (Nota: tener cuidado con la vida de Chansey)",
-      "variant": []
-    },
-    {
-      "detail": "¿Quedarte y morir contra Altaria? Sacrificio frente a Altaria ➜ Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao con Pañuelo Elegido ➜ Matarlo",
-      "variant": []
-    },
-    {
-      "detail": "Jolteon ➜ Cambia a Chansey Trampa Rocas; frente a Staraptor, Gengar Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao con Vidaesfera ➜ Cambia a Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Snorlax ➜ Con Gallade matar a Snorlax",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Chansey Trampa Rocas + Contador",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ Cambia a Gengar, cambia a Jirachi; frente a Raichu cambia a Chansey Amortiguador; frente a Excadrill cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Sigilyph ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +2; usar Bola Sombra para el ave, a los demás Lanzallamas",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Muere",
-      "variant": []
-    },
-    {
-      "detail": "Entei ➜ Cambia Chandelure ➜ Chansey contador (mira abajo)",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Jirachi Protección; frente a Altaria ➜ Chandelure 02",
-      "variant": []
-    },
-    {
-      "detail": "Musharna ➜ Amortiguador, Pantalla Luz, Chandelure +2 +2",
+      "detail": "Si Mienshao ataca primero ➜ Cambiar a Slowbro y usar Bostezo frente a Jolteon ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
       "variant": []
     }
   ]

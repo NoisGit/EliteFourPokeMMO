@@ -2,11 +2,6 @@
   "id": "crustle",
   "name": "Crustle",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Skuntank ➜ Jirachi Otra Vez, cambia a Chandelure +2 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Skuntank ➜ sacrifica a Politoed ➜ cambiar a Volcarona luego a Gengar ➜ frente a Durant cambia a Slowbro y usa Bostezo luego Teletransporte ➜ entrar con Poliwrath +6 y usa Puño Drenaje ➜ 💊frente Crustle usar Velocidad X luego termina de Barrer💊",
+  "tricks": []
 }

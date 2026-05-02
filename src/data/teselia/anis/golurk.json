@@ -2,14 +2,10 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas 🪨",
+  "initialMove": "Gengar usa Bola Sombra para debilitar a Milotic; camibia Chansey y usa Trampa rocas, si Hydreigon entra al campo; Gengar Otra vez 6+2",
   "tricks": [
     {
-      "detail": "Puño Drenaje ➜ Gengar Otra vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Critico a chansey ➜ Dragonite otra vez +3 danza dragon",
+      "detail": "🔔(Onda Certera contra purugly)🔔 // 🔔(Ida y Vuelta activa Cuerpo Maldito --> Gengar usa Otra Vez, cambiar a Poliwrath para eliminarlo)🔔",
       "variant": []
     }
   ]

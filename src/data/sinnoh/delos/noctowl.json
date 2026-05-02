@@ -2,31 +2,6 @@
   "id": "noctowl",
   "name": "Noctowl",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
-  "tricks": [
-    {
-      "detail": "Gallade ➜ Cambiar a Gengar ",
-      "variant": []
-    },
-    {
-      "detail": "hacerlo rapido ➜ Cambiar a Jirachi; Hydreigon tiene Pañuelo",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  ➜ Jirachi Otra Vez; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $? medicina arriesgada con Maldición ➜ Gengar  Otra Vez  +6 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Gardevoir Maldición Bola Sombra  ➜ Cambiar a Chansey  Pantalla de Luz  si envían a Hydreigon, Gengar  +4 no velo ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Gallade o Roserade; entrar con Gengar +6/+2 + Precisión",
+  "tricks": []
 }

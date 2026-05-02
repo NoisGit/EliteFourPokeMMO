@@ -2,11 +2,6 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar Otra Vez 💡",
-  "tricks": [
-    {
-      "detail": "Excradril ➜ Dragonite +4 (tiene pañuelo elegido)",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Cambia a Slowbro y usa Bostezo ➜ Frente a Volcarona ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊💡 🔔(Puño drenaje a Volcarona)🔔",
+  "tricks": []
 }

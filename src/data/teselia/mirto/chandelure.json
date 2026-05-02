@@ -2,10 +2,14 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 Chandelure +2 +2 (chande enemigo tiene pañuelo)",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si te bostear y cambia a excadrill sacrifica a chande ➜ Jirachi otra vez ➜ Dragonite x2 danza dragon ",
+      "detail": "Llamarada ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje a Volcarona)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Excadrill ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje a Volcarona)🔔",
       "variant": []
     }
   ]

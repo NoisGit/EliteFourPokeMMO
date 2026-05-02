@@ -2,31 +2,6 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
-  "tricks": [
-    {
-      "detail": "Heracross ➜ Gengar Otra Vez ; cambiar a Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Sacrificar  Chandelure; Jirachi Otra Vez; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar ➜ con gallade espada santa a tyra ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Chandelure +2 +2 ; Otra Vez  si falla el golpe ; sacrificar huevo para curar a Jirachi ; luego Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Heracross ➜ Cambiar a huevo; cambiar a Gengar  Otra Vez ; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Jirachi Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Heracross; sacrificar a Politoed; Gengar Otra vez +4 + Precisión X",
+  "tricks": []
 }

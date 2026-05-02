@@ -2,34 +2,14 @@
   "id": "kingler",
   "name": "Kingler",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🔔Cambiar a Slowbro🔔",
   "tricks": [
     {
-      "detail": "Fuerza Bruta ➜ Gengar  Otra Vez +6 no velo ",
+      "detail": "Martillazo ➜ Usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
       "variant": []
     },
     {
-      "detail": "Martillazo  ➜ Cambia a Dragonite, cambia a Gengar  Otra Vez  +2 (se queda hasta debilitar) ",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar ➜ Cambia a Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Se queda ➜ mata a tyranitar  frente a Flygon; Jirachi Otra Vez , Dragonite Otra Vez  x2 Danza Dragón ",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Jirachi Otra Vez , Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Se queda  【Probando】 ➜ Gallade +2 +2; No usar Otra Vez ; tomar medicina ",
-      "variant": []
-    },
-    {
-      "detail": "Drapion ➜ Sacrifica  a Gengar , Dragonite Otra Vez x2 Danza Dragón 【Probando】",
+      "detail": "Fuerza Bruta ➜ Cambiar a Chansey al enfrentar a Sceptile ➜ usar Trampa Rocas y usar Amortiguador esperando el cambio ➜ Slowbro usa Bostezo al enfrentar a Sceptile ➜ entra con Volcarona +1 🦋🔥",
       "variant": []
     }
   ]

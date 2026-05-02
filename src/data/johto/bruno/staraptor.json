@@ -2,41 +2,33 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro + revisar objeto",
+  "initialMove": "Cambia a Slowbro y Mira que Objeto tiene",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y revisa si Staraptor tiene Vidasfera.",
+      "detail": "Tiene Vidaesfera → Bostezo.",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera, usa Bostezo.",
+          "detail": "Se queda → Teletransporte → Chansey, trampa rocas, Teletransporte → Gengar, Otra Vez, +2 + precisión X(heracross Banda focus)",
           "variant": []
         },
         {
-          "detail": "Si se queda, usa Teletransporte hacia Chansey, coloca Trampa Rocas y vuelve con Teletransporte hacia Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X. 🔔 Heracross tiene Banda Focus. 🔔",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Heracross, usa Protección, cambia a Chansey y espera a Steelix. Coloca Trampa Rocas y mantén Amortiguador hasta que vuelva a cambiar.",
-          "variant": []
-        },
-        {
-          "detail": "Si Heracross se queda, continúa usando Amortiguador.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Staraptor o Machamp, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
-          "variant": []
+          "detail": "Heracross ➜ Protección, cambia a Chansey, sale Steelix. Pon trampa rocas y manten Amortiguador hasta el cambio.",
+          "variant": [
+            {
+              "detail": "Heracross ➜ Continua usando amortiguador",
+              "variant": []
+            },
+            {
+              "detail": "Staraptor/Machamp ➜ Gengar, Otra Vez, +4 + precisión X.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si Staraptor no tiene Vidasfera:",
-      "variant": [
-        {
-          "detail": "Slowbro usa Bostezo. Cuando salga Lucario, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS de Volcarona por encima del 17%.",
-          "variant": []
-        }
-      ]
+      "detail": "No tiene Vidasfera ➜ Slowbro Bostezo ➜ sale Lucario ➜ Teletransporte ➜ Volcarona x2 danza aleteo (HP por encima 17%).",
+      "variant": []
     }
   ]
 }

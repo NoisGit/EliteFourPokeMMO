@@ -2,20 +2,6 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Absol y entra con Volcarona.",
-      "variant": [
-        {
-          "detail": "Volcarona usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Usa Gigadrenado contra Absol. Frente a Houndoom no hay amenaza importante.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🔔 🪨 Trampa Rocas 🪨 frente a Absol; Volcarona +2; Gigadrenado a Absol; frente a Houndoom no hay amenaza 🔔",
+  "tricks": []
 }

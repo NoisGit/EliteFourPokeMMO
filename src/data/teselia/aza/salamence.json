@@ -2,15 +2,24 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 (Si jirachi Muere por critico,Gengar usa otra vez cambia a Dragonite +2 danza dragon) ",
+  "initialMove": "❤️Encanto❤️ ",
   "tricks": [
     {
-      "detail": "se queda y usa Garra Dragón ➜ cambia a Jirachi Otra Vez ➜ Chandelure +2 +2",
+      "detail": "Garra Dragón --> Usar Amortiguador frente a Absol cambiar a Gengar +2 +1 precision seguido de Otra Vez (absol banda focus)",
       "variant": []
     },
     {
-      "detail": "Absol ➜ Gengar Otra vez +2 no velo ",
-      "variant": []
+      "detail": "Absol --> Poner 🪨TrampaRocas recomendar usar Amortiguador🪨",
+      "variant": [
+        {
+          "detail": "Luxray --> Gengar Gengar +2 +1 precision 🔔No usar Otra Vez🔔",
+          "variant": []
+        },
+        {
+          "detail": "Samurott --> Gengar +2 +1 precision",
+          "variant": []
+        }
+      ]
     }
   ]
 }

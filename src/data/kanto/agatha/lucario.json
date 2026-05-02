@@ -2,35 +2,46 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "TRAMPA ROCAS",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa la situación frente a Lucario.",
+      "detail": "A Bocajarro → Mira la situación",
       "variant": [
         {
-          "detail": "Si usa A Bocajarro y logras colocar Trampa Rocas, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Conectas trampa rocas → Cambia a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si usa A Bocajarro y no logras colocar Trampa Rocas, cambia a Gengar, usa Otra Vez y Bola Sombra. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si usa Poder Oculto, usa Teletransporte. Si Lucario se queda, entra con Gengar, usa Otra Vez, cambia a Slowbro y usa Bostezo."
+          "detail": "No conectas trampa rocas → Gengar, Otra Vez + Bola Sombra → Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Gengar, Hydreigon, Rotom o Alakazam, sigue la ruta de sueño con Slowbro.",
+      "detail": "Poder Oculto → Teletransporte",
       "variant": [
         {
-          "detail": "Contra Gengar o Hydreigon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Se queda → Gengar, Otra Vez → Slowbro, Bostezo",
+          "variant": [
+            {
+              "detail": "Gengar/Hydreigon → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Rotom → Protección, Bostezo → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Contra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Contra Alakazam, cambia o usa Teletransporte hacia Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Alakazam → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     }
   ]
 }

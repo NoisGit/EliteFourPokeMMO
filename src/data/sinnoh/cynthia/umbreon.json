@@ -2,11 +2,6 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 (Garchomp pañuelo elegido) ",
-  "tricks": [
-    {
-      "detail": "Garchomp ➜ Gallade +4 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Garchomp; Slowbro usa Bostezo frente a Chandelure; sacrificar a Politoed; Poliwrath +6 🔔 Cascada a Bronzong 🔔",
+  "tricks": []
 }

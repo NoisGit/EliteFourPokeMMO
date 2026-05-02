@@ -1,16 +1,7 @@
 {
-    "id": "toxicroak",
-    "name": "Toxicroak",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": " 💡 Cambia a Gengar 💡",
-    "tricks": [
-    {
-      "detail": "Toxicroak se queda ➜ Gengar  Otra Vez ; mantener Gengar  +6;si cambian cuando te estas bosteando  cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Cambia a Chansey , cambia a Gengar  Otra Vez; frente a Magnezone cambia a Chansey  Amortiguador ; frente a Crawdaunt, Gengar  +4 no velo; No usar Otra Vez( tiene pañuelo)   ",
-      "variant": []
-    }
-  ]
+  "id": "toxicroak",
+  "name": "Toxicroak",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "💡Slowbro usa Bostezo; sacrificar a Politoed y entrar con Poliwrath +6💡",
+  "tricks": []
 }

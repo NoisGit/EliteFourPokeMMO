@@ -2,22 +2,14 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Durant ➜ Gengar +2 no velo ; No usar Otra Vez)",
+      "detail": "Terremoto ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Volcarona ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
       "variant": []
     },
     {
-      "detail": "Terremoto  ➜ Cambia a Dragonite, cambia a Gallade; elimina  a Ferrothorn (probando)",
-      "variant": []
-    },
-    {
-      "detail": "Volcarona ➜ Cambia a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Gliscor ➜ Dragonite Otra Vez  x4  Danza Dragón ",
+      "detail": "Durant ➜ Entrar con Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
       "variant": []
     }
   ]

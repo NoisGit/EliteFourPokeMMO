@@ -2,35 +2,49 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Feraligatr se queda, revisa su movimiento.",
+      "detail": "Si se queda → Observa el Movimiento",
       "variant": [
         {
-          "detail": "Si usa Fuerza Bruta, elige una de estas rutas."
+          "detail": "Fuerza Bruta → ⬇️Opciones para Resolver⬇️",
+          "variant": [
+            {
+              "detail": "✅Estable✅ → 💊Cambia a Slowbro y toma una Max. pocion💊, Espera a Ampharos, cambia a Chansy para atraer a otro Peleador, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
+              "variant": []
+            },
+            {  
+              "detail": "🍀Suerte🍀 → Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
+              "variant": []
+            } 
+          ]    
         },
         {
-          "detail": "Ruta estable: cambia a Slowbro y toma una Max Poción. Espera a Ampharos, cambia a Chansey para atraer a otro peleador, vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
-        },
-        {
-          "detail": "Ruta suerte: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔"
-        },
-        {
-          "detail": "Si usa Cascada, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+          "detail": "Cascada → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+          "variant": []
+        }  
+      ]   
     },
     {
-      "detail": "Si entra Tyranitar, cambia a Gengar y usa Maquinación. Luego barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás. No es necesario usar Otra Vez."
+      "detail": "Tyranitar → Cambia a Gengar y usa Maquinacion luego Barre (No Otra Vez) 🔔(Onda Certera contra Tyranitar y Bolsa sombra contra los demas)🔔",
+      "variant": []
     },
     {
-      "detail": "Si entra Scizor, Lucario, Arcanine o Infernape, usa la ruta de Slowbro.",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo frente al objetivo indicado. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Scizor → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Lucario → Cambia a Slowbro y usa Bostezo frente a Electivire, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Arcanine --> Cambia a Slowbro, usa Bostezo frente a Hydreigon, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Infernape --> Cambia a Slowbro (Mantenerlo), Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
     }
   ]
 }

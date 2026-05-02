@@ -2,18 +2,6 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas, usa Teletransporte y entra con Slowbro.",
-      "variant": [
-        {
-          "detail": "Con Slowbro, usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔"
-        }
-      ]
-    }
-  ]
+  "initialMove": "Trampa Rocas, Teletranspote y saca a Slowbro luego usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
+  "tricks": []
 }

@@ -2,23 +2,6 @@
   "id": "roserade",
   "name": "Roserade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia Jirachi💡",
-  "tricks": [
-    {
-      "detail": "Aerodactyl ➜ Jirachi Otra Vez ; Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Tierra  ➜ Gallade +4 +2 ( puedes ir mas rapido si va +2 +2 pero puede que metagross no muera de un ataque ) ",
-      "variant": []
-    },
-    {
-      "detail": "Fuego  ➜ Chandelure +2 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Encanto, entrar con Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 💡 (Cascada contra Metagross)",
+  "tricks": []
 }

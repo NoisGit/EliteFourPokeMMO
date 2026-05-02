@@ -5,33 +5,45 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "detail": "Machamp → Cambiar a Gengar → Luego cambiar a Slowbro → usar Bostezo → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Hitmonlee → Cambiar a Gengar → luego cambiar a Slowbro",
       "variant": [
         {
-          "detail": "Si entra Machamp, cambia a Gengar y luego a Slowbro. Usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si se queda → usar Bostezo",
+          "variant": [
+            {
+              "detail": "Electivire → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Blastoise → Volcarona +1",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si entra Hitmonlee, cambia a Gengar y luego a Slowbro. Si Hitmonlee se queda, usa Bostezo."
-        },
-        {
-          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
+          "detail": "Blastoise → Volcarona +1",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Darmanitan, elige una de estas rutas.",
+      "detail": "Darmanitan → Varias opciones",
       "variant": [
         {
-          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3. ⚠️ Cuidado con un Fuerza Bruta crítico: puede dejarte cerca de 51% PS."
+          "detail": "Ahorro → Volcarona +3 (cuidado con Superpower crítico: ~51% HP)",
+          "variant": []
         },
         {
-          "detail": "Ruta RNG: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "RNG → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Ruta estable: cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Estable → Cambiar a Slowbro → usar Bostezo → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+          "variant": []
         }
       ]
     }

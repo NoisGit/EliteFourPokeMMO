@@ -2,18 +2,6 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Machamp.",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon."
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Machamp, cambia a Gengar luego a Slowbro, Bostezo frente a Jolteon, sacrifica a Politoed, entra Poliwrath +6",
+  "tricks": []
 }

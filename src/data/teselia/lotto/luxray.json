@@ -2,20 +2,6 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas y amortiguador (si recibe un critico Dragonite x3 danza dragon)",
-  "tricks": [
-    {
-      "detail": "Conkeldur ➜ Gengar Otra vez +4 +2 ",
-      "variant": [
-        {
-          "detail": "Usas Maquinacion y sale Krokodile ➜ Dragonite ➜ Jirachi Otra vez ➜ Dragonite x3 Danza dragon ",
-          "variant": []
-        },
-        {
-          "detail": "Absol ➜ Gengar Otra Vez ➜ Jirachi Frente a Salamance Otra Vez ➜ Chandelure +2 +2 ",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "💡Usar Amortiguador y poner Trampa Rocas frente a Conkeldurr; entrar con Gengar Otra vez  +4 +2 🔔si huye a Gyarados, cambiar a Chansey y volver a atraer🔔💡",
+  "tricks": []
 }

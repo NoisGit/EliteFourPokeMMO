@@ -2,50 +2,52 @@
   "id": "volcarona",
   "name": "Volcarona",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 TRAMPA ROCAS 🪨",
   "tricks": [
     {
-      "detail": "Escavalier ➜ Chandelure +2 +2; se bloquea (cinta elegida )",
+      "detail": "Si se queda --> Sacrificar a Gengar; Slowbro usa Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
       "variant": []
     },
     {
-      "detail": "Lucario ➜ Cambia a Gengar mira abajo )",
+      "detail": "Conkeldurr --> Slowbro usa Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
       "variant": []
     },
     {
-      "detail": "Patada Salto  vida verde ➜ Otra Vez inmediato , Rayo  frente a Excadrill, cambia a Dragonite, cambia a Jirachi Otra Vez inmediato  bloquea Terremoto ), cambia a Dragonite Otra Vez x2 Danza Dragón  + Ataque X; no fijar Lucario a Gengar directamente, Tierra debilita a Volcarona ",
+      "detail": "Excadrill --> Sacrificar a Gengar; Slowbro usa Bostezo",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6; revisar orden de Volcarona/Vanillish",
+          "variant": [
+            {
+              "detail": "Si sale Vanillish primero --> Recibir golpe, usar Velocidad X y presionar de nuevo",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Volcarona primero --> Presión completa",
+              "variant": []
+            }
+          ]
+        },
+        {   
+           "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6+2 🔔(Puño drenaje contra Volcarona)🔔",
+           "variant": []
+        }  
+      ] 
+    },
+    {
+      "detail": "Escavalier/Magcargo --> Slowbro usa Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
       "variant": []
     },
     {
-      "detail": "Otra Vez inmediato Lucario corre hacia Latias ➜ Cambia a Jirachi Otra Vez inmediato  bloquea Esfera Aural , cambia a Chandelure +2 +2",
+      "detail": "Lucario --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🔔Puño drenaje contra Volcarona / Usar Cascada contra Reuniclus / Volcarona despierta no es amenaza🔔",
       "variant": []
     },
     {
-      "detail": "Otra Vez inmediato corre hacia Volcarona  ➜ Chandelure +2 +2",
+      "detail": "Archeops --> Sacrificar a Gengar; Slowbro usa Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Patada Salto  vida en amarillo  ➜ Gengar +2; NO usar Otra Vez ; Lucario Pañuelo Elegido , resiste Puño , crítico auto-rescate; reza por estabilidad, resiste a volcarona  , toma Velocidad X (x speed)",
-      "variant": []
-    },
-    {
-      "detail": "A bocajarro  ➜ Cambia a Jirachi frente a Scrafty Siniestro con Pañuelo Elegido , cambia a Dragonite x3 Danza Dragón ; Tiene pañuelo Usa X defensa  corre hacia Volcarona  no importa",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar  Otra Vez inmediato si cambia hacia Excadrill (Pañuelo Elegido), Dragonite Danza Dragón x4; Tierra debilita a Volcarona), Galla dragon para  Druddigon",
-      "variant": []
-    },
-    {
-      "detail": "Excadrill ➜ Sacrifica (sack) a Chandelure, cambia a Jirachi Otra Vez (Encore), Dragonite Danza Dragón x3; presiona Tierra debilita a Volcarona (moth)",
-      "variant": []
-    },
-    {
-      "detail": "Danza Llama  ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Staraptor  ➜ Gengar (ghost) Otra Vez  +4 +2",
+      "detail": "Braviary --> Slowbro usa Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     }
   ]

@@ -2,42 +2,18 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨  Gengar Otra vez +2",
   "tricks": [
     {
-      "detail": "Ludicolo ➜ Buscando velocidad directamente  Gengar +6 no velo ) Bola Sombra  golpea a Serperior aleatorio 1",
+      "detail": "Conkeldur ➜ Gengar +4 + Precisión X ",
       "variant": []
     },
     {
-      "detail": "Arreglo estable  ➜ Debilitar frente a Steelix  Dragonite Otra Vez Danza Dragón x3 ",
+      "detail": "Salamence ➜ Bola sombra a Salamence ➜Frente a Steelix ➜ sacrifica a Politoed ➜ Poliwrath usar Ataque X y presionar 🔔 Cascada  a Steelix / Conkeldurr Puño Drenaje🔔 ",
       "variant": []
     },
     {
-      "detail": "Quédate ➜ Gengar  Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Ahorrar medicina ➜ Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Dragonite Otra Vez Danza Dragón x2  Otra Vez +4 ",
-      "variant": []
-    },
-    {
-      "detail": "Salamence / Ludicolo ➜ Debilitar frente a Steelix  Dragonite Otra Vez Danza Dragón x2 ); Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Buscando velocidad  ➜ Cambia a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Dragonite Otra Vez Danza Dragón x2  Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Salamence / Ludicolo ➜ Jirachi Otra Vez  Chandelure +2 +2 ",
+      "detail": "Ludicolo ➜  Slowbro , Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
       "variant": []
     }
   ]

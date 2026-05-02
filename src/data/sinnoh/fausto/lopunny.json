@@ -2,11 +2,6 @@
   "id": "lopunny",
   "name": "Lopunny",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas🪨 Gengar Rayo (CACTUS banda focus  ➜ Terremoto. VS STEELIX ➜ Patada Salto. Objetivo: Dejar a Chansey (egg) al 50% HP",
-  "tricks": [
-    {
-      "detail": "Steelix ➜ CAMBIO DRAGONITE ➜ Otra Vez  ➜ Danza Dragón  x2 ➜ Eliminar a Steelix ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 Slowbro, Bostezo ➜ Frente a Maractus ➜ Volcarona +3",
+  "tricks": []
 }

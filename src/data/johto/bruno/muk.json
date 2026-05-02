@@ -2,24 +2,19 @@
   "id": "muk",
   "name": "Muk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
-      "variant": [
-        {
-          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si Muk usa Puya Nociva, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Golem, usa Encanto y Amortiguador hasta que salga Metagross. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Metagross ➜ cambia a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
+    },
+    {
+      "detail": "Puya Nociva  ➜ Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
+    },
+    {
+      "detail": "Golem → Encanto, Amortiguador hasta que salga Metagross → cambia a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
     }
   ]
 }

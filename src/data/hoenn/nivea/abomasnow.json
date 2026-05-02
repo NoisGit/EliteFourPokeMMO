@@ -2,47 +2,37 @@
   "id": "abomasnow",
   "name": "Abomasnow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "⬇️ Opciones para resolver ⬇️",
+  "initialMove": "⬇️Mira las Opciones para Resolver⬇️",
   "tricks": [
     {
-      "detail": "Ruta con suerte: sacrifica a Politoed, entra con Poliwrath y usa Puño Drenaje.",
-      "variant": [
-        {
-          "detail": "Frente a Empoleon, usa Ataque X y luego barre.",
-          "variant": []
-        }
-      ]
-    },
+      "detail": "🍀SUERTE🍀 ➜ Sacrificar a Politoed, saca a Poliwrath y usa Puño Drenaje, 💊frente a Empoleon usa un Ataque X y luego Barre💊",
+      "variant": []
+    },  
     {
-      "detail": "Ruta rápida: cambia a Gengar y revisa si se activa Cuerpo Maldito.",
+      "detail": "✅RAPIDO✅ ➜ Cambia a Gengar 🔔(Mira si el Cuerpo Maldito se Activa)🔔",
       "variant": [
         {
-          "detail": "Si Cuerpo Maldito se activa, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si se Activa ➜ Sacrificar a Politoed y entra Poliwrath +6",
           "variant": []
-        },
-        {
-          "detail": "Si Cuerpo Maldito no se activa, Gengar usa Otra Vez y revisa la situación.",
+        },  
+        {  
+          "detail": "No se Activa ➜ Gengar Otra Vez 🔔(Mira tu Situacion)🔔",
           "variant": [
-            {
-              "detail": "Si Gengar cae, entra con Volcarona y usa Danza Aleteo x2.",
-              "variant": []
-            },
-            {
-              "detail": "Si Gengar sobrevive, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    },
+            {  
+              "detail": "☠️Gengar Muere☠️ ➜ Volcarona +2",
+              "variant": [] 
+            },  
+            {    
+              "detail": "👻Gengar no Muere👻 ➜ Sacrificar a Politoed y entra Poliwrath +6",
+              "variant": [] 
+            }  
+          ]  
+        }  
+      ]    
+    },  
     {
-      "detail": "Ruta de ahorro: usa Encanto tres veces, luego Teletransporte hacia Volcarona.",
-      "variant": [
-        {
-          "detail": "Volcarona usa Danza Aleteo x2. Mantén los PS por encima del 70%.",
-          "variant": []
-        }
-      ]
+      "detail": "💰AHORRAR💰 ➜ 💕Encanto tres veces💕; Teletransporte; Volcarona +2 🚨(PS por encima del 70%)🚨",
+      "variant": []
     }
-  ]
-}
+  ]  
+}  

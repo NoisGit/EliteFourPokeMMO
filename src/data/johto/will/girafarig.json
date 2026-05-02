@@ -2,18 +2,11 @@
   "id": "girafarig",
   "name": "Girafarig",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y cambia a Gengar para usar Otra Vez.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Slowbro y usa Bostezo. Cuando salga Mantine, vuelve a usar Bostezo."
-        },
-        {
-          "detail": "Cuando salga Magnezone, deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Cambia a Gengar, Otra Vez → Cambia a Slowbro, Bostezo, sale Mantine → Bostezo, sale Magnezone → Politoed (sacrificar), Poliwrath +6.",
+      "variant": []
     }
   ]
 }

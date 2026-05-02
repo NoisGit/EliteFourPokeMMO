@@ -2,11 +2,6 @@
   "id": "roserade",
   "name": "Roserade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Pantalla luz 💡",
-  "tricks": [
-    {
-      "detail": "Samurott ➜ Gengar Otra vez +4 +2 ",
-      "variant": []
-    }
-  ]
-}
+  "initialMove": "Cambiar a Slowbro frente a Samurott, usar Bostezo  sacrificar a Politoed y entrar con Poliwrath +6",
+  "tricks": []
+} 

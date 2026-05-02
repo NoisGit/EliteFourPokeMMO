@@ -2,18 +2,11 @@
   "id": "sawk",
   "name": "Sawk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "💡Usar 🪨Trampa Rocas🪨 frente a Conkeldurr; entrar con Gengar Otra Vez  +4 +2 🔔Bola Sombra a todo🔔💡",
   "tricks": [
     {
-      "detail": "Conkeldurr ➜ Gengar Otra vez Cambia a Jirachi Frente a Krookodile ➜ Jirachi Otra Vez ➜ Dragonite x2 danza dragon o Gallade +2 +2   ",
-      "variant": [
-        {
-          "detail": ", Si el rival se queda ➜ Cambia a Gengar Otra Vez +4 no velo y ataca ➜ si entra luxray Cambia a Dragonite x2 danza dragon (luxray tiene pañuelo )  "
-        },
-        {
-          "detail": ""
-        }
-      ]
+      "detail": "❗Si cambia a Gyarados, cambiar a Chansey y volver a atraer❗",
+      "variant": []
     }
   ]
-}
+}      

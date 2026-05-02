@@ -2,11 +2,46 @@
   "id": "metagross_5",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 ",
+  "initialMove": "🐸Elige que ruta usar🐸",
   "tricks": [
     {
-      "detail": "Cambiar a Gengar , corre a Gallade ➜ Cambiar a Jirachi Otra Vez ; Chandelure +2 +2;  ",
-      "variant": []
+      "detail": "Arriesgado --> Usar Trampa Rocas y cambiar a Gengar",
+      "variant": [
+        {
+          "detail": "Si se queda --> Entrar con Gengar +2 al enfrentar a Dragonite; presionar directamente con Onda Certera a Girafarig restante con Bola Sombra 【5% de probabilidad de Absol aleatorio】",
+          "variant": []
+        },
+        {
+          "detail": "Si Absol debilita a Gengar --> Entrar con Volcarona +1 y presionar; revisar qué Pokémon quedan",
+          "variant": []
+        },
+        {
+          "detail": "Gallade / Roserade --> Entrar con Slowbro y usar Bostezo (ver abajo)",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Estable --> Entrar con Slowbro y usar Bostezo",
+      "variant": [
+        {
+          "detail": "Absol --> Sacrificar a Politoed; entrar con Poliwrath +6; observar la situación",
+          "variant": [
+            {
+              "detail": "Situación ① Girafarig vs Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
+              "variant": []
+            },
+            {
+              "detail": "Situación ② Ninetales vs Girafarig (primer enfrentamiento) --> Presionar directamente; si no hay golpe crítico no debilita; si hay golpe crítico y cae, entrar con Gengar +2 para completar",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Ninetales --> Usar Protección y Bostezo al enfrentar a Absol; sacrificar a Politoed; entrar con Poliwrath +6",
+          "variant": []
+        }
+      ]
     }
   ]
 }

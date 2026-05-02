@@ -2,27 +2,50 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨Trampa Rocas🪨 🔔(Si se queda usar Teletransporte)🔔",
   "tricks": [
     {
-      "detail": "Rhyperior ➜ Cambia a Jirachi Protección ; si cambia a Amoonguss  cambia  Chandelure +2 +2",
-      "variant": []
-    },
+      "detail": "Rhyperior --> Usar Teletransporte; cambiar a Slowbro y usar Bostezo 🔔(Seguir usando Bostezo al enfrentar a Quagsire)🔔",
+      "variant": [
+        {
+          "detail": "Megacuerno--> Observa la Precision",
+          "variant": [
+            {
+              "detail": "Acierta --> Usar Teletransporte; entrar con Volcarona +1",
+              "variant": []
+            },
+            {
+              "detail": "Falla --> Usar Protección y Relajo al enfrentar a Parasect; entrar con Volcarona +1",
+              "variant": []
+            }  
+          ]  
+        },
+        {
+          "detail": "Terremoto/Pedrada --> ⬇️Opciones para Resolver⬇️",
+          "variant": [
+            {
+              "detail": "Rapido --> Teletransporte, Volcarona +1 🔔(Psiquico a Gengar)🔔",
+              "variant": []
+            },
+            {  
+              "detail": "Ahorro --> Proteccion luego Bostezo frente a Gengar, Volcarona +1 🔔(Psiquico a Gengar)🔔",
+              "variant": []
+            }
+          ]  
+        },   
+        {
+          "detail": "Gengar --> Entrar con Volcarona +1 🔔(Psiquico a Gengar)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Cambia a Parasect mientras usas Teletransporte --> Entrar con Volcarona +1",
+          "variant": []
+        }
+      ]
+    },  
     {
-      "detail": "Amoonguss  ➜ Chandelure +2 +2",
+      "detail": "Parasect --> Entrar con Volcarona +1",
       "variant": []
-    },
-    {
-      "detail": "Puño Fuego ➜ Cambia a Chandelure, cambia a Gallade Otra Vez  +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  ➜ Jirachi Otra Vez , Gallade+4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Parasect ➜ Cambia a Gengar  Otra Vez , Maquinación frente a Rhyperior; Gallade Otra Vez (Encore) +4 +2",
-      "variant": []
-    }
+    }  
   ]
 }

@@ -2,16 +2,14 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Cambia a Gengar 👻",
+  "initialMove": "👻Cambia a Gengar👻 🚨(Skarmory tiene Banda focus)🚨",
   "tricks": [
     {
-      "detail": "Cambia a Gengar. 🚨 Skarmory tiene Banda Focus. 🚨",
+      "detail": "Si se queda --> Cambia a Gengar 4+2 🔔(Barrer con Bola sombra)🔔",
       "variant": [
         {
-          "detail": "Si Arcanine se queda, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. 🔔 Barre con Bola Sombra. 🔔"
-        },
-        {
-          "detail": "Si Gengar cae, envía a Slowbro y mantenlo en campo. Usa Bostezo frente a Nidoking, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Leafeon. 🔔"
+          "detail": "Gengar muere → Envia a Slowbro (Mantenerlo), usa Bostezo frente a Nidoking, sacrificar a Politoed, Poliwrath +6 🔔(Puño drenaje contra Leafeon)🔔",
+          "variant": []
         }
       ]
     }

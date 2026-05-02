@@ -2,19 +2,6 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 💡 Amortiguador (si no cambia sigue con amortiguador) 💡 ",
- "tricks": [
-    {
-      "detail": "Toxicroak / Conkeldur ➜ Gengar  Otra Vez, Bola Sombra ",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Cambia a Chansey  Amortiguador; Gengar Otra Vez +4 +0; Crawdaunt se bloquea solo (Tiene Pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Mantener (stay) ➜ Gengar (Fantasma) Otra Vez +6 +0",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡Usar Amortiguador para aguantar Acróbata, cambiar a Slowbro aguanta el ataque de mienshao , usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6💡",
+  "tricks": []
 }

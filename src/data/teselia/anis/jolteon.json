@@ -2,15 +2,6 @@
   "id": "jolteon",
   "name": "Jolteon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Pantalla Luz 💡",
-  "tricks": [
-    {
-      "detail": "Lucario ➜ Gengar Otra Vez y Cambia a Gallade Para matar a Umbreon (si sale Rotom y no Umbreon mira abajo). Cambia a Chansey usa Amortiguador ➜ Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Entró Rotom y no Umbreon ➜ Mata a Rotom, sale Jolteon/Chandelure saca a Chansey ➜ Jirachi Encore entra Chandelure +2 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "🔔Cambiar a Slowbro frente a Lucario luego usar Bostezo, sacrificar a Politoed, entrar con Poliwrath +6🔔",
+  "tricks": []
 }

@@ -5,17 +5,12 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Honchkrow, sacrifica a Politoed y entra con Poliwrath. Usa Puño Hielo contra Honchkrow; cuando entre Hydreigon, usa Ataque X y termina la ruta.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Lucario, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Honchkrow ➜ Sacrificar a Politoed ➜ Poliwrath Puño H y cuando entre Hydreigon  usa Ataque X y completar  🔔puño Hielo para eliminar a Honchkrow🔔",
+      "variant": []
+    },
+    {
+      "detail": "Lucario ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
     }
   ]
 }

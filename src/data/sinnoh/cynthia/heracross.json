@@ -2,50 +2,18 @@
   "id": "heracross",
   "name": "Heracross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Gengar Otra vez💡",
+  "initialMove": "💡 Teletransporte 💡 (Revisar objeto)",
   "tricks": [
     {
-      "detail": "A Bocajarro con Vidasfera ➜ Cambiar a Gallade; debilitar a Tyranitar ",
+      "detail": "Tiene Vidasfera --> Entrar con Gengar +4 + Precisión",
       "variant": []
     },
     {
-      "detail": "Heracross ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez; Chandelure +2 +2 ",
+      "detail": "Sin Vidasfera --> Entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
       "variant": []
     },
     {
-      "detail": "Garchomp ➜ Cambiar a Jirachi; Chandelure +2 +2 ;( Garchomp con Velo Arena; Otra Vez puede fallar)",
-      "variant": []
-    },
-    {
-      "detail": "Si falla Otra Vez  ➜ Cambiar a Chansey  para curar a Jirachi; cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Bloqueado en A Bocajarro  ➜ Gengar (ghost) +6 no velo ; autobloqueo de Heracross ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Sacrificar a Chandelure; Jirachi Otra Vez ; Gallade +4 +2 ; primero buscar velocidad ",
-      "variant": []
-    },
-    {
-      "detail": "Bronzong ➜ Chandelure resistir daño  +2 +2 ); si no recibe crítico, no se debilita ; si muere por crítico , ver abajo",
-      "variant": []
-    },
-    {
-      "detail": "Muerte por crítico  ➜ Cambiar a Jirachi Protección frente a Garchomp; Jirachi Otra Vez ; Gallade/Roserade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Bronzong ➜ Cambiar a Jirachi; usar Rayo",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Gallade +4 +2 ; primero buscar velocidad ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Sacrificar a Chandelure; Jirachi Otra Vez ; Gallade +4 +2 ; primero buscar velocidad ",
+      "detail": "Cambio a Bronzong enemigo --> Sacrificar a Politoed; entrar con Poliwrath +6",
       "variant": []
     }
   ]

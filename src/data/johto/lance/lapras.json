@@ -5,17 +5,12 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Tyranitar, cambia a Poliwrath para derrotarlo. Luego cambia a Chansey y usa Amortiguador. Espera a Metagross, usa Teletransporte hacia Slowbro, usa Bostezo y entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Scizor, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Tyranitar --> Cambiar a Poliwrath para matar a tyranitar; cambiar a Chansey y usar Amortiguador; esperar a Metagross; Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Scizor --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
     }
   ]
 }

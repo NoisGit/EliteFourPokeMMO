@@ -2,10 +2,14 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 frente a Garchomp, usar Teletransporte para sacar a Slowbro y usar Bostezo 🔔(Ver si el Terremoto es Golpe Crítico)🔔",
   "tricks": [
     {
-      "detail": "GARCHOMP ➜ Cambiar a Dragonite Cambia a Jirachi Otra Vez ➜ Chandelure +2 +2/Dragonite 2 Danza ",
+      "detail": "Si no hay golpe crítico --> Usar Bostezo frente a Chandelure, sacrificar a Politoed y entrar con Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Si hay crítico  --> Sacrificar a Politoed entrar con Poliwrath +6",
       "variant": []
     }
   ]
