@@ -2,24 +2,24 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro y Mira que Objeto tiene",
+  "initialMove": "Cambia a Slowbro y revisa qué objeto tiene.",
   "tricks": [
     {
-      "detail": "Tiene Vidaesfera → Bostezo.",
+      "detail": "Si tiene Vidasfera, usa Bostezo.",
       "variant": [
         {
-          "detail": "Se queda → Teletransporte → Chansey, trampa rocas, Teletransporte → Gengar, Otra Vez, +2 + precisión X(heracross Banda focus)",
+          "detail": "Si Staraptor se queda, usa Teletransporte hacia Chansey, coloca Trampa Rocas y vuelve a usar Teletransporte hacia Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X. Heracross tiene Banda Focus.",
           "variant": []
         },
         {
-          "detail": "Heracross ➜ Protección, cambia a Chansey, sale Steelix. Pon trampa rocas y manten Amortiguador hasta el cambio.",
+          "detail": "Si sale Heracross, usa Protección, cambia a Chansey y espera a Steelix. Coloca Trampa Rocas y mantén Amortiguador hasta que el rival cambie.",
           "variant": [
             {
-              "detail": "Heracross ➜ Continua usando amortiguador",
+              "detail": "Si vuelve Heracross, continúa usando Amortiguador.",
               "variant": []
             },
             {
-              "detail": "Staraptor/Machamp ➜ Gengar, Otra Vez, +4 + precisión X.",
+              "detail": "Si sale Staraptor o Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
               "variant": []
             }
           ]
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "detail": "No tiene Vidasfera ➜ Slowbro Bostezo ➜ sale Lucario ➜ Teletransporte ➜ Volcarona x2 danza aleteo (HP por encima 17%).",
+      "detail": "Si no tiene Vidasfera, Slowbro usa Bostezo. Cuando salga Lucario, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS por encima del 17%.",
       "variant": []
     }
   ]
