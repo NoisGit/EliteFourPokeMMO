@@ -2,35 +2,35 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Blaziken ➜ cambiar a Gengar +4 +2 (Blaziken Pañuelo elegido)",
+      "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Blaziken tiene Pañuelo Elegido.",
       "variant": []
     },
     {
-      "detail": "Frente a Darmanitan ➜ Varias opciones",
+      "detail": "Frente a Darmanitan, elige una de estas rutas.",
       "variant": [
         {
-          "detail": "Ahorro $? → Volcarona +3 🦋🔥",
+          "detail": "Ruta de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
           "variant": []
         },
         {
-          "detail": "Estable → Slowbro Bostezo → Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+          "detail": "Ruta estable: Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "RNG → Sacrifica a Politoed Poliwrath +6 🐸🥊",
+          "detail": "Ruta arriesgada: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Hitmonchan ➜ Cambiar a Slowbro Bostezo, sale Metagross → Sacrifica a Politoed Poliwrath +6 🐸🥊",
+      "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Machamp ➜ cambiar a  👻 Gengar Otra Vez +4 +2 👻",
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
       "variant": []
     }
   ]
