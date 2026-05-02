@@ -2,10 +2,10 @@
   "id": "chansey",
   "name": "Chansey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Electivire → Gengar, Otra Vez, +2 + precisión X.",
+      "detail": "Si sale Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
       "variant": []
     }
   ]
