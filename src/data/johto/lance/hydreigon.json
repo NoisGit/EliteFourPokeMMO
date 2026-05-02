@@ -2,18 +2,18 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Feraligatr ➜ Encanto ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Feraligatr, usa Encanto. Luego Slowbro usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Arcanine ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Arcanine, Slowbro usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Primeape ➜ Gengar +2 +2 + Precisión X",
+      "detail": "Si sale Primeape, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
       "variant": []
     }
   ]

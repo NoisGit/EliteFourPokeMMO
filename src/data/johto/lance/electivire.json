@@ -2,14 +2,14 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Tajo Cruzado ➜ Cambiar a Slowbro ➜ usar Bostezo , Protección y Otra vez Bostezo  ➜ frente a Lucario ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "detail": "Si usa Tajo Cruzado, cambia a Slowbro, usa Bostezo, Protección y luego Bostezo. Frente a Lucario, entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Infernape ➜ Cambiar a Slowbro ➜ usar Bostezo frente a Electivire ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "detail": "Si sale Infernape, cambia a Slowbro y usa Bostezo frente a Electivire. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

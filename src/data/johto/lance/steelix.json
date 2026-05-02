@@ -2,32 +2,27 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto --> Encanto; Amortiguador; esperar a Scizor; Teletransporte para 🔔evaluar daño🔔",
+      "detail": "Si usa Terremoto, usa Encanto y Amortiguador. Espera a Scizor y usa Teletransporte para evaluar el daño.",
       "variant": [
         {
-          "detail": "Si el daño es ~60% --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si el daño es cercano al 60%, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si el daño es ~90% --> Volcarona +1 + Especial X; mantener 🔔PS por encima del 51%🔔",
-          "variant": [
-            {
-              "detail": "Si Volcarona cae por Crítico --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
-              "variant": []
-            }
-          ]
+          "detail": "Si el daño es cercano al 90%, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Mantén los PS por encima del 51%.",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Lucario --> Gengar +2 +2 + Precisión X; 🔔ahorrar +6 +2 lucario no tiene objeto elegido 🔔",
+      "detail": "Si sale Lucario, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
       "variant": []
     },
     {
-      "detail": "Dragonite --> Cambiar a Slowbro y usar Bostezo frente a Flygon; usar Protección y Bostezo; sacrificar a Politoed; Poliwrath +6 ",
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo frente a Flygon. Luego usa Protección y Bostezo. Después entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

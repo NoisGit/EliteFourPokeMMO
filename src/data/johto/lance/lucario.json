@@ -2,22 +2,18 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Cambiar a Gengar 👻",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "A Bocajarro ➜ Gengar usa Otra Vez ➜ cambiar a Slowbro y usar Bostezo frente a Flygon ➜ cambiar a Chansey y usar 🪨 Trampa Rocas 🪨➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si usa A Bocajarro, Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo frente a Flygon. Después cambia a Chansey y usa Trampa Rocas. Luego Slowbro usa Bostezo y continúas con Politoed y Poliwrath para Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Infernape ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6🐸🥊",
+      "detail": "Si sale Infernape, cambia a Slowbro y usa Bostezo. Luego continúa con Politoed y Poliwrath para Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Arcanine ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6🐸🥊 🔔puño drenaje a Lucario y Ampharos🔔",
-      "variant": []
-    },
-    {
-      "detail": "Feraligatr ➜ Sacrificar a Gengar con Bola Sombra ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔usar Puño Drenaje  para mantener salud🔔",
+      "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego continúa con Politoed y Poliwrath para Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
