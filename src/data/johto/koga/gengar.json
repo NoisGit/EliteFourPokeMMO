@@ -2,10 +2,10 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Sale Crobat ➜ Slowbro, Mantener con Bostezo hasta que salga Gengar/Lapras ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊 (Puño hielo gengar)",
+      "detail": "Si sale Crobat, cambia a Slowbro y mantén Bostezo hasta que salga Gengar o Lapras. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
       "variant": []
     }
   ]
