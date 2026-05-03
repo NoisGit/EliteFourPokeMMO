@@ -2,7 +2,7 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar 💡",
+  "initialMove": "💡 Cambia a Gengar 💡",
   "tricks": [
     {
       "detail": "Si Machamp usa Puño Dinámico, cambia a Slowbro y usa Bostezo.",
