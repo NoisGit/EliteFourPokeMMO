@@ -5,7 +5,7 @@
   "initialMove": "Revisa qué objeto tiene Excadrill.",
   "tricks": [
     {
-      "detail": "Si tiene Globo Helio, usa Encanto. Luego usa Trampa Rocas. Si Excadrill se queda, usa Amortiguador. Frente a Tyranitar, cambia a Poliwrath para derrotarlo.",
+      "detail": "Si tiene Globo Helio, usa Encanto. Luego usa Trampa Rocas. Si Excadrill se queda, usa Amortiguador. Frente a Tyranitar, cambia a Poliwrath 🐸🥊 para enfrentarlo.",
       "variant": [
         {
           "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "detail": "Si Excadrill se queda sin Globo Helio, sigue usando Gigadrenado hasta derrotarlo.",
+      "detail": "Si Excadrill se queda sin Globo Helio, sigue usando Gigadrenado hasta enfrentarlo.",
       "variant": []
     },
     {
@@ -37,7 +37,7 @@
           "detail": "Si sale Slowbro, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez activo mientras haces el setup.",
           "variant": [
             {
-              "detail": "Si cambia a Excadrill mientras intentas boostearte, cambia a Slowbro, luego a Chansey y usa Encanto. Vuelve a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "detail": "Si cambia a Excadrill mientras intentas boostearte, cambia a Slowbro, luego a Chansey y usa Encanto. Vuelve a Slowbro, usa Bostezo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
