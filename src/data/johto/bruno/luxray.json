@@ -2,14 +2,22 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas → Gengar, Otra Vez y Maquinación hasta +2",
+  "initialMove": "🪨 Trampa Rocas 🪨.",
   "tricks": [
+    {
+      "detail": "Cambia a Gengar y usa Otra Vez.",
+      "variant": []
+    },
+    {
+      "detail": "Usa Maquinación hasta +2.",
+      "variant": []
+    },
     {
       "detail": "Si Luxray se queda, usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath y vuelve a Gengar. Usa Otra Vez, Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+      "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath 🐸🥊 y vuelve a Gengar. Usa Otra Vez, Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
       "variant": []
     }
   ]

@@ -2,8 +2,12 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Volcarona usa Danza Aleteo x1.",
+  "initialMove": "Cambia a Volcarona.",
   "tricks": [
+    {
+      "detail": "Usa Danza Aleteo x1.",
+      "variant": []
+    },
     {
       "detail": "Luego usa Ataque Especial X. Usa Gigadrenado contra Absol.",
       "variant": []

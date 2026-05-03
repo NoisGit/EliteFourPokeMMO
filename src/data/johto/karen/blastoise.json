@@ -2,8 +2,12 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Absol.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
+    {
+      "detail": "Frente a Absol.",
+      "variant": []
+    },
     {
       "detail": "Luego entra con Volcarona, usa Danza Aleteo x2 y Gigadrenado contra Absol. Frente a Houndoom no hay amenaza.",
       "variant": []

@@ -2,8 +2,12 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar usa Otra Vez.",
+  "initialMove": "Cambia a Gengar 👻.",
   "tricks": [
+    {
+      "detail": "Usa Otra Vez.",
+      "variant": []
+    },
     {
       "detail": "Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Cura la quemadura si corresponde.",
       "variant": []
