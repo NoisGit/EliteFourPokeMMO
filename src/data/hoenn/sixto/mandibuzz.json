@@ -2,6 +2,21 @@
   "id": "mandibuzz",
   "name": "Mandibuzz",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 Frente a Mienshao; Gengar debilita con bola sombra frente a Mandibuzz / Spiritomb; Volcarona +2 (Gigadrenado a Absol)",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Mienshao.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar y debilita a Mienshao con Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Frente a Mandibuzz o Spiritomb, entra con Volcarona y usa Danza Aleteo x2. Usa Gigadrenado contra Absol.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
