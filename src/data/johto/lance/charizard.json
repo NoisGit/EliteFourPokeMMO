@@ -2,8 +2,12 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Tyranitar.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
+    {
+      "detail": "Frente a Tyranitar.",
+      "variant": []
+    },
     {
       "detail": "Luego cambia a Poliwrath 🐸🥊 para derrotarlo.",
       "variant": [
