@@ -6,6 +6,7 @@ const exactTranslations: Record<string, string> = {
   '💡 Revisa la habilidad 💡': '💡 Check the ability 💡',
   'Cambia a Volcarona.': 'Switch to Volcarona.',
   'Cambia a Gengar.': 'Switch to Gengar.',
+  'Cambia a Gengar 👻.': 'Switch to Gengar 👻.',
   'Cambia a Slowbro.': 'Switch to Slowbro.',
   'Gengar usa Otra Vez.': 'Gengar uses Encore.',
   '👻 Gengar usa Otra Vez.': '👻 Gengar uses Encore.',
@@ -13,7 +14,10 @@ const exactTranslations: Record<string, string> = {
   'Volcarona usa Danza Aleteo x1.': 'Volcarona uses Quiver Dance x1.',
   'Usa Amortiguador.': 'Use Soft-Boiled.',
   'Usa Bostezo.': 'Use Yawn.',
+  'Usa Bostezo para presionar el cambio.': 'Use Yawn to pressure the switch.',
   'Usa Maquinación hasta +2.': 'Use Nasty Plot to +2.',
+  'Usa Maquinación hasta +4.': 'Use Nasty Plot to +4.',
+  'Revisa el porcentaje de daño.': 'Check the damage percentage.',
   'Evalúa el daño.': 'Evaluate the damage.',
 }
 
