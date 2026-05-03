@@ -2,31 +2,47 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Onda Certera ➜ Teletransporte",
+      "detail": "Si usa Onda Certera, usa Teletransporte.",
       "variant": []
     },
     {
-      "detail": "Si permanece ➜ Slowbro y usar Bostezo  sacrificar a Politoed; Poliwrath +6 🐸🥊 🔔Puño Hielo a Froslass🔔",
-      "variant": []
+      "detail": "Si Hydreigon permanece, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Mawile ➜ Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6 🔔Puño Hielo a Froslass (Si el Puño Trueno paraliza, usar Cura Total)🔔",
-      "variant": []
+      "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza a Poliwrath, usa Cura Total.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Lucario ➜ Gengar +2 + Precisión X (No usar Otra Vez)  🔔para ahorrar dinero Gengar +6🔔",
-      "variant": []
+      "detail": "Si sale Lucario, entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
+      "variant": [
+        {
+          "detail": "Ruta de ahorro: Gengar usa Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Honchkrow ➜ Sacrificar a Politoed ➜ Poliwrath Puño H si entra hydreigon usa Ataque X y completar  🔔puño Hielo para eliminar a Honchkrow🔔",
-      "variant": []
-    },
-    {
-      "detail": "Mawile ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6; 🔔Puño Hielo a Froslass (Si el Puño Trueno paraliza, usar Cura Total)🔔",
-      "variant": []
+      "detail": "Si sale Honchkrow, entra Politoed como pivote y entra con Poliwrath 🐸🥊.",
+      "variant": [
+        {
+          "detail": "Usa Puño Hielo contra Honchkrow. Si entra Hydreigon, usa Ataque X y completa la ruta.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
