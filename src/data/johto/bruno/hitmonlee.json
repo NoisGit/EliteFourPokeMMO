@@ -2,8 +2,16 @@
   "id": "hitmonlee",
   "name": "Hitmonlee",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar → Slowbro con Bostezo → Chansey con Trampa Rocas 💡",
+  "initialMove": "Cambia a Gengar 👻.",
   "tricks": [
+    {
+      "detail": "Cambia a Slowbro y usa Bostezo.",
+      "variant": []
+    },
+    {
+      "detail": "Cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+      "variant": []
+    },
     {
       "detail": "Si sale Hitmonlee, entra con Gengar y derrótalo. Si luego sale Machamp, cambia a Chansey y vuelve a Gengar. Usa Otra Vez y Maquinación hasta +2.",
       "variant": [
@@ -12,7 +20,7 @@
           "variant": []
         },
         {
-          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath 🐸🥊 y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
         }
       ]
@@ -25,7 +33,7 @@
           "variant": []
         },
         {
-          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+          "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath 🐸🥊 y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
         }
       ]
