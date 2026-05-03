@@ -2,6 +2,16 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambiar a Slowbro Bostezo ➜ frente a Raichu ➜ sacrificar a Politoed ➜ Poliwrath +6🐸🥊 💡",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

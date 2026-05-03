@@ -2,6 +2,11 @@
   "id": "toxicroak",
   "name": "Toxicroak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar +4 y luego usa otra vez porque tiene banda focus 🔔 Bola Sombra a todo 🔔",
-  "tricks": []
+  "initialMove": "Cambia a Gengar 👻.",
+  "tricks": [
+    {
+      "detail": "Usa Maquinación hasta +4. Luego usa Otra Vez, porque Toxicroak tiene Banda Focus. Barre con Bola Sombra.",
+      "variant": []
+    }
+  ]
 }

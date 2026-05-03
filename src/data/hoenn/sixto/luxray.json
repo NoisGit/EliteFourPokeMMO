@@ -2,34 +2,34 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔 Ver habilidad 🔔",
+  "initialMove": "💡 Revisa la habilidad 💡",
   "tricks": [
     {
-      "detail": "Intimidación ➜ Amortiguador",
+      "detail": "Si tiene Intimidación, usa Amortiguador.",
       "variant": [
         {
-          "detail": "Fuerza Bruta ➜ Trampa Rocas y frente a Absol cambia Gengar otra vez +2 + Precisión X ",
+          "detail": "Si usa Fuerza Bruta, coloca 🪨 Trampa Rocas 🪨. Frente a Absol, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Scizor ➜ Volcarona x2 Danza aleteo + Especial X 🔔gigadrenado a Luxray🔔",
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
           "variant": []
         },
         {
-          "detail": "Absol ➜ Gengar +4 + Precisión X (No usar Otra Vez)",
+          "detail": "Si sale Absol, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Intimidación ➜ Opciones para resolver",
+      "detail": "Si no tiene Intimidación, elige una ruta para resolver.",
       "variant": [
         {
-          "detail": "Ruta Segura ➜ Trampa Rocas entra Gengar otra vez  +2 y mata a luxray y frente a Absol cambia a Chansey y luego mete a Gengar otra vez  +2",
+          "detail": "Ruta segura: coloca 🪨 Trampa Rocas 🪨. Entra con Gengar, usa Otra Vez, Maquinación hasta +2 y derrota a Luxray. Frente a Absol, cambia a Chansey y luego vuelve a Gengar para usar Otra Vez y Maquinación hasta +2.",
           "variant": []
         },
         {
-          "detail": "Prueba ➜ Cambiar a Slowbro y usar Bostezo frente a Gyarados; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Ruta de prueba: cambia a Slowbro y usa Bostezo frente a Gyarados. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

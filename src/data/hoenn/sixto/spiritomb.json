@@ -2,15 +2,20 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Absol --> Gengar +4",
+      "detail": "Si sale Absol, entra con Gengar y usa Maquinación hasta +4.",
       "variant": []
     },
     {
-      "detail": "Mienshao --> Gengar debilita con bola sombra y frente a Mandibuzz / Spiritomb; Volcarona +2",
-      "variant": []
+      "detail": "Si sale Mienshao, entra con Gengar y debilítalo con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Frente a Mandibuzz o Spiritomb, entra con Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,38 +2,38 @@
   "id": "sableye",
   "name": "Sableye",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Absol ➜ Cambiar a Gengar y usar Otra Vez 🔔ver objeto🔔",
+      "detail": "Si sale Absol, cambia a Gengar y usa Otra Vez. Revisa el objeto de Absol.",
       "variant": []
     },
     {
-      "detail": "Si gengar es mas rapido que Absol usa Esta ruta 🔔 mira abajo 🔔",
+      "detail": "Si Gengar es más rápido que Absol, elige una ruta.",
       "variant": [
         {
-          "detail": "Rápido ➜ Gengar +2 +2 + Precisión X",
+          "detail": "Ruta rápida: Gengar usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Ahorrar dinero ➜ Gengar +6 +2 Bola Sombra a todo",
+          "detail": "Ruta de ahorro: Gengar usa Maquinación hasta +6, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Absol Usa primero A bocajarro ➜ Gengar +4 (No usar Otra Vez - absol pañuelo elegido)",
+      "detail": "Si Absol usa A Bocajarro primero, Gengar usa Maquinación hasta +4. No uses Otra Vez. Absol tiene Pañuelo Elegido.",
       "variant": []
     },
     {
-      "detail": "Aggron ➜ Sacrifica a Politoed ➜ Poliwrath Puño drenaje",
+      "detail": "Si sale Aggron, entra Politoed como pivote. Luego entra con Poliwrath 🐸🥊 y usa Puño Drenaje.",
       "variant": [
         {
-          "detail": "Shiftry ➜ Volcarona x2 danza aleteo ➜ lanzallamas a Shiftry y el resto de plantas usar Psíquico",
+          "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas.",
           "variant": []
         },
         {
-          "detail": "Hariyama ➜ Poliwrath  Ataque X  completar con Cascada contra Hariyama",
+          "detail": "Si sale Hariyama, Poliwrath 🐸🥊 usa Ataque X y completa la ruta con Cascada contra Hariyama.",
           "variant": []
         }
       ]

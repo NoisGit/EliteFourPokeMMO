@@ -2,15 +2,20 @@
   "id": "huntail",
   "name": "Huntail",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Absol --> Gengar, Otra Vez, +2; 🔔con Bola Sombra🔔",
+      "detail": "Si sale Absol, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y barre con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Mienshao --> Gengar, bola sombra , frente a Mandibuzz / Spiritomb; Volcarona +2; 🔔Gigadrenado contra Absol🔔",
-      "variant": []
+      "detail": "Si sale Mienshao, entra con Gengar y usa Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Frente a Mandibuzz o Spiritomb, entra con Volcarona y usa Danza Aleteo x2. Usa Gigadrenado contra Absol.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

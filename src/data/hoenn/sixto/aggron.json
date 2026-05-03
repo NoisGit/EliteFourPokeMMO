@@ -2,14 +2,18 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 TRAMPA ROCAS 🪨 Sacrificar a Politoed; Poliwrath absorbe y debilita",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Shiftry --> Volcarona +2  (Mantener HP por encima del 23%)",
+      "detail": "Entra Politoed como pivote. Luego entra con Poliwrath 🐸🥊 para absorber el golpe y debilitar a Aggron.",
       "variant": []
     },
     {
-      "detail": "Hariyama --> Recibir Ataque X; completar (Cascada  Hariyama)",
+      "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Mantén los PS por encima del 23%.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Hariyama, recibe el Ataque X y completa la ruta. Usa Cascada contra Hariyama.",
       "variant": []
     }
   ]

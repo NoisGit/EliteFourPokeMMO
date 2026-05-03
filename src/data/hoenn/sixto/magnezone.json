@@ -2,14 +2,14 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Darmanitan ➜ Gengar +2 + Precisión X (No usar Otra Vez) 🔔usar movimientos súper eficaces🔔",
+      "detail": "Si sale Darmanitan, entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Usa movimientos súper eficaces para cerrar.",
       "variant": []
     },
     {
-      "detail": "Absol ➜ Gengar, Otra Vez, +2 +2 + Precisión X 🔔 usar movimientos súper eficaces🔔",
+      "detail": "Si sale Absol, entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Usa movimientos súper eficaces para cerrar.",
       "variant": []
     }
   ]

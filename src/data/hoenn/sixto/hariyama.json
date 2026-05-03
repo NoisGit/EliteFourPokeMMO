@@ -2,22 +2,22 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Absol --> Gengar +4 (No usar Otra Vez); Bola Sombra a todo",
+      "detail": "Si sale Absol, entra con Gengar, usa Maquinación hasta +4 y barre con Bola Sombra. No uses Otra Vez.",
       "variant": []
     },
     {
-      "detail": "Aggron --> Sacrificar a Politoed; Poliwrath entra a matar a aggron",
+      "detail": "Si sale Aggron, entra Politoed como pivote. Luego entra con Poliwrath 🐸🥊 para derrotar a Aggron.",
       "variant": []
     },
     {
-      "detail": "Shiftry --> Volcarona +2; lanzallamas contra Shiftry y el resto de plantas usar Psíquico (Mantener HP por encima del 23%)",
+      "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas. Mantén los PS por encima del 23%.",
       "variant": []
     },
     {
-      "detail": "Hariyama --> Recibir Ataque X; completar con Cascada contra Hariyama",
+      "detail": "Si sale Hariyama, recibe el Ataque X y completa la ruta con Cascada contra Hariyama.",
       "variant": []
     }
   ]
