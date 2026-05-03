@@ -5,7 +5,7 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Si Metagross se queda, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si Metagross se queda, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
@@ -16,24 +16,24 @@
           "variant": []
         },
         {
-          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Ruta arriesgada: sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Ruta arriesgada: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
       "detail": "Si sale Machamp, cambia a Gengar y revisa qué ataque usa.",
       "variant": [
         {
-          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {

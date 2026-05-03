@@ -8,7 +8,7 @@
       "detail": "Si Machamp usa Puño Dinámico, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si usa Vendetta, vuelve a usar Bostezo. Cuando salga Metagross o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si usa Vendetta, vuelve a usar Bostezo. Cuando salga Metagross o Eelektross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
@@ -32,13 +32,13 @@
               "variant": []
             },
             {
-              "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "detail": "Si sale Metagross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Si usa Puño Hielo, usa Bostezo frente a Metagross. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si usa Puño Hielo, usa Bostezo frente a Metagross. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
@@ -82,7 +82,7 @@
           "variant": []
         },
         {
-          "detail": "Si sale Eelektross o Torterra, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si sale Eelektross o Torterra, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
