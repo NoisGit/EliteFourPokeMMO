@@ -13,12 +13,8 @@
       "variant": []
     },
     {
-      "detail": "Si sale Hitmonlee, entra con Gengar y derrótalo. Si luego sale Machamp, cambia a Chansey y vuelve a Gengar. Usa Otra Vez y Maquinación hasta +2.",
+      "detail": "Si Hitmonlee se queda, Gengar usa Otra Vez cada vez que puedas, usa Maquinación hasta +6 y derrota a todos con Bola Sombra.",
       "variant": [
-        {
-          "detail": "Si Machamp se queda, usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
-          "variant": []
-        },
         {
           "detail": "Si sale Salamence, derrótalo. Cuando salga Machamp, pasa por Poliwrath 🐸🥊 y vuelve a Gengar. Usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
           "variant": []
@@ -26,10 +22,10 @@
       ]
     },
     {
-      "detail": "Si sale Machamp o Luxray, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
+      "detail": "Si sale Machamp o Luxray, Gengar usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Si se queda, usa Maquinación hasta +6, mantén Otra Vez cada vez que puedas y derrota a todos con Bola Sombra.",
+          "detail": "Si Machamp o Luxray se quedan, Gengar usa Otra Vez cada vez que pueda, usa Maquinación hasta +6 y barre a todos con Bola Sombra.",
           "variant": []
         },
         {
