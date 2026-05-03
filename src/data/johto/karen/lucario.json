@@ -2,14 +2,18 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego cambia a Gengar y usa Otra Vez.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
+    {
+      "detail": "Cambia a Gengar y usa Otra Vez.",
+      "variant": []
+    },
     {
       "detail": "Si Lucario se queda, Gengar usa Maquinación hasta +6, Velocidad X para +2 Velocidad y ataca con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Si sale Salamence, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Salamence, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
