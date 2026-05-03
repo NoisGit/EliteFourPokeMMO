@@ -2,32 +2,52 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambiar a Slowbro 💡",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "A Bocajarro ➜ Cambiar a Chansey y usar Trampa Rocas frente a Lucario, Gengar +2 + Precisión X (No usar Otra Vez) 💰(Si quieres Ahorrar: Gengar +6)💰",
-      "variant": []
-    },
-    {
-      "detail": "Patada Salto Alta ➜ Bostezo, sacrificar a Politoed, Poliwrath +6 🔔(Eliminar quemadura primero)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Honchkrow ➜ Bostezo",
+      "detail": "Si Lucario usa A Bocajarro, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
       "variant": [
         {
-          "detail": "Si permanece / Hydreigon / Lucario, Sacrificar a Politoed, Poliwrath +6 🔔(Puño Drenaje para mantener la línea de salud)🔔",
+          "detail": "Luego entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Ruta de ahorro: Gengar usa Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si Lucario usa Patada Salto Alta, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Elimina la quemadura primero si corresponde.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Honchkrow, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Honchkrow permanece, o si sale Hydreigon o Lucario, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje para mantener la línea de salud.",
           "variant": []
         },
         {
-          "detail": "Banette ➜ Cambiar a Chansey y usar Trampa Rocas frente a Honchkrow, sacrificar a Politoed, 💊entra Poliwrath y pushea hasta Hydreigon luego usa Ataque X💊 🔔(Puño Hielo para Honchkrow)🔔",
-          "variant": []
-        }  
-      ]  
+          "detail": "Si sale Banette, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Honchkrow.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊. Empuja hasta Hydreigon, usa Ataque X y completa la ruta. Usa Puño Hielo contra Honchkrow.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Arcanine ➜ Slowbro, bostezo frente a Raichu, sacrificar a Politoed, Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo frente a Raichu.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
