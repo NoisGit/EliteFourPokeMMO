@@ -2,6 +2,11 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego usa Teletransporte o entra Politoed como pivote. Entra con Gengar frente a Dragonite, usa Maquinación y barre con Bola Sombra.",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Luego usa Teletransporte o entra Politoed como pivote. Entra con Gengar frente a Dragonite, usa Maquinación y barre con Bola Sombra.",
+      "variant": []
+    }
+  ]
 }
