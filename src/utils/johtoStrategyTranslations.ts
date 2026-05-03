@@ -31,6 +31,8 @@ const moveTranslations: Array<[RegExp, string]> = [
   [/\bPuño Hielo\b/gi, 'Ice Punch'],
   [/\bPuño Meteoro\b/gi, 'Meteor Mash'],
   [/\bPuño Din[aá]mico\b/gi, 'Dynamic Punch'],
+  [/\bPuño Trueno\b/gi, 'Thunder Punch'],
+  [/\bPuño Fuego\b/gi, 'Fire Punch'],
   [/\bA Bocajarro\b/gi, 'Close Combat'],
   [/\bPatada Salto Alta\b/gi, 'High Jump Kick'],
   [/\bVendetta\b/gi, 'Payback'],
@@ -93,7 +95,6 @@ const phraseTranslations: Array<[RegExp, string]> = [
   [/\bSi entra\b/gi, 'If it comes in'],
   [/\bSi cambia a\b/gi, 'If it switches to'],
   [/\bSi se queda\b/gi, 'If it stays in'],
-  [/\bSi .* se queda\b/gi, (match) => match.replace(/^Si /i, 'If ').replace(/ se queda$/i, ' stays in')],
   [/\bSi usa\b/gi, 'If it uses'],
   [/\bSi utiliza\b/gi, 'If it uses'],
   [/\bSi falla\b/gi, 'If it misses'],
@@ -123,7 +124,6 @@ const phraseTranslations: Array<[RegExp, string]> = [
   [/\bhasta \+4\b/gi, 'to +4'],
   [/\bhasta \+6\b/gi, 'to +6'],
   [/\bpara \+2 Velocidad\b/gi, 'to reach +2 Speed'],
-  [/\bpara usar Belly Drum to \+6 Ataque\b/gi, 'to use Belly Drum and reach +6 Attack'],
   [/\b\+6 Ataque\b/gi, '+6 Attack'],
   [/\b\+2 Velocidad\b/gi, '+2 Speed'],
   [/\bAtaque Especial\b/gi, 'Special Attack'],
@@ -144,7 +144,6 @@ const phraseTranslations: Array<[RegExp, string]> = [
   [/\bderrotarlo\b/gi, 'knock it out'],
   [/\bbarrer\b/gi, 'sweep'],
   [/\bbarre\b/gi, 'sweep'],
-  [/\btermina de sweep\b/gi, 'finish sweeping'],
   [/\btermina de barrer\b/gi, 'finish sweeping'],
   [/\bRuta r[aá]pida\b/gi, 'Fast route'],
   [/\bRuta estable\b/gi, 'Stable route'],
@@ -168,10 +167,10 @@ const phraseTranslations: Array<[RegExp, string]> = [
 
 const normalizeEnglishText = (text: string) => {
   return text
-    .replace(/Use ([A-Z][a-z]+) against/g, 'Use $1 against')
     .replace(/Use Belly Drum to \+6 Attack/g, 'Use Belly Drum to reach +6 Attack')
     .replace(/use Belly Drum to \+6 Attack/g, 'use Belly Drum to reach +6 Attack')
     .replace(/to use Belly Drum to \+6 Attack/g, 'to use Belly Drum and reach +6 Attack')
+    .replace(/to use Belly Drum and reach \+6 Attack/g, 'to use Belly Drum and reach +6 Attack')
     .replace(/Bring in Politoed as a pivot and bring in/g, 'Bring in Politoed as a pivot, then bring in')
     .replace(/bring in Politoed as a pivot and bring in/g, 'bring in Politoed as a pivot, then bring in')
     .replace(/\s+/g, ' ')
@@ -184,7 +183,7 @@ export const translateJohtoStrategyText = (text: string) => {
   if (exactTranslation) return exactTranslation
 
   const translatedText = [...moveTranslations, ...itemTranslations, ...abilityTranslations, ...phraseTranslations]
-    .reduce((currentText, [pattern, replacement]) => currentText.replace(pattern, replacement as string), text)
+    .reduce((currentText, [pattern, replacement]) => currentText.replace(pattern, replacement), text)
 
   return normalizeEnglishText(translatedText)
 }
