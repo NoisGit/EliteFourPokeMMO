@@ -2,6 +2,11 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego cambia a Poliwrath 🐸🥊 contra Tyranitar. Después cambia a Chansey y usa Amortiguador. Si los PS están bajos, usa Máx Poción. Espera a Metagross, usa Teletransporte hacia Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Poliwrath 🐸🥊 contra Tyranitar. Después cambia a Chansey y usa Amortiguador. Si los PS están bajos, usa Máx Poción. Espera a Metagross, usa Teletransporte hacia Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    }
+  ]
 }

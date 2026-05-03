@@ -2,6 +2,11 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar usa Maquinación hasta +4 y Precisión X. No uses Otra Vez. 👻",
-  "tricks": []
+  "initialMove": "👻 Gengar usa Maquinación hasta +4.",
+  "tricks": [
+    {
+      "detail": "Usa Precisión X. No uses Otra Vez. 👻",
+      "variant": []
+    }
+  ]
 }

@@ -2,11 +2,16 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Absol. Luego entra con Volcarona y usa Danza Aleteo x2.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Absol.",
   "tricks": [
     {
-      "detail": "Usa Danza Aleteo una vez y ataca hasta llegar a Houndoom. Luego usa otra Danza Aleteo (total +2) y termina de barrer.",
-      "variant": []
+      "detail": "Luego entra con Volcarona y usa Danza Aleteo x2.",
+      "variant": [
+        {
+          "detail": "Usa Danza Aleteo una vez y ataca hasta llegar a Houndoom. Luego usa otra Danza Aleteo (total +2) y termina de barrer.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

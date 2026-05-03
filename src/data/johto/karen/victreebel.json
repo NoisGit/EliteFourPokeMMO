@@ -2,14 +2,18 @@
   "id": "victreebel",
   "name": "Victreebel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Si Victreebel se queda, usa Amortiguador.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si sale Excadrill, usa Encanto. Luego usa Amortiguador frente a Tyranitar y cambia a Poliwrath.",
+      "detail": "Si Victreebel se queda, usa Amortiguador.",
       "variant": []
     },
     {
-      "detail": "Si sale Tyranitar, cambia a Poliwrath.",
+      "detail": "Si sale Excadrill, usa Encanto. Luego usa Amortiguador frente a Tyranitar y cambia a Poliwrath 🐸🥊.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Tyranitar, cambia a Poliwrath 🐸🥊.",
       "variant": [
         {
           "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados y sigue hasta Houndoom.",
