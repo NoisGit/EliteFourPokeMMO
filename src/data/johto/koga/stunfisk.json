@@ -2,13 +2,13 @@
   "id": "stunfisk",
   "name": "Stunfisk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Volcarona",
+  "initialMove": "Cambia a Volcarona.",
   "tricks": [
     {
-      "detail": "Si sale Scizor, usa Volcarona con Danza Aleteo y Ataque Especial X.",
+      "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": [
         {
-          "detail": "Si Volcarona cae por crítico, usa Poliwrath con Tambor hasta +6 Ataque.",
+          "detail": "Si Volcarona queda fuera por un golpe crítico, entra con Poliwrath 🐸🥊 y usa Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
