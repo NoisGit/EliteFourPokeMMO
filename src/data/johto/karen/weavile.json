@@ -2,11 +2,16 @@
   "id": "weavile",
   "name": "Weavile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Amortiguador para recibir el golpe inicial. Luego usa 🪨 Trampa Rocas 🪨 frente a Excadrill. Después usa Teletransporte hacia Slowbro y usa Bostezo.",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Si Weavile se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta Houndoom. Luego usa otra Danza Aleteo y termina de barrer.",
-      "variant": []
+      "detail": "Recibe el golpe inicial. Luego usa 🪨 Trampa Rocas 🪨 frente a Excadrill. Después usa Teletransporte hacia Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Weavile se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta Houndoom. Luego usa otra Danza Aleteo y termina de barrer.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
