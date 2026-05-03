@@ -2,15 +2,20 @@
   "id": "espeon",
   "name": "Espeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro usa Bostezo para presionar el cambio.",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Cambia a Chansey y coloca Trampa Rocas. Cuando salga Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
-      "variant": []
-    },
-    {
-      "detail": "Si no cambia mientras colocas Trampa Rocas, usa Amortiguador hasta forzar el cambio y sigue la ruta anterior.",
-      "variant": []
+      "detail": "Usa Bostezo para presionar el cambio.",
+      "variant": [
+        {
+          "detail": "Cambia a Chansey y coloca Trampa Rocas. Cuando salga Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Si no cambia mientras colocas Trampa Rocas, usa Amortiguador hasta forzar el cambio y sigue la ruta anterior.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
