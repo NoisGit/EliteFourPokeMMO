@@ -2,8 +2,12 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨.",
+  "initialMove": "👻 Gengar usa Otra Vez.",
   "tricks": [
+    {
+      "detail": "Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨.",
+      "variant": []
+    },
     {
       "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
