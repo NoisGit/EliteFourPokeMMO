@@ -2,15 +2,25 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Honchkrow ➜ Sacrificar a Politoed ➜ Poliwrath Puño H y cuando entre Hydreigon  usa Ataque X y completar  🔔puño Hielo para eliminar a Honchkrow🔔",
-      "variant": []
+      "detail": "Si sale Honchkrow, entra Politoed como pivote y entra con Poliwrath 🐸🥊.",
+      "variant": [
+        {
+          "detail": "Usa Puño Hielo contra Honchkrow. Cuando entre Hydreigon, usa Ataque X y completa la ruta.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Lucario ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
