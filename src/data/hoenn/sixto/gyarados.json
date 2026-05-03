@@ -2,57 +2,67 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Ver habilidad 💡",
+  "initialMove": "💡 Revisa la habilidad 💡",
   "tricks": [
     {
-      "detail": "Intimidación ➜ Trampa Rocas",
+      "detail": "Si tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Absol ➜ Gengar +2 🔔(Bola Sombra a todo)🔔",
+          "detail": "Si sale Absol, entra con Gengar, usa Maquinación hasta +2 y barre con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Luxray ➜ Gengar +4 🔔(Bola Sombra a todo)🔔",
+          "detail": "Si sale Luxray, entra con Gengar, usa Maquinación hasta +4 y barre con Bola Sombra.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Intimidación ➜ Trampa Rocas",
+      "detail": "Si no tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Acua Cola ➜ Amortiguador frente a Absol, Gengar +4 🔔(Bola Sombra a todo)🔔",
+          "detail": "Si usa Acua Cola, usa Amortiguador frente a Absol. Luego entra con Gengar, usa Maquinación hasta +4 y barre con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Darmanitan ➜ 💊Gengar +2 + Precisión X💊 (No usar Otra Vez) 🔔(Usar movimientos súper eficaces)🔔 💰(Ahorrar dinero: Gengar +6)💰",
-          "variant": []
-        },
-        {
-          "detail": "Absol ➜ Cambiar a Slowbro y usar Bostezo",
+          "detail": "Si sale Darmanitan, entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Usa movimientos súper eficaces para cerrar.",
           "variant": [
             {
-              "detail": "Si el Bostezo fuerza la salida de un atacante especial del enemigo ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+              "detail": "Ruta de ahorro: Gengar usa Maquinación hasta +6.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Absol, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Bostezo fuerza la salida de un atacante especial rival, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Tajo Umbrío ➜ Ver estado de Slowbro",
+              "detail": "Si usa Tajo Umbrío, revisa el estado de Slowbro.",
               "variant": [
                 {
-                  "detail": "✅Slowbro vive✅ ➜ Sacrificar a Politoed; Poliwrath +6 🐸🥊 ⚠️(Golpe Bajo no es amenaza)⚠️",
+                  "detail": "Si Slowbro sobrevive, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Golpe Bajo no es amenaza.",
                   "variant": []
                 },
                 {
-                  "detail": "☠️Slowbro se debilita☠️ ➜ Cambiar a Chansey, 💊cambia a Gengar +2 +2 y Precisión X💊 💰(Ahorrar dinero: +6 +2)💰",
+                  "detail": "Si Slowbro se debilita, cambia a Chansey. Luego cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ruta de ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
                   "variant": []
-                }  
-              ]  
-            } 
-          ]  
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Luxray ➜ Amortiguador, esperar a Absol, 💊Gengar +2 + Precisión X💊  💰ahorrar dinero: Gengar +6 💰",
-          "variant": []
+          "detail": "Si sale Luxray, usa Amortiguador y espera a Absol. Luego entra con Gengar, usa Maquinación hasta +2 y Precisión X.",
+          "variant": [
+            {
+              "detail": "Ruta de ahorro: Gengar usa Maquinación hasta +6.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
