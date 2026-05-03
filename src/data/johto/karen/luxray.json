@@ -2,6 +2,11 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Chansey usa Amortiguador. Luego usa 🪨 Trampa Rocas 🪨 frente a un tipo Lucha. Slowbro usa Bostezo, luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-  "tricks": []
+  "initialMove": "Chansey usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Luego usa 🪨 Trampa Rocas 🪨 frente a un tipo Lucha. Slowbro usa Bostezo, luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    }
+  ]
 }
