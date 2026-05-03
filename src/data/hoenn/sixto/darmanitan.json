@@ -2,14 +2,14 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Rápido --> Gengar +2 + Precisión (No usar Otra Vez); usar movimientos súper eficaces",
+      "detail": "Ruta rápida: entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Usa movimientos súper eficaces para cerrar.",
       "variant": []
     },
     {
-      "detail": "Ahorrar dinero --> Gengar +6 (No usar Otra Vez); Bola Sombra a todo",
+      "detail": "Ruta de ahorro: entra con Gengar, usa Maquinación hasta +6 y barre con Bola Sombra. No uses Otra Vez.",
       "variant": []
     }
   ]

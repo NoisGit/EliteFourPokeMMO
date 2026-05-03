@@ -2,19 +2,24 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔 Opciones para resolver 🔔",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Rápido --> Trampa Rocas; Gengar +2 +2 + Precisión; usar movimientos súper eficaces",
+      "detail": "Ruta rápida: usa 🪨 Trampa Rocas 🪨. Luego entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Usa movimientos súper eficaces para cerrar.",
       "variant": []
     },
     {
-      "detail": "Ahorrar dinero --> Encanto + Amortiguador; Trampa Rocas frente a Darmanitan; Gengar +6; Bola Sombra a todo",
+      "detail": "Ruta de ahorro: usa Encanto y Amortiguador. Luego coloca 🪨 Trampa Rocas 🪨 frente a Darmanitan. Entra con Gengar, usa Maquinación hasta +6 y barre con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Amortiguador frente a Darmanitan --> Cambiar a Gengar con Otra Vez +2 y derrotar; frente a Absol cambiar a Chansey, luego cambiar a Gengar +6",
-      "variant": []
+      "detail": "Si usas Amortiguador frente a Darmanitan, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y derrótalo.",
+      "variant": [
+        {
+          "detail": "Frente a Absol, cambia a Chansey. Luego vuelve a Gengar, usa Maquinación hasta +6 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

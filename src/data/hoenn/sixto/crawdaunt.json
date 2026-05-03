@@ -2,6 +2,16 @@
   "id": "crawdaunt",
   "name": "Crawdaunt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨; Gengar +2 + Precisión (No usar Otra Vez); para ahorrar dinero: Gengar +6",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Usa movimientos súper eficaces para cerrar.",
+      "variant": [
+        {
+          "detail": "Ruta de ahorro: Gengar usa Maquinación hasta +6 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

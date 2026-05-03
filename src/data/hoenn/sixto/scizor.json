@@ -2,6 +2,16 @@
   "id": "scizor",
   "name": "Scizor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Volcarona x2 Danza eleteo + Especial X (gigadrenado a Luxray Si solo haces x1 danza aleteo absol te gana en velocidad con pañuelo elegido)💡",
-  "tricks": []
+  "initialMove": "Cambia a Volcarona.",
+  "tricks": [
+    {
+      "detail": "Usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
+      "variant": [
+        {
+          "detail": "Si solo usas Danza Aleteo x1, Absol con Pañuelo Elegido supera en Velocidad a Volcarona.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,30 +2,34 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Mira Qué Habilidad Tiene 💡",
+  "initialMove": "💡 Revisa la habilidad 💡",
   "tricks": [
     {
-      "detail": "Intimidación ➜ 🥚Amortiguador🥚",
+      "detail": "Si tiene Intimidación, usa 🥚 Amortiguador 🥚.",
       "variant": [
         {
-          "detail": "Absol ➜ Gengar +4 + Precisión (No usar Otra Vez)",
+          "detail": "Si sale Absol, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
           "variant": []
         },
         {
-          "detail": "Scizor ➜ Volcarona x2 Danza aleteo + Especial X 💡gigadrenado a Luxray💡",
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Intimidación ➜ Trampa Rocas y sacrifica a Politoed y con Poliwrath puño hielo para matarlo",
+      "detail": "Si no tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Shiftry ➜ Volcarona x2 Danza aleteo y usa lanzallamas  contra Shiftry y el resto de plantas usar Psíquico (Mantener HP por encima del 23%)",
+          "detail": "Luego entra Politoed como pivote. Entra con Poliwrath 🐸🥊 y usa Puño Hielo para derrotar a Salamence.",
           "variant": []
         },
         {
-          "detail": "Hariyama ➜ Con  Poliwrath usa Ataque X 💡con Cascada contra Hariyama💡",
+          "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2. Usa Lanzallamas contra Shiftry y Psíquico contra el resto de plantas. Mantén los PS por encima del 23%.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Hariyama, Poliwrath 🐸🥊 usa Ataque X y completa la ruta con Cascada contra Hariyama.",
           "variant": []
         }
       ]

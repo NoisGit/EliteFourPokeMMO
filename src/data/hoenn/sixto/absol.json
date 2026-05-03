@@ -2,28 +2,33 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Slowbro💡",
+  "initialMove": "💡 Cambia a Slowbro 💡",
   "tricks": [
     {
-      "detail": "Vidasfera --> Usar Bostezo",
+      "detail": "Si Absol tiene Vidasfera, usa Bostezo.",
       "variant": [
         {
-          "detail": "Tajo Umbrío --> 💕Cambiar a Chansey y usar Encanto frente a Garchomp💕; poner 🪨Trampa Rocas🪨, cambiar a Slowbro y usar Bostezo frente a Magnezone; sacrificar a Politoed, entra Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Electivire --> Sacrificar a Politoed, entra Poliwrath +6 🔔(Puño Drenaje a Electivire/Toxicroak)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Gyarados --> Cambiar a Chansey y usar 🪨Trampa Rocas🪨",
+          "detail": "Si usa Tajo Umbrío, cambia a Chansey y usa Encanto frente a Garchomp. Luego coloca 🪨 Trampa Rocas 🪨, cambia a Slowbro y usa Bostezo frente a Magnezone.",
           "variant": [
             {
-              "detail": "Absol --> Gengar Otra Vez +2 🔔(Barre con Bola Sombra)🔔",
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Electivire o Toxicroak.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gyarados, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si sale Absol, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y barre con Bola Sombra.",
               "variant": []
             },
             {
-              "detail": "Luxray --> Gengar Otra Vez +4 🔔(Barre con Bola Sombra)🔔",
+              "detail": "Si sale Luxray, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y barre con Bola Sombra.",
               "variant": []
             }
           ]
@@ -31,78 +36,78 @@
       ]
     },
     {
-      "detail": "Sin Vidasfera --> Usar Teletransporte",
+      "detail": "Si Absol no tiene Vidasfera, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Tajo Umbrío --> Chansey usa Trampa Rocas 🔔(Si el Golpe es Critico usar Max Pocion y luego cambiar a Gengar)🔔",
+          "detail": "Si usa Tajo Umbrío, Chansey usa 🪨 Trampa Rocas 🪨. Si el golpe es crítico, usa Max Poción y luego cambia a Gengar.",
           "variant": [
             {
-              "detail": "Recibir A Bocajarro --> Gengar Otra Vez +2 + Precisión X 💰(Si quieres Ahorrar: Gengar +6)💰",
+              "detail": "Si recibes A Bocajarro, Gengar usa Otra Vez, Maquinación hasta +2 y Precisión X. Ruta de ahorro: Gengar usa Maquinación hasta +6.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Persecución --> Enviar a Chansey, cambiar a Gengar, usar Otra Vez + Bola Sombra; cambiar a Slowbro y usar Bostezo.",
+          "detail": "Si usa Persecución, envía a Chansey, cambia a Gengar, usa Otra Vez y Bola Sombra. Luego cambia a Slowbro y usa Bostezo.",
           "variant": [
             {
-              "detail": "Si se queda --> Usar Protección y Bostezo frente a Huntail/Excadrill; sacrificar a Politoed; entrar con Poliwrath +6",
+              "detail": "Si Absol se queda, usa Protección y Bostezo frente a Huntail o Excadrill. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Huntail --> Sacrificar a Politoed; entrar con Poliwrath +6",
+              "detail": "Si sale Huntail, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Luxray --> Enviar a Chansey y usar Amortiguador.",
+          "detail": "Si sale Luxray, envía a Chansey y usa Amortiguador.",
           "variant": [
             {
-              "detail": "Absol --> Gengar +4 + Precisión X 🔔(No usar Otra Vez)🔔",
+              "detail": "Si sale Absol, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
               "variant": []
             },
             {
-              "detail": "Scizor --> Volcarona +2 + Ataque Especial X 🔔(Gigadrenado a Luxray)🔔",
+              "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Magnezone --> Enviar a Chansey y usar 🪨Trampa Rocas🪨",
+          "detail": "Si sale Magnezone, envía a Chansey y usa 🪨 Trampa Rocas 🪨.",
           "variant": [
             {
-              "detail": "Darmanitan --> Gengar +2 + Precisión X 🔔(No usar Otra Vez)🔔; 💰(Si quieres Ahorrar: Gengar +6)💰",
+              "detail": "Si sale Darmanitan, entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez. Ruta de ahorro: Gengar usa Maquinación hasta +6.",
               "variant": []
             },
             {
-              "detail": "Absol --> Gengar usa Otra Vez, 2+2 + Precisión X 💰(Si quieres Ahorrar: Gengar 6+2)💰",
+              "detail": "Si sale Absol, Gengar usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Ruta de ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Salamence (Intimidación) --> Enviar a Chansey y usar Amortiguador.",
+          "detail": "Si sale Salamence con Intimidación, envía a Chansey y usa Amortiguador.",
           "variant": [
             {
-              "detail": "Absol --> Gengar +4 + Precisión X 🔔(No usar Otra Vez)🔔",
+              "detail": "Si sale Absol, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
               "variant": []
             },
             {
-              "detail": "Scizor --> Volcarona +2 + Ataque Especial X 🔔(Gigadrenado a Luxray)🔔",
+              "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x2 y Ataque Especial X. Usa Gigadrenado contra Luxray.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Salamence (sin Intimidación) --> Enviar a Chansey; sacrificar a Politoed; Poliwrath usa Puño Hielo.",
+          "detail": "Si sale Salamence sin Intimidación, envía a Chansey y entra Politoed como pivote. Luego entra con Poliwrath 🐸🥊 y usa Puño Hielo.",
           "variant": [
             {
-              "detail": "Shiftry --> Volcarona +2",
+              "detail": "Si sale Shiftry, entra con Volcarona y usa Danza Aleteo x2.",
               "variant": []
             },
             {
-              "detail": "Hariyama --> Gengar Otra Vez 4+2 🔔(Barre con Bola Sombra)🔔",
+              "detail": "Si sale Hariyama, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
               "variant": []
             }
           ]
