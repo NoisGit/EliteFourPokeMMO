@@ -2,6 +2,16 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 Frente a Absol; Gengar +2 (Bola Sombra a todo)",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Absol.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Maquinación hasta +2 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
