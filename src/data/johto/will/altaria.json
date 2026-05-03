@@ -5,34 +5,25 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "detail": "Si sale Stantler, cambia a Gengar y usa Otra Vez. Luego sale Alakazam.",
       "variant": [
         {
-          "detail": "Si entra Stantler, cambia a Gengar y usa Otra Vez. Cuando salga Alakazam, elige ruta estable o ruta RNG."
+          "detail": "Ruta estable: cambia a Chansey, usa Teletransporte hacia Slowbro y usa Bostezo. Usa Protección para dormir a Alakazam. Luego usa Bostezo frente a Roserade, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
         },
         {
-          "detail": "Ruta estable: cambia a Chansey, usa Teletransporte y entra con Slowbro. Usa Bostezo, luego Protección para dormir a Alakazam. Después usa Bostezo frente a Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Ruta RNG: entra con Slowbro, usa Bostezo y luego Protección. Cuando salga Roserade, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Ruta RNG: entra con Slowbro, usa Bostezo y Protección. Cuando salga Roserade, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Lucario, cambia a Gengar y usa Otra Vez.",
-      "variant": [
-        {
-          "detail": "Usa Maquinación hasta +6 y Precisión X. Mantén Otra Vez cuando sea necesario."
-        }
-      ]
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X.",
+      "variant": []
     },
     {
-      "detail": "Si Lucario usa un movimiento de fuego, probablemente es Zoroark.",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar, usa Otra Vez sobre el movimiento de fuego y luego entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad."
-        }
-      ]
+      "detail": "Si Lucario revela que es Zoroark por un movimiento de tipo Fuego, Gengar usa Otra Vez. Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+      "variant": []
     }
   ]
 }

@@ -2,27 +2,42 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨 A Bocajarro  ➜ Chansey primero Tajo Umbrío doble cambio a Jirachi al A Bocajarro;  si cambia  a Ninetales; Dragonite +2 y ataca ",
+  "initialMove": "🔔 Gengar usa Otra Vez y cambiar a Slowbro🔔 Ver que item tiene ",
   "tricks": [
     {
-      "detail": "A Bocajarro  con Banda Focus ➜ Gengar  Otra Vez  +4 +2 ",
-      "variant": []
+      "detail": "Vidasfera --> Usar Bostezo ",
+      "variant": [
+        {
+          "detail": "Ninetales --> Usar Protección  y Bostezo  sacrificar a Politoed entrar con Poliwrath  +6",
+          "variant": []
+        },
+        {
+          "detail": "Gallade --> Sacrificar a Politoed entrar con Poliwrath  +6; abrir y observar la situación",
+          "variant": [
+            {
+              "detail": "Situación ① Girafarig  vs Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
+              "variant": []
+            },
+            {
+              "detail": "Situación ② Ninetales vs Girafarig (primer enfrentamiento) --> Presionar directamente; si no hay golpe crítico  no debilita; si hay golpe crítico y cae, entrar con Gengar +2 para completar",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "A Bocajarro con Vidasfera ➜ Cambiar a Jirachi Otra Vez  al A Bocajarro; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Nuevo golpe de prueba  ➜ Apertura cambia a Gengar  Otra Vez  Bola Sombra ; probando abajo",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse  ➜ Gengar +2 Otra Vez +2 +2  total +4 +2 (probando  Banda Focus Raichu parálisis; usar Cura Total si resives critico a Chansey traer a Gallade Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➜ Cambiar a Chansey , cambiar a Gengar  Otra Vez  +2 y atacar ;  ( probando  Girafarig sin movimiento que golpee a Gengar (girafa no puede hacer daño a gengar  )",
-      "variant": []
+      "detail": "Sin Vidasfera --> Cambiar a Chansey  y usar Trampa Rocas ",
+      "variant": [
+        {
+          "detail": "Golduck --> Entrar con Gengar  +4 +2; cambiar Gengar ante Gallade  No usar Otra Vez  y seguir fortaleciendo",
+          "variant": []
+        },
+        {
+          "detail": "Gallade --> Entrar con Gengar  +4 +2 No usar Otra Vez 🔔usar Bola Sombra a todos🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

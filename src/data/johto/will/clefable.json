@@ -5,21 +5,16 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si entra Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X. Mantén Otra Vez cada vez que puedas."
-        },
-        {
-          "detail": "Si el movimiento principal no sirve contra Xatu, usa la cobertura especial dos veces."
-        },
-        {
-          "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X. Mantén Otra Vez cada vez que puedas."
-        },
-        {
-          "detail": "Si Lucario revela que es Zoroark, usa Otra Vez sobre su movimiento y entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad."
-        }
-      ]
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Precisión X. Usa Otra Vez cada vez que puedas. Si Bola Sombra queda bloqueada contra Xatu, usa Onda Certera dos veces para derrotarlo.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X. Usa Otra Vez cada vez que puedas.",
+      "variant": []
+    },
+    {
+      "detail": "Si Lucario revela que es Zoroark por un movimiento de tipo Fuego, cambia desde Gengar cuando corresponda. Luego Gengar usa Otra Vez sobre el movimiento de tipo Fuego y entra con Poliwrath para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+      "variant": []
     }
   ]
 }

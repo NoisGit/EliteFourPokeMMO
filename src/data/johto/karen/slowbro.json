@@ -2,52 +2,53 @@
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si usa Puño Drenaje, entra con Volcarona y usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Tyranitar, entra con Poliwrath para derrotarlo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados y frente a Houndoom sigue atacando; no te derrota.",
-          "variant": []
-        }
-      ]
+      "detail": "Si usa Puño Drenaje, entra con Volcarona y usa Danza Aleteo x2.",
+      "variant": []
     },
     {
-      "detail": "Ruta con Excadrill:",
+      "detail": "Si sale Excadrill, revisa su objeto.",
       "variant": [
         {
           "detail": "Si tiene Globo Helio, usa Encanto y Amortiguador frente a Tyranitar. Luego cambia a Poliwrath para derrotar a Tyranitar.",
           "variant": []
         },
         {
-          "detail": "Si no tiene Globo Helio, usa Teletransporte hacia Slowbro y luego Bostezo. Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta que entre Houndoom. Luego usa Danza Aleteo una vez más y derrótalo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 y ataca hasta que entre Houndoom. Luego usa Danza Aleteo una vez más y derrótalo.",
-          "variant": []
+          "detail": "Si no tiene Globo Helio, usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta que entre Houndoom. Frente a Houndoom, usa otra Danza Aleteo y termina de barrer.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 y ataca hasta que entre Houndoom. Luego usa otra Danza Aleteo y termina de barrer.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Ruta con Victreebel:",
+      "detail": "Si sale Tyranitar, entra con Poliwrath para derrotarlo.",
       "variant": [
         {
-          "detail": "Cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados y sigue hasta Houndoom.",
           "variant": []
         },
         {
-          "detail": "Si sale Gyarados después, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro.",
+          "variant": [
+            {
+              "detail": "Si Victreebel se queda, usa Bostezo. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            }
+          ]
         },
         {
           "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",

@@ -2,22 +2,22 @@
   "id": "gastrodon",
   "name": "Gastrodon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez  , Chandelure +2 +2",
+      "detail": "Terremoto ➜ Cambiar a Slowbro y usa Bostezo al enfrentar a Volcarona ➜ sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
       "variant": []
     },
     {
-      "detail": "Terremoto  ➜ Cambia a Gallade Otra Vez  +6 +2",
+      "detail": "Escavalier ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
       "variant": []
     },
     {
-      "detail": "Escavalier / Magcargo ➜ Cambia a Chandelure, cambia a Dragonite Otra Vez  x3 Danza Dragón; frente a Gastrodon resistir daño , si te quema curate (sigue bosteandote no te mata  )",
+      "detail": "Scizor ➜ Chansey usa Amortiguador para recibir Aróbata ➜ cambiar a Slowbro al enfrentar a Flygon y usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
       "variant": []
     },
     {
-      "detail": "Kabutops ➜ Cambia a Jirachi Otra Vez Fuego, Chandelure +2 +2",
+      "detail": "Flygon ➜ Cambiar a Slowbro y usa Bostezo ➜ sacrifica a Politoed  y entra con Poliwrath +6 🐸🥊",
       "variant": []
     }
   ]

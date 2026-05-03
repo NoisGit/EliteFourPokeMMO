@@ -2,18 +2,11 @@
   "id": "aerodactyl",
   "name": "Aerodactyl",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Cuando salga Poliwrath, usa Teletransporte.",
-      "variant": [
-        {
-          "detail": "Entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "💰 Si quieres ahorrar, usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰"
-        }
-      ]
+      "detail": "Sale Poliwrath --> Usa Teletransporte, 💊Gengar Otra Vez 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
+      "variant": []
     }
   ]
 }

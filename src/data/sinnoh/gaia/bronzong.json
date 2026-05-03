@@ -2,31 +2,42 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Rhyperior ➜ Gallade Otra Vez +4 +2; Al cambiar puede resivir (Mega cuerno o roca afilada",
-      "variant": []
+      "detail": "Parasect ➜ Cambiar a Volcarona",
+      "variant": [
+        {
+          "detail": "Si se queda ➜ Volcarona +1",
+          "variant": []
+        },
+        {
+          "detail": "Rhyperior ➜ Usa Gigadrenado para debilitarlo, al enfrentar a Blastoise cambiar a Slowbro y usar Bostezo",
+          "variant": [
+            {
+              "detail": "Si se queda ➜ Usar Protección y Relajo al enfrentar a Parasect, entrar con Volcarona +1",
+              "variant": []
+            },
+            {
+              "detail": "Parasect ➜ Entrar con Volcarona +1",
+              "variant": []
+            }
+          ] 
+        } 
+      ]  
     },
     {
-      "detail": "Parasect ➜ Cambia a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Prueba de velocidad  ➜ Cambia a Chandelure +2 +2; (+(120) presionar (push); no curar golpe crítico (ct), puede cambiar a car",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar dinero medicina/rezar estabilidad  ➜ Cambia a Chandelure debilita",
-      "variant": []
-    },
-    {
-      "detail": "Donphan / Rhyperior ➜ Gallade Otra Vez (Encore) +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Blastoise  ➜ Cambia a ChanseyAmortiguador frente a Rhyperior, ver arriba ⬆ ",
-      "variant": []
+      "detail": "Rhyperior ➜ Usar Teletransporte, Slowbro usa Bostezo 🔔(Identifica si porta Vidasfera🔔)",
+      "variant": [
+        {
+          "detail": "Si tiene Vidasfera ➜ Usar Teletransporte, 💊entrar con Volcarona y usar atk. Especial X luego presionar💊",
+          "variant": []
+        },
+        {
+          "detail": "No tiene Vidasfera ➜ Usar Teletransporte, entrar con Volcarona +1 💰(Si quieres ahorrar en curas: Usa Proteccion y Relajo, frente a Parasect cambia a Volcarona +1)💰",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,17 +2,13 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Si Umbreon usa Juego Sucio y se queda, usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Umbreon usa Juego Sucio y se queda, usa Amortiguador.",
+      "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
       "variant": [
         {
-          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Houndoom, sacrifica a Politoed y entra con Poliwrath. Usa Ataque X y empieza a barrer.",
+          "detail": "Si entra Houndoom, sacrifica a Politoed, entra con Poliwrath, usa Ataque X y barre.",
           "variant": []
         }
       ]

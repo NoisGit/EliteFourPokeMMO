@@ -2,34 +2,31 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Terremoto ➜ Cambia a Dragonite Danza Dragón x3 ",
+      "detail": "Infernape ➜ Usar Amortiguador o Teletransporte ➜ entrar con Gengar Otra Vez +4 +2  🔔 Usar Bola Sombra a todos 🔔",
       "variant": []
     },
     {
-      "detail": "Infernape ➜ Amortiguador  cambia a Gengar Otra Vez +4 +2",
+      "detail": "Medicham ➜ Entrar con Gengar +4 (No usar Otra Vez) 🔔 Usar Bola Sombra a todos 🔔",
       "variant": []
     },
     {
-      "detail": "Medicham ➜ Gengar+4 no velo ; NO usar Otra Vez",
-      "variant": []
+      "detail": "Blaziken / Arcanine ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Cacturne ",
+      "variant": [
+        {
+          "detail": "Rápido ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 (puño drenaje a magmortar ",
+          "variant": []
+        },
+        {
+          "detail": "Ahorrar dinero ➜ Entrar con Volcarona +3",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Flareon ➜ Cambia a Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus ➜ Amortiguador  Gengar  Otra Vez  +6",
-      "variant": []
-    },
-    {
-      "detail": "Blaziken ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine  ➜ Cambia a Gengar Otra Vez  Bola Sombra  si no corre Gengar +4 no velo ; si corre a Dragonite cambia a Jirachi Otra Vez ; Chandelure +2 +2",
+      "detail": "Haxorus ➜ Usar Amortiguador o Teletransporte  entrar con Gengar ➡ Otra Vez +6 🔔 Usar Bola Sombra  a todos 🔔",
       "variant": []
     }
   ]

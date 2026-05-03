@@ -5,14 +5,10 @@
   "initialMove": "🦋 Cambia a Volcarona 🦋",
   "tricks": [
     {
-      "detail": "Cambia a Volcarona frente a Scizor.",
+      "detail": "Usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": [
         {
-          "detail": "Usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si un crítico derrota a Volcarona, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si un golpe crítico deja fuera a Volcarona, entra Politoed como pivote y vuelve con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

@@ -2,18 +2,14 @@
   "id": "braviary",
   "name": "Braviary",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "🪨Trampa Rocas🪨 cambiar a Slowbro y usar Bostezo",
   "tricks": [
     {
-      "detail": "Se Queda  ➜ Cambiar a Gengar  Otra Vez ; Maquinación",
+      "detail": "Serperior --> Usar Teletransporte; entrar con Volcarona +2 y usar Especial X 🔔(Mantener PS por encima del 29%)🔔",
       "variant": []
     },
     {
-      "detail": "Bastiodon ➜ Maquinación  hasta que no use Represión Metal ; Otra Vez  y atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ muere arca ) con Bastiodon hacer lo mismo de arriba ",
+      "detail": "Jellicent --> Usar Protección; cambiar a Volcarona ante Serperior; Volcarona +2 y usar Especial X 🔔(Mantener PS por encima del 29%)🔔",
       "variant": []
     }
   ]

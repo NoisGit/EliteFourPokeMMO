@@ -2,38 +2,41 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento de Seismitoad.",
+      "detail": "Terremoto → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gengar y Puño Drenaje contra Seismitoad)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Hidrobomba/Tierra Viva/Fuerza → Teletransporte, saca a Slowbro y usa Bostezo, acrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gyarados y Puño Hielo contra Gengar)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Muk → Encanto luego Teletransporte",
       "variant": [
         {
-          "detail": "Si usa Terremoto, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad. 🔔"
-        },
+          "detail": "Si se queda --> Saca a Slowbro y usa Bostezo",
+          "variant": [
+            {
+              "detail": "Si entra Rotom --> Usa Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
+              "variant": []
+            },
+            {
+              "detail": "Si entra Otro --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
+              "variant": []
+            }
+          ] 
+        },  
         {
-          "detail": "Si usa Hidrobomba, Tierra Viva o Fuerza Bruta, usa Teletransporte hacia Slowbro y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Gyarados y Puño Hielo contra Gengar. 🔔"
-        }
+          "detail": "Gyarados --> Saca a Volcaron luego cambia a Slowbro y usa Bostezo ⬆️(Ver arriba)⬆️",
+          "variant": []
+        }    
       ]
     },
-    {
-      "detail": "Si entra Muk, usa Encanto y luego Teletransporte.",
-      "variant": [
-        {
-          "detail": "Si Muk se queda, entra con Slowbro y usa Bostezo."
-        },
-        {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
-        },
-        {
-          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔"
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Gyarados, entra con Volcarona y luego cambia a Slowbro para usar Bostezo. Continúa con la ruta de sueño."
-    },
-    {
-      "detail": "Si entra Lucario, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Cascada contra Gengar. 🔔"
+    {  
+      "detail": "Lucario → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gengar)🔔",
+      "variant": []   
     }
   ]
 }

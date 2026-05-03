@@ -2,21 +2,30 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento de Houndoom.",
+      "detail": "Llamarada --> Usar Teletransporte",
       "variant": [
         {
-          "detail": "Si usa Llamarada, usa Teletransporte. Si Houndoom se queda, entra con Volcarona, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🚨 Cuidado con una quemadura inesperada: usa Velocidad X, porque la lluvia no alcanzará. 🚨"
+          "detail": "Si se queda → Entra Volcarona, sacrifica al Politoed, entra Poliwrath +6 🚨(Cuidado con una quemadura inesperada, toma una velocidad X, ya que la lluvia no te Alcanzara)",
+          "variant": []
         },
         {
-          "detail": "Si entra Krookodile o Crobat, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "krookodile → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si entra Toxicroak o Lucario, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Hielo contra Mandibuzz y Cascada contra Gengar. 🔔"
+          "detail": "Crobat →  Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Toxicroack/Lucario → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Mandibuzz y Cascada contra Gengar)🔔",
+      "variant": []
     }
   ]
 }
+  
+

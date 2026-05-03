@@ -2,58 +2,36 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🥚Amortiguador 🥚 Lapras se Queda Usa Amortiguador",
   "tricks": [
     {
-      "detail": "Cascada ➜ Cambiar a Jirachi Protección",
-      "variant": []
+      "detail": "Lucario ➜ Usar Teletransporte",
+      "variant": [
+        {
+          "detail": " Esfera Aural ➜ Entrar con Gengar Otra vez  +6 +2",
+          "variant": []
+        },
+        {
+          "detail": "A bocajarro ➜ Revisar objeto",
+          "variant": [
+            {
+              "detail": "Vidasfera ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ entra con Poliwrath +6 🐸🥊",
+              "variant": []
+            },
+            {
+              "detail": "Sin Vidasfera ➜ Entra con Gengar otra vez +4 🔔(lucario Banda Focus) (Bola Sombra a todo)🔔",
+              "variant": []
+            },
+            {
+              "detail": "Garchomp ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜  Poliwrath +6 🐸🥊",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Frente a Nidoqueen/Nidoking  ➜ Otra Vez ; Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Garchomp ➜ Gallade/Roserade +4 +2 ; (pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Altaria ➜ Cambiar a Chansey  Pantalla Luz ; frente a Garchomp Gallade +4 +2 ;(pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Gengar Otra Vez ; cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Otra Vez frente a Arcanine   ➜ Chandelure +2 +2 ; NO usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp Pañuelo Elección  ➜ Cambiar a Gallade +4 +2  NO usar Otra Vez ; ( Ojo: el frente solo tiene el equipo número 7  frente a Garchomp; si no es ese equipo, dar retroalimentación ",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Lapras ➜ Eléctrico frente a Garchomp; Jirachi Otra Vez ; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Amortiguador  ver situación; ¿solo un equipo )?; probando ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp Vidasfera  ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez; Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp Pañuelo Elección  ➜ Gallade +4 +2 ; NO usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Gallade fortalecidos huyen hacia Altaria ➜ Cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ",
+      "detail": "Garchomp ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
       "variant": []
     }
   ]

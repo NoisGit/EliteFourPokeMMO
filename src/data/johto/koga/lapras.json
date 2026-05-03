@@ -5,17 +5,8 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si sale Crobat, cambia a Slowbro.",
-      "variant": [
-        {
-          "detail": "Mantén Bostezo hasta que salga Gengar o Lapras.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Crobat, cambia a Slowbro y mantén Bostezo hasta que salga Gengar o Lapras. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

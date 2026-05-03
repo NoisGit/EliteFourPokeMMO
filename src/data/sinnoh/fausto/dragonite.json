@@ -2,23 +2,38 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Blaziken ➜ Cambia a Chandelure +2 +2 (Tiene pañuelo)",
-      "variant": []
+      "detail": "Blaziken ➜ Slowbro , Bostezo ➜ Frente a Maractus 🔔Mira Abajo 🔔 ",
+      "variant": [
+        {
+          "detail": "Rápido ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje Magmortar)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Ahorrar dinero ➜ Entrar con Volcarona x3 Danza aleteo",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Bouffalant ➜ Cambia a Chandelure +2 no velo si  Rayo paraliza a Chandelure, usar Def. Esp. X + Cura Total ",
-      "variant": []
-    },
-    {
-      "detail": "Cambia Chandelure a Camerupt ➜ Dragonite Otra Vez  Danza Dragón x1  + Ataque X ( ¿Ahorrar dinero/medicina Danza Dragón x4 , Terremoto debilita a Magmortar",
-      "variant": []
-    },
-    {
-      "detail": "Camerupt ➜ Amortiguador  espera frente a Bouffalant; Chandelure +2 no velo ",
-      "variant": []
+      "detail": "Bouffalant ➜ Gengar usa Maquinación ➜ Si entra Dragonite eliminalo con bola sombra",
+      "variant": [
+        {
+          "detail": "Magmortar ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje contra Magmortar)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Steelix ➜  Slowbro , Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje contra Magmortar)🔔",
+          "variant": [
+            {
+              "detail": "🚨Arriesgado🚨 ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+              "variant": []
+            }
+          ]
+        }
+      ]   
     }
-  ]
-}
+  ]   
+}  

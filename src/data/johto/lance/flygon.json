@@ -2,20 +2,15 @@
   "id": "flygon",
   "name": "Flygon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Lucario, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad. Lucario no tiene objeto elegido.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo frente a Flygon. Luego usa Protección y Bostezo, y entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Lucario, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Puedes ahorrar el setup hasta +6 y +2 porque Lucario no tiene objeto elegido.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo frente a Flygon. Luego usa Protección y Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

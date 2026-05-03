@@ -2,34 +2,23 @@
   "id": "donphan",
   "name": "Donphan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 ",
+  "initialMove": "🪨Trampa Rocas🪨 🥚No cambia usa Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Parasect ➜ Cambia a Gengar  Otra Vez +4 +2",
-      "variant": []
+      "detail": "Rhyperior --> Usar Encanto y cambiar a Slowbro",
+      "variant": [
+        {
+          "detail": "Si se queda --> Usar Bostezo al enfrentar a 🦀Parasect🍄 entrar con Volcarona +1",
+          "variant": []
+        },
+        {
+          "detail": "🦀Parasect🍄--> Entrar con Volcarona +1",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Rhyperior/Whiscash ➜ Gallade Otra Vez  +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Blastoise ➜ Chansey e Pantalla Luz; Jirachi Rayo  fuerza el cambio ",
-      "variant": []
-    },
-    {
-      "detail": "si sale brongzong ➜ Chandelure +2 +2; +curar Ignífugo  Bronzong golpea a Chandelure 35% aprox ",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior ➜ Cambia a Jirachi Protección ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto ➜ Gallade  Otra Vez (Encore) +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Prueba Puño Fuego ) ➜ Cambia a Chandelure, cambia a Gallade  Otra Vez +4 +2",
+      "detail": "🦀Parasect🍄 --> Entrar con Volcarona +1",
       "variant": []
     }
   ]

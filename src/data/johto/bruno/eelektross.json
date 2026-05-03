@@ -5,25 +5,33 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
+      "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Blaziken tiene Pañuelo Elegido.",
+      "variant": []
+    },
+    {
+      "detail": "Frente a Darmanitan, elige una de estas rutas.",
       "variant": [
         {
-          "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. 🔔 Blaziken tiene Pañuelo Elegido. 🔔",
+          "detail": "Ruta de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
           "variant": []
         },
         {
-          "detail": "Si quedas frente a Darmanitan, elige una ruta: ahorro con Volcarona usando Danza Aleteo x3; estable con Slowbro usando Bostezo, sacrificando a Politoed y entrando con Poliwrath para usar Tambor hasta +6 Ataque; o RNG sacrificando a Politoed y entrando directo con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Ruta estable: Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "detail": "Ruta arriesgada: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+      "variant": []
     }
   ]
 }

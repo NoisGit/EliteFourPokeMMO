@@ -2,18 +2,15 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si entra Machamp, cambia a Gengar y luego a Slowbro. Usa Bostezo frente a Jolteon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Electivire o Arcanine, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Leafeon. 🔔"
-        }
-      ]
+      "detail": "Machamp --> Cambia a Gengar luego a Slowbro, Bostezo frente a Jolteon, sacrifica a Politoed, saca a Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Electric / Arcanine --> Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, saca a Poliwrath +6 🔔(Puño drenaje contra Leafeon)🔔",
+      "variant": []      
     }
   ]
 }

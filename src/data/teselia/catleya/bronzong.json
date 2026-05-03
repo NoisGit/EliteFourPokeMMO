@@ -2,10 +2,14 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 ",
+  "initialMove": "🪨Trampa Rocas🪨 frente a Metagross, Gengar +2",
   "tricks": [
     {
-      "detail": "Metagross ➜ Gengar Otra Vez +4 +2 (si cambia milotic  +4 +0 rayo no lo mata usa raiz energia o Max pocion ",
+      "detail": "Si se Queda --> Gengar +6",
+      "variant": []
+    },
+    {
+      "detail": "Frente a Bronzong / Milotic --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Cascada a Bronzong)🔔",
       "variant": []
     }
   ]

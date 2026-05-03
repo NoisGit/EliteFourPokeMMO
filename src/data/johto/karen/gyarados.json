@@ -2,61 +2,62 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Gyarados se queda, usa Amortiguador y espera el cambio.",
+      "detail": "Si Gyarados se queda, usa Amortiguador y espera el cambio.",
       "variant": [
         {
-          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Tyranitar, cambia a Poliwrath para derrotarlo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados, barre hasta Houndoom e ignora la amenaza.",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta con Rhyperior:",
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Usa Encanto y cambia a Slowbro.",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon y luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Si sale Gyarados, usa Bostezo, Protección y Bostezo otra vez frente a Leafeon. Luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y luego Bostezo frente a Leafeon. Después entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta con Victreebel:",
+      "detail": "Si sale Tyranitar, cambia a Poliwrath 🐸🥊 para enfrentarlo.",
       "variant": [
         {
-          "detail": "Cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
           "variant": []
         },
         {
-          "detail": "Si sale Gyarados después, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro.",
+          "variant": [
+            {
+              "detail": "Si Victreebel se queda, usa Bostezo. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si sale Excadrill, usa Gigadrenado hasta derrotarlo.",
+          "detail": "Si sale Excadrill, usa Gigadrenado hasta enfrentarlo.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si sale Excadrill, usa Encanto y Amortiguador frente a Tyranitar. Luego cambia a Poliwrath para derrotar a Tyranitar.",
+      "detail": "Si sale Excadrill, usa Encanto. Luego usa Amortiguador frente a Tyranitar y cambia a Poliwrath 🐸🥊 para enfrentarlo.",
       "variant": []
     }
   ]

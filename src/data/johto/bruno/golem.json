@@ -2,20 +2,11 @@
   "id": "golem",
   "name": "Golem",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️ Encanto + 🪨 Trampa Rocas 🪨",
+  "initialMove": "❤️ Encanto y Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Usa Encanto y coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

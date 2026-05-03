@@ -5,19 +5,24 @@
   "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Samurot/bisharp ➜ Gengar Otra Vez +4 +2",
+      "detail": "Terremoto --> Usa Teletransporte y sacar a Slowbro luego usar Bostezo 🔔(Ver si el Golpe es Critico)🔔",
+      "variant": [
+        {
+          "detail": "Sin Critico --> Seguir con Bostezo frente a Chandelure, sacrificar a Politoed, entrar con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Con Critico --> Sacrificar a Politoed, entrar con Poliwrath +6",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Colmillo Ígneo ➜ Cambiar a Slowbro, usar Bostezo frente a Chandelure; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Vidasfera Colmillo Ígneo ➜ cambia a Dragonite cambia a Jirachi Otra Vez Chandelure +2 +2 / Dragonite +4 Danza",
-      "variant": []
-    },
-    {
-      "detail": "Staraptor ➜ Fantasma +4 xDefensa(no Velo)  No Usar  Otra Vez (staraptor/spiritomb Cinta Elegida y Sombra vil)",
-      "variant": []
-    },
-    {
-      "detail": "Vidasfera Terremoto ➜ cambia a Dragonite cambia a Jirachi Otra Vez Chandelure +2 +2 / Dragonite +3 Danza",
+      "detail": "Samurott ➜ Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     }
   ]

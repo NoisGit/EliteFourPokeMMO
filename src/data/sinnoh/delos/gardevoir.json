@@ -2,31 +2,6 @@
   "id": "gardevoir",
   "name": "Gardevoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Tramparocas🪨",
-  "tricks": [
-    {
-      "detail": "Gallade ➜ Cambiar a Gengar ",
-      "variant": []
-    },
-    {
-      "detail": "Buscando velocidad  ➜ Cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Chandelure +2 +2 (Pañuelo elegido)",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse  ➜ Jirachi Otra Vez , Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "¿Ahorrar $ medicina ➜ Gengar  Otra Vez (Encore) +6 +2; Gardevoir Bola Sombra sombra ",
-      "variant": []
-    },
-    {
-      "detail": "Gardevoir Maldición Bola Sombra  ➜ Cambiar a Chansey  Pantalla de Luz ; si envían a Hydreigon, Gengar  +4 no velocidad  usar Otra Vez",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Gallade o Roserade; entrar con Gengar +6 +2 + Precisión",
+  "tricks": []
 }

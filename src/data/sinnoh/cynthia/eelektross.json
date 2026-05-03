@@ -2,38 +2,18 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "❤️ Encanto ❤️",
   "tricks": [
     {
-      "detail": "Lucario ➜ Amortiguador ; recibir A Bocajarro ; cambiar a Gengar  (Otra Vez si chansey resive un  golpe físico defensa x); Gengar +4 +0 ); empujar dos veces;( si  Chansey recibe un critico  debilita ; no hay necesidad de preocuparse ",
+      "detail": "Fuerza Bruta --> Usar Amortiguador al enfrentar a Heracross; usar Teletransporte; entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
       "variant": []
     },
     {
-      "detail": "Lapras ➜ Cambiar a Jirachi Rayo",
+      "detail": "Cambio a Bronzong enemigo --> Sacrificar a Politoed; entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Garchomp ➜ Jirachi Otra Vez ; Dragonite Danza Dragón x3 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Cambiar a Dragonite, cambiar a Jirachi Otra Vez ; Dragonite Danza Dragón x3 ",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross ➜ Cambiar a Jirachi Rayo  dos veces; Otra Vez ; Chandelure +2 +2 ); cuando el HP esté cerca de 27%, usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Heracross ➜ Chandelure +2 +2 (objeto elegido); puedes sacrificar a Chansey ; Gengar (ghost) +6 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Fuerza Bruta  ➜ Amortiguador ",
-      "variant": []
-    },
-    {
-      "detail": "Heracross ➜ igual que arriba ",
+      "detail": "Lucario --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
       "variant": []
     }
   ]

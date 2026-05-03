@@ -2,33 +2,46 @@
   "id": "ampharos",
   "name": "Ampharos",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Haxorus ➜ Gengar Otra vez +2 ataca hasta que aparesca Lucario, sacrifica a Politoed, Poliwrath +6 🔔(Puño Drenaje a Ampharos)🔔",
+      "variant": []
+    },
+    {
+      "detail": "Lucario ➜ Cambiar a Gengar para ver el movimiento",
       "variant": [
         {
-          "detail": "Si sale Haxorus, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Ataca hasta que aparezca Lucario. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
+          "detail": "Patada Salto Alta ➜ ⬇️Opción para resolver⬇️",
           "variant": [
             {
-              "detail": "Patada Salto Alta: puedes arriesgar usando Maquinación y barrer directo, o jugar seguro cambiando a Slowbro, luego a Chansey y volver a Gengar.",
+              "detail": "🚨Arriesgar🚨 ➜ Maquinación y barrer directamente ",
               "variant": []
             },
             {
-              "detail": "A Bocajarro: Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
-              "variant": []
-            }
-          ]
+              "detail": "✅Seguro✅ ➜ Cambiar a Slowbro, luego a Chansey y volver a Gengar",
+              "variant": [
+                {
+                  "detail": "Haxorus ➜ Gengar +2 ataca hasta que aparesca Lucario, sacrifica a Politoed, Poliwrath +6 🔔(Puño Drenaje a Ampharos)🔔",
+                  "variant": []
+                },
+                {
+                  "detail": "Lucario ➜ Sacrificar a Politoed; Poliwrath +6 🔔(Puño Drenaje a Ampharos)🔔",
+                  "variant": []
+                }  
+              ]  
+            } 
+          ]  
         },
         {
-          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile. Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
+          "detail": "A Bocajarro ➜ Gengar +4 🔔(Bola Sombra a todo)🔔",
           "variant": []
-        }
-      ]
+        }  
+      ] 
+    },
+    {
+      "detail": "Feraligatr ➜ Cambiar a Slowbro y usar Bostezo frente a Sceptile, Volcarona +3 🔔(Mantener PS por encima del 75%)🔔",
+      "variant": []
     }
   ]
 }

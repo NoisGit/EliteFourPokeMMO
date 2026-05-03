@@ -2,15 +2,6 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨Coloca Trampa Rocas🪨 Gengar Cambia a Jirachi  ",
-  "tricks": [
-    {
-      "detail": "Krookodile ➜ Gallade +4 +2 (tiene pañuelo Cuidado volcarona quema)",
-      "variant": []
-    },
-    {
-      "detail": "",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Lucario ➜ cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜  Poliwrath +6🐸🥊💡 🔔(Puño drenaje a Volcarona)🔔",
+  "tricks": []
 }

@@ -2,23 +2,6 @@
   "id": "snorlax",
   "name": "Snorlax",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Mienshao ➜ Cambia a Gengar , cambia a Gallade para debilitar a Snorlax",
-      "variant": []
-    },
-    {
-      "detail": "Cinccino ➜ Cambia a Jirachi Otra Vez, Chandelure +2 Velocidad (no maquinacion )",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Jirachi, usa Defensa X; frente a Sigilyph usa Otra Vez, Chandelure +2 Velocidad (x especial);(si cambian mantener y luego usar Protección",
-      "variant": []
-    },
-    {
-      "detail": "Sigilyph ➜ Cambia a Jirachi Otra Vez, Chandelure +2 Velocidad (x especial)",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Mienshao; cambiar a Gengar, luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+  "tricks": []
 }

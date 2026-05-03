@@ -5,17 +5,21 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Ditto se queda, usa Teletransporte.",
+      "detail": "Si Ditto se queda, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si se sigue quedando, entra con Poliwrath, usa Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad. Usa Puño Drenaje contra Magmortar.",
+          "detail": "Si aún se queda, entra con Poliwrath, usa Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad. Usa Puño Drenaje contra Magmortar.",
           "variant": []
         },
         {
-          "detail": "Si sale Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Sacrifica a Politoed, entra con Poliwrath y usa Ataque X. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+          "detail": "Si sale Crobat, sigue la ruta indicada abajo.",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Si sale Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Luego sacrifica a Politoed, entra con Poliwrath y usa Ataque X. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+      "variant": []
     }
   ]
 }

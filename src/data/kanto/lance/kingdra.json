@@ -2,18 +2,6 @@
   "id": "kingdra",
   "name": "Kingdra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Infernape.",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y mantenlo en campo. Usa Bostezo frente a Dragonite."
-        },
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    }
-  ]
+  "initialMove": "Trampa Rocas frente a Infernape, cambia a Slowbro (Mantenerlo), Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
+  "tricks": []
 }

@@ -2,23 +2,6 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Pantalla luz 💡",
-  "tricks": [
-    {
-      "detail": "Samurott → Gengar Cambia a Gallade para matar a Tyranitar (mira abajo para seguir)",
-      "variant": [
-        {
-          "detail": "Sale Chandelure/Mismagius → Chansey Pantalla luz. Frente a Samurott Gengar otra Vez +4 +2 (si sale bisharp usa contador con chansey)"
-        },
-        {
-          "detail": "Serperior ➜ Jirachi Otra Vez, Chandelure +2 +2 (jirachi full vida)",
-          "variant": [
-            {
-              "detail": "si serperior mata a jirachi de un critico ➜ chandelure mata a serpeior luego cambia a chansey amortiguador Gengar +4 +2"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "initialMove": "💡Usar Amortiguador frente a Samurott; entrar con Gengar +2 + 2 x1 precisión💡",
+  "tricks": []
 }

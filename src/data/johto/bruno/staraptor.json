@@ -2,41 +2,33 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro + revisar objeto",
+  "initialMove": "Cambia a Slowbro y revisa qué objeto tiene.",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y revisa si Staraptor tiene Vidasfera.",
+      "detail": "Si tiene Vidasfera, usa Bostezo.",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera, usa Bostezo.",
+          "detail": "Si Staraptor se queda, usa Teletransporte hacia Chansey, coloca Trampa Rocas y vuelve a usar Teletransporte hacia Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X. Heracross tiene Banda Focus.",
           "variant": []
         },
         {
-          "detail": "Si se queda, usa Teletransporte hacia Chansey, coloca Trampa Rocas y vuelve con Teletransporte hacia Gengar. Usa Otra Vez, Maquinación hasta +2 y Precisión X. 🔔 Heracross tiene Banda Focus. 🔔",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Heracross, usa Protección, cambia a Chansey y espera a Steelix. Coloca Trampa Rocas y mantén Amortiguador hasta que vuelva a cambiar.",
-          "variant": []
-        },
-        {
-          "detail": "Si Heracross se queda, continúa usando Amortiguador.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Staraptor o Machamp, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
-          "variant": []
+          "detail": "Si sale Heracross, usa Protección, cambia a Chansey y espera a Steelix. Coloca Trampa Rocas y mantén Amortiguador hasta que el rival cambie.",
+          "variant": [
+            {
+              "detail": "Si vuelve Heracross, continúa usando Amortiguador.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Staraptor o Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si Staraptor no tiene Vidasfera:",
-      "variant": [
-        {
-          "detail": "Slowbro usa Bostezo. Cuando salga Lucario, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS de Volcarona por encima del 17%.",
-          "variant": []
-        }
-      ]
+      "detail": "Si no tiene Vidasfera, Slowbro usa Bostezo. Cuando salga Lucario, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. Mantén los PS por encima del 17%.",
+      "variant": []
     }
   ]
 }

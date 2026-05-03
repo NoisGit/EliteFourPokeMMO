@@ -2,103 +2,114 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambia a Gengar 💡",
+  "initialMove": "👻Cambia a Gengar y usa Otra Vez👻",
   "tricks": [
     {
-      "detail": "Conkeldurr Llamasfera Puño Drenaje ➜ Cambia a Gengar Otra Vez, Bola Sombra frente a Seismitoad; cambia a Chansey Trampa rocas ➜ Gengar Otra Vez +2 +2 (usar Defensa X)",
+      "detail": "A bocajarro + Llamasfera ➜ Gengar +4 y Bola Sombra 🔔(Ver quien entra)🔔",
+      "variant": [
+        {
+          "detail": "Skarmory ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Haxorus; Gengar +4 🔔(Bola Sombra a todo)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Sawk ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Krookodile; Gengar 4+2 🔔(Bola Sombra a todo)🔔",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "A bocajarro + Vidasfera --> Gengar +4 🔔(Bola Sombra a todo)🔔",
       "variant": []
     },
     {
-      "detail": "Conkeldurr Llamasfera A Bocajarro ➜ Gengar Otra Vez, Maquinación",
-      "variant": []
+      "detail": "Puño Drenaje + Llamasfera ➜ Cambiar a Chansey Frente a Seismitoad luego usar Encanto",
+      "variant": [
+        {
+          "detail": "Conkeldurr ➜ Usar Encanto otra vez hasta que salga Aggron luego poner 🪨Trampa Rocas🪨",
+          "variant": [
+            {
+              "detail": "Conkeldurr ➜ Gengar usa otra vez y cambia a Volcarona frente a Seismitoad, 💊Volcarona +1 + Especial X💊",
+              "variant": []
+            },
+            {
+              "detail": "Dusknoir ➜ Sacrifica a Politoed, entrar con Poliwrath +6",
+              "variant": []
+            }  
+          ]  
+        },
+        {  
+          "detail": "Aggron ➜ Poner Trampas frente a Conkeldurr, Gengar Otra vez y cambia a Volcarona frente a Seismitoad, 💊Volcarona +1 + Especial X💊",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Krookodile ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, Dragonite x3 danza dragon",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Cambia a Chansey Trampa roca, cambia a Gengar Otra Vez +4 no velo",
-      "variant": []
-    },
-    {
-      "detail": "Se queda ) ➜ Matalo r",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Cambia a Chansey Trampa rocas, cambia a Gengar Otra Vez +4 No velo",
-      "variant": []
-    },
-    {
-      "detail": "Krookodile ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, si vez que es lento matalo",
-      "variant": []
-    },
-    {
-      "detail": "Gyarados ➜ Cambia a Chansey Trampa rocas, quedate y usa Contador; frente a luxray o algun mov tipo lucha cambia a Gengar Otra Vez +2 +0; si el gato se bloquea solo, no usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Sawk ➜ Cambia a Chansey Trampa rocas; Frente a Luxray Gengar Otra Vez +2 +0; si el gato se bloquea solo, no usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Skarmory ➜ Cambia a Chansey Trampa rocas, cambia a Gengar Otra Vez +4 +0",
-      "variant": []
-    },
-    {
-      "detail": "Lucario Vida Esfera A Bocajarro ➜ Gengar Otra Vez, Maquinación",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Dragonite Otra Vez, x4 danza dragon",
-      "variant": []
-    },
-    {
-      "detail": "Golurk ➜ Cambia a Chansey Trampa rocas Gengar Otra Vez +4 +0",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ Cambia a Chansey, cambia a Gengar Otra Vez +2 +0; presionar a Metagross, Dragonite Otra Vez, x4 Danza Dragon",
-      "variant": []
-    },
-    {
-      "detail": "Se Queda ➜ +4 +0 presionar; (Banda Focus Mienshao)",
-      "variant": []
-    },
-    {
-      "detail": "Puño Drenaje (sin quemadura) ➜ Otra Vez, Bola Sombra",
-      "variant": []
-    },
-    {
-      "detail": "Skarmory con Restos ➜ Gengar +6 +0 presionar",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Cambia a Chansey Pantalla de Luz; Gengar Otra Vez +6 +0; frente a Crawdaunt No usar Otra Vez (tiene pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Cambia a Chansey Amortiguador",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Gengar +4 +0, (pañuelo elegido)",
-      "variant": []
-    },
-    {
-      "detail": "Toxicroak / Conkeldurr ➜ Gengar Otra Vez +4 +2; (frente a Toxicroak Gengar Otra Vez +4; frente a Bisharp",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar ➜ Cambia a Chansey Contador para debilitar; frente a Breloom cambia a Gengar Otra Vez +4 +0; presionar hacia Dusknoir; cambia a Chansey Amortiguador para curar vida al máximo frente a Skarmory; Otra Vez y curar hasta 65%+ HP; +4 +0 presionar con Rayo + Bola Sombra para debilitar a Magnezone. Dusknoir roba a Gengar +6 +0 hacia abajo; cuidado con la curación completa",
-      "variant": []
-    },
-    {
-      "detail": "Se queda y no tiene Restos ➜ +6 +2 debilitar; con este equipo debilitar a Skarmory; si Crawdaunt está en la posición 3 lleva Banda Focus, presionar directamente frente a otros",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt Banda Focus (SASH) ➜ Cambia a Chansey, cambia a Gengar Otra Vez +4 +2",
-      "variant": []
+      "detail": "Puño Drenaje + Sin Llamasfera ➜ Bola Sombra 🔔(Observa si tiene Restos)🔔",
+      "variant": [
+        {
+          "detail": "Si tiene Restos ➜ Gengar Otra vez +6",
+          "variant": []
+        },
+        {
+          "detail": "Sin Restos ➜ Maquinación, Otra Vez, cambiar a Slowbro 🔔(Observar si tiene Vidasfera)🔔",
+          "variant": [
+            {
+              "detail": "Tiene Vidasfera ➜ Bostezo",
+              "variant": [
+                {
+                  "detail": "Se queda/Electivire ➜ Sacrificar a Politoed, entrar con Poliwrath +6 🔔(Puño drenaje contra Electivire/Crawdaunt)🔔",
+                  "variant": []
+                },
+                {
+                  "detail": "Magnezone ➜ Protección y Bostezo, sacrifica a Politoed, entrar con Poliwrath +6",
+                  "variant": []
+                },
+                {
+                   "detail": "Crawdaunt ➜ Sacrificar a Politoed, entrar con Poliwrath +6",
+                   "variant": []
+                }  
+              ]
+            },
+            {
+              "detail": "Sin Vidasfera ➜ Bostezo",
+              "variant": [
+                {
+                  "detail": "Magnezone ➜ Cambiar a Chansey y usar Encanto frente a Breloom, 💊cambia a Gengar +4 + Precisión X💊",
+                  "variant": [
+                    {
+                      "detail": "Si sale Conkeldurr ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed, entra con Poliwrath +6",
+                      "variant": []
+                    } 
+                  ]        
+                },
+                {
+                  "detail": "Breloom ➜ Protección y Bostezo frente a Magnezone, cambiar a Chansey y usar Amortiguador esperando a Conkeldurr, 💊Gengar +4 + Precisión X💊",
+                  "variant": []
+                }
+              ] 
+            }
+          ]  
+        },      
+        {
+          "detail": "Si sale Gyarados --> Verificar Intimidación",
+          "variant": [
+            {
+              "detail": "Con Intimidación ➜ Cambiar a Chansey y poner Trampas frente a Breloom, 💊Gengar +4 + Precisión X💊",
+              "variant": []
+            },
+            {
+              "detail": "Sin Intimidación ➜ Cambiar a Chansey y usar Amortiguador frente a Breloom, Slowbro usa Bostezo, sacrificar a Politoed, entrar con Poliwrath +6",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Machamp ➜ Cambiar a Slowbro y usar Bostezo frente a Electivire, sacrificar a Politoed, entrar con Poliwrath +6",
+          "variant": []   
+        }
+      ]
     }
   ]
 }
+
+

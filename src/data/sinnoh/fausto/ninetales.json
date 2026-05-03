@@ -2,24 +2,6 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨(aviso Houndoom Banda focus)",
-  "tricks": [
-    {
-      "detail": "Medichan ➜ Gengar +4 no velo (pañuelo elegido)",
-      "variant": [
-        {
-          "detail": "-",
-          "variant": []
-        },
-        {
-          "detail": "-",
-          "variant": []
-        }
-      ]
-    },    
-    {
-      "detail": "-",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Medicham; entrar con Gengar +4 (No usar Otra Vez)",
+  "tricks": []
 }

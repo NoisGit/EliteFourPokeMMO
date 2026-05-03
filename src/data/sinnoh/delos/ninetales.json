@@ -2,15 +2,40 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Gallade; Gengar +2",
   "tricks": [
     {
-      "detail": "Gallade ➜ Cambiar a Gengar➜ Jirachi Otra Vez ➜ Chandelure +2 +2  ",
+      "detail": "Si se queda --> Gengar +6 +2 + Precisión",
       "variant": []
     },
     {
-      "detail": "-",
+      "detail": "Dragonite 【Arriesgado】 --> Presionar directamente; Girafarig  usa Onda Certera; Gengar termina con Bola Sombra 【5% de probabilidad de que salga Absol】",
       "variant": []
+    },
+    {
+      "detail": "Sale Absol y Gengar es debilitado --> Volcarona +1; presionar filas traseras; informar quién queda",
+      "variant": []
+    },
+    {
+      "detail": "Dragonite 【Seguro】 --> Slowbro usa Bostezo",
+      "variant": []
+    },
+    {
+      "detail": "Ninetales --> Usar Protección y Bostezo; sacrificar a Politoed; Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Absol --> Sacrificar a Politoed; Poliwrath +6; observar la situación",
+      "variant": [
+        {
+          "detail": "Situación 1 Girafarig  vs. Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
+          "variant": []
+        },
+        {
+          "detail": "Situación 2 Ninetales vs. Girafarig (primer enfrentamiento) --> Presionar directamente; si no es golpe crítico no debilita; si es golpe crítico y cae, Gengar +2 para completar",
+          "variant": []
+        }
+      ]
     }
   ]
 }

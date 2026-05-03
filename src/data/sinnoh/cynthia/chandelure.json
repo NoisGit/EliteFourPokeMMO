@@ -2,15 +2,24 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨  te puedes quedar y hacer esto ➜ Pantalla Luz  Amortiguador ; forzar al enemigo a cambar ",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Garchomp ➜ Gallade +4 +2 (tiene pañuelo) ",
-      "variant": []
+      "detail": "Llamarada --> Usar Teletransporte",
+      "variant": [
+        {
+          "detail": "Si se queda --> Sacar a Gengar y usar Bola Sombra; cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 🔔(Cascada a Bronzong)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Garchomp --> Sacar a Gengar; luego cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6",
+          "variant": []
+        }  
+      ]  
     },
     {
-      "detail": "",
+      "detail": "Garchomp --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 🔔(Cascada a Bronzong)🔔",
       "variant": []
     }
   ]
-}
+}  

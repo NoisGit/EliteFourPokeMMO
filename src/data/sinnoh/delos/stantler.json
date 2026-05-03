@@ -2,27 +2,6 @@
   "id": "stantler",
   "name": "Stantler",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
-  "tricks": [
-    {
-      "detail": "Patada Salto  ➜ Cambiar a Gengar Rayo",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon ➜ Cambiar a Dragonite , cambiar a Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Espeon / Dragonite ➜ Jirachi Otra Vez ; Chandelure +2 +2; primero recibir el golpe especial ",
-      "variant": []
-    },
-    {
-      "detail": "Empoleon ➜ Empujar  a Raichu / Medicham; Chansey  Contador; Medicham y Dragonite ( Terremoto  a Raichu)",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Chandelure +2 +2 ;(pañuelo)",
-      "variant": []
-    }
-  ]
+  "initialMove": "🐸 Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 🐸",
+  "tricks": []
 }

@@ -5,40 +5,36 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo repetidamente hasta que salga Golem. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Golem, usa Encanto y Amortiguador hasta que salga Metagross. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo repetidamente hasta que salga Golem. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     },
     {
-      "detail": "Si Electivire se queda, cambia a Gengar y usa Maquinación hasta +4. Barre con Bola Sombra.",
+      "detail": "Si sale Golem, usa Encanto y Amortiguador. Cuando salga Metagross, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Si sale Salamence, sigue barriendo hasta que salga Aggron.",
+          "detail": "Si Machamp se queda, usa Maquinación hasta +4 y barre con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Si Gengar derrota a Aggron con crítico, termina de barrer.",
-          "variant": []
-        },
-        {
-          "detail": "Si Aggron derrota a Gengar y no activa Cuerpo Maldito, entra con Volcarona, derrota a Aggron y frente a Slowbro enemigo usa Danza Aleteo antes de atacar.",
-          "variant": []
-        },
-        {
-          "detail": "Si Aggron derrota a Gengar y se activa Cuerpo Maldito, entra con Volcarona y usa Danza Aleteo x1.",
-          "variant": []
+          "detail": "Si sale Salamence, usa Bola Sombra hasta que salga Aggron.",
+          "variant": [
+            {
+              "detail": "Si Gengar derrota a Aggron con un golpe crítico, termina de barrer.",
+              "variant": []
+            },
+            {
+              "detail": "Si Aggron derrota a Gengar y no activa Cuerpo Maldito, entra con Volcarona, derrota a Aggron y usa Danza Aleteo x1 frente al Slowbro rival.",
+              "variant": []
+            },
+            {
+              "detail": "Si Aggron derrota a Gengar y se activa Cuerpo Maldito, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

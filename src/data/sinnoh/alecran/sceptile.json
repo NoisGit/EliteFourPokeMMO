@@ -2,11 +2,7 @@
   "id": "sceptile",
   "name": "Sceptile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨",
-  "tricks": [
-    {
-      "detail": "SI USA ESFUERZO  ➜ No cambia  y usar Amortiguador entra Kingler ➜ Gengar Otra Vez +6 no velo  ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 luego usar Amortiguador al enfrentar a Kingler ➜ Slowbro usa Bostezo  al enfrentar a Sceptile ➜ entrar con Volcarona +1 🦋🔥",
+  "tricks": []
 }
+  

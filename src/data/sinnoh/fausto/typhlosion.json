@@ -2,15 +2,6 @@
   "id": "typhlosion",
   "name": "Typhlosion",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Medichan ➜ Cambiar a Gengar y matalo ",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Dragonite otra vez Danza x3",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 para que salga Medicham; usa a Slowbro con Bostezo para que salga Cacturne y entra con Volcarona +3",
+  "tricks": []
 }

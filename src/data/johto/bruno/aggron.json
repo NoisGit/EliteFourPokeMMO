@@ -5,17 +5,8 @@
   "initialMove": "❤️ Encanto ❤️",
   "tricks": [
     {
-      "detail": "Usa Encanto y toma una Max Poción.",
-      "variant": [
-        {
-          "detail": "Luego usa Amortiguador contra Machamp.",
-          "variant": []
-        },
-        {
-          "detail": "Cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
-          "variant": []
-        }
-      ]
+      "detail": "Toma una Max Poción, usa Amortiguador contra Machamp y luego cambia a Gengar. Usa Otra Vez y Maquinación hasta +4.",
+      "variant": []
     }
   ]
 }

@@ -2,29 +2,20 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si Lucario usa A Bocajarro.",
+      "detail": "A Bocajarro → Cambia a Slowbro y usa Bostezo frente Electivire, sacrifica a Politoed, entra Poliwrath +6 🚨(Si no Pusiste Trampa Rocas mira la solucion⬇️)🚨",
       "variant": [
         {
-          "detail": "Si usa A Bocajarro, cambia a Slowbro y usa Bostezo frente a Electivire. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "🚨 Si no logras colocar Trampa Rocas, usa la ruta de emergencia. 🚨"
-        },
-        {
-          "detail": "Ruta de emergencia: si mueres por crítico y no hay Trampa Rocas, entra con Gengar y usa Bola Sombra. Luego cambia a Slowbro y usa Bostezo para recuperar el control de la partida."
-        }
-      ]
+          "detail": "☠️Mueres por Critico y no hay Trampa Rocas☠️ → Gengar usa Bola sombra, luego cambia a Slowbro y usa Bostezo para recuper el control de la partida",
+          "variant": []
+        }   
+      ]    
     },
     {
-      "detail": "Si entra Arcanine, cambia a Slowbro y usa Bostezo frente a Ampharos o Hydreigon.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. 🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔"
-        }
-      ]
+      "detail": "Arcanine → Cambia a Slowbro y usa Bostezo frente a Ampharos/Hydreigon, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Steelix/Ampharos)🔔",
+      "variant": []
     }
   ]
 }

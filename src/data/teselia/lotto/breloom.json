@@ -2,30 +2,18 @@
   "id": "breloom",
   "name": "Breloom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Jirachi cambia a Gengar Otra vez (maquinacion)",
+  "initialMove": "💡Gengar Otra Vez +2 y Debilitar💡",
   "tricks": [
     {
-      "detail": "Breloom se queda ) ➜ matarlo ",
+      "detail": "Magnezone --> Cambiar a Chansey y usar 🪨Trampa Rocas🪨 frente a Conkeldurr; cambiar a Slowbro y usar Bostezo frente a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Magnezone ➜ Cambia a Chansey Trampa rocas Si usan algun ataque lucha cambia a Gengar  Otra Vez, cambia a Gallade; frente a Tyranitar matalo ; frente a Gyarados cambia a Chansey Amortiguador; algun ataque lucha  a Gengar Otra Vez +6 +0",
+      "detail": "Conkeldurr --> Cambiar a Slowbro, luego a Chansey y usar 🪨Trampa Rocas🪨 frente a Conkeldurr; Slowbro usa Bostezo frente a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Tyranitar ➜ Cambia a Chansey  Amortiguador, Trampa rocas , Amortiguador, Contador (magnezone tiene robustez y tiene la vaya que aumenta el ataque especial)" ,
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +6 +0",
-      "variant": []
-    },
-    {
-      "detail": "Maquinación  frente a Tyranitar  ➜ Chansey Trampa rocas , Contador  para debilitar; frente a Breloom o Conkeldurr, Gengar Otra Vez +6, Otra Vez Maquinaria , A Bocajarro , ver ramas para curar )",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Chansey Trampa rocas frente a quien sea  quedate , abrir Pantalla de Luz , Amortiguador",
+      "detail": "Gengar +2 y entra Conkeldurr --> Cambiar a Slowbro y usar Bostezo frente a Magnezone, luego usa Proteccion y Bostezo frente a Breloom, despues sacrifica a politoed y entra con Poliwrath +6",
       "variant": []
     }
   ]

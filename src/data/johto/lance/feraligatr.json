@@ -2,66 +2,23 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Feraligatr se queda, revisa el movimiento.",
-      "variant": [
-        {
-          "detail": "Cascada: cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Fuerza Bruta: usa Teletransporte para revisar. Si vuelve a usar Fuerza Bruta, Slowbro usa Bostezo frente a Ampharos. Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Otro movimiento: cambia a Poliwrath, luego a Slowbro y usa Bostezo frente a Ampharos. Después entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si Feraligatr se queda, revisa su movimiento. Si usa Cascada, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     },
     {
-      "detail": "Ruta con Scizor:",
-      "variant": [
-        {
-          "detail": "Usa Teletransporte y evalúa el daño.",
-          "variant": []
-        },
-        {
-          "detail": "Daño cercano al 60%: envía a Slowbro, usa Bostezo y luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Daño cercano al 90%: entra con Volcarona, usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona cae por crítico, usa la ruta de Slowbro con Bostezo y Poliwrath con Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Scizor, usa Teletransporte y evalúa el daño. Si el daño es bajo, sigue con Slowbro y Bostezo. Si el daño es alto, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+      "variant": []
     },
     {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
-        {
-          "detail": "Haxorus: cambia a Slowbro y usa Bostezo. Frente a Scizor, entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Dragonite: cambia a Slowbro y usa Bostezo. Contra Scizor usa la ruta de Poliwrath. Contra Flygon usa Protección y Bostezo antes de entrar con Poliwrath. Usa Puño Drenaje contra Steelix.",
-          "variant": []
-        },
-        {
-          "detail": "Lucario: cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad. Lucario no tiene objeto elegido.",
-          "variant": []
-        },
-        {
-          "detail": "Infernape: cambia a Slowbro y usa Bostezo frente a Electivire. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo. Frente a Flygon, usa Protección y Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Lucario, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": []
     }
   ]
 }

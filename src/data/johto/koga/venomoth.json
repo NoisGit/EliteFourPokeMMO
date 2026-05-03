@@ -2,17 +2,13 @@
   "id": "venomoth",
   "name": "Venomoth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🦋 Cambia a Volcarona 🦋",
+  "initialMove": "Cambia a Volcarona.",
   "tricks": [
     {
-      "detail": "Cambia a Volcarona. Si queda frente a Scizor, prepara el sweep.",
+      "detail": "Frente a Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": [
         {
-          "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si un crítico derrota a Volcarona, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si un golpe crítico deja fuera a Volcarona, entra Politoed como pivote y vuelve con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

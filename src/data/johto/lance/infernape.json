@@ -2,24 +2,6 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar + Trampa Rocas 👻",
-  "tricks": [
-    {
-      "detail": "Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite.",
-      "variant": [
-        {
-          "detail": "Coloca Trampa Rocas frente a Infernape.",
-          "variant": []
-        },
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Luego entra con Poliwrath usando la ruta de Politoed y Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨 frente a Infernape. Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+  "tricks": []
 }

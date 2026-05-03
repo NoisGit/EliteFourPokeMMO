@@ -2,11 +2,6 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨Trampas Rocas🪨 Frente a rhyperior Gallade Otra +4 +2 / Dragonite +3   ",
-  "tricks": [
-    {
-      "detail": " Danza Dragón x1 , si cambia a Steelix ➜ Cambia a Jirachi, cambia a Gallade Otra Vez  +2 +2; presiona de nuevo otra vez ; Steelix con Restos se cura a full y tiene robustez  ",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro al enfrentar a Rhyperior; usar Bostezo ; sacrificar a Politoed ; entrar con Poliwrath +6 🔔 Usar Puño Hielo contra Gengar 🔔",
+  "tricks": []
 }

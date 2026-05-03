@@ -2,18 +2,6 @@
   "id": "exeggutor",
   "name": "Exeggutor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Poliwrath y usa Teletransporte.",
-      "variant": [
-        {
-          "detail": "Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Ruta ahorro: usa Maquinación hasta +6 y Velocidad X para +2 Velocidad."
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Poliwrath, usa Teletransporte, 💊Gengar 2+2 + Precision X💊 💰(Si quieres ahorrar: Gengar 6+2)💰",
+  "tricks": []    
 }

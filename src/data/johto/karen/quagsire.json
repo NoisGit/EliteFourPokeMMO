@@ -2,29 +2,21 @@
   "id": "quagsire",
   "name": "Quagsire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Frente a Absol, entra con Volcarona, usa Danza Aleteo x2 y Gigadrenado.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si sale Absol, entra con Volcarona y usa Danza Aleteo x2. Volcarona aguanta Persecución de Absol; el límite extremo con crítico ronda el 50%.",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
-          "variant": []
-        },
-        {
-          "detail": "Si Rhyperior se queda, usa Bostezo y, frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gyarados, usa Bostezo, Protección y Bostezo otra vez. Frente a Leafeon, entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]

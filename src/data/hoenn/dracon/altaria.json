@@ -2,20 +2,6 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Lucario.",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar y usa Maquinación hasta +4.",
-          "variant": []
-        },
-        {
-          "detail": "Barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 frente a Lucario ➜ Gengar +4 ⚫ Bola Sombra a todo ⚫",
+  "tricks": []
 }

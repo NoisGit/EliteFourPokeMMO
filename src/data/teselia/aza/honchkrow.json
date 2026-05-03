@@ -2,29 +2,6 @@
   "id": "honchkrow",
   "name": "Honchkrow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 💡Gengar Otra Vez Cambia a Chandelure y matalo 💡 ",
-  "tricks": [
-    {
-      "detail": "Krokodile Usa Terremoto ➜ Dragonite +3 Danza (kroko Pañuelo)",
-      "variant": [
-        {
-          "detail": "Triturar ➜ chansey Amortiguador usa Contador",
-          "variant": []
-        },
-        {
-          "detail": "Bisharp ➜ Gengar Otra Vez +4 +2 ",
-          "variant": [
-            {
-              "detail": "Kingdra ➜  chansey contador",
-              "variant": []
-            },
-            {
-              "detail": "Krookodile ➜ Dragonite +3 Danza (tiene pañuelo)",
-              "variant": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "initialMove": " 💡Gengar usa Otra Vez  cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed , entrar con Poliwrath +6💡 ",
+  "tricks": []
 }

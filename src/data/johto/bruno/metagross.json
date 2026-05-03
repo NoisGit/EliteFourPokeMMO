@@ -5,42 +5,50 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
+      "detail": "Si Metagross se queda, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Darmanitan, tienes varias opciones.",
       "variant": [
         {
-          "detail": "Si Metagross se queda, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Ruta de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
           "variant": []
         },
         {
-          "detail": "Si sale Darmanitan, puedes elegir entre ahorro con Volcarona usando Danza Aleteo x3, ruta estable con Slowbro usando Bostezo y Poliwrath con Tambor hasta +6 Ataque, o ruta RNG sacrificando a Politoed y entrando directo con Poliwrath.",
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando vuelva Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Ruta arriesgada: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si sale Machamp, cambia a Gengar y revisa el ataque.",
+      "detail": "Si sale Hitmonchan, cambia a Slowbro y usa Bostezo. Cuando salga Metagross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Machamp, cambia a Gengar y revisa qué ataque usa.",
       "variant": [
         {
-          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si usa Puño Dinámico, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si usa Puño Drenaje, usa Otra Vez con Gengar. Luego cambia a Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+          "detail": "Si usa Puño Drenaje, Gengar usa Otra Vez. Luego pasa por Chansey; cuando salga Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Si sale Blaziken, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Krookodile o Staraptor, entra con Volcarona y usa Danza Aleteo x2.",
+      "variant": []
     }
   ]
 }

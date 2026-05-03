@@ -2,24 +2,24 @@
   "id": "muk",
   "name": "Muk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Encanto + Teletransporte",
+  "initialMove": "Encanto → Teletransporte",
   "tricks": [
     {
-      "detail": "Usa Encanto y luego Teletransporte para revisar la ruta.",
+      "detail": "Se queda → Slowbro, Bostezo",
       "variant": [
         {
-          "detail": "Si Muk se queda, entra con Slowbro y usa Bostezo."
+          "detail": "Rotom → Protección, Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si entra Rotom, usa Protección y luego Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra otro Pokémon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Gyarados, entra con Volcarona, luego cambia a Slowbro y usa Bostezo. Después continúa la ruta de sueño."
+          "detail": "Otro Pokemon → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Gyarados → Volcarona → Slowbro, bostezo → Continúa arriba ↑",
+      "variant": []
     }
   ]
 }

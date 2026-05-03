@@ -2,16 +2,6 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas. Luego usa Teletransporte o sacrifica a Politoed.",
-      "variant": [
-        {
-          "detail": "Entra con Gengar frente a Dragonite, usa Maquinación y barre al equipo con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego usa Teletransporte o entra Politoed como pivote. Entra con Gengar frente a Dragonite, usa Maquinación y barre con Bola Sombra.",
+  "tricks": []
 }

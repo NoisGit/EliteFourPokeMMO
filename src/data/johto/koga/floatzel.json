@@ -5,19 +5,16 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Si sale Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Luego entra Politoed como pivote, entra con Poliwrath 🐸🥊, usa Ataque X y ataca. Usa Puño Drenaje contra Magmortar. Frente a Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
       "variant": [
         {
-          "detail": "Si sale Crobat, cambia a Slowbro y usa Bostezo hasta que salga Magmortar. Sacrifica a Politoed, entra con Poliwrath, usa Ataque X y ataca. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si un crítico derrota a Volcarona, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+          "variant": [
+            {
+              "detail": "Si un golpe crítico deja fuera a Volcarona, entra Politoed como pivote y vuelve con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

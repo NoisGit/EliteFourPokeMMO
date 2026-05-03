@@ -5,78 +5,79 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Crobat se queda, observa qué ataque usa.",
+      "detail": "Si Crobat se queda, revisa qué ataque usa.",
       "variant": [
         {
           "detail": "Si usa Superdiente, cambia a Slowbro.",
-          "variant": []
+          "variant": [
+            {
+              "detail": "Si se queda, Slowbro usa Bostezo frente a Magmortar. Luego entra Politoed como pivote, entra con Poliwrath 🐸🥊, usa Ataque X y barre. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Rhyperior, Slowbro usa Bostezo y recibe Megacuerno. Luego usa Protección y Bostezo. Frente a Gengar o Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si después sale Magmortar, usa Bostezo, sacrifica a Politoed y entra con Poliwrath. Usa Ataque X y empieza a barrer. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
-          "variant": []
+          "detail": "Si usa Puya Nociva o Pájaro Osado, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si se queda, entra con Volcarona, usa Danza Aleteo x1 y Psíquico. Frente a Electrode, usa otra Danza Aleteo y termina de barrer.",
+              "variant": []
+            },
+            {
+              "detail": "Si Slowbro usa Bostezo frente a Zoroark, entra con Volcarona, usa Danza Aleteo x1 y Gigadrenado para derrotarlo. Frente a Electrode o Tentacruel, usa otra Danza Aleteo y termina de barrer. Si Volcarona retrocede, cambia a Chansey y cura a Volcarona.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si sale Rhyperior, Slowbro usa Bostezo y recibe Megacuerno. Luego usa Protección y Bostezo hasta quedar frente a Gengar o Lapras. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+          "detail": "Si revela que es Zoroark por Pulso Umbrío o Lanzallamas, usa Teletransporte para sacar a Volcarona. Usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si Crobat usa Puya Nociva o Pájaro Osado, cambia a Slowbro y usa Bostezo.",
+      "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Ariados, usa Encanto y Amortiguador para forzar el cambio.",
       "variant": [
         {
-          "detail": "Si el rival se queda, entra con Volcarona, usa Danza Aleteo x1 y Psíquico. Frente a Electrode, vuelve a usar Danza Aleteo y termina de barrer.",
+          "detail": "Si sale Rhyperior, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte hacia Poliwrath 🐸🥊, usa Tambor hasta +6 Ataque y Puño Drenaje. Frente a Sharpedo, usa Velocidad X y termina de barrer.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Tangrowth, sigue la solución de Tangrowth indicada abajo.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si Slowbro usa Bostezo frente a Zoroark, entra con Volcarona, usa Danza Aleteo x1 y Gigadrenado para derrotarlo.",
+      "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Revisa si Tangrowth acierta el ataque.",
       "variant": [
         {
-          "detail": "Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más y termina de barrer.",
+          "detail": "Si acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
           "variant": []
         },
         {
-          "detail": "Si Volcarona retrocede, cambia a Chansey, cura a Volcarona con Max Poción y repite la ruta.",
+          "detail": "Si falla, entra con Volcarona y usa Danza Aleteo x2.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte para sacar a Volcarona.",
+      "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": [
         {
-          "detail": "Volcarona usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más y termina de barrer.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
-        {
-          "detail": "Si sale Samurott, cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Ariados, usa Encanto y Amortiguador para forzar el cambio.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Rhyperior, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte hacia Poliwrath, usa Tambor hasta +6 Ataque y Puño Drenaje. Frente a Sharpedo, usa Velocidad X para +2 Velocidad y termina de barrer.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Observa si Tangrowth acierta: si acierta, usa Teletransporte hacia Volcarona; si falla, entra con Volcarona. En ambos casos, Volcarona usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Si Volcarona cae por crítico, entra con Poliwrath, sacrifica a Politoed y vuelve con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si Volcarona queda fuera, entra Politoed como pivote y vuelve a Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]

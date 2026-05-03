@@ -2,15 +2,6 @@
   "id": "rotom_fuego",
   "name": "Rotom Fuego",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Amortiguador/pantalla luz💡",
-  "tricks": [
-    {
-      "detail": "Infernape ➜ Amortiguador , Gengar +6 +2 ; (hacerlo mas rapido  +4 +2 ;  levitacion Bronzong / Cacturne )",
-      "variant": []
-    },
-    {
-      "detail": "hacerlo mas rapido  ➜ Cambia a Jirachi Otra Vez Infernape; Chandelure +2 +2 ;( Salud de Jirachi 95%+)",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Usar Amortiguador al enfrentar a Infernape  entrar con Gengar +4 +2 💡 Usar Bola Sombra  a todos si cambia a Bronzong  sacrificar a Politoed  entrar con Poliwrath +6",
+  "tricks": []
 }

@@ -5,26 +5,35 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Electivire se queda, revisa su objeto y si el golpe fue crítico.",
+      "detail": "Si Electivire se queda, revisa su objeto.",
       "variant": [
         {
-          "detail": "Si tiene Vidasfera y el golpe no fue crítico, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+          "detail": "Si tiene Vidasfera, revisa si el golpe fue crítico.",
+          "variant": [
+            {
+              "detail": "Si no fue crítico, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+              "variant": []
+            },
+            {
+              "detail": "Si fue crítico, toma una Max Poción. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si tiene Vidasfera y el golpe fue crítico, toma una Max Poción. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        },
-        {
-          "detail": "Si no tiene Vidasfera, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. No es necesario usar Otra Vez."
+          "detail": "Si no tiene Vidasfera, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. No es necesario usar Otra Vez.",
+          "variant": [
+            {
+              "detail": "Si sale Lucario, alterna Poliwrath y Gengar hasta dejar a Gengar seguro. Luego usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si sale Lucario durante la ruta de Gengar, alterna Poliwrath y Gengar para reposicionar.",
-      "variant": [
-        {
-          "detail": "Después entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X."
-        }
-      ]
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": []
     }
   ]
 }

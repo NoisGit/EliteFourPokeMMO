@@ -2,63 +2,21 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Dragonite no cambia, cambia a Slowbro y usa Bostezo.",
+      "detail": "Si Dragonite no cambia, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si sale Scizor, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si sale Scizor, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si sale Flygon, usa Protección y Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si sale Flygon, usa Protección y luego Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si sale Eelektross, usa Teletransporte o sacrifica a Politoed. Luego entra con Gengar, usa Maquinación y barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Ruta con Scizor y evaluación de daño:",
-      "variant": [
-        {
-          "detail": "Usa Teletransporte y revisa cuánto daño hace Scizor.",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño es cercano al 60%, envía a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño es cercano al 90%, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
-        {
-          "detail": "Si sale Tyranitar, entra con Poliwrath para derrotarlo. Después cambia a Chansey y usa Amortiguador. Espera a Metagross, usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Infernape, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Feraligatr, Chansey usa Encanto. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si sale Eelektross, usa Teletransporte o entra Politoed como pivote. Luego entra con Gengar, usa Maquinación y barre con Bola Sombra.",
           "variant": []
         }
       ]

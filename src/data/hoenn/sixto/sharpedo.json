@@ -2,20 +2,15 @@
   "id": "sharpedo",
   "name": "Sharpedo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas ,frente a Absol 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas frente a Absol y cambia a Gengar.",
-      "variant": [
-        {
-          "detail": "Ruta rápida: usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
-          "variant": []
-        },
-        {
-          "detail": "Ruta de ahorro: usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. Mantén Otra Vez cuando sea necesario hasta terminar de boostearte y barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
+      "detail": "Rápido --> Gengar, Otra Vez, +2 +2 + Precisión",
+      "variant": []
+    },
+    {
+      "detail": "Ahorrar dinero --> Gengar, Otra Vez, +6 +2; Bola Sombra a todos / Mantener Otra Vez hasta terminar de boostearte",
+      "variant": []
     }
   ]
 }

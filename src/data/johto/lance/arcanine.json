@@ -2,28 +2,24 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar + Trampa Rocas 👻",
+  "initialMove": "👻 Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Gengar usa Otra Vez. Luego cambia a Chansey y después a Dragonite para colocar Trampa Rocas.",
+      "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Scizor, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Mantén los PS de Volcarona por encima del 51%.",
       "variant": [
         {
-          "detail": "Si sale Arcanine, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Scizor, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Feraligatr, usa Encanto. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si Volcarona cae por un golpe crítico, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Si sale Feraligatr, usa Encanto. Luego Slowbro usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

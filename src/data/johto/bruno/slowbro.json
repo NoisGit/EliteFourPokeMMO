@@ -5,51 +5,47 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Si sale Hitmonlee, cambia a Gengar y usa Bola Sombra.",
       "variant": [
         {
-          "detail": "Si sale Hitmonlee, entra con Gengar y usa Bola Sombra. Si lo derrotas y sale Machamp, continúa con Bola Sombra; luego cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
+          "detail": "Si lo derrotas y sale Machamp, continúa usando Bola Sombra. Luego cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
           "variant": []
         },
         {
-          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
-          "variant": []
-        },
-        {
-          "detail": "Si Machamp se queda, usa Maquinación hasta +4 y derrota a todos con Bola Sombra.",
+          "detail": "Si sale Machamp, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Ruta con Salamence y Aggron:",
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
+        {
+          "detail": "Si Machamp se queda, usa Maquinación hasta +4 y barre con Bola Sombra.",
+          "variant": []
+        },
         {
           "detail": "Si sale Salamence, usa Bola Sombra hasta que salga Aggron.",
-          "variant": []
-        },
-        {
-          "detail": "Si Gengar derrota a Aggron con crítico, termina de barrer.",
-          "variant": []
-        },
-        {
-          "detail": "Si Aggron derrota a Gengar y no activa Cuerpo Maldito, entra con Volcarona, derrota a Aggron y frente al Slowbro rival usa Danza Aleteo x1.",
-          "variant": []
-        },
-        {
-          "detail": "Si Aggron derrota a Gengar y se activa Cuerpo Maldito, entra con Volcarona y usa Danza Aleteo x1.",
-          "variant": []
+          "variant": [
+            {
+              "detail": "Si Gengar derrota a Aggron con un golpe crítico, termina de derrotar al resto.",
+              "variant": []
+            },
+            {
+              "detail": "Si Aggron derrota a Gengar y no activa Cuerpo Maldito, entra con Volcarona, derrota a Aggron y usa Danza Aleteo x1 frente al Slowbro rival.",
+              "variant": []
+            },
+            {
+              "detail": "Si Aggron derrota a Gengar y se activa Cuerpo Maldito, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si sale Heracross, usa Amortiguador y luego Teletransporte hacia Gengar.",
-      "variant": [
-        {
-          "detail": "Gengar usa Otra Vez, Maquinación hasta +2 y Precisión X. Mantén Otra Vez de nuevo cuando sea necesario. 🔔 Heracross tiene Banda Focus. 🔔",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Heracross, usa Amortiguador y luego Teletransporte hacia Gengar. Gengar usa Otra Vez, Maquinación hasta +2 y Precisión X. Usa Otra Vez de nuevo cuando sea necesario; Heracross tiene Banda Focus.",
+      "variant": []
     }
   ]
 }

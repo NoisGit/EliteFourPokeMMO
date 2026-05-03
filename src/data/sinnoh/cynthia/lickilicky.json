@@ -2,22 +2,18 @@
   "id": "lickilicky",
   "name": "Lickilicky",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Garchomp ➜ Gallade +4 +2 ",
+      "detail": "Golpe Cuerpo --> Usar Teletransporte; entrar con Slowbro y usar Bostezo al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6 🔔usar Cascada contra Bronzong🔔",
       "variant": []
     },
     {
-      "detail": "Quedarse  ➜ Gengar +6 +2 ; NO usar Otra Vez",
+      "detail": "Slowbro contra Garchomp --> Usar Protección y Bostezo al enfrentar a Chandelure",
       "variant": []
     },
     {
-      "detail": "Umbreon ➜ Chansey abrir Pantalla Luz ; Amortiguador ; frente a Garchomp Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Gallade +4 +2 ; NO usar Otra Vez",
+      "detail": "Garchomp --> Cambiar a Slowbro y usar Bostezo al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6 🔔usar Cascada contra Bronzong🔔",
       "variant": []
     }
   ]

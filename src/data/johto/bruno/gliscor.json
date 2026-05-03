@@ -5,17 +5,8 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y prepara la ruta con Slowbro.",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo contra Metagross.",
-          "variant": []
-        },
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Cambia a Slowbro y usa Bostezo contra Metagross. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

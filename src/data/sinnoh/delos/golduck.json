@@ -2,18 +2,23 @@
   "id": "golduck",
   "name": "Golduck",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 Amortiguador ",
+  "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Tajo Cruzado ➜ Amortiguador ",
-      "variant": []
+      "detail": "Tajo Cruzado --> Cambiar a Gengar",
+      "variant": [
+        {
+          "detail": "Si se queda --> Entrar con Gengar +4/+2 y usar Bola Sombra a todos",
+          "variant": []
+        },
+        {
+          "detail": "Gallade / Roserade --> Entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra a todos",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Gallade ➜ Chandelure +2 +2 / Gengar +4 +2 NO usar Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Quedarse ➜ Cambiar a Gengar Otra Vez +4 +2 ",
+      "detail": "Gallade / Roserade --> Entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra a todos",
       "variant": []
     }
   ]

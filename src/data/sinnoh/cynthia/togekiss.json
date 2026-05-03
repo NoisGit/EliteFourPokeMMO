@@ -2,11 +2,6 @@
   "id": "togekiss",
   "name": "Togekiss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Jirachi💡",
-  "tricks": [
-    {
-      "detail": "Lucario ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    }
-  ]
+  "initialMove": " 🔄 Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed ➜ 🐸Poliwrath +6 🥊",
+  "tricks": []
 }

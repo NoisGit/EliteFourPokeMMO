@@ -2,28 +2,11 @@
   "id": "drifblim",
   "name": "Drifblim",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Amortiguador y Pantalla Luz",
+  "initialMove": "🥚Amortiguador🥚 esperar a Lucario, Gengar Otra Vez, cambiar a Slowbro  y usar Bostezo, frente a Jolteon, sacrifica a Politoed, Poliwrath +6🐸🥊",
   "tricks": [
     {
-      "detail": "Lucario ➜ Gengar Otra Vez ➜ Gallade Mira abajo",
+      "detail": "👾TESTEO👾 ➜ Cambiar a Slowbro, sacrifica a Politoed, Poliwrath +6🐸🥊",
       "variant": []
-    },
-    {
-      "detail": " Sale Umbreon ➜ Gallade Mata Umbreon ➜ chansey Pantalla Luz ➜ Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Sale Rotom Lavado ➜ Mata a Jolteon/chandelure ➜ Chansey Cambia a Jirachi Otra Vez ➜ Chandelure +2 +2",
-      "variant": [
-        {
-          "detail": ".",
-          "variant": []
-        },
-        {
-          "detail": "",
-          "variant": []
-        }
-      ]
-    }    
-  ]
+    }  
+  ]  
 }

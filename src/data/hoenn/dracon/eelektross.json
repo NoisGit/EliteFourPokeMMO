@@ -5,17 +5,12 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa el movimiento rival.",
-      "variant": [
-        {
-          "detail": "Si usa Puño Drenaje, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
-          "variant": []
-        },
-        {
-          "detail": "Si usa Fuerza Bruta, mantén Amortiguador y espera a Gallade. Frente a Gallade, cambia a Gengar, usa Otra Vez y Maquinación hasta +4. Gallade tiene Banda Focus.",
-          "variant": []
-        }
-      ]
+      "detail": "Puño Drenaje ➜ Gengar +4 +2 🔔Bola Sombra a todo🔔",
+      "variant": []
+    },
+    {
+      "detail": "Fuerza Bruta ➜ Amortiguador y esperar a Gallade ➜ Gengar +4 + Otra Vez",
+      "variant": []
     }
   ]
 }

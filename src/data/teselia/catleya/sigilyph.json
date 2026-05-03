@@ -2,27 +2,6 @@
   "id": "sigilyph",
   "name": "Sigilyph",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨 Trampa rocas frente a Mienshao ➜ cambia a Gengar , cambia a Gallade frente a Snorlax, usa espada santa  ",
-  "tricks": [
-    {
-      "detail": "Sigilyph ➜ Cambia a Jirachi Otra Vez, Chandelure +2 velo (no maquinacion)",
-      "variant": []
-    },
-    {
-      "detail": "Cinccino ➜ Cambia a Jirachi Protección, Otra Vez, Chandelure +2 (no subir ataque especial)",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Jirachi, usa Defensa X; frente a Xatu usa Otra Vez, Chandelure +2 en velocidad(no ataque especial) ; mantener y luego usar Protección",
-      "variant": []
-    },
-    {
-      "detail": "Metagross si tienes miedo que maten a jirachi ➜ Cambia a Chandelure para matalo ",
-      "variant": []
-    },
-    {
-      "detail": "Cinccino ➜ Cambia a Jirachi Otra Vez, Chandelure +2 velocidad (no ataque especial",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Mienshao; cambiar a Gengar, luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+  "tricks": []
 }

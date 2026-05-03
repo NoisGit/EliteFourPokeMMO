@@ -2,18 +2,6 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar +4 + Precisión X 👻",
-  "tricks": [
-    {
-      "detail": "Entra con Gengar, usa Maquinación hasta +4 y luego Precisión X.",
-      "variant": [
-        {
-          "detail": "No uses Otra Vez en esta ruta."
-        },
-        {
-          "detail": "Cuando Gengar esté listo, barre con la cobertura correspondiente."
-        }
-      ]
-    }
-  ]
+  "initialMove": "👻 Gengar usa Maquinación hasta +4 y Precisión X. No uses Otra Vez. 👻",
+  "tricks": []
 }

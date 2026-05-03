@@ -2,20 +2,6 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Absol y entra con Volcarona.",
-      "variant": [
-        {
-          "detail": "Volcarona usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Usa Gigadrenado contra Absol.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Absol. Luego entra con Volcarona, usa Danza Aleteo x2.",
+  "tricks": []
 }

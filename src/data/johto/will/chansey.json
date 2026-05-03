@@ -5,12 +5,8 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si entra Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        }
-      ]
+      "detail": "Si sale Electivire, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+      "variant": []
     }
   ]
 }

@@ -2,24 +2,11 @@
   "id": "weavile",
   "name": "Weavile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 Amortiguador + 🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa Amortiguador para recibir el golpe inicial. Luego usa 🪨 Trampa Rocas 🪨 frente a Excadrill. Después usa Teletransporte hacia Slowbro y usa Bostezo.",
   "tricks": [
     {
-      "detail": "Usa Amortiguador para recibir el golpe de hielo. Luego coloca Trampa Rocas frente a Excadrill.",
-      "variant": [
-        {
-          "detail": "Usa Teletransporte y envía a Slowbro para usar Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y barre hasta Houndoom. Luego usa Danza Aleteo una vez más y termina el combate.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 frente a Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
-          "variant": []
-        }
-      ]
+      "detail": "Si Weavile se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta Houndoom. Luego usa otra Danza Aleteo y termina de barrer.",
+      "variant": []
     }
   ]
 }

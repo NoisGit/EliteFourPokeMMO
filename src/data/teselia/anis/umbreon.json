@@ -2,102 +2,15 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Toxicroak ➜ Gengar Cambia a Chansey ↓",
-      "variant": [
-        {
-          "detail": "Dragonite ➜ Gengar Va entrar Toxicroak ➜ Gallade +2 +2",
-          "variant": [
-            {
-              "detail": "Gallade ➜ Danza Espada Si cambia a Dragonite ↓"
-            },
-            {
-              "detail": "Chansey Amortiguador ➜ Entra Bisharp ➜ Gallade Usa Espada Santa En Umbreon"
-            },
-            {
-              "detail": ""
-            }
-          ]
-        },
-        {
-          "detail": "Cambia a Gallade / si esta Dragonite ↓",
-          "variant": [
-            {
-              "detail": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Chansey Contador, Si entra Toxicroak Cambia a Gengar y Cambia a Gallade Mata a Umbreon Despues Cambia a Chansey Amortiguador va entrar Toxicroak Cambia a Gengar +2 (Toxi Pañuelo)",
-      "variant": [
-        {
-          "detail": "Dragonite Se Queda no usar danza espada con gallade ↓",
-          "variant": [
-            {
-              "detail": "Chansey Contador entra Toxicroak, Gengar +6 (Umbreon puede que aguante a Dragonite +5 o un Espada santa de Gallade)"
-            },
-            {
-              "detail": "Lucario ➜ Gengar Otra Vez ➜ Gallade ↓ (lucario solo tiene 8 pp en a bocajarro)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Va entrar Umbreon Matalo de Un Espada Santa ↓",
-      "variant": [
-        {
-          "detail": "Drifblim/Rotom/Chandelure ➜ Chansey Amortiguador",
-          "variant": [
-            {
-              "detail": "Chandelure ➜ Chansey Pantalla Luz (si chande se queda usa Amortiguador) ↓"
-            },
-            {
-              "detail": "Lucario ➜ Gengar Otra Vez +4 +2"
-            }
-          ]
-        },
-        {
-          "detail": "Rotom Lavador, Cambia a Chansey y después a Jirachi ↓",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Lucario ➜ Jirachi Encore Chandelure +2 +2",
-      "variant": [
-        {
-          "detail": "Jolteon ➜ Chansey usa Contador (matalo o Espera que cambie) ↓",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Drifblim/Rotom/Chandelure ➜ Chansey Cambia a Jirachi Otra Vez Chandelure +2 +2",
+      "detail": "Lucario --> Cambiar a Gengar y usar Otra Vez, cambiar a Slowbro y usar Bostezo, sacrificar a Politoed, entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Chandelure ➜ Chansey Pantalla Luz (Usa Amortiguador)",
-      "variant": [
-        {
-          "detail": "Lucario ➜ Gengar Cambia a Jirachi Otra Vez ➜ Chandelure +2 +2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "",
-      "variant": [
-        {
-          "detail": "",
-          "variant": []
-        }
-      ]
+      "detail": "Toxicroak --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
+      "variant": []
     }
   ]
 }
-  

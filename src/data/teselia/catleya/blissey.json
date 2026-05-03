@@ -2,23 +2,14 @@
   "id": "blissey",
   "name": "Blissey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Pantalla luz y Trampa Rocas",
+  "initialMove": "Cambiar a Slowbro frente a Absol y usar Bostezo frente a Nidoqueen; usar Teletransporte, entrar con Volcarona +1 🔔(Mira tu Situación)🔔",
   "tricks": [
     {
-      "detail": "ABSOL -> Cambiar a Gengar con Otra Vez -> luego cambiar a Jirachi",
+      "detail": "Si se queda --> Usar Psíquico para Debilitarlo, frente a Blissey usar Danza Aleteo dos veces y Barrer",
       "variant": []
     },
     {
-      "detail": "METAGROSS -> Dragonite con 3 danza dragon (No usar Otra Vez/está encerrado)",
-      "variant": [
-        {
-          "detail": "BLISSEY -> Chandelure +2 +2 (Si recibe Golpe Veneno curar veneno -> empujar hacia Togekiss)",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Nidoking -> Otra Vez entra Chandelure +2 +2",
+      "detail": "Blissey --> Usar Danza Aleteo dos veces y Barrer",
       "variant": []
     }
   ]

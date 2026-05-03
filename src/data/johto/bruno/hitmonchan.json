@@ -2,16 +2,11 @@
   "id": "hitmonchan",
   "name": "Hitmonchan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Slowbro + Bostezo",
+  "initialMove": "Cambia a Slowbro y usa Bostezo.",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Si sale Metagross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Metagross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

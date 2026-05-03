@@ -2,11 +2,6 @@
   "id": "forretress",
   "name": "Forretress",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Skuntank ➜ Cambia a Jirachi Otra Vez  , Chandelure +2 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡🪨Trampa Rocas🪨 al enfrentar a Skuntank ➜ sacrifica a Politoed ➜ cambiar de Volcarona a Gengar para que Skuntank use Autodestrucción al enfrentar a Durant ➜ Slowbro usa Bostezo y Teletransporte ➜ entra con Poliwrath +6 absorbiendo el golpe de Crustle y usar Velocidad X para presionar💡",
+  "tricks": []
 }

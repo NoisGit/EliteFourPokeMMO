@@ -2,30 +2,53 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas/Amortiguador ↓",
+  "initialMove": "👻Gengar usa Otra Vez👻, cambiar a Slowbro y luego cambiar a Chansey",
   "tricks": [
     {
-      "detail": "Fuerza Bruta ➜ Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➜ Amortiguador ➜ Cambia Gengar Otra Vez +4 +2 ➜ (mira abajo cuidado con el cuerpo maldito)",
+      "detail": "Gengar ➜ 🪨Trampa Rocas🪨 frente a Eelektross, Gengar usa Otra Vez, cambiar a Slowbro y usar Bostezo 🚨(Si se queda usando Onda Certera, cambia a Volcarona +2)🚨",
       "variant": [
         {
-          "detail": "Si Bisharp está primero en el enfrentamiento, usa Rayo contra Froslass",
+          "detail": "Chandelure ➜ Usar Protección y Bostezo frente a Gengar ➜ entrar con Volcarona +2 🔔(Psíquico a Gengar y Lanzallamas a Chandelure)🔔",
           "variant": []
         },
         {
-          "detail": "Si Bisharp está primero en el enfrentamiento, usa Bola Sombra contra Froslass.",
-          "variant": []
+          "detail": "Gengar ➜ Usar Protección ➜ cambia a Poliwrath, frente a Chandelure ➜ Volcarona +2 🔔(Psíquico a Gengar)🔔",
+          "variant": [
+            {
+              "detail": "🪨Trampa Rocas🪨, ante un Onda Certera inesperado mantenerse ➜ Gengar 2+2 + Precisión X 🔔No usar Otra Vez)🔔",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "",
+      "detail": "Chandelure ➜ 🪨Trampa Rocas🪨.",
       "variant": [
         {
-          "detail": "",
+          "detail": "Eelektross ➜ Gengar usa Otra Vez, cambiar a Slowbro",
+          "variant": [
+            {
+              "detail": "Si se queda ➜ Usar Bostezo",
+              "variant": [
+                {
+                  "detail": "Gengar ➜ Usar Protección ➜ cambiar a Poliwrath frente a Chandelure ➜ Volcarona +2 🔔(Psíquico a Gengar)🔔",
+                  "variant": []
+                },
+                {
+                  "detail": "Chandelure ➜ Usar Protección y Bostezo frente a Gengar ➜ Teletransporte ➜ Volcarona con +2 🔔(Psíquico a Gengar y Lanzallamas a Chandelure)🔔",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Dragonite ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Dragonite ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
           "variant": []
         }
       ]

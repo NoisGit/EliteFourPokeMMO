@@ -2,21 +2,25 @@
   "id": "rhyperior",
   "name": "Rhyperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué pasa después.",
+      "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote, entra con Poliwrath 🐸🥊 y usa Tambor hasta +6 Ataque. Usa Cascada contra Hypno.",
+      "variant": []
+    },
+    {
+      "detail": "Si usa Terremoto, usa Encanto, luego cambia a Slowbro y usa Bostezo. Frente a Gengar o Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Revisa si Tangrowth acierta el ataque.",
       "variant": [
         {
-          "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Hypno.",
+          "detail": "Si acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
           "variant": []
         },
         {
-          "detail": "Si Rhyperior usa Terremoto, usa Encanto. Luego cambia a Slowbro, usa Bostezo y espera quedar frente a Gengar o Lapras. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Observa si Tangrowth acierta: si acierta, usa Teletransporte hacia Volcarona; si falla, entra con Volcarona. En ambos casos, Volcarona usa Danza Aleteo x2.",
+          "detail": "Si falla, entra con Volcarona y usa Danza Aleteo x2.",
           "variant": []
         }
       ]

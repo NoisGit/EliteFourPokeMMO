@@ -2,20 +2,6 @@
   "id": "sceptile",
   "name": "Sceptile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Slowbro + Bostezo 💡",
-  "tricks": [
-    {
-      "detail": "Cambia a Slowbro frente a Feraligatr y usa Bostezo frente a Sceptile.",
-      "variant": [
-        {
-          "detail": "Luego entra con Volcarona, usa Danza Aleteo x2 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Mantén los PS de Volcarona por encima del 75%.",
-          "variant": []
-        }
-      ]
-    }
-  ]
-}
+  "initialMove": "💡 Cambiar a Slowbro frente a Feraligatr; Bostezo frente a Sceptile; Volcarona +2 +x especial 💡 PS por encima del 75%",
+  "tricks": []
+}   

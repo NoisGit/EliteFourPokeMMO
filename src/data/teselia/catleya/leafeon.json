@@ -2,21 +2,15 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "❤️Encanto y 🪨Trampa Rocas🪨 🔔(Si no cambia usar Amortiguador)🔔",
   "tricks": [
     {
-      "detail": "Cambia a Jirachi ➜ Otra vez (mira abajo)",
-      "variant": [
-        {
-          "detail": "Ataque tipo Lucha ➜ Gengar +4 +2",
-          "variant": [
-            {
-              "detail": "Ataque tipo Planta ➜ Dragonite (X Defensa + 2 Danza Dragón), curar con Máxima Poción",
-              "variant": []
-            }
-          ]
-        }
-      ]
+      "detail": "Alakazam --> Teletransporte, sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Entei / Metagross --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+      "variant": []
     }
   ]
 }

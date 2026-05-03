@@ -2,74 +2,49 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Haxorus ➜ Amortiguador, Gengar Otra Vez +4 +2 ",
+      "detail": "Honchkrow --> Gengar usa Otra Vez, entra Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entra Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Honchkrow ➜ Gengar +6 +2 ",
-      "variant": [
-        {
-          "detail": "Frente a Krookodile ➜ Cambiar a Chansey Contador / Frente a Honchkrow Gengar Otra Vez +4 0",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Garchomp ➜ Amortiguador para ver que ataque usa mira abajo ➜ ",
-      "variant": [
-        {
-          "detail": "Terremoto ➜ Dragonite Cambia a Jirachi Otra vez (usa terremoto Dragonite 2 Danza)(usa Ataque fuego chandelure +2 +2)",
-          "variant": []
-        },
-        {
-          "detail": "COLMILLO ÍGNEO ➜ Usar Contador entra Staraptor ➜ Gengar +4 x Defensa fisica (tiene pañuelo elegido y Spiritomb tiene cinta elegida)",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Samurot ➜ Cambia a Gengar Otra vez Cambiar a Gallade Mata a Tyranitar",
+      "detail": "Haxorus --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Frente a chandelure ➜ Chansey Pantalla luz",
+      "detail": "Scrafty --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Garchomp --> Teletransporte para Ver Movimiento",
       "variant": [
         {
-          "detail": "Frente a Bisharp ➜ Gengar Otra vez +2 +2 ",
+          "detail": "Terremoto --> sacar a Slowbro y usar Bostezo para ver si es Golpe Crítico",
           "variant": [
             {
-              "detail": "Frente a Bisharp ➜ Usar Contador para debilitar / Frente a Gran Espada (Bisharp) ➜ Fantasma Otra Vez +2 +2",
-              "variant": [
-                {
-                  "detail": "Contador frente a Chandelure ➜ Poner Pantalla Luz y Amortiguador para forzar cambio frente a Samurott",
-                  "variant": [
-                    {
-                      "detail": "Frente a Serperior ➜ Cambiar a Jirachi Otra Vez Fuego, Chandelure +2 +2 / Bisharp Vidasfera, Acua Jet, cuidado con los PS de Chandelure",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Frente a Mismagius ➜ Cambiar a Chansey Pantalla Luz / Frente a Samurott Gengar Otra Vez +4 +2 / Frente a Bisharp usar Contador una vez",
-                      "variant": []
-                    }
-                  ]
-                },
-                {
-                  "detail": "Frente a Scrafty ➜ chandelure +2 +2",
-                  "variant": []
-                },
-                {
-                  "detail": "Staraptor ➜ Gengar +4 xDefensa (no otra vez) (no velo)",
-                  "variant": []
-                }
-              ]
+              "detail": "Sin Critico --> Seguir con Bostezo frente a Chandelure, sacrificar a Politoed, entrar con Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Con Critico --> Sacrificar a Politoed, entrar con Poliwrath +6",
+              "variant": []
             }
           ]
+        },
+        {
+          "detail": "Colmillo Ígneo --> Seguir con Bostezo frente a Chandelure, sacrificar a Politoed, entrar con Poliwrath +6",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Staraptor --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Samurott --> 💊Gengar 2+2 + Precisión X💊",
+      "variant": []
     }
   ]
 }
-                

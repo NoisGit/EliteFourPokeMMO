@@ -2,16 +2,15 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Metagross, cambiar a Gengar Otra Vez +2",
   "tricks": [
     {
-      "detail": "Metagross Machada ➜ Cambia a Gengar Otra Vez +4 no velo ,( Frente a  Milotic y usa Defensa X; resistir el ataque de Agua, Maquinación y presionar",
-      "variant": [
-        {
-          "detail": "Nota 💡 Serperior ➜ Gigadrenado a   Gengar 53% hp",
-          "variant": []
-        }
-      ]
+      "detail": "Si se Queda ➜ 👻Gengar +6👻",
+      "variant": []
+    },
+    {
+      "detail": "Milotic / Bronzong ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊 🔔(Cascada a Bronzong)🔔",
+      "variant": []
     }
   ]
 }

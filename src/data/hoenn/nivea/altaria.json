@@ -2,20 +2,6 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Mienshao.",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar y usa Maquinación hasta +2.",
-          "variant": []
-        },
-        {
-          "detail": "Barre con Bola Sombra.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 frente a Mienshao ➜ Gengar +2 🔔(Barrer con Bola Sombra)🔔",
+  "tricks": []
 }

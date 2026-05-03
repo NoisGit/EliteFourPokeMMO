@@ -5,18 +5,8 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si entra Golurk.",
-      "variant": [
-        {
-          "detail": "Si entra Golurk, cambia a Gengar y usa Otra Vez."
-        },
-        {
-          "detail": "Usa Maquinación hasta +4 y Velocidad X para +2 Velocidad."
-        },
-        {
-          "detail": "Continúa atacando con Bola Sombra."
-        }
-      ]
+      "detail": "Si sale Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+      "variant": []
     }
   ]
 }

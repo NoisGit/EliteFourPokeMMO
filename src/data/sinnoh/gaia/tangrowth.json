@@ -2,15 +2,20 @@
   "id": "tangrowth",
   "name": "Tangrowth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Jirachi💡",
+  "initialMove": "💡 Cambiar a Slowbro💡",
   "tricks": [
     {
-      "detail": "Rhyperior ➜ Dragonite Otra Vez  cambia a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Bronzong / Tangrowth ➜ Chandelure +2 +0; resistir daño  fortalecer  sin amenaza ",
-      "variant": []
+      "detail": "Rhyperior --> Usar Bostezo y revisar si Megacuerno acierta",
+      "variant": [
+        {
+          "detail": "Acierta --> Usar Teletransporte  entrar con Volcarona , usar Especial X y presionar",
+          "variant": []
+        },
+        {
+          "detail": "Falla --> Cambiar a Volcarona , usar Especial X y presionar",
+          "variant": []
+        }
+      ]
     }
   ]
 }

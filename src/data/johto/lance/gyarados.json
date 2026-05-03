@@ -2,20 +2,6 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas y usa Teletransporte hacia Slowbro.",
-      "variant": [
-        {
-          "detail": "Slowbro usa Bostezo y luego Teletransporte hacia Gengar.",
-          "variant": []
-        },
-        {
-          "detail": "Gengar usa Maquinación y ataca para barrer.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego usa Teletransporte hacia Slowbro y usa Bostezo. Después usa Teletransporte hacia Gengar, usa Maquinación y ataca.",
+  "tricks": []
 }

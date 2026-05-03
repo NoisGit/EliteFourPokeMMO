@@ -5,22 +5,12 @@
   "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Opción ahorro:",
-      "variant": [
-        {
-          "detail": "Usa Amortiguador. Si sale Darmanitan, entra con Volcarona y usa Danza Aleteo x3.",
-          "variant": []
-        }
-      ]
+      "detail": "Ruta de ahorro: usa Amortiguador hasta que salga Darmanitan. Luego entra con Volcarona y usa Danza Aleteo x3.",
+      "variant": []
     },
     {
-      "detail": "Opción estable:",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

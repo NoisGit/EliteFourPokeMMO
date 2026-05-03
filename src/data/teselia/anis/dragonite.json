@@ -2,23 +2,14 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨:",
+  "initialMove": "🥚Amortiguador🥚",
   "tricks": [
     {
-      "detail": "Toxicroak ➜ Gengar Cambia a Chansey ➜ Gengar (Garra Dragón Umbreon) ↓",
-      "variant": [
-        {
-          "detail": "Toxicroak tiene Pañuelo ➜ Dragonite +4 Danza / Gallade +2 +2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Fuerza Bruta ➜ Cambia a Chandelure ➜ Jirachi Otra Vez ➜ Chandelure +2 +2 (Energibola Froslass / si muere Jirachi de un crítico mira abajo)",
+      "detail": "Fuerza Bruta ➡ 🪨TrampaRocas🪨 + Amortiguador frente a Eelektross, Gengar usa Otra Vez, cambiar a Slowbro frente a Dragonite, usar Bostezo, sacrifica a Politoed, Poliwrath +6 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
       "variant": []
     },
     {
-      "detail": "Dragonite ➜ Gengar contra Froslass/Lucario. Cambia a Chansey (Amortiguador) frente a Eelektross. Gengar Otra Vez +4 +2 frente a Bisharp (forzar cambio con Amortiguador)",
+      "detail": "Toxicroak ➡ Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, Poliwrath +6 🔔(Puño Drenaje a Bisharp)🔔",
       "variant": []
     }
   ]

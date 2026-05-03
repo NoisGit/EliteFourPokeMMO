@@ -2,46 +2,62 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨 🔔(Si se queda usa Amortiguador)🔔",
   "tricks": [
     {
-      "detail": "Bouffalant ➜ Chandelure +2 no velo ",
+      "detail": "Conkeldurr --> Entrar con Gengar +2",
+      "variant": [
+        {
+          "detail": "Si se queda --> 💊Gengar +4 + Precisión X💊",
+          "variant": []
+        },
+        {
+          "detail": "Salamence --> Atacar hasta debilitar al enfrentar a Steelix, sacrificar a Politoed, 💊entrar con Poliwrath + Ataque X💊 y presionar 🔔(Cascada contra Steelix/Conkeldurr y Puño Drenaje contra los demas)🔔 ",
+          "variant": []
+        },
+        {
+          "detail": "Ludicolo --> Cambiar a Slowbro  y usar Bostezo  sacrificar a Politoed  entrar con Poliwrath +6",
+          "variant": []
+        } 
+      ]  
+    },
+    {
+      "detail": "Cacturne --> Luego usar Trampa Rocas  para recibir Esfuerzo  usar Amortiguador ",
+      "variant": [
+        { 
+          "detail": "Lopunny/Medicham --> Cambiar a Slowbro  y usar Bostezo al enfrentar a Cacturne, entrar con Volcarona +3 🔔(Puedes usar Especial X y Gigadrenado a Steelix)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Magmortar --> Entrar con Gengar +2 y presionar hasta Steelix; cambiar a Slowbro y usar Bostezo  al enfrentar a Cacturne  entrar con Volcarona +3 🔔(Puedes usar Especial X y Gigadrenado a Steelix)🔔",
+          "variant": []
+        }
+      ]  
+    },
+    {
+      "detail": "Bouffalant --> Cambiar a Gengar y usar Maquinación, al enfrentar a Dragonite, atacar hasta debilitar",
+      "variant": [
+        {
+          "detail": "Magmortar --> Sacrificar a Politoed entrar con Poliwrath +6 🔔(Puño drenaje contra Magmortar)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Steelix --> Cambiar a Slowbro  y usar Bostezo  sacrificar a Politoed  entrar con Poliwrath +6 🔔(Puño drenaje contra Magmortar)🔔",
+          "variant": [
+            {
+              "detail": "🚨Arriesgado🚨 --> Sacrificar directamente a Politoed  entrar con Poliwrath +6",
+              "variant": []
+            }
+          ]  
+        }  
+      ]    
+    },
+    {
+      "detail": "Lopunny/Medicham --> Cambiar a Slowbro  y usar Bostezo al enfrentar a Cacturne ; entrar con Volcarona +3 🔔(Puedes usar Especial X y Gigadrenado a Steelix)🔔",
       "variant": []
     },
     {
-      "detail": "Maractus ➜ Jirachi Otra Vez  Chandelure +2 +2 ; (Banda Focus Cacturne ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar  Otra Vez  Maquinación ",
-      "variant": []
-    },
-    {
-      "detail": "Ludicolo / Salamence ➜ Presionar hasta Steelix; Dragonite Otra Vez inmediato Danza Dragón x2 ; Otra Vez atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Dragonite Otra Vez  Danza Dragón x2 ; Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Cambiar a Gengar Atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜ Cambiar a Dragonite Otra Vez Danza Dragón x3 ",
-      "variant": []
-    },
-    {
-      "detail": "Typhlosion ➜ Chandelure +2 +2  (Gafas Elegidas)",
-      "variant": []
-    },
-    {
-      "detail": "Camerupt ➜ contador ",
-      "variant": []
-    },
-    {
-      "detail": "Bouffalant ➜ Chandelure +2 no velo (cinta elegida",
+      "detail": "Camerupt --> Usar Amortiguador y esperar al cambio de Bouffalant; ver estrategia de Bouffalant☝️",
       "variant": []
     }
   ]

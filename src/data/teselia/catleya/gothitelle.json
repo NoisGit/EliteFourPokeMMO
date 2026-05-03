@@ -2,14 +2,10 @@
   "id": "gothitelle",
   "name": "Gothitelle",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Pantalla luz 💡 ",
+  "initialMove": "💡Usa Teletransporte para sacar a Volcarona💡",
   "tricks": [
     {
-      "detail": "𝙈𝙚𝙩𝙖𝙜𝙧𝙤𝙨𝙨 ➜ Gengar Otra Vez, cambia a Gallade para debilitar a Umbreon (va a salir Staraptor con Pañuelo Elegido)",
-      "variant": []
-    },
-    {
-      "detail": "𝙎𝙩𝙖𝙧𝙖𝙥𝙩𝙤𝙧 ➜ Gengar +4 no velo (Staraptor con Pañuelo Elegido)",
+      "detail": "Metagross ➜ Usa Lanzallamas, frente a Staraptor cambia a Gengar +6 + Precisión X (No usar Otra Vez) 🔔(Si Cambia a Milotic, saca a Chansey para atraer a Staraptor)🔔",
       "variant": []
     }
   ]

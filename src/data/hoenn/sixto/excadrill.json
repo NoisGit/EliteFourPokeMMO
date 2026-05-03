@@ -2,24 +2,19 @@
   "id": "excadrill",
   "name": "Excadrill",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si sale Mienshao, cambia a Gengar y usa Bola Sombra contra Mienshao. Frente a Mandibuzz o Spiritomb, entra con Volcarona y usa Danza Aleteo x2. Usa Gigadrenado contra Absol.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Absol, cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Absol no tiene Banda Focus.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Luxray, usa Amortiguador y espera quedar frente a Absol o Crawdaunt. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-          "variant": []
-        }
-      ]
+      "detail": "Mienshao ➜ entra con Gengar bola sombra a mienshao y frente a Mandibuzz / Spiritomb ➜ Volcarona x2 Danza aleteo 🔔gigadrenado para  Absol🔔",
+      "variant": []
+    },
+    {
+      "detail": "Absol ➜ Gengar, otra vez +2 + Precisión X 🔔No tiene banda focus🔔",
+      "variant": []
+    },
+    {
+      "detail": "Luxray ➜ Amortiguador y espera tener en frente a Absol o Crawdaunt y entra con Gengar Otra Vez +2 + Precisión X",
+      "variant": []
     }
   ]
 }

@@ -2,70 +2,80 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar + Otra Vez",
+  "initialMove": "Cambia a Gengar, Otra Vez → Slowbro",
   "tricks": [
     {
-      "detail": "Cambia a Gengar, usa Otra Vez y luego cambia a Slowbro para revisar la ruta.",
+      "detail": "Se queda → Bostezo",
       "variant": [
         {
-          "detail": "Si Electivire se queda, usa Bostezo. Si se vuelve a quedar, sacrifica a Politoed para recibir Voltio Cruel. Luego cambia a Chansey y coloca Trampa Rocas."
+          "detail": "Se queda → Politoed (sacrificar), recibe Voltio Cruel → Cambia a Chansey, trampa rocas",
+          "variant": [
+            {
+              "detail": "Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+              "variant": []
+            },
+            {
+              "detail": "Machamp → Gengar, Otra Vez → Cambia a Chansey, sale Staraptor → Gengar, Otra Vez, +2 + Precisión X",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si entra Staraptor, vuelve a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+          "detail": "Heracross → Protección, luego Bostezo, sale Salamence → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Si entra Machamp, usa Gengar con Otra Vez. Luego cambia a Chansey. Cuando salga Staraptor, vuelve a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
+          "detail": "Blastoise → Cambia a Chansey, amortiguador → Sale Hitmonlee, cambia a Gengar → Saca Slowbro, teletransporte → Volcarona +1",
+          "variant": []
+        },
+        {
+          "detail": "Steelix → Cambia a Chansey, amortiguador. Sale Machamp → Gengar, Otra Vez, +2 + Precisión X",
+          "variant": []
+        },
+        {
+          "detail": "Metagross → sigue su guía ↓↓↓",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Heracross, usa Protección y luego Bostezo.",
+      "detail": "Metagross → Bostezo",
       "variant": [
         {
-          "detail": "Cuando salga Salamence, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Blastoise, cambia a Chansey y usa Amortiguador.",
-      "variant": [
-        {
-          "detail": "Cuando salga Hitmonlee, cambia a Gengar. Luego saca a Slowbro, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Steelix, cambia a Chansey y usa Amortiguador.",
-      "variant": [
-        {
-          "detail": "Cuando salga Machamp, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        }
-      ]
-    },
-    {
-      "detail": "Si entra Metagross, sigue la ruta de Metagross.",
-      "variant": [
-        {
-          "detail": "Usa Bostezo. Si usa Hierba Lazo, cambia a Chansey y usa Amortiguador. Cuando salga Hitmonlee, cambia a Gengar y luego a Slowbro para usar Bostezo."
+          "detail": "Hierba Lazo → Cambia a Chansey, amortiguador. Sale Hitmonlee, cambia a Gengar luego a Slowbro, bostezo",
+          "variant": [
+            {
+              "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Blastoise → Volcarona +1",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si entra Electivire, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Blastoise, entra con Volcarona y usa Danza Aleteo x1."
-        },
-        {
-          "detail": "Si entra Heracross, usa Protección y luego Bostezo. Cuando salga Salamence, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Heracross → Protección, luego Bostezo, sale Salamence → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Rhyperior, usa Bostezo.",
+      "detail": "Blastoise → Cambia a Chansey, amortiguador. sale Hitmonlee → Gengar, luego a Slowbro, Bostezo",
       "variant": [
         {
-          "detail": "Cuando salga Heracross, usa Protección y luego Bostezo. Cuando salga Salamence, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Blastoise → Volcarona +1",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Rhyperior → Bostezo, sale Heracross → Protección, luego Bostezo, sale Salamence → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     }
   ]
 }

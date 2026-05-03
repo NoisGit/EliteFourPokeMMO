@@ -2,99 +2,155 @@
   "id": "metagross_6",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 ",
+  "initialMove": "🔔Identifica si Tiene Globo🔔",
   "tricks": [
     {
-      "detail": "Metagross con Globo Helio ➜ Abrir para ver ramas (Emolga / Entei con Banda Focus)",
-      "variant": []
+      "detail": "🎈Tiene  Globo Helio🎈 ➜ Trampa Rocas",
+      "variant": [
+        {
+          "detail": "Puño Meteoro ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Leafeon ➜ 💕Usar Encanto y Amortiguador; esperar a que el rival cambie💕",
+          "variant": [
+            {
+              "detail": "Alakazam ➜ Usa Teletransporte y saca a Slowbro luego usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+              "variant": []
+            },  
+            {
+              "detail": "Entei / Metagross ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+              "variant": []
+            } 
+          ]  
+        },
+        {
+          "detail": "Alakazam ➜ Teletransporte, sacar a Slowbro  Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Leafeon ➜ Chansey contador ; frente a Alakazam usar Jirachi Otra Vez",
-      "variant": []
-    },
-    {
-      "detail": "Bola Sombra ➜ Chansey Amortiguador; frente a Entei contador para debilitar a entei; frente a Empoleon Pantalla Luz, Dragonite usa (Defensa Especial X) x3 danza dragon",
-      "variant": []
-    },
-    {
-      "detail": "Onda Certera a Chansey➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Alakazam ➜ Pantalla Luz, cambiar a Jirachi; frente a Leafeon usar Otra Vez, cambiar a Dragonite; frente a Metagross cambiar a Jirachi y luego a Gallade Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Si no cambia ➜ Cambia a Jirachi y luego a Gallade Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Metagross con Vidaesfera  se queda ➜ [mira abajo que usa ]",
-      "variant": []
-    },
-    {
-      "detail": "Puño Meteoro ➜ Cambia a Jirachi y usa Protección",
-      "variant": []
-    },
-    {
-      "detail": "Cambio de Jirachi a Mienshao ➜ Cambia a Chansey , luego a Gengar Otra Vez +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto ➜ Jirachi Otra Vez, Gallade +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Machada➜ Cambia a Jirachi, luego a Gengar Otra Vez, cambia a Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Milotic ➜ Chansey Amortiguador",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Gengar Otra Vez 40, Rayo sin debilitar a Milotic (que tu vida no baje del 53% ), curar y atacar de nuevo",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Debilitar (kill)",
-      "variant": []
-    },
-    {
-      "detail": "Staraptor ➜ Gengar +4 no velo  (Staraptor p,elegido)",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Gengar Otra Vez +4 no velo ,sicambia  pones a Chansey  y usar Llave Giro",
-      "variant": []
-    },
-    {
-      "detail": "Mienshao ➜ Cambia a Gengar, usar Bola Sombra",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Cambia a Chansey Amortiguador; frente a Mienshao cambia a Chandelure (sacrificio); frente a Entei cambia a Chansey contador ; (frente a Musharna Amortiguador + Pantalla Luz), Chandelure +2 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Jolteon ➜ Cambia a Chansey  Pantalla Luz, Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Machada con Pañuelo Elegido  ➜ Cambia a Gengar, luego a Gallade para debilitar a Snorlax; cambia a Jirachi Otra Vez, Chandelure +2 velocidad no subir ataque especial",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Gengar Otra Vez, cambia a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Blissey ➜ Chandelure +2 +2 (No usar Otra Vez), Chandelure se boostea y corre a Togekiss para resistir daño tras el boost",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Gallade +4 +2 (No usar Otra Vez)",
-      "variant": []
-    }
-  ]
-}
+      "detail": "No tiene Globo Helio ➜ Trampa Rocas",
+      "variant": [
+        {
+          "detail": "Machada ➜ Ver objeto 🔔(Si falla, cambiar a Volcarona y Debilitarlo)🔔",
+          "variant": [
+            {
+              "detail": "Tiene Vidasfera ➜ Cambia a Volcarona y matalo",
+              "variant": [
+                 {
+                   "detail": "Milotic / Houndoom ➜ Sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Bronzong)🔔",
+                   "variant": []  
+                 },
+                 { 
+                   "detail": "Umbreon ➜ Cambia a Chansey para atraer a Staraptor", 
+                   "variant": [
+                     { 
+                       "detail": "Staraptor ➜ Cambia a Volcarona +3 🚨(Gigadenado y Lanzallamas contra Umbreon)🚨", 
+                       "variant": []  
+                     },      
+                     {  
+                       "detail": "Metagross ➜ Cambia a Volcarona frente a Staraptor, 💊despues cambia a Gengar +4 + Precision X💊", 
+                       "variant": [
+                         {  
+                           "detail": "Cambia a Milotic ➜ Cambia a Chansey para atraer a Staraptor, luego cambia a Volcarona +3 🚨(Gigadenado y Lanzallamas contra Umbreon)🚨", 
+                           "variant": [] 
+                         }
+                       ]
+                     } 
+                   ]
+                 },
+                 {   
+                   "detail": "Staraptor --> 💊Cambia a Gengar +4 + Precision X💊",
+                   "variant": [
+                      {   
+                        "detail": "Cambia a Milotic ➜ Cambia a Chansey para atraer a Staraptor, luego cambia a Volcarona +3 🚨(Gigadenado y Lanzallamas contra Umbreon)🚨",
+                        "variant": []
+                      }  
+                   ]
+                 }
+              ] 
+            },
+            {
+              "detail": "No tiene Vidasfera ➜ Cambiar a Slowbro Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+              "variant": []        
+            }
+          ]
+        },      
+        {
+          "detail": "Puño meteoro ➜ Observa si el ataque aumenta",
+          "variant": [
+            {
+              "detail": "⏫Ataque Aumenta⏫ ➜ Usa Teletransporte, saca a Slowbro Bostezo y usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
+              "variant": [] 
+            },
+            {
+               "detail": "🚫Ataque no Aumenta🚫 ➜ Cambia a Slowbro y usa Bostezo frente a Jolteon ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
+               "variant": [] 
+            }
+          ]
+        },      
+        {
+          "detail": "Mienshao ➜ Cambiar a Gengar y usar Bola sombra",
+          "variant": [
+            {
+              "detail": "Jolteon ➜ Cambiar a Chansey y usar Amortiguador ➜ Frente a Staraptor ➜ Slowbro usa bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
+              "variant": []
+            },  
+            {
+              "detail": "Umbreon / Entei ➜ Cambiar a Slowbro y usar Bostezo frente a Musharma ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Musharna / Ver quién entra segundo)🔔",
+              "variant": [
+                {
+                  "detail": "Entei ➜ 💊Primero usar max pocion y seguir Barriendo💊 🔔(Puño drenaje a Umbreon y Cascada a Metagross)🔔",
+                  "variant": []
+                },      
+                {
+                  "detail": "Otro Pokemon ➜ 🥊Usar Puño drenaje y Puño drenaje🥊",
+                  "variant": []
+                }
+              ]
+            } 
+          ]
+        },      
+        {
+          "detail": "Gallade ➜ 💊Cambiar a Gengar Otra Vez +4 + Precision X💊 🔔(Serperior no es amenaza)🔔",
+          "variant": []
+        },      
+        {
+          "detail": "Absol ➜ Cambiar a Slowbro y usar Bostezo Frente a Nidoqueen ➜ Teletransporte y sacar a Volcarona +1 🔔(Identifica tu Situacion)🔔",
+          "variant": [
+            {
+              "detail": "Si se queda ➜ Usar Psíquico ➜ frente a Blissey 💊tomar un Especial X y Seguir Barriendo💊",
+              "variant": []
+            },      
+            {  
+              "detail": "Blissey --> 💊Tomar un Especial X y Seguir Barriendo💊",
+              "variant": []
+            }
+          ]
+        }  
+      ]
+    }  
+  ]  
+}  
+
+
+
+
+
+
+
+
+
+
+              
+            
+
+
+
+
+
+
+
+              

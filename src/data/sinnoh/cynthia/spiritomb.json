@@ -2,15 +2,6 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar Jirachi💡",
-  "tricks": [
-    {
-      "detail": "Lucario ➜ Jirachi Otra Vez ; Chandelure +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Spiritomb Sombra Vil/ debilita a Chandelure ➜ Dragonite Danza Dragón x2",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡🐚Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6 🐸 💡",
+  "tricks": []
 }

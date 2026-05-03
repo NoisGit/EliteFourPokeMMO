@@ -2,44 +2,68 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa si Ninetales usa Llamarada.",
+      "detail": "🔥Llamarada🔥 → Usa Teletransportacion",
       "variant": [
         {
-          "detail": "Si usa Llamarada, usa Teletransporte. Si Ninetales se queda, cambia a Poliwrath y luego a Politoed. Deja que Politoed caiga y vuelve a Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si se queda → Cambia a Poliwrath luego a Politoed, deja que lo maten, luego entra Poliwrath +6",
+          "variant": [
+            {
+              "detail": "Poliwrath recibe Tiro Vital al azar → Slowbro usa Bostezo frente a Exeggutor, sacrificar a Poliwrath, Volcarona +1",
+              "variant": []
+            }
+          ] 
         },
         {
-          "detail": "Si Poliwrath recibe Tiro Vital al azar, usa Bostezo con Slowbro frente a Exeggutor. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1."
+          "detail": "Leafeon → Cambia a Volcarona +2",
+          "variant": []
         },
-        {
-          "detail": "Si entra Leafeon, cambia a Volcarona y usa Danza Aleteo x2."
-        },
-        {
-          "detail": "Si entra Charizard, cambia a Poliwrath y luego a Volcarona para usar Danza Aleteo x2."
-        }
-      ]
+        {  
+          "detail": "Charizard → Cambia a Poliwrath luego a Volcarona +2",
+          "variant": [] 
+        }  
+      ]   
     },
     {
-      "detail": "Si entra Machamp, elige la ruta según el cambio del rival.",
+      "detail": "Leafeon → Usa Teletransportacion",
       "variant": [
         {
-          "detail": "Ruta Slowbro: entra con Slowbro y usa Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x2."
-        },
+          "detail": "Si se queda → Saca a Volcarona +2",
+          "variant": []
+        },    
         {
-          "detail": "Ruta Gengar: cambia a Gengar y usa Maquinación hasta +2. No uses Otra Vez. Si Machamp se queda, sube con Maquinación hasta +6 y barre con Bola Sombra."
-        },
+          "detail": "Machamp → Saca a Slowbro y usa Bostezo frente a Magnezone, sacrifica a Poliwrath, entra Volcarona +2",
+          "variant": []
+        }  
+      ]  
+    },
+    {
+      "detail": "Machamp → Cambia a Gengar +2 🔔(No usar Otra Vez)🔔",
+      "variant": [
         {
-          "detail": "Si entra Charizard, presiona hasta Magnezone y usa Bola Sombra. Si Vaporeon recibe el golpe, usa Maquinación y sigue barriendo. 🚨 Si Gengar cae usando Maquinación, entra con Volcarona y usa Danza Aleteo x2. 🚨"
+          "detail": "Si se queda → Gengar +6 🔔(Barre con Bola sombra)🔔",
+          "variant": []
         },
-        {
-          "detail": "Si Gengar cae, entra con Volcarona y usa Psíquico frente a Machamp. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Si entra Vaporeon, cambia a Slowbro y usa Bostezo frente a Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x2."
-        }
-      ]
+        {    
+          "detail": "Cambia a Charizard → Pushea hasta Magnezone, usa Bola sombra",
+          "variant": [
+            {    
+              "detail": "Vaporeon recibe el golpe → Usa Maquinacion y sigue Barriendo 🚨(Si mueres usando Maquinacion, entra Volcarona +2)🚨",
+              "variant": []
+            },
+            {     
+              "detail": "Geangar Muere → Entra Volcarona y usa Psiquico frente a Machamp, sacrifica a Politoed y entra Poliwrath +6",
+              "variant": []
+            }
+          ]
+        },  
+        { 
+          "detail": "Cambia a Vaporeon → Cambia a Slowbro y usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra Volcarona +2",
+          "variant": []
+        }  
+      ]  
     }
   ]
 }

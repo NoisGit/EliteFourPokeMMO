@@ -1,23 +1,15 @@
 {
-    "id": "tyranitar",
-    "name": "Tyranitar",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "  💡 Usar Contador 💡 ",
-    "tricks": [
+  "id": "tyranitar",
+  "name": "Tyranitar",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "Mira Abajo Que Ruta Seguir",
+  "tricks": [
     {
-      "detail": "Breloom ➜ Cambia a Jirachi, cambia a Gengar , cambia a Jirachi",
+      "detail": "Ruta Segura ➜ Teletransporte, Slowbro usa Bostezo, sacrifica a Politoed, Poliwrath a +6🐸🥊",
       "variant": []
     },
     {
-      "detail": "Conkeldur  ➜ Trampa rocas ; Gallade resistir daño +2 +2 atacar ",
-      "variant": []
-    },
-    {
-      "detail": " Se queda ➜ Trampa rocas  Gengar  Otra Vez +6 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Cambia a Chansey, cambia a Gengar Otra Vez +6 no velo ",
+      "detail": "Ruta Arriesgada ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
       "variant": []
     }
   ]

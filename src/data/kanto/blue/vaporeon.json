@@ -2,18 +2,15 @@
   "id": "vaporeon",
   "name": "Vaporeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento o el cambio de Vaporeon.",
-      "variant": [
-        {
-          "detail": "Si usa Escaldar o entra Gyarados, usa Teletransporte y entra con Slowbro. Usa Bostezo, Protección y Bostezo para forzar la salida de Magnezone. Luego sacrifica a Poliwrath y entra con Volcarona para usar Danza Aleteo x1 y Especial X. 🔔 Usa Gigadrenado contra Alakazam. 🔔"
-        },
-        {
-          "detail": "Si entra Machamp, usa Teletransporte y entra con Slowbro. Usa Bostezo frente a Vaporeon, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Escaldar/Gyarados → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo, para forzar la salida de Magnezone, sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
+      "variant": [] 
+    },
+    {
+      "detail": "Machamp → Usa Teletransporte y saca a Slowbro, Bostezo frente a Vaporeon, sacrifica a Politoed, entra Poliwrath +6",
+      "variant": []
     }
   ]
 }

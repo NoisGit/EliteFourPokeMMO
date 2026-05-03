@@ -2,79 +2,50 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Racos🪨",
+  "initialMove": "🔔Ver habilidad🔔",
   "tricks": [
     {
-      "detail": "Sin Intimidación ",
-      "variant": []
+      "detail": "Intimidación ➜ Usar Trampa Rocas ➜ Frente a Conkeldurr Sacar a Gengar otra vez +2 🔔Mira abajo🔔",
+      "variant": [
+        {
+          "detail": "Conkeldurr Se queda ➜ Gengar otra vez +4 🔔 bola sombra a Todos🔔",
+          "variant": []
+        },
+        {
+          "detail": "Si Entra Salamence ➜ Matalo De un Bola sombra y Frente a Metagross ➜ Slowbro Bostezo y Sacrifica a Politoed entra Con  Poliwrath +6 🔔 Cascada a Metagross🔔",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Se queda ➜ Amortiguador ",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Gengar Rayo ; frente a Seismitoad cambia a Jirachi Otra Vez, cambia a Dragonite x2 danza dragon ",
-      "variant": []
-    },
-    {
-      "detail": "Gengar frente a Magnezone ➜ Cambia a Chansey Amortiguador ; frente a Conkeldur cambia a Gengar Otra Vez, Maquinación ; si cambia a Salamence, cambia a Jirachi Otra Vez, cambia a Chandelure +2 no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Si entra Salamance ➜ Dragonite x3 danza dragon ; (Salamance tiene pañuelo) ",
-      "variant": []
-    },
-    {
-      "detail": "Machamp ➜ Cambia a Jirachi, cambia a Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Dragonite, cambia a Chandelure, cambia a Dragonite Otra Vez, x2 danza dragon",
-      "variant": []
-    },
-    {
-      "detail": "Machamp ➜ Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Cambia a Jirachi, cambia a Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Salamence ➜ Cambia a Dragonite; (Tiene Pañuelo elegido) ",
-      "variant": []
-    },
-    {
-      "detail": " se encerro en Garra Dragón ➜ Cambia a Chansey Amortiguador ; Gengar Otra Vez +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "se Encerro en Terremoto ➜ x3 Danza Dragón ",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Dragonite, cambia a Chandelure, cambia a Dragonite Otra Vez, x3 Danza Dragón ",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Chandelure +2 +2; (Jugada de riesgo : Gengar +4 (No usar Otra Vez) / Gengar o Magnezone aleatorio)",
-      "variant": []
-    },
-    {
-      "detail": " Tiene Intimidación ",
-      "variant": []
-    },
-    {
-      "detail": "Golurk ➜ Gengar Otra Vez +4 No velo ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +4 no velo ",
-      "variant": []
+      "detail": "Sin Intimidación ➜ Usar Trampa Rocas",
+      "variant": [
+        {
+          "detail": "Colmillo Ígneo ➜ Cambiar a Slowbro y usar Bostezo y sacrifica a Politoed y entra con Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Machamp ➜ Cambiar a Gengar luego a Slowbro y usa Bostezo, sacrifica a Politoed y entra Poliwrath +6",
+          "variant": []
+        },
+        {
+          "detail": "Conkeldurr ➜ Cambia a Gengar y usa Otra Vez, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 ",
+          "variant": []
+        },
+        {
+          "detail": "Medicham ➜ Cambia a Slowbro y usa Bostezo",
+          "variant": [
+            {
+              "detail": "Magnezone ➜ Protección y Bostezo ➜ sacrifica a Politoed y entrar con Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Crawdaunt ➜ Sacrificar a Politoed y entrar con Poliwrath +6",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

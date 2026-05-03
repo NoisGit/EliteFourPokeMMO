@@ -5,39 +5,17 @@
   "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "Opción rápida:",
+      "detail": "Ruta rápida: Gengar usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. Usa Bola Sombra contra todo.",
       "variant": [
         {
-          "detail": "Cambia a Gengar, usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "detail": "Si Crobat hace golpe crítico, cambia a Slowbro, usa Bostezo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si Crobat pega crítico:",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Opción estable:",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar y usa Otra Vez.",
-          "variant": []
-        },
-        {
-          "detail": "Cambia a Slowbro y luego a Chansey para colocar Trampa Rocas.",
-          "variant": []
-        },
-        {
-          "detail": "Cuando salga Lucario, vuelve a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Ruta estable: Gengar usa Otra Vez. Luego cambia a Slowbro, cambia a Chansey y coloca Trampa Rocas. Cuando salga Lucario, Slowbro usa Bostezo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

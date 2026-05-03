@@ -2,38 +2,30 @@
   "id": "tentacruel",
   "name": "Tentacruel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Tentacruel se queda, revisa qué movimiento usa.",
+      "detail": "Si se queda, revisa qué movimiento usa.",
       "variant": [
         {
-          "detail": "Si usa Escaldar, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
+          "detail": "Si usa Escaldar, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote, entra con Poliwrath 🐸🥊 y usa Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
           "variant": []
         },
         {
-          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más para barrer.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona retrocede, cambia a Chansey, cura a Volcarona al máximo con Max Poción y repite la ruta.",
+          "detail": "Si usa Lanzallamas o Pulso Umbrío, revela que es Zoroark. Usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si sale Crobat, usa Teletransporte para ver el movimiento.",
+      "detail": "Si sale Crobat, usa Teletransporte para ver qué movimiento usa.",
       "variant": [
         {
-          "detail": "Si usa Veneno X o Puya Nociva, cambia a Slowbro y usa Bostezo. Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
+          "detail": "Si usa movimientos de Veneno, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory o Tentacruel.",
           "variant": []
         },
         {
-          "detail": "Si revela que es Zoroark por Lanzallamas o Pulso Umbrío, usa Teletransporte hacia Volcarona. Volcarona usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa Danza Aleteo una vez más para barrer.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona retrocede, cambia a Chansey, cura a Volcarona al máximo con Max Poción y repite la ruta.",
+          "detail": "Si usa Lanzallamas o Pulso Umbrío, revela que es Zoroark. Usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y Gigadrenado. Frente a Electrode o Tentacruel, usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         }
       ]

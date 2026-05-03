@@ -2,45 +2,15 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego cambia a Gengar y usa Otra Vez.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento o cambio rival.",
-      "variant": [
-        {
-          "detail": "Si usa Poder Oculto, cambia a Gengar y usa Otra Vez.",
-          "variant": []
-        },
-        {
-          "detail": "Si Lucario se queda, Gengar usa Otra Vez y Maquinación hasta +6. 🔔 Lucario tiene Banda Focus. Barre con Bola Sombra. 🔔",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Rapidash, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Spiritomb, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Si Spiritomb despierta, no es amenaza.",
-          "variant": []
-        },
-        {
-          "detail": "Si vuelve Lucario, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si Lucario se queda, Gengar usa Maquinación hasta +6, Velocidad X para +2 Velocidad y ataca con Bola Sombra.",
+      "variant": []
     },
     {
-      "detail": "Ruta con Salamence:",
-      "variant": [
-        {
-          "detail": "Cambia a Slowbro y mantén Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Spiritomb después de Bostezo y Protección, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Spiritomb despierto no es amenaza.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Salamence, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

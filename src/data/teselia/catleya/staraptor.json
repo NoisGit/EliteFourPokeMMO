@@ -2,51 +2,17 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Gengar💡",
- "tricks": [
+  "initialMove": "💡Ver habilidad💡",
+  "tricks": [
     {
-      "detail": "【Sin Intimidación】 ➜ Gengar  Otra Vez +4 +2",
+      "detail": "Intimidación --> Volcarona +3 🔔(Gigadrenado a Staraptor)🔔",
       "variant": []
     },
     {
-      "detail": "【Con Intimidación】 ➜ Frente a Umbreon, cambia a Chansey ; Gengar Otra Vez, cambia a Gallade para debilitar a Umbreon; cambia a Chansey Amortiguador; Gengar +4 no velo",
-      "variant": []
-    },
-    {
-      "detail": "Mantener ➜ ¿Ahorrar dinero? Usar medicina, Rayo para debilitar; Chandelure +2 +2 (priorizar velocidad)",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Cambia a Chansey, cambia a Gengar Otra Vez, cambia a Gallade mira abajo ",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Debilitar, cambia a Chansey  Amortiguador",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Gengar Otra Vez 4+ no velo ",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Cambia a Chansey (egg) Amortiguador (Igual que en otras ramas)",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Cambia a Chansey Amortiguador",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Gengar Otra Vez, cambia a Gallade",
-      "variant": []
-    },
-    {
-      "detail": "Umbreon ➜ Espada Santa para debilitar, cambia a Chansey Amortiguador",
-      "variant": []
-    },
-    {
-      "detail": "Metagross ➜ Gengar Otra Vez +4 no velo ",
+      "detail": "Sin Intimidación --> Gengar usa Otra Vez, cambiar a Slowbro y usar Bostezo al enfrentar a Jolteon; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
       "variant": []
     }
   ]
 }
+  
+

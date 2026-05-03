@@ -2,31 +2,37 @@
   "id": "dusknoir",
   "name": "Dusknoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Coloca Trampa Rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Frente a Aggron ➜ Cambia a Jirachi Protección ",
+      "detail": "Demolición ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸",
       "variant": []
     },
     {
-      "detail": "Recibir Patada  ➜ Chandelure +2  No velocidad",
-      "variant": []
+      "detail": "Aggron ➜ Cambiar a Poliwrath, y usa Puño Drenaje 🥊",
+      "variant": [
+        {
+          "detail": "Seismitoad/Skarmory --> Cambiar a Chansey y usar Amortiguador esperando a Conkeldurr, Gengar usa Otra Vez, cambiar a Volcarona frente a Seismitoad, Volcarona usa Expecial X 🔔(Si es crítico, ver nota de Seismitoad)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Conkeldurr ➜ Gengar usa Otra Vez, cambiar a Volcarona ante Seismitoad ➜ Volcarona Usa Expecial X 🔔(Si es crítico, ver nota de Seismitoad)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Dusknoir ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸",
+          "variant": []
+        }
+      ]  
     },
     {
-      "detail": "Frente a Seismitoad ➜ Cambia a Chansey Amortiguador; cambia a Gengar  Otra Vez, Bola Sombra frente a Seismitoad; cambia a Gallade Otra Vez +4  +2 (usar Defensa X)",
-      "variant": []
-    },
-    {
-      "detail": "se quedan  ➜ Cambia a Jirachi Otra Vez, Chandelure +2 +0 atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Breloom ➜ Cambia a Jirachi, cambia a Gengar Otra Vez, cambia a Gallade para debilitar a Tyranitar ",
-      "variant": []
-    },
-    {
-      "detail": "Gyarados ➜ Cambia a Chansey Amortiguador; cambia a Gengar  Otra Vez +6 +0; si entra  Conkeldurr, cambia a Chansey, cambia a Gengar Otra Vez +6 +0",
-      "variant": []
+      "detail": "Breloom ➜ Gengar +4 + Precisión X",
+      "variant": [
+        {
+          "detail": "Conkeldurr ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🐸",
+          "variant": []
+        }  
+      ]  
     }
   ]
 }

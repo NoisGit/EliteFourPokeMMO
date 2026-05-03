@@ -2,20 +2,6 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar + Slowbro 👻",
-  "tricks": [
-    {
-      "detail": "Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo.",
-      "variant": [
-        {
-          "detail": "Sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Cura la quemadura si ocurre antes de seguir barriendo.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "👻 Gengar usa Otra Vez. Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Cura la quemadura si corresponde.",
+  "tricks": []
 }

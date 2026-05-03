@@ -2,27 +2,6 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar Otra vez Luego a Jirachi Trampa rocas 🪨 ",
-  "tricks": [
-    {
-      "detail": "Salamence ➜ Cambia a Chandelure +2 +2; ( 💡 Salamence Pañuelo elegido 💡 ) ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ) ➜ Cambia a Chansey, cambia a Gengar Otra Vez +4 +2; si no puede recibir Velocidad X ; ataca hasta Salamence, y cambia a Dragonite Danza Dragón, y ataca ",
-      "variant": []
-    },
-    {
-      "detail": "si Jirachi recibe Puño Trueno ➜ Cambia a Chansey , cambia a Gengar Otra Vez +4 +2; si cambia hacia Crawdaunt entra chansey cambia a Gengar Otra Vez +4 +2 (💡Crawdaunt banda focus💡 )",
-      "variant": []
-    },
-    {
-      "detail": "Machamp ➜ Cambia a Gengar , Otra Vez frente a Salamence; cambia a Dragonite x3 Danza dragon ; mantener Gengar debilitar a Salamence (💡Pañuelo elegido 💡)",
-      "variant": []
-    },
-    {
-      "detail": "No cambia ➜ Gengar Otra Vez +4 +2; si no puede recibir Velocidad X; Ataca hasta Salamence, Dragonite danza dragon y ataca (💡 tiene pañuelo 💡)",
-      "variant": []
-    }
-  ]
-}
+  "initialMove": "💡Cambiar a Gengar, luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6💡",
+  "tricks": []
+}  

@@ -2,19 +2,24 @@
   "id": "amoonguss",
   "name": "Amoonguss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "💡Cambiar a Slowbro💡",
   "tricks": [
     {
-      "detail": "Durant ➜ Cambia a Jirachi Otra Vez , Chandelure +2 +2",
+      "detail": "Durant ➜ Bostezo , Protección vuelve a usar Bostezo ➜ frente a Rhyperior ➜ Teletransporte ➜ Poliwrath +6 🐸🥊(todos son lentos)",
       "variant": []
     },
     {
-      "detail": "Rhyperior ➜ Cambia a Jirachi, cambia a Gallade Otra Vez  +6 +2; ( Chansey  probabilidad de recibir golpe roca)",
-      "variant": []
-    },
-    {
-      "detail": "Sale  a Amoonguss ➜ Chandelure +2 +2",
-      "variant": []
+      "detail": "Rhyperior ➜ Usar Bostezo ",
+      "variant": [
+        {
+          "detail": "Si se queda ➜ Usar Teletransporte ➜ entrar con Volcarona +1  🔔usar Psíquico al enfrentar a Gengar🔔",
+          "variant": []
+        },
+        {
+          "detail": "Gengar ➜ Cambiar a Volcarona +1  🔔usar Psíquico al enfrentar a Gengar🔔",
+          "variant": []
+        }
+      ]
     }
   ]
 }

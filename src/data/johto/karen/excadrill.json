@@ -2,47 +2,45 @@
   "id": "excadrill",
   "name": "Excadrill",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Observa qué objeto tiene 💡",
+  "initialMove": "Revisa qué objeto tiene Excadrill.",
   "tricks": [
     {
-      "detail": "Si tiene Globo Helio:",
+      "detail": "Si tiene Globo Helio, usa Encanto. Luego usa Trampa Rocas. Si Excadrill se queda, usa Amortiguador. Frente a Tyranitar, cambia a Poliwrath 🐸🥊 para enfrentarlo.",
       "variant": [
         {
-          "detail": "Usa Encanto y coloca Trampa Rocas. Si Excadrill se queda, usa Amortiguador. Frente a Tyranitar, cambia a Poliwrath para derrotarlo.",
+          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
           "variant": []
         },
         {
-          "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Usa Psíquico contra Gyarados, barre hasta Houndoom e ignora la amenaza.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro. Si Victreebel se queda, usa Bostezo; luego cambia a Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si vuelve Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        },
-        {
-          "detail": "Si vuelve Excadrill, sigue usando Gigadrenado hasta derrotarlo.",
-          "variant": []
+          "detail": "Si sale Victreebel, cambia a Gengar y luego a Slowbro.",
+          "variant": [
+            {
+              "detail": "Si Victreebel se queda, usa Bostezo. Luego cambia a Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Si no tiene Globo Helio:",
+      "detail": "Si Excadrill se queda sin Globo Helio, sigue usando Gigadrenado hasta enfrentarlo.",
+      "variant": []
+    },
+    {
+      "detail": "Si no tiene Globo Helio, usa Encanto y Trampa Rocas. Mantén Amortiguador hasta que cambie.",
       "variant": [
         {
-          "detail": "Usa Encanto y coloca Trampa Rocas. Mantén Amortiguador hasta que el rival cambie.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Slowbro rival, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez cuando sea necesario.",
-          "variant": []
-        },
-        {
-          "detail": "Si Excadrill entra mientras intentas boostearte, cambia a Slowbro y luego a Chansey. Usa Encanto, vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Si sale Slowbro, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Mantén Otra Vez activo mientras haces el setup.",
+          "variant": [
+            {
+              "detail": "Si cambia a Excadrill mientras intentas boostearte, cambia a Slowbro, luego a Chansey y usa Encanto. Vuelve a Slowbro, usa Bostezo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

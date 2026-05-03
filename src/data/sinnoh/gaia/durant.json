@@ -2,34 +2,76 @@
   "id": "durant",
   "name": "Durant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar Cambia a Jirachi 💡",
+  "initialMove": "💡Gengar usa Otra Vez",
   "tricks": [
     {
-      "detail": "Hippowdon ➜ Gallade Otra Vez +2 +2; si cambia a Amoonguss , Chandelure +2 +2",
-      "variant": []
+      "detail": "Si se queda --> Bola Sombra",
+      "variant": [
+        {
+          "detail": "Se queda → Maquinación + Bola sombra para debilitar",
+          "variant": [
+            {
+              "detail": "Golem --> Cambiar a Chansey y usar Trampa Rocas si se queda; cambiar a Slowbro y usar Bostezo al enfrentar a Gengar; entrar con Volcarona +1 y usar Psíquico al enfrentar a Gengar",
+              "variant": []
+            },
+            {
+              "detail": "Si usa Maquinación y va hacia Hippowdon --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; Usa protección y vuelve a usar Bostezo, sale Rhyperior → Teletransporte a Poliwrath +6",
+              "variant": []
+            },
+            {
+              "detail": "Cloyster → Politoed (sacrificar), Poliwrath +6",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Hippowdon --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; Usa protección y vuelve a usar Bostezo, sale Amoonguss → Teletransporte a Poliwrath +6",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Rhyperior ➜Trampa tocas ; si cambia a  Amoonguss Chandelure +2 +2",
-      "variant": []
+      "detail": "Rhyperior --> Revisar objeto",
+      "variant": [
+        {
+          "detail": "Restos --> Chansey, trampa rocas. Sale Emboar → Gengar, otra vez, +2",
+          "variant": [
+            {
+              "detail": "Se queda → Gengar, +4 (bola sombra a todos)",
+              "variant": []
+            },
+            {
+              "detail": "Druddigon → Politoed (sacrificar), Poliwrath + Atk X y presiona. (Puño Drenaje a Cloyster, Puño H a Dragonite y los demas cascada)",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Sin Restos --> Cambia a Slowbro, Bostezo",
+          "variant": [
+            {
+              "detail": "Se queda → Teletransporte a Volcarona, +1. Usa Gigadrenado para vencer a Rhyperior, sale Hippowdon → Toma un SpAtk X, presiona hasta que salga Walrein/Dewgong. + 1 Danza Aleteo, termina",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Terremoto ➜ Gallade Otra Vez  +2 +2; (si puedes ir +6 es mejor asi matar a amoongus de un golpe)",
-      "variant": []
+      "detail": "Si cambia a Rhyperior al usar Otra Vez --> Cambiar a Chansey y usar Trampa Rocas, toma 1 Max Poción ; Usa Amortiguador y Encanto hasta que cambie",
+      "variant": [
+        {
+          "detail": "Durant (Arriesgado) --> Volcarona, +1. (Psiquico a Gengar)",
+          "variant": []
+        },
+        {
+          "detail": "Durant (Estable) → Slowbro, bostezo. Sale Gengar → Cambia a Volcarona +1",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "si cambia Amoonguss  ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Golpe Calor  ➜ Otra Vez inmediato  Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Druddigon ➜ Trampa rocas Gallade Otra Vez  +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Fuerza Bruta  ➜ Trammpa rocas Chandelure no x especial  +2; (Jirachi debilitado, Chansey  curar/tramprocas )",
+      "detail": "Druddigon --> Sacrificar a Politoed ; entrar con Poliwrath +6 y usar Puño Drenaje para absorber y mantener la línea de HP",
       "variant": []
     }
   ]

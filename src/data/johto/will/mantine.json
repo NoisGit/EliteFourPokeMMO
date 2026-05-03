@@ -2,21 +2,11 @@
   "id": "mantine",
   "name": "Mantine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨; si Mantine se queda, usa Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si Mantine se queda, usa Amortiguador para mantener a Chansey sana.",
-      "variant": [
-        {
-          "detail": "Si entra Girafarig, cambia a Gengar y usa Otra Vez."
-        },
-        {
-          "detail": "Luego cambia a Slowbro frente a Mantine y usa Bostezo frente a Magnezone."
-        },
-        {
-          "detail": "Deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Si sale Girafarig, Gengar usa Otra Vez. Luego cambia a Slowbro frente a Mantine, usa Bostezo frente a Magnezone, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

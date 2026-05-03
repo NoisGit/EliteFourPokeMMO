@@ -2,31 +2,6 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Amortiguador💡",
-  "tricks": [
-    {
-      "detail": "Gallade ➜ Gengar  Otra Vez (Encore) +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Cambiar a Gengar  Otra Vez ; cambiar a Gallade para debilitar a Kecleon",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Gengar Otra Vez  +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Gallade ➜ Cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Espada Santa  ➜ Chandelure +2 +2  / Gengar  +4 +2  NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Psicocorte  ➜ Cambiar a Chansey Amortiguador  frente a Gallade / Lucario; Gengar  Otra Vez  +4 +2  / Chandelure +2 +2 (frente a  Gallade  NO usar Otra Vez )",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 💡",
+  "tricks": []
 }

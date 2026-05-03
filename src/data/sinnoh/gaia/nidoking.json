@@ -2,15 +2,6 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 ",
-  "tricks": [
-    {
-      "detail": "Absol ➜ Amortiguador ➜ Gengar  Otra Vez +2 +2; Bola Sombra (bola sombra gengar)",
-      "variant": []
-    },
-    {
-      "detail": "Corre a Rhyperior ➜ Gallade Otra Vez  +4 +2",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Absol; cambiar a Slowbro y usar Bostezo; entrar con Volcarona (moth) +1 🔔 Usar Psíquico al enfrentar a Gengar 🔔",
+  "tricks": []
 }

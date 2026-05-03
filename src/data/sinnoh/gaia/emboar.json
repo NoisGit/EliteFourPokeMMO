@@ -2,27 +2,6 @@
   "id": "emboar",
   "name": "Emboar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar Otra vez y Ataca si cambia mira abajo 💡",
-  "tricks": [
-    {
-      "detail": "Rhyperior ➜ Cambia a Dragonite, cambia a Jirachi trampa rocas; Dragonite Otra Vez Danza Dragón x2, Atk +2",
-      "variant": []
-    },
-    {
-      "detail": "Gliscor ➜ Chandelure debilita",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior ➜ Gallade Otra Vez  +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Druddigon ➜ Gallade Otra Vez  +2 +2; (Druddigon usa Terremoto ",
-      "variant": []
-    },
-    {
-      "detail": "Druddigon ➜ Cambia a Jirachi Trampa rocas  cambia a Dragonite Otra Vez Danza Dragón x4",
-      "variant": []
-    }
-  ]
+  "initialMove": "💡 Sacrificar a Politoed, entrar con Slowbro  y usar Bostezo al enfrentar a Durant; usar Teletransporte  y entrar con Poliwrath +6 💡 Usar Cascada contra Rhyperior",
+  "tricks": []
 }

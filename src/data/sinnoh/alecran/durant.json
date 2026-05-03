@@ -2,14 +2,10 @@
   "id": "durant",
   "name": "Durant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡cambia a Chandelure y lanzallamas 💡",
+  "initialMove": "Cambia a Gengar y usa Maquinación luego Barre hasta que salga Drapion, entra Chansey y usa 🪨Trampa Rocas🪨, frente a Heracross cambia a Gengar Otra Vez +4 🔔(Barre con Bola sombra)🔔",
   "tricks": [
     {
-      "detail": "Drapion/Kabutops ➜ Cambia a Chansey Trampa rocas ",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt ➜  Gengar +2 no velo  ( frente a HERACROSS ➜ Usar Otra Vez  +2 no velo ",
+      "detail": "Gengar +2 y entra Gliscor --> Matalo con bolsa sombra luego cambiar a Chansey para atraer a otro pokemon",
       "variant": []
     }
   ]

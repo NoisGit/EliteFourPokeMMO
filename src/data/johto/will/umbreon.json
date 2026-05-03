@@ -5,18 +5,16 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si entra Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X."
-        },
-        {
-          "detail": "Si entra Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 🔔 Lucario tiene Banda Focus. 🔔"
-        },
-        {
-          "detail": "Si Umbreon se queda, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Si sale Golurk, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Lucario, cambia a Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Lucario tiene Banda Focus.",
+      "variant": []
+    },
+    {
+      "detail": "Si Umbreon se queda, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

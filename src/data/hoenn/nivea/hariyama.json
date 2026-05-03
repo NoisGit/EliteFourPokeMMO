@@ -2,33 +2,15 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐸 Opciones para resolver 🐸",
+  "initialMove": "🐸Opciones para Resolver🐸",
   "tricks": [
     {
-      "detail": "Ruta rápida: coloca Trampa Rocas y cambia a Gengar.",
-      "variant": [
-        {
-          "detail": "Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
-          "variant": []
-        },
-        {
-          "detail": "Barre con Bola Sombra. Si te quedas bloqueado, usa Onda Certera.",
-          "variant": []
-        }
-      ]
+      "detail": "Rápido --> Trampa Rocas; Gengar 4+2 + Precisión X; 🔔(Barrer con Bola Sombra; si se bloquea, usar Onda Certera)🔔",
+      "variant": []
     },
     {
-      "detail": "Ruta de ahorro: cambia a Slowbro, luego a Chansey y coloca Trampa Rocas.",
-      "variant": [
-        {
-          "detail": "Vuelve a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Usa Cascada contra Froslass.",
-          "variant": []
-        }
-      ]
+      "detail": "Ahorrar Dinero --> Cambiar a Slowbro, luego a Chansey y usar Trampa Rocas; Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6 🔔(Cascada a Froslass)🔔",
+      "variant": []
     }
   ]
 }

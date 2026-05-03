@@ -2,41 +2,28 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
+      "detail": "Si usa Terremoto, usa Encanto y Amortiguador. Espera a Scizor y usa Teletransporte para evaluar el daño.",
       "variant": [
         {
-          "detail": "Si usa Terremoto, usa Encanto y luego Amortiguador. Espera a Scizor y usa Teletransporte para evaluar el daño.",
+          "detail": "Si el daño es cercano al 60%, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si el daño de Scizor es cercano al 60%, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño de Scizor es cercano al 90%, entra con Volcarona, usa Danza Aleteo x1 y Especial X. Mantén los PS por encima del 51%.",
-          "variant": []
-        },
-        {
-          "detail": "Si Volcarona cae por crítico, cambia a Slowbro y usa Bostezo. Luego entra con Poliwrath usando Tambor hasta +6 Ataque.",
+          "detail": "Si el daño es cercano al 90%, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Mantén los PS por encima del 51%.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Rutas por cambio rival:",
-      "variant": [
-        {
-          "detail": "Si sale Lucario, cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Para ahorrar, puedes subir a Maquinación hasta +6 y Velocidad X para +2 Velocidad. Lucario no tiene objeto elegido.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo frente a Flygon. Luego usa Protección y Bostezo, y entra con Poliwrath usando Tambor hasta +6 Ataque.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Lucario, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo frente a Flygon. Luego usa Protección y Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

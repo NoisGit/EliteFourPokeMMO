@@ -2,18 +2,6 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Ampharos.",
-      "variant": [
-        {
-          "detail": "Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔"
-        }
-      ]
-    }
-  ]
+  "initialMove": "Trampa Rocas, cambia a Slowbro y usa Bostezo frente a Ampharos, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Steelix/Ampharos)🔔",
+  "tricks": []
 }

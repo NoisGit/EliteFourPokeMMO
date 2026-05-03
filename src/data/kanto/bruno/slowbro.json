@@ -2,50 +2,76 @@
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Trampa Rocas",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué hace el rival.",
+      "detail": "Puño Drenaje → Teletransporte",
       "variant": [
         {
-          "detail": "Si usa Puño Drenaje, usa Teletransporte. Si se queda, entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
-        },
-        {
-          "detail": "Si entra Hitmonchan, usa Teletransporte para recibir A Bocajarro. Luego entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez."
-        },
-        {
-          "detail": "Si entra Staraptor, cambia a Gengar y usa Otra Vez. Si eres más rápido, usa Maquinación hasta +4. Si eres más lento, usa Maquinación hasta +2 y Precisión X."
-        },
-        {
-          "detail": "Si entra Ursaring, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
+          "detail": "Se queda → Gengar +4 (no es necesario Otra Vez)",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez.",
+      "detail": "Entra Hitmonchan → Teletransporte (recibes A Bocajarro) → Gengar +4 (no es necesario Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Entra Staraptor → Gengar → Otra Vez",
       "variant": [
         {
-          "detail": "Si usa Puño Dinámico, cambia a Chansey. Cuando salga Muk, usa Amortiguador."
+          "detail": "Eres más rápido → Gengar +4 (no es necesario Otra Vez)",
+          "variant": []
         },
         {
-          "detail": "Si entra Staraptor, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
-        },
-        {
-          "detail": "Si entra Ursaring, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez cuando sea necesario."
-        },
-        {
-          "detail": "Si usa A Bocajarro o Puño Drenaje, cambia a Chansey. Si entra Staraptor, vuelve a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        },
-        {
-          "detail": "Si entra Salamence, cambia a Slowbro. Cuando salga Metagross, usa Bostezo. Cuando vuelva Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
-        },
-        {
-          "detail": "Si Machamp se queda, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X."
-        },
-        {
-          "detail": "Si entra Metagross, cambia a Slowbro y usa Bostezo. Cuando salga Salamence, usa Teletransporte hacia Volcarona y usa Danza Aleteo x1."
+          "detail": "Eres más lento → Gengar → Otra Vez → +2 + Precisión X",
+          "variant": []
         }
       ]
+    },
+    {
+      "detail": "Entra Ursaring → Gengar → Otra Vez → +4 +2 + Precisión X (mantener Otra Vez)",
+      "variant": []
+    },
+    {
+      "detail": "Entra Machamp → Cambiar a Gengar → Otra Vez",
+      "variant": [
+        {
+          "detail": "Puño Dinámico → Cambiar a Chansey → Sale Muk → Amortiguador",
+          "variant": [
+            {
+              "detail": "Entra Staraptor → Gengar +4 + Precisión X (no es necesario Otra Vez)",
+              "variant": []
+            },
+            {
+              "detail": "Entra Ursaring → Gengar → Otra Vez → +4 +2 + Precisión X (mantener Otra Vez)",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "A Bocajarro / Puño Drenaje → Cambiar a Chansey",
+          "variant": [
+            {
+              "detail": "Entra Staraptor → Gengar → Otra Vez → +2 + Precisión X",
+              "variant": []
+            },
+            {
+              "detail": "Entra Salamence → Cambiar a Slowbro → Sale Metagross → Bostezo → Sale Salamence → Teletransporte a Volcarona → +1",
+              "variant": []
+            },
+            {
+              "detail": "Machamp se queda → Gengar → Otra Vez → +2 + Precisión X",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Entra Metagross → Cambiar a Slowbro → Bostezo → Sale Salamence → Teletransporte a Volcarona → +1",
+      "variant": []
     }
   ]
 }

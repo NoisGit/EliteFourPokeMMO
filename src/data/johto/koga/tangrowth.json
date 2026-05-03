@@ -2,21 +2,17 @@
   "id": "tangrowth",
   "name": "Tangrowth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas, usa Teletransporte hacia Slowbro y luego Bostezo.",
+      "detail": "Usa Teletransporte hacia Slowbro y Bostezo. Revisa si Tangrowth acierta el ataque.",
       "variant": [
         {
-          "detail": "Observa si Tangrowth acierta su ataque.",
+          "detail": "Si acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
           "variant": []
         },
         {
-          "detail": "Si Tangrowth acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si Tangrowth falla, entra con Volcarona y usa Danza Aleteo x2.",
+          "detail": "Si falla, entra con Volcarona y usa Danza Aleteo x2.",
           "variant": []
         }
       ]

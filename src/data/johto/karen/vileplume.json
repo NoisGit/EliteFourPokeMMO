@@ -2,32 +2,24 @@
   "id": "vileplume",
   "name": "Vileplume",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué Pokémon entra después.",
+      "detail": "Si sale Honchkrow, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Excadrill, usa Teletransporte hacia Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si sale Honchkrow, Slowbro usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Excadrill, usa Teletransporte hacia Slowbro y usa Bostezo.",
-          "variant": []
-        },
-        {
-          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y barre hasta Houndoom. Luego usa Danza Aleteo una vez más y termina el combate.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Mismagius, entra con Volcarona, usa Danza Aleteo x1 frente a Houndoom, luego usa Danza Aleteo una vez más y termina el combate.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Gallade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si Excadrill se queda, usa Teletransporte hacia Volcarona, usa Danza Aleteo x1 y ataca hasta Houndoom. Luego usa otra Danza Aleteo y termina de barrer.",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Si sale Gallade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, entra Politoed como pivote y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

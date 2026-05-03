@@ -5,13 +5,8 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa si entra Machamp.",
-      "variant": [
-        {
-          "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
-          "variant": []
-        }
-      ]
+      "detail": "Si sale Machamp, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+      "variant": []
     }
   ]
 }

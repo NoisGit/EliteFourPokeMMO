@@ -2,78 +2,95 @@
   "id": "drapion",
   "name": "Drapion",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas 🪨",
+  "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Durant ➜ Gengar  +2; se bloquea solo (objeto elegido)",
+      "detail": "Si se queda ➜ Identificar movimiento",
+      "variant": [
+        {
+          "detail": "Triturar ➜ Revisar daño",
+          "variant": [
+            {
+              "detail": "15 - 18% (Crítico 33 - 40%) ➜ Usar Teletransporte",
+              "variant": [
+                {
+                  "detail": "Si se queda ➜ Enviar a Politoed y espera que lo debiliten ➜ entra con Poliwrath +6 🐸🥊",
+                  "variant": []
+                },
+                {
+                  "detail": "Flygon ➜ Slowbro usa Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+                  "variant": []
+                },
+                {
+                  "detail": "Kabutops ➜ Slowbro usa Bostezo al enfrentar a Flygon ➜ usar Protección y Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "19 - 23% (Crítico 43 - 51%) ➜ Chansey usa Encanto y Amortiguador esperando a Tyranitar ➜ sacrificar a Politoed ➜ entrar con Poliwrath y usa un Ataque X para Barrer 🔔(Cascada a Drapion y Puño Drenaje a Volcarona)🔔",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Puya Nociva ➜ Cambiar a Slowbro y usa Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Terremoto ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Scizor ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Kingler ➜ Slowbro usa Bostezo al enfrentar a Sceptile ➜ Volcarona +1",
       "variant": []
     },
     {
-      "detail": "Skuntank ➜ Jirachi Otra Vez , cambia a Chandelure +2 +2",
+      "detail": "Durant ➜ Entrar con Gengar +4 (No usar Otra Vez) 🔔(Barre con Bola Sombra)🔔",
       "variant": []
     },
     {
-      "detail": "Triturar  ➜ Amortiguador  frente a Tyranitar ,  usa contador ; Triturar se queda, Contador , ¿qué ver?",
+      "detail": "Escavalier ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 🐸🥊 fijo hasta llegar a Gastrodon",
       "variant": []
     },
     {
-      "detail": "Ferrothorn ➜ Cambia a Chandelure lanzallamas ferro; cambia a Jirachi Otra Vez inmediato bloquea en el ataque  tipo  Tierra , Dragonite x3 Danza Dragón ",
+      "detail": "Scyther ➜ Chansey usa Encanto y Amortiguador esperando a Escavalier ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊 fijo hasta llegar a Gastrodon",
       "variant": []
     },
     {
-      "detail": "Frente a Volcarona  ➜ Sacrifica  a Chandelure, cambia a Dragonite x1  Danza Dragón ; ataca ); Gastrodon sin Rayo Hielo, Gliscor usa 2 danza dragon ",
+      "detail": "Scizor ➜ Usar Amortiguador para identificar movimiento",
+      "variant": [
+        {
+          "detail": "Fuerza Bruta ➜ Slowbro usa Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
+          "variant": []
+        },
+        {
+          "detail": "Acrobata ➜ Usar Teletransporte ➜ enviar a Slowbro para usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Flygon ➜ Usar Teletransporte ➜ enviar a Slowbro y revisar daño",
+      "variant": [
+        {
+          "detail": "29.4 - 34.5% (Crítico 43.7 - 51.7%) ➜ Usar Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "36.5 - 44% (Crítico 54 - 65%) ➜ Usar Bostezo al enfrentar a Drapion ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Skuntank ➜ Sacrifica a Politoed ➜ cambiar a Volcarona luego a Gengar ➜ frente a Durant cambia a Slowbro y usa Bostezo luego Teletransporte ➜ entrar con Poliwrath +6 y usa Puño Drenaje ➜ 💊frente Crustle usar Velocidad X luego termina de Barrer💊",
       "variant": []
     },
     {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Terremoto  ➜ Gallade (rose) +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Llamarada  ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Amortiguador  continúa, se queda Triturar ➜ contador , Amortiguador frente a Tyranitar ; referirse a la ruta anterior",
-      "variant": []
-    },
-    {
-      "detail": "Kabutops ➜ Amortiguador, contador, Amortiguador, contador, muere kabutops",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez inmediato , Chandelure no ataque especial  +2 o  Gallade +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Puya Nociva ➜ Cambia a Jirachi frente a Flygon Otra Vez , Chandelure +2 +2; se queda Triturar , saca a Flygon, cambia a Dragonite, cambia a Jirachi Otra Vez, Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Jirachi frente a Kabutops ➜ Cambia a Chansey, cambia a Jirachi fortalecer de nuevo ",
-      "variant": []
-    },
-    {
-      "detail": "Kingler ➜ Gengar (ghost) Otra Vez (Encore) x60",
-      "variant": []
-    },
-    {
-      "detail": "Flygon ➜ Amortiguador  para ver el objeto mira abajo ",
-      "variant": []
-    },
-    {
-      "detail": "Vidasfera Terremoto  ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez , Chandelure +2 +2; Terremoto Gallade Otra Vez  +4 +2",
-      "variant": []
-    },
-    {
-      "detail": "Escavalier ➜ Cambia a Chandelure, cambia a Dragonite Otra Vez x3  Danza Dragón ; frente a Gastrodon resistir daño, cura  quemadura primero antes de atacar ",
-      "variant": []
-    },
-    {
-      "detail": "Scizor ➜ Dragonite toma Defensa X  x2 Danza Dragón; (este inicio debería  tener solo equipo de 6, Scizor puede usar Fuerza Bruta, puede venir a arañar a Chansey",
+      "detail": "Tyranitar ➜ Poliwrath usa Puño Drenaje contra tyranitar ➜ al enfrentar a Ferrothorn cambia a Volcarona +1 🦋🔥 ",
       "variant": []
     }
   ]

@@ -5,18 +5,14 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas. Si sale Tangrowth, usa Teletransporte hacia Slowbro y luego Bostezo.",
+      "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Observa si Latigazo acierta.",
       "variant": [
         {
-          "detail": "Observa si Latigazo acierta.",
+          "detail": "Si golpea, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2. 🦋🔥",
           "variant": []
         },
         {
-          "detail": "Si Tangrowth acierta, usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si Tangrowth falla, entra con Volcarona y usa Danza Aleteo x2.",
+          "detail": "Si falla, entra con Volcarona y usa Danza Aleteo x2. 🦋🔥",
           "variant": []
         }
       ]

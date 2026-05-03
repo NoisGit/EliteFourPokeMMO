@@ -2,39 +2,25 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa qué ocurre.",
+      "detail": "Si Leafeon se queda, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si Leafeon se queda, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon. Luego entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Si sale Leafeon después de otra ruta, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Ruta con Rhyperior:",
-      "variant": [
-        {
-          "detail": "Usa Encanto y cambia a Slowbro.",
+          "detail": "Si sale Leafeon, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Si Rhyperior se queda, usa Bostezo frente a Leafeon y luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Ruta con Gyarados:",
-      "variant": [
-        {
-          "detail": "Usa Bostezo, Protección y Bostezo otra vez frente a Leafeon. Luego entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+          "detail": "Si sale Gyarados, usa Bostezo, Protección y luego Bostezo frente a Leafeon. Después entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]

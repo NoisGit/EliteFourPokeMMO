@@ -5,24 +5,19 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa qué Pokémon entra después.",
-      "variant": [
-        {
-          "detail": "Si entra Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez."
-        },
-        {
-          "detail": "Si entra Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2."
-        }
-      ]
+      "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez.",
+      "variant": []
     },
     {
-      "detail": "Si Flareon se queda, derrótalo y revisa el siguiente cambio.",
+      "detail": "Si sale Flareon, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Si sale Absol, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si Flareon se queda, enfréntalo. Si luego sale Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
         },
         {
-          "detail": "Si sale Bronzong, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "Si sale Bronzong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
         }
       ]
     }

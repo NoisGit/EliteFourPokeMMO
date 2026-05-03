@@ -2,14 +2,11 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Hydreigon Pañuelo Elegido",
+  "initialMove": "💡Cambia a Slowbro y usa Bostezo frente a Hydreigon, cambia a Chansey y usa Trampa Rocas frente a Luxray, cambia a Gengar Otra Vez 4+2💡",
   "tricks": [
     {
-      "detail": "Gengar: Usar Otra Vez cambia a chansey sale hydreigon usa trampa rocas y amortiguador va cambiar a Absol/LuxRay cambia a gengar otra vez cambia a jirachi sale hydreigon cambia a chandelure +2 Velocidad.",
+      "detail": "Si cambia a Bronzong ➜ Sacrifica a Politoed, Poliwrath +6 🐸🥊",
       "variant": []
-    },
-    {
-      "id_del_siguiente_objeto": "..."
     }
   ]
 }

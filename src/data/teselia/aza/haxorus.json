@@ -2,11 +2,6 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Amortiguador Cambia a Gengar Otra vez +6 +2",
-  "tricks": [
-    {
-      "detail": "",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro  y usar Bostezo  frente a Chandelure; sacrificar a Politoed y entrar con Poliwrath 🐸 +6",
+  "tricks": []
 }

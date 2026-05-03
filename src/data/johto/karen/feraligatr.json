@@ -2,20 +2,15 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️ Encanto ❤️",
+  "initialMove": "Usa ❤️ Encanto ❤️.",
   "tricks": [
     {
-      "detail": "Usa Encanto y revisa el daño recibido.",
-      "variant": [
-        {
-          "detail": "Si el daño es menor a 36%, coloca Trampa Rocas. Luego cambia a Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si el daño es mayor a 39%, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Cura la quemadura si ocurre.",
-          "variant": []
-        }
-      ]
+      "detail": "Si el daño es menor a 36% o el crítico es menor a 54%, usa 🪨 Trampa Rocas 🪨. Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    },
+    {
+      "detail": "Si el daño es mayor a 39% o el crítico es mayor a 59%, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Cura la quemadura si corresponde.",
+      "variant": []
     }
   ]
 }

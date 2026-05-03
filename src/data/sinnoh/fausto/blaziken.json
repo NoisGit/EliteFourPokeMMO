@@ -2,15 +2,6 @@
   "id": "blaziken",
   "name": "Blaziken",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a chandelure +2 +2 (poder oculto hielo mata a Dragonite)",
-  "tricks": [
-    {
-      "detail": ".",
-      "variant": []
-    },
-    {
-      "detail": ".",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro y usar Bostezo al enfrentar a Cacturne; sacrificar a Politoed; entrar con Poliwrath +6 🔔(Puño Drenaje a Magmortar)🔔",
+  "tricks": []
 }

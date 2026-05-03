@@ -2,37 +2,36 @@
   "id": "rotom_agua",
   "name": "Rotom Agua",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "TRAMPA ROCAS",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el movimiento de Rotom Agua.",
+      "detail": "Rayo → Varias Opciones",
       "variant": [
         {
-          "detail": "Si usa Rayo, tienes dos rutas."
+          "detail": "Estable → Toma X SpDef → Amortiguador hasta que salga Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         },
         {
-          "detail": "Ruta estable: toma una Defensa Especial X y usa Amortiguador hasta que salga Alakazam. Luego usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        },
-        {
-          "detail": "Ruta RNG: usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
+          "detail": "RNG → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+          "variant": []
         }
       ]
     },
     {
-      "detail": "Si usa Hidrobomba, usa Teletransporte hacia Slowbro y luego Bostezo.",
-      "variant": [
-        {
-          "detail": "Cuando salga Gengar, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Hidrobomba → Teletransporte a Slowbro, Bostezo. sale Gengar → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     },
     {
-      "detail": "Si entra Toxicroak, Krookodile o Alakazam, usa la ruta de Slowbro.",
-      "variant": [
-        {
-          "detail": "Cambia o usa Teletransporte hacia Slowbro, usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Toxicroak → Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Krookodile → Teletransporte a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
+    },
+    {
+      "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
+      "variant": []
     }
   ]
 }

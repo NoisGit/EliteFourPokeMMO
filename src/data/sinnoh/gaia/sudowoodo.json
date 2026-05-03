@@ -2,15 +2,6 @@
   "id": "sudowoodo",
   "name": "Sudowoodo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas",
-  "tricks": [
-    {
-      "detail": "Rhyperior -->  Gallade Otra Vez +2 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro y usar Bostezo ; sacrificar a Politoed entrar con Poliwrath  +6 🔔 Usar Puño Hielo contra Gengar 🔔",
+  "tricks": []
 }

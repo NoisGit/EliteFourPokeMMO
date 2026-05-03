@@ -2,18 +2,15 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "🪨 Trampa Rocas 🪨 → Revisa el porcentaje de daño",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y revisa el porcentaje de daño recibido.",
-      "variant": [
-        {
-          "detail": "Si el daño ronda 50%, y el crítico ronda 75%, toma una Max Poción. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad."
-        },
-        {
-          "detail": "Si el daño ronda 35%, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X."
-        }
-      ]
+      "detail": "Si hace alrededor de 50% de daño, toma una Max Poción si fue crítico. Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+      "variant": []
+    },
+    {
+      "detail": "Si hace alrededor de 35% de daño, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
+      "variant": []
     }
   ]
 }

@@ -2,11 +2,6 @@
   "id": "vaporeon",
   "name": "Vaporeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Mienshao ➜ Gengar +2 +2; se bloquea solo ; usa Trampa rocas  si tiene el Talento; frente a Vaporeon presionar",
-      "variant": []
-    }
-  ]
+  "initialMove": "Cambiar a Slowbro ante Mienshao; usar Bostezo al enfrentar a Jolteon; sacrificar a Politoed y entrar con Poliwrath +6 🔔Cascada a Reuniclus🔔",
+  "tricks": []
 }

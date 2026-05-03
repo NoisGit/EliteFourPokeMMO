@@ -5,15 +5,8 @@
   "initialMove": "🪨 Trampa Rocas 🪨",
   "tricks": [
     {
-      "detail": "Coloca Trampa Rocas y cambia a Gengar para usar Otra Vez.",
-      "variant": [
-        {
-          "detail": "Luego cambia a Slowbro y usa Bostezo. Cuando salga Mantine, vuelve a usar Bostezo."
-        },
-        {
-          "detail": "Cuando salga Magnezone, deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque."
-        }
-      ]
+      "detail": "Cambia a Gengar y usa Otra Vez. Luego cambia a Slowbro y usa Bostezo. Cuando salga Mantine, usa Bostezo; cuando salga Magnezone, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
     }
   ]
 }

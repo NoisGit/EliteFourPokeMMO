@@ -2,18 +2,14 @@
   "id": "forretress",
   "name": "Forretress",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨 (Truco bloquea Terremoto, Cloyster +6.)",
+  "initialMove": "🔔Cambiar a Volcarona🔔",
   "tricks": [
     {
-      "detail": "Rhyperior ➜ Cambia a Jirachi, cambia a Gallade +6 +2",
+      "detail": "Si se queda --> Volcarona +1 y presionar",
       "variant": []
     },
     {
-      "detail": "Cambia de Gallade a Amoonguss  ➜ Chandelure +2 +2",
-      "variant": []
-    },
-    {
-      "detail": "Prueba de velocidad (, miedo al Crítico , ver arriba ➜ Cambia a Jirachi, cambia a (Dragonite Otra Vez  Danza Dragón x1, Atk +1) corre a Durant ), continuar fortaleciendo , si recibes Crítico usa Máxima ",
+      "detail": "Rhyperior --> Absorber hasta que debilite al enfrentar a Jellicent ; usar Danza Aleteo (+1 y presionar",
       "variant": []
     }
   ]

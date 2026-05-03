@@ -2,20 +2,6 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
-  "tricks": [
-    {
-      "detail": "Coloca Trampa Rocas frente a Lucario.",
-      "variant": [
-        {
-          "detail": "Cambia a Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
-          "variant": []
-        },
-        {
-          "detail": "Para ahorrar objetos, puedes subir a Maquinación hasta +6 con Gengar.",
-          "variant": []
-        }
-      ]
-    }
-  ]
+  "initialMove": "🪨 Trampa rocas 🪨 Frente a Lucario ➜ Gengar +2 + Precisión X (No usar Otra Vez) 🔔 para ahorrar dinero: Gengar +6 🔔",
+  "tricks": []
 }

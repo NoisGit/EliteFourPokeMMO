@@ -2,42 +2,27 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Gengar💡",
+  "initialMove": "💡 Teletransporte💡",
   "tricks": [
     {
-      "detail": "Eelektross 【probando】 ➜ Cambiar a Jirachi Rayo; Otra Vez ; Chandelure +2 +2 ",
+      "detail": "A bocajarro ➜ Revisar objeto",
+      "variant": [
+        {
+          "detail": "Vidasfera ➜ Entra con Slowbro y usa Bostezo y sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Sin Vidasfera ➜ Entra con Gengar Otra vez +4  (Bola Sombra a todo Lucario Banda focus)",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Esfera Aural ➜ Entra con Gengar  Otra Vez +6 +2",
       "variant": []
     },
     {
-      "detail": "A Bocajarro (close combat) ➜ Cambiar a Jirachi",
-      "variant": []
-    },
-    {
-      "detail": "Lucario Vidasfera ➜ Jirachi Protección; Otra Vez ; Chandelure +2 +2 ; huye hacia Garchomp; Otra Vez ; Dragonite Danza Dragón x3",
-      "variant": []
-    },
-    {
-      "detail": "Lucario Banda Focus  ➜ FIJAR Trampa rocas Gengar  +4  no velo ; NO usar Otra Vez  frente a Arcanine resistir daño ",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ FIJAR (Trampa rocas) Chandelure +2 +2 ; NO usar Otra Vez ; buscando superar velocidad ; no fijar ; recibir una Roca Afilada (stone edge); si no es crítico  no se debilita ",
-      "variant": []
-    },
-    {
-      "detail": "Esfera Aural  ➜ Cambiar a Chansey abrir Pantalla Luz  Amortiguador; frente a Garchomp Gallade +4 +2 ",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Gallade +4 +2 ; (Pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine ➜ Buscando superar velocidad ; Chandelure +2 +2; NO usar Otra Vez ",
-      "variant": []
-    },
-    {
-      "detail": "Solución estable  ➜ Chansey  FIJAR Trampa rocas ; frente a Lucario Gengar +4  no velo; NO usar Otra Vez ; frente a Arcanine resistir daño reducido ; Maquinación ",
+      "detail": "Garchomp ➜ Entra con Slowbro y usa Bostezo y sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
       "variant": []
     }
   ]

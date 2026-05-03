@@ -5,68 +5,123 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Usa Amortiguador y revisa el movimiento o cambio rival.",
+      "detail": "Si se queda --> Ver movimiento",
       "variant": [
         {
-          "detail": "Si usa Surf o Hidrobomba, usa Teletransporte hacia Slowbro y usa Bostezo.",
+          "detail": "Surf / Hidrobomba ➜ Teletransporte ➜ Slowbro y usar Bostezo",
           "variant": [
             {
-              "detail": "Si sale Roserade, entra con Volcarona y usa Danza Aleteo x4.",
+              "detail": "Roserade ➜ Volcarona +4 🦋🔥",
               "variant": []
             },
             {
-              "detail": "Si sale Ludicolo o usa Rayo Hielo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "detail": "Ludicolo ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Si usa Escaldar, usa Teletransporte hacia Slowbro y usa Bostezo. Si Milotic no cambia, sigue usando Bostezo.",
+          "detail": "Rayo Hielo ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
           "variant": []
         },
         {
-          "detail": "Si sale Serperior, usa Protección y Bostezo hasta que salga Lanturn. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Escaldar ➜ Teletransporte ➜ sacar a Slowbro y usar Bostezo (si no cambia usa Bostezo)",
+          "variant": [
+            {
+              "detail": "Serperior ➜ Usar Protección y Bostezo hasta que salga Lanturn ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+              "variant": []
+            },
+            {
+              "detail": "Roserade ➜ Usar Teletransporte y revisar el objeto del rival:",
+              "variant": [
+                {
+                  "detail": "Si lleva Vidasfera ➜ Entrar con Volcarona +1 + Especial X 🦋🔥",
+                  "variant": []
+                },
+                {
+                  "detail": "Sin Vidasfera ➜ Entrar con Volcarona +2 + Especial X 🔔 que tu vida no baje del 70% 🔔",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Gardevoir ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Empoleon ➜ Poner Trampa Rocas para ver su movimiento:",
+      "variant": [
+        {
+          "detail": "Cascada ➜ Cambiar a Slowbro y usar Bostezo frente a Roserade ➜ usar Teletransporte y entrar con Volcarona +1 para presionar hasta que salga Milotic ➜ entonces usa Danza Aleteo una vez y terminar de barrer",
           "variant": []
         },
         {
-          "detail": "Si sale Gardevoir, Metagross, Regice, Registeel o Eelektross, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Terremoto ➜ Cambiar a Slowbro y usar Bostezo hasta que salga Roserade ➜ usar Teletransporte y entrar con Volcarona +3 🦋🔥",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Rutas de Roserade y Empoleon:",
+      "detail": "Eelektross ➜ Poner Trampas ➜ Gengar usa Otra Vez y cambiar a Slowbro frente a Milotic/Swampert ➜ usar Bostezo (si continúa usando Escaldar sigue con Bostezo hasta que cambie)",
       "variant": [
         {
-          "detail": "Si sale Roserade, usa Teletransporte y revisa el objeto. Con Vidasfera, Volcarona usa Danza Aleteo x1 y Especial X. Sin Vidasfera, Volcarona usa Danza Aleteo x2 y Especial X. Mantén los PS por encima del 70%.",
+          "detail": "Poder Oculto Eléctrico ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
           "variant": []
         },
         {
-          "detail": "Si sale Empoleon, coloca Trampa Rocas para revisar el movimiento. Contra Cascada, Slowbro usa Bostezo frente a Roserade, Teletransporte hacia Volcarona y Danza Aleteo x1. Contra Terremoto, Slowbro usa Bostezo hasta Roserade y luego Volcarona usa Danza Aleteo x3.",
+          "detail": "Serperior ➜ Usar Protección y Bostezo hasta que salga Eelektross ➜ luego sacrifica a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Altaria ➜ Usar a Chansey para atraer a Eelektross, usar Teletransporte ➜ Slowbro Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Eelektross ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "variant": []
+        },
+        {
+          "detail": "Gardevoir ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Rutas especiales:",
+      "detail": "Metagross ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
       "variant": [
         {
-          "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo frente a Serperior. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Dragonite, usa Encanto, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
-          "variant": []
-        },
-        {
-          "detail": "Si sale Whiscash, usa Encanto, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque, Raíz Grande y Velocidad X.",
-          "variant": []
-        },
-        {
-          "detail": "Si Poliwrath cae por crítico, cambia a Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "detail": "Si Poliwrath muere por crítico ➜ Gengar Otra vez +4 +2",
           "variant": []
         }
       ]
+    },
+    {
+      "detail": "Mienshao ➜ Cambiar a Slowbro y usar Bostezo frente a Serperior ➜ Teletransporte ➜ Volcarona +2 🦋🔥",
+      "variant": []
+    },
+    {
+      "detail": "Regice / Registeel ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Dragonite ➜ Encanto ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Gardevoir ➜ Teletransporte ➜ Slowbro Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
+      "variant": []
+    },
+    {
+      "detail": "Whiscash ➜ Encanto ➜ sacrifica a Politoed ➜ Poliwrath +6 + Raíz Grande + Velocidad X",
+      "variant": []
+    },
+    {
+      "detail": "Roserade ➜ Teletransporte ➜ Slowbro usa Bostezo ➜ Teletransporte ➜ Volcarona +1 + Especial X",
+      "variant": []
     }
   ]
 }

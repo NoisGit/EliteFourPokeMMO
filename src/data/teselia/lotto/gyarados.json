@@ -5,84 +5,27 @@
   "initialMove": "🪨Trampa Rocas🪨",
   "tricks": [
     {
-      "detail": "Intimidación ",
+      "detail": "Toxicroack --> Cambiar a Slowbro y usar Bostezo frente a Magnezone, sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Breloom ➜ Cambia a Jirachi, cambia a Gengar Otra Vez, cambia a Gallade para eliminar a Tyranitar ",
+      "detail": "Breloom ➜ Gengar +4 + Precisión X",
+      "variant": [
+        {
+          "detail": "Conkeldurr ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🐸 🔔(Puño Drenaje a Tyranitar)🔔",
+          "variant": []
+        } 
+      ]  
+    },        
+    {     
+      "detail": "Conkeldurr + Sin Llamasfera --> Cambiar a Slowbro y usar Bostezo al enfrentar a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
       "variant": []
     },
     {
-      "detail": "Gyarados ➜ Cambia a Chansey Pantalla de Luz; cambia a Gengar Otra Vez +6 no velo",
-      "variant": []
-    },
-    {
-      "detail": "Centra Conkeldurr ➜ Cambia a Chansey cambia a Gengar Otra Vez +6 +No velo ",
-      "variant": []
-    },
-    {
-      "detail": "Breloom Se queda ➜ Gengar Otra Vez, cambia a Chansey Contador ",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +6 no velo",
-      "variant": []
-    },
-    {
-      "detail": "Sin Intimidación ",
-      "variant": []
-    },
-    {
-      "detail": "Frente a Conkeldur ➜ Cambia a Gengar ",
-      "variant": []
-    },
-    {
-      "detail": "Sin Llamasfera ➜ Gengar Otra Vez, Bola Sombra ",
-      "variant": []
-    },
-    {
-      "detail": "conkeldur se queda ➜ Gengar +6",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Cambia a Chansey Amortiguador; Gengar Otra Vez +4",
-      "variant": []
-    },
-    {
-      "detail": "Llamasfera ➜ Gengar Otra Vez +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "entra Krookodile ➜ Cambia a Dragonite, cambia a Jirachi Otra Vez, cambia a Dragonite Danza x3 danza dragon",
-      "variant": []
-    },
-    {
-      "detail": "Toxicroak ➜ Cambia a Gengar Otra Vez, Bola Sombra ",
-      "variant": []
-    },
-    {
-      "detail": "Toxicroak no cambia ➜ Gengar +6 +0",
-      "variant": []
-    },
-    {
-      "detail": "conkeldur ➜ Cambia a Chansey cambia a Gengar Otra Vez, Bola Sombra ",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Cambia a Chansey Amortiguador",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt ➜ Gengar +4 no velo ; No usar Otra Vez (tiene pañuelo)",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldur / Toxicroak ➜ Gengar Otra Vez +4 +0",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Cambia a Chansey Amortiguador; Gengar Otra Vez +4 no velocidad; frente a Crawdaunt No usar Otra Vez (Tiene pañuelo )",
+      "detail": "🔥Conkeldurr + Llamasfera🔥 --> Gengar +4 +2 🔔(Barre con Bola Sombra)🔔 🚨(Si cambia a Gyarados, cambia a Chansey y aguanta hasta que cambie denuevo)🚨",
       "variant": []
     }
   ]
 }
+  
+

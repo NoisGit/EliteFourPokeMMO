@@ -2,11 +2,6 @@
   "id": "bouffalant",
   "name": "Bouffalant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨Trampa rocas 🪨  Gengar ➜ Dragonite Otra vez x3 danza dragon",
-  "tricks": [
-    {
-      "detail": "💡(Terremoto para matar a Volcarona puede quemar)💡 ",
-      "variant": []
-    }
-  ]
+  "initialMove": "🪨Trampa Rocas🪨 usar Teletransporte para sacar a Slowbro , usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Poliwrath Puño drenaje a Volcarona)🔔",
+  "tricks": []
 }
