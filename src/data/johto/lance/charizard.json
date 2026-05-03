@@ -6,14 +6,15 @@
   "tricks": [
     {
       "detail": "Frente a Tyranitar.",
-      "variant": []
-    },
-    {
-      "detail": "Luego cambia a Poliwrath 🐸🥊 para derrotarlo.",
       "variant": [
         {
-          "detail": "Después entra con Chansey y usa Amortiguador. Espera a Metagross, usa Teletransporte hacia Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Luego cambia a Poliwrath 🐸🥊 para derrotarlo.",
+          "variant": [
+            {
+              "detail": "Después entra con Chansey y usa Amortiguador. Espera a Metagross, usa Teletransporte hacia Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
