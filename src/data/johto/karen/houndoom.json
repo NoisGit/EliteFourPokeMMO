@@ -11,7 +11,7 @@
           "detail": "Si tiene Vidasfera, usa Amortiguador 2 veces.",
           "variant": [
             {
-              "detail": "Si se queda, sacrifica a Politoed, entra con Poliwrath y usa Ataque X.",
+              "detail": "Si se queda, entra Politoed como pivote, entra con Poliwrath 🐸🥊 y usa Ataque X.",
               "variant": []
             },
             {
@@ -19,7 +19,7 @@
               "variant": []
             },
             {
-              "detail": "Si sale Feraligatr, usa Encanto, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+              "detail": "Si sale Feraligatr, usa Encanto, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
@@ -29,13 +29,13 @@
           "variant": []
         },
         {
-          "detail": "Si sale Honchkrow, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si sale Honchkrow, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si sale Tyranitar, cambia a Poliwrath y derrótalo.",
+      "detail": "Si sale Tyranitar, cambia a Poliwrath 🐸🥊 y derrótalo.",
       "variant": [
         {
           "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
@@ -64,7 +64,7 @@
       "detail": "Si sale Excadrill, revisa su objeto.",
       "variant": [
         {
-          "detail": "Si tiene Globo Helio, usa Encanto. Luego usa Amortiguador frente a Tyranitar y cambia a Poliwrath para derrotarlo.",
+          "detail": "Si tiene Globo Helio, usa Encanto. Luego usa Amortiguador frente a Tyranitar y cambia a Poliwrath 🐸🥊 para derrotarlo.",
           "variant": [
             {
               "detail": "Si después sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. Usa Psíquico contra Gyarados, sigue hasta Houndoom e ignora la amenaza.",
@@ -126,7 +126,7 @@
       "variant": []
     },
     {
-      "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
@@ -134,7 +134,7 @@
       "variant": []
     },
     {
-      "detail": "Si sale Gallade o Roserade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Gallade o Roserade, Gengar usa Otra Vez. Luego Slowbro usa Bostezo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]
