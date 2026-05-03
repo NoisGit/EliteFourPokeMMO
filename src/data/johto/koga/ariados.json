@@ -2,8 +2,12 @@
   "id": "ariados",
   "name": "Ariados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Si no cambia, usa Amortiguador y revisa si fuerza el cambio.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
+    {
+      "detail": "Si no cambia, usa Amortiguador y revisa si fuerza el cambio.",
+      "variant": []
+    },
     {
       "detail": "Si sale Tangrowth, usa Teletransporte hacia Slowbro y Bostezo. Revisa si Tangrowth acierta el ataque.",
       "variant": [

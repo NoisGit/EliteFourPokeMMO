@@ -6,7 +6,15 @@ const exactTranslations: Record<string, string> = {
   '💡 Revisa la habilidad 💡': '💡 Check the ability 💡',
   'Cambia a Volcarona.': 'Switch to Volcarona.',
   'Cambia a Gengar.': 'Switch to Gengar.',
-  'Cambia a Slowbro y usa Bostezo.': 'Switch to Slowbro and use Yawn.',
+  'Cambia a Slowbro.': 'Switch to Slowbro.',
+  'Gengar usa Otra Vez.': 'Gengar uses Encore.',
+  '👻 Gengar usa Otra Vez.': '👻 Gengar uses Encore.',
+  'Chansey usa Amortiguador.': 'Chansey uses Soft-Boiled.',
+  'Volcarona usa Danza Aleteo x1.': 'Volcarona uses Quiver Dance x1.',
+  'Usa Amortiguador.': 'Use Soft-Boiled.',
+  'Usa Bostezo.': 'Use Yawn.',
+  'Usa Maquinación hasta +2.': 'Use Nasty Plot to +2.',
+  'Evalúa el daño.': 'Evaluate the damage.',
 }
 
 const moveTranslations: Array<[RegExp, string]> = [
@@ -167,6 +175,7 @@ const phraseTranslations: Array<[RegExp, string]> = [
 
 const normalizeEnglishText = (text: string) => {
   return text
+    .replace(/\b(Gengar|Chansey|Slowbro|Volcarona|Poliwrath|Umbreon|Mismagius|Victreebel|Excadrill|Rhyperior|Dragonite|Ninetales|Crobat|Scizor|Feraligatr) use\b/g, '$1 uses')
     .replace(/Use Belly Drum to \+6 Attack/g, 'Use Belly Drum to reach +6 Attack')
     .replace(/use Belly Drum to \+6 Attack/g, 'use Belly Drum to reach +6 Attack')
     .replace(/to use Belly Drum to \+6 Attack/g, 'to use Belly Drum and reach +6 Attack')

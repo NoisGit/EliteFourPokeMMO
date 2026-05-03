@@ -8,24 +8,24 @@
       "detail": "Si Mismagius se queda, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si se mantiene en campo, entra con Volcarona y usa Gigadrenado. Luego cambia a Chansey, usa Teletransporte hacia Slowbro y usa Bostezo. Después deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si se mantiene en campo, entra con Volcarona y usa Gigadrenado. Luego cambia a Chansey, usa Teletransporte hacia Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Si sale Houndoom, deja caer a Politoed. Luego entra con Poliwrath, usa Ataque X y ataca.",
+          "detail": "Si sale Houndoom, entra Politoed como pivote. Luego entra con Poliwrath 🐸🥊, usa Ataque X y ataca.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": [
         {
-          "detail": "Si sale Houndoom, deja caer a Politoed. Luego entra con Poliwrath, usa Ataque X y ataca.",
+          "detail": "Si sale Houndoom, entra Politoed como pivote. Luego entra con Poliwrath 🐸🥊, usa Ataque X y ataca.",
           "variant": []
         }
       ]
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego deja caer a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Primeape, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

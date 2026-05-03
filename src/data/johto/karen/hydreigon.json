@@ -2,6 +2,11 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Chansey usa Amortiguador frente a Primeape. Luego cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
-  "tricks": []
+  "initialMove": "Chansey usa Amortiguador frente a Primeape.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+      "variant": []
+    }
+  ]
 }

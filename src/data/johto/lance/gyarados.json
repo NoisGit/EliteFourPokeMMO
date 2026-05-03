@@ -2,6 +2,11 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨. Luego usa Teletransporte hacia Slowbro y usa Bostezo. Después usa Teletransporte hacia Gengar, usa Maquinación y ataca.",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Luego usa Teletransporte hacia Slowbro y usa Bostezo. Después usa Teletransporte hacia Gengar, usa Maquinación y ataca.",
+      "variant": []
+    }
+  ]
 }
