@@ -1,0 +1,189 @@
+const exactTranslations: Record<string, string> = {
+  'Usa 🪨 Trampa Rocas 🪨.': 'Use 🪨 Stealth Rock 🪨.',
+  '🪨 Trampa Rocas 🪨': '🪨 Stealth Rock 🪨',
+  '🥚 Amortiguador 🥚': '🥚 Soft-Boiled 🥚',
+  '💡 Varias opciones 💡': '💡 Multiple options 💡',
+  '💡 Revisa la habilidad 💡': '💡 Check the ability 💡',
+  'Cambia a Volcarona.': 'Switch to Volcarona.',
+  'Cambia a Gengar.': 'Switch to Gengar.',
+  'Cambia a Slowbro y usa Bostezo.': 'Switch to Slowbro and use Yawn.',
+}
+
+const moveTranslations: Array<[RegExp, string]> = [
+  [/\bTrampa Rocas\b/gi, 'Stealth Rock'],
+  [/\bOtra Vez\b/gi, 'Encore'],
+  [/\bMaquinaci[oó]n\b/gi, 'Nasty Plot'],
+  [/\bTambor\b/gi, 'Belly Drum'],
+  [/\bDanza Aleteo\b/gi, 'Quiver Dance'],
+  [/\bVelocidad X\b/gi, 'X Speed'],
+  [/\bPrecisi[oó]n X\b/gi, 'X Accuracy'],
+  [/\bAtaque Especial X\b/gi, 'X Sp. Atk'],
+  [/\bEspecial X\b/gi, 'X Sp. Atk'],
+  [/\bDefensa Especial X\b/gi, 'X Sp. Def'],
+  [/\bAtaque X\b/gi, 'X Attack'],
+  [/\bAmortiguador\b/gi, 'Soft-Boiled'],
+  [/\bBostezo\b/gi, 'Yawn'],
+  [/\bProtecci[oó]n\b/gi, 'Protect'],
+  [/\bTeletransporte\b/gi, 'Teleport'],
+  [/\bEncanto\b/gi, 'Charm'],
+  [/\bBola Sombra\b/gi, 'Shadow Ball'],
+  [/\bPuño Drenaje\b/gi, 'Drain Punch'],
+  [/\bPuño Hielo\b/gi, 'Ice Punch'],
+  [/\bPuño Meteoro\b/gi, 'Meteor Mash'],
+  [/\bPuño Din[aá]mico\b/gi, 'Dynamic Punch'],
+  [/\bPuño Trueno\b/gi, 'Thunder Punch'],
+  [/\bPuño Fuego\b/gi, 'Fire Punch'],
+  [/\bA Bocajarro\b/gi, 'Close Combat'],
+  [/\bPatada Salto Alta\b/gi, 'High Jump Kick'],
+  [/\bVendetta\b/gi, 'Payback'],
+  [/\bPs[ií]quico\b/gi, 'Psychic'],
+  [/\bGigadrenado\b/gi, 'Giga Drain'],
+  [/\bOnda Certera\b/gi, 'Focus Blast'],
+  [/\bLanzallamas\b/gi, 'Flamethrower'],
+  [/\bLlamarada\b/gi, 'Fire Blast'],
+  [/\bPulso Umbr[ií]o\b/gi, 'Dark Pulse'],
+  [/\bBomba Lodo\b/gi, 'Sludge Bomb'],
+  [/\bTierra Viva\b/gi, 'Earth Power'],
+  [/\bEscaldar\b/gi, 'Scald'],
+  [/\bSurf\b/gi, 'Surf'],
+  [/\bHidrobomba\b/gi, 'Hydro Pump'],
+  [/\bCascada\b/gi, 'Waterfall'],
+  [/\bAcua Cola\b/gi, 'Aqua Tail'],
+  [/\bRayo Hielo\b/gi, 'Ice Beam'],
+  [/\bRayo\b/gi, 'Thunderbolt'],
+  [/\bVoltio Cruel\b/gi, 'Wild Charge'],
+  [/\bTerremoto\b/gi, 'Earthquake'],
+  [/\bRoca Afilada\b/gi, 'Stone Edge'],
+  [/\bFuerza Bruta\b/gi, 'Superpower'],
+  [/\bMegacuerno\b/gi, 'Megahorn'],
+  [/\bLatigazo\b/gi, 'Power Whip'],
+  [/\bTriturar\b/gi, 'Crunch'],
+  [/\bGiro Bola\b/gi, 'Gyro Ball'],
+  [/\bCabezazo Zen\b/gi, 'Zen Headbutt'],
+  [/\bPico Taladro\b/gi, 'Drill Peck'],
+  [/\bP[aá]jaro Osado\b/gi, 'Brave Bird'],
+  [/\bSuperdiente\b/gi, 'Super Fang'],
+  [/\bPuya Nociva\b/gi, 'Poison Jab'],
+  [/\bAutodestrucci[oó]n\b/gi, 'Self-Destruct'],
+  [/\bExplosi[oó]n\b/gi, 'Explosion'],
+]
+
+const itemTranslations: Array<[RegExp, string]> = [
+  [/\bPañuelo Elegido\b/gi, 'Choice Scarf'],
+  [/\bBanda Focus\b/gi, 'Focus Sash'],
+  [/\bVidasfera\b/gi, 'Life Orb'],
+  [/\bLlamaesfera\b/gi, 'Flame Orb'],
+  [/\bLlamasfera\b/gi, 'Flame Orb'],
+  [/\bGlobo Helio\b/gi, 'Air Balloon'],
+  [/\bMax Poci[oó]n\b/gi, 'Max Potion'],
+  [/\bMáx Poci[oó]n\b/gi, 'Max Potion'],
+  [/\bRevivir Hierba\b/gi, 'Revival Herb'],
+]
+
+const abilityTranslations: Array<[RegExp, string]> = [
+  [/\bCuerpo Maldito\b/gi, 'Cursed Body'],
+  [/\bIntimidaci[oó]n\b/gi, 'Intimidate'],
+  [/\bPiel Seca\b/gi, 'Dry Skin'],
+]
+
+const phraseTranslations: Array<[RegExp, string]> = [
+  [/\bNo uses\b/gi, 'Do not use'],
+  [/\bNo es necesario usar\b/gi, 'There is no need to use'],
+  [/\bSi no tiene\b/gi, 'If it does not have'],
+  [/\bSi tiene\b/gi, 'If it has'],
+  [/\bSi sale\b/gi, 'If it brings in'],
+  [/\bSi entra\b/gi, 'If it comes in'],
+  [/\bSi cambia a\b/gi, 'If it switches to'],
+  [/\bSi se queda\b/gi, 'If it stays in'],
+  [/\bSi usa\b/gi, 'If it uses'],
+  [/\bSi utiliza\b/gi, 'If it uses'],
+  [/\bSi falla\b/gi, 'If it misses'],
+  [/\bSi acierta\b/gi, 'If it hits'],
+  [/\bSi revela que es Zoroark por\b/gi, 'If it reveals itself as Zoroark because of'],
+  [/\brevela que es Zoroark\b/gi, 'reveals itself as Zoroark'],
+  [/\bCambia a\b/g, 'Switch to'],
+  [/\bcambia a\b/gi, 'switch to'],
+  [/\bEntra con\b/g, 'Bring in'],
+  [/\bentra con\b/gi, 'bring in'],
+  [/\bentra Politoed como pivote\b/gi, 'bring in Politoed as a pivot'],
+  [/\bLuego entra\b/gi, 'Then bring in'],
+  [/\bluego entra\b/gi, 'then bring in'],
+  [/\bUsa\b/g, 'Use'],
+  [/\busa\b/gi, 'use'],
+  [/\bMant[eé]n\b/gi, 'Keep'],
+  [/\bmant[eé]n\b/gi, 'keep'],
+  [/\bRevisa\b/gi, 'Check'],
+  [/\brevisa\b/gi, 'check'],
+  [/\bObserva\b/gi, 'Watch'],
+  [/\bobserva\b/gi, 'watch'],
+  [/\bFrente a\b/gi, 'Against'],
+  [/\bfrente a\b/gi, 'against'],
+  [/\bcontra\b/gi, 'against'],
+  [/\bpara usar\b/gi, 'to use'],
+  [/\bhasta \+2\b/gi, 'to +2'],
+  [/\bhasta \+4\b/gi, 'to +4'],
+  [/\bhasta \+6\b/gi, 'to +6'],
+  [/\bpara \+2 Velocidad\b/gi, 'to reach +2 Speed'],
+  [/\b\+6 Ataque\b/gi, '+6 Attack'],
+  [/\b\+2 Velocidad\b/gi, '+2 Speed'],
+  [/\bAtaque Especial\b/gi, 'Special Attack'],
+  [/\bAtaque\b/gi, 'Attack'],
+  [/\bVelocidad\b/gi, 'Speed'],
+  [/\bPrecisi[oó]n\b/gi, 'Accuracy'],
+  [/\bPS\b/g, 'HP'],
+  [/\bpor encima del\b/gi, 'above'],
+  [/\bpor debajo del\b/gi, 'below'],
+  [/\bpor un golpe cr[ií]tico\b/gi, 'from a critical hit'],
+  [/\bgolpe cr[ií]tico\b/gi, 'critical hit'],
+  [/\bcr[ií]tico\b/gi, 'critical hit'],
+  [/\bqueda fuera\b/gi, 'goes down'],
+  [/\bdeja fuera\b/gi, 'knocks out'],
+  [/\bcae\b/gi, 'goes down'],
+  [/\bderrota a\b/gi, 'knocks out'],
+  [/\bderr[oó]talo\b/gi, 'knock it out'],
+  [/\bderrotarlo\b/gi, 'knock it out'],
+  [/\bbarrer\b/gi, 'sweep'],
+  [/\bbarre\b/gi, 'sweep'],
+  [/\btermina de barrer\b/gi, 'finish sweeping'],
+  [/\bRuta r[aá]pida\b/gi, 'Fast route'],
+  [/\bRuta estable\b/gi, 'Stable route'],
+  [/\bRuta de ahorro\b/gi, 'Budget route'],
+  [/\bRuta ahorro\b/gi, 'Budget route'],
+  [/\bRuta arriesgada\b/gi, 'Risky route'],
+  [/\bRuta RNG\b/gi, 'RNG route'],
+  [/\bvarias opciones\b/gi, 'multiple options'],
+  [/\belige una de estas rutas\b/gi, 'choose one of these routes'],
+  [/\bCura la quemadura\b/gi, 'Heal the burn'],
+  [/\bcura la quemadura\b/gi, 'heal the burn'],
+  [/\bquemadura\b/gi, 'burn'],
+  [/\brival\b/gi, 'opponent'],
+  [/\bmovimiento\b/gi, 'move'],
+  [/\bobjeto\b/gi, 'item'],
+  [/\btipo Fuego\b/gi, 'Fire-type'],
+  [/\btipo Lucha\b/gi, 'Fighting-type'],
+  [/\btipo Tierra\b/gi, 'Ground-type'],
+  [/\bmovimientos de Veneno\b/gi, 'Poison-type moves'],
+]
+
+const normalizeEnglishText = (text: string) => {
+  return text
+    .replace(/Use Belly Drum to \+6 Attack/g, 'Use Belly Drum to reach +6 Attack')
+    .replace(/use Belly Drum to \+6 Attack/g, 'use Belly Drum to reach +6 Attack')
+    .replace(/to use Belly Drum to \+6 Attack/g, 'to use Belly Drum and reach +6 Attack')
+    .replace(/to use Belly Drum and reach \+6 Attack/g, 'to use Belly Drum and reach +6 Attack')
+    .replace(/Bring in Politoed as a pivot and bring in/g, 'Bring in Politoed as a pivot, then bring in')
+    .replace(/bring in Politoed as a pivot and bring in/g, 'bring in Politoed as a pivot, then bring in')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+export const translateJohtoStrategyText = (text: string) => {
+  const exactTranslation = exactTranslations[text]
+
+  if (exactTranslation) return exactTranslation
+
+  const translatedText = [...moveTranslations, ...itemTranslations, ...abilityTranslations, ...phraseTranslations]
+    .reduce((currentText, [pattern, replacement]) => currentText.replace(pattern, replacement), text)
+
+  return normalizeEnglishText(translatedText)
+}
