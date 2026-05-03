@@ -2,8 +2,12 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Gengar usa Otra Vez.",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
+    {
+      "detail": "Usa Otra Vez.",
+      "variant": []
+    },
     {
       "detail": "Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨.",
       "variant": []
