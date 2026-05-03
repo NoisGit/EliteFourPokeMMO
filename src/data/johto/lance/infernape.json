@@ -6,11 +6,12 @@
   "tricks": [
     {
       "detail": "Usa Otra Vez.",
-      "variant": []
-    },
-    {
-      "detail": "Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨 frente a Infernape. Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-      "variant": []
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey y después a Dragonite. Usa 🪨 Trampa Rocas 🪨 frente a Infernape. Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
