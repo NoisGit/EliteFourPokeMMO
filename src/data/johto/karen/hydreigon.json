@@ -2,8 +2,12 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Chansey usa Amortiguador frente a Primeape.",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
+    {
+      "detail": "Frente a Primeape.",
+      "variant": []
+    },
     {
       "detail": "Luego cambia a Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
       "variant": []
