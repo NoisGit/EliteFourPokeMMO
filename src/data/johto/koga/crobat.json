@@ -11,11 +11,11 @@
           "detail": "Si usa Superdiente, cambia a Slowbro.",
           "variant": [
             {
-              "detail": "Si se queda, Slowbro usa Bostezo frente a Magmortar. Luego sacrifica a Politoed, entra con Poliwrath, toma un Ataque X y barre. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
+              "detail": "Si se queda, Slowbro usa Bostezo frente a Magmortar. Luego entra Politoed como pivote, entra con Poliwrath 🐸🥊, usa Ataque X y barre. Usa Puño Drenaje contra Magmortar. Si sale Ditto, cambia a Gengar y derrótalo con Bola Sombra.",
               "variant": []
             },
             {
-              "detail": "Si sale Rhyperior, Slowbro usa Bostezo y recibe Megacuerno. Luego usa Protección y Bostezo. Frente a Gengar o Lapras, sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+              "detail": "Si sale Rhyperior, Slowbro usa Bostezo y recibe Megacuerno. Luego usa Protección y Bostezo. Frente a Gengar o Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
               "variant": []
             }
           ]
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Luego sacrifica a Politoed y entra con Poliwrath para usar Tambor hasta +6 Ataque.",
+      "detail": "Si sale Samurott, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
@@ -51,7 +51,7 @@
       "detail": "Si sale Ariados, usa Encanto y Amortiguador para forzar el cambio.",
       "variant": [
         {
-          "detail": "Si sale Rhyperior, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte hacia Poliwrath, usa Tambor hasta +6 Ataque y Puño Drenaje. Frente a Sharpedo, usa Velocidad X y termina de barrer.",
+          "detail": "Si sale Rhyperior, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte hacia Poliwrath 🐸🥊, usa Tambor hasta +6 Ataque y Puño Drenaje. Frente a Sharpedo, usa Velocidad X y termina de barrer.",
           "variant": []
         },
         {
@@ -77,7 +77,7 @@
       "detail": "Si sale Scizor, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
       "variant": [
         {
-          "detail": "Si Volcarona cae, entra con Poliwrath, sacrifica a Politoed y vuelve a Poliwrath para usar Tambor hasta +6 Ataque.",
+          "detail": "Si Volcarona queda fuera, entra Politoed como pivote y vuelve a Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
