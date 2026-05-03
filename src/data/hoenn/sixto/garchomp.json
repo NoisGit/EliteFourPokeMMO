@@ -2,21 +2,21 @@
   "id": "garchomp",
   "name": "Garchomp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 TRAMPA ROCAS 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Colmillo Ígneo --> Encanto + Amortiguador frente a Absol; Gengar +2 y 🔔Bola Sombra a todo🔔",
+      "detail": "Si usa Colmillo Ígneo, usa Encanto y Amortiguador frente a Absol. Luego entra con Gengar, usa Maquinación hasta +2 y barre con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Absol --> Opciones para resolver",
+      "detail": "Si sale Absol, elige una ruta para resolver.",
       "variant": [
         {
-          "detail": "Rápido --> Gengar +2 +2 + Precisión",
+          "detail": "Ruta rápida: entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Ahorrar dinero --> Gengar +6 +2 y 🔔Bola Sombra a todo🔔",
+          "detail": "Ruta de ahorro: entra con Gengar, usa Maquinación hasta +6, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
           "variant": []
         }
       ]
