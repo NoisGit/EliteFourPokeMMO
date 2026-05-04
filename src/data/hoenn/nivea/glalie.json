@@ -2,10 +2,10 @@
   "id": "glalie",
   "name": "Glalie",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Mienshao ➜ Entra Gengar +2 🔔(Barrer con Bola Sombra)🔔",
+      "detail": "Si sale Mienshao, entra con Gengar, usa Maquinación hasta +2 y barre con Bola Sombra.",
       "variant": []
     }
   ]
