@@ -2,6 +2,16 @@
   "id": "togekiss",
   "name": "Togekiss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Metagross ➜ cambiar a Slowbro, luego a Volcarona frente a Serperior ➜ Volcarona +2 🔔(Serperior no mata a Volcarona)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro. Luego entra con Volcarona frente a Serperior y usa Danza Aleteo x2. Serperior no debilita a Volcarona.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
