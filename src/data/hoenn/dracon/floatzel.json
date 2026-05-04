@@ -2,15 +2,25 @@
   "id": "floatzel",
   "name": "Floatzel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Gallade --> Cambiar a Slowbro y usar Bostezo frente a Empoleon; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Gallade, cambia a Slowbro y usa Bostezo frente a Empoleon.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Feraligatr --> Cambiar a Slowbro y usar Bostezo frente a Sceptile; Volcarona +3 🔔(mantener PS por encima del 75%)🔔",
-      "variant": []
+      "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
