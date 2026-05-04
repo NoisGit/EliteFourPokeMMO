@@ -2,6 +2,21 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨 Frente a Lucario ➜ Gengar +2 + Precisión X (No usar Otra Vez) 🔔 para ahorrar dinero: Gengar +6 🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Ruta de ahorro: Gengar usa Maquinación hasta +6.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

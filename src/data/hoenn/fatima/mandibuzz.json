@@ -2,6 +2,16 @@
   "id": "mandibuzz",
   "name": "Mandibuzz",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambia a Slowbro frente  Arcanine Usar Bostezo ➜ frente a Raichu ➜ sacrificar a Politoed ➜ Poliwrath +6 🐸🥊💡",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Frente a Arcanine, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Cuando salga Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
