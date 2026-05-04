@@ -2,23 +2,33 @@
   "id": "rotom_agua",
   "name": "Rotom Agua",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 si no cambia, usa Amortiguador",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Mawile ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔 Puño Hielo a Froslass; si el Puño Trueno paraliza, usar Cura Total 🔔",
+      "detail": "Si Rotom Agua no cambia, usa Amortiguador.",
       "variant": []
     },
     {
-      "detail": "Hydreigon ➜ Teletransporte",
-      "variant": []
+      "detail": "Si sale Mawile, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza a Poliwrath, usa Cura Total.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Si permanece ➜ Enviar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔 Puño Hielo a Froslass 🔔",
-      "variant": []
-    },
-    {
-      "detail": "Mawile ➜ Enviar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔 Puño Hielo a Froslass; si el Puño Trueno paraliza, usar Cura Total 🔔",
-      "variant": []
+      "detail": "Si sale Hydreigon, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Si Hydreigon permanece, envía a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Mawile, envía a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass. Si Puño Trueno paraliza a Poliwrath, usa Cura Total.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
