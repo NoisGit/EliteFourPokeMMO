@@ -26,7 +26,7 @@
               "detail": "Ruta segura: cambia a Slowbro, luego a Chansey y vuelve a Gengar.",
               "variant": [
                 {
-                  "detail": "Si sale Haxorus, Gengar usa Otra Vez y Maquinación hasta +2. Ataca hasta Lucario, luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "detail": "Si sale Haxorus, Gengar usa Otra Vez y Maquinación hasta +2. Ataca hasta que aparezca Lucario, luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 },
                 {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "detail": "Si sale Haxorus, Gengar usa Maquinación hasta +2 y ataca hasta Lucario.",
+      "detail": "Si sale Haxorus, Gengar usa Maquinación hasta +2 y ataca hasta que aparezca Lucario.",
       "variant": [
         {
           "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
