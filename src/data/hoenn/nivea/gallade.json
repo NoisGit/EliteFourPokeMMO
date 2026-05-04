@@ -2,6 +2,16 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar +6👻 🔔(Barrer con Bola Sombra)🔔 🚨(Si Skarmory hace Critico usa Max Pocion)🚨",
-  "tricks": []
+  "initialMove": "Cambia a Gengar 👻.",
+  "tricks": [
+    {
+      "detail": "Usa Maquinación hasta +6 y barre con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Si Skarmory hace golpe crítico, usa Max Poción.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
