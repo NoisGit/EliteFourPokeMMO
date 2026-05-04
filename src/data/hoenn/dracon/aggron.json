@@ -2,6 +2,16 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Encanto; Amortiguador y Frente a Gallade(banda focus) Gengar Otra vez +4 (Bola Sombra a todo) 💡",
-  "tricks": []
+  "initialMove": "Usa Encanto.",
+  "tricks": [
+    {
+      "detail": "Usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Frente a Gallade con Banda Focus, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
