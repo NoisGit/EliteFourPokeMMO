@@ -2,59 +2,78 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Gengar, luego a Slowbro para recibir Roca Afilada💡 🔔(Verificar Objeto + Precisión)🔔",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Vidasfera ➜ Cambiar a Chansey para recibir Ida y Vuelta ➜ usar Trampa Rocas frente a Mienshao ➜ cambiar a Gengar y esperar a que se debilite solo",
+      "detail": "Luego cambia a Slowbro para recibir Roca Afilada. Verifica el objeto y la precisión.",
+      "variant": []
+    },
+    {
+      "detail": "Si tiene Vidasfera, cambia a Chansey para recibir Ida y Vuelta.",
       "variant": [
         {
-          "detail": "Skarmory ➜ Cambiar a Slowbro y usar Bostezo frente a Mismagius ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
-          "variant": []
-        },
+          "detail": "Usa 🪨 Trampa Rocas 🪨 frente a Mienshao. Luego cambia a Gengar y espera a que Mienshao se debilite solo.",
+          "variant": [
+            {
+              "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo frente a Mismagius. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Walrein o Dewgong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si no tiene Vidasfera, Slowbro usa Bostezo frente a Nidoking.",
+      "variant": [
         {
-          "detail": "Walrein o Dewgong ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Vidasfera ➜ Slowbro usar Bostezo frente a Nidoking ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
-      "variant": []
-    },
-    {
-      "detail": "Sin Precisión ➜ Cambiar a Chansey 🔔(Mira el Objeto)🔔",
+      "detail": "Si no tienes precisión, cambia a Chansey y revisa el objeto.",
       "variant": [
         {
-          "detail": "Vidasfera + Ida y Vuelta ➜ Trampa Rocas frente a Mienshao ➜ cambiar a Gengar y esperar a que se debilite solo",
+          "detail": "Si tiene Vidasfera y usa Ida y Vuelta, usa 🪨 Trampa Rocas 🪨 frente a Mienshao. Luego cambia a Gengar y espera a que se debilite solo.",
           "variant": [
             {
-              "detail": "Skarmory ➜ Cambiar a Slowbro y usar Bostezo frente a Mismagius ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
+              "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo frente a Mismagius. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
               "variant": []
             },
             {
-              "detail": "Walrein o Dewgong ➜ Sacrificar a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
+              "detail": "Si sale Walrein o Dewgong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
               "variant": []
-            }  
-          ]  
+            }
+          ]
         },
         {
-          "detail": "Cambio a Nidoking ➜ Trampa Rocas frente a Mienshao ➜ cambiar a Gengar y usar Maquinación para Barrer 🔔(Si no hay crítico no debilita)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Cambio a Mismagius ➜ Trampa Rocas frente a Mienshao ➜ cambiar a Gengar y esperar a que se debilite solo",
+          "detail": "Si cambia a Nidoking, usa 🪨 Trampa Rocas 🪨 frente a Mienshao. Luego cambia a Gengar y usa Maquinación para barrer.",
           "variant": [
             {
-              "detail": "Skarmory ➜ Cambiar a Slowbro y usar Bostezo frente a Mismagius ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
+              "detail": "Si no hay golpe crítico, Gengar no debilita al rival.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si cambia a Mismagius, usa 🪨 Trampa Rocas 🪨 frente a Mienshao. Luego cambia a Gengar y espera a que se debilite solo.",
+          "variant": [
+            {
+              "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo frente a Mismagius. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
               "variant": []
             },
             {
-              "detail": "Walrein o Dewgong ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
+              "detail": "Si sale Walrein o Dewgong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
               "variant": []
             }
           ]
         }
-      ] 
+      ]
     }
-  ]  
-}  
+  ]
+}
