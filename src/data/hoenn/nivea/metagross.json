@@ -2,24 +2,36 @@
   "id": "metagross_4",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Machada ➜ Cambiar a Slowbro, luego de Volcarona a Serperior ➜ Volcarona +2 🦋🔥",
-      "variant": []
-    },
-    {
-      "detail": "Puño Meteoro ➜ Teletransporte, Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Puño Hielo a Froslass)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Mamoswine ➜ Encanto cambiar a Slowbro y usar Bostezo frente a Mismagius 🔔(Revisar la Salud del Slowbro)🔔",
+      "detail": "Si usa Machada, cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Slowbro tiene menos del 79% de vida ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Metagross)🔔"
+          "detail": "Luego entra con Volcarona frente a Serperior y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si usa Puño Meteoro, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Mamoswine, usa Encanto. Luego cambia a Slowbro y usa Bostezo frente a Mismagius.",
+      "variant": [
+        {
+          "detail": "Si Slowbro tiene menos del 79% de PS, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Metagross.",
+          "variant": []
         },
         {
-          "detail": "Slowbro tiene mas del 79% de vida ➜ Volcarona +1 🦋🔥"
+          "detail": "Si Slowbro tiene más del 79% de PS, entra con Volcarona y usa Danza Aleteo x1.",
+          "variant": []
         }
       ]
     }

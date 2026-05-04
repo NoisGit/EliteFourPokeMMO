@@ -2,6 +2,16 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 frente a Metagross ➜ cambiar a Slowbro y luego a Volcarona ➜ entra Serperior ➜ Volcarona x2 danza aleteo (serperior no te mata)",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y luego entra con Volcarona. Frente a Serperior, usa Danza Aleteo x2. Serperior no debilita a Volcarona.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

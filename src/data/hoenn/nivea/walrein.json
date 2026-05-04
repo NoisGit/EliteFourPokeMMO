@@ -2,58 +2,82 @@
   "id": "walrein",
   "name": "Walrein",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Superdiente ➜ Amortiguador frente a Hariyama ➜ Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño Hielo a Froslass)🔔",
+      "detail": "Si usa Superdiente, usa Amortiguador frente a Hariyama.",
       "variant": [
         {
-          "detail": "Mantiene Superdiente ➜ Cambiar a Gengar Otra Vez 4+2 + Precisión X 🔔(Si te Bloquean Bola Sombra, Barre con Onda Certera)🔔",
+          "detail": "Cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass.",
           "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Mienshao ➜ Cambiar a Gengar otra vez +2",
-      "variant": [
+        },
         {
-          "detail": "Mismagius ➜ Bola Sombra para Debilitar",
+          "detail": "Si mantiene Superdiente, cambia a Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
           "variant": [
-             {
-               "detail": "Sale Skarmory ➜ Cambiar a Slowbro usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Cascada a Skarmory // 👾(TESTEO)👾 Si entra Lanturn va usar Voltiocambio, usar Bostezo otra vez)🔔",
-               "variant": []
-             },
-             {
-               "detail": " Walrein o Dewgong ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory // 👾(TESTEO)👾 Si entra Lanturn va usar Voltiocambio, usar Bostezo otra vez)🔔",
-               "variant": []  
-            }  
-          ] 
-        },  
+            {
+              "detail": "Si te bloquean Bola Sombra, barre con Onda Certera.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Mienshao, cambia a Gengar, usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
         {
-          "detail": " Walrein o Dewgong ➜ Sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Cascada a Skarmory)🔔",
+          "detail": "Si sale Mismagius, usa Bola Sombra para debilitarlo.",
+          "variant": [
+            {
+              "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+              "variant": [
+                {
+                  "detail": "Nota: si entra Lanturn, probablemente usa Voltiocambio. Usa Bostezo otra vez.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Walrein o Dewgong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
+              "variant": [
+                {
+                  "detail": "Nota: si entra Lanturn, probablemente usa Voltiocambio. Usa Bostezo otra vez.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Walrein o Dewgong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Skarmory.",
           "variant": []
         },
         {
-          "detail": "Skarmory ➜ Cambiar a Slowbro y usar Bostezo frente a Mismagius ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
+          "detail": "Si sale Skarmory, cambia a Slowbro y usa Bostezo frente a Mismagius. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Glalie/altaria ➜ Barrer con Bola Sombra",
+          "detail": "Si sale Glalie o Altaria, barre con Bola Sombra.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Gallade ➜ Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
+      "detail": "Si sale Gallade, entra con Gengar, usa Maquinación hasta +4 y barre con Bola Sombra. No uses Otra Vez.",
       "variant": []
     },
     {
-      "detail": "Beactric ➜ Gengar Otra Vez +4 🔔(Barrer con Bola Sombra)🔔",
+      "detail": "Si sale Beartic, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y barre con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Metagross  ➜ Cambiar a Slowbro ➜ entra Serperior cambia a Volcarona +2 🦋🔥",
-      "variant": []
+      "detail": "Si sale Metagross, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Cuando entre Serperior, cambia a Volcarona y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
