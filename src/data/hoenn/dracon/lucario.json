@@ -2,19 +2,34 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Cambiar a Gengar 👻",
+  "initialMove": "Cambia a Gengar 👻.",
   "tricks": [
     {
-      "detail": "A Bocajarro ➜ Otra Vez ➜ cambiar a Slowbro y usar Bostezo frente a Lapras ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si usa A Bocajarro, usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Lapras. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Patada Salto Alta ➜ Gengar Maquinación y lucario se muere ➜ frente a Haxorus ➜ cambiar a Chansey y luego  Gengar Otra vez +4 (Haxorus banda focus)",
-      "variant": []
+      "detail": "Si usa Patada Salto Alta, Gengar usa Maquinación y debilita a Lucario.",
+      "variant": [
+        {
+          "detail": "Frente a Haxorus, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez y Maquinación hasta +4. Haxorus tiene Banda Focus.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Metagross ➜ Cambiar a Slowbro, luego a Chansey frente a Lapras ➜ Trampa Rocas frente a Metagross ➜ cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed; Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Si sale Metagross, cambia a Slowbro y luego a Chansey frente a Lapras.",
+      "variant": [
+        {
+          "detail": "Usa 🪨 Trampa Rocas 🪨 frente a Metagross. Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
-}  
+}

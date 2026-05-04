@@ -2,15 +2,25 @@
   "id": "seviper",
   "name": "Seviper",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Metagross --> Cambiar a Slowbro y usar Bostezo frente a Lapras; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo frente a Lapras.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Gallade--> Cambiar a Slowbro y usar Bostezo frente a Empoleon; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Gallade, cambia a Slowbro y usa Bostezo frente a Empoleon.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

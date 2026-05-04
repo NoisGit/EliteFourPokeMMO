@@ -2,19 +2,34 @@
   "id": "gallade",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 AMORTIGUADOR 🥚",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Espada Santa ➜ Gengar, Otra Vez, +4 +2 + Precisión + Otra Vez (🔔Tiene Banda Focus🔔)",
-      "variant": []
+      "detail": "Si usa Espada Santa, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Usa Maquinación hasta +4, Velocidad X para +2 Velocidad, Precisión X y Otra Vez. Gallade tiene Banda Focus.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Lucario ➜ Gengar usa Maquinación y va entrar Haxorus cambiar a Chansey y luego volver a Gengar, Otra Vez, +4 + Otra Vez 🔔haxorus banda focus🔔",
-      "variant": []
+      "detail": "Si sale Lucario, Gengar usa Maquinación.",
+      "variant": [
+        {
+          "detail": "Cuando entre Haxorus, cambia a Chansey y luego vuelve a Gengar. Usa Otra Vez, Maquinación hasta +4 y Otra Vez. Haxorus tiene Banda Focus.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Haxorus ➜ Gengar, Otra Vez, +4 +2 + Otra Vez (🔔haxorus banda focus🔔)",
-      "variant": []
+      "detail": "Si sale Haxorus, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Otra Vez. Haxorus tiene Banda Focus.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

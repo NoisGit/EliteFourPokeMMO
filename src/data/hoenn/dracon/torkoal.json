@@ -2,14 +2,23 @@
   "id": "torkoal",
   "name": "Torkoal",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Encanto 💡 ❗ Arriesgar sacrificar a Politoed; Poliwrath +6❗",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Fuerza Bruta --> Amortiguador; esperar a Gallade/Roserade; Gengar +2 +2 + Precisión (No usar Otra Vez)",
+      "detail": "Ruta arriesgada: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     },
     {
-      "detail": "Gallade --> Gengar +2 +2 + Precisión (No usar Otra Vez)",
+      "detail": "Si usa Fuerza Bruta, usa Amortiguador y espera a Gallade o Roserade.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Gallade, entra con Gengar, usa Maquinación hasta +4 y Precisión X. No uses Otra Vez.",
       "variant": []
     }
   ]

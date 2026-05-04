@@ -2,46 +2,56 @@
   "id": "ampharos",
   "name": "Ampharos",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Haxorus ➜ Gengar Otra vez +2 ataca hasta que aparesca Lucario, sacrifica a Politoed, Poliwrath +6 🔔(Puño Drenaje a Ampharos)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Cambiar a Gengar para ver el movimiento",
+      "detail": "Si sale Haxorus, entra con Gengar, usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Patada Salto Alta ➜ ⬇️Opción para resolver⬇️",
+          "detail": "Ataca hasta que aparezca Lucario. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
+      "variant": [
+        {
+          "detail": "Si usa Patada Salto Alta, elige una ruta para resolver.",
           "variant": [
             {
-              "detail": "🚨Arriesgar🚨 ➜ Maquinación y barrer directamente ",
+              "detail": "Ruta arriesgada: usa Maquinación y barre directamente.",
               "variant": []
             },
             {
-              "detail": "✅Seguro✅ ➜ Cambiar a Slowbro, luego a Chansey y volver a Gengar",
+              "detail": "Ruta segura: cambia a Slowbro, luego a Chansey y vuelve a Gengar.",
               "variant": [
                 {
-                  "detail": "Haxorus ➜ Gengar +2 ataca hasta que aparesca Lucario, sacrifica a Politoed, Poliwrath +6 🔔(Puño Drenaje a Ampharos)🔔",
+                  "detail": "Si sale Haxorus, Gengar usa Maquinación hasta +2 y ataca hasta que aparezca Lucario. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
                   "variant": []
                 },
                 {
-                  "detail": "Lucario ➜ Sacrificar a Politoed; Poliwrath +6 🔔(Puño Drenaje a Ampharos)🔔",
+                  "detail": "Si sale Lucario, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
                   "variant": []
-                }  
-              ]  
-            } 
-          ]  
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "A Bocajarro ➜ Gengar +4 🔔(Bola Sombra a todo)🔔",
+          "detail": "Si usa A Bocajarro, Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
           "variant": []
-        }  
-      ] 
+        }
+      ]
     },
     {
-      "detail": "Feraligatr ➜ Cambiar a Slowbro y usar Bostezo frente a Sceptile, Volcarona +3 🔔(Mantener PS por encima del 75%)🔔",
-      "variant": []
+      "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Mantén los PS por encima del 75%.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
