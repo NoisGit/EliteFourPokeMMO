@@ -2,41 +2,61 @@
   "id": "gardevoir",
   "name": "Gardevoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Vidasfera + Psicocarga --> Teletransporte; enviar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Sin Vidasfera + Psicocarga --> Teletransporte; Gengar usa un movimiento para caer debilitado",
+      "detail": "Si tiene Vidasfera y usa Psicocarga, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Whiscash --> Opción para resolver",
+          "detail": "Envía a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si no tiene Vidasfera y usa Psicocarga, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Gengar usa un movimiento para quedar debilitado.",
           "variant": [
             {
-              "detail": "✅Seguro✅ --> Slowbro usa Bostezo frente a Roserade; sacrificar a Politoed; Poliwrath +6",
+              "detail": "Si sale Whiscash, elige una ruta para resolver.",
+              "variant": [
+                {
+                  "detail": "Ruta segura: Slowbro usa Bostezo frente a Roserade. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                },
+                {
+                  "detail": "Ruta arriesgada: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Milotic, Slowbro usa Bostezo frente a Roserade. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "🚨Arriesgar🚨 --> Sacrificar a Politoed; Poliwrath +6",
-              "variant": []
-            } 
-          ]  
-       },
-       {
-         "detail": "Milotic --> Slowbro usa Bostezo frente a Roserade; sacrificar a Politoed; Poliwrath +6",
-         "variant": []
-       },
-       {
-         "detail": "Togekiss --> Onda Certera y sacrificar; 💊Slowbro toma defensa especial X💊 y usa Bostezo frente a Roserade; sacrificar a Politoed; Poliwrath +6",
-         "variant": []
-       }  
-      ]   
+              "detail": "Si sale Togekiss, usa Onda Certera y deja que Gengar quede debilitado.",
+              "variant": [
+                {
+                  "detail": "Slowbro usa Defensa Especial X y Bostezo frente a Roserade. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Eelektross --> Gengar usa Otra Vez; cambiar a Slowbro; usar Bostezo; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
