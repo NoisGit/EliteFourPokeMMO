@@ -5,12 +5,17 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Puño Drenaje ➜ Gengar +4 +2 🔔Bola Sombra a todo🔔",
+      "detail": "Si usa Puño Drenaje, entra con Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Fuerza Bruta ➜ Amortiguador y esperar a Gallade ➜ Gengar +4 + Otra Vez",
-      "variant": []
+      "detail": "Si usa Fuerza Bruta, usa Amortiguador y espera a Gallade.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Otra Vez, Maquinación hasta +4 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

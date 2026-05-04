@@ -2,6 +2,16 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Amortiguador frente a Eelektross; Gengar, Otra Vez, +4 +2 (Bola Sombra a todo)👻",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Frente a Eelektross.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

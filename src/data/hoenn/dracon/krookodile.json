@@ -2,6 +2,16 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 Gengar +4 +2 + Precisión X (No usar Otra Vez) usar ataques supereficaces 🐊 ",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Entra con Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
+      "variant": [
+        {
+          "detail": "Usa ataques súper eficaces para cerrar la ruta.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,68 +2,83 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔(Ver si tiene Intimidación)🔔",
+  "initialMove": "💡 Revisa si tiene Intimidación 💡",
   "tricks": [
     {
-      "detail": "Tiene Intimidación --> Amortiguador",
+      "detail": "Si tiene Intimidación, usa Amortiguador.",
       "variant": [
         {
-          "detail": "Feraligatr ➜ cambiar a Slowbro y usar Bostezo frente a Sceptile ➜ Volcarona +3 🔔(Puedes usar un Especial X)🔔 🚨(PS por encima del 75%)🚨",
+          "detail": "Si sale Feraligatr, cambia a Slowbro y usa Bostezo frente a Sceptile.",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Ataque Especial X. Mantén los PS por encima del 75%.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Gallade, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Gallade tiene Banda Focus.",
           "variant": []
         },
         {
-          "detail": "Gallade ➜  Gengar Otra Vez 4+2 + Precisión X 🔔gallade Tiene Banda focus🔔 ",
-          "variant": []
-        },
-        {
-          "detail": "Eelektross/Regice ➜ Gengar Otra Vez 4+2 🔔(Barre con Bola Sombra)🔔",
+          "detail": "Si sale Eelektross o Regice, entra con Gengar, usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Intimidación ➜ Trampa Rocas",
+      "detail": "Si no tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Lucario ➜ Cambiar a Gengar 🔔(Ver movimiento)🔔",
+          "detail": "Si sale Lucario, cambia a Gengar para revisar el movimiento.",
           "variant": [
             {
-              "detail": "A Bocajarro ➜ Gengar +4 🔔(Barre con Bola Sombra)🔔",
+              "detail": "Si usa A Bocajarro, Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
               "variant": []
             },
             {
-              "detail": "Patada Salto Alta ➜ ⬇️Opciónes para Resolver⬇️",
+              "detail": "Si usa Patada Salto Alta, elige una ruta para resolver.",
               "variant": [
                 {
-                  "detail": "🚨Arriesgar🚨 ➜ Maquinación y barrer directamente 🔔(Aleatorio contra Lapras)🔔",
+                  "detail": "Ruta arriesgada: usa Maquinación y barre directamente. La situación contra Lapras queda aleatoria.",
                   "variant": []
                 },
                 {
-                  "detail": "✅ Ruta Segura✅ ➜ Cambiar a Slowbro, luego a Chansey y volver a Gengar",
+                  "detail": "Ruta segura: cambia a Slowbro, luego a Chansey y vuelve a Gengar.",
                   "variant": [
                     {
-                      "detail": "Haxorus ➜ Gengar otra vez +2 y ataca hasta tener en frente a Lucario ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Puño drenaje a Ampharos,Lucario Pañuelo elegido)🔔",
+                      "detail": "Si sale Haxorus, Gengar usa Otra Vez y Maquinación hasta +2. Ataca hasta tener a Lucario enfrente. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos. Lucario tiene Pañuelo Elegido.",
                       "variant": []
                     },
                     {
-                      "detail": "Lucario ➜ Sacrifica a Politoed ➜ Poliwrath +6 🔔(Puño drenaje a Ampharos)🔔",
+                      "detail": "Si sale Lucario, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos.",
                       "variant": []
                     }
                   ]
-                } 
-              ] 
-            } 
-          ]   
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Metagross ➜ Cambiar a Slowbro y usar Bostezo ➜ frente a Lapras ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Si Metagross se queda, sigue con Bostezo)🔔",
-          "variant": []
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo frente a Lapras.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Si Metagross se queda, sigue usando Bostezo.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Haxorus ➜ Gengar Otra vez +2 Ataca Hasta Tener en frente a Lucario ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Puño drenaje a Ampharos, Lucario Pañuelo elegido)🔔",
-          "variant": []
-        } 
-      ]  
+          "detail": "Si sale Haxorus, Gengar usa Otra Vez y Maquinación hasta +2. Ataca hasta tener a Lucario enfrente.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Ampharos. Lucario tiene Pañuelo Elegido.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
