@@ -2,37 +2,47 @@
   "id": "abomasnow",
   "name": "Abomasnow",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "⬇️Mira las Opciones para Resolver⬇️",
+  "initialMove": "💡 Varias opciones 💡",
   "tricks": [
     {
-      "detail": "🍀SUERTE🍀 ➜ Sacrificar a Politoed, saca a Poliwrath y usa Puño Drenaje, 💊frente a Empoleon usa un Ataque X y luego Barre💊",
-      "variant": []
-    },  
-    {
-      "detail": "✅RAPIDO✅ ➜ Cambia a Gengar 🔔(Mira si el Cuerpo Maldito se Activa)🔔",
+      "detail": "Ruta con suerte: entra Politoed como pivote y luego entra con Poliwrath 🐸🥊.",
       "variant": [
         {
-          "detail": "Si se Activa ➜ Sacrificar a Politoed y entra Poliwrath +6",
+          "detail": "Usa Puño Drenaje. Frente a Empoleon, usa Ataque X y barre.",
           "variant": []
-        },  
-        {  
-          "detail": "No se Activa ➜ Gengar Otra Vez 🔔(Mira tu Situacion)🔔",
-          "variant": [
-            {  
-              "detail": "☠️Gengar Muere☠️ ➜ Volcarona +2",
-              "variant": [] 
-            },  
-            {    
-              "detail": "👻Gengar no Muere👻 ➜ Sacrificar a Politoed y entra Poliwrath +6",
-              "variant": [] 
-            }  
-          ]  
-        }  
-      ]    
-    },  
+        }
+      ]
+    },
     {
-      "detail": "💰AHORRAR💰 ➜ 💕Encanto tres veces💕; Teletransporte; Volcarona +2 🚨(PS por encima del 70%)🚨",
-      "variant": []
+      "detail": "Ruta rápida: cambia a Gengar y revisa si se activa Cuerpo Maldito.",
+      "variant": [
+        {
+          "detail": "Si se activa, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si no se activa, Gengar usa Otra Vez y revisa la situación.",
+          "variant": [
+            {
+              "detail": "Si Gengar cae, entra con Volcarona y usa Danza Aleteo x2.",
+              "variant": []
+            },
+            {
+              "detail": "Si Gengar no cae, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Ruta de ahorro: usa Encanto tres veces. Luego usa Teletransporte hacia Volcarona y usa Danza Aleteo x2.",
+      "variant": [
+        {
+          "detail": "Mantén los PS de Volcarona por encima del 70%.",
+          "variant": []
+        }
+      ]
     }
-  ]  
-}  
+  ]
+}
