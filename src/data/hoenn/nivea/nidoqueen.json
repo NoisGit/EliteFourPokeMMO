@@ -2,22 +2,27 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Metagross ➜ Cambiar a Slowbro, luego a Volcarona frente a Serperior ➜ Volcarona +2 🦋🔥",
+      "detail": "Si sale Metagross, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona frente a Serperior y usa Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Mienshao, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y barre con Bola Sombra.",
       "variant": []
     },
     {
-      "detail": "Mienshao ➜ Gengar Otra Vez +2 🔔(Barrer con Bola Sombra)🔔",
+      "detail": "Si sale Gallade, entra con Gengar, usa Maquinación hasta +4 y barre con Bola Sombra. No uses Otra Vez.",
       "variant": []
     },
     {
-      "detail": "Gallade ➜ Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
-      "variant": []
-    },
-    {
-      "detail": "beartic ➜ Gengar Otra Vez +4 🔔(Barrer con Bola Sombra)🔔",
+      "detail": "Si sale Beartic, entra con Gengar, usa Otra Vez, Maquinación hasta +4 y barre con Bola Sombra.",
       "variant": []
     }
   ]
