@@ -2,11 +2,16 @@
   "id": "vanilluxe",
   "name": "Vanilluxe",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Gallade ➜ Gengar Otra Vez 2+2 + Precisión X (no tiene banda focus) 🔔(Onda Certera a Empoleon/Walrein o Dewgong)🔔",
-      "variant": []
+      "detail": "Si sale Gallade, entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. Gallade no tiene Banda Focus.",
+      "variant": [
+        {
+          "detail": "Usa Onda Certera contra Empoleon, Walrein o Dewgong.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
