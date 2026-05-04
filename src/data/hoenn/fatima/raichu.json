@@ -2,6 +2,16 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambiar a Slowbro ➜ ante Arcanine ➜ Slowbro Bostezo frente a Raichu ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊💡",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Frente a Arcanine, usa Bostezo frente a Raichu.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

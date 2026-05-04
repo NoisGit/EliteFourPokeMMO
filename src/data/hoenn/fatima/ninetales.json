@@ -2,6 +2,16 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Amortiguador frente a Lucario; Gengar +4 +2 💡 Bola Sombra a todo",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Frente a Lucario.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

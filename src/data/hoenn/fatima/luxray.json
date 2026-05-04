@@ -2,6 +2,16 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 Gengar +4 + Defensa X 🔔Si usa Fuerza Bruta y sale críto  usar primero max pocion  y luego Bola Sombra a todo🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Entra con Gengar, usa Maquinación hasta +4 y Defensa X.",
+      "variant": [
+        {
+          "detail": "Si Luxray usa Fuerza Bruta y sale crítico, usa primero Max Poción. Luego barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

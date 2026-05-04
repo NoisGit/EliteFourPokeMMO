@@ -2,15 +2,25 @@
   "id": "meganium",
   "name": "Meganium",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Arcanine --> Cambiar a Slowbro; Slowbro Bostezo frente a Raichu; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Arcanine, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo frente a Raichu. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Lucario --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
