@@ -2,6 +2,16 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔🐸Cambiar a Slowbro y usar Bostezo frente a Serperior; Teletransporte; Volcarona +2🐸🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo frente a Serperior.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

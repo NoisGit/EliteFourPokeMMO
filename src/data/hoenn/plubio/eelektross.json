@@ -2,79 +2,113 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 TRAMPA ROCAS 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": " Fuerza Bruta ➜ Gengar Otra Vez luego cambia a Slowbro",
+      "detail": "Si usa Fuerza Bruta, entra con Gengar y usa Otra Vez. Luego cambia a Slowbro.",
       "variant": [
-         {
-           "detail": "🍎 Milotic con Restos 🍎 ➜ Bostezo",
-           "variant": [
-              {
-                "detail": "Serperior ➜ Usa Proteccion, y vuelve a usar Bostezo → sacrifica al sapito y entra Poliwrath +6 🥊",
-                "variant": []
-              },
-              {
-                "detail": "Otro➜ Sacrifica al sapito despues entra Poliwrath +6 🥊",
-                "variant": []
-              }
-           ] 
-         },
-         {
-           "detail": " Milotic sin Restos ➜ Usa Bostezo 🔔(Si usa Escaldar sigue usando Bostezo)🔔",
-           "variant": [
-              {
-                "detail": "Poder Oculto Electrico ➜ Sacrifica al sapito y entra Poliwrath +6 🥊",
-                "variant": []
-              },
-              {
-                "detail": "Serperior➜ Usa Proteccion luego Bostezo frente a Eelektross despues sacrifica al sapito y entra Poliwrath +6 🥊",
-                "variant": []
-              },
-              {
-                "detail": "Eelektros ➜ Sacrifica al sapito despues entra Poliwrath +6 🥊",
-                "variant": []
-              },
-              {
-                "detail": " Altaria ➜ Usa Proteccion y Bostezo ",
-                "variant": [
-                  {
-                    "detail": "Eelektross ➜ Sacrifica al sapito y entra Poliwrath +6 🥊",
-                    "variant": []
-                  },  
-                  {
-                    "detail": "Gyarados ➜ 💊 Volcarona +1 y un Ataque Especial X 💊",
-                    "variant": []
-                  }   
-                ]   
-              } 
-           ]
-         },
-         {
-           "detail": "Swampert ➜ Bostezo frente a Altaria, Cambia a Chansey para atraer a Eelektross luego usa Teletransporte y saca a Slowbro, usa Bostezo despues sacrifica al sapito y entra Poliwrath +6 🥊",
-           "variant": []
-         },
-         {
-           "detail": "Gardevoir ➜ Bostezo luego sacrifica al sapito y entra Poliwrath +6 🥊",
-           "variant": []
-         },
-         {
-           "detail": "Mienshao ➜ Cambia a Gengar y usa Otra Vez, frente a Milotic sacrifica al sapito y entra Poliwrath +6 🥊",
-           "variant": []
-         },
-         { 
-           "detail": "Gengar atrapa a Eelektros en un ataque electrico ➜ 💊Cambia a Chansey y tomate una pocion max💊, cambia a Slowbro y usa Bostezo frente a Altaria, cambia a Chansey para atraer a Eelektross y luego usa Teletransporte, entra Slowbro y usa Bostezo despues sacrifica al sapito y entra Poliwrath +6 🥊",
-           "variant": []
-         } 
-      ]  
+        {
+          "detail": "Si sale Milotic con Restos, usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Serperior, usa Protección y vuelve a usar Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale otro Pokémon, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Milotic sin Restos, usa Bostezo. Si usa Escaldar, sigue usando Bostezo.",
+          "variant": [
+            {
+              "detail": "Si usa Poder Oculto Eléctrico, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Serperior, usa Protección y luego Bostezo frente a Eelektross. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Eelektross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Altaria, usa Protección y Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si sale Eelektross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Gyarados, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Swampert, usa Bostezo frente a Altaria. Cambia a Chansey para atraer a Eelektross, usa Teletransporte hacia Slowbro y vuelve a usar Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Gardevoir, usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Frente a Milotic, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si Gengar encierra a Eelektross en un ataque eléctrico, cambia a Chansey y usa Max Poción.",
+          "variant": [
+            {
+              "detail": "Cambia a Slowbro y usa Bostezo frente a Altaria. Luego cambia a Chansey para atraer a Eelektross, usa Teletransporte hacia Slowbro y vuelve a usar Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Mienshao ➜ Cambia a Slowbro y usa Bostezo contra Serperior despues Teletransporte y saca a Volcarona +2 🔥",
-      "variant": []
+      "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo contra Serperior.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Metagross ➜ Sacrifica al sapito y entra Poliwrath +6 🥊  🔔(Jugada Estable: Saca a Slowbro y usa Bostezo)🔔",
-      "variant": []
+      "detail": "Si sale Metagross, elige una ruta.",
+      "variant": [
+        {
+          "detail": "Ruta rápida: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
