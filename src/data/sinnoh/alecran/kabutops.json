@@ -2,49 +2,69 @@
   "id": "kabutops",
   "name": "Kabutops",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Cambiar a Slowbro y usar Bostezo",
+      "detail": "Si Kabutops se queda, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Yanmega ➜ Sacrifica a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "detail": "Si sale Yanmega, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Drapion ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "detail": "Si sale Drapion, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥 ",
+          "detail": "Si sale Ferrothorn, entra con Volcarona y usa Danza Aleteo x2. 🦋🔥",
           "variant": []
         },
         {
-          "detail": "Scizor ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-          "variant": []  
-        }
-      ]
-    },
-    {
-      "detail": "Flygon ➜ Usar Teletransporte ➜ enviar a Slowbro  🔔(Revisar daño de Terremoto)🔔",
-      "variant": [
-        {
-          "detail": "29.4 - 34.5% (Crítico 43.7 - 51.7%) --> Usar Relajo para recibir Cometa Draco ➜ usa Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "36.5 - 44% (Crítico 54 - 65%) ➜ Usa Bostezo hasta enfrentar a Drapion/Scizor ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
+          "detail": "Si sale Scizor, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Durant ➜ Entra con Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
-      "variant": []
+      "detail": "Si sale Flygon, usa Teletransporte y envía a Slowbro. Revisa el daño de Terremoto.",
+      "variant": [
+        {
+          "detail": "Si Terremoto hace 29.4 - 34.5%, o 43.7 - 51.7% con crítico, usa Relajo para recibir Cometa Draco.",
+          "variant": [
+            {
+              "detail": "Luego usa Bostezo al enfrentar a Yanmega. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si Terremoto hace 36.5 - 44%, o 54 - 65% con crítico, usa Bostezo hasta enfrentar a Drapion o Scizor.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Scizor ➜ Chansey usa Amortiguador esperando a Flygon ➜ cambia a Slowbro y usar Bostezo al enfrentar a Drapion ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Durant, entra con Gengar y usa Maquinación hasta +4. No uses Otra Vez.",
+      "variant": [
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Scizor, Chansey usa Amortiguador esperando a Flygon.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo al enfrentar a Drapion. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
