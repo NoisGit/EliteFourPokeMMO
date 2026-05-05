@@ -2,6 +2,16 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔 sacrificar a Politoed; Poliwrath +6 🔔 Si Poliwrath muere, Gengar +4 +2 🔔",
-  "tricks": []
+  "initialMove": "Entra Politoed como pivote.",
+  "tricks": [
+    {
+      "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": [
+        {
+          "detail": "Si Poliwrath cae, entra con Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,42 +2,57 @@
   "id": "togekiss",
   "name": "Togekiss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Teletransporte 💡",
+  "initialMove": "Usa Teletransporte.",
   "tricks": [
     {
-      "detail": "Fallo al cambiar --> Ver daño; 🔔(Si no hay golpe, ver Roserade con Vidasfera para confirmar equipo)🔔",
+      "detail": "Si falla al cambiar, revisa el daño. Si no hay golpe, revisa si Roserade tiene Vidasfera para confirmar el equipo.",
       "variant": [
         {
-          "detail": "Golpe a Chansey (menos del 15%) --> Enviar a Slowbro; aguantar con + X SpDef; Bostezo frente a Roserade; Teletransporte; Volcarona +4 🔔(Mantener PS por encima del 70%)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Golpe a Chansey (más del 15%) --> Enviar a Slowbro; aguantar con + X SpDef; Bostezo frente a Roserade; Teletransporte; 💊Volcarona +1 + Especial X💊",
-          "variant": []
-        }  
-      ]  
-    },
-    {
-      "detail": "Poder Oculto --> Ver daño",
-      "variant": [
-        {
-          "detail": "Golpe a Chansey (menos del 20%) --> Gengar usa Otra Vez; cambiar a Slowbro frente a Milotic; usar Bostezo",
+          "detail": "Si el golpe a Chansey hace menos del 15%, envía a Slowbro y aguanta con Defensa Especial X.",
           "variant": [
             {
-              "detail": "Poder Oculto Eléctrico --> Sacrificar a Politoed; Poliwrath +6",
+              "detail": "Usa Bostezo frente a Roserade. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x4. Mantén los PS por encima del 70%.",
               "variant": []
-            },
-            { 
-              "detail": "Roserade --> Volcarona +4 🔔(Antes de barrer mantener PS por encima del 70%)🔔",
-              "variant": []
-            }  
-          ]   
+            }
+          ]
         },
         {
-          "detail": "Golpe a Chansey (más del 20%) --> Enviar a Slowbro; usar Bostezo frente a Roserade; Teletransporte; 💊Volcarona +1 + Especial X💊",
-          "variant": []
-        }  
-      ]  
+          "detail": "Si el golpe a Chansey hace más del 15%, envía a Slowbro y aguanta con Defensa Especial X.",
+          "variant": [
+            {
+              "detail": "Usa Bostezo frente a Roserade. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si usa Poder Oculto, revisa el daño.",
+      "variant": [
+        {
+          "detail": "Si el golpe a Chansey hace menos del 20%, Gengar usa Otra Vez y cambia a Slowbro frente a Milotic.",
+          "variant": [
+            {
+              "detail": "Usa Bostezo. Si usa Poder Oculto Eléctrico, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Roserade, entra con Volcarona y usa Danza Aleteo x4. Antes de barrer, mantén los PS por encima del 70%.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si el golpe a Chansey hace más del 20%, envía a Slowbro y usa Bostezo frente a Roserade.",
+          "variant": [
+            {
+              "detail": "Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1 y Ataque Especial X.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

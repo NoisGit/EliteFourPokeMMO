@@ -5,60 +5,65 @@
   "initialMove": "🥚 Amortiguador 🥚",
   "tricks": [
     {
-      "detail": "Vidasfera + Lluevehojas / Bomba Lodo --> Teletransporte; Slowbro usa Bostezo; Teletransporte; 💊Volcarona +1 + Especial X💊",
-      "variant": []
-    },
-    {
-      "detail": "Sin Vidasfera + Lluevehojas --> Teletransporte",
+      "detail": "Si tiene Vidasfera y usa Lluevehojas o Bomba Lodo, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si se queda --> Volcarona +4 🔔(Mantener PS por encima del 70%)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Gardevoir --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Milotic --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Slowbro usa Bostezo. Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Vidasfera + Bomba Lodo (Testeo) --> Teletransporte; Volcarona debilita 🔔(Ver quién sale)🔔",
+      "detail": "Si no tiene Vidasfera y usa Lluevehojas, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Milotic --> Cambiar a Chansey para ver movimiento",
+          "detail": "Si Roserade se queda, entra con Volcarona y usa Danza Aleteo x4. Mantén los PS por encima del 70%.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gardevoir, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Milotic, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si no tiene Vidasfera y usa Bomba Lodo, usa Teletransporte y entra con Volcarona para debilitar a Roserade.",
+      "variant": [
+        {
+          "detail": "Si sale Milotic, cambia a Chansey para revisar el movimiento.",
           "variant": [
             {
-              "detail": "Hidrobomba / Surf --> Teletransporte; Slowbro usa Bostezo frente a Ludicolo; sacrificar a Politoed; Poliwrath +6",
+              "detail": "Si usa Hidrobomba o Surf, usa Teletransporte hacia Slowbro y usa Bostezo frente a Ludicolo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Escaldar --> Cambiar a Slowbro y usar Bostezo frente a Gardevoir; sacrificar a Politoed; Poliwrath +6",
+              "detail": "Si usa Escaldar, cambia a Slowbro y usa Bostezo frente a Gardevoir. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
-            }  
-          ]  
+            }
+          ]
         },
         {
-          "detail": "Togekiss --> Sacrificar a Volcarona; Slowbro aguanta + X SpDef y usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si sale Togekiss, deja que Volcarona quede debilitada. Slowbro aguanta con Defensa Especial X y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Gardevoir --> Sacrificar a Volcarona; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si sale Gardevoir, deja que Volcarona quede debilitada. Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Metagross --> Sacrificar a Politoed; Poliwrath +6",
+      "detail": "Si sale Metagross, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": [
         {
-          "detail": "☠️Si Poliwrath cae☠️ --> Gengar 4+2 🔔(Bola Sombra a Seaking)🔔",
+          "detail": "Si Poliwrath cae, entra con Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y usa Bola Sombra contra Seaking.",
           "variant": []
         }
-      ]  
+      ]
     }
   ]
 }

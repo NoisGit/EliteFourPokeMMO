@@ -2,6 +2,21 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Amortiguador frente a Eelektross; Gengar usa Otra Vez; cambiar a Slowbro y usar Bostezo frente a Altaria; cambiar a Chansey y esperar a Eelektross; Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6 💡",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Frente a Eelektross, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Altaria. Luego cambia a Chansey para atraer a Eelektross, usa Teletransporte hacia Slowbro y vuelve a usar Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -2,6 +2,21 @@
   "id": "walrein",
   "name": "Walrein",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐸 CAMBIA AL SAPITO LUEGO ENTRA METAGROSS Y DEJA QUE LO MATE DESPUES ENTRA POLIWRATH +6 🐸 🚨(SI MUERE POR CRITICO ENTRA GENGAR 4+2)🚨",
-  "tricks": []
+  "initialMove": "Cambia a Politoed.",
+  "tricks": [
+    {
+      "detail": "Luego entra Metagross y deja que Walrein lo debilite.",
+      "variant": [
+        {
+          "detail": "Después entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Si Poliwrath cae por crítico, entra con Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

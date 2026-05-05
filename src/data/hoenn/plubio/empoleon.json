@@ -2,47 +2,72 @@
   "id": "empoleon",
   "name": "Empoleon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto --> Cambiar a Slowbro y usar Bostezo frente a Roserade; Volcarona +3 🔔(Antes de barrer mantener PS por encima del 70%)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Cascada --> Cambiar a Slowbro y usar Bostezo frente a Roserade; Teletransporte; Volcarona +1; presionar hasta Milotic, luego usar Danza Aleteo una vez y presionar dos veces a Milotic 🔔(Milotic Crítico o primero curar al máximo)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Escaldar --> Cambiar a Slowbro",
+      "detail": "Si usa Terremoto, cambia a Slowbro y usa Bostezo frente a Roserade.",
       "variant": [
         {
-          "detail": "Si se queda --> Bostezo frente a Roserade; Volcarona +4 🔔(Puedes tomar un Atk. Especial X)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Milotic --> Bostezo; sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Roserade --> Volcarona +4 🔔(Puedes tomar un Atk. Especial X)🔔",
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Antes de barrer, mantén los PS por encima del 70%.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Milotic --> Cambiar a Slowbro y usar Bostezo frente a Roserade; Volcarona +4",
-      "variant": []
-    },
-    {
-      "detail": "Roserade --> Teletransporte",
+      "detail": "Si usa Cascada, cambia a Slowbro y usa Bostezo frente a Roserade.",
       "variant": [
         {
-          "detail": "Movimiento Planta --> Volcarona +4 🔔(Puedes tomar un Atk. Especial X)🔔",
+          "detail": "Usa Teletransporte hacia Volcarona y usa Danza Aleteo x1. Presiona hasta Milotic, luego usa Danza Aleteo una vez más y presiona dos veces a Milotic. Si Milotic hace crítico, primero cura al máximo.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si usa Escaldar, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Si Empoleon se queda, usa Bostezo frente a Roserade. Luego entra con Volcarona y usa Danza Aleteo x4. Puedes usar Ataque Especial X.",
           "variant": []
         },
         {
-          "detail": "Movimiento Veneno --> Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si sale Milotic, usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Roserade, entra con Volcarona y usa Danza Aleteo x4. Puedes usar Ataque Especial X.",
           "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Milotic, cambia a Slowbro y usa Bostezo frente a Roserade.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x4.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Roserade, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Si usa un movimiento de Planta, entra con Volcarona y usa Danza Aleteo x4. Puedes usar Ataque Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa un movimiento de Veneno, Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

@@ -2,28 +2,38 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Lluevehojas --> Teletransporte 🔔(Ver cuánto aumenta su Ataque)🔔",
+      "detail": "Si usa Lluevehojas, usa Teletransporte y revisa cuánto aumenta su Ataque Especial.",
       "variant": [
         {
-          "detail": "+4 --> Enviar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si llega a +4, envía a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "+2 --> 💊Volcarona +1 + Especial X💊",
+          "detail": "Si queda en +2, entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X.",
           "variant": []
-        }  
-      ]  
+        }
+      ]
     },
     {
-      "detail": "Mienshao --> Cambiar a Slowbro y usar Bostezo frente a Serperior; Teletransporte; Volcarona +2",
-      "variant": []
+      "detail": "Si sale Mienshao, cambia a Slowbro y usa Bostezo frente a Serperior.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte y entra con Volcarona para usar Danza Aleteo x2.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Eelektross --> Gengar usa Otra Vez; cambiar a Slowbro frente a Milotic; usar Bostezo; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez y cambia a Slowbro frente a Milotic.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
