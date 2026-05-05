@@ -2,11 +2,21 @@
   "id": "heracross",
   "name": "Heracross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar Otra vez +2 y Bola Sombra 💡",
+  "initialMove": "Gengar usa Otra Vez.",
   "tricks": [
     {
-      "detail": "Drapion ➜ Cambia a Chansey usa Trampa Rocas al enfrentar a Durant ➜ entra con Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
-      "variant": []
+      "detail": "Luego Gengar usa Maquinación hasta +2 y Bola Sombra. 💡",
+      "variant": [
+        {
+          "detail": "Si sale Drapion, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Durant.",
+          "variant": [
+            {
+              "detail": "Después entra con Gengar y usa Maquinación hasta +4. No uses Otra Vez. Barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

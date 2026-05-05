@@ -2,6 +2,25 @@
   "id": "dustox",
   "name": "Dustox",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Flygon ➜ cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊 🔔(Si no Cambia usa Amortiguador)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Flygon, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Flygon no cambia, usa Amortiguador.",
+          "variant": [
+            {
+              "detail": "Después continúa la ruta: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si la ruta continúa normalmente, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
