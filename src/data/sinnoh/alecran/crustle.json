@@ -2,6 +2,31 @@
   "id": "crustle",
   "name": "Crustle",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Skuntank ➜ sacrifica a Politoed ➜ cambiar a Volcarona luego a Gengar ➜ frente a Durant cambia a Slowbro y usa Bostezo luego Teletransporte ➜ entrar con Poliwrath +6 y usa Puño Drenaje ➜ 💊frente Crustle usar Velocidad X luego termina de Barrer💊",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Skuntank, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona y luego a Gengar.",
+          "variant": [
+            {
+              "detail": "Frente a Durant, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y usa Puño Drenaje.",
+                  "variant": [
+                    {
+                      "detail": "Frente a Crustle, usa Velocidad X y termina de barrer.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

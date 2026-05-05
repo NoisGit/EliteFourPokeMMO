@@ -2,15 +2,25 @@
   "id": "omastar",
   "name": "Omastar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Escavalier ➜ Sacrificar a Politoed ➜ Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Escavalier, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Kingler ➜ Cambiar a Slowbro usa Bostezo ➜ frente a Sceptile entra con Volcarona +1 🦋🔥",
-      "variant": []
+      "detail": "Si sale Kingler, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Sceptile, entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
+          "variant": []
+        }
+      ]
     }
   ]
 }
