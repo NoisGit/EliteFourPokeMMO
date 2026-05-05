@@ -8,11 +8,16 @@
       "detail": "Al enfrentar a Flygon, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Si Flygon no cambia, usa Amortiguador.",
+          "variant": [
+            {
+              "detail": "Después continúa la ruta: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si Flygon no cambia, usa Amortiguador.",
+          "detail": "Si la ruta continúa normalmente, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
