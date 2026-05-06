@@ -2,6 +2,26 @@
   "id": "forretress",
   "name": "Forretress",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡🪨Trampa Rocas🪨 al enfrentar a Skuntank ➜ sacrifica a Politoed ➜ cambiar de Volcarona a Gengar para que Skuntank use Autodestrucción al enfrentar a Durant ➜ Slowbro usa Bostezo y Teletransporte ➜ entra con Poliwrath +6 absorbiendo el golpe de Crustle y usar Velocidad X para presionar💡",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Skuntank, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Cambia de Volcarona a Gengar para que Skuntank use Autodestrucción.",
+          "variant": [
+            {
+              "detail": "Al enfrentar a Durant, Slowbro usa Bostezo y Teletransporte.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque, absorbe el golpe de Crustle y usa Velocidad X para presionar.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
