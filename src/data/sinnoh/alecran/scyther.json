@@ -2,6 +2,16 @@
   "id": "scyther",
   "name": "Scyther",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usar Encanto y 🪨Trampa Rocas🪨 al enfrentar a Escavalier ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊💡",
-  "tricks": []
+  "initialMove": "Usa Encanto.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Escavalier, usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

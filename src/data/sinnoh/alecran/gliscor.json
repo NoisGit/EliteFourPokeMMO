@@ -2,15 +2,30 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Volcarona ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si Gliscor usa Terremoto, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo al enfrentar a Volcarona.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Durant ➜ Entrar con Gengar +4 (No usar Otra Vez) 🔔(Barrer con Bola Sombra)🔔",
-      "variant": []
+      "detail": "Si sale Durant, entra con Gengar y usa Maquinación hasta +4. No uses Otra Vez.",
+      "variant": [
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

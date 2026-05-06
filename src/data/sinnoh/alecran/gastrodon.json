@@ -2,23 +2,43 @@
   "id": "gastrodon",
   "name": "Gastrodon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto ➜ Cambiar a Slowbro y usa Bostezo al enfrentar a Volcarona ➜ sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Si Gastrodon usa Terremoto, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo al enfrentar a Volcarona. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Escavalier ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Escavalier, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Scizor ➜ Chansey usa Amortiguador para recibir Aróbata ➜ cambiar a Slowbro al enfrentar a Flygon y usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Scizor, Chansey usa Amortiguador para recibir Acróbata.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro al enfrentar a Flygon y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Flygon ➜ Cambiar a Slowbro y usa Bostezo ➜ sacrifica a Politoed  y entra con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Flygon, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

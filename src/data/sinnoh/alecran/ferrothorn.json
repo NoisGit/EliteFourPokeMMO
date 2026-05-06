@@ -2,61 +2,86 @@
   "id": "ferrothorn",
   "name": "Ferrothorn",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Identificar movimiento",
+      "detail": "Si Ferrothorn se queda, identifica su movimiento.",
       "variant": [
         {
-          "detail": "Latigazo / Giro Rápido ➜ Chansey usa Encanto y Amortiguador al enfrentar a Tyranitar luego cambia a Poliwrath y usa Puño Drenaje",
+          "detail": "Si usa Latigazo o Giro Rápido, Chansey usa Encanto y Amortiguador al enfrentar a Tyranitar.",
           "variant": [
             {
-              "detail": "Ferrothorn ➜ Volcarona +1 🦋🔥",
-              "variant": []
-            },
-            {
-              "detail": "Gastrodon ➜ Slowbro usa Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
-              "variant": []
+              "detail": "Luego cambia a Poliwrath y usa Puño Drenaje.",
+              "variant": [
+                {
+                  "detail": "Si sale Ferrothorn, entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Gastrodon, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             }
           ]
         },
         {
-          "detail": " 🌱 Drenadoras 🌱 ➜ Cambiar a Slowbro",
+          "detail": "Si usa Drenadoras, cambia a Slowbro. 🌱",
           "variant": [
             {
-              "detail": "Flygon ➜ Usar Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-              "variant": []
-            },
-            {
-              "detail": "Kabutops ➜ Usar Bostezo",
+              "detail": "Si sale Flygon, usa Relajo para recibir Cometa Draco y luego usa Bostezo al enfrentar a Yanmega.",
               "variant": [
                 {
-                  "detail": "Yanmega ➜ Sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Kabutops, usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si sale Yanmega, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 },
                 {
-                  "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥",
+                  "detail": "Si sale Ferrothorn, entra con Volcarona y usa Danza Aleteo x2. 🦋🔥",
                   "variant": []
                 }
-              ]  
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Flygon ➜ Usar Teletransporte ➜ enviar a Slowbro y usar Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
-      "variant": []
-    },
-    {
-      "detail": "Kabutops ➜ Cambiar a Slowbro y usar Bostezo",
+      "detail": "Si sale Flygon, usa Teletransporte para enviar a Slowbro.",
       "variant": [
         {
-          "detail": "Yanmega ➜ Usar Protección y Bostezo al enfrentar a Octillery ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-          "variant": []
+          "detail": "Usa Relajo para recibir Cometa Draco y luego usa Bostezo al enfrentar a Yanmega.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Kabutops, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Yanmega, usa Protección y Bostezo al enfrentar a Octillery.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥",
+          "detail": "Si sale Ferrothorn, entra con Volcarona y usa Danza Aleteo x2. 🦋🔥",
           "variant": []
         }
       ]

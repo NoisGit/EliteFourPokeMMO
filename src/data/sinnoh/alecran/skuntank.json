@@ -2,24 +2,39 @@
   "id": "skuntank",
   "name": "Skuntank",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡🪨Trampa Rocas🪨 y cambiar a Gengar💡",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Puya Nociva ➜ Gengar usa Otra Vez al movimiento Veneno ➜ cambiar a Slowbro y usar Bostezo",
+      "detail": "Luego cambia a Gengar.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Usar Protección y Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Octillery ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
-          "variant": []
-        }  
-      ]  
+          "detail": "Si Skuntank usa Puya Nociva, Gengar usa Otra Vez al movimiento de tipo Veneno.",
+          "variant": [
+            {
+              "detail": "Después cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si Skuntank se queda, usa Protección y Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Octillery, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Autodestrucción y entra Durant ➜ Slowbro usa Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si usa Autodestrucción y entra Durant, Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

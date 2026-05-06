@@ -2,11 +2,25 @@
   "id": "beautifly",
   "name": "Beautifly",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Slowbro y usa Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊💡",
+  "initialMove": "Cambia a Slowbro y usa Bostezo.",
   "tricks": [
     {
-      "detail": "🔔Frente a Flygon ➜ usar Protección y Bostezo🔔",
-      "variant": []
+      "detail": "Luego entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Frente a Flygon, usa Protección y Bostezo.",
+      "variant": [
+        {
+          "detail": "Después continúa con la ruta de Poliwrath 🐸🥊 si corresponde.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
