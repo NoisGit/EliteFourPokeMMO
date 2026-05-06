@@ -2,6 +2,21 @@
   "id": "vespiquen",
   "name": "Vespiquen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 🪨Trampa Rocas🪨 al enfrentar a Kingler ➜ cambiar a Slowbro y usar Bostezo al enfrentar a Sceptile ➜ entrar con Volcarona  +1💡",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Kingler, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo al enfrentar a Sceptile.",
+          "variant": [
+            {
+              "detail": "Después entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
