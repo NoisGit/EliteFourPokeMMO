@@ -2,15 +2,34 @@
   "id": "kingler",
   "name": "Kingler",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Cambiar a Slowbro🔔",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Martillazo ➜ Usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
-      "variant": []
+      "detail": "Si Kingler usa Martillazo, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Bostezo le cae a Flygon, usa Protección y Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Fuerza Bruta ➜ Cambiar a Chansey al enfrentar a Sceptile ➜ usar Trampa Rocas y usar Amortiguador esperando el cambio ➜ Slowbro usa Bostezo al enfrentar a Sceptile ➜ entra con Volcarona +1 🦋🔥",
-      "variant": []
+      "detail": "Si Kingler usa Fuerza Bruta, cambia a Chansey al enfrentar a Sceptile.",
+      "variant": [
+        {
+          "detail": "Usa 🪨 Trampa Rocas 🪨 y Amortiguador esperando el cambio.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo al enfrentar a Sceptile. Después entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
