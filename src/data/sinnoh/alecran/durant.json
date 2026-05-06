@@ -2,20 +2,25 @@
   "id": "durant",
   "name": "Durant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar y usa Maquinación.",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Barre hasta que salga Drapion.",
+      "detail": "Gengar usa Maquinación.",
       "variant": [
         {
-          "detail": "Entra Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "detail": "Barre hasta que salga Drapion.",
           "variant": [
             {
-              "detail": "Frente a Heracross, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+              "detail": "Entra Chansey y usa 🪨 Trampa Rocas 🪨.",
               "variant": [
                 {
-                  "detail": "Barre con Bola Sombra.",
-                  "variant": []
+                  "detail": "Frente a Heracross, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+                  "variant": [
+                    {
+                      "detail": "Barre con Bola Sombra.",
+                      "variant": []
+                    }
+                  ]
                 }
               ]
             }
