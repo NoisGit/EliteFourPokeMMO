@@ -2,6 +2,16 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Kingler ➜ cambiar a Slowbro y usa Bostezo ➜ frente a Sceptile  entra con Volcarona +1 🦋🔥",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Kingler, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Sceptile, entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

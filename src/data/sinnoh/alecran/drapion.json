@@ -2,96 +2,190 @@
   "id": "drapion",
   "name": "Drapion",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Identificar movimiento",
+      "detail": "Si Drapion se queda, identifica su movimiento.",
       "variant": [
         {
-          "detail": "Triturar ➜ Revisar daño",
+          "detail": "Si usa Triturar, revisa el daño.",
           "variant": [
             {
-              "detail": "15 - 18% (Crítico 33 - 40%) ➜ Usar Teletransporte",
+              "detail": "Si hace 15 - 18%, o 33 - 40% con crítico, usa Teletransporte.",
               "variant": [
                 {
-                  "detail": "Si se queda ➜ Enviar a Politoed y espera que lo debiliten ➜ entra con Poliwrath +6 🐸🥊",
-                  "variant": []
+                  "detail": "Si Drapion se queda, envía a Politoed como pivote y espera que lo debiliten.",
+                  "variant": [
+                    {
+                      "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
                 },
                 {
-                  "detail": "Flygon ➜ Slowbro usa Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-                  "variant": []
+                  "detail": "Si sale Flygon, Slowbro usa Relajo para recibir Cometa Draco.",
+                  "variant": [
+                    {
+                      "detail": "Luego usa Bostezo al enfrentar a Yanmega. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
                 },
                 {
-                  "detail": "Kabutops ➜ Slowbro usa Bostezo al enfrentar a Flygon ➜ usar Protección y Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-                  "variant": []
+                  "detail": "Si sale Kabutops, Slowbro usa Bostezo al enfrentar a Flygon.",
+                  "variant": [
+                    {
+                      "detail": "Luego usa Protección y Bostezo al enfrentar a Yanmega. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
                 }
               ]
             },
             {
-              "detail": "19 - 23% (Crítico 43 - 51%) ➜ Chansey usa Encanto y Amortiguador esperando a Tyranitar ➜ sacrificar a Politoed ➜ entrar con Poliwrath y usa un Ataque X para Barrer 🔔(Cascada a Drapion y Puño Drenaje a Volcarona)🔔",
+              "detail": "Si hace 19 - 23%, o 43 - 51% con crítico, Chansey usa Encanto y Amortiguador esperando a Tyranitar.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote. Después entra con Poliwrath 🐸🥊, usa Ataque X y barre.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Drapion y Puño Drenaje contra Volcarona.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Puya Nociva, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Puya Nociva ➜ Cambiar a Slowbro y usa Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Terremoto ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Scizor ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-          "variant": []
+          "detail": "Si usa Terremoto, cambia a Slowbro y usa Bostezo al enfrentar a Scizor.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Kingler ➜ Slowbro usa Bostezo al enfrentar a Sceptile ➜ Volcarona +1",
-      "variant": []
-    },
-    {
-      "detail": "Durant ➜ Entrar con Gengar +4 (No usar Otra Vez) 🔔(Barre con Bola Sombra)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Escavalier ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 🐸🥊 fijo hasta llegar a Gastrodon",
-      "variant": []
-    },
-    {
-      "detail": "Scyther ➜ Chansey usa Encanto y Amortiguador esperando a Escavalier ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊 fijo hasta llegar a Gastrodon",
-      "variant": []
-    },
-    {
-      "detail": "Scizor ➜ Usar Amortiguador para identificar movimiento",
+      "detail": "Si sale Kingler, Slowbro usa Bostezo al enfrentar a Sceptile.",
       "variant": [
         {
-          "detail": "Fuerza Bruta ➜ Slowbro usa Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Acrobata ➜ Usar Teletransporte ➜ enviar a Slowbro para usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "detail": "Después entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Flygon ➜ Usar Teletransporte ➜ enviar a Slowbro y revisar daño",
+      "detail": "Si sale Durant, entra con Gengar y usa Maquinación hasta +4. No uses Otra Vez.",
       "variant": [
         {
-          "detail": "29.4 - 34.5% (Crítico 43.7 - 51.7%) ➜ Usar Relajo para recibir Cometa Draco ➜ usar Bostezo al enfrentar a Yanmega ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "36.5 - 44% (Crítico 54 - 65%) ➜ Usar Bostezo al enfrentar a Drapion ➜ sacrifica a Politoed y entra con Poliwrath +6 🐸🥊",
+          "detail": "Barre con Bola Sombra.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Skuntank ➜ Sacrifica a Politoed ➜ cambiar a Volcarona luego a Gengar ➜ frente a Durant cambia a Slowbro y usa Bostezo luego Teletransporte ➜ entrar con Poliwrath +6 y usa Puño Drenaje ➜ 💊frente Crustle usar Velocidad X luego termina de Barrer💊",
-      "variant": []
+      "detail": "Si sale Escavalier, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y continúa fijo hasta llegar a Gastrodon.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Tyranitar ➜ Poliwrath usa Puño Drenaje contra tyranitar ➜ al enfrentar a Ferrothorn cambia a Volcarona +1 🦋🔥 ",
-      "variant": []
+      "detail": "Si sale Scyther, Chansey usa Encanto y Amortiguador esperando a Escavalier.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Continúa fijo hasta llegar a Gastrodon.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Scizor, usa Amortiguador para identificar movimiento.",
+      "variant": [
+        {
+          "detail": "Si usa Fuerza Bruta, Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Bostezo le cae a Flygon, usa Protección y Bostezo.",
+              "variant": []
+            },
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Acróbata, usa Teletransporte y envía a Slowbro para usar Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Flygon, usa Teletransporte, envía a Slowbro y revisa el daño.",
+      "variant": [
+        {
+          "detail": "Si Terremoto hace 29.4 - 34.5%, o 43.7 - 51.7% con crítico, usa Relajo para recibir Cometa Draco.",
+          "variant": [
+            {
+              "detail": "Luego usa Bostezo al enfrentar a Yanmega. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si Terremoto hace 36.5 - 44%, o 54 - 65% con crítico, usa Bostezo al enfrentar a Drapion.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Skuntank, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona y luego a Gengar. Frente a Durant, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y usa Puño Drenaje. Frente a Crustle, usa Velocidad X y termina de barrer.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Tyranitar, Poliwrath usa Puño Drenaje contra Tyranitar.",
+      "variant": [
+        {
+          "detail": "Al enfrentar a Ferrothorn, cambia a Volcarona y usa Danza Aleteo x1. 🦋🔥",
+          "variant": []
+        }
+      ]
     }
   ]
 }

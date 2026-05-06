@@ -2,32 +2,60 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Cambiar a Poliwrath y usa Puño Drenaje 🚨(Metodo Arriesgado: Directamente sacrifica a Politoed para entrar con Poliwrath +6)🚨",
+      "detail": "Si Tyranitar se queda, cambia a Poliwrath y usa Puño Drenaje.",
       "variant": [
         {
-          "detail": "Ferrothorn ➜ Volcarona +1",
+          "detail": "Ruta arriesgada: entra Politoed como pivote para dar entrada segura a Poliwrath 🐸🥊 y usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Gastrodon ➜ Sacrificar a Politoed ➜ entrar con Poliwrath y usar Ataque X para Barrer 🔔(Puño Drenaje a Volcarona)🔔",
+          "detail": "Si sale Ferrothorn, entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
           "variant": []
         },
         {
-          "detail": "Drapion ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño Drenaje a Volcarona)🔔",
-          "variant": []
+          "detail": "Si sale Gastrodon, entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Luego entra con Poliwrath 🐸🥊 y usa Ataque X para barrer. Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Gliscor ➜ Puño Hielo y deja que muera ➜ entra Volcarona +1",
-          "variant": []  
-        }   
-      ]  
+          "detail": "Si sale Drapion, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Gliscor, usa Puño Hielo y deja que Poliwrath quede debilitado si corresponde.",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona y usa Danza Aleteo x1. 🦋🔥",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Scizor ➜ Slowbro usa Bostezo ➜ sacrificar a Politoed y entrar con Poliwrath +6 🔔(Si el Bostezo le cae a Flygon usa Protección y Bostezo)🔔",
-      "variant": []
+      "detail": "Si sale Scizor, Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Bostezo le cae a Flygon, usa Protección y Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

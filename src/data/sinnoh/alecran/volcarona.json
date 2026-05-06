@@ -2,6 +2,16 @@
   "id": "volcarona",
   "name": "Volcarona",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Sacrificar a Politoed ➜ entrar con Poliwrath +6 🐸🥊 (Puño Drenaje a Volcarona)💡",
-  "tricks": []
+  "initialMove": "Entra Politoed como pivote.",
+  "tricks": [
+    {
+      "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": [
+        {
+          "detail": "Usa Puño Drenaje contra Volcarona.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,42 +2,62 @@
   "id": "octillery",
   "name": "Octillery",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Revisar si Chansey tiene un estado alterado",
+      "detail": "Si Octillery se queda, revisa si Chansey tiene un estado alterado.",
       "variant": [
         {
-          "detail": "Sin estado alterado ➜ Usar Teletransporte enviar a Slowbro y usar Bostezo ➜ sacrificar Politoed ➜ entra con Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Con estado alterado ➜ Cambia a Slowbro",
+          "detail": "Si Chansey no tiene estado alterado, usa Teletransporte, envía a Slowbro y usa Bostezo.",
           "variant": [
             {
-              "detail": "Kabutops ➜ Usa Bostezo 🥱",
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si Chansey tiene estado alterado, cambia a Slowbro.",
+          "variant": [
+            {
+              "detail": "Si sale Kabutops, usa Bostezo. 🥱",
               "variant": [
                 {
-                  "detail": "Yanmega ➜ Sacrificar a Politoed y entra con Poliwrath +6 🐸🥊",
+                  "detail": "Si sale Yanmega, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 },
                 {
-                  "detail": "Ferrothorn ➜ Volcarona +2 🦋🔥 ",
+                  "detail": "Si sale Ferrothorn, entra con Volcarona y usa Danza Aleteo x2. 🦋🔥",
                   "variant": []
-                }   
-              ]   
+                }
+              ]
             },
             {
-              "detail": "Flygon ➜ Usar Relajo para recibir Cometa Draco ➜ usa Bostezo al enfrentar a Yanmega ➜ sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊",
-              "variant": []
+              "detail": "Si sale Flygon, usa Relajo para recibir Cometa Draco y luego usa Bostezo al enfrentar a Yanmega.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Skuntank --> Sacrifica a Politoed ➜ cambiar a Volcarona luego a Gengar ➜ frente a Durant cambia a Slowbro y usa Bostezo luego Teletransporte ➜ entrar con Poliwrath +6 y usa Puño Drenaje ➜ 💊frente Crustle usar Velocidad X luego termina de Barrer💊",
-      "variant": []
+      "detail": "Si sale Skuntank, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona y luego a Gengar. Frente a Durant, cambia a Slowbro y usa Bostezo. Luego usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y usa Puño Drenaje. Frente a Crustle, usa Velocidad X y termina de barrer.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
