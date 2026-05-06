@@ -2,11 +2,35 @@
   "id": "durant",
   "name": "Durant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar y usa Maquinación luego Barre hasta que salga Drapion, entra Chansey y usa 🪨Trampa Rocas🪨, frente a Heracross cambia a Gengar Otra Vez +4 🔔(Barre con Bola sombra)🔔",
+  "initialMove": "Cambia a Gengar y usa Maquinación.",
   "tricks": [
     {
-      "detail": "Gengar +2 y entra Gliscor --> Matalo con bolsa sombra luego cambiar a Chansey para atraer a otro pokemon",
-      "variant": []
+      "detail": "Barre hasta que salga Drapion.",
+      "variant": [
+        {
+          "detail": "Entra Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Frente a Heracross, cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+              "variant": [
+                {
+                  "detail": "Barre con Bola Sombra.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si Gengar está en +2 y entra Gliscor, derrótalo con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey para atraer a otro Pokémon.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
