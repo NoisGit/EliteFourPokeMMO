@@ -2,14 +2,19 @@
   "id": "beautifly",
   "name": "Beautifly",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro y usa Bostezo.",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Luego entra Politoed como pivote.",
+      "detail": "Usa Bostezo.",
       "variant": [
         {
-          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Luego entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
