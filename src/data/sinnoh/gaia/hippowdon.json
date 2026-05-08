@@ -2,15 +2,30 @@
   "id": "hippowdon",
   "name": "Hippowdon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Opciones para resolver 💡",
+  "initialMove": "Elige una ruta.",
   "tricks": [
     {
-      "detail": "Estable --> Cambiar a Slowbro al enfrentar a Durant; usar Bostezo ; usar Teletransporte  entrar con Volcarona +1 para debilitar al enfrentar a Hippowdon; usar Especial X y presionar",
-      "variant": []
+      "detail": "Ruta estable: cambia a Slowbro al enfrentar a Durant.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo y luego Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Volcarona, usa Danza Aleteo x1 para debilitar al enfrentar a Hippowdon, luego usa Especial X y presiona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Rápido --> Usar Encanto al enfrentar a Durant; entrar con Volcarona +1 y usar Especial X",
-      "variant": []
+      "detail": "Ruta rápida: usa Encanto al enfrentar a Durant.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
