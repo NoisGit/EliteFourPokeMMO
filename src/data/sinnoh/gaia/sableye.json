@@ -2,37 +2,57 @@
   "id": "sableye",
   "name": "Sableye",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Cambiar a Slowbro🔔",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Si se queda --> Usar Bostezo",
+      "detail": "Si Sableye se queda, usa Bostezo.",
       "variant": []
     },
     {
-      "detail": "Rhyperior / Camerupt --> Usar Teletransporte entrar con Volcarona , usar Especial X y presionar",
-      "variant": []
-    },
-    {
-      "detail": "Serperior --> Entrar con Volcarona +2",
-      "variant": []
-    },
-    {
-      "detail": "Durant --> Usar Teletransporte ; entrar con Volcarona +1 para debilitar al enfrentar a Hippowdon; usar Especial X y presionar",
-      "variant": []
-    },
-    {
-      "detail": "Durant --> Usar Bostezo ; usar Teletransporte ; entrar con Volcarona +1 para debilitar al enfrentar a Hippowdon; usar Especial X y presionar para completar",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior --> Usar Bostezo 🔔 Revisar si Megacuerno acierta 🔔",
+      "detail": "Si sale Rhyperior o Camerupt, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Acierta --> Usar Teletransporte ; entrar con Volcarona , usar Especial X y presionar",
+          "detail": "Entra con Volcarona, usa Especial X y presiona.",
           "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Serperior, entra con Volcarona y usa Danza Aleteo x2.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Durant, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Volcarona, usa Danza Aleteo x1 para debilitar al enfrentar a Hippowdon, luego usa Especial X y presiona.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta alternativa contra Durant: usa Bostezo y luego Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Volcarona, usa Danza Aleteo x1 para debilitar al enfrentar a Hippowdon, luego usa Especial X y presiona para completar.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Bostezo y revisa si Megacuerno acierta.",
+      "variant": [
+        {
+          "detail": "Si Megacuerno acierta, usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Volcarona, usa Especial X y presiona.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Falla --> Cambiar a Volcarona , usar Especial X y presionar",
+          "detail": "Si Megacuerno falla, cambia a Volcarona, usa Especial X y presiona.",
           "variant": []
         }
       ]
