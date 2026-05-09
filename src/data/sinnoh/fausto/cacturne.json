@@ -2,6 +2,21 @@
   "id": "cacturne",
   "name": "Cacturne",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔 Gengar Otra Vez +4 +2 (Bola Sombra a Todos) 🔔",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
