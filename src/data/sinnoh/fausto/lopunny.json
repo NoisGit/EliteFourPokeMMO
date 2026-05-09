@@ -2,6 +2,16 @@
   "id": "lopunny",
   "name": "Lopunny",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 Slowbro, Bostezo ➜ Frente a Maractus ➜ Volcarona +3",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Maractus, entra con Volcarona y usa Danza Aleteo x3.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
