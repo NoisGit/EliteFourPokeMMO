@@ -2,6 +2,21 @@
   "id": "blaziken",
   "name": "Blaziken",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro y usar Bostezo al enfrentar a Cacturne; sacrificar a Politoed; entrar con Poliwrath +6 🔔(Puño Drenaje a Magmortar)🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo al enfrentar a Cacturne.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Magmortar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
