@@ -2,50 +2,58 @@
   "id": "blastoise",
   "name": "Blastoise",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 🔔(Si se queda usar Teletransporte)🔔",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Rhyperior --> Usar Teletransporte; cambiar a Slowbro y usar Bostezo 🔔(Seguir usando Bostezo al enfrentar a Quagsire)🔔",
+      "detail": "Si Blastoise se queda, usa Teletransporte.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Teletransporte, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Megacuerno--> Observa la Precision",
-          "variant": [
-            {
-              "detail": "Acierta --> Usar Teletransporte; entrar con Volcarona +1",
-              "variant": []
-            },
-            {
-              "detail": "Falla --> Usar Protección y Relajo al enfrentar a Parasect; entrar con Volcarona +1",
-              "variant": []
-            }  
-          ]  
-        },
-        {
-          "detail": "Terremoto/Pedrada --> ⬇️Opciones para Resolver⬇️",
-          "variant": [
-            {
-              "detail": "Rapido --> Teletransporte, Volcarona +1 🔔(Psiquico a Gengar)🔔",
-              "variant": []
-            },
-            {  
-              "detail": "Ahorro --> Proteccion luego Bostezo frente a Gengar, Volcarona +1 🔔(Psiquico a Gengar)🔔",
-              "variant": []
-            }
-          ]  
-        },   
-        {
-          "detail": "Gengar --> Entrar con Volcarona +1 🔔(Psiquico a Gengar)🔔",
+          "detail": "Sigue usando Bostezo al enfrentar a Quagsire.",
           "variant": []
         },
         {
-          "detail": "Cambia a Parasect mientras usas Teletransporte --> Entrar con Volcarona +1",
+          "detail": "Si Rhyperior usa Megacuerno, revisa si acierta.",
+          "variant": [
+            {
+              "detail": "Si acierta, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
+              "variant": []
+            },
+            {
+              "detail": "Si falla, usa Protección y Relajo al enfrentar a Parasect. Luego entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Terremoto o Pedrada, elige ruta rápida o de ahorro.",
+          "variant": [
+            {
+              "detail": "Ruta rápida: usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            },
+            {
+              "detail": "Ruta de ahorro: usa Protección y luego Bostezo frente a Gengar. Después entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Gengar, entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+          "variant": []
+        },
+        {
+          "detail": "Si cambia a Parasect mientras usas Teletransporte, entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]
-    },  
+    },
     {
-      "detail": "Parasect --> Entrar con Volcarona +1",
+      "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
       "variant": []
-    }  
+    }
   ]
 }
