@@ -2,35 +2,60 @@
   "id": "cloyster",
   "name": "Cloyster",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Slowbro usa Bostezo",
+      "detail": "Si Cloyster se queda, Slowbro usa Bostezo.",
       "variant": [
         {
-          "detail": "Durant --> Usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 35% dos veces, darle medicina primero🔔",
-          "variant": []
+          "detail": "Si sale Durant, usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": [
+            {
+              "detail": "Si el HP de Druddigon baja del 35% dos veces, usa medicina primero.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Gengar --> Entrar con Volcarona +1",
+          "detail": "Si sale Gengar, entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Durant --> Slowbro usa Bostezo",
+      "detail": "Si sale Durant, Slowbro usa Bostezo.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 36% dos veces, darle medicina primero🔔",
-          "variant": []
+          "detail": "Si Durant se queda, usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": [
+            {
+              "detail": "Si el HP de Druddigon baja del 36% dos veces, usa medicina primero.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Gengar --> Entrar con Volcarona +1 💡Usar Psíquico al enfrentar a Gengar 💡",
-          "variant": []
+          "detail": "Si sale Gengar, entra con Volcarona y usa Danza Aleteo x1.",
+          "variant": [
+            {
+              "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Emboar --> Slowbro usa Bostezo al enfrentar a Durant; usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 36% dos veces, darle medicina primero🔔",
-          "variant": []
+          "detail": "Si sale Emboar, Slowbro usa Bostezo al enfrentar a Durant.",
+          "variant": [
+            {
+              "detail": "Usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+              "variant": [
+                {
+                  "detail": "Si el HP de Druddigon baja del 36% dos veces, usa medicina primero.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
