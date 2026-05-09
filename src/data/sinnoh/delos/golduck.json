@@ -2,24 +2,44 @@
   "id": "golduck",
   "name": "Golduck",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Tajo Cruzado --> Cambiar a Gengar",
+      "detail": "Si Golduck usa Tajo Cruzado, cambia a Gengar.",
       "variant": [
         {
-          "detail": "Si se queda --> Entrar con Gengar +4/+2 y usar Bola Sombra a todos",
-          "variant": []
+          "detail": "Si Golduck permanece en campo, Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Gallade / Roserade --> Entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra a todos",
-          "variant": []
+          "detail": "Si sale Gallade o Roserade, Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Gallade / Roserade --> Entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra a todos",
-      "variant": []
+      "detail": "Si sale Gallade o Roserade directamente, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
