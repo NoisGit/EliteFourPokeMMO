@@ -2,41 +2,65 @@
   "id": "maractus",
   "name": "Maractus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda → Observar habilidad/movimiento",
+      "detail": "Si Maractus se queda, observa habilidad o movimiento.",
       "variant": [
         {
-          "detail": "Puño Drenaje → Teletransporte → Slowbro → Bostezo → Sacrificar a Politoed → Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Esfuerzo → Amortiguador",
+          "detail": "Si usa Puño Drenaje, usa Teletransporte y envía a Slowbro.",
           "variant": [
             {
-              "detail": "Lopunny / Medicham → Slowbro → Bostezo (vs Maractus) → Volcarona +3 🔔 Puede usar Especial X y Gigadrenado a Steelix 🔔",
-              "variant": []
-            },
-            {
-              "detail": "Magmortar → Gengar +2 → Presionar hasta Steelix → Slowbro → Bostezo (vs Maractus) → Volcarona +3 🔔 Puede usar Especial X y Gigadrenado a Steelix 🔔",
+              "detail": "Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Bouffalant → Gengar → Maquinación (vs Dragonite) → Atacar hasta debilitar",
+          "detail": "Si usa Esfuerzo, usa Amortiguador.",
           "variant": [
             {
-              "detail": "Magmortar → Sacrificar a Politoed → Poliwrath +6",
-              "variant": []
-            },
-            {
-              "detail": "Steelix → Slowbro → Bostezo → Sacrificar a Politoed → Poliwrath +6",
+              "detail": "Si sale Lopunny o Medicham, cambia a Slowbro y usa Bostezo al enfrentar a Maractus.",
               "variant": [
                 {
-                  "detail": "Arriesgado → Sacrificar directamente a Politoed → Poliwrath +6",
+                  "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
                   "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Magmortar, entra con Gengar y usa Maquinación hasta +2. Presiona hasta Steelix.",
+              "variant": [
+                {
+                  "detail": "Luego cambia a Slowbro y usa Bostezo al enfrentar a Maractus. Entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Bouffalant, cambia a Gengar y usa Maquinación al enfrentar a Dragonite.",
+          "variant": [
+            {
+              "detail": "Ataca hasta quedar debilitado.",
+              "variant": [
+                {
+                  "detail": "Si sale Magmortar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Steelix, cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Ruta arriesgada: entra Politoed como pivote directo y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
                 }
               ]
             }
@@ -45,25 +69,35 @@
       ]
     },
     {
-      "detail": "Lopunny / Medicham → Slowbro → Bostezo (vs Maractus) → Volcarona +3 🔔 Puede usar Especial X y Gigadrenado a Steelix 🔔",
-      "variant": []
-    },
-    {
-      "detail": "Blaziken / Arcanine → Slowbro → Bostezo (vs Maractus)",
+      "detail": "Si sale Lopunny o Medicham, cambia a Slowbro y usa Bostezo al enfrentar a Maractus.",
       "variant": [
         {
-          "detail": "Rápido → Sacrificar a Politoed → Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Ahorrar dinero → Volcarona +3",
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Camerupt → Slowbro → Bostezo → Sacrificar a Politoed → Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Blaziken o Arcanine, cambia a Slowbro y usa Bostezo al enfrentar a Maractus.",
+      "variant": [
+        {
+          "detail": "Ruta rápida: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Ruta de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Camerupt, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
