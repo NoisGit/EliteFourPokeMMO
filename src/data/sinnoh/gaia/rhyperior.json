@@ -2,45 +2,101 @@
   "id": "rhyperior",
   "name": "Rhyperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Revisar objeto ",
+      "detail": "Si Rhyperior se queda, revisa su objeto.",
       "variant": [
         {
-          "detail": "Vidaesfera  --> Usar Teletransporte enviar a Slowbro y usar Bostezo para ver movimientos",
+          "detail": "Si tiene Vidaesfera, usa Teletransporte para enviar a Slowbro y usa Bostezo para ver movimientos.",
           "variant": [
             {
-              "detail": "Terremoto --> Sacrificar a Politoed ; entrar con Poliwrath +6  🔔usar Puño Hielo contra Gengar🔔 ",
+              "detail": "Si usa Terremoto, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Hielo contra Gengar.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si Megacuerno acierta, usa Teletransporte.",
+              "variant": [
+                {
+                  "detail": "Entra con Volcarona, usa Especial X y presiona.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si Megacuerno falla, entra con Volcarona, usa Especial X y presiona.",
               "variant": []
             },
             {
-              "detail": "Megacuerno acierta --> Usar Teletransporte ; entrar con Volcarona , usar Especial X y presionar",
-              "variant": []
-            },
-            {
-              "detail": "Megacuerno falla --> Entrar con Volcarona , usar Especial X y presionar",
-              "variant": []
-            },
-            {
-              "detail": "Gengar --> Sacrificar a Politoed ; entrar con Poliwrath  +6 y usar Puño Hielo contra Gengar ",
-              "variant": []
+              "detail": "Si sale Gengar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Hielo contra Gengar.",
+                  "variant": []
+                }
+              ]
             }
           ]
         },
         {
-          "detail": "Sin Vidaesfera --> Usar Amortiguador  y Encanto ; mantener línea de HP con Amortiguador; si el  🔔 HP está bajo, usar max pocion primero 🔔",
+          "detail": "Si no tiene Vidaesfera, usa Amortiguador y Encanto.",
           "variant": [
             {
-              "detail": "Si se queda --> Cambiar a Slowbro y usar Bostezo ",
+              "detail": "Mantén la línea de HP con Amortiguador. Si el HP está bajo, usa Max Poción primero.",
               "variant": []
             },
             {
-              "detail": "Terremoto --> Usar Teletransporte  entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
+              "detail": "Si Rhyperior se queda, cambia a Slowbro y usa Bostezo.",
               "variant": []
             },
             {
-              "detail": "Gengar / Parasect --> Entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
+              "detail": "Si usa Terremoto, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
+              "variant": [
+                {
+                  "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Gengar o Parasect, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": [
+                {
+                  "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Durant, envía a Slowbro y usa Bostezo al enfrentar a Gengar.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Parasect, cambia a Volcarona.",
+      "variant": [
+        {
+          "detail": "Si Parasect se queda, Volcarona usa Danza Aleteo x1.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Rhyperior, absorbe hasta que te debilite al enfrentar a Blastoise.",
+          "variant": [
+            {
+              "detail": "Entra con Chansey para atraer a Parasect y luego entra con Volcarona para usar Danza Aleteo x1.",
               "variant": []
             }
           ]
@@ -48,63 +104,66 @@
       ]
     },
     {
-      "detail": "Durant --> Enviar a Slowbro y usar Bostezo al enfrentar a Gengar ; entrar con Volcarona +1 🔔usar Psíquico al enfrentar a Gengar🔔",
-      "variant": []
-    },
-    {
-      "detail": "Parasect --> Cambiar a Volcarona",
+      "detail": "Si sale Absol, cambia a Slowbro y luego a Volcarona.",
       "variant": [
         {
-          "detail": "Si se queda --> Volcarona +1",
-          "variant": []
-        },
-        {
-          "detail": "Rhyperior --> Absorber hasta que debilite al enfrentar a Blastoise ; entrar con Chansey y atraer a Parasect ; entrar con Volcarona +1",
+          "detail": "Al enfrentar a Gengar o Nidoking, Volcarona usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Absol --> Cambiar a Slowbro y luego a Volcarona ; al enfrentar a Gengar o Nidoking  Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
-      "variant": []
-    },
-    {
-      "detail": "Absol --> Cambiar a Slowbro y usar Bostezo ; entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar🔔",
-      "variant": []
-    },
-    {
-      "detail": "Emboar --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔 Si el HP de Druddigon baja del 36% dos veces, darle medicina primero 🔔",
-      "variant": []
-    },
-    {
-      "detail": "Durant --> Usar Teletransporte ; enviar a Slowbro y usar Bostezo ",
+      "detail": "Ruta alternativa contra Absol: cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Teletransporte entrar con Volcarona +1 y usar Especial X",
-          "variant": []
-        },
-        {
-          "detail": "Gengar --> Entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar (ghost) 🔔",
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Parasect --> Cambiar a Volcarona ",
+      "detail": "Si sale Emboar, cambia a Slowbro y usa Bostezo al enfrentar a Durant.",
       "variant": [
         {
-          "detail": "Si se queda --> Volcarona +1",
-          "variant": []
-        },
-        {
-          "detail": "Rhyperior --> Absorber al enfrentar a Blastoise  entrar con Slowbro  y usar Bostezo ",
+          "detail": "Usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
           "variant": [
             {
-              "detail": "Si se queda --> Usar Protección  y Relajo  al enfrentar a Parasect ; entrar con Volcarona  +1",
+              "detail": "Si el HP de Druddigon baja del 36% dos veces, usa medicina primero.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Durant, usa Teletransporte, envía a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Durant se queda, usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Gengar, entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Otra ruta contra Parasect: cambia a Volcarona.",
+      "variant": [
+        {
+          "detail": "Si Parasect se queda, Volcarona usa Danza Aleteo x1.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Rhyperior, absorbe al enfrentar a Blastoise, entra con Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Rhyperior se queda, usa Protección y Relajo al enfrentar a Parasect. Luego entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
             },
             {
-              "detail": "Parasect --> Entrar con Volcarona +1",
+              "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
             }
           ]

@@ -2,41 +2,55 @@
   "id": "whiscash",
   "name": "Whiscash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Trampa Rocas🔔 Si no Cambia Usa Amortiguador",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Rhyperior ➜ Chansey Encanto y entra con Slowbro y usa Bostezo",
+      "detail": "Si Whiscash no cambia, usa Amortiguador.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Rhyperior, Chansey usa Encanto.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Usa Bostezo otra vez Para que entre Parasect y entrar con Volcarona x1 danza aleteo",
-          "variant": []
-        },
-        {
-          "detail": "Parasect ➜ Entra con Volcarona x1 danza aleteo",
-          "variant": []
+          "detail": "Entra Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Rhyperior se queda, usa Bostezo otra vez para que entre Parasect. Luego entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Parasect ➜ Usa Teletransporte ",
+      "detail": "Si sale Parasect, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si parasect se Queda ➜ volcarona x1 danza aleteo y lanzallamas",
+          "detail": "Si Parasect se queda, entra con Volcarona, usa Danza Aleteo x1 y Lanzallamas.",
           "variant": []
         },
         {
-          "detail": "Rhyperior ➜ Slowbro Bostezo (Mira si Megacuerno golpea o falla)",
+          "detail": "Si sale Rhyperior, Slowbro usa Bostezo y revisa si Megacuerno acierta.",
           "variant": [
             {
-              "detail": "Si Golpea ➜ slowbro usa Teletransporte ➜ Volcarona x1 Danza Aleteo (Si quieres ahorrar dinero usa proteccion y usa Bostezo entra Con Volcarona x1 Danza aleteo)",
+              "detail": "Si Megacuerno acierta, Slowbro usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
+              "variant": [
+                {
+                  "detail": "Ruta de ahorro: usa Protección y Bostezo, luego entra con Volcarona y usa Danza Aleteo x1.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si Megacuerno falla, entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
             },
             {
-              "detail": "Si Falla ➜  volcarona x1 Danza Aleteo",
-              "variant": []
-            },
-            {
-              "detail": "Sale Parasect ➜ Volcarona x1 Danza Aleteo",
+              "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
             }
           ]

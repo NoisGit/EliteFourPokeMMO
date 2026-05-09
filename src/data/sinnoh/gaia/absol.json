@@ -2,6 +2,21 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Slowbro y luego a Chansey usar 🪨Trampa Rocas🪨 al enfrentar a Absol; cambiar a Slowbro y usar Bostezo ; entrar con Volcarona +1💡",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Absol.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -2,6 +2,21 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro al enfrentar a Rhyperior; usar Bostezo ; sacrificar a Politoed entrar con Poliwrath +6  🔔usar Puño Hielo contra Gengar🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Rhyperior, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Hielo contra Gengar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -2,15 +2,20 @@
   "id": "forretress",
   "name": "Forretress",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Cambiar a Volcarona🔔",
+  "initialMove": "Cambia a Volcarona.",
   "tricks": [
     {
-      "detail": "Si se queda --> Volcarona +1 y presionar",
+      "detail": "Si Forretress se queda, Volcarona usa Danza Aleteo x1 y presiona.",
       "variant": []
     },
     {
-      "detail": "Rhyperior --> Absorber hasta que debilite al enfrentar a Jellicent ; usar Danza Aleteo (+1 y presionar",
-      "variant": []
+      "detail": "Si sale Rhyperior, absorbe hasta que debilite al enfrentar a Jellicent.",
+      "variant": [
+        {
+          "detail": "Luego usa Danza Aleteo x1 y presiona.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

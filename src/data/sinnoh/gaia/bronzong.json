@@ -2,40 +2,55 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Parasect ➜ Cambiar a Volcarona",
+      "detail": "Si sale Parasect, cambia a Volcarona.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Volcarona +1",
+          "detail": "Si Parasect se queda, Volcarona usa Danza Aleteo x1.",
           "variant": []
         },
         {
-          "detail": "Rhyperior ➜ Usa Gigadrenado para debilitarlo, al enfrentar a Blastoise cambiar a Slowbro y usar Bostezo",
+          "detail": "Si sale Rhyperior, usa Gigadrenado para debilitarlo.",
           "variant": [
             {
-              "detail": "Si se queda ➜ Usar Protección y Relajo al enfrentar a Parasect, entrar con Volcarona +1",
+              "detail": "Al enfrentar a Blastoise, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si Blastoise se queda, usa Protección y Relajo al enfrentar a Parasect. Luego entra con Volcarona y usa Danza Aleteo x1.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Teletransporte y Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Identifica si porta Vidaesfera.",
+          "variant": [
+            {
+              "detail": "Si tiene Vidaesfera, usa Teletransporte, entra con Volcarona, usa Especial X y presiona.",
               "variant": []
             },
             {
-              "detail": "Parasect ➜ Entrar con Volcarona +1",
-              "variant": []
+              "detail": "Si no tiene Vidaesfera, usa Teletransporte, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": [
+                {
+                  "detail": "Ruta de ahorro: usa Protección y Relajo. Frente a Parasect, cambia a Volcarona y usa Danza Aleteo x1.",
+                  "variant": []
+                }
+              ]
             }
-          ] 
-        } 
-      ]  
-    },
-    {
-      "detail": "Rhyperior ➜ Usar Teletransporte, Slowbro usa Bostezo 🔔(Identifica si porta Vidasfera🔔)",
-      "variant": [
-        {
-          "detail": "Si tiene Vidasfera ➜ Usar Teletransporte, 💊entrar con Volcarona y usar atk. Especial X luego presionar💊",
-          "variant": []
-        },
-        {
-          "detail": "No tiene Vidasfera ➜ Usar Teletransporte, entrar con Volcarona +1 💰(Si quieres ahorrar en curas: Usa Proteccion y Relajo, frente a Parasect cambia a Volcarona +1)💰",
-          "variant": []
+          ]
         }
       ]
     }

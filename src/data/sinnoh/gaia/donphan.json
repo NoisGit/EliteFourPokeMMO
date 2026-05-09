@@ -2,23 +2,32 @@
   "id": "donphan",
   "name": "Donphan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 🥚No cambia usa Amortiguador 🥚",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Rhyperior --> Usar Encanto y cambiar a Slowbro",
+      "detail": "Si Donphan no cambia, usa Amortiguador. 🥚",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Bostezo al enfrentar a 🦀Parasect🍄 entrar con Volcarona +1",
-          "variant": []
+          "detail": "Si Rhyperior se queda, usa Bostezo al enfrentar a Parasect. 🦀🍄",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "🦀Parasect🍄--> Entrar con Volcarona +1",
+          "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1. 🦀🍄",
           "variant": []
         }
       ]
     },
     {
-      "detail": "🦀Parasect🍄 --> Entrar con Volcarona +1",
+      "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1. 🦀🍄",
       "variant": []
     }
   ]
