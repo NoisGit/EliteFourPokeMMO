@@ -2,110 +2,174 @@
   "id": "magmortar",
   "name": "Magmortar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Se Queda Magmortar ➜ Observar Que Movimiento usa ",
+      "detail": "Si Magmortar se queda, observa qué movimiento usa.",
       "variant": [
         {
-          "detail": "Tajo Cruzado ➜ Gengar Otra vez +2 y atacar ➜ Frente a Steelix ➜ cambia a Slowbro, Bostezo ➜ Frente a Maractus ➜  Volcarona  +3 ",
-          "variant": []
-        },
-        {
-          "detail": "Llamarada ➜ Usar Amortiguador Hasta que se retire ",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Conkeldurr ➜ Entrar con Gengar otra vez +2",
-      "variant": [
-        {
-          "detail": "Conkeldur no cambia ➜ Gengar +4 + Precisión X ",
-          "variant": []
-        },
-        {
-          "detail": "Salamence ➜ Gengar Bola sombra a Salamence ➜ Frente a Steelix ➜ sacrifica a Politoed ➜ Poliwrath usar Ataque X y presionar 🔔 Cascada a Steelix / Conkeldurr Puño Drenaje 🔔",
-          "variant": []
-        },
-        {
-          "detail": "Ludicolo ➜ Cambiar a Slowbro  y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Medicham ➜ Usar Teletransporte ",
-      "variant": [
-        {
-          "detail": "Vidasfera ➜ Slowbro usa Bostezo ➜ Frente a Maractus ➜ Volcarona +3 ",
-          "variant": []
-        },
-        {
-          "detail": "Sin Vidasfera ➜ Gengar +4 (No usar Otra Vez)",
-          "variant": []
-        },
-        {
-          "detail": "Si no acierta el golpe ➜ Cambiar a Slowbro  y usar Bostezo ",
+          "detail": "Si usa Tajo Cruzado, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y ataca.",
           "variant": [
             {
-              "detail": "Maractus ➜ Volcarona  +3 🔔 puede usar Especial X 🔔",
+              "detail": "Frente a Steelix, cambia a Slowbro y usa Bostezo. Frente a Maractus, entra con Volcarona y usa Danza Aleteo x3.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Llamarada, usa Amortiguador hasta que se retire.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Conkeldurr, entra con Gengar, usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
+        {
+          "detail": "Si Conkeldurr no cambia, Gengar usa Maquinación hasta +4 y Precisión X.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Salamence, usa Bola Sombra contra Salamence.",
+          "variant": [
+            {
+              "detail": "Frente a Steelix, entra Politoed como pivote y entra con Poliwrath 🐸🥊. Usa Ataque X y presiona.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Steelix y Puño Drenaje contra Conkeldurr.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Ludicolo, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Medicham, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidaesfera, Slowbro usa Bostezo. Frente a Maractus, entra con Volcarona y usa Danza Aleteo x3.",
+          "variant": []
+        },
+        {
+          "detail": "Si no tiene Vidaesfera, entra con Gengar y usa Maquinación hasta +4. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si no acierta el golpe, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Maractus, entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X.",
               "variant": []
             },
             {
-              "detail": "Magmortar ➜ Cambiar a Chansey  y usar Amortiguador ➜ Frente a Medicham ➜ Gengar, +2 (se suicida el medicham, es Pañuelo), sale Bronzong ➜ Volcarona +1, si se queda Bronzong o si sale Houndoom  usar Especial X y presionar para completar",
-              "variant": []
+              "detail": "Si sale Magmortar, cambia a Chansey y usa Amortiguador.",
+              "variant": [
+                {
+                  "detail": "Frente a Medicham, entra con Gengar y usa Maquinación hasta +2. Deja que Medicham lo debilite; tiene Pañuelo Elegido.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Bronzong, entra con Volcarona y usa Danza Aleteo x1. Si Bronzong se queda o sale Houndoom, usa Especial X y presiona para completar.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Blaziken / Arcanine ➜ Cambiar a Slowbro, Bostezo ➜ Frente a Maractus ➜ sacrifica a Politoed  ➜ Poliwrath  +6",
-      "variant": []
-    },
-    {
-      "detail": "Infernape ➜ Usar Amortiguador o Teletransporte ➜ Gengar otra vez +4 +2 🔔usar Bola Sombra a todos🔔",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus --> Usar Amortiguador o Teletransporte ➜  Gengar otra vez +6",
-      "variant": []
-    },
-    {
-      "detail": "Bouffalant ➜ Gengar usa Maquinación ➜ Frente a Dragonite ➜ atacar con bola sombra",
+      "detail": "Si sale Blaziken o Arcanine, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Magmortar ➜ Sacrifica a Politoed ➜ Poliwrath +6",
+          "detail": "Frente a Maractus, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
-        },
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Infernape, usa Amortiguador o Teletransporte.",
+      "variant": [
         {
-          "detail": "Steelix ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+          "detail": "Entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Usa Bola Sombra contra todos.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Haxorus, usa Amortiguador o Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez y Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Bouffalant, Gengar usa Maquinación.",
+      "variant": [
+        {
+          "detail": "Frente a Dragonite, ataca con Bola Sombra.",
           "variant": [
             {
-              "detail": "Arriesgado ➜ Sacrifica directamente a Politoed ➜ Poliwrath +6",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Maractus ➜ Usar Trampa Rocas para recibir Esfuerzo y usar Amortiguador ",
-          "variant": [
-            {
-              "detail": "Lopunny / Medicham ➜ Cambiar a Slowbro y usar Bostezo ➜ Frente a Maractus entrar con Volcarona +3 🔔 puedes usar Especial X y Gigadrenado a Steelix 🔔",
+              "detail": "Si sale Magmortar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Magmortar ➜ Gengar otra vez +2 y presionar hasta tener en frente a  Steelix ➜ cambiar a Slowbro y usar Bostezo ➜ Frente a Maractus ➜  Volcarona  +3 🔔 Gigadrenado a Steelix, puedes usar Especial X 🔔",
-              "variant": []
+              "detail": "Si sale Steelix, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                },
+                {
+                  "detail": "Ruta arriesgada: entra Politoed como pivote directo y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Maractus, usa 🪨 Trampa Rocas 🪨 para recibir Esfuerzo y luego usa Amortiguador.",
+              "variant": [
+                {
+                  "detail": "Si sale Lopunny o Medicham, cambia a Slowbro y usa Bostezo. Frente a Maractus, entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Magmortar, entra con Gengar, usa Otra Vez y Maquinación hasta +2. Presiona hasta tener a Steelix enfrente.",
+                  "variant": [
+                    {
+                      "detail": "Luego cambia a Slowbro y usa Bostezo. Frente a Maractus, entra con Volcarona y usa Danza Aleteo x3. Usa Gigadrenado contra Steelix y puedes usar Especial X.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Camerupt ➜ Usar Amortiguador  y esperar a Bouffalant ➜ ver estrategia de Bouffalant",
-      "variant": []
+      "detail": "Si sale Camerupt, usa Amortiguador y espera a Bouffalant.",
+      "variant": [
+        {
+          "detail": "Luego sigue la ruta de Bouffalant.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
