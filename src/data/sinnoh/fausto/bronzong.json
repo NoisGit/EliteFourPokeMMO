@@ -2,32 +2,57 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Infernape ➜ Usar Amortiguador o Teletransporte ➜ entrar con Gengar Otra Vez +4 +2  🔔 Usar Bola Sombra a todos 🔔",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Entrar con Gengar +4 (No usar Otra Vez) 🔔 Usar Bola Sombra a todos 🔔",
-      "variant": []
-    },
-    {
-      "detail": "Blaziken / Arcanine ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Cacturne ",
+      "detail": "Si sale Infernape, usa Amortiguador o Teletransporte.",
       "variant": [
         {
-          "detail": "Rápido ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 (puño drenaje a magmortar ",
-          "variant": []
-        },
+          "detail": "Entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Medicham, entra con Gengar y usa Maquinación hasta +4.",
+      "variant": [
         {
-          "detail": "Ahorrar dinero ➜ Entrar con Volcarona +3",
+          "detail": "No uses Otra Vez. Usa Bola Sombra contra todos.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Haxorus ➜ Usar Amortiguador o Teletransporte  entrar con Gengar ➡ Otra Vez +6 🔔 Usar Bola Sombra  a todos 🔔",
-      "variant": []
+      "detail": "Si sale Blaziken o Arcanine, cambia a Slowbro y usa Bostezo al enfrentar a Cacturne.",
+      "variant": [
+        {
+          "detail": "Ruta rápida: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Magmortar.",
+          "variant": []
+        },
+        {
+          "detail": "Ruta de ahorro: entra con Volcarona y usa Danza Aleteo x3.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Haxorus, usa Amortiguador o Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez y Maquinación hasta +6.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
