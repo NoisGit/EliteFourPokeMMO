@@ -2,6 +2,20 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Usar Amortiguador al enfrentar a Lucario; entrar con Gengar  +2 +2 + Precisión 💡 Si no cambia, usa Amortiguador",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Lucario, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si Alakazam permanece en campo, usa Amortiguador.",
+      "variant": []
+    }
+  ]
 }
