@@ -2,32 +2,62 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Usar Trampa Rocas🔔",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Conkeldurr ➜ Entrar con Gengar otra vez +2",
+      "detail": "Si sale Conkeldurr, entra con Gengar y usa Otra Vez.",
       "variant": [
         {
-          "detail": "Si Conkeldur se queda ➜ Gengar +4 + Precisión",
+          "detail": "Luego Gengar usa Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "Si Conkeldurr se queda, Gengar usa Maquinación hasta +4 y Precisión X.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Salamence, ataca con Bola Sombra.",
+      "variant": [
+        {
+          "detail": "Frente a Steelix, entra Politoed como pivote y entra con Poliwrath 🐸🥊. Usa Ataque X.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Steelix y Puño Drenaje contra Conkeldurr.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Ludicolo, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Salamence ➜ Ataca con bola sombra ➜ y frente a  Steelix ➜ sacrifica a Politoed y entras con Poliwrath usar Ataque X  🔔 Cascada a Steelix / Conkeldurr con Puño Drenaje 🔔",
-      "variant": []
+      "detail": "Si sale Medicham, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Maractus, entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Ludicolo ➜  Cambia a Slowbro y usa Bostezo ➜ sacrifica a Politoed y entrar con Poliwrath +6🐸🥊",
-      "variant": []
-    },
-    {
-      "detail": "Medicham ➜ Cambiar a Slowbro y usa Bostezo ➜ Frente a Maractus ➜ entra con Volcarona +3 🔔puedes usar Especial X y Gigadrenado a Steelix🔔",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus ➜ Usa Amortiguador o Teletransporte y entra con Gengar +6",
-      "variant": []
+      "detail": "Si sale Haxorus, usa Amortiguador o Teletransporte.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar y usa Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
