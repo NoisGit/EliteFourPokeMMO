@@ -2,6 +2,21 @@
   "id": "sudowoodo",
   "name": "Sudowoodo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro y usar Bostezo ; sacrificar a Politoed entrar con Poliwrath  +6 🔔 Usar Puño Hielo contra Gengar 🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Hielo contra Gengar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
