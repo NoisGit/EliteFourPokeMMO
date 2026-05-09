@@ -2,50 +2,65 @@
   "id": "raichu",
   "name": "Raichu",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Lucario ➜ Gengar usa Otra Vez",
+      "detail": "Si sale Lucario, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Entrar con Gengar +2/+2 + Precisión",
+          "detail": "Si Lucario permanece en campo, Gengar usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Dragonite ➜ Cambiar a Slowbro y usar bostezo hasta que cambie a Gallade o Roserade ➜ usa Protección y Bostezo ➜ Frente a Raichu ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
-          "variant": []
+          "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo hasta que cambie a Gallade o Roserade.",
+          "variant": [
+            {
+              "detail": "Usa Protección y Bostezo. Frente a Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Gallade / Roserade --> Gengar usa Otra Vez",
+      "detail": "Si sale Gallade o Roserade, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Protección ➜ Entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra a todos",
-          "variant": []
-        },
-        {
-          "detail": "Espada Santa (vs Gengar rápido) --> Entrar con Gengar +2/+2 + Precisión (No usar Otra Vez)",
-          "variant": []
-        },
-        {
-          "detail": "Espada Santa (vs Gengar lento) --> Entrar con Gengar +4/+2 (No usar Otra Vez)",
-          "variant": []
-        },
-        {
-          "detail": "Golpe Bajo --> Sacrificar a Politoed; entrar con Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Al enfrentar a Dragonite --> Cambiar a Slowbro y usar Bostezo",
+          "detail": "Si usan Protección, entra con Gengar y usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
           "variant": [
             {
-              "detail": "Raichu --> Sacrificar a Politoed; entrar con Poliwrath +6",
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usan Espada Santa contra Gengar rápido, entra con Gengar y usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si usan Espada Santa contra Gengar lento, entra con Gengar y usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+          "variant": []
+        },
+        {
+          "detail": "Si usan Golpe Bajo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Al enfrentar a Dragonite, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Gallade / Roserade (Alakazam) --> Usar Protección y Bostezo al enfrentar a Raichu; sacrificar a Politoed; entrar con Poliwrath +6",
-              "variant": []
+              "detail": "Si sale Gallade o Roserade con Alakazam, usa Protección y Bostezo al enfrentar a Raichu.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }

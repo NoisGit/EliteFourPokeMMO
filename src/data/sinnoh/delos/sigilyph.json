@@ -2,6 +2,21 @@
   "id": "sigilyph",
   "name": "Sigilyph",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Gallade o Roserade; entrar con Gengar +4/+2 (No usar Otra Vez) y usar Bola Sombra para todos",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Gallade o Roserade, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
