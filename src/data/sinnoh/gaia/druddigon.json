@@ -2,23 +2,58 @@
   "id": "druddigon",
   "name": "Druddigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Usar Amortiguador y esperar a Rhyperior",
+      "detail": "Si Druddigon se queda, usa Amortiguador y espera a Rhyperior.",
       "variant": []
     },
     {
-      "detail": "Rhyperior --> Usar Teletransporte para enviar a Slowbro y usar Bostezo ; sacrificar a Politoed y entrar con Poliwrath +6 🔔Hielo golpea a Gengar🔔",
-      "variant": []
+      "detail": "Si sale Rhyperior, usa Teletransporte para enviar a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Hielo contra Gengar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Emboar --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant ; usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 35% dos veces, darle medicina primero🔔",
-      "variant": []
+      "detail": "Si sale Emboar, cambia a Slowbro y usa Bostezo al enfrentar a Durant.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": [
+            {
+              "detail": "Si el HP de Druddigon baja del 35% dos veces, usa medicina primero.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Durant --> Gengar usa Otra Vez  cambiar a Slowbro  al enfrentar a Rhyperior; usar Bostezo al enfrentar a Durant usar Teletransporte ; entrar con Volcarona +1 y usar Especial X 🔔Si el HP de Druddigon baja del 35% dos veces, darle medicina primero🔔",
-      "variant": []
+      "detail": "Si sale Durant, Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro al enfrentar a Rhyperior y usa Bostezo al enfrentar a Durant.",
+          "variant": [
+            {
+              "detail": "Usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+              "variant": [
+                {
+                  "detail": "Si el HP de Druddigon baja del 35% dos veces, usa medicina primero.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
