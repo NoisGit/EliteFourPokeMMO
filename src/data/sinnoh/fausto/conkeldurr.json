@@ -2,19 +2,44 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨  Gengar Otra vez +2",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Conkeldur ➜ Gengar +4 + Precisión X ",
-      "variant": []
-    },
-    {
-      "detail": "Salamence ➜ Bola sombra a Salamence ➜Frente a Steelix ➜ sacrifica a Politoed ➜ Poliwrath usar Ataque X y presionar 🔔 Cascada  a Steelix / Conkeldurr Puño Drenaje🔔 ",
-      "variant": []
-    },
-    {
-      "detail": "Ludicolo ➜  Slowbro , Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Luego entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "Si Conkeldurr se queda, Gengar usa Maquinación hasta +4 y Precisión X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Salamence, usa Bola Sombra contra Salamence.",
+              "variant": [
+                {
+                  "detail": "Frente a Steelix, entra Politoed como pivote y entra con Poliwrath 🐸🥊. Usa Ataque X y presiona.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Steelix y Puño Drenaje contra Conkeldurr.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Ludicolo, Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
