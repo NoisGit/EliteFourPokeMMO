@@ -2,6 +2,21 @@
   "id": "glaceon",
   "name": "Glaceon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Usar Encanto, cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6; usar Cascada contra Metagross 💡",
-  "tricks": []
+  "initialMove": "Usa Encanto.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Metagross.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
