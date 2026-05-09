@@ -2,15 +2,44 @@
   "id": "bouffalant",
   "name": "Bouffalant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Gengar usa Onda Certera y entra con Chansey y usa Trampa Rocas",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Camerupt ➜ Slowbro usa Bostezo y sacrifica a Politoed , Poliwrath  +6🐸🥊 🔔Puño Drenaje a Steelix / Magmortar🔔",
-      "variant": []
+      "detail": "Gengar usa Onda Certera.",
+      "variant": [
+        {
+          "detail": "Luego entra Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Maractus ➜ Teletransporte, Slowbro usa Bostezo y sacrifica a Politoed , Poliwrath a +6🐸🥊 🔔Puño Drenaje a Steelix / Magmortar🔔",
-      "variant": []
+      "detail": "Si sale Camerupt, Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Steelix o Magmortar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Maractus, usa Teletransporte y Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Steelix o Magmortar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
