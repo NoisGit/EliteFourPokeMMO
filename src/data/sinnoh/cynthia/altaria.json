@@ -2,6 +2,26 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Teletransporte ➜ cambiar a Slowbro y usar Bostezo , usar Protección y Bostezo al enfrentar a Nidoqueen ➜ sacrifica a Politoed ➜ entra con Poliwrath +6 🥊 🔔(Usar Cascada contra Bronzong)🔔",
-  "tricks": []
+  "initialMove": "Usa Teletransporte.",
+  "tricks": [
+    {
+      "detail": "Cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Usa Protección y Bostezo al enfrentar a Nidoqueen.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Bronzong.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
