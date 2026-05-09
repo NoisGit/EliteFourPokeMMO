@@ -2,6 +2,25 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Gengar otra vez +6 usar Bola Sombra a todos 💡 si cambia a Bronzong ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 ",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +6 y barre con Bola Sombra.",
+          "variant": []
+        },
+        {
+          "detail": "Si cambia a Bronzong, entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

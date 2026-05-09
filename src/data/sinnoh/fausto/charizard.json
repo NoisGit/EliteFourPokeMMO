@@ -2,15 +2,25 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 TRAMPA ROCAS 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Lopunny ➜ Cambiar a Slowbro y usar Bostezo al enfrentar a Maractus entrar con Volcarona +3 🔔puede usar Especial X y Gigadrenado a Steelix🔔",
-      "variant": []
+      "detail": "Si sale Lopunny, cambia a Slowbro y usa Bostezo al enfrentar a Maractus.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Maractus ➜ Gengar usa Bola Sombra para romper la Banda Focus ➜ entrar con Volcarona +3 🔔puede usar Especial X y Gigadrenado a Steelix🔔",
-      "variant": []
+      "detail": "Si sale Maractus, Gengar usa Bola Sombra para romper la Banda Focus.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

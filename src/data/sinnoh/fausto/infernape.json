@@ -2,6 +2,21 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Usa Amortiguador o Teletransporte y cambia a Gengar otra vez +4 +2 💡 Bola Sombra a todos",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "También puedes usar Teletransporte para entrar con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

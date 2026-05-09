@@ -2,22 +2,42 @@
   "id": "medicham",
   "name": "Medicham",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambiar a Slowbro y luego a Chansey💡",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Cacturne --> Usar Trampa Rocas para recibir Esfuerzo  usar Amortiguador al enfrentar el Trueno  de Medicham  cambiar a Slowbro  y usar Bostezo  al enfrentar a Cacturne  entrar con Volcarona  +3, 🔔puede usar Especial X y Gigadrenado a Steelix🔔",
-      "variant": []
-    },
-    {
-      "detail": "Magmortar --> Usar Trampa Rocas al enfrentar el Trueno  de Medicham  revisar la salud de Medicham ",
+      "detail": "Luego cambia a Chansey.",
       "variant": [
         {
-          "detail": "Vida completa --> Entrar con Gengar +4 (No usar Otra Vez)",
-          "variant": []
+          "detail": "Si sale Cacturne, usa 🪨 Trampa Rocas 🪨 para recibir Esfuerzo.",
+          "variant": [
+            {
+              "detail": "Usa Amortiguador al enfrentar el Trueno de Medicham, cambia a Slowbro y usa Bostezo al enfrentar a Cacturne.",
+              "variant": [
+                {
+                  "detail": "Entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Vida baja  --> Entrar con Gengar  +2 y suicidarse al enfrentar a Bronzong  entrar con Volcarona  +1 si se queda o si sale Houndoom; usar Especial X y presionar para completar",
-          "variant": []
+          "detail": "Si sale Magmortar, usa 🪨 Trampa Rocas 🪨 al enfrentar el Trueno de Medicham y revisa su vida.",
+          "variant": [
+            {
+              "detail": "Si tiene vida completa, entra con Gengar y usa Maquinación hasta +4. No uses Otra Vez.",
+              "variant": []
+            },
+            {
+              "detail": "Si tiene vida baja, entra con Gengar y usa Maquinación hasta +2.",
+              "variant": [
+                {
+                  "detail": "Deja que Gengar quede debilitado al enfrentar a Bronzong. Luego entra con Volcarona y usa Danza Aleteo x1 si Bronzong se queda o si sale Houndoom. Usa Especial X y presiona para completar.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
