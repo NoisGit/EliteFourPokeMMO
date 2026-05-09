@@ -2,63 +2,111 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 🔔(Si se queda usa Amortiguador)🔔",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Conkeldurr --> Entrar con Gengar +2",
-      "variant": [
-        {
-          "detail": "Si se queda --> 💊Gengar +4 + Precisión X💊",
-          "variant": []
-        },
-        {
-          "detail": "Salamence --> Atacar hasta debilitar al enfrentar a Steelix, sacrificar a Politoed, 💊entrar con Poliwrath + Ataque X💊 y presionar 🔔(Cascada contra Steelix/Conkeldurr y Puño Drenaje contra los demas)🔔 ",
-          "variant": []
-        },
-        {
-          "detail": "Ludicolo --> Cambiar a Slowbro  y usar Bostezo  sacrificar a Politoed  entrar con Poliwrath +6",
-          "variant": []
-        } 
-      ]  
+      "detail": "Si Steelix se queda, usa Amortiguador. 🥚",
+      "variant": []
     },
     {
-      "detail": "Cacturne --> Luego usar Trampa Rocas  para recibir Esfuerzo  usar Amortiguador ",
+      "detail": "Si sale Conkeldurr, entra con Gengar y usa Maquinación hasta +2.",
       "variant": [
-        { 
-          "detail": "Lopunny/Medicham --> Cambiar a Slowbro  y usar Bostezo al enfrentar a Cacturne, entrar con Volcarona +3 🔔(Puedes usar Especial X y Gigadrenado a Steelix)🔔",
+        {
+          "detail": "Si Conkeldurr se queda, Gengar usa Maquinación hasta +4 y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Magmortar --> Entrar con Gengar +2 y presionar hasta Steelix; cambiar a Slowbro y usar Bostezo  al enfrentar a Cacturne  entrar con Volcarona +3 🔔(Puedes usar Especial X y Gigadrenado a Steelix)🔔",
-          "variant": []
-        }
-      ]  
-    },
-    {
-      "detail": "Bouffalant --> Cambiar a Gengar y usar Maquinación, al enfrentar a Dragonite, atacar hasta debilitar",
-      "variant": [
-        {
-          "detail": "Magmortar --> Sacrificar a Politoed entrar con Poliwrath +6 🔔(Puño drenaje contra Magmortar)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Steelix --> Cambiar a Slowbro  y usar Bostezo  sacrificar a Politoed  entrar con Poliwrath +6 🔔(Puño drenaje contra Magmortar)🔔",
+          "detail": "Si sale Salamence, ataca hasta quedar debilitado al enfrentar a Steelix.",
           "variant": [
             {
-              "detail": "🚨Arriesgado🚨 --> Sacrificar directamente a Politoed  entrar con Poliwrath +6",
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊. Usa Ataque X y presiona.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Steelix y Conkeldurr. Usa Puño Drenaje contra los demás.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Ludicolo, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
-          ]  
-        }  
-      ]    
+          ]
+        }
+      ]
     },
     {
-      "detail": "Lopunny/Medicham --> Cambiar a Slowbro  y usar Bostezo al enfrentar a Cacturne ; entrar con Volcarona +3 🔔(Puedes usar Especial X y Gigadrenado a Steelix)🔔",
-      "variant": []
+      "detail": "Si sale Cacturne, usa 🪨 Trampa Rocas 🪨 para recibir Esfuerzo y luego usa Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Lopunny o Medicham, cambia a Slowbro y usa Bostezo al enfrentar a Cacturne.",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Magmortar, entra con Gengar y usa Maquinación hasta +2. Presiona hasta Steelix.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Slowbro y usa Bostezo al enfrentar a Cacturne. Entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Camerupt --> Usar Amortiguador y esperar al cambio de Bouffalant; ver estrategia de Bouffalant☝️",
-      "variant": []
+      "detail": "Si sale Bouffalant, cambia a Gengar y usa Maquinación.",
+      "variant": [
+        {
+          "detail": "Al enfrentar a Dragonite, ataca hasta quedar debilitado.",
+          "variant": [
+            {
+              "detail": "Si sale Magmortar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Magmortar.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Steelix, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Magmortar.",
+                  "variant": []
+                },
+                {
+                  "detail": "Ruta arriesgada: entra Politoed como pivote directo y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lopunny o Medicham, cambia a Slowbro y usa Bostezo al enfrentar a Cacturne.",
+      "variant": [
+        {
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Puedes usar Especial X y Gigadrenado contra Steelix.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Camerupt, usa Amortiguador y espera el cambio a Bouffalant.",
+      "variant": [
+        {
+          "detail": "Luego sigue la ruta de Bouffalant.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,6 +2,21 @@
   "id": "typhlosion",
   "name": "Typhlosion",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 para que salga Medicham; usa a Slowbro con Bostezo para que salga Cacturne y entra con Volcarona +3",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Busca que salga Medicham.",
+      "variant": [
+        {
+          "detail": "Usa Slowbro con Bostezo para que salga Cacturne.",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona y usa Danza Aleteo x3.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

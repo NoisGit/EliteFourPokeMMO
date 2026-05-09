@@ -2,6 +2,16 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Medicham; entrar con Gengar +4 (No usar Otra Vez)",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Medicham, entra con Gengar y usa Maquinación hasta +4.",
+      "variant": [
+        {
+          "detail": "No uses Otra Vez.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,6 +2,16 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Usar Amortiguador ➜ Frente a Haxorus usar Amortiguador o Teletransporte ➜ Gengar  otra vez +6🔔",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Frente a Haxorus, usa Amortiguador o Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez y Maquinación hasta +6.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

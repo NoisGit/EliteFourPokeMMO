@@ -2,11 +2,25 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar Otra vez +6 💡 Bola Sombra a todos (haxorus no tiene banda focus)",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Si Cambia a Bronzong ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊 ",
-      "variant": []
+      "detail": "Usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +6 y barre con Bola Sombra. Haxorus no tiene Banda Focus.",
+          "variant": []
+        },
+        {
+          "detail": "Si cambia a Bronzong, entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

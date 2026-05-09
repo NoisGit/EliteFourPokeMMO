@@ -2,18 +2,32 @@
   "id": "camerupt",
   "name": "Camerupt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 Frente a Bouffalant (cinta elegida) ➜ cambiar a Gengar y usa Maquinación ➜ Dragonite atacar con bola sombra",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Magmortar ➜ Sacrifica a Politoed ➜  Poliwrath +6🐸🥊 (puño drenaje Magmortar) ",
-      "variant": []
-    },
-    {
-      "detail": "Steelix ➜  Slowbro, Bostezo ➜ sacrifica a Politoed  ➜ Poliwrath +6🐸🥊(puño drenaje steelix) ",
+      "detail": "Frente a Bouffalant con Cinta Elegida, cambia a Gengar y usa Maquinación.",
       "variant": [
         {
-          "detail": "Arriesgado ➜ Sacrifica a Politoed  ➜ Poliwrath +6🐸🥊",
-          "variant": []
+          "detail": "Al enfrentar a Dragonite, ataca con Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Si sale Magmortar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Magmortar.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Steelix, Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Steelix.",
+                  "variant": []
+                },
+                {
+                  "detail": "Ruta arriesgada: entra Politoed como pivote directo y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
