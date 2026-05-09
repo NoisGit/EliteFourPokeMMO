@@ -2,44 +2,59 @@
   "id": "metagross_5",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐸Elige que ruta usar🐸",
+  "initialMove": "Elige una ruta.",
   "tricks": [
     {
-      "detail": "Arriesgado --> Usar Trampa Rocas y cambiar a Gengar",
+      "detail": "Ruta arriesgada: usa 🪨 Trampa Rocas 🪨 y cambia a Gengar.",
       "variant": [
         {
-          "detail": "Si se queda --> Entrar con Gengar +2 al enfrentar a Dragonite; presionar directamente con Onda Certera a Girafarig restante con Bola Sombra 【5% de probabilidad de Absol aleatorio】",
-          "variant": []
-        },
-        {
-          "detail": "Si Absol debilita a Gengar --> Entrar con Volcarona +1 y presionar; revisar qué Pokémon quedan",
-          "variant": []
-        },
-        {
-          "detail": "Gallade / Roserade --> Entrar con Slowbro y usar Bostezo (ver abajo)",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Estable --> Entrar con Slowbro y usar Bostezo",
-      "variant": [
-        {
-          "detail": "Absol --> Sacrificar a Politoed; entrar con Poliwrath +6; observar la situación",
+          "detail": "Si Metagross se queda, entra con Gengar y usa Maquinación hasta +2 al enfrentar a Dragonite.",
           "variant": [
             {
-              "detail": "Situación ① Girafarig vs Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
-              "variant": []
-            },
-            {
-              "detail": "Situación ② Ninetales vs Girafarig (primer enfrentamiento) --> Presionar directamente; si no hay golpe crítico no debilita; si hay golpe crítico y cae, entrar con Gengar +2 para completar",
+              "detail": "Presiona directo con Onda Certera. Usa Bola Sombra contra Girafarig restante. Hay 5% de Absol aleatorio.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Ninetales --> Usar Protección y Bostezo al enfrentar a Absol; sacrificar a Politoed; entrar con Poliwrath +6",
+          "detail": "Si Absol debilita a Gengar, entra con Volcarona y usa Danza Aleteo x1.",
+          "variant": [
+            {
+              "detail": "Presiona y revisa qué Pokémon quedan.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Gallade o Roserade, entra con Slowbro y usa Bostezo.",
           "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Ruta estable: entra con Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Observa la situación.",
+          "variant": [
+            {
+              "detail": "Situación ① Girafarig contra Ninetales en el primer enfrentamiento: usa Velocidad X y presiona de nuevo.",
+              "variant": []
+            },
+            {
+              "detail": "Situación ② Ninetales contra Girafarig en el primer enfrentamiento: presiona directo. Si hay crítico y cae, entra con Gengar y usa Maquinación hasta +2 para completar.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Ninetales, usa Protección y Bostezo al enfrentar a Absol.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
