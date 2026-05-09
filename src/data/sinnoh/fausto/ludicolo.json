@@ -2,26 +2,51 @@
   "id": "ludicolo",
   "name": "Ludicolo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Medicham ➜ Entrar con Gengar +4 (No usar Otra Vez , Medichan tiene pañuelo elegido)",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr ➜ Entrar con Gengar Otra vez +2",
+      "detail": "Si sale Medicham, entra con Gengar y usa Maquinación hasta +4.",
       "variant": [
         {
-          "detail": "Si conkeldur se queda ➜ Gengar +4 + Precisión X",
+          "detail": "No uses Otra Vez, Medicham tiene Pañuelo Elegido.",
           "variant": []
-        },
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Conkeldurr, entra con Gengar y usa Otra Vez.",
+      "variant": [
         {
-          "detail": " Sale Salamence ➜ Ataca con bola sombra a Salamence ➜ si entra Steelix ➜ sacrifica a Politoed ➜ Poliwrath  usa Ataque X 🔔 Cascada a Steelix / Conkeldurr Puño Drenaje🔔",
-          "variant": []
-        },
-        {
-          "detail": "Ludicolo ➜  Slowbro Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
-          "variant": []
+          "detail": "Luego Gengar usa Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "Si Conkeldurr se queda, Gengar usa Maquinación hasta +4 y Precisión X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Salamence, ataca con Bola Sombra.",
+              "variant": [
+                {
+                  "detail": "Si entra Steelix, entra Politoed como pivote y luego entra con Poliwrath 🐸🥊. Usa Ataque X.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Steelix y Conkeldurr. Usa Puño Drenaje contra el resto.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Ludicolo, Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
