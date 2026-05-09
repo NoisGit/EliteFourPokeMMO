@@ -2,11 +2,16 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Frente a Medicham ➜ Gengar +4 🔔No usar Otra Vez / Medichan Tiene Pañuelo🔔",
-      "variant": []
+      "detail": "Frente a Medicham, entra con Gengar y usa Maquinación hasta +4.",
+      "variant": [
+        {
+          "detail": "No uses Otra Vez, Medicham tiene Pañuelo Elegido.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
