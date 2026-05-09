@@ -2,28 +2,28 @@
   "id": "parasect",
   "name": "Parasect",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Demolición --> Teletransporte ",
+      "detail": "Si Parasect usa Demolición, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si se queda --> Volcarona +1",
+          "detail": "Si Parasect se queda, entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         },
         {
-          "detail": "Rhyperior --> Slowbro, Bostezo (Mira la situación) ",
+          "detail": "Si sale Rhyperior, Slowbro usa Bostezo y revisa la situación.",
           "variant": [
             {
-              "detail": "Acierta --> Teletransporte a Volcarona +1",
+              "detail": "Si Megacuerno acierta, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
               "variant": []
             },
             {
-              "detail": "Falla --> Cambia a Volcarona +1",
-          "variant": []
+              "detail": "Si Megacuerno falla, cambia a Volcarona y usa Danza Aleteo x1.",
+              "variant": []
             },
             {
-              "detail": "Parasect --> Entrar con Volcarona +1",
+              "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
             }
           ]
@@ -31,27 +31,32 @@
       ]
     },
     {
-      "detail": "Rhyperior --> Usar Encanto y cambiar a Slowbro ",
+      "detail": "Si sale Rhyperior, usa Encanto y cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Bostezo al enfrentar a Parasect  entrar con Volcarona +1",
+          "detail": "Si Rhyperior se queda, usa Bostezo al enfrentar a Parasect y entra con Volcarona para usar Danza Aleteo x1.",
           "variant": []
         },
         {
-          "detail": "Parasect --> Entrar con Volcarona +1",
+          "detail": "Si sale Parasect, entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Durant --> Opciones para resolver",
+      "detail": "Si sale Durant, elige ruta estable o arriesgada.",
       "variant": [
         {
-          "detail": "Estable --> Cambiar a Slowbro y usar Bostezo al enfrentar a Gengar; entrar con Volcarona +1 🔔usar Psíquico al enfrentar a Gengar🔔",
-          "variant": []
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo al enfrentar a Gengar.",
+          "variant": [
+            {
+              "detail": "Entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Arriesgado --> Entrar con Volcarona +1 🔔usar Psíquico al enfrentar a Gengar🔔",
+          "detail": "Ruta arriesgada: entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
           "variant": []
         }
       ]
