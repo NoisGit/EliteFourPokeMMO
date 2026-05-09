@@ -2,15 +2,30 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 Amortiguador 🥚 y observa qué objeto tienen",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Vidasfera --> Cambiar a Slowbro ante Gallade o Roserade; usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Sin Vidasfera --> Usar Trampa Rocas al enfrentar a Gallade o Roserade; entrar con Gengar +4 +2 + Precisión",
-      "variant": []
+      "detail": "Observa qué objeto tiene Hydreigon.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidaesfera, cambia a Slowbro ante Gallade o Roserade y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si no tiene Vidaesfera, usa 🪨 Trampa Rocas 🪨 al enfrentar a Gallade o Roserade.",
+          "variant": [
+            {
+              "detail": "Luego entra con Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

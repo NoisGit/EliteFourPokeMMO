@@ -2,36 +2,55 @@
   "id": "girafarig",
   "name": "Girafarig",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Mira abajo como seguir🔔 ",
+  "initialMove": "Elige una ruta.",
   "tricks": [
     {
-      "detail": " Ruta Arriesgada ➜ Usar Trampa Rocas Frente a Gallade ➜ entra con Gengar Otra vez  +2 si entra Dragonite usa bola sombra 🔔usa Onda Certera a Girafarig 🔔",
+      "detail": "Ruta arriesgada: usa 🪨 Trampa Rocas 🪨 frente a Gallade.",
       "variant": [
         {
-          "detail": "Si Absol debilita a Gengar ➜ Entra con Volcarona x1 danza aleteo y presionar; revisar qué Pokémon quedan",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": " Ruta Estable ➜ Entra con Slowbro y usa Bostezo",
-      "variant": [
-        {
-          "detail": "Absol ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊  observa quien sale primero ",
+          "detail": "Entra con Gengar, usa Otra Vez y Maquinación hasta +2.",
           "variant": [
             {
-              "detail": "Si Girafarig sale primero que  Ninetales ➜ Usar Velocidad X y presionar de nuevo",
-              "variant": []
-            },
-            {
-              "detail": "Si Ninetales sale primero que  Girafarig ➜ Presionar directamente; si no hay golpe crítico no debilita; si hay golpe crítico y cae, entrar con Gengar +2 para completar",
+              "detail": "Si entra Dragonite, usa Bola Sombra. Usa Onda Certera contra Girafarig.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Ninetales ➜ Usa Protección y Bostezo y Frente a Absol; sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
-          "variant": []
+          "detail": "Si Absol debilita a Gengar, entra con Volcarona y usa Danza Aleteo x1.",
+          "variant": [
+            {
+              "detail": "Presiona y revisa qué Pokémon quedan.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Ruta estable: entra con Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Observa quién sale primero.",
+          "variant": [
+            {
+              "detail": "Si Girafarig sale antes que Ninetales, usa Velocidad X y presiona de nuevo.",
+              "variant": []
+            },
+            {
+              "detail": "Si Ninetales sale antes que Girafarig, presiona directo. Si hay crítico y cae, entra con Gengar y usa Maquinación hasta +2 para completar.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Ninetales, usa Protección y Bostezo frente a Absol.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

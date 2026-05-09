@@ -2,102 +2,137 @@
   "id": "gallade_2",
   "name": "Gallade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar👻",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Espada Santa ➜ Gengar usa Otra Vez",
+      "detail": "Si Gallade usa Espada Santa, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Gallade pega Segundo ➜ Cambiar a Slowbro",
+          "detail": "Si Gallade pega segundo, cambia a Slowbro.",
           "variant": [
             {
-              "detail": "Si se queda ➜ Usar Bostezo😴",
+              "detail": "Si Gallade se queda, usa Bostezo.",
               "variant": [
-                 {
-                   "detail": "Gardevoir ➜ Entrar con Chansey y usar Trampa Rocas ➜ Frente a Gallade 💊entra con Gengar +6 +2 + Precisión X💊",
-                   "variant": []
-                 },
-                 {         
-                   "detail": "Golduck / Absol ➜ Cambia a Chansey y usar Trampa Rocas",
-                   "variant": [
-                     {         
-                       "detail": "Absol ➜ 👻Cambia a Gengar 4+2👻",
-                       "variant": []
-                     },
-                     { 
-                       "detail": "Gallade ➜ 👻Cambia a Gengar 4+2👻 🔔(No usar Otra Vez)🔔",
-                       "variant": []
-                     }
-                   ] 
-                 },
-                 { 
-                   "detail": "Hydreigon ➜ Sacrifica a Politoed 🔔(Identifica el Movimiento)🔔",
-                   "variant": [
-                     { 
-                       "detail": "Pulso Dragon ➜ Cambiar a Chansey y usar Trampa Rocas ➜ Frente a Gallade ➜ 💊entra con Gengar +6 +2 + Precisión X💊",
-                       "variant": []
-                     },
-                     {   
-                       "detail": "Pulso Umbrío ➜ Entrar con Poliwrath +6",
-                       "variant": []
-                     } 
-                   ]
-                 },
-                 {  
-                    "detail": "Raichu ➜ Sacrifica a Politoed ➜ Poliwrath +6",
-                    "variant": []
-                 }   
-               ]
-            },
-            {  
-              "detail": "Dragonite ➜ Usar Bostezo😴",
-              "variant": [
-                {  
-                  "detail": "Raichu ➜ Sacrifica a Politoed ➜ Poliwrath +6",
-                  "variant": []
-                },
                 {
-                  "detail": "Absol ➜ Sacrifica a Politoed ➜ Poliwrath +6 🔔(Observa tu situación)🔔",
+                  "detail": "Si sale Gardevoir, entra Chansey y usa 🪨 Trampa Rocas 🪨.",
                   "variant": [
                     {
-                      "detail": "Si entra Girafarig primero que ninetales ➜ Usar Velocidad X y presionar de nuevo",
+                      "detail": "Frente a Gallade, entra con Gengar, usa Maquinación hasta +6, Velocidad X para +2 Velocidad y Precisión X.",
                       "variant": []
-                    },
-                    {  
-                      "detail": "Si entra Ninetales Primero que Girafarig ➜ Sigue Atacando si no hay golpe crítico no debilita 🚨(Si hay golpe crítico y cae, entra con Gengar +2 para completar)🚨",
-                      "variant": []
-                    }  
+                    }
                   ]
                 },
                 {
-                  "detail": "Ninetales ➜ Usar Protección y Bostezo ➜ Frente a Absol ➜ sacrifica a Politoed ➜ Poliwrath +6",
+                  "detail": "Si sale Golduck o Absol, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Absol, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si sale Gallade, cambia a Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. No uses Otra Vez.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Hydreigon, entra Politoed como pivote para identificar movimiento.",
+                  "variant": [
+                    {
+                      "detail": "Si usa Pulso Dragón, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+                      "variant": [
+                        {
+                          "detail": "Frente a Gallade, entra con Gengar, usa Maquinación hasta +6, Velocidad X para +2 Velocidad y Precisión X.",
+                          "variant": []
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si usa Pulso Umbrío, entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 }
               ]
-            }  
-          ]  
+            },
+            {
+              "detail": "Si sale Dragonite, usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si sale Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Observa tu situación.",
+                  "variant": [
+                    {
+                      "detail": "Si entra Girafarig antes que Ninetales, usa Velocidad X y presiona de nuevo.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si entra Ninetales antes que Girafarig, sigue atacando. Si no hay crítico, no debilita; si hay crítico y cae, entra con Gengar y usa Maquinación hasta +2 para completar.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Ninetales, usa Protección y Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Frente a Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Gallade Pega primero ➜ 💊Gengar 2+2 + Precision X💊 🔔(No usar Otra Vez)🔔",
+          "detail": "Si Gallade pega primero, Gengar usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
           "variant": []
         },
         {
-          "detail": "Lo atrapas en Golpe bajo ➜ Sacrifica a Politoed ➜ Poliwrath +6",
+          "detail": "Si queda atrapado en Golpe Bajo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Gallade usa Proteccion ➜ Gengar usa Maquinación y atacar hasta debilitar ➜ al enfrentar a Raichu ➜ entra con Chansey y usar Trampa Rocas al enfrentar a Absol ➜ entra con Gengar +4 +2",
-          "variant": []
+          "detail": "Si Gallade usa Protección, Gengar usa Maquinación y ataca hasta quedar debilitado.",
+          "variant": [
+            {
+              "detail": "Al enfrentar a Raichu, entra con Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Absol.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Gengar y usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Cambia a Dragonite ➜ Cambiar a Slowbro y usar Bostezo ➜ Frente a Raichu ➜ sacrifica a Politoed ➜ entra con Poliwrath +6",
-          "variant": []          
-        } 
-      ]  
+          "detail": "Si cambia a Dragonite, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Frente a Raichu, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Segundo Gallade ➜ Sacrifica a Politoed ➜ enviar a Chansey ➜ entra con Gengar +6 🔔(Usar Bola Sombra para Barrer)🔔",
-      "variant": []
+      "detail": "Si aparece el segundo Gallade, entra Politoed como pivote y luego envía a Chansey.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Maquinación hasta +6 y barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

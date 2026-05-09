@@ -2,38 +2,58 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 frente a Gallade; Gengar +2",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Gengar +6 +2 + Precisión",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite 【Arriesgado】 --> Presionar directamente; Girafarig  usa Onda Certera; Gengar termina con Bola Sombra 【5% de probabilidad de que salga Absol】",
-      "variant": []
-    },
-    {
-      "detail": "Sale Absol y Gengar es debilitado --> Volcarona +1; presionar filas traseras; informar quién queda",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite 【Seguro】 --> Slowbro usa Bostezo",
-      "variant": []
-    },
-    {
-      "detail": "Ninetales --> Usar Protección y Bostezo; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Absol --> Sacrificar a Politoed; Poliwrath +6; observar la situación",
+      "detail": "Frente a Gallade, entra con Gengar y usa Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Situación 1 Girafarig  vs. Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
+          "detail": "Si Gallade permanece en campo, Gengar usa Maquinación hasta +6, Velocidad X para +2 Velocidad y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Situación 2 Ninetales vs. Girafarig (primer enfrentamiento) --> Presionar directamente; si no es golpe crítico no debilita; si es golpe crítico y cae, Gengar +2 para completar",
+          "detail": "Si sale Dragonite en ruta arriesgada, presiona directo.",
+          "variant": [
+            {
+              "detail": "Usa Onda Certera contra Girafarig y termina con Bola Sombra. Hay 5% de probabilidad de que salga Absol.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Absol y debilita a Gengar, entra con Volcarona y usa Danza Aleteo x1.",
+          "variant": [
+            {
+              "detail": "Presiona filas traseras e informa quién queda.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Dragonite en ruta segura, Slowbro usa Bostezo.",
           "variant": []
+        },
+        {
+          "detail": "Si sale Ninetales, usa Protección y Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Observa la situación.",
+          "variant": [
+            {
+              "detail": "Situación ① Girafarig contra Ninetales en el primer enfrentamiento: usa Velocidad X y presiona de nuevo.",
+              "variant": []
+            },
+            {
+              "detail": "Situación ② Ninetales contra Girafarig en el primer enfrentamiento: presiona directo. Si hay crítico y cae, entra con Gengar y usa Maquinación hasta +2 para completar.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

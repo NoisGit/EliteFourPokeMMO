@@ -2,6 +2,16 @@
   "id": "medicham",
   "name": "Medicham",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambiar a Slowbro y usar Bostezo al enfrentar a Raichu; sacrificar a Politoed; entrar con Poliwrath +6 💡",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo al enfrentar a Raichu.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

@@ -2,33 +2,48 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 Amortiguador 🥚",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Fuerza Bruta --> Entrar con Slowbro y usar Bostezo ",
+      "detail": "Si Dragonite usa Fuerza Bruta, entra con Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Ninetales --> Usar Protección  y Bostezo ; sacrificar a Politoed ; entrar con Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Absol --> Sacrificar a Politoed  entrar con Poliwrath  +6; abrir y observar la situación",
+          "detail": "Si sale Ninetales, usa Protección y Bostezo.",
           "variant": [
             {
-              "detail": "Situación ① Girafarig  vs Ninetales (primer enfrentamiento) --> Usar Velocidad X y presionar de nuevo",
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
-            },
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Absol, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
             {
-              "detail": "Situación ② Ninetales vs Girafarig  (primer enfrentamiento) --> Presionar directamente; si no hay golpe crítico no debilita; si hay golpe crítico y cae, entrar con Gengar  +2 para completar",
-              "variant": []
+              "detail": "Abre y observa la situación.",
+              "variant": [
+                {
+                  "detail": "Situación ① Girafarig contra Ninetales en el primer enfrentamiento: usa Velocidad X y presiona de nuevo.",
+                  "variant": []
+                },
+                {
+                  "detail": "Situación ② Ninetales contra Girafarig en el primer enfrentamiento: presiona directo. Si hay crítico y cae, entra con Gengar y usa Maquinación hasta +2 para completar.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Gallade--> Entrar con Slowbro y usar Bostezo al enfrentar a Raichu; sacrificar a Politoed  entrar con Poliwrath  +6",
-      "variant": []
+      "detail": "Si sale Gallade, entra con Slowbro y usa Bostezo al enfrentar a Raichu.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
