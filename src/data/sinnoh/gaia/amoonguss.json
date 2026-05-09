@@ -2,22 +2,42 @@
   "id": "amoonguss",
   "name": "Amoonguss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Slowbro💡",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Durant ➜ Bostezo , Protección vuelve a usar Bostezo ➜ frente a Rhyperior ➜ Teletransporte ➜ Poliwrath +6 🐸🥊(todos son lentos)",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior ➜ Usar Bostezo ",
+      "detail": "Si sale Durant, usa Bostezo.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Usar Teletransporte ➜ entrar con Volcarona +1  🔔usar Psíquico al enfrentar a Gengar🔔",
-          "variant": []
+          "detail": "Luego usa Protección y vuelve a usar Bostezo.",
+          "variant": [
+            {
+              "detail": "Frente a Rhyperior, usa Teletransporte y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Todos son lentos.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Rhyperior, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Rhyperior se queda, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
+          "variant": [
+            {
+              "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Gengar ➜ Cambiar a Volcarona +1  🔔usar Psíquico al enfrentar a Gengar🔔",
-          "variant": []
+          "detail": "Si sale Gengar, cambia a Volcarona y usa Danza Aleteo x1.",
+          "variant": [
+            {
+              "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
         }
       ]
     }
