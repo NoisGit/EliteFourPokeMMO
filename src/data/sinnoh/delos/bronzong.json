@@ -2,6 +2,16 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 al enfrentar a Gallade; entrar con Gengar  +6 +2 + Precisión ",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Gallade, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +6, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
