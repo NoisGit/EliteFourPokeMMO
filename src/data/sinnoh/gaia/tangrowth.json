@@ -2,17 +2,22 @@
   "id": "tangrowth",
   "name": "Tangrowth",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Cambiar a Slowbro💡",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Rhyperior --> Usar Bostezo y revisar si Megacuerno acierta",
+      "detail": "Si sale Rhyperior, usa Bostezo y revisa si Megacuerno acierta.",
       "variant": [
         {
-          "detail": "Acierta --> Usar Teletransporte  entrar con Volcarona , usar Especial X y presionar",
-          "variant": []
+          "detail": "Si Megacuerno acierta, usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Volcarona, usa Especial X y presiona.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Falla --> Cambiar a Volcarona , usar Especial X y presionar",
+          "detail": "Si Megacuerno falla, cambia a Volcarona, usa Especial X y presiona.",
           "variant": []
         }
       ]

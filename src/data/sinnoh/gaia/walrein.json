@@ -2,19 +2,44 @@
   "id": "walrein",
   "name": "Walrein",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Cambiar a Slowbro🔔",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Superdiente ➜ Cambiar a Chansey y usar Trampa Rocas ➜ Frente a Absol ➜ cambiar a Slowbro Bostezo ➜ al enfrentar  a Gengar/Nidoking ➜ entra con Volcarona x1 danza aleteo 🔔(Usar Psíquico al enfrentar a Gengar)🔔",
-      "variant": []
+      "detail": "Si Walrein usa Superdiente, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Frente a Absol, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Al enfrentar a Gengar o Nidoking, entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Absol ➜ Cambiar a Chansey y usar Trampa Rocas, cambiar a Slowbro y usar Bostezo, entrar con Volcarona x1 danza aleteo 🔔(Usar Psíquico al enfrentar a Gengar)🔔",
-      "variant": []
+      "detail": "Si sale Absol, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Durant ➜ Slowbro usa Protección y bostezo ➜ Usa bostezo o Teletransporte y cambia a Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Durant, Slowbro usa Protección y Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego usa Bostezo o Teletransporte y cambia a Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

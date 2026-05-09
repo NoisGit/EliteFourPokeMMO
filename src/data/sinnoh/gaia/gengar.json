@@ -2,42 +2,72 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Absol --> Cambiar a Slowbro y usar Bostezo ; entrar con Volcarona (moth) +1 🔔Usar Psíquico al enfrentar a Gengar🔔",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior --> Usar Teletransporte y revisar objeto",
+      "detail": "Si sale Absol, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Vidaesfera --> Slowbro usa Bostezo ; sacrificar a Politoed ; entrar con Poliwrath +6 y usar Puño Hielo contra Gengar",
-          "variant": []
-        },
-        {
-          "detail": "Sin Vidaesfera --> Enviar a Slowbro y usar Bostezo al enfrentar a Quagsire; continuar usando Bostezo",
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Si se queda --> Usar Teletransporte ; entrar con Volcarona  +1 🔔usar Psíquico al enfrentar a Gengar🔔 ",
-      "variant": []
-    },
-    {
-      "detail": "Gengar --> Entrar con Volcarona  +1 🔔usar Psíquico al enfrentar a Gengar🔔",
-      "variant": []
-    },
-    {
-      "detail": "Durant --> Opciones para resolver",
+      "detail": "Si sale Rhyperior, usa Teletransporte y revisa su objeto.",
       "variant": [
         {
-          "detail": "Estable --> Cambiar a Slowbro y usar Bostezo al enfrentar a Gengar; entrar con Volcarona +1 y usar Psíquico al enfrentar a Gengar ",
-          "variant": []
+          "detail": "Si tiene Vidaesfera, Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Gengar.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Arriesgado --> Entrar con Volcarona +1",
+          "detail": "Si no tiene Vidaesfera, envía a Slowbro y usa Bostezo al enfrentar a Quagsire.",
+          "variant": [
+            {
+              "detail": "Continúa usando Bostezo según la ruta.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si Gengar se queda, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Gengar, entra con Volcarona y usa Danza Aleteo x1.",
+      "variant": [
+        {
+          "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Durant, elige ruta estable o arriesgada.",
+      "variant": [
+        {
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo al enfrentar a Gengar.",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona, usa Danza Aleteo x1 y Psíquico al enfrentar a Gengar. 👻",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Ruta arriesgada: entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]

@@ -2,28 +2,43 @@
   "id": "quagsire",
   "name": "Quagsire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Cambiar a Slowbro 🔔",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Si se queda --> Usar Bostezo al enfrentar a Gengar entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar 🔔",
-      "variant": []
-    },
-    {
-      "detail": "Rhyperior --> Usar Bostezo ",
+      "detail": "Si Quagsire se queda, usa Bostezo al enfrentar a Gengar.",
       "variant": [
         {
-          "detail": "Megacuerno acierta --> Usar Teletransporte entrar con Volcarona  usar Especial X y presionar",
-          "variant": []
-        },
-        {
-          "detail": "Megacuerno falla --> Entrar con Volcarona , usar Especial X y presionar",
+          "detail": "Luego entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico al enfrentar a Gengar. 👻",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Gengar --> Entrar con Volcarona +1 🔔 Usar Psíquico al enfrentar a Gengar 🔔",
-      "variant": []
+      "detail": "Si sale Rhyperior, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Megacuerno acierta, usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Volcarona, usa Especial X y presiona.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si Megacuerno falla, entra con Volcarona, usa Especial X y presiona.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Gengar, entra con Volcarona y usa Danza Aleteo x1.",
+      "variant": [
+        {
+          "detail": "Usa Psíquico al enfrentar a Gengar. 👻",
+          "variant": []
+        }
+      ]
     }
   ]
 }

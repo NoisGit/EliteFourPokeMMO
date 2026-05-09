@@ -2,6 +2,21 @@
   "id": "emboar",
   "name": "Emboar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Sacrificar a Politoed, entrar con Slowbro  y usar Bostezo al enfrentar a Durant; usar Teletransporte  y entrar con Poliwrath +6 💡 Usar Cascada contra Rhyperior",
-  "tricks": []
+  "initialMove": "Entra Politoed como pivote.",
+  "tricks": [
+    {
+      "detail": "Luego entra con Slowbro y usa Bostezo al enfrentar a Durant.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Rhyperior.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

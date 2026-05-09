@@ -2,77 +2,127 @@
   "id": "durant",
   "name": "Durant",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar usa Otra Vez",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Si se queda --> Bola Sombra",
+      "detail": "Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Se queda → Maquinación + Bola sombra para debilitar",
+          "detail": "Si Durant se queda, usa Bola Sombra.",
           "variant": [
             {
-              "detail": "Golem --> Cambiar a Chansey y usar Trampa Rocas si se queda; cambiar a Slowbro y usar Bostezo al enfrentar a Gengar; entrar con Volcarona +1 y usar Psíquico al enfrentar a Gengar",
-              "variant": []
+              "detail": "Si vuelve a quedarse, usa Maquinación y Bola Sombra para debilitarlo.",
+              "variant": [
+                {
+                  "detail": "Si sale Golem, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 si se queda.",
+                  "variant": [
+                    {
+                      "detail": "Luego cambia a Slowbro y usa Bostezo al enfrentar a Gengar. Entra con Volcarona, usa Danza Aleteo x1 y Psíquico al enfrentar a Gengar. 👻",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si usa Maquinación y cambia a Hippowdon, cambia a Slowbro y usa Bostezo al enfrentar a Durant.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y vuelve a usar Bostezo. Si sale Rhyperior, usa Teletransporte y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Cloyster, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Si usa Maquinación y va hacia Hippowdon --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; Usa protección y vuelve a usar Bostezo, sale Rhyperior → Teletransporte a Poliwrath +6",
-              "variant": []
-            },
-            {
-              "detail": "Cloyster → Politoed (sacrificar), Poliwrath +6",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Hippowdon --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; Usa protección y vuelve a usar Bostezo, sale Amoonguss → Teletransporte a Poliwrath +6",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Rhyperior --> Revisar objeto",
-      "variant": [
-        {
-          "detail": "Restos --> Chansey, trampa rocas. Sale Emboar → Gengar, otra vez, +2",
-          "variant": [
-            {
-              "detail": "Se queda → Gengar, +4 (bola sombra a todos)",
-              "variant": []
-            },
-            {
-              "detail": "Druddigon → Politoed (sacrificar), Poliwrath + Atk X y presiona. (Puño Drenaje a Cloyster, Puño H a Dragonite y los demas cascada)",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Sin Restos --> Cambia a Slowbro, Bostezo",
-          "variant": [
-            {
-              "detail": "Se queda → Teletransporte a Volcarona, +1. Usa Gigadrenado para vencer a Rhyperior, sale Hippowdon → Toma un SpAtk X, presiona hasta que salga Walrein/Dewgong. + 1 Danza Aleteo, termina",
-              "variant": []
+              "detail": "Si sale Hippowdon, cambia a Slowbro y usa Bostezo al enfrentar a Durant.",
+              "variant": [
+                {
+                  "detail": "Usa Protección y vuelve a usar Bostezo. Si sale Amoonguss, usa Teletransporte y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Si cambia a Rhyperior al usar Otra Vez --> Cambiar a Chansey y usar Trampa Rocas, toma 1 Max Poción ; Usa Amortiguador y Encanto hasta que cambie",
+      "detail": "Si sale Rhyperior, revisa su objeto.",
       "variant": [
         {
-          "detail": "Durant (Arriesgado) --> Volcarona, +1. (Psiquico a Gengar)",
-          "variant": []
+          "detail": "Si tiene Restos, entra Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si sale Emboar, entra Gengar, usa Otra Vez y Maquinación hasta +2.",
+              "variant": [
+                {
+                  "detail": "Si Emboar se queda, Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Druddigon, entra Politoed como pivote y entra con Poliwrath 🐸🥊. Usa Ataque X y presiona.",
+                  "variant": [
+                    {
+                      "detail": "Usa Puño Drenaje contra Cloyster, Puño Hielo contra Dragonite y Cascada contra los demás.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Durant (Estable) → Slowbro, bostezo. Sale Gengar → Cambia a Volcarona +1",
-          "variant": []
+          "detail": "Si no tiene Restos, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Rhyperior se queda, usa Teletransporte y entra con Volcarona para usar Danza Aleteo x1.",
+              "variant": [
+                {
+                  "detail": "Usa Gigadrenado para vencer a Rhyperior. Si sale Hippowdon, usa Especial X y presiona hasta que salga Walrein o Dewgong.",
+                  "variant": [
+                    {
+                      "detail": "Luego usa Danza Aleteo x1 más y termina.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Druddigon --> Sacrificar a Politoed ; entrar con Poliwrath +6 y usar Puño Drenaje para absorber y mantener la línea de HP",
-      "variant": []
+      "detail": "Si cambia a Rhyperior al usar Otra Vez, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Usa una Max Poción, luego Amortiguador y Encanto hasta que cambie.",
+          "variant": [
+            {
+              "detail": "Ruta arriesgada contra Durant: entra con Volcarona y usa Danza Aleteo x1. Usa Psíquico contra Gengar. 👻",
+              "variant": []
+            },
+            {
+              "detail": "Ruta estable contra Durant: cambia a Slowbro y usa Bostezo. Si sale Gengar, cambia a Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Druddigon, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y usa Puño Drenaje para absorber y mantener la línea de HP.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

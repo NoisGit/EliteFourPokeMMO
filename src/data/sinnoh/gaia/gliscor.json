@@ -2,15 +2,40 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": " 🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Emboar --> Cambiar a Slowbro y usar Bostezo al enfrentar a Durant; usar Teletransporte  entrar con Volcarona (moth) +1 y usar Especial X 🔔Si el HP de Druddigon baja del 36% dos veces, darle medicina primero🔔",
-      "variant": []
+      "detail": "Si sale Emboar, cambia a Slowbro y usa Bostezo al enfrentar a Durant.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+          "variant": [
+            {
+              "detail": "Si el HP de Druddigon baja del 36% dos veces, usa medicina primero.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Durant --> Gengar  usa Otra Vez cambiar a Slowbro  al enfrentar a Rhyperior; usar Bostezo al enfrentar a Durant; usar Teletransporte  entrar con Volcarona  +1 y usar Especial X 🔔Si el HP de Druddigon baja del 36% dos veces, darle medicina primero🔔",
-      "variant": []
+      "detail": "Si sale Durant, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro al enfrentar a Rhyperior y usa Bostezo al enfrentar a Durant.",
+          "variant": [
+            {
+              "detail": "Usa Teletransporte, entra con Volcarona, usa Danza Aleteo x1 y Especial X.",
+              "variant": [
+                {
+                  "detail": "Si el HP de Druddigon baja del 36% dos veces, usa medicina primero.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
