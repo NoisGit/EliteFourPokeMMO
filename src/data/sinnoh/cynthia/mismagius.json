@@ -2,6 +2,21 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 Amortiguador 🥚 Frente a Lucario ➜ Cambia a Gengar Otra Vez +4  ⚠️Lucario Tiene Banda Focus , Usa otra vez al final de bostearte⚠️",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Frente a Lucario, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez y Maquinación hasta +4.",
+          "variant": [
+            {
+              "detail": "Lucario tiene Banda Focus. Usa Otra Vez al final del boosteo.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
