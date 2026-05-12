@@ -2,35 +2,58 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 (Si se queda, usar Amortiguador)",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Heracross --> Usar Teletransporte y revisar objeto",
+      "detail": "Si Bronzong se queda, usa Amortiguador.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Heracross, usa Teletransporte y revisa su objeto.",
       "variant": [
         {
-          "detail": "Vidasfera --> Entrar con Gengar +4 + Precisión",
+          "detail": "Si tiene Vidaesfera, entra con Gengar, usa Maquinación hasta +4 y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Sin Vidasfera --> Entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
+          "detail": "Si no tiene Vidaesfera, entra con Gengar y usa Maquinación hasta +6. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Usa Onda Certera contra Clefable.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si aparece Bronzong, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Cambio a Bronzong enemigo --> Sacrificar a Politoed; entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6; usar Cascada contra Bronzong",
-      "variant": []
-    },
-    {
-      "detail": "Lucario --> Usar Teletransporte; cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
+      "detail": "Si sale Garchomp, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Si Slowbro retrocede, saca politoed (sacrificar), Poliwrath +2 (con Ataque X), (manten HP 70%).",
-          "variant":  []
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Bronzong.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario, usa Teletransporte, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si Slowbro retrocede, entra Politoed como pivote y entra con Poliwrath 🐸🥊. Usa Ataque X para +2 Ataque y mantén HP sobre 70%.",
+          "variant": []
         }
       ]
     }
