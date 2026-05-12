@@ -2,15 +2,30 @@
   "id": "bastiodon",
   "name": "Bastiodon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨; cambiar a Slowbro y usar Bostezo",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Serperior --> 💊Entrar con Volcarona +2 y usar Atk. Especial X💊 🚨(Mantener PS por encima del 29%)🚨",
-      "variant": []
-    },
-    {
-      "detail": "Jellicent --> Usar Protección, luego bostezo; cambiar a Volcarona ante Serperior; 💊Volcarona +2 y AtkSpecial X💊 🚨(Mantener PS por encima del 29%)🚨",
-      "variant": []
+      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Serperior, entra con Volcarona.",
+          "variant": [
+            {
+              "detail": "Volcarona usa Danza Aleteo x2 y Especial X. Mantén PS por encima del 29%.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Jellicent, usa Protección y luego Bostezo.",
+          "variant": [
+            {
+              "detail": "Cambia a Volcarona ante Serperior. Volcarona usa Danza Aleteo x2 y Especial X. Mantén PS por encima del 29%.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
