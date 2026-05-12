@@ -2,6 +2,21 @@
   "id": "umbreon",
   "name": "Umbreon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 frente a Garchomp; Slowbro usa Bostezo frente a Chandelure; sacrificar a Politoed; Poliwrath +6 🔔 Cascada a Bronzong 🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Garchomp, Slowbro usa Bostezo al enfrentar a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Bronzong.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
