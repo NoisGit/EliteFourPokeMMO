@@ -2,6 +2,16 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨 frente a Heracross; sacrificar a Politoed; Gengar Otra vez +4 + Precisión X",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Heracross, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Precisión X.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
