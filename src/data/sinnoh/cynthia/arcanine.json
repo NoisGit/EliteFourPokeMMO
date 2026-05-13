@@ -2,24 +2,44 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚 Amortiguador 🥚",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Usar Trampa Rocas ➜ cambiar a Slowbro y usar Bostezo",
+      "detail": "Si Arcanine se queda, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
-       {
-         "detail": "Serperior ➜ Usar Protección y Bostezo al enfrentar a Jellicent, sacrifica a Politoed, entra con Poliwrath +6 🐸🥊",
-         "variant": []
-       },
-       {
-        "detail": "Jellicent ➜ Usar Protección, cambiar a Volcarona ante Serperior, 💊Volcarona +2 + atk. Especial X💊 🚨(Mantener PS por encima del 29%)🚨",
-        "variant": []
-       }
-      ]  
-    },  
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Serperior, usa Protección y Bostezo al enfrentar a Jellicent.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Jellicent, usa Protección y cambia a Volcarona ante Serperior.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x2 y Especial X. Mantén PS por encima del 29%.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
-      "detail": "Lucario ➜ Entrar con Gengar, Otra Vez +4",
-      "variant": []
+      "detail": "Si sale Lucario, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego Gengar usa Maquinación hasta +4.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
