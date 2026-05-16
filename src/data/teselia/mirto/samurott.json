@@ -2,6 +2,25 @@
   "id": "samurott",
   "name": "Samurott",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Lucario; cambiar a Slowbro y usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño Drenaje a Volcarona y Cascada a Reuniclus)🔔 🚨(Si Volcarona despierta no hay Amenaza)🚨 ",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona y Cascada contra Reuniclus.",
+              "variant": []
+            },
+            {
+              "detail": "Si Volcarona despierta, no es amenaza.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
