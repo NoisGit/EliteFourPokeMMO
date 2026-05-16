@@ -2,11 +2,21 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar usa Otra Vez💡",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6.",
-      "variant": []
+      "detail": "Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
