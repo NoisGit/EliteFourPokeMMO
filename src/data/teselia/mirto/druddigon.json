@@ -2,6 +2,21 @@
   "id": "druddigon",
   "name": "Druddigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro ➜ Frente a Conkeldurr/Braviary ➜ usar Bostezo ➜ Frente a Volcarona ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje a Volcarona)🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Frente a Conkeldurr o Braviary, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
