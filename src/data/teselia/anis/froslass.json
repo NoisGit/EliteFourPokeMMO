@@ -2,15 +2,30 @@
   "id": "froslass",
   "name": "Froslass",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Eelektross --> Gengar usa Otra Vez, cambiar a Slowbro frente a Dragonite; usar Bostezo, sacrificar a Politoed, entra con Poliwrath +6 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
-      "variant": []
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro frente a Dragonite y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Dragonite --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed, entrar con Poliwrath +6 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
-      "variant": []
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
