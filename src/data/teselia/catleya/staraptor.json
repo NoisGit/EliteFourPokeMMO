@@ -2,17 +2,35 @@
   "id": "staraptor",
   "name": "Staraptor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Ver habilidad💡",
+  "initialMove": "Revisa la habilidad.",
   "tricks": [
     {
-      "detail": "Intimidación --> Volcarona +3 🔔(Gigadrenado a Staraptor)🔔",
-      "variant": []
+      "detail": "Si tiene Intimidación, entra con Volcarona y usa Danza Aleteo x3.",
+      "variant": [
+        {
+          "detail": "Usa Gigadrenado contra Staraptor.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Sin Intimidación --> Gengar usa Otra Vez, cambiar a Slowbro y usar Bostezo al enfrentar a Jolteon; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
-      "variant": []
+      "detail": "Si no tiene Intimidación, Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo al enfrentar a Jolteon.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Reuniclus.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
-  
-
