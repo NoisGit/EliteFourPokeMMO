@@ -2,15 +2,20 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Conkeldurr --> Gengar +4",
+      "detail": "Si sale Conkeldurr, entra con Gengar y usa Maquinación hasta +4.",
       "variant": []
     },
     {
-      "detail": "Haxorus --> Gengar +4 🔔Si huye a Conkeldurr, cambiar a Chansey y luego a Gengar +4🔔",
-      "variant": []
+      "detail": "Si sale Haxorus, entra con Gengar y usa Maquinación hasta +4.",
+      "variant": [
+        {
+          "detail": "Si cambia a Conkeldurr, cambia a Chansey y luego vuelve a Gengar para usar Maquinación hasta +4.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
