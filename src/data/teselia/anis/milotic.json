@@ -2,14 +2,23 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Hydreigon ➜ Gengar, Otra Vez 6+2 🔔(Onda Certera a Purugly)🔔",
+      "detail": "Si sale Hydreigon, entra con Gengar.",
       "variant": [
         {
-          "detail": "Ida y Vuelta se anula por cuepor maldito → Gengar Otra Vez, Poliwrath Puño Drenaje",
-          "variant": []
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Onda Certera contra Purugly.",
+              "variant": []
+            },
+            {
+              "detail": "Si Ida y Vuelta se anula por Cuerpo Maldito, Gengar usa Otra Vez y entra con Poliwrath 🐸🥊 para usar Puño Drenaje.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
