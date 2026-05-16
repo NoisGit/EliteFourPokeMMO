@@ -2,15 +2,30 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Garchomp, usar Teletransporte para sacar a Slowbro y usar Bostezo 🔔(Ver si el Terremoto es Golpe Crítico)🔔",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si no hay golpe crítico --> Usar Bostezo frente a Chandelure, sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Si hay crítico  --> Sacrificar a Politoed entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Frente a Garchomp, usa Teletransporte para sacar a Slowbro y usar Bostezo.",
+      "variant": [
+        {
+          "detail": "Revisa si Terremoto fue crítico.",
+          "variant": [
+            {
+              "detail": "Si no fue crítico, usa Bostezo frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si fue crítico, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
