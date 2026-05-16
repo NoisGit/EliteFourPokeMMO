@@ -2,6 +2,21 @@
   "id": "braviary",
   "name": "Braviary",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar usa Otra Vez ➜ cambiar a Chansey ante Vaporeon usar 🪨Trampa Rocas🪨 frente Lucario ➜ Cambia a Slowbro y usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊💡",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey ante Vaporeon y usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
+          "variant": [
+            {
+              "detail": "Cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
