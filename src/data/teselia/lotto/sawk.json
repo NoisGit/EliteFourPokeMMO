@@ -2,11 +2,25 @@
   "id": "sawk",
   "name": "Sawk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usar 🪨Trampa Rocas🪨 frente a Conkeldurr; entrar con Gengar Otra Vez  +4 +2 🔔Bola Sombra a todo🔔💡",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "❗Si cambia a Gyarados, cambiar a Chansey y volver a atraer❗",
-      "variant": []
+      "detail": "Frente a Conkeldurr, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            },
+            {
+              "detail": "Si cambia a Gyarados, cambia a Chansey y vuelve a atraer la ruta.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
-}      
+}
