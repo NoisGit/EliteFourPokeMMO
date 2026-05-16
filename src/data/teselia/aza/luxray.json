@@ -2,6 +2,16 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Amortiguador hasta tener en frete a Absol y cambia a Gengar, Otra Vez, +2 + Precision X  🔔absol tiene banda focus🔔",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Repite Amortiguador hasta que aparezca Absol.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Absol tiene Banda Focus.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

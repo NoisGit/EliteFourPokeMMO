@@ -2,49 +2,89 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Honchkrow --> Gengar usa Otra Vez, entra Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entra Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Scrafty --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp --> Teletransporte para Ver Movimiento",
+      "detail": "Si sale Honchkrow, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Terremoto --> sacar a Slowbro y usar Bostezo para ver si es Golpe Crítico",
+          "detail": "Luego entra Slowbro y usa Bostezo frente a Chandelure.",
           "variant": [
             {
-              "detail": "Sin Critico --> Seguir con Bostezo frente a Chandelure, sacrificar a Politoed, entrar con Poliwrath +6",
-              "variant": []
-            },
-            {
-              "detail": "Con Critico --> Sacrificar a Politoed, entrar con Poliwrath +6",
+              "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Haxorus, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
         {
-          "detail": "Colmillo Ígneo --> Seguir con Bostezo frente a Chandelure, sacrificar a Politoed, entrar con Poliwrath +6",
+          "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Staraptor --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Scrafty, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Samurott --> 💊Gengar 2+2 + Precisión X💊",
-      "variant": []
+      "detail": "Si sale Garchomp, usa Teletransporte para revisar movimiento.",
+      "variant": [
+        {
+          "detail": "Si usa Terremoto, saca a Slowbro y usa Bostezo para revisar si fue crítico.",
+          "variant": [
+            {
+              "detail": "Sin crítico, sigue con Bostezo frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Con crítico, entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Colmillo Ígneo, sigue con Bostezo frente a Chandelure.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Staraptor, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Samurott, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,32 +2,52 @@
   "id": "samurott",
   "name": "Samurott",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro y usar Bostezo🥱",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Megacuerno --> Cambiar a chansey y usar Amortiguador frente a Absol; entrar con Gengar +2 + Precision X + Otra Vez 🔔(Absol Banda Focus)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Poder Oculto Eléctrico --> Sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Serperior Cambiar a Chansey y usar Amortiguador",
+      "detail": "Usa Bostezo.",
       "variant": [
         {
-          "detail": "Samurot --> 💊Gengar 2+2 + Precision X💊",
-          "variant": []
+          "detail": "Si usa Megacuerno, cambia a Chansey y usa Amortiguador frente a Absol.",
+          "variant": [
+            {
+              "detail": "Luego entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Absol tiene Banda Focus.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Tyranitar --> Sacrificar a Politoed y entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Si usa Poder Oculto Eléctrico, entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Serperior, cambia a Chansey y usa Amortiguador.",
+          "variant": [
+            {
+              "detail": "Si vuelve Samurott, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Tyranitar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Mismagius, cambia a Chansey y usa Amortiguador frente a Absol.",
+          "variant": [
+            {
+              "detail": "Luego entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Absol tiene Banda Focus.",
+              "variant": []
+            }
+          ]
         }
       ]
-    },
-    {
-      "detail": "Mismagius --> Cambiar a Chansey y usar Amortiguador frente a Absol; entrar con Gengar +2 + Precision X + Otra Vez 🔔(Absol Banda Focus)🔔",
-      "variant": []
     }
   ]
 }

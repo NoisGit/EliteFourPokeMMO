@@ -2,6 +2,16 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Gengar +2 + Precisión X + Otra Vez👻 🔔(Absol tiene Banda Focus)🔔",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego Gengar usa Maquinación hasta +2 y Precisión X. Absol tiene Banda Focus.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

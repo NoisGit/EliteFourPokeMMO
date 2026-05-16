@@ -2,6 +2,11 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Sacrificar a Politoed y entrar con Poliwrath +6💡",
-  "tricks": []
+  "initialMove": "Entra Politoed como pivote.",
+  "tricks": [
+    {
+      "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+      "variant": []
+    }
+  ]
 }

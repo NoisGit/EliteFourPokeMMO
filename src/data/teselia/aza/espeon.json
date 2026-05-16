@@ -2,28 +2,52 @@
   "id": "espeon",
   "name": "Espeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚 🔔(Si se queda sigue usando Amortiguador)🔔",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Garchomp --> Poner Trampas y resistir el golpe, usar Teletransporte cambia a Slowbro y usar Bostezo 🔔(Ver si el Terremoto de Garchomp es golpe crítico)🔔",
+      "detail": "Si Espeon se queda, sigue usando Amortiguador.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Garchomp, usa 🪨 Trampa Rocas 🪨 y resiste el golpe.",
       "variant": [
         {
-          "detail": "No hay Golpe Critico --> (Mantener) Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-          "variant": []
-        },
+          "detail": "Usa Teletransporte, cambia a Slowbro y usa Bostezo. Revisa si Terremoto fue crítico.",
+          "variant": [
+            {
+              "detail": "Si no fue crítico, mantén Bostezo frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si fue crítico, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Haxorus, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
         {
-          "detail": "Si hay Golpe Crítico --> sacrificar a Politoed, entrar con Poliwrath +6",
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Haxorus --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Scrafty --> Cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Scrafty, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
