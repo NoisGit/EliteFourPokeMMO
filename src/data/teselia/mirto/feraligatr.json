@@ -2,19 +2,44 @@
   "id": "feraligatr",
   "name": "Feraligatr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Se Qeuda Feraligatr ➜ Sacrifica a Gengar y Slowbro usa Bostezo, sacrifica a Politoed y entra con Poliwrath +6🐸🥊 🔔Puño drenaje a Volcarona🔔",
-      "variant": []
+      "detail": "Si Feraligatr se queda, deja que Gengar quede debilitado y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Lucario ➜ Slowbro usa Bostezo y sacrifica a Politoed , entra con Poliwrath +6🐸🥊 🔔Puño drenaje a Volcarona🔔",
-      "variant": []
+      "detail": "Si sale Lucario, Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Escavalier ➜ Slowbro usa Bostezo y sacrifica a Politoed , entrar con Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Si sale Escavalier, Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

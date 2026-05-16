@@ -2,6 +2,21 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Slowbro y usa Bostezo ➜ Frente a Volcarona ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊💡 🔔(Puño drenaje a Volcarona)🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

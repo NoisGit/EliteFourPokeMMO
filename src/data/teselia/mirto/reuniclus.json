@@ -2,6 +2,25 @@
   "id": "reuniclus",
   "name": "Reuniclus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usar 🪨Trampa Rocas🪨 al enfrentar a Lucario; Slowbro usa Bostezo, sacrificar a Politoed y entrar con Poliwrath +6💡 🔔(Puño drenaje a Volcarona y Cascada a Reuniclus / Si Volcarona despierta no es amenza)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona y Cascada contra Reuniclus.",
+              "variant": []
+            },
+            {
+              "detail": "Si Volcarona despierta, no es amenaza.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

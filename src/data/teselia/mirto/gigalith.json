@@ -2,29 +2,48 @@
   "id": "gigalith",
   "name": "Gigalith",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💕Usar Encanto, luego 🪨Trampa Rocas🪨 🔔(Si no cambia Usar Amortiguador)🔔",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Excadrill --> Teletransporte para sacar a Slowbro y usar Bostezo😴",
+      "detail": "Luego usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
+          "detail": "Si Gigalith no cambia, usa Amortiguador.",
           "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Excadrill, usa Teletransporte para sacar a Slowbro y usar Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Excadrill se queda, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Latios --> Usar Proteccion y luego Bostezo",
+          "detail": "Si sale Latios, usa Protección y luego Bostezo.",
           "variant": [
-           {
-             "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
-             "variant": []
-           },    
-           {
-             "detail": "Seismitoad --> Cambia a Volcarona +2",
-             "variant": []  
-           }
+            {
+              "detail": "Si sale Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Drenaje contra Volcarona.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Seismitoad, cambia a Volcarona y usa Danza Aleteo x2.",
+              "variant": []
+            }
           ]
         }
       ]
     }
-  ]  
-}  
+  ]
+}
