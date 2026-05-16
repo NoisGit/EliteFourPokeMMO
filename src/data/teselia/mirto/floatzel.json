@@ -2,6 +2,21 @@
   "id": "floatzel",
   "name": "Floatzel",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Escavalier cambia a Slowbro usa Bostezo ➜ Frente a Volcarona ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje/hielo a Volcarona)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Escavalier, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje o Puño Hielo contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
