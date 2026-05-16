@@ -2,6 +2,25 @@
   "id": "luxray",
   "name": "Luxray",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar Otra Vez +2 luego Derrota a luxray, si entra Hydreigon, entra Chansey y usa Trampa Rocas frente a Absol, Gengar Otra Vez 4+2👻",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Gengar usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
+        {
+          "detail": "Luego derrota a Luxray.",
+          "variant": []
+        },
+        {
+          "detail": "Si entra Hydreigon, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Absol.",
+          "variant": [
+            {
+              "detail": "Después entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
