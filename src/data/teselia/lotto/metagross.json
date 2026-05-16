@@ -2,31 +2,56 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Puño Meteoro ➜ Revisar si sube el Ataque",
+      "detail": "Si usa Puño Meteoro, revisa si sube el Ataque.",
       "variant": [
         {
-          "detail": "No sube +1 ➜ Slowbro usa Bostezo ➜ Frente a Emolga ➜ sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
-          "variant": []
+          "detail": "Si no sube el Ataque, Slowbro usa Bostezo frente a Emolga.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Si sube +1 ➜ Cambiar a Volcarona ➜ Frente usar Salamence ➜ Slowbro y Bostezo ante Emolga ➜ sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊",
-          "variant": []
+          "detail": "Si sube el Ataque, cambia a Volcarona.",
+          "variant": [
+            {
+              "detail": "Frente a Salamence, cambia a Slowbro y usa Bostezo ante Emolga.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Conkeldurr ➜ Cambiar a Gengar 🔔revisar objeto🔔",
+      "detail": "Si sale Conkeldurr, cambia a Gengar y revisa su objeto.",
       "variant": [
         {
-          "detail": "Llamasfera ➜ Gengar Otra Vez +4 +2 🔔Bola Sombra a todo 🔔 Si cambia a gyarados cuando estas bosteandote cambia a chansey para atraer al tipo lucha (gengar +4 +2)",
-          "variant": []
+          "detail": "Si tiene Llamasfera, Gengar usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos. Si cambia a Gyarados durante la ruta de Bostezo, cambia a Chansey para atraer al tipo lucha y repetir Gengar con Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Sin Llamasfera ➜ Gengar Otra Vez +4 🔔Bola Sombra a todo🔔",
-          "variant": []
+          "detail": "Si no tiene Llamasfera, Gengar usa Otra Vez y Maquinación hasta +4.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

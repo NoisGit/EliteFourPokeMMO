@@ -2,6 +2,31 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar otra vez +2 usar Bola Sombra hasta debilitarlo ➜ si sale Sawk o Luxray ➜ cambiar a Chansey Trampa Rocas ➜ frente a Conkeldurr ➜ Gengar +4 +2 💡si cambia a Gyarados, cambiar a Chansey y volver a atraer💡",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Gengar usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
+        {
+          "detail": "Usa Bola Sombra hasta debilitarlo.",
+          "variant": [
+            {
+              "detail": "Si sale Sawk o Luxray, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Conkeldurr.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+                  "variant": [
+                    {
+                      "detail": "Si cambia a Gyarados, cambia a Chansey y vuelve a atraer la ruta.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

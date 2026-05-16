@@ -2,24 +2,39 @@
   "id": "throh",
   "name": "Throh",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️Encanto❤️",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Aggron --> Usar 🪨Trampa Rocas🪨 al enfrentar a Conkeldurr; Gengar usa Otra Vez y cambiar a Volcarona frente a Seismitoad; 💊1 Danza Aleteo + Especial X💊",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr --> Usa Encanto contra Aggron y pon las Trampa Rocas",
+      "detail": "Si sale Aggron, usa 🪨 Trampa Rocas 🪨 al enfrentar a Conkeldurr.",
       "variant": [
         {
-          "detail": "Conkeldurr --> Ver el caso anterior de Conkeldurr",
+          "detail": "Gengar usa Otra Vez y luego cambia a Volcarona frente a Seismitoad.",
+          "variant": [
+            {
+              "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Conkeldurr, usa Encanto contra Aggron y luego usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Si vuelve Conkeldurr, sigue la ruta anterior de Conkeldurr.",
           "variant": []
         },
         {
-          "detail": "Dusknoir --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Si Aggron entra contra Politoed, espera que muera y luego entra con Poliwrath +6)🔔",
-          "variant": []
-        } 
-      ]  
+          "detail": "Si sale Dusknoir, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Si Aggron entra contra Politoed, deja que Politoed quede debilitado y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

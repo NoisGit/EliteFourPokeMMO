@@ -2,15 +2,25 @@
   "id": "medicham",
   "name": "Medicham",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Slowbro usa Bostezo💡",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Magnezone --> Protección y Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt --> Sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Magnezone, usa Protección y Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

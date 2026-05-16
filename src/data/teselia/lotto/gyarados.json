@@ -2,30 +2,58 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Toxicroack --> Cambiar a Slowbro y usar Bostezo frente a Magnezone, sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Breloom ➜ Gengar +4 + Precisión X",
+      "detail": "Si sale Toxicroak, cambia a Slowbro y usa Bostezo frente a Magnezone.",
       "variant": [
         {
-          "detail": "Conkeldurr ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🐸 🔔(Puño Drenaje a Tyranitar)🔔",
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
-        } 
-      ]  
-    },        
-    {     
-      "detail": "Conkeldurr + Sin Llamasfera --> Cambiar a Slowbro y usar Bostezo al enfrentar a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+        }
+      ]
     },
     {
-      "detail": "🔥Conkeldurr + Llamasfera🔥 --> Gengar +4 +2 🔔(Barre con Bola Sombra)🔔 🚨(Si cambia a Gyarados, cambia a Chansey y aguanta hasta que cambie denuevo)🚨",
-      "variant": []
+      "detail": "Si sale Breloom, entra con Gengar y usa Maquinación hasta +4 y Precisión X.",
+      "variant": [
+        {
+          "detail": "Si sale Conkeldurr, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Drenaje contra Tyranitar.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Conkeldurr sin Llamasfera, cambia a Slowbro y usa Bostezo al enfrentar a Magnezone.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Conkeldurr con Llamasfera, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Si cambia a Gyarados, cambia a Chansey y aguanta hasta que vuelva a cambiar.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
-  
-

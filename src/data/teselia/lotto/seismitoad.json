@@ -2,43 +2,65 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐸Cambiar a Poliwrath🐸",
+  "initialMove": "Cambia a Poliwrath.",
   "tricks": [
     {
-      "detail": "Aggron ➜  Poliwrath mata a Aggron  ",
+      "detail": "Si sale Aggron, Poliwrath usa Puño Drenaje para debilitarlo.",
       "variant": [
         {
-          "detail": "Seismitoad / Skarmory ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Conkeldurr; Gengar usa Otra Vez y cambiar a Volcarona ante Seismitoad; Volcarona +1 x especial ",
-          "variant": []
+          "detail": "Si sale Seismitoad o Skarmory, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Conkeldurr.",
+          "variant": [
+            {
+              "detail": "Gengar usa Otra Vez y luego cambia a Volcarona ante Seismitoad.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Conkeldurr ➜ Gengar usa Otra Vez y cambiar a Chansey ante Seismitoad; usar 🪨Trampa Rocas🪨 frente a Conkeldurr; Gengar usa Otra Vez y cambiar a Volcarona ante Seismitoad; Volcarona +1 x especial . ",
-          "variant": []
+          "detail": "Si sale Conkeldurr, Gengar usa Otra Vez y cambia a Chansey ante Seismitoad.",
+          "variant": [
+            {
+              "detail": "Usa 🪨 Trampa Rocas 🪨 frente a Conkeldurr. Luego Gengar usa Otra Vez y cambia a Volcarona ante Seismitoad.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Dusknoir ➜ Cambiar a Volcarona y luego a Chansey usar 🪨Trampa Rocas🪨",
-          "variant": []
-        },
+          "detail": "Si sale Dusknoir, cambia a Volcarona y luego a Chansey para usar 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si Dusknoir se queda, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Medicham, cambia a Slowbro y usa Bostezo.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Magnezone, usa Protección y luego Bostezo.",
+      "variant": [
         {
-          "detail": "Se Queda Dusknoir ➜ Sacrifica a Politoed y entrar con Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Conkeldurr ➜ Gengar usa Otra Vez y cambiar a Volcarona ante Seismitoad ➜ Volcarona x1 danza aleteo x especial . ",
+          "detail": "Cuando Magnezone quede dormido, usa Bostezo otra vez. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Medicham ➜ Cambia a Slowbro y usa Bostezo",
-      "variant": []
-    },
-    {
-      "detail": "Magnezone ➜ Protección ➜ Magnezone se duerme usa otra vez Bostezo y sacrifica a Politoed y entra con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt ➜ Sacrifica a Politoed y entrar con Poliwrath +6",
+      "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
       "variant": []
     }
   ]

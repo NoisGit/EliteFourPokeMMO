@@ -2,15 +2,30 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Mira Abajo Que Ruta Seguir",
+  "initialMove": "Elige una ruta.",
   "tricks": [
     {
-      "detail": "Ruta Segura ➜ Teletransporte, Slowbro usa Bostezo, sacrifica a Politoed, Poliwrath a +6🐸🥊",
-      "variant": []
+      "detail": "Ruta segura: usa Teletransporte y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Ruta Arriesgada ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Ruta arriesgada: entra Politoed como pivote directo.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
