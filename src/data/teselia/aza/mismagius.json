@@ -2,28 +2,16 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Onda Certera de (Zoroark) ➜ Gengar usa Otra Vez cambiar a Slowbro y usar Bostezo frente a Mismagius, Volcarona +2",
-      "variant": []
-    },
-    {
-      "detail": "Samurott ➜ Cambiar a Slowbro luego cambiar a Chansey",
+      "detail": "Si usa Onda Certera, es Zoroark. Cambia a Gengar y usa Otra Vez.",
       "variant": [
         {
-          "detail": "Poder Oculto Eléctrico ➜ Cambiar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Serperior ➜ Usar Amortiguador",
+          "detail": "Luego cambia a Slowbro y usa Bostezo frente a Mismagius.",
           "variant": [
             {
-              "detail": "Samurott ➜ 💊Gengar 2+2 + Precision X💊",
-              "variant": []
-            },
-            {  
-              "detail": "Tyranitar ➜ Sacrifica a Politoed, Poliwrath +6 🐸🥊",
+              "detail": "Después entra con Volcarona y usa Danza Aleteo x2.",
               "variant": []
             }
           ]
@@ -31,8 +19,40 @@
       ]
     },
     {
-      "detail": "Absol ➜ Gengar Otra vez +2 + Precision X 🔔(Absol tiene Banda Focus)🔔",
-      "variant": []
+      "detail": "Si sale Samurott, cambia a Slowbro y luego a Chansey.",
+      "variant": [
+        {
+          "detail": "Si usa Poder Oculto Eléctrico, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Serperior, usa Amortiguador.",
+          "variant": [
+            {
+              "detail": "Si vuelve Samurott, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Tyranitar, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Absol, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +2 y Precisión X. Absol tiene Banda Focus.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
