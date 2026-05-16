@@ -2,6 +2,16 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usar Amortiguador frente a Samurott; entrar con Gengar +2 + 2 x1 precisión💡",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Frente a Samurott, mantén la línea con Amortiguador.",
+      "variant": [
+        {
+          "detail": "Luego entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
