@@ -2,15 +2,30 @@
   "id": "liepard",
   "name": "Liepard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 frente a Garchomp, usar Teletransporte para sacar a Slowbro y usar Bostezo",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Sin crítico --> Usar Bostezo continuamente hasta que salga Chandelure; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Si hay crítico --> sacrificar a Politoed , entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Frente a Garchomp, usa Teletransporte para sacar a Slowbro y usar Bostezo.",
+      "variant": [
+        {
+          "detail": "Revisa si el golpe fue crítico.",
+          "variant": [
+            {
+              "detail": "Sin crítico, usa Bostezo continuamente hasta que salga Chandelure.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si fue crítico, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
