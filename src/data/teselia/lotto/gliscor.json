@@ -2,6 +2,21 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usar Amortiguador para aguantar Acróbata, cambiar a Slowbro aguanta el ataque de mienshao , usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6💡",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Aguanta Acróbata y luego cambia a Slowbro para resistir el ataque de Mienshao.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
