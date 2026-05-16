@@ -2,11 +2,35 @@
   "id": "drifblim",
   "name": "Drifblim",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚 esperar a Lucario, Gengar Otra Vez, cambiar a Slowbro  y usar Bostezo, frente a Jolteon, sacrifica a Politoed, Poliwrath +6🐸🥊",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "👾TESTEO👾 ➜ Cambiar a Slowbro, sacrifica a Politoed, Poliwrath +6🐸🥊",
-      "variant": []
-    }  
-  ]  
+      "detail": "Espera a Lucario.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Slowbro y usa Bostezo frente a Jolteon.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Ruta alternativa: cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

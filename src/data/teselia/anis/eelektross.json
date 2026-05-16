@@ -2,54 +2,78 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Gengar usa Otra Vez👻, cambiar a Slowbro y luego cambiar a Chansey",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Gengar ➜ 🪨Trampa Rocas🪨 frente a Eelektross, Gengar usa Otra Vez, cambiar a Slowbro y usar Bostezo 🚨(Si se queda usando Onda Certera, cambia a Volcarona +2)🚨",
+      "detail": "Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Chandelure ➜ Usar Protección y Bostezo frente a Gengar ➜ entrar con Volcarona +2 🔔(Psíquico a Gengar y Lanzallamas a Chandelure)🔔",
+          "detail": "Luego cambia a Slowbro y después a Chansey.",
           "variant": []
-        },
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Gengar, usa 🪨 Trampa Rocas 🪨 frente a Eelektross.",
+      "variant": [
         {
-          "detail": "Gengar ➜ Usar Protección ➜ cambia a Poliwrath, frente a Chandelure ➜ Volcarona +2 🔔(Psíquico a Gengar)🔔",
+          "detail": "Gengar usa Otra Vez, cambia a Slowbro y usa Bostezo. Si Eelektross se queda usando Onda Certera, cambia a Volcarona y usa Danza Aleteo x2.",
           "variant": [
             {
-              "detail": "🪨Trampa Rocas🪨, ante un Onda Certera inesperado mantenerse ➜ Gengar 2+2 + Precisión X 🔔No usar Otra Vez)🔔",
+              "detail": "Si sale Chandelure, usa Protección y Bostezo frente a Gengar. Luego entra con Volcarona y usa Danza Aleteo x2. Usa Psíquico contra Gengar y Lanzallamas contra Chandelure.",
               "variant": []
+            },
+            {
+              "detail": "Si sale Gengar, usa Protección y cambia a Poliwrath 🐸🥊 frente a Chandelure. Luego entra con Volcarona y usa Danza Aleteo x2. Usa Psíquico contra Gengar.",
+              "variant": [
+                {
+                  "detail": "Si aparece una Onda Certera inesperada, mantén la ruta: usa 🪨 Trampa Rocas 🪨, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Chandelure ➜ 🪨Trampa Rocas🪨.",
+      "detail": "Si sale Chandelure, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Eelektross ➜ Gengar usa Otra Vez, cambiar a Slowbro",
+          "detail": "Si sale Eelektross, Gengar usa Otra Vez y luego cambia a Slowbro.",
           "variant": [
             {
-              "detail": "Si se queda ➜ Usar Bostezo",
+              "detail": "Si Eelektross se queda, usa Bostezo.",
               "variant": [
                 {
-                  "detail": "Gengar ➜ Usar Protección ➜ cambiar a Poliwrath frente a Chandelure ➜ Volcarona +2 🔔(Psíquico a Gengar)🔔",
+                  "detail": "Si sale Gengar, usa Protección y cambia a Poliwrath 🐸🥊 frente a Chandelure. Luego entra con Volcarona y usa Danza Aleteo x2. Usa Psíquico contra Gengar.",
                   "variant": []
                 },
                 {
-                  "detail": "Chandelure ➜ Usar Protección y Bostezo frente a Gengar ➜ Teletransporte ➜ Volcarona con +2 🔔(Psíquico a Gengar y Lanzallamas a Chandelure)🔔",
+                  "detail": "Si sale Chandelure, usa Protección y Bostezo frente a Gengar. Luego usa Teletransporte y entra con Volcarona en +2. Usa Psíquico contra Gengar y Lanzallamas contra Chandelure.",
                   "variant": []
                 }
               ]
             },
             {
-              "detail": "Dragonite ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
-              "variant": []
+              "detail": "Si sale Dragonite, Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+                  "variant": []
+                }
+              ]
             }
           ]
         },
         {
-          "detail": "Dragonite ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
-          "variant": []
+          "detail": "Si sale Dragonite directamente, Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

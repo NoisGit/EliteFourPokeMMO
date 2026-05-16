@@ -2,68 +2,107 @@
   "id": "bisharp",
   "name": "Bisharp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Se queda ➜ Ver el ataque",
+      "detail": "Si Bisharp se queda, revisa el ataque.",
       "variant": [
         {
-          "detail": "Patada Baja ➡ Amortiguador 4 veces",
+          "detail": "Si usa Patada Baja, usa Amortiguador 4 veces.",
           "variant": [
             {
-              "detail": "Patada Baja ➡ Volcarona +3 🔔(Gigadrenado al Pokemon en 2da Posición (Zoroark), Psiquico al verdadero Chandelure)🔔",
+              "detail": "Si vuelve a usar Patada Baja, entra con Volcarona y usa Danza Aleteo x3.",
               "variant": [
                 {
-                  "detail": "☠️Si muere por Critico☠️ ➜ Gengar 2+2 + Precisión X",
+                  "detail": "Usa Gigadrenado contra el Pokémon en segunda posición, que es Zoroark. Usa Psíquico contra el Chandelure verdadero.",
                   "variant": []
-                },  
-                {  
-                  "detail": "Te Bosteas y Entra Dragonite ➜ 💊Toma un Especial X luego Barre💊 🔔(Gigadrenado a Frosslas)🔔",
+                },
+                {
+                  "detail": "Si Volcarona queda debilitada por crítico, entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si te duermes y entra Dragonite, usa Especial X y barre. Usa Gigadrenado contra Froslass.",
                   "variant": []
                 }
               ]
-            },  
-            {
-              "detail": "Cabeza de Hierro ➡ Cambiar a Slowbro y usar Bostezo frente a Chandelure, sacrifica a Politoed, Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
-              "variant": []
-            }  
-          ]
-        },
-        {
-          "detail": "Cabeza de Hierro ➡ Cambiar a Slowbro y usar Bostezo frente a Chandelure/Eelektross, sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Eelektross ➡ Gengar usa Otra Vez luego cambia a Slowbro",
-      "variant": [
-        {
-          "detail": "Se queda ➡ Bostezo ",
-          "variant": [
-            {
-              "detail": "Gengar ➡ Protección , cambiar a Poliwrath frente Chandelurem Volcarona +2 🔔(Psiquico a Gengar)🔔",
-              "variant": []
             },
             {
-              "detail": "Chandelure ➡ Protección , Bostezo frente a Gengar, Teletransporte, Volcarona +2 🔔(Psiquico a Gengar)🔔",
-              "variant": []
+              "detail": "Si usa Cabeza de Hierro, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+                  "variant": []
+                }
+              ]
             }
           ]
         },
         {
-          "detail": "Dragonite ➡ Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
+          "detail": "Si usa Cabeza de Hierro, cambia a Slowbro y usa Bostezo frente a Chandelure o Eelektross.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez y cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Si Eelektross se queda, usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Gengar, usa Protección y cambia a Poliwrath 🐸🥊 frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Volcarona y usa Danza Aleteo x2. Usa Psíquico contra Gengar.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Chandelure, usa Protección y Bostezo frente a Gengar.",
+              "variant": [
+                {
+                  "detail": "Luego usa Teletransporte y entra con Volcarona. Volcarona usa Danza Aleteo x2 y Psíquico contra Gengar.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Toxicroak, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Toxicroak ➡ Cambiar a Slowbro, Bostezo frente a Chandelure, sacrifica a Politoed, Poliwrath +6🐸🥊",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➡ Cambiar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6🐸🥊 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
-      "variant": []
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

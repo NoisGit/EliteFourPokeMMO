@@ -2,6 +2,16 @@
   "id": "jolteon",
   "name": "Jolteon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Cambiar a Slowbro frente a Lucario luego usar Bostezo, sacrificar a Politoed, entrar con Poliwrath +6🔔",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Frente a Lucario, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

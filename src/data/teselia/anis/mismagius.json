@@ -2,6 +2,21 @@
   "id": "mismagius",
   "name": "Mismagius",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨 frente a Toxicroak; cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed , entrar con Poliwrath +6",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Toxicroak, cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo frente a Chandelure.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

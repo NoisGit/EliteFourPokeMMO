@@ -2,11 +2,30 @@
   "id": "absol",
   "name": "Absol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Slowbro y usa Bostezo frente a Hydreigon, cambia a Chansey y usa Trampa Rocas frente a Luxray, cambia a Gengar Otra Vez 4+2💡",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Si cambia a Bronzong ➜ Sacrifica a Politoed, Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Usa Bostezo frente a Hydreigon.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Luxray.",
+          "variant": [
+            {
+              "detail": "Después entra con Gengar, usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si cambia a Bronzong, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

@@ -2,11 +2,30 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar usa Bola Sombra para debilitar a Milotic; camibia Chansey y usa Trampa rocas, si Hydreigon entra al campo; Gengar Otra vez 6+2",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "🔔(Onda Certera contra purugly)🔔 // 🔔(Ida y Vuelta activa Cuerpo Maldito --> Gengar usa Otra Vez, cambiar a Poliwrath para eliminarlo)🔔",
-      "variant": []
+      "detail": "Gengar usa Bola Sombra para debilitar a Milotic.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si Hydreigon entra al campo, entra con Gengar, usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+              "variant": [
+                {
+                  "detail": "Usa Onda Certera contra Purugly.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si Ida y Vuelta activa Cuerpo Maldito, Gengar usa Otra Vez y luego cambia a Poliwrath 🐸🥊 para eliminarlo.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

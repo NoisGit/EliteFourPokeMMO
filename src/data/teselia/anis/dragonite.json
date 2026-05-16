@@ -2,15 +2,35 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Fuerza Bruta ➡ 🪨TrampaRocas🪨 + Amortiguador frente a Eelektross, Gengar usa Otra Vez, cambiar a Slowbro frente a Dragonite, usar Bostezo, sacrifica a Politoed, Poliwrath +6 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
-      "variant": []
+      "detail": "Si Dragonite usa Fuerza Bruta, usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Luego usa Amortiguador frente a Eelektross.",
+          "variant": [
+            {
+              "detail": "Gengar usa Otra Vez. Después cambia a Slowbro frente a Dragonite y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Toxicroak ➡ Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, Poliwrath +6 🔔(Puño Drenaje a Bisharp)🔔",
-      "variant": []
+      "detail": "Si sale Toxicroak, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Bisharp.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
