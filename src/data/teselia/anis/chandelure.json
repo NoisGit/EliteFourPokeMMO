@@ -2,126 +2,186 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si usa Onda Certera es【Zoroark】➜ Cambiar a Gengar 🔔(Mira abajo)🔔",
+      "detail": "Si usa Onda Certera, es Zoroark. Cambia a Gengar.",
       "variant": [
         {
-          "detail": "Si se queda ➜ Gengar 4+2 + Precisión X 🔔(No usar Otra Vez Zoroark tiene gafas elegidas)🔔",
+          "detail": "Si Zoroark se queda, Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez porque Zoroark tiene Gafas Elegidas.",
           "variant": []
         },
         {
-          "detail": "Dragonite ➜ Cambia a Slowbro luego Cambia a Chansey y usa Amortiguador",
+          "detail": "Si sale Dragonite, cambia a Slowbro y luego a Chansey. Usa Amortiguador.",
           "variant": [
             {
-              "detail": "Si se queda ➜ Cambia a Gengar otra vez +2 luego Barre hasta que entre Bisharp ➜ sacrifica a Politoed ➜ entrar con Poliwrath +6🔔(Cascada a Cofragius/Bronzong)🔔",
-              "variant": []
-            },
-            {
-              "detail": " Bisharp ➜ Sacrifica a Politoed ➜ entrar con Poliwrath +6 🔔(Cascada a Cofragius/Bronzong)",
-              "variant": []
-            },
-            {
-              "detail": "Si entra el Segundo Chandelure ➜ Cambia a Gengar",
+              "detail": "Si Dragonite se queda, cambia a Gengar, usa Otra Vez y Maquinación hasta +2. Barre hasta que entre Bisharp.",
               "variant": [
                 {
-                  "detail": "Si se queda  ➜ Gengar 4+2 + Precision X (No usar otra vez)",
-                  "variant": []
-                },
-                {
-                  "detail": "Dragonite ➜ Cambia a Slowbro luego Cambia a Chansey y usa Amortiguador 🔔(Ver Arriba la estrategia de Dragonite)🔔",
-                  "variant": []
-                }
-              ]  
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "detail": "Eelektross ➜ Gengar usa Otra Vez luego cambiar a Slowbro",
-      "variant": [
-        {
-          "detail": "Se queda ➜ Usar Bostezo",
-          "variant": [
-            {
-              "detail": "Gengar ➜ Usar Protección, cambiar a Poliwrath ➜ frente Chandelure ➜ Volcarona +2 🔔(Psiquico a Gengar)🔔",
-              "variant": []
-            },
-            {
-              "detail": "Chandelure ➜ Usar Protección, Bostezo ➜ frente a Gengar ➜ Teletransporte ➜ Volcarona +2 🔔(Psiquico a Gengar)🔔",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Dragonite ➜ Slowbro Usar Bostezo ➜ sacrifica a Politoed ➜ entrar con Poliwrath +6 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Hydreigon ➜ Gengar 6+2 🔔(Onda Certera a Purugly)🔔",
-      "variant": [
-        {
-          "detail": "Ida y Vuelta activa Cuerpo Maldito ➜ Gengar usa Otra Vez, cambiar a Poliwrath Puño drenaje y debilitar",
-          "variant": []
-        },
-        {
-          "detail": "Cambia a Milotic ➜ Cambiar a Chansey, usar Amortiguador para atraer a Golurk ➜ entrar con Gengar 6+2",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Toxicroak ➜ Cambiar a Slowbro, Bostezo ➜ frente a Chandelure ➜ sacrifica a Politoed ➜ entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Lucario ➜ Gengar, Otra Vez 4+2 + Precision X",
-      "variant": []
-    },
-    {
-      "detail": "Absol ➜ Gengar, Otra Vez 4+2 🔔(Barre con Bola Sombra)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Dragonite ➜ Cambia a Slowbro luego a Chansey",
-      "variant": [
-        {
-          "detail": "Chandelure/lucario ➜ Amortiguador 🔔(Aguanta la Onda Certera o A bocajarro y sigue la guia de arriba segun el pokemon que a salido)🔔",
-          "variant": [
-            {
-              "detail": "Dragonite ➜ Gengar Otra Vez +2 🔔(Mira el Objeto)🔔",
-              "variant": [
-                {
-                  "detail": "Con Restos ➜ Ataca a Dragonite hasta que entre Bisharp ➜ Sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Cofagrigus/Bronzong)🔔",
-                  "variant": []
-                },
-                {
-                  "detail": "Sin Restos ➜ Slowbro usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)",
+                  "detail": "Frente a Bisharp, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Cofagrigus o Bronzong.",
                   "variant": []
                 }
               ]
             },
             {
-              "detail": "Bisharp ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 🔔(Cascada a Cofragius/Bronzong)🔔",
+              "detail": "Si sale Bisharp, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Cofagrigus o Bronzong.",
               "variant": []
             },
             {
-              "detail": "Eelektross ➜ Gengar Otra Vez luego cambia a Slowbro y usa Bostezo ➜ sacrifica a Politoed ➜ entrar con Poliwrath +6 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
-              "variant": []
+              "detail": "Si entra el segundo Chandelure, cambia a Gengar.",
+              "variant": [
+                {
+                  "detail": "Si se queda, Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. No uses Otra Vez.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Dragonite, cambia a Slowbro y luego a Chansey. Usa Amortiguador y sigue la ruta de Dragonite.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez y luego cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Si Eelektross se queda, usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Gengar, usa Protección y cambia a Poliwrath 🐸🥊 frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Volcarona y usa Danza Aleteo x2. Usa Psíquico contra Gengar.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Si Sale el segundo chanselure [Zoroark] Usa Amoritguador para ver si usa onda certera y cambiar a gengar +4 +2 + Precision x 🔔Si sabes que es zoruark no usar otra vez🔔",
-              "variant": []
+              "detail": "Si sale Chandelure, usa Protección y Bostezo frente a Gengar.",
+              "variant": [
+                {
+                  "detail": "Luego usa Teletransporte y entra con Volcarona. Volcarona usa Danza Aleteo x2 y Psíquico contra Gengar.",
+                  "variant": []
+                }
+              ]
             }
           ]
         },
         {
-          "detail": "Eelektross ➜ Gengar Otra Vez luego cambia a Slowbro y usa Bostezo ➜ sacrifica a Politoed ➜ entrar con Poliwrath +6 🔔(Puño Hielo a Frosslas y Cascada a Dragonite)🔔",
+          "detail": "Si sale Dragonite, Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Hydreigon, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. Usa Onda Certera contra Purugly.",
+          "variant": [
+            {
+              "detail": "Si Ida y Vuelta activa Cuerpo Maldito, Gengar usa Otra Vez y cambia a Poliwrath 🐸🥊 para usar Puño Drenaje y debilitarlo.",
+              "variant": []
+            },
+            {
+              "detail": "Si cambia a Milotic, cambia a Chansey y usa Amortiguador para atraer a Golurk.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Gengar, usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Toxicroak, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Absol, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Dragonite, cambia a Slowbro y luego a Chansey.",
+      "variant": [
+        {
+          "detail": "Si sale Chandelure o Lucario, usa Amortiguador para aguantar Onda Certera o A Bocajarro y sigue la ruta correspondiente de arriba.",
+          "variant": [
+            {
+              "detail": "Si vuelve Dragonite, Gengar usa Otra Vez y Maquinación hasta +2. Revisa el objeto.",
+              "variant": [
+                {
+                  "detail": "Con Restos, ataca a Dragonite hasta que entre Bisharp. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Cofagrigus o Bronzong.",
+                  "variant": []
+                },
+                {
+                  "detail": "Sin Restos, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Bisharp, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Cofagrigus o Bronzong.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Eelektross, Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale el segundo Chandelure como Zoroark, usa Amortiguador para revisar si usa Onda Certera.",
+              "variant": [
+                {
+                  "detail": "Luego cambia a Gengar, usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Si sabes que es Zoroark, no uses Otra Vez.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Eelektross, Gengar usa Otra Vez. Luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
