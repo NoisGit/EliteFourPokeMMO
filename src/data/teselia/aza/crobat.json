@@ -2,6 +2,16 @@
   "id": "crobat",
   "name": "Crobat",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Gengar luego cambiar a Slowbro; Bostezo frente a Chandelure; sacrificar a Politoed, entrar con Poliwrath +6",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Después cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
