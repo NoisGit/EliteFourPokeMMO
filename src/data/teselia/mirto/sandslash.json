@@ -2,44 +2,79 @@
   "id": "sandslash",
   "name": "Sandslash",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Excadrill --> Sacrificar a Gengar; Slowbro usa Bostezo",
+      "detail": "Si sale Excadrill, deja que Gengar quede debilitado y entra con Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Excadrill / Observa Quien sale Primero)🔔",
+          "detail": "Slowbro usa Bostezo.",
           "variant": [
             {
-              "detail": "Si sale Vanilluxe primero --> 💊Tomar una velocidad X y presionar de nuevo💊",
-              "variant": []
+              "detail": "Si Excadrill se queda, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Drenaje contra Excadrill y observa quién sale primero.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Vanilluxe primero, usa Velocidad X y sigue presionando.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si sale Volcarona primero, mantén presión completa.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "detail": "Si sale Volcarona primero --> Presión completa",
+              "detail": "Si sale Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Drenaje contra Volcarona.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario o Braviary, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si usa Puño Certero, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si Sandslash se queda, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Presiona hasta Vanilluxe y usa Velocidad X. Usa Puño Drenaje contra Volcarona.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6+2 🔔(Puño drenaje a Volcarona)🔔",
-          "variant": []
-        }
-      ]  
-    },
-    {
-      "detail": "Lucario / Braviary --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje a Volcarona)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Puño Certero --> Cambia a Slowbro y usa Bostezo",
-      "variant": [
-        {
-          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6; presionar hasta Vanillish y usar Velocidad X 🔔(Puño drenaje a Volcarona)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath 6+2 🔔(Puño drenaje a Volcarona)🔔",
-          "variant": []
+          "detail": "Si sale Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
