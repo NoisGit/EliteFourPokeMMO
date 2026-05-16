@@ -2,19 +2,44 @@
   "id": "breloom",
   "name": "Breloom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar Otra Vez +2 y Debilitar💡",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Magnezone --> Cambiar a Chansey y usar 🪨Trampa Rocas🪨 frente a Conkeldurr; cambiar a Slowbro y usar Bostezo frente a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr --> Cambiar a Slowbro, luego a Chansey y usar 🪨Trampa Rocas🪨 frente a Conkeldurr; Slowbro usa Bostezo frente a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Gengar +2 y entra Conkeldurr --> Cambiar a Slowbro y usar Bostezo frente a Magnezone, luego usa Proteccion y Bostezo frente a Breloom, despues sacrifica a politoed y entra con Poliwrath +6",
-      "variant": []
+      "detail": "Gengar usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
+        {
+          "detail": "Debilita a Breloom.",
+          "variant": [
+            {
+              "detail": "Si sale Magnezone, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Conkeldurr.",
+              "variant": [
+                {
+                  "detail": "Luego cambia a Slowbro y usa Bostezo frente a Magnezone. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Conkeldurr, cambia a Slowbro, luego a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Conkeldurr.",
+              "variant": [
+                {
+                  "detail": "Slowbro usa Bostezo frente a Magnezone. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si después de Gengar +2 entra Conkeldurr, cambia a Slowbro y usa Bostezo frente a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Luego usa Protección y Bostezo frente a Breloom. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
