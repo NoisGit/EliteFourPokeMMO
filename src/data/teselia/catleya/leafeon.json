@@ -2,15 +2,34 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️Encanto y 🪨Trampa Rocas🪨 🔔(Si no cambia usar Amortiguador)🔔",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Alakazam --> Teletransporte, sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Luego usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Si no cambia, usa Amortiguador.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Entei / Metagross --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Alakazam, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Entei o Metagross, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

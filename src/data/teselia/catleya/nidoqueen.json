@@ -2,27 +2,46 @@
   "id": "nidoqueen",
   "name": "Nidoqueen",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Usa Teletransporte💡",
+  "initialMove": "Usa Teletransporte.",
   "tricks": [
     {
-      "detail": "Absol --> Sacar a Slowbro y usar bostezo frente  a Nidoqueen; Teletransporte y sacar a Volcarona +1 🔔(Mirar tu Situación)🔔",
+      "detail": "Si sale Absol, saca a Slowbro y usa Bostezo frente a Nidoqueen.",
       "variant": [
         {
-          "detail": "Si se queda --> Psiquico para Debilitarlo, frente Blissey usa Danza Aleteo dos veces luego termina de Barrer",
-          "variant": []
-        },
-        {
-          "detail": "Blissey --> Danza Aleteo dos veces y seguir Barriendo",
-          "variant": []
+          "detail": "Luego usa Teletransporte y entra con Volcarona.",
+          "variant": [
+            {
+              "detail": "Volcarona usa Danza Aleteo x1 y revisa la situación.",
+              "variant": [
+                {
+                  "detail": "Si Absol se queda, usa Psíquico para debilitarlo. Frente a Blissey, usa Danza Aleteo x2 y barre.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Blissey, usa Danza Aleteo x2 y sigue barriendo.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Metagross --> Saca Volcarona y derrotalo, frente a Staraptor; Gengar +6 + Precisión X (No usar Otra Vez)",
+      "detail": "Si sale Metagross, entra con Volcarona y usa Lanzallamas para debilitarlo.",
       "variant": [
         {
-          "detail": "Huye a Milotic --> Cambiar a Chansey para atraer a Staraptor; Volcarona +3 🔔(Gigadrenado + Lanzallamas contra Umbreon)🔔",
+          "detail": "Frente a Staraptor, entra con Gengar, usa Maquinación hasta +6 y Precisión X. No uses Otra Vez.",
           "variant": []
+        },
+        {
+          "detail": "Si cambia a Milotic, cambia a Chansey para atraer a Staraptor.",
+          "variant": [
+            {
+              "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Usa Gigadrenado y Lanzallamas contra Umbreon.",
+              "variant": []
+            }
+          ]
         }
       ]
     }

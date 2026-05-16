@@ -2,32 +2,71 @@
   "id": "entei",
   "name": "Entei",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️Encanto❤️",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Vidasfera ➜ Cambiar a Slowbro frente a Mienshao, usar Bostezo, sacrifica a Politoed ➜Poliwrath +6🐸🥊 🔔(Puño Drenaje a Mienshao y Cascada a Musharna/Metagross)🔔",
-      "variant": []
-    },
-    {
-      "detail": "No Vidasfera ➜ 🪨Usa Trampa rocas🪨 🔔(Si se queda, cambiar a Slowbro y usar Bostezo)🔔",
+      "detail": "Si tiene Vidaesfera, cambia a Slowbro frente a Mienshao y usa Bostezo.",
       "variant": [
         {
-          "detail": "Alakazam ➜ Teletransporte, sacar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Metagross ➜ Cambiar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
-          "variant": []
-        },
-        {
-          "detail": "Leafeon ➜ Usar Amortiguador, Encanto y Amortiguador para forzar el cambio ⬆️(Mira la Solucion Arriba)⬆️",
-          "variant": []
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Mienshao y Cascada contra Musharna o Metagross.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
-    { 
-      "detail": "Alakazam ➜ 🪨Trampa rocas🪨 luego usa Teletransporte, sacar a Slowbro y usar Bostezo, sacrifica a Politoed, Poliwrath +6 🐸🥊",
-      "variant": []
+    {
+      "detail": "Si no tiene Vidaesfera, usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Si Entei se queda, cambia a Slowbro y usa Bostezo.",
+          "variant": []
+        },
+        {
+          "detail": "Si sale Alakazam, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Leafeon, usa Amortiguador, Encanto y Amortiguador para forzar el cambio.",
+          "variant": [
+            {
+              "detail": "Al enfrentar a Alakazam o Metagross, sigue la ruta correspondiente de arriba.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Alakazam, usa 🪨 Trampa Rocas 🪨.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte, saca a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

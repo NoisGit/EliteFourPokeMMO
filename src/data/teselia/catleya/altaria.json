@@ -2,6 +2,21 @@
   "id": "altaria",
   "name": "Altaria",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro frente a Mienshao luego usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño Dranaje a Mienshao y Cascada a Metagroos/Musharna)🔔",
-  "tricks": []
-}      
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Frente a Mienshao, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Mienshao y Cascada contra Metagross o Musharna.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

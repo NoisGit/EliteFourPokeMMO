@@ -2,20 +2,30 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Metagross, cambiar a Volcarona y usar Lanzallamas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Staraptor --> Gengar +4 + Precisión X 🔔(Tiene Pañuelo elegido)🔔",
+      "detail": "Frente a Metagross, cambia a Volcarona y usa Lanzallamas.",
       "variant": [
         {
-          "detail": "Si cambia a Milotic --> Cambiar a Chansey y usar Amortiguador para atraer a Staraptor; Volcarona +3 🔔(Gigadrenado + Lanzallamas a Umbreon)🔔",
+          "detail": "Si sale Staraptor, cambia a Gengar, usa Maquinación hasta +4 y Precisión X. Staraptor tiene Pañuelo Elegido.",
+          "variant": [
+            {
+              "detail": "Si cambia a Milotic, cambia a Chansey y usa Amortiguador para atraer a Staraptor.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Volcarona y usa Danza Aleteo x3. Usa Gigadrenado y Lanzallamas contra Umbreon.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Milotic o Houndoom, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Milotic / Houndoom --> Sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
     }
   ]
 }

@@ -2,37 +2,87 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambiar a Gengar y usar Otra Vez👻 🔔(Mira quien Ataca Primero)🔔",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Si Gengar ataca primero ➜ Maquinación y esperar a que se debilite solo 🔔(Ver quién entra)🔔",
+      "detail": "Gengar usa Otra Vez y revisa quién ataca primero.",
       "variant": [
         {
-          "detail": "Raichu ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨",
+          "detail": "Si Gengar ataca primero, usa Maquinación y revisa quién entra después.",
           "variant": [
             {
-              "detail": "Metagross ➜ Cambiar a Slowbro y usar Bostezo para forzar el cambio; sacrificar a Politoed y entrar con Poliwrath +6",
-              "variant": []
+              "detail": "Si sale Raichu, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+              "variant": [
+                {
+                  "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo para forzar el cambio.",
+                  "variant": [
+                    {
+                      "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Excadrill, cambia a Chansey, usa Encanto y Amortiguador.",
+                  "variant": [
+                    {
+                      "detail": "Si la salud baja hasta 30%, usa una Max Poción. Luego usa 🪨 Trampa Rocas 🪨 frente a Metagross, cambia a Slowbro y usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "detail": "Excadrill ➜ Cambiar a Chansey luego usar Encanto y Amortiguador, 🚨(Si la salud baja Hasta 30% usa una Max Pocion)🚨 🪨Trampa Rocas🪨 frente a metagros, cambiar a Slowbro y usar Bostezo ➜ sacrificas a Politoed ➜ Poliwrath +6",
-              "variant": []
+              "detail": "Si sale Umbreon, cambia a Chansey y luego a Slowbro.",
+              "variant": [
+                {
+                  "detail": "Usa Bostezo frente a Musharna. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Puño Drenaje contra Umbreon y Cascada contra Musharna o Metagross.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Metagross o Entei, cambia a Slowbro y usa Bostezo frente a Musharna.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Puño Drenaje contra Umbreon y Cascada contra Musharna o Metagross.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "detail": "Umbreon ➜ Cambiar a Chansey, luego cambiar a Slowbro; usar Bostezo frente a Musharna ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño Drenaje a Umbreon y Cascada a Musharna/Metagross)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Metagross/Entei ➜ Cambiar a Slowbro y usar Bostezo frente a Musharna ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño Drenaje a Umbreon y Cascada a Musharna/Metagross)🔔",
-          "variant": []
+          "detail": "Si Mienshao ataca primero, cambia a Slowbro y usa Bostezo frente a Jolteon.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Reuniclus.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      "detail": "Si Mienshao ataca primero ➜ Cambiar a Slowbro y usar Bostezo frente a Jolteon ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
-      "variant": []
     }
   ]
 }
