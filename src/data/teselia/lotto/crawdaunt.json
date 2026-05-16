@@ -2,45 +2,57 @@
   "id": "crawdaunt",
   "name": "Crawdaunt",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar👻",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "A bocajarro --> Gengar +4 + Otra Vez, luego usa Bola sombra 🔔(Mira tu situacion)🔔",
+      "detail": "Si usa A Bocajarro, Gengar usa Otra Vez y Maquinación hasta +4.",
       "variant": [
         {
-          "detail": "La banda focus se rompe --> 💊Toma un Velocidad X luego sigue Barriendo💊",
-          "variant": []
-        },
-        {
-          "detail": "Mienshao --> Continuar presionando; 🔔(Mienshao tiene banda Focus no te preocupes)🔔",
+          "detail": "Luego usa Bola Sombra y revisa la situación.",
           "variant": [
             {
-              "detail": "💀Crítico💀 --> Sacrificar a Politoed; Slowbro usa Bostezo ante Salamence; usar Teletransporte para entrar con Poliwrath +6",
+              "detail": "Si la Banda Focus se rompe, usa Velocidad X y sigue barriendo.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Mienshao, continúa presionando. Mienshao tiene Banda Focus.",
+              "variant": [
+                {
+                  "detail": "Si recibe crítico, entra Politoed como pivote. Luego Slowbro usa Bostezo ante Salamence y usa Teletransporte para entrar con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Gliscor o Gyarados, continúa presionando hasta Magnezone.",
+              "variant": [
+                {
+                  "detail": "Cambia a Chansey y usa Amortiguador para atraer al tipo lucha. Luego entra con Gengar y usa Maquinación hasta +6.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Medicham, Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Magnezone, usa Protección y Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Gliscor / Gyarados --> Continuar presionando hasta Magnezone; Cambia a Chansey y usa Amortiguador para atraer al tipo lucha; Gengar +6",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Medicham --> Slowbro usa Bostezo",
-      "variant": [
-        {
-          "detail": "Magnezone --> Protección y Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Crawdaunt --> Sacrificar a Politoed y entrar con Poliwrath +6",
+          "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     }
   ]
 }
-
-    
-    

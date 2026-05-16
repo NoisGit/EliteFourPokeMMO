@@ -2,26 +2,55 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Poliwrath y usa Puño Drenaje💡",
+  "initialMove": "Cambia a Poliwrath.",
   "tricks": [
     {
-      "detail": "Seismitoad / Skarmory --> Cambiar a Chansey y usar 🪨Trampa Rocas🪨 frente a Conkeldurr; Gengar usa Otra Vez, cambiar a Volcarona ante Seismitoad; 💊Volcarona +1 + Especial X💊",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr --> Gengar usa Otra Vez, cambiar a Chansey y usar 🪨Trampa Rocas🪨 (⬆️Ver Solucion Arriba⬆️)",
-      "variant": []
-    },
-    {
-      "detail": "Dusknoir --> Cambiar a Volcarona, luego a Chansey y usar 🪨Trampa Rocas🪨 🔔(Si la rana no tiene PS, curalo al máximo)🔔",
+      "detail": "Usa Puño Drenaje.",
       "variant": [
         {
-          "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Si sale Seismitoad o Skarmory, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Conkeldurr.",
+          "variant": [
+            {
+              "detail": "Gengar usa Otra Vez y luego cambia a Volcarona ante Seismitoad.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Conkeldurr --> Gengar usa Otra Vez, cambiar a Volcarona ante Seismitoad; 💊Volcarona +1 + Especial X💊",
-          "variant": []
+          "detail": "Si sale Conkeldurr, Gengar usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨. Sigue la ruta de Seismitoad si aparece.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Dusknoir, cambia a Volcarona, luego a Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si Poliwrath tiene poco PS, cúralo al máximo.",
+              "variant": []
+            },
+            {
+              "detail": "Si Dusknoir se queda, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Conkeldurr, Gengar usa Otra Vez y luego cambia a Volcarona ante Seismitoad.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }

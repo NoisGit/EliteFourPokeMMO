@@ -2,15 +2,30 @@
   "id": "carracosta",
   "name": "Carracosta",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Conkeldurr ➜ Gengar Otra Vez +4",
-      "variant": []
+      "detail": "Si sale Conkeldurr, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Haxorus ➜ Gengar Otra Vez +4 🔔(Si huye a Conkeldurr, cambiar a Chansey y luego a Gengar Otra vez +4)🔔",
-      "variant": []
+      "detail": "Si sale Haxorus, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4.",
+          "variant": [
+            {
+              "detail": "Si cambia a Conkeldurr, cambia a Chansey y luego vuelve a Gengar para usar Otra Vez y Maquinación hasta +4.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

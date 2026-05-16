@@ -2,45 +2,85 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Ver habilidad🔔",
+  "initialMove": "Revisa la habilidad.",
   "tricks": [
     {
-      "detail": "Intimidación ➜ Usar Trampa Rocas ➜ Frente a Conkeldurr Sacar a Gengar otra vez +2 🔔Mira abajo🔔",
+      "detail": "Si tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Conkeldurr Se queda ➜ Gengar otra vez +4 🔔 bola sombra a Todos🔔",
-          "variant": []
-        },
-        {
-          "detail": "Si Entra Salamence ➜ Matalo De un Bola sombra y Frente a Metagross ➜ Slowbro Bostezo y Sacrifica a Politoed entra Con  Poliwrath +6 🔔 Cascada a Metagross🔔",
-          "variant": []
+          "detail": "Frente a Conkeldurr, entra con Gengar y usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +2.",
+              "variant": [
+                {
+                  "detail": "Si Conkeldurr se queda, Gengar usa Maquinación hasta +4 y barre con Bola Sombra.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si entra Salamence, debilítalo con Bola Sombra.",
+                  "variant": [
+                    {
+                      "detail": "Frente a Metagross, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "Usa Cascada contra Metagross.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Sin Intimidación ➜ Usar Trampa Rocas",
+      "detail": "Si no tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Colmillo Ígneo ➜ Cambiar a Slowbro y usar Bostezo y sacrifica a Politoed y entra con Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Machamp ➜ Cambiar a Gengar luego a Slowbro y usa Bostezo, sacrifica a Politoed y entra Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Conkeldurr ➜ Cambia a Gengar y usa Otra Vez, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 ",
-          "variant": []
-        },
-        {
-          "detail": "Medicham ➜ Cambia a Slowbro y usa Bostezo",
+          "detail": "Si usa Colmillo Ígneo, cambia a Slowbro y usa Bostezo.",
           "variant": [
             {
-              "detail": "Magnezone ➜ Protección y Bostezo ➜ sacrifica a Politoed y entrar con Poliwrath +6",
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Machamp, cambia a Gengar y luego a Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Conkeldurr, cambia a Gengar y usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Medicham, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Magnezone, usa Protección y Bostezo.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Crawdaunt ➜ Sacrificar a Politoed y entrar con Poliwrath +6",
+              "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]

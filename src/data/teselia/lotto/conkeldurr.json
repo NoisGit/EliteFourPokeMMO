@@ -2,114 +2,182 @@
   "id": "conkeldurr",
   "name": "Conkeldurr",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar y usa Otra Vez👻",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "A bocajarro + Llamasfera ➜ Gengar +4 y Bola Sombra 🔔(Ver quien entra)🔔",
+      "detail": "Gengar usa Otra Vez y revisa movimiento/objeto.",
       "variant": [
         {
-          "detail": "Skarmory ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Haxorus; Gengar +4 🔔(Bola Sombra a todo)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Sawk ➜ Cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Krookodile; Gengar 4+2 🔔(Bola Sombra a todo)🔔",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "A bocajarro + Vidasfera --> Gengar +4 🔔(Bola Sombra a todo)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Puño Drenaje + Llamasfera ➜ Cambiar a Chansey Frente a Seismitoad luego usar Encanto",
-      "variant": [
-        {
-          "detail": "Conkeldurr ➜ Usar Encanto otra vez hasta que salga Aggron luego poner 🪨Trampa Rocas🪨",
+          "detail": "Si usa A Bocajarro y tiene Llamasfera, Gengar usa Maquinación hasta +4.",
           "variant": [
             {
-              "detail": "Conkeldurr ➜ Gengar usa otra vez y cambia a Volcarona frente a Seismitoad, 💊Volcarona +1 + Especial X💊",
-              "variant": []
-            },
-            {
-              "detail": "Dusknoir ➜ Sacrifica a Politoed, entrar con Poliwrath +6",
-              "variant": []
-            }  
-          ]  
-        },
-        {  
-          "detail": "Aggron ➜ Poner Trampas frente a Conkeldurr, Gengar Otra vez y cambia a Volcarona frente a Seismitoad, 💊Volcarona +1 + Especial X💊",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Puño Drenaje + Sin Llamasfera ➜ Bola Sombra 🔔(Observa si tiene Restos)🔔",
-      "variant": [
-        {
-          "detail": "Si tiene Restos ➜ Gengar Otra vez +6",
-          "variant": []
-        },
-        {
-          "detail": "Sin Restos ➜ Maquinación, Otra Vez, cambiar a Slowbro 🔔(Observar si tiene Vidasfera)🔔",
-          "variant": [
-            {
-              "detail": "Tiene Vidasfera ➜ Bostezo",
+              "detail": "Usa Bola Sombra contra todos y revisa quién entra.",
               "variant": [
                 {
-                  "detail": "Se queda/Electivire ➜ Sacrificar a Politoed, entrar con Poliwrath +6 🔔(Puño drenaje contra Electivire/Crawdaunt)🔔",
-                  "variant": []
-                },
-                {
-                  "detail": "Magnezone ➜ Protección y Bostezo, sacrifica a Politoed, entrar con Poliwrath +6",
-                  "variant": []
-                },
-                {
-                   "detail": "Crawdaunt ➜ Sacrificar a Politoed, entrar con Poliwrath +6",
-                   "variant": []
-                }  
-              ]
-            },
-            {
-              "detail": "Sin Vidasfera ➜ Bostezo",
-              "variant": [
-                {
-                  "detail": "Magnezone ➜ Cambiar a Chansey y usar Encanto frente a Breloom, 💊cambia a Gengar +4 + Precisión X💊",
+                  "detail": "Si sale Skarmory, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Haxorus.",
                   "variant": [
                     {
-                      "detail": "Si sale Conkeldurr ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed, entra con Poliwrath +6",
+                      "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y barre con Bola Sombra.",
                       "variant": []
-                    } 
-                  ]        
+                    }
+                  ]
                 },
                 {
-                  "detail": "Breloom ➜ Protección y Bostezo frente a Magnezone, cambiar a Chansey y usar Amortiguador esperando a Conkeldurr, 💊Gengar +4 + Precisión X💊",
-                  "variant": []
+                  "detail": "Si sale Sawk, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Krookodile.",
+                  "variant": [
+                    {
+                      "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+                      "variant": []
+                    }
+                  ]
                 }
-              ] 
+              ]
             }
-          ]  
-        },      
+          ]
+        },
         {
-          "detail": "Si sale Gyarados --> Verificar Intimidación",
+          "detail": "Si usa A Bocajarro y tiene Vidaesfera, Gengar usa Maquinación hasta +4.",
           "variant": [
             {
-              "detail": "Con Intimidación ➜ Cambiar a Chansey y poner Trampas frente a Breloom, 💊Gengar +4 + Precisión X💊",
-              "variant": []
-            },
-            {
-              "detail": "Sin Intimidación ➜ Cambiar a Chansey y usar Amortiguador frente a Breloom, Slowbro usa Bostezo, sacrificar a Politoed, entrar con Poliwrath +6",
+              "detail": "Usa Bola Sombra contra todos.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Si sale Machamp ➜ Cambiar a Slowbro y usar Bostezo frente a Electivire, sacrificar a Politoed, entrar con Poliwrath +6",
-          "variant": []   
+          "detail": "Si usa Puño Drenaje y tiene Llamasfera, cambia a Chansey frente a Seismitoad y usa Encanto.",
+          "variant": [
+            {
+              "detail": "Si vuelve Conkeldurr, usa Encanto otra vez hasta que salga Aggron y luego usa 🪨 Trampa Rocas 🪨.",
+              "variant": [
+                {
+                  "detail": "Si vuelve Conkeldurr, Gengar usa Otra Vez y cambia a Volcarona frente a Seismitoad.",
+                  "variant": [
+                    {
+                      "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Dusknoir, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Aggron, usa 🪨 Trampa Rocas 🪨 frente a Conkeldurr.",
+              "variant": [
+                {
+                  "detail": "Gengar usa Otra Vez y cambia a Volcarona frente a Seismitoad.",
+                  "variant": [
+                    {
+                      "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Puño Drenaje y no tiene Llamasfera, usa Bola Sombra y revisa si tiene Restos.",
+          "variant": [
+            {
+              "detail": "Si tiene Restos, Gengar usa Otra Vez y Maquinación hasta +6.",
+              "variant": []
+            },
+            {
+              "detail": "Si no tiene Restos, Gengar usa Maquinación, Otra Vez y luego cambia a Slowbro para revisar si tiene Vidaesfera.",
+              "variant": [
+                {
+                  "detail": "Si tiene Vidaesfera, Slowbro usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Si Conkeldurr se queda o sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "Usa Puño Drenaje contra Electivire o Crawdaunt.",
+                          "variant": []
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si sale Magnezone, usa Protección y Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si no tiene Vidaesfera, Slowbro usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Magnezone, cambia a Chansey y usa Encanto frente a Breloom.",
+                      "variant": [
+                        {
+                          "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Precisión X.",
+                          "variant": [
+                            {
+                              "detail": "Si sale Conkeldurr, cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si sale Breloom, usa Protección y Bostezo frente a Magnezone.",
+                      "variant": [
+                        {
+                          "detail": "Luego cambia a Chansey y usa Amortiguador esperando a Conkeldurr. Después entra con Gengar, usa Maquinación hasta +4 y Precisión X.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Gyarados, revisa si tiene Intimidación.",
+              "variant": [
+                {
+                  "detail": "Con Intimidación, cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Breloom.",
+                  "variant": [
+                    {
+                      "detail": "Luego entra con Gengar, usa Maquinación hasta +4 y Precisión X.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Sin Intimidación, cambia a Chansey y usa Amortiguador frente a Breloom.",
+                  "variant": [
+                    {
+                      "detail": "Slowbro usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Machamp, cambia a Slowbro y usa Bostezo frente a Electivire.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ]
 }
-
-

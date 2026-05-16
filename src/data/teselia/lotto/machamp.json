@@ -2,6 +2,16 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Gengar, luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6💡",
-  "tricks": []
-}  
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
+}
