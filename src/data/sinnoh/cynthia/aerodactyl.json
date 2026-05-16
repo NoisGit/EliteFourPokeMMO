@@ -2,15 +2,30 @@
   "id": "aerodactyl",
   "name": "Aerodactyl",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️ Encanto ❤️",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Si se queda ➜ Usa Encanto hasta que salga Garchomp, cambiar a Slowbro (Mantener), Bostezo frentea a Glaceon o Roserade, sacrifica a Politoed, entra Poliwrath +6 🥊 🔔(Cascada contra Metagross)🔔",
-      "variant": []
+      "detail": "Si Aerodactyl se queda, usa Encanto hasta que salga Garchomp.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y mantén la ruta.",
+          "variant": [
+            {
+              "detail": "Usa Bostezo frente a Glaceon o Roserade. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Metagross.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Garchomp ➜ Cambiar a Slowbro (Mantener), Bostezo frente a Glaceon o Roserade, sacrifica a Politoed, Poliwrath +6 🥊 🔔(Cascada contra Metagross)🔔",
-      "variant": []
+      "detail": "Si sale Garchomp, cambia a Slowbro y mantén la ruta.",
+      "variant": [
+        {
+          "detail": "Usa Bostezo frente a Glaceon o Roserade. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Metagross.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
