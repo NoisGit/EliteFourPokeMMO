@@ -2,6 +2,16 @@
   "id": "vanilluxe",
   "name": "Vanilluxe",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Slowbro y usar Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6+2💡",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo al enfrentar a Volcarona.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
