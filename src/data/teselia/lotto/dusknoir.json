@@ -2,37 +2,62 @@
   "id": "dusknoir",
   "name": "Dusknoir",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Demolición ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸",
-      "variant": []
-    },
-    {
-      "detail": "Aggron ➜ Cambiar a Poliwrath, y usa Puño Drenaje 🥊",
+      "detail": "Si usa Demolición, entra Politoed como pivote.",
       "variant": [
         {
-          "detail": "Seismitoad/Skarmory --> Cambiar a Chansey y usar Amortiguador esperando a Conkeldurr, Gengar usa Otra Vez, cambiar a Volcarona frente a Seismitoad, Volcarona usa Expecial X 🔔(Si es crítico, ver nota de Seismitoad)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Conkeldurr ➜ Gengar usa Otra Vez, cambiar a Volcarona ante Seismitoad ➜ Volcarona Usa Expecial X 🔔(Si es crítico, ver nota de Seismitoad)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Dusknoir ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸",
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
-      ]  
+      ]
     },
     {
-      "detail": "Breloom ➜ Gengar +4 + Precisión X",
+      "detail": "Si sale Aggron, cambia a Poliwrath 🐸🥊 y usa Puño Drenaje.",
       "variant": [
         {
-          "detail": "Conkeldurr ➜ Cambiar a Slowbro y usar Bostezo, sacrificar a Politoed y entrar con Poliwrath +6 🐸",
+          "detail": "Si sale Seismitoad o Skarmory, cambia a Chansey y usa Amortiguador esperando a Conkeldurr.",
+          "variant": [
+            {
+              "detail": "Gengar usa Otra Vez y cambia a Volcarona frente a Seismitoad.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Especial X. Si hay crítico, sigue la nota de Seismitoad.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Conkeldurr, Gengar usa Otra Vez y cambia a Volcarona ante Seismitoad.",
+          "variant": [
+            {
+              "detail": "Volcarona usa Especial X. Si hay crítico, sigue la nota de Seismitoad.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Dusknoir, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
-        }  
-      ]  
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Breloom, entra con Gengar y usa Maquinación hasta +4 y Precisión X.",
+      "variant": [
+        {
+          "detail": "Si sale Conkeldurr, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
