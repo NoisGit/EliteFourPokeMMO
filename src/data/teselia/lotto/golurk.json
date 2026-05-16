@@ -2,23 +2,37 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Puño Drenaje --> Ver si es Golpe Crítico ",
+      "detail": "Si usa Puño Drenaje, revisa si fue golpe crítico.",
       "variant": [
         {
-          "detail": "Normal --> Gengar +4",
+          "detail": "Si no fue crítico, entra con Gengar y usa Maquinación hasta +4.",
           "variant": []
         },
         {
-          "detail": "sale critico--> Teletransporte;  si usa Puño Drenaje , Gengar +4 +2 si usa Terremoto; saca a Slowbro bostezo  frente a Lucario, sacrifica a politoed y entra Poliwrath +6.",
-          "variant": []
+          "detail": "Si fue crítico, usa Teletransporte y revisa el siguiente movimiento.",
+          "variant": [
+            {
+              "detail": "Si usa Puño Drenaje, entra con Gengar y usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+              "variant": []
+            },
+            {
+              "detail": "Si usa Terremoto, saca a Slowbro y usa Bostezo frente a Lucario.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Conkeldurr --> Gengar +4",
+      "detail": "Si sale Conkeldurr, entra con Gengar y usa Maquinación hasta +4.",
       "variant": []
     }
   ]
