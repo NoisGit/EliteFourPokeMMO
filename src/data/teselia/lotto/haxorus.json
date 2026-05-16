@@ -2,15 +2,40 @@
   "id": "haxorus",
   "name": "Haxorus",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Gengar Otra Vez +2💡",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Quedarse --> bola sombra  al enfrentar a Lucario / Skarmory; cambiar a Chansey y usar 🪨Trampa Rocas🪨 al enfrentar a Conkeldurr; Gengar +4 🔔Bola Sombra a todo🔔",
-      "variant": []
-    },
-    {
-      "detail": "Conkeldurr --> Cambiar a Chansey y luego a Gengar +2; bola sombra  al enfrentar a Skarmory; Chansey usa 🪨Trampa Rocas🪨 al enfrentar a Haxorus; Gengar +4 🔔Bola Sombra a todo🔔",
-      "variant": []
+      "detail": "Gengar usa Otra Vez y Maquinación hasta +2.",
+      "variant": [
+        {
+          "detail": "Si Haxorus se queda, usa Bola Sombra al enfrentar a Lucario o Skarmory.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨 al enfrentar a Conkeldurr.",
+              "variant": [
+                {
+                  "detail": "Después entra con Gengar y usa Maquinación hasta +4. Usa Bola Sombra contra todos.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Conkeldurr, cambia a Chansey y luego entra con Gengar.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +2 y Bola Sombra al enfrentar a Skarmory.",
+              "variant": [
+                {
+                  "detail": "Chansey usa 🪨 Trampa Rocas 🪨 al enfrentar a Haxorus. Luego entra con Gengar y usa Maquinación hasta +4. Usa Bola Sombra contra todos.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
