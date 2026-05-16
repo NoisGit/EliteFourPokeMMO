@@ -2,21 +2,26 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️Encanto❤️ ",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Garra Dragón --> Usar Amortiguador frente a Absol cambiar a Gengar +2 +1 precision seguido de Otra Vez (absol banda focus)",
-      "variant": []
-    },
-    {
-      "detail": "Absol --> Poner 🪨TrampaRocas recomendar usar Amortiguador🪨",
+      "detail": "Si usa Garra Dragón, usa Amortiguador frente a Absol.",
       "variant": [
         {
-          "detail": "Luxray --> Gengar Gengar +2 +1 precision 🔔No usar Otra Vez🔔",
+          "detail": "Luego cambia a Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X. Absol tiene Banda Focus.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Absol, usa 🪨 Trampa Rocas 🪨 y recomienda usar Amortiguador.",
+      "variant": [
+        {
+          "detail": "Si sale Luxray, entra con Gengar, usa Maquinación hasta +2 y Precisión X. No uses Otra Vez.",
           "variant": []
         },
         {
-          "detail": "Samurott --> Gengar +2 +1 precision",
+          "detail": "Si sale Samurott, entra con Gengar, usa Maquinación hasta +2 y Precisión X.",
           "variant": []
         }
       ]
