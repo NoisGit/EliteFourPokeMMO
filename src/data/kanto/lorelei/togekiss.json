@@ -2,11 +2,21 @@
   "id": "togekiss",
   "name": "Togekiss",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro, sale Hariyama",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Bostezo → Politoed (sacrificar). Poliwrath +6. (Piel Seca Jynx)",
-      "variant": []
+      "detail": "Cuando salga Hariyama, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Ten en cuenta Piel Seca de Jynx.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
