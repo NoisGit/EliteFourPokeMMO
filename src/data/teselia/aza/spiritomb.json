@@ -2,15 +2,30 @@
   "id": "spiritomb",
   "name": "Spiritomb",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador🥚",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Staraptor / Garchomp ➜ Cambiar a Slowbro y usa bostezo ➜ frente a Chandelure ➜ sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊 🔔(Puño Drenaje a Sharpedo)🔔",
-      "variant": []
+      "detail": "Si sale Staraptor o Garchomp, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Sharpedo.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Honchkrow ➜ Cambiar a Slowbro y usa Bostezo ➜ frente a Chandelure ➜ sacrifica a Politoed ➜ entra con Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Si sale Honchkrow, cambia a Slowbro y usa Bostezo frente a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
