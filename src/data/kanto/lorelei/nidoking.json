@@ -2,45 +2,90 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Lapras → Cambia a Poliwrath → Cambia a Slowbro → sale Mantine → Bostezo → sale Magnezone → Sacrificar a Poliwrath → Volcarona +1 + SpAtk X",
-      "variant": []
-    },
-    {
-      "detail": "Golduck → Cambia a Gengar",
+      "detail": "Si sale Lapras, cambia a Poliwrath y luego a Slowbro.",
       "variant": [
         {
-          "detail": "Se queda → Cambia a Slowbro → sale Mantine → Bostezo → frente a Magnezone → Sacrificar a Poliwrath → Volcarona +1 + SpAtk X",
-          "variant": []
-        },
-        {
-          "detail": "Lapras → Cambia a Slowbro → Bostezo → frente a Magnezone → Sacrificar a Poliwrath → Volcarona +2 + SpAtk X",
-          "variant": []
+          "detail": "Cuando salga Mantine, usa Bostezo frente a Magnezone.",
+          "variant": [
+            {
+              "detail": "Entra Poliwrath como pivote hasta que quede debilitado y luego entra con Volcarona.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Bronzong → Encanto",
+      "detail": "Si sale Golduck, cambia a Gengar.",
       "variant": [
         {
-          "detail": "Ataque tipo Psíquico/Tierra → Cambia a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Explosión → sale Chansey → Saca Politoed (sacrificar) → Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Explosión → sale Nidoking → Amortiguador → HP full",
+          "detail": "Si Golduck se queda, cambia a Slowbro y espera la entrada de Mantine.",
           "variant": [
             {
-              "detail": "Se queda → Teletransporte → Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+              "detail": "Usa Bostezo frente a Magnezone. Entra Poliwrath como pivote hasta que quede debilitado y luego entra con Volcarona.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Lapras, cambia a Slowbro y usa Bostezo frente a Magnezone.",
+          "variant": [
+            {
+              "detail": "Entra Poliwrath como pivote hasta que quede debilitado y luego entra con Volcarona.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x2 y Especial X.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Bronzong, usa Encanto.",
+      "variant": [
+        {
+          "detail": "Si usa ataque tipo Psíquico o Tierra, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Explosión y sale Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa Explosión y sale Nidoking, usa Amortiguador hasta quedar con PS completos.",
+          "variant": [
+            {
+              "detail": "Si Nidoking se queda, usa Teletransporte, entra con Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Sale Chansey → Politoed (sacrificar) → Poliwrath +6",
+              "detail": "Si sale Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
@@ -48,8 +93,13 @@
       ]
     },
     {
-      "detail": "Lucario → Cambia a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
