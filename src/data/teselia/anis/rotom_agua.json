@@ -2,22 +2,47 @@
   "id": "rotom_agua",
   "name": "Rotom Agua",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Lucario ➜ Gengar usa Otra Vez, Slowbro usa Bostezo, sacrificar a Politoed , entrar con Poliwrath +6 🐸🥊",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross ➜ Gengar usa Otra Vez, cambiar a Slowbro y usar Bostezo",
+      "detail": "Si sale Lucario, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Gengar ➜ Usar Protección, cambiar a Poliwrath frente a Chandelure, Volcarona +2 🔔(Psíquico a Gengar)🔔",
-          "variant": []
-        },
+          "detail": "Luego Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez.",
+      "variant": [
         {
-          "detail": "Chandelure ➜ Usar Protección y Bostezo frente a Gengar, Teletransporte, saca a Volcarona +2 🔔(Psíquico a Gengar y Lanzallamas a Chandelure)🔔",
-          "variant": []
+          "detail": "Luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Gengar, usa Protección y cambia a Poliwrath 🐸🥊 frente a Chandelure.",
+              "variant": [
+                {
+                  "detail": "Después entra con Volcarona y usa Danza Aleteo x2. Usa Psíquico contra Gengar.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Chandelure, usa Protección y Bostezo frente a Gengar.",
+              "variant": [
+                {
+                  "detail": "Luego usa Teletransporte y entra con Volcarona. Volcarona usa Danza Aleteo x2, Psíquico contra Gengar y Lanzallamas contra Chandelure.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }

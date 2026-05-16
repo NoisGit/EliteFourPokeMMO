@@ -2,35 +2,65 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "A bocajarro --> revisar el estado de salud de Chansey",
+      "detail": "Si usa A Bocajarro, revisa la salud de Chansey.",
       "variant": [
         {
-          "detail": "🔴PS bajos🔴 --> Usar Teletransporte para sacrificar; Slowbro usa Bostezo; sacrificar a Politoed, entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Si Chansey queda con PS bajos, usa Teletransporte para dar entrada segura a Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "☠️Debilitado☠️ --> Slowbro usa Bostezo; sacrificar a Politoed, entrar con Poliwrath +6",
+          "detail": "Si Chansey queda debilitada, entra con Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Dragonite, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Dragonite --> cambiar a Slowbro y usar Bostezo; sacrificar a Politoed, entrar con Poliwrath +6 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Eelektross --> Gengar usa Otra Vez, cambiar a Slowbro frente a Dragonite; usar Bostezo, sacrificar a Politoed, entrar con Poliwrath +6 🔔(Puño Hielo a Froslass y Cascada a Dragonite)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon --> Gengar Otra Vez 6+2 🔔(Onda Certera a Purugly)🔔",
+      "detail": "Si sale Eelektross, Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Ida y Vuelta activa Cuerpo Maldito --> Gengar usa Otra Vez, cambiar a Poliwrath para matarlo",
-          "variant": []
+          "detail": "Luego cambia a Slowbro frente a Dragonite y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Hielo contra Froslass y Cascada contra Dragonite.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Hydreigon, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +6 y Velocidad X para +2 Velocidad. Usa Onda Certera contra Purugly.",
+          "variant": [
+            {
+              "detail": "Si Ida y Vuelta activa Cuerpo Maldito, Gengar usa Otra Vez y cambia a Poliwrath 🐸🥊 para eliminarlo.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
