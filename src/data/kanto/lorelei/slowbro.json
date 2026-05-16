@@ -2,11 +2,21 @@
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas, Sale Lucario → Cambia a Gengar, Otra Vez, +4 +2",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Mantener Otra Vez cada que puedas, a todos los barres con Bola Sombra",
-      "variant": []
+      "detail": "Si sale Lucario, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "Mantén Otra Vez cada vez que puedas y barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
