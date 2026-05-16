@@ -2,37 +2,66 @@
   "id": "lapras",
   "name": "Lapras",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🥚Amortiguador 🥚 Lapras se Queda Usa Amortiguador",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Lucario ➜ Usar Teletransporte",
+      "detail": "Si Lapras se queda, usa Amortiguador.",
+      "variant": []
+    },
+    {
+      "detail": "Si sale Lucario, usa Teletransporte.",
       "variant": [
         {
-          "detail": " Esfera Aural ➜ Entrar con Gengar Otra vez  +6 +2",
-          "variant": []
-        },
-        {
-          "detail": "A bocajarro ➜ Revisar objeto",
+          "detail": "Si usa Esfera Aural, entra con Gengar y usa Otra Vez.",
           "variant": [
             {
-              "detail": "Vidasfera ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ entra con Poliwrath +6 🐸🥊",
+              "detail": "Luego Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
               "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa A Bocajarro, revisa el objeto.",
+          "variant": [
+            {
+              "detail": "Si tiene Vidaesfera, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Sin Vidasfera ➜ Entra con Gengar otra vez +4 🔔(lucario Banda Focus) (Bola Sombra a todo)🔔",
-              "variant": []
+              "detail": "Si no tiene Vidaesfera, entra con Gengar, usa Otra Vez y Maquinación hasta +4. Lucario tiene Banda Focus.",
+              "variant": [
+                {
+                  "detail": "Usa Bola Sombra contra todos.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Garchomp ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜  Poliwrath +6 🐸🥊",
-              "variant": []
+              "detail": "Si sale Garchomp, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "detail": "Garchomp ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si sale Garchomp, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

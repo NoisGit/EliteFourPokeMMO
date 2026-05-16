@@ -2,80 +2,130 @@
   "id": "garchomp",
   "name": "Garchomp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Vidasfera + Terremoto ➜ Revisar daño",
+      "detail": "Si Garchomp tiene Vidaesfera y usa Terremoto, revisa el daño.",
       "variant": [
         {
-          "detail": "32 - 39% (Crítico 49 - 59%) ➜ Usar Amortiguador esperando a Heracross ➜ usar Teletransporte ➜ entrar con Gengar +4 + Precisión",
+          "detail": "Si hace 32 - 39%, o 49 - 59% con crítico, usa Amortiguador esperando a Heracross.",
+          "variant": [
+            {
+              "detail": "Luego usa Teletransporte y entra con Gengar para usar Maquinación hasta +4 y Precisión X.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si hace 40 - 48%, o 60% hasta Banda Focus con crítico, usa Encanto.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Slowbro y usa Bostezo.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Roserade, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Metagross.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Eelektross, usa Protección y cambia rápido a Poliwrath.",
+          "variant": [
+            {
+              "detail": "Frente a Heracross, usa Tambor y deja que Poliwrath quede debilitado. Luego entra con Gengar, usa Maquinación hasta +6. No uses Otra Vez, Heracross tiene Pañuelo Elegido.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "40 - 48% (Crítico 60 - SASH %) ➜ Usar Encanto ➜ cambiar a Slowbro y usar Bostezo",
+          "detail": "Si sale Aerodactyl, usa Bostezo hasta forzar la salida de Glaceon o Roserade.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si Garchomp no tiene Vidaesfera y usa Terremoto, deja que Gengar quede debilitado.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo. Sigue usando Bostezo si se queda.",
+          "variant": [
+            {
+              "detail": "Si sale Nidoking, Nidoqueen, Lucario o Chandelure, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Bronzong.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Jellicent, usa Protección y cambia a Volcarona ante Serperior.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x2 y Especial X. Mantén PS por encima del 29%.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Serperior, entra con Volcarona, usa Danza Aleteo x2 y Especial X. Mantén PS por encima del 29%.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Heracross, usa Teletransporte y revisa el objeto.",
+      "variant": [
+        {
+          "detail": "Si tiene Vidaesfera, entra con Gengar y usa Maquinación hasta +4 y Precisión X.",
           "variant": []
         },
         {
-          "detail": "Roserade ➜ Sacrifica a Politoed ➜  Poliwrath +6 usar Cascada contra Metagross",
-          "variant": []
+          "detail": "Si no tiene Vidaesfera, entra con Gengar y usa Maquinación hasta +6. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Usa Onda Certera contra Clefable.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Eelektross ➜ Usar Protección y cambia rapido a Poliwrath y frente Heracross usar Tambor y que muera ahora entra con Gengar +6 (No usar Otra Vez,Heracross Tiene Pañuelo)",
-          "variant": []
-        },
-        {
-          "detail": "Lapras ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Aerodactyl ➜ Usa Bostezo hasta forzar la salida de glaceon o Roserade y sacrifica a Politoed ➜ Poliwrath +6",
+          "detail": "Si el rival cambia a Bronzong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Sin Vidasfera + Terremoto ➜ Sacrifica a Gengar ➜ cambia a Slowbro y usa Bostezo (Seguir usando Bostezo si se queda)",
+      "detail": "Si sale Lucario, usa Teletransporte y revisa el objeto.",
       "variant": [
         {
-          "detail": "Nidoking o Nidoqueen / Lucario / Chandelure ➜ Sacrifica a Politoed ➜ entra con Poliwrath +6 usar Cascada contra Bronzong",
-          "variant": []
+          "detail": "Si tiene Vidaesfera, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Jellicent ➜ Usar Protección ➜ cambiar a Volcarona ante Serperior ➜ Volcarona +2 y usar Especial X (mantener PS por encima del 29%)",
-          "variant": []
-        },
-        {
-          "detail": "Serperior ➜ Entrar con Volcarona +2 y usar Especial X (mantener PS por encima del 29%)",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Heracross ➜ Usar Teletransporte y revisar objeto",
-      "variant": [
-        {
-          "detail": "Vidasfera ➜ Entrar con Gengar +4 + Precisión X",
-          "variant": []
-        },
-        {
-          "detail": "Sin Vidasfera ➜ Entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
-          "variant": []
-        },
-        {
-          "detail": "Cambio a Bronzong enemigo ➜ Sacrifica a Politoed ➜ Poliwrath +6",
-          "variant": []
-        }
-      ]
-    },
-    {
-      "detail": "Lucario ➜ Usar Teletransporte y revisar objeto",
-      "variant": [
-        {
-          "detail": "Vidasfera ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Sin Vidasfera ➜ Entra con Gengar Otra vez +4 🔔Lucario Banda Focus🔔",
+          "detail": "Si no tiene Vidaesfera, entra con Gengar, usa Otra Vez y Maquinación hasta +4. Lucario tiene Banda Focus.",
           "variant": []
         }
       ]

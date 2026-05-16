@@ -2,19 +2,34 @@
   "id": "lickilicky",
   "name": "Lickilicky",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Golpe Cuerpo --> Usar Teletransporte; entrar con Slowbro y usar Bostezo al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6 🔔usar Cascada contra Bronzong🔔",
+      "detail": "Si usa Golpe Cuerpo, usa Teletransporte y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo al enfrentar a Chandelure.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Bronzong.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si Slowbro queda contra Garchomp, usa Protección y Bostezo al enfrentar a Chandelure.",
       "variant": []
     },
     {
-      "detail": "Slowbro contra Garchomp --> Usar Protección y Bostezo al enfrentar a Chandelure",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp --> Cambiar a Slowbro y usar Bostezo al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6 🔔usar Cascada contra Bronzong🔔",
-      "variant": []
+      "detail": "Si sale Garchomp, cambia a Slowbro y usa Bostezo al enfrentar a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Bronzong.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

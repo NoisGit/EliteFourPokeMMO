@@ -2,19 +2,39 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "❤️ Encanto ❤️",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Fuerza Bruta --> Usar Amortiguador al enfrentar a Heracross; usar Teletransporte; entrar con Gengar +6 (No usar Otra Vez) y usar Onda Certera contra Clefable",
-      "variant": []
+      "detail": "Si usa Fuerza Bruta, usa Amortiguador al enfrentar a Heracross.",
+      "variant": [
+        {
+          "detail": "Luego usa Teletransporte y entra con Gengar.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +6. No uses Otra Vez. Usa Onda Certera contra Clefable.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Cambio a Bronzong enemigo --> Sacrificar a Politoed; entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si aparece Bronzong, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Lucario --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Lucario, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

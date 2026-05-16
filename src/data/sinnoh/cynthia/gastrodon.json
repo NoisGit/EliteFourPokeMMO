@@ -2,24 +2,39 @@
   "id": "gastrodon",
   "name": "Gastrodon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto --> Cambiar a Slowbro",
+      "detail": "Si Gastrodon usa Terremoto, cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Si se queda --> Usar Bostezo al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Si Gastrodon se queda, usa Bostezo al enfrentar a Chandelure.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Garchomp --> Usar Bostezo continuamente al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Si sale Garchomp, usa Bostezo continuamente al enfrentar a Chandelure.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Garchomp --> Cambiar a Slowbro al enfrentar a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Garchomp, cambia a Slowbro al enfrentar a Chandelure.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
