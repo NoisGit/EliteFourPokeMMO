@@ -2,6 +2,21 @@
   "id": "roserade",
   "name": "Roserade",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Encanto, entrar con Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 💡 (Cascada contra Metagross)",
-  "tricks": []
+  "initialMove": "Usa Encanto.",
+  "tricks": [
+    {
+      "detail": "Luego entra con Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Metagross.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

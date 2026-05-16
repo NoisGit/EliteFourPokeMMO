@@ -2,19 +2,44 @@
   "id": "milotic",
   "name": "Milotic",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨TrampaRocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Heracross ➜ Usar Teletransporte ➜ entra con Gengar +6 (No usar Otra Vez) 🔔usar Onda Certera contra Clefable🔔",
-      "variant": []
+      "detail": "Si sale Heracross, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar y usa Maquinación hasta +6. No uses Otra Vez.",
+          "variant": [
+            {
+              "detail": "Usa Onda Certera contra Clefable.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Cambio a Bronzong ➜ Sacrifica a Politoed ➜ entrar con Poliwrath +6 🐸🥊",
-      "variant": []
+      "detail": "Si cambia a Bronzong, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Garchomp ➜ Usar Encanto ➜ Slowbro usa Bostezo y si garchomp se duerme usa bostezo hasta que entre Glaceon/Roserade ➜ sacrifica a Politoed ➜  Poliwrath +6 🐸🥊 🔔 Cascada contra Metagross🔔",
-      "variant": []
+      "detail": "Si sale Garchomp, usa Encanto.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo. Si Garchomp se duerme, sigue usando Bostezo hasta que entre Glaceon o Roserade.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Cascada contra Metagross.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

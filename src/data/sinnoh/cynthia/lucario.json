@@ -2,28 +2,48 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡 Teletransporte💡",
+  "initialMove": "Usa Teletransporte.",
   "tricks": [
     {
-      "detail": "A bocajarro ➜ Revisar objeto",
+      "detail": "Si Lucario usa A Bocajarro, revisa su objeto.",
       "variant": [
         {
-          "detail": "Vidasfera ➜ Entra con Slowbro y usa Bostezo y sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
-          "variant": []
+          "detail": "Si tiene Vidaesfera, entra con Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Sin Vidasfera ➜ Entra con Gengar Otra vez +4  (Bola Sombra a todo Lucario Banda focus)",
+          "detail": "Si no tiene Vidaesfera, entra con Gengar, usa Otra Vez y Maquinación hasta +4.",
+          "variant": [
+            {
+              "detail": "Usa Bola Sombra contra todos. Lucario tiene Banda Focus.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si usa Esfera Aural, entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Esfera Aural ➜ Entra con Gengar  Otra Vez +6 +2",
-      "variant": []
-    },
-    {
-      "detail": "Garchomp ➜ Entra con Slowbro y usa Bostezo y sacrifica a Politoed y entra con Poliwrath +6🐸🥊",
-      "variant": []
+      "detail": "Si sale Garchomp, entra con Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

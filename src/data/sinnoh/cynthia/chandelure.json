@@ -2,24 +2,49 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Llamarada --> Usar Teletransporte",
+      "detail": "Si Chandelure usa Llamarada, usa Teletransporte.",
       "variant": [
         {
-          "detail": "Si se queda --> Sacar a Gengar y usar Bola Sombra; cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 🔔(Cascada a Bronzong)🔔",
-          "variant": []
+          "detail": "Si Chandelure se queda, entra con Gengar y usa Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Bronzong.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Garchomp --> Sacar a Gengar; luego cambiar a Slowbro y usar Bostezo frente a Chandelure; sacrificar a Politoed; entrar con Poliwrath +6",
-          "variant": []
-        }  
-      ]  
+          "detail": "Si sale Garchomp, entra con Gengar, luego cambia a Slowbro y usa Bostezo frente a Chandelure.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Garchomp --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; entrar con Poliwrath +6 🔔(Cascada a Bronzong)🔔",
-      "variant": []
+      "detail": "Si sale Garchomp directamente, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Bronzong.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
-}  
+}

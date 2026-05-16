@@ -2,23 +2,43 @@
   "id": "jellicent",
   "name": "Jellicent",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Salpicar --> Usar Teletransporte; entrar con Slowbro y usar Bostezo",
-      "variant": []
+      "detail": "Si usa Salpicar, usa Teletransporte y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Si se queda --> Sacrificar a Politoed; entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si Jellicent se queda, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Serperior --> Entrar con Volcarona +2 y usar Velocidad X (mantener PS por encima del 29%)",
-      "variant": []
+      "detail": "Si sale Serperior, entra con Volcarona.",
+      "variant": [
+        {
+          "detail": "Volcarona usa Danza Aleteo x2 y Velocidad X. Mantén PS por encima del 29%.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Heracross --> Usar Teletransporte; entrar con Gengar +4 + Precisión",
-      "variant": []
+      "detail": "Si sale Heracross, usa Teletransporte.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Maquinación hasta +4 y Precisión X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
