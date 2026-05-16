@@ -2,33 +2,53 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Breloom --> Gengar, Otra Vez, +4 y Precisión (Mantener Otra Vez)",
+      "detail": "Si sale Breloom, entra con Gengar y usa Otra Vez.",
       "variant": [
         {
-          "detail": "Huir de Conkeldurr --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Gengar usa Maquinación hasta +4 y Precisión X. Mantén Otra Vez.",
+          "variant": [
+            {
+              "detail": "Si sale Conkeldurr, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Medicham --> Cambiar a Slowbro y usar Bostezo",
+      "detail": "Si sale Medicham, cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
-          "detail": "Magnezone --> Protección y Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-          "variant": []
+          "detail": "Si sale Magnezone, usa Protección y Bostezo.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Crawdaunt --> Sacrificar a Politoed y entrar con Poliwrath +6",
+          "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Toxicroak / Conkeldurr --> Cambiar a Slowbro y usar Bostezo frente a Magnezone; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Toxicroak o Conkeldurr, cambia a Slowbro y usa Bostezo frente a Magnezone.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
