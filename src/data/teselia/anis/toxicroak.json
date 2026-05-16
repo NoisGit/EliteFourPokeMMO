@@ -2,11 +2,25 @@
   "id": "toxicroak",
   "name": "Toxicroak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro luego cambiar a Chansey y frente a Chandelure 🪨TrampaRocas🪨",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Si Entra Toxicroak ➜ cambia a Slowbro y usa Bostezo ➜ frente a Chandelure, sacrifica a Politoed ➜ Poliwrath +6 🚨(No usar Cascada contra Toxicroak)🚨",
+      "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨 frente a Chandelure.",
       "variant": []
+    },
+    {
+      "detail": "Si entra Toxicroak, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Frente a Chandelure, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "No uses Cascada contra Toxicroak.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
