@@ -2,15 +2,35 @@
   "id": "mienshao",
   "name": "Mienshao",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambiar a Gengar, luego cambiar a Slowbro y usar Bostezo💡",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Salamence --> Protección y Bostezo al enfrentar a Crawdaunt; sacrificar a Politoed y entrar con Poliwrath +6 💡Usar Cascada contra Metagross💡",
-      "variant": []
-    },
-    {
-      "detail": "Crawdaunt --> Sacrificar a Politoed y entrar con Poliwrath +6 💡Usar Cascada contra Metagross💡",
-      "variant": []
+      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Salamence, usa Protección y Bostezo al enfrentar a Crawdaunt.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Metagross.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Crawdaunt, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Metagross.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
