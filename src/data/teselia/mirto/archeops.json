@@ -2,6 +2,21 @@
   "id": "archeops",
   "name": "Archeops",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Sacrificar a Gengar ➜ Slowbro usa Bostezo frente a Volcarona ➜ sacrifica a Politoed ➜  Poliwrath +6 🔔(Puño drenaje a Volcarona)🔔",
-  "tricks": []
-}  
+  "initialMove": "Deja que Gengar quede debilitado.",
+  "tricks": [
+    {
+      "detail": "Luego entra con Slowbro y usa Bostezo frente a Volcarona.",
+      "variant": [
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

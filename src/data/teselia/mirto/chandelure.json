@@ -2,15 +2,35 @@
   "id": "chandelure",
   "name": "Chandelure",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨 Trampa Rocas 🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Llamarada ➜ Sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje a Volcarona)🔔",
-      "variant": []
+      "detail": "Si usa Llamarada, entra Politoed como pivote.",
+      "variant": [
+        {
+          "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Excadrill ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6🐸🥊 🔔(Puño drenaje a Volcarona)🔔",
-      "variant": []
+      "detail": "Si sale Excadrill, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

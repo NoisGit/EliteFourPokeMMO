@@ -2,24 +2,64 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar👻",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Patada Salto Alta ➜ Revisar PS de Lucario",
+      "detail": "Si usa Patada Salto Alta, revisa los PS de Lucario.",
       "variant": [
         {
-          "detail": "PS Amarillo ➜ Gengar usa Maquinacion frente a Sandslash ➜ Chansey usa 🪨Trampa Rocas 🪨 Frente a Braviary entra con Slowbro usa Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño drenaje a Volcarona)🔔",
-          "variant": []
+          "detail": "Si queda en PS amarillo, Gengar usa Maquinación frente a Sandslash.",
+          "variant": [
+            {
+              "detail": "Luego Chansey usa 🪨 Trampa Rocas 🪨 frente a Braviary.",
+              "variant": [
+                {
+                  "detail": "Entra con Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Puño Drenaje contra Volcarona.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "PS Verde ➜ Gengar Otra Vez +2 y si sale Excadrill usa Bola Sombra para sacrificarlo, sacar a Slowbro y usar Bostezo frente a Volcarona y sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño drenaje a Volcarona y  Cascada a Reuniclus / Volcarona No te mata usa tambor tranquilo )🔔",
-          "variant": []
+          "detail": "Si queda en PS verde, Gengar usa Otra Vez y Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "Si sale Excadrill, usa Bola Sombra para dejar que Gengar quede debilitado.",
+              "variant": [
+                {
+                  "detail": "Luego entra con Slowbro y usa Bostezo frente a Volcarona. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Puño Drenaje contra Volcarona y Cascada contra Reuniclus. Volcarona no debilita a Poliwrath, usa Tambor con calma.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "A Bocajarro ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed y entra con Poliwrath +6 🔔(Puño drenaje a Volcarona/Manectric)🔔",
-      "variant": []
+      "detail": "Si usa A Bocajarro, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona o Manectric.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

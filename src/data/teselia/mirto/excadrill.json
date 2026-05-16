@@ -2,76 +2,135 @@
   "id": "excadrill",
   "name": "Excadrill",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto --> Revisar objeto equipado",
+      "detail": "Si usa Terremoto, revisa el objeto equipado.",
       "variant": [
         {
-          "detail": "Vidasfera --> Sacrifica a Gengar, saca a Slowbro y usa Bostezo",
+          "detail": "Si tiene Vidaesfera, deja que Gengar quede debilitado y entra con Slowbro.",
           "variant": [
             {
-              "detail": "Si se queda --> Sacrificar a Politoed y entrar con Poliwrath +6 🔔(Observa Quien sale Primero)🔔",
+              "detail": "Slowbro usa Bostezo.",
               "variant": [
                 {
-                  "detail": "Si sale Vanilluxe primero --> 💊Tomar una velocidad X y presionar de nuevo💊",
+                  "detail": "Si Excadrill se queda, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Observa quién sale primero.",
+                      "variant": [
+                        {
+                          "detail": "Si sale Vanilluxe primero, usa Velocidad X y sigue presionando.",
+                          "variant": []
+                        },
+                        {
+                          "detail": "Si sale Volcarona primero, mantén presión completa.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Volcarona, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+                  "variant": [
+                    {
+                      "detail": "Usa Puño Drenaje contra Volcarona.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si no tiene Vidaesfera, usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Si Excadrill se queda, saca a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Drenaje contra Volcarona. Si Volcarona despierta, no es amenaza.",
                   "variant": []
                 },
                 {
-                  "detail": "Si sale Volcarona primero --> Presión completa",
+                  "detail": "Si aún no cambia, continúa usando Bostezo hasta obligarlo a cambiar a sus Pokémon de reserva.",
+                  "variant": []
+                },
+                {
+                  "detail": "Cuando salga el Pokémon de reserva, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 }
               ]
             },
             {
-              "detail": "Volcarona --> Sacrificar a Politoed y entrar con Poliwrath +6+2 🔔(Puño drenaje contra Volcarona)🔔",
-              "variant": []
-            }
-          ]
-        },
-        { 
-          "detail": "No tiene Vidasfera --> Usa Teletransporte",
-          "variant": [  
-            {
-              "detail": "Si se queda --> Saca a Slowbro y usa Bostezo 🔔(Puño drenaje contra Volcarona / Si Volcarona se despierta no es una Amenaza)🔔",
+              "detail": "Si sale Lucario, Conkeldurr o Archeops, saca a Slowbro y usa Bostezo.",
               "variant": [
                 {
-                  "detail": "Si aun no cambia --> Continua haciendo Bostezo hasta que lo obligues a cambiar a sus Pokémon de reserva",
-                  "variant": []
-                },    
-                {
-                  "detail": "Sale su poke de reserva --> Sacrifica a Politoed y entra con Poliwarth +6",
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 }
               ]
-            },  
+            },
             {
-              "detail": "Lucario / Conkeldurr / Archeops --> Sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-              "variant": []
-            },  
-            {  
-              "detail": "Escavalier/Magcargo --> Saca a Poliwrath luego cambia Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
+              "detail": "Si sale Escavalier o Magcargo, saca a Poliwrath, luego cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario, saca a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Si Volcarona despierta, no es amenaza.",
               "variant": []
             }
-          ]  
-        } 
-      ]    
-    },    
-    {
-      "detail": "Lucario --> Sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Volcarona despierta no es amenaza)🔔",
-      "variant": []
+          ]
+        }
+      ]
     },
     {
-      "detail": "Escavalier / Magcargo --> Slowbro usa Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6 🔔(Puño drenaje contra Volcarona)🔔",
-      "variant": []
+      "detail": "Si sale Escavalier o Magcargo, Slowbro usa Bostezo al enfrentar a Volcarona.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Volcarona.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Conkeldurr --> Cambiar a Slowbro y usar Bostezo al enfrentar a Volcarona; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Conkeldurr, cambia a Slowbro y usa Bostezo al enfrentar a Volcarona.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-       "detail": "Archeops --> Sacrificar a Gengar; Slowbro usa Bostezo al enfrentar a Volcarona, sacrificar a Politoed y entrar con Poliwrath +6",
-       "variant": []
+      "detail": "Si sale Archeops, deja que Gengar quede debilitado y entra con Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo al enfrentar a Volcarona. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
