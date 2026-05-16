@@ -2,6 +2,20 @@
   "id": "alakazam",
   "name": "Alakazam",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 luegp usar Teletransporte para sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entra Poliwrath +6 🔔(Puedes usar Amortiguador para Curarte y despues usar Teletransporte)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Luego usa Teletransporte para sacar a Slowbro y usar Bostezo.",
+      "variant": [
+        {
+          "detail": "Puedes usar Amortiguador para curarte antes de usar Teletransporte.",
+          "variant": []
+        },
+        {
+          "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }

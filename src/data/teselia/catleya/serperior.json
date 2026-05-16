@@ -2,15 +2,30 @@
   "id": "serperior",
   "name": "Serperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Metagross, cambiar a Gengar Otra Vez +2",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se Queda ➜ 👻Gengar +6👻",
-      "variant": []
-    },
-    {
-      "detail": "Milotic / Bronzong ➜ Sacrificar a Politoed y entrar con Poliwrath +6 🐸🥊 🔔(Cascada a Bronzong)🔔",
-      "variant": []
+      "detail": "Al enfrentar a Metagross, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego Gengar usa Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "Si Metagross se queda, Gengar usa Maquinación hasta +6.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Milotic o Bronzong, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Bronzong.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

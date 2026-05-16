@@ -2,17 +2,30 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Metagross, Gengar Otra Vez +2",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se Queda → Gengar +6 (Mantener el Otra Vez)",
-      "variant": []
-    },
-    {
-      "detail": "Bronzong / Milotic → Sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada a Bronzong)🔔",
-      "variant": []
+      "detail": "Frente a Metagross, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego Gengar usa Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "Si Metagross se queda, Gengar usa Maquinación hasta +6 y mantiene Otra Vez.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Bronzong o Milotic, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Cascada contra Bronzong.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
-  
-

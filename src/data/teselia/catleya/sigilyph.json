@@ -2,6 +2,21 @@
   "id": "sigilyph",
   "name": "Sigilyph",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 al enfrentar a Mienshao; cambiar a Gengar, luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Al enfrentar a Mienshao, cambia a Gengar y luego a Slowbro.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

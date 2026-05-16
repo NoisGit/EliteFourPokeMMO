@@ -2,23 +2,43 @@
   "id": "empoleon",
   "name": "Empoleon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se Queda --> Teletransporte, sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si Empoleon se queda, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Leafeon --> Usar Encanto y Amortiguador para forzar el cambio del rival ⬇️(Ver Solucion Abajo)⬇️",
-      "variant": []
+      "detail": "Si sale Leafeon, usa Encanto y Amortiguador para forzar el cambio rival.",
+      "variant": [
+        {
+          "detail": "Después sigue la ruta del Pokémon que entre.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Entei --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Entei, cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Alakazam --> Teletransporte, sacar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Alakazam, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

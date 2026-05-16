@@ -2,155 +2,239 @@
   "id": "metagross_6",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🔔Identifica si Tiene Globo🔔",
+  "initialMove": "Revisa si tiene Globo Helio.",
   "tricks": [
     {
-      "detail": "🎈Tiene  Globo Helio🎈 ➜ Trampa Rocas",
+      "detail": "Si tiene Globo Helio, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Puño Meteoro ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Leafeon ➜ 💕Usar Encanto y Amortiguador; esperar a que el rival cambie💕",
+          "detail": "Si usa Puño Meteoro, cambia a Slowbro y usa Bostezo.",
           "variant": [
             {
-              "detail": "Alakazam ➜ Usa Teletransporte y saca a Slowbro luego usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
-            },  
-            {
-              "detail": "Entei / Metagross ➜ Cambiar a Slowbro y usar Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
-              "variant": []
-            } 
-          ]  
+            }
+          ]
         },
         {
-          "detail": "Alakazam ➜ Teletransporte, sacar a Slowbro  Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
-          "variant": []
+          "detail": "Si sale Leafeon, usa Encanto y Amortiguador para forzar el cambio rival.",
+          "variant": [
+            {
+              "detail": "Si sale Alakazam, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Entei o Metagross, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Alakazam, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "No tiene Globo Helio ➜ Trampa Rocas",
+      "detail": "Si no tiene Globo Helio, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Machada ➜ Ver objeto 🔔(Si falla, cambiar a Volcarona y Debilitarlo)🔔",
+          "detail": "Si usa Machada, revisa el objeto.",
           "variant": [
             {
-              "detail": "Tiene Vidasfera ➜ Cambia a Volcarona y matalo",
-              "variant": [
-                 {
-                   "detail": "Milotic / Houndoom ➜ Sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Bronzong)🔔",
-                   "variant": []  
-                 },
-                 { 
-                   "detail": "Umbreon ➜ Cambia a Chansey para atraer a Staraptor", 
-                   "variant": [
-                     { 
-                       "detail": "Staraptor ➜ Cambia a Volcarona +3 🚨(Gigadenado y Lanzallamas contra Umbreon)🚨", 
-                       "variant": []  
-                     },      
-                     {  
-                       "detail": "Metagross ➜ Cambia a Volcarona frente a Staraptor, 💊despues cambia a Gengar +4 + Precision X💊", 
-                       "variant": [
-                         {  
-                           "detail": "Cambia a Milotic ➜ Cambia a Chansey para atraer a Staraptor, luego cambia a Volcarona +3 🚨(Gigadenado y Lanzallamas contra Umbreon)🚨", 
-                           "variant": [] 
-                         }
-                       ]
-                     } 
-                   ]
-                 },
-                 {   
-                   "detail": "Staraptor --> 💊Cambia a Gengar +4 + Precision X💊",
-                   "variant": [
-                      {   
-                        "detail": "Cambia a Milotic ➜ Cambia a Chansey para atraer a Staraptor, luego cambia a Volcarona +3 🚨(Gigadenado y Lanzallamas contra Umbreon)🚨",
-                        "variant": []
-                      }  
-                   ]
-                 }
-              ] 
-            },
-            {
-              "detail": "No tiene Vidasfera ➜ Cambiar a Slowbro Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6",
-              "variant": []        
-            }
-          ]
-        },      
-        {
-          "detail": "Puño meteoro ➜ Observa si el ataque aumenta",
-          "variant": [
-            {
-              "detail": "⏫Ataque Aumenta⏫ ➜ Usa Teletransporte, saca a Slowbro Bostezo y usa Bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
-              "variant": [] 
-            },
-            {
-               "detail": "🚫Ataque no Aumenta🚫 ➜ Cambia a Slowbro y usa Bostezo frente a Jolteon ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
-               "variant": [] 
-            }
-          ]
-        },      
-        {
-          "detail": "Mienshao ➜ Cambiar a Gengar y usar Bola sombra",
-          "variant": [
-            {
-              "detail": "Jolteon ➜ Cambiar a Chansey y usar Amortiguador ➜ Frente a Staraptor ➜ Slowbro usa bostezo ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Reuniclus)🔔",
+              "detail": "Si Machada falla, cambia a Volcarona y debilítalo.",
               "variant": []
-            },  
+            },
             {
-              "detail": "Umbreon / Entei ➜ Cambiar a Slowbro y usar Bostezo frente a Musharma ➜ sacrifica a Politoed ➜ Poliwrath +6 🔔(Cascada a Musharna / Ver quién entra segundo)🔔",
+              "detail": "Si tiene Vidaesfera, cambia a Volcarona y debilítalo.",
               "variant": [
                 {
-                  "detail": "Entei ➜ 💊Primero usar max pocion y seguir Barriendo💊 🔔(Puño drenaje a Umbreon y Cascada a Metagross)🔔",
-                  "variant": []
-                },      
+                  "detail": "Si sale Milotic o Houndoom, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Bronzong.",
+                      "variant": []
+                    }
+                  ]
+                },
                 {
-                  "detail": "Otro Pokemon ➜ 🥊Usar Puño drenaje y Puño drenaje🥊",
+                  "detail": "Si sale Umbreon, cambia a Chansey para atraer a Staraptor.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Staraptor, entra con Volcarona y usa Danza Aleteo x3.",
+                      "variant": [
+                        {
+                          "detail": "Usa Gigadrenado y Lanzallamas contra Umbreon.",
+                          "variant": []
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si vuelve Metagross, cambia a Volcarona frente a Staraptor y luego cambia a Gengar.",
+                      "variant": [
+                        {
+                          "detail": "Gengar usa Maquinación hasta +4 y Precisión X.",
+                          "variant": [
+                            {
+                              "detail": "Si cambia a Milotic, cambia a Chansey para atraer a Staraptor. Luego entra con Volcarona y usa Danza Aleteo x3. Usa Gigadrenado y Lanzallamas contra Umbreon.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Staraptor, cambia a Gengar.",
+                  "variant": [
+                    {
+                      "detail": "Gengar usa Maquinación hasta +4 y Precisión X.",
+                      "variant": [
+                        {
+                          "detail": "Si cambia a Milotic, cambia a Chansey para atraer a Staraptor. Luego entra con Volcarona y usa Danza Aleteo x3. Usa Gigadrenado y Lanzallamas contra Umbreon.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si no tiene Vidaesfera, cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 }
               ]
-            } 
+            }
           ]
-        },      
+        },
         {
-          "detail": "Gallade ➜ 💊Cambiar a Gengar Otra Vez +4 + Precision X💊 🔔(Serperior no es amenaza)🔔",
-          "variant": []
-        },      
-        {
-          "detail": "Absol ➜ Cambiar a Slowbro y usar Bostezo Frente a Nidoqueen ➜ Teletransporte y sacar a Volcarona +1 🔔(Identifica tu Situacion)🔔",
+          "detail": "Si usa Puño Meteoro, observa si aumenta su Ataque.",
           "variant": [
             {
-              "detail": "Si se queda ➜ Usar Psíquico ➜ frente a Blissey 💊tomar un Especial X y Seguir Barriendo💊",
-              "variant": []
-            },      
-            {  
-              "detail": "Blissey --> 💊Tomar un Especial X y Seguir Barriendo💊",
+              "detail": "Si aumenta el Ataque, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Reuniclus.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si no aumenta el Ataque, cambia a Slowbro y usa Bostezo frente a Jolteon.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Reuniclus.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Mienshao, cambia a Gengar y usa Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Si sale Jolteon, cambia a Chansey y usa Amortiguador.",
+              "variant": [
+                {
+                  "detail": "Frente a Staraptor, Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Reuniclus.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Umbreon o Entei, cambia a Slowbro y usa Bostezo frente a Musharna.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Musharna. Revisa quién entra segundo.",
+                      "variant": [
+                        {
+                          "detail": "Si entra Entei, usa primero Max Poción y sigue barriendo. Usa Puño Drenaje contra Umbreon y Cascada contra Metagross.",
+                          "variant": []
+                        },
+                        {
+                          "detail": "Si entra otro Pokémon, usa Puño Drenaje dos veces.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Gallade, cambia a Gengar y usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +4 y Precisión X. Serperior no es amenaza.",
               "variant": []
             }
           ]
-        }  
+        },
+        {
+          "detail": "Si sale Absol, cambia a Slowbro y usa Bostezo frente a Nidoqueen.",
+          "variant": [
+            {
+              "detail": "Luego usa Teletransporte y entra con Volcarona.",
+              "variant": [
+                {
+                  "detail": "Volcarona usa Danza Aleteo x1 y revisa la situación.",
+                  "variant": [
+                    {
+                      "detail": "Si Absol se queda, usa Psíquico. Frente a Blissey, usa Especial X y sigue barriendo.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si sale Blissey, usa Especial X y sigue barriendo.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
-    }  
-  ]  
-}  
-
-
-
-
-
-
-
-
-
-
-              
-            
-
-
-
-
-
-
-
-              
+    }
+  ]
+}

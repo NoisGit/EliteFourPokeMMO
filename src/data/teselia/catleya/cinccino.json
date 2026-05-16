@@ -2,6 +2,25 @@
   "id": "cinccino",
   "name": "Cinccino",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "♥️Encanto luego 🪨Trampa Rocas🪨 frente a Mienshao, Cambiar a Gengar luego cambiar a Slowbro y usar Bostezo; sacrificar a Politoed y entrar con Poliwrath +6♥️ 🔔(Si Chansey esta sin HP Usar Poción Máxima)🔔",
-  "tricks": []
+  "initialMove": "Usa Encanto.",
+  "tricks": [
+    {
+      "detail": "Luego usa 🪨 Trampa Rocas 🪨 frente a Mienshao.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar, luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Chansey está con poco HP, usa Max Poción primero.",
+              "variant": []
+            },
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
