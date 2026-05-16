@@ -2,6 +2,16 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro frente a Samurott, usar Bostezo sacrificar a Politoed y entrar con Poliwrath 🐸 +6",
-  "tricks": []
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Frente a Samurott, usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
