@@ -2,36 +2,156 @@
   "id": "rotom_agua",
   "name": "Rotom Agua",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Rayo → Varias Opciones",
+      "detail": "Si usa Rayo.",
       "variant": [
         {
-          "detail": "Estable → Toma X SpDef → Amortiguador hasta que salga Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Ruta estable: usa Defensa Especial X.",
+          "variant": [
+            {
+              "detail": "Usa Amortiguador hasta que salga Alakazam.",
+              "variant": [
+                {
+                  "detail": "Usa Teletransporte y entra con Slowbro.",
+                  "variant": [
+                    {
+                      "detail": "Slowbro usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "RNG → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Ruta RNG: usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Hidrobomba → Teletransporte a Slowbro, Bostezo. sale Gengar → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
+      "detail": "Si usa Hidrobomba.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si sale Gengar.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Toxicroak → Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Toxicroak.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Krookodile → Teletransporte a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Krookodile.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Alakazam.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
