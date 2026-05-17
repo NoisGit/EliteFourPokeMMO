@@ -2,11 +2,26 @@
   "id": "mandibuzz",
   "name": "Mandibuzz",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6 (Puño H a Mndibuzz, Cascada Gengar)",
-      "variant": []
+      "detail": "Cambia a Slowbro y usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "Usa Puño Hielo en Mandibuzz y Cascada en Gengar.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
