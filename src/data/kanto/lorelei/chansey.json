@@ -2,10 +2,10 @@
   "id": "chansey",
   "name": "Chansey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Bronzong.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Luego usa Encanto ❤️ y revisa el movimiento de Bronzong.",
+      "detail": "Frente a Bronzong, usa Encanto ❤️ y revisa su movimiento.",
       "variant": [
         {
           "detail": "Si usa Cabezazo Zen o Terremoto, cambia a Slowbro y usa Bostezo frente a Nidoking.",
