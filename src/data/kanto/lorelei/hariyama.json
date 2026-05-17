@@ -2,6 +2,21 @@
   "id": "hariyama",
   "name": "Hariyama",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🐌 Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6 🐸 Puño Drenaje a Jynx",
-  "tricks": []
-}   
+  "initialMove": "Cambia a Slowbro.",
+  "tricks": [
+    {
+      "detail": "Slowbro usa Bostezo 🐌.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Jynx.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
