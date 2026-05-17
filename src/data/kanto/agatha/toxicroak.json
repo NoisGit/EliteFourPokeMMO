@@ -2,6 +2,36 @@
   "id": "toxicroak",
   "name": "Toxicroak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar y usa Otra Vez luego Bola Sombra, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gengar y Puño Hielo contra Toxicroak)🔔",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Gengar usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego usa Bola Sombra.",
+          "variant": [
+            {
+              "detail": "Cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Cascada contra Gengar y Puño Hielo contra Toxicroak. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
