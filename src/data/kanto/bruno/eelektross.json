@@ -2,33 +2,48 @@
   "id": "eelektross",
   "name": "Eelektross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Amortiguador",
+  "initialMove": "Usa Amortiguador.",
   "tricks": [
     {
-      "detail": "Machamp → Cambia a Gengar luego a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Infernape → Amortiguador (recibe el A Bocajarro), cambia a Gengar, Otra Vez, +4",
-      "variant": []
-    },
-    {
-      "detail": "Hitmonchan → Gengar +4 (No es necesario Otra Vez)",
-      "variant": []
-    },
-    {
-      "detail": "Darmanitan → VARIAS OPCIONES",
+      "detail": "Si sale Machamp, cambia a Gengar y luego a Slowbro.",
       "variant": [
         {
-          "detail": "Ahorro → Volcarona +3",
+          "detail": "Slowbro usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Infernape, usa Amortiguador para recibir A Bocajarro y cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez y Maquinación hasta +4.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Hitmonchan, entra con Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4. No es necesario usar Otra Vez.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Darmanitan, elige una ruta.",
+      "variant": [
+        {
+          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3.",
           "variant": []
         },
         {
-          "detail": "RNG → Cambiar a Politoed (sacrificar) → Poliwrath +6",
+          "detail": "Ruta rápida: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Estable → Cambiar a Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         }
       ]
