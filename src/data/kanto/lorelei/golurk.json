@@ -2,11 +2,35 @@
   "id": "golurk",
   "name": "Golurk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👀",
+  "initialMove": "Usa Truco.",
   "tricks": [
     {
-      "detail": "Ruta pendiente de confirmar.",
-      "variant": []
+      "detail": "Si cambia a Magneton o Magnezone.",
+      "variant": [
+        {
+          "detail": "Cambia a Excadrill y debilítalo con Terremoto.",
+          "variant": [
+            {
+              "detail": "Después debería entrar Lapras.",
+              "variant": [
+                {
+                  "detail": "Cambia a Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque y Velocidad X para +2 Velocidad.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si cambia a Nidoking.",
+      "variant": [
+        {
+          "detail": "Cambia a Cloyster +6.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
