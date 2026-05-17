@@ -2,23 +2,78 @@
   "id": "arbok",
   "name": "Arbok",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda → Usa Encanto y Amortiguador frente a Metagross ⬇️Ve a la solucion de Metagross⬇️",
-      "variant": []
+      "detail": "Si Arbok se queda.",
+      "variant": [
+        {
+          "detail": "Usa Encanto y Amortiguador frente a Metagross.",
+          "variant": [
+            {
+              "detail": "Continúa con la solución de Metagross.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Tyranitar → Cambiar a Gengar y usa Maquinacion luego Barre 🔔(Onda certera contra Tyranitar y Bola sombra contra los demas)🔔",
-      "variant": []
+      "detail": "Si sale Tyranitar.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar y usa Maquinación.",
+          "variant": [
+            {
+              "detail": "Barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Metagross → Cambia a Volcarona frente a Aerodactyl, sacrifica a Politoed, 💊entra Poliwrath + Ataque X💊 🔔(Puño drenaje contra Aerodactyl y Cascada contra Steelix)🔔",
-      "variant": []
+      "detail": "Si sale Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona frente a Aerodactyl.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "💊 Entra con Poliwrath 🐸🥊 y usa Ataque X. 💊",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Arcanine → Cambia a Slowbro y usa Bostezo frente Ampharos/Hydreigon, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Arcanine.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Ampharos o Hydreigon.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
