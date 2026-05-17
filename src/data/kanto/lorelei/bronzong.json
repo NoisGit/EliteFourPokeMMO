@@ -2,67 +2,102 @@
   "id": "bronzong",
   "name": "Bronzong",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Ver Movimiento",
+      "detail": "Si Bronzong se queda, revisa el movimiento.",
       "variant": [
         {
-          "detail": "Giro Bola --> Cambiar a Volcarona; usar Especial X y Barrer; 🔔(Si Bronzong se quema puedes usar Danza Aleteo x2 // Usar Ataques súper Efectivos)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Autodestrucción y entra su Chansey --> Sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Cabezazo Zen / Terremoto --> Cambiar a Slowbro y usar Bostezo frente a Nidoking; sacrificar a Politoed; Poliwrath +6",
-          "variant": []
-        },  
-        {
-          "detail": "Autodestrucción y sale Nidoking --> Chansey usa Amortiguador para curar al máximo",
+          "detail": "Si usa Giro Bola, cambia a Volcarona.",
           "variant": [
             {
-              "detail": "Si se queda --> Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+              "detail": "Usa Especial X y barre. Si Bronzong se quema, puedes usar Danza Aleteo x2. Usa ataques súper efectivos.",
               "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Autodestrucción y entra Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Si usa Cabezazo Zen o Terremoto, cambia a Slowbro y usa Bostezo frente a Nidoking.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Autodestrucción y sale Nidoking, Chansey usa Amortiguador para quedar con PS completos.",
+          "variant": [
+            {
+              "detail": "Si Nidoking se queda, usa Teletransporte, entra con Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Chansey --> Sacrificar a Politoed; Poliwrath +6",
+              "detail": "Si sale Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
-            }  
+            }
           ]
         }
       ]
     },
     {
-      "detail": "Hariyama --> Ver Objeto",
+      "detail": "Si sale Hariyama, revisa el objeto.",
       "variant": [
         {
-          "detail": "Llamasfera --> Cambiar a Slowbro; luego a Gengar Otra Vez 4+2 🔔(Barrer con Bola Sombra)🔔",
-          "variant": []
+          "detail": "Si tiene Llamasfera, cambia a Slowbro y luego a Gengar.",
+          "variant": [
+            {
+              "detail": "Gengar usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad. Barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Sin Llamasfera --> Cambiar a Slowbro y usar Bostezo; sacrificar a Politoed; Poliwrath +6 🔔(Puño Drenaje a Jynx)🔔",
-          "variant": []
+          "detail": "Si no tiene Llamasfera, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque. Usa Puño Drenaje contra Jynx.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Walrein o Dewgong --> Gengar Otra Vez +2",
+      "detail": "Si sale Walrein o Dewgong, Gengar usa Otra Vez y Maquinación hasta +2.",
       "variant": [
         {
-          "detail": "Si se queda --> Gengar +6 🔔(Barrer con Bola Sombra)🔔",
+          "detail": "Si se queda, Gengar usa Maquinación hasta +6 y barre con Bola Sombra.",
           "variant": []
         },
         {
-          "detail": "Cambia a Lapras --> Barrer hasta Bronzong; Volcarona +1",
-          "variant": []
+          "detail": "Si cambia a Lapras, barre hasta Bronzong y entra con Volcarona.",
+          "variant": [
+            {
+              "detail": "Volcarona usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Lucario --> Gengar Otra Vez 4+2 🔔(Barrer con Bola Sombra)🔔",
-      "variant": []
+      "detail": "Si sale Lucario, Gengar usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+      "variant": [
+        {
+          "detail": "Barre con Bola Sombra.",
+          "variant": []
+        }
+      ]
     }
   ]
 }

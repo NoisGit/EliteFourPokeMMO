@@ -2,6 +2,21 @@
   "id": "jynx",
   "name": "Jynx",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar de Slowbro a Hariyama; usar Bostezo; sacrificar a Politoed; Poliwrath +6 🐸 Puño Drenaje a Jynx",
-  "tricks": []
+  "initialMove": "Cambia de Slowbro a Hariyama.",
+  "tricks": [
+    {
+      "detail": "Usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Puño Drenaje contra Jynx.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -2,26 +2,41 @@
   "id": "chansey",
   "name": "Chansey",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Bronzong luego usa Encanto❤️",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Bronzong.",
   "tricks": [
     {
-      "detail": "Cabezazo Zen / Terremoto --> Cambiar a Slowbro y usar Bostezo frente a Nidoking; sacrificar a Politoed; Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Autodestrucción y sale su Chansey --> Sacrificar a Politoed; Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Autodestrucción y sale Nidoking --> Amortiguador para curar al máximo",
+      "detail": "Luego usa Encanto ❤️ y revisa el movimiento de Bronzong.",
       "variant": [
         {
-          "detail": "Si se queda --> Teletransporte; Slowbro usa Bostezo; sacrificar a Politoed; Poliwrath +6",
+          "detail": "Si usa Cabezazo Zen o Terremoto, cambia a Slowbro y usa Bostezo frente a Nidoking.",
+          "variant": [
+            {
+              "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Autodestrucción y sale Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Cambia a Chansey --> Sacrificar a Politoed; Poliwrath +6",
-          "variant": []
+          "detail": "Si usa Autodestrucción y sale Nidoking, usa Amortiguador para curar al máximo.",
+          "variant": [
+            {
+              "detail": "Si Nidoking se queda, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si cambia a Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
