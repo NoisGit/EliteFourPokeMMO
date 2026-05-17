@@ -2,6 +2,21 @@
   "id": "crobat",
   "name": "Crobat",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas, cambia a Slowbro luego usa Bostezo frente a Gengar, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gengar y Puño drenaje contra Seismitoad)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Luego cambia a Slowbro y usa Bostezo frente a Gengar.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": [
+            {
+              "detail": "Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
