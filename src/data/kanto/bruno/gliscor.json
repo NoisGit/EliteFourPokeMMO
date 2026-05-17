@@ -2,40 +2,50 @@
   "id": "gliscor",
   "name": "Gliscor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "VARIAS OPCIONES",
+  "initialMove": "Elige una ruta.",
   "tricks": [
     {
-      "detail": "Rápida → Trampa Rocas, recibe Acrobata → Cambia a Slowbro, bostezo",
+      "detail": "Ruta rápida: usa 🪨 Trampa Rocas 🪨 y recibe Acróbata.",
       "variant": [
         {
-          "detail": "Blastoise → Volcarona +1",
-          "variant": []
-        },
-        {
-          "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Luego cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Ahorro → Amortiguador, recibes Acrobata, vuelve a usar Amortiguador. Sale Hitmonlee → Gengar, otra vez → Slowbro",
+      "detail": "Ruta ahorro: usa Amortiguador, recibe Acróbata y vuelve a usar Amortiguador.",
       "variant": [
         {
-          "detail": "Se queda → Bostezo",
+          "detail": "Si sale Hitmonlee, cambia a Gengar y usa Otra Vez. Luego cambia a Slowbro.",
           "variant": [
             {
-              "detail": "Blastoise → Volcarona +1",
-              "variant": []
+              "detail": "Si Hitmonlee se queda, usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
+                  "variant": []
+                },
+                {
+                  "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             },
             {
-              "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
+              "detail": "Si sale Blastoise directo, entra con Volcarona y usa Danza Aleteo x1.",
               "variant": []
             }
           ]
-        },
-        {
-          "detail": "Blastoise → Volcarona +1",
-          "variant": []
         }
       ]
     }
