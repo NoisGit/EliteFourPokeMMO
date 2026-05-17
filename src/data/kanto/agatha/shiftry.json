@@ -2,28 +2,83 @@
   "id": "shiftry",
   "name": "Shiftry",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Volcarona",
+  "initialMove": "Cambia a Volcarona.",
   "tricks": [
     {
-      "detail": "Si se queda --> 💊Volcarona +1 + 2 Especiales X💊 💰(Si quieres Ahorrar: 5 Danzas)💰",
-      "variant": []
-    },
-    {
-      "detail": "Muk --> Cambia a Slowbro y usa Bostezo",
+      "detail": "Si Shiftry se queda.",
       "variant": [
         {
-          "detail": "Si se queda --> Usa Proteccion y Bostezo ⬇️(Mira Abajo)⬇️",
-          "variant": []
-        },
+          "detail": "💊 Volcarona usa Danza Aleteo x1 y Ataque Especial X x2. 💊",
+          "variant": [
+            {
+              "detail": "💰 Ruta ahorro: Volcarona usa Danza Aleteo x5. 💰",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Muk.",
+      "variant": [
         {
-          "detail": "Rotom --> Usa Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Gengar/Seismitoad --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
-          "variant": []  
-        }  
-      ]  
-    } 
-  ]  
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si Muk se queda.",
+              "variant": [
+                {
+                  "detail": "Usa Protección y Bostezo.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Rotom.",
+              "variant": [
+                {
+                  "detail": "Usa Protección y Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Gengar o Seismitoad.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
