@@ -2,6 +2,16 @@
   "id": "hitmonchan",
   "name": "Hitmonchan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar +4 (No es necesario Otra Vez)",
-  "tricks": []
+  "initialMove": "Cambia a Gengar.",
+  "tricks": [
+    {
+      "detail": "Gengar usa Maquinación hasta +4.",
+      "variant": [
+        {
+          "detail": "No es necesario usar Otra Vez.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
