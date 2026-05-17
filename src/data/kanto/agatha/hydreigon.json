@@ -2,24 +2,89 @@
   "id": "hydreigon",
   "name": "Hydreigon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Onda Certera → Cambia a Slowbro y usa Bostezo",
+      "detail": "Si usa Onda Certera.",
       "variant": [
         {
-          "detail": "Si entra Rotom --> Usa Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
-          "variant": []
-        },
-        {
-          "detail": "Si entra Otro --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
-          "variant": []
-        }  
-      ]  
-    }, 
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si entra Rotom.",
+              "variant": [
+                {
+                  "detail": "Usa Protección y Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si entra otro Pokémon.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
-      "detail": "Alakazam --> Usa Teletransporte y saca a Slowbro, Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
-      "variant": [] 
+      "detail": "Si sale Alakazam.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
