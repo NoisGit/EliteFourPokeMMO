@@ -5,27 +5,220 @@
   "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Gengar usa Otra Vez y luego cambia a Slowbro.",
+      "detail": "Gengar usa Otra Vez.",
       "variant": [
         {
-          "detail": "Si Electivire se queda, Slowbro usa Bostezo.",
+          "detail": "Luego cambia a Slowbro.",
           "variant": [
             {
-              "detail": "Si Electivire se queda otra vez, entra Politoed como pivote y recibe Voltio Cruel.",
+              "detail": "Si Electivire se queda, Slowbro usa Bostezo.",
               "variant": [
                 {
-                  "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+                  "detail": "Si Electivire se queda otra vez.",
                   "variant": [
                     {
-                      "detail": "Si sale Staraptor, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Si sale Machamp, entra con Gengar y usa Otra Vez.",
+                      "detail": "Entra Politoed como pivote y recibe Voltio Cruel.",
                       "variant": [
                         {
-                          "detail": "Luego cambia a Chansey. Si sale Staraptor, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-                          "variant": []
+                          "detail": "Luego cambia a Chansey.",
+                          "variant": [
+                            {
+                              "detail": "Chansey usa 🪨 Trampa Rocas 🪨.",
+                              "variant": [
+                                {
+                                  "detail": "Si sale Staraptor.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra con Gengar y usa Otra Vez.",
+                                      "variant": [
+                                        {
+                                          "detail": "Gengar usa Maquinación hasta +2 y Precisión X.",
+                                          "variant": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "detail": "Si sale Machamp.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra con Gengar y usa Otra Vez.",
+                                      "variant": [
+                                        {
+                                          "detail": "Luego cambia a Chansey.",
+                                          "variant": [
+                                            {
+                                              "detail": "Si sale Staraptor.",
+                                              "variant": [
+                                                {
+                                                  "detail": "Entra con Gengar y usa Otra Vez.",
+                                                  "variant": [
+                                                    {
+                                                      "detail": "Gengar usa Maquinación hasta +2 y Precisión X.",
+                                                      "variant": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Heracross.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y luego Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Si sale Salamence.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Blastoise.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
+                      "variant": [
+                        {
+                          "detail": "Luego entra con Gengar.",
+                          "variant": [
+                            {
+                              "detail": "Después saca a Slowbro y usa Teletransporte para entrar con Volcarona.",
+                              "variant": [
+                                {
+                                  "detail": "Volcarona usa Danza Aleteo x1.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Steelix.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Chansey y usa Amortiguador.",
+                      "variant": [
+                        {
+                          "detail": "Si sale Machamp.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Gengar y usa Otra Vez.",
+                              "variant": [
+                                {
+                                  "detail": "Gengar usa Maquinación hasta +2 y Precisión X.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Metagross, sigue la ruta de Metagross.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Metagross, Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si usa Hierba Lazo.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
+                      "variant": [
+                        {
+                          "detail": "Luego entra con Gengar.",
+                          "variant": [
+                            {
+                              "detail": "Después cambia a Slowbro y usa Bostezo.",
+                              "variant": [
+                                {
+                                  "detail": "Si sale Electivire.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra Politoed como pivote.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                          "variant": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "detail": "Si sale Blastoise.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra con Volcarona y usa Danza Aleteo x1.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Heracross.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y luego Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Si sale Salamence.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -34,26 +227,41 @@
               ]
             },
             {
-              "detail": "Si sale Heracross, usa Protección y luego Bostezo.",
+              "detail": "Si sale Blastoise.",
               "variant": [
                 {
-                  "detail": "Si sale Salamence, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Si sale Blastoise, cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
-              "variant": [
-                {
-                  "detail": "Luego entra con Gengar.",
+                  "detail": "Cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
                   "variant": [
                     {
-                      "detail": "Después saca a Slowbro y usa Teletransporte para entrar con Volcarona.",
+                      "detail": "Luego entra con Gengar.",
                       "variant": [
                         {
-                          "detail": "Volcarona usa Danza Aleteo x1.",
-                          "variant": []
+                          "detail": "Después cambia a Slowbro y usa Bostezo.",
+                          "variant": [
+                            {
+                              "detail": "Si sale Electivire.",
+                              "variant": [
+                                {
+                                  "detail": "Entra Politoed como pivote.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si sale Blastoise.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Volcarona y usa Danza Aleteo x1.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -62,89 +270,31 @@
               ]
             },
             {
-              "detail": "Si sale Steelix, cambia a Chansey y usa Amortiguador.",
+              "detail": "Si sale Rhyperior, Slowbro usa Bostezo.",
               "variant": [
                 {
-                  "detail": "Si sale Machamp, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-                  "variant": []
-                }
-              ]
-            },
-            {
-              "detail": "Si sale Metagross, sigue la ruta de Metagross.",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "Si sale Metagross, Slowbro usa Bostezo.",
-          "variant": [
-            {
-              "detail": "Si usa Hierba Lazo, cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
-              "variant": [
-                {
-                  "detail": "Luego entra con Gengar.",
+                  "detail": "Si sale Heracross.",
                   "variant": [
                     {
-                      "detail": "Después cambia a Slowbro y usa Bostezo.",
+                      "detail": "Usa Protección y luego Bostezo.",
                       "variant": [
                         {
-                          "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                          "variant": []
-                        },
-                        {
-                          "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
-                          "variant": []
+                          "detail": "Si sale Salamence.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "detail": "Si sale Heracross, usa Protección y luego Bostezo.",
-              "variant": [
-                {
-                  "detail": "Si sale Salamence, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                  "variant": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "detail": "Si sale Blastoise, cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
-          "variant": [
-            {
-              "detail": "Luego entra con Gengar.",
-              "variant": [
-                {
-                  "detail": "Después cambia a Slowbro y usa Bostezo.",
-                  "variant": [
-                    {
-                      "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
-                      "variant": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "detail": "Si sale Rhyperior, Slowbro usa Bostezo.",
-          "variant": [
-            {
-              "detail": "Si sale Heracross, usa Protección y luego Bostezo.",
-              "variant": [
-                {
-                  "detail": "Si sale Salamence, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                  "variant": []
                 }
               ]
             }
