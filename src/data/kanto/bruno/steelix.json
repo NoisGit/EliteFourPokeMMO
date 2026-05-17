@@ -2,28 +2,48 @@
   "id": "steelix",
   "name": "Steelix",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto → Encanto → Amortiguador",
+      "detail": "Si usa Terremoto, usa Encanto y luego Amortiguador.",
       "variant": [
         {
-          "detail": "Entra Staraptor → Gengar +4 + Precisión X (Otra Vez no es necesario)",
-          "variant": []
+          "detail": "Si entra Staraptor, cambia a Gengar.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Entra Machamp → Gengar → Otra Vez → Cambiar a Chansey → Sale Staraptor ↑↑↑",
-          "variant": []
+          "detail": "Si entra Machamp, cambia a Gengar y usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Chansey. Si sale Staraptor, sigue la ruta de Staraptor.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Entra Pokémon tipo Lucha → Gengar → Otra Vez → +4 +2 + Precisión X (mantener Otra Vez)",
-          "variant": []
+          "detail": "Si entra un Pokémon tipo lucha, cambia a Gengar y usa Otra Vez.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Entra Staraptor → Gengar → Otra Vez → +2 + Precisión X",
-      "variant": []
+      "detail": "Si entra Staraptor directo, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +2 y Precisión X.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
