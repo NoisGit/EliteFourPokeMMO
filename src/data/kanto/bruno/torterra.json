@@ -2,11 +2,16 @@
   "id": "torterra",
   "name": "Torterra",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambiar a Slowbro, Bostezo →",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Sale Blastoise → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
+      "detail": "Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Blastoise, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
