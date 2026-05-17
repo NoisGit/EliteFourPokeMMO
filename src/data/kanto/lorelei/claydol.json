@@ -2,14 +2,19 @@
   "id": "claydol",
   "name": "Claydol",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Cambia a Slowbro y usa Bostezo frente a Lapras.",
+      "detail": "Frente a Lucario, cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-          "variant": []
+          "detail": "Usa Bostezo frente a Lapras.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
