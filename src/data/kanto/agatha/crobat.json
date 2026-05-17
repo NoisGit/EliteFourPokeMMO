@@ -5,14 +5,24 @@
   "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Luego cambia a Slowbro y usa Bostezo frente a Gengar.",
+      "detail": "Luego cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Entra Politoed como pivote y luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "detail": "Slowbro usa Bostezo frente a Gengar.",
           "variant": [
             {
-              "detail": "Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad.",
-              "variant": []
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
