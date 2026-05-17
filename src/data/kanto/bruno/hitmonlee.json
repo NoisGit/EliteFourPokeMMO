@@ -2,24 +2,29 @@
   "id": "hitmonlee",
   "name": "Hitmonlee",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar luego a Slowbro",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Se queda → Bostezo",
+      "detail": "Luego cambia a Slowbro.",
       "variant": [
         {
-          "detail": "Electivire → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Si Hitmonlee se queda, usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            },
+            {
+              "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Blastoise → Volcarona +1",
+          "detail": "Si sale Blastoise directo, entra con Volcarona y usa Danza Aleteo x1.",
           "variant": []
         }
       ]
-    },
-    {
-      "detail": "Blastoise → Volcarona +1",
-      "variant": []
     }
   ]
 }
