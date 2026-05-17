@@ -1,12 +1,12 @@
 {
-    "id": "golurk",
-    "name": "Golurk",
-    "image": "/placeholder.svg?height=80&width=80",
-    "initialMove": "👀",
-    "tricks": [
-        {
-            "detail": "U cant see me",
-            "variant": []
-        }
-    ]
+  "id": "golurk",
+  "name": "Golurk",
+  "image": "/placeholder.svg?height=80&width=80",
+  "initialMove": "👀",
+  "tricks": [
+    {
+      "detail": "Ruta pendiente de confirmar.",
+      "variant": []
+    }
+  ]
 }

@@ -2,24 +2,44 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Gengar, Otra Vez → Cambia a Slowbro (Mira el item)",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Vidaesfera → Cambia a Chansey, sale Lapras. Usa trampa rocas → Sale Lucario → Cambia a Slowbro, Bostezo",
+      "detail": "Gengar usa Otra Vez y luego cambia a Slowbro para revisar el objeto.",
       "variant": [
         {
-          "detail": "Si se queda → Teletransporte a Volcarona, +1. Derrotalo, sale Dragonite, usa 1 X SpAtk. Derrotalos (Mantener HP +35%).",
-          "variant": []
+          "detail": "Si tiene Vidaesfera, cambia a Chansey frente a Lapras y usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
+          "variant": [
+            {
+              "detail": "Cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si Lucario se queda, usa Teletransporte para entrar con Volcarona y usa Danza Aleteo x1.",
+                  "variant": [
+                    {
+                      "detail": "Debilítalo. Frente a Dragonite, usa Especial X y sigue barriendo. Mantén PS sobre 35%.",
+                      "variant": []
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Lapras, entra con Volcarona y usa Danza Aleteo x2. Mantén PS sobre 46%.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Sale Lapras → Volcarona, +2. (Mantener HP +46%)",
-          "variant": []
+          "detail": "Si no tiene Vidaesfera, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Slowbro y usa Bostezo. Frente a Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
-    },
-    {
-      "detail": "Sin Vidaesfera → Cambia a Chansey, trampa rocas. Luego cambia a Slowbro, Bostezo. Sale lapras → Politoed (sacrificar), Poliwrah +6",
-      "variant": []
     }
   ]
 }

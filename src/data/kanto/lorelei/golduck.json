@@ -2,14 +2,34 @@
   "id": "golduck",
   "name": "Golduck",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻 Mira Abajo 👻",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "🪨 Trampa Rocas 🪨 cambia a Gengar ➜ cambia a Slowbro y entra Mantine ➜ usar Bostezo frente a Magnezone ➜ sacrificar a poliwrath ➜ Volcarona +1 + Especial X",
+      "detail": "👻 Cambia a Gengar 👻.",
       "variant": [
         {
-          "detail": "🔔Usar Psíquico contra Mantine; dar Revivir Hierba a Poliwrath + Medicina pequeña continuar🔔",
-          "variant": []
+          "detail": "Luego cambia a Slowbro y espera la entrada de Mantine.",
+          "variant": [
+            {
+              "detail": "Usa Bostezo frente a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Entra Poliwrath como pivote hasta que quede debilitado y luego entra con Volcarona.",
+                  "variant": [
+                    {
+                      "detail": "Volcarona usa Danza Aleteo x1 y Especial X.",
+                      "variant": [
+                        {
+                          "detail": "Usa Psíquico contra Mantine. Después revive a Poliwrath con Revivir Hierba y usa una medicina pequeña para continuar.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

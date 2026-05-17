@@ -2,24 +2,59 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "TRAMPA ROCAS y mantener Amortiguador hasta el cambio",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Golduck → cambiar a Gengar",
+      "detail": "Mantén Amortiguador hasta que el rival cambie.",
       "variant": [
         {
-          "detail": "Se queda → Cambiar a Slowbro, sale Mantine → Usa Bostezo, sale Magnezone, sacrificar a POLIWRATH → Volcarona +1 + X SpAtk. (Psychic a Mantine).",
-          "variant": []
+          "detail": "Si sale Golduck, cambia a Gengar y revisa si se queda.",
+          "variant": [
+            {
+              "detail": "Si Golduck se queda, cambia a Slowbro. Frente a Mantine, usa Bostezo al enfrentar a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Luego entra Poliwrath 🐸🥊 como pivote y entra con Volcarona para usar Danza Aleteo x1 y Especial X.",
+                  "variant": [
+                    {
+                      "detail": "Usa Psíquico contra Mantine.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Lapras, cambia a Slowbro y usa Bostezo al enfrentar a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Luego entra Poliwrath 🐸🥊 como pivote y entra con Volcarona para usar Danza Aleteo x2 y Especial X.",
+                  "variant": [
+                    {
+                      "detail": "Usa Psíquico contra Mantine.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Lapras → Slowbro, bostezo → Sale a Magnezone → sacrificar a POLIWRATH → Volcarona +2 + X SpAtk. (Psychic Mantine).",
-          "variant": []
+          "detail": "Si sale Lapras, cambia a Slowbro y usa Bostezo al enfrentar a Magnezone.",
+          "variant": [
+            {
+              "detail": "Luego entra Poliwrath 🐸🥊 como pivote y entra con Volcarona para usar Danza Aleteo x2 y Especial X.",
+              "variant": [
+                {
+                  "detail": "Usa Psíquico contra Mantine.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      "detail": "Lapras → Slowbro, bostezo → Sale a Magnezone → sacrificar a POLIWRATH → Volcarona +2 + X SpAtk. (Psychic Mantine).",
-      "variant": []
     }
   ]
 }
