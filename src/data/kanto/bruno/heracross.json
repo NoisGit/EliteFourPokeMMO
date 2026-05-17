@@ -2,6 +2,21 @@
   "id": "heracross",
   "name": "Heracross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Amortiguador → Recibes A Bocajarro → Cambiar a Gengar → Otra Vez +4 → Otra Vez (Heracross tiene Banda Focus)",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Recibe A Bocajarro y cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Otra Vez y Maquinación hasta +4.",
+          "variant": [
+            {
+              "detail": "Usa Otra Vez nuevamente. Heracross tiene Banda Focus.",
+              "variant": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
