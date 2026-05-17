@@ -2,6 +2,16 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Amortiguador, sale Infernape → Amortiguador (recibes A Bocajarro) → Gengar, Otra Vez, +4",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Si sale Infernape, usa Amortiguador para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+          "variant": []
+        }
+      ]
+    }
+  ]
 }
