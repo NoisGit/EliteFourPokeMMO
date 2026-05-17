@@ -2,15 +2,59 @@
   "id": "rotom_hielo",
   "name": "Rotom Hielo",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Marowak --> Usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔 🚨(Si Slowbro queda paralizado no uses Bostezo, primero usa una Cura Total)🚨",
-      "variant": []
+      "detail": "Si sale Marowak.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔",
+                      "variant": []
+                    },
+                    {
+                      "detail": "🚨 Si Slowbro queda paralizado, usa una Cura Total antes de Bostezo. 🚨",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Arbok --> Usa Bostezo luego Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar)🔔",
-      "variant": []  
-    }  
-  ]  
+      "detail": "Si sale Arbok.",
+      "variant": [
+        {
+          "detail": "Slowbro usa Bostezo, luego Protección y Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Hielo contra Gengar. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
