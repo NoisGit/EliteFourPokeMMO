@@ -2,19 +2,34 @@
   "id": "muk",
   "name": "Muk",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Staraptor → Gengar, +4 + Precisión X (Otra Vez no es necesario)",
-      "variant": []
+      "detail": "Si sale Staraptor, cambia a Gengar.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4 y Precisión X. No es necesario usar Otra Vez.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Ursaring/PokeTipoLucha → Gengar, Otra Vez, +4 +2 + Precisión X (Mantener Otra Vez)",
-      "variant": []
+      "detail": "Si sale Ursaring o un Pokémon tipo lucha, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez.",
+          "variant": []
+        }
+      ]
     },
     {
-      "detail": "Machamp → Cambiar a Gengar, Otra Vez → Cambia a Chansey, sale Staraptor → Sigue ↑↑↑",
-      "variant": []
+      "detail": "Si sale Machamp, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Chansey. Si sale Staraptor, sigue la ruta de Staraptor.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
