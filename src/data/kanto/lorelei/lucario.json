@@ -8,23 +8,33 @@
       "detail": "Gengar usa Otra Vez y luego cambia a Slowbro para revisar el objeto.",
       "variant": [
         {
-          "detail": "Si tiene Vidaesfera, cambia a Chansey frente a Lapras y usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
+          "detail": "Si tiene Vidaesfera, cambia a Chansey frente a Lapras.",
           "variant": [
             {
-              "detail": "Cambia a Slowbro y usa Bostezo.",
+              "detail": "Usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
               "variant": [
                 {
-                  "detail": "Si Lucario se queda, usa Teletransporte para entrar con Volcarona y usa Danza Aleteo x1.",
+                  "detail": "Cambia a Slowbro y usa Bostezo.",
                   "variant": [
                     {
-                      "detail": "Debilítalo. Frente a Dragonite, usa Especial X y sigue barriendo. Mantén PS sobre 35%.",
+                      "detail": "Si Lucario se queda, usa Teletransporte para entrar con Volcarona.",
+                      "variant": [
+                        {
+                          "detail": "Volcarona usa Danza Aleteo x1.",
+                          "variant": [
+                            {
+                              "detail": "Debilita a Lucario. Frente a Dragonite, usa Especial X y sigue presionando. Mantén PS sobre 35%.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si sale Lapras, entra con Volcarona y usa Danza Aleteo x2. Mantén PS sobre 46%.",
                       "variant": []
                     }
                   ]
-                },
-                {
-                  "detail": "Si sale Lapras, entra con Volcarona y usa Danza Aleteo x2. Mantén PS sobre 46%.",
-                  "variant": []
                 }
               ]
             }
@@ -34,8 +44,13 @@
           "detail": "Si no tiene Vidaesfera, cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
           "variant": [
             {
-              "detail": "Luego cambia a Slowbro y usa Bostezo. Frente a Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-              "variant": []
+              "detail": "Luego cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Frente a Lapras, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
             }
           ]
         }
