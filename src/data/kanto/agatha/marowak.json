@@ -2,31 +2,91 @@
   "id": "marowak",
   "name": "Marowak",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "ENCANTO",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Huesomerang → Teletransporte a Slowbro",
+      "detail": "Si usa Huesomerang.",
       "variant": [
         {
-          "detail": "Se queda → Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Arbok → Bostezo, Protección → Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Si Marowak se queda, usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Arbok.",
+              "variant": [
+                {
+                  "detail": "Usa Bostezo, Protección y luego Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Terremoto → Teletransporte a Slowbro, luego cambiar a Volcarona",
+      "detail": "Si usa Terremoto.",
       "variant": [
         {
-          "detail": "Rotom → Danza Aleteo → Presionar hasta Houndoom, usar 2 danza aleteo y terminar",
-          "variant": []
-        },
-        {
-          "detail": "Gengar → Volcarona, +1 + AtkSp X",
-          "variant": []
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Volcarona.",
+              "variant": [
+                {
+                  "detail": "Si sale Rotom.",
+                  "variant": [
+                    {
+                      "detail": "Volcarona usa Danza Aleteo x1 y presiona hasta Houndoom.",
+                      "variant": [
+                        {
+                          "detail": "Frente a Houndoom, Volcarona usa Danza Aleteo x2 y termina.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Gengar.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Volcarona.",
+                      "variant": [
+                        {
+                          "detail": "Volcarona usa Danza Aleteo x1 y Ataque Especial X.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
