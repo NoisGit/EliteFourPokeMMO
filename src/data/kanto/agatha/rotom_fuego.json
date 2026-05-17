@@ -2,24 +2,74 @@
   "id": "rotom_fuego",
   "name": "Rotom Fuego",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Mantener Encanto hasta Muk (Amortiguador si tienes mitad de vida), Teletransporte →",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "A Slowbro, Bostezo",
+      "detail": "Mantén Encanto hasta que salga Muk.",
       "variant": [
         {
-          "detail": "Rotom → Protección, luego usa Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Otro Pokemon → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Usa Amortiguador si tienes mitad de vida.",
+          "variant": [
+            {
+              "detail": "Luego usa Teletransporte.",
+              "variant": [
+                {
+                  "detail": "Entra con Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Rotom.",
+                      "variant": [
+                        {
+                          "detail": "Usa Protección y luego Bostezo.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si sale otro Pokémon.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Sale Gyarados → Volcarona → Slowbro, bostezo → Conitnúa arriba ↑↑",
-      "variant": []
+      "detail": "Si sale Gyarados.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona y luego a Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo y continúa la ruta principal.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
