@@ -2,22 +2,87 @@
   "id": "krookodile",
   "name": "Krookodile",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA SI TIENE INTIMIDACIÓN",
+  "initialMove": "Revisa si tiene Intimidación.",
   "tricks": [
     {
-      "detail": "Si tiene, trampa rocas y sale Toxicroak → Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6 (Tiene piel seca)",
-      "variant": []
-    },
-    {
-      "detail": "No tiene, trampa rocas → mira el ataque",
+      "detail": "Si tiene Intimidación.",
       "variant": [
         {
-          "detail": "Terremoto → Cambia a Slowbro, bostezo. Sale Gengar → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
+          "detail": "Usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si sale Toxicroak.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "Toxicroak tiene Piel Seca.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si no tiene Intimidación.",
+      "variant": [
         {
-          "detail": "Triturar → Poliwrath +6 + Max Poción + 2 Vel",
-          "variant": []
+          "detail": "Usa 🪨 Trampa Rocas 🪨 y revisa el ataque.",
+          "variant": [
+            {
+              "detail": "Si usa Terremoto.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Gengar.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si usa Triturar.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "Usa Max Poción y Velocidad X para +2 Velocidad.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
