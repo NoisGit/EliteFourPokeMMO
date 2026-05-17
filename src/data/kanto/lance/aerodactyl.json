@@ -2,11 +2,31 @@
   "id": "aerodactyl",
   "name": "Aerodactyl",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Metagross → Cambia a Volcarona frente a Aerodactyl, sacrifica a Politoed, 💊entra Poliwrath + Ataque X💊 🔔(Puño drenaje contra Aerodactyl y Cascada contra Steelix)🔔",
-      "variant": []
+      "detail": "Si sale Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona frente a Aerodactyl.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "💊 Entra con Poliwrath 🐸🥊 y usa Ataque X. 💊",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
