@@ -2,15 +2,60 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro luego a Chansey",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Ampharos → Trampa rocas, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Hydreigon → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
+      "detail": "Luego cambia a Chansey.",
+      "variant": [
+        {
+          "detail": "Si sale Ampharos.",
+          "variant": [
+            {
+              "detail": "Usa 🪨 Trampa Rocas 🪨.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "🔔 Usa Puño Drenaje contra Ampharos. 🔔",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Hydreigon.",
+          "variant": [
+            {
+              "detail": "Cambia a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
