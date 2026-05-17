@@ -2,30 +2,103 @@
   "id": "houndoom",
   "name": "Houndoom",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Llamarada --> Usar Teletransporte",
+      "detail": "Si usa Llamarada.",
       "variant": [
         {
-          "detail": "Si se queda → Entra Volcarona, sacrifica al Politoed, entra Poliwrath +6 🚨(Cuidado con una quemadura inesperada, toma una velocidad X, ya que la lluvia no te Alcanzara)",
-          "variant": []
-        },
-        {
-          "detail": "krookodile → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Crobat →  Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
-          "variant": []
+          "detail": "Usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Si Houndoom se queda.",
+              "variant": [
+                {
+                  "detail": "Entra con Volcarona.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "🚨 Cuidado con una quemadura inesperada: usa Velocidad X porque la lluvia no alcanzará. 🚨",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Krookodile.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Crobat.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Toxicroack/Lucario → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Mandibuzz y Cascada contra Gengar)🔔",
-      "variant": []
+      "detail": "Si sale Toxicroak o Lucario.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Hielo contra Mandibuzz y Cascada contra Gengar. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
-  
-
