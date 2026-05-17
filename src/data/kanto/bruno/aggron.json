@@ -2,11 +2,21 @@
   "id": "aggron",
   "name": "Aggron",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Encanto → Toma una Max Poción, Usa Amortiguador → Sale Hitmonchan",
+  "initialMove": "Usa Encanto.",
   "tricks": [
     {
-      "detail": "Saca a Gengar +4. (No es necesario Otra Vez), (Barres con Bola Sombra)",
-      "variant": []
+      "detail": "Luego usa Max Poción y Amortiguador hasta que salga Hitmonchan.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez.",
+          "variant": [
+            {
+              "detail": "Barre con Bola Sombra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
