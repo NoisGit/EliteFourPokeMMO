@@ -2,15 +2,40 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda --> Usa Amortiguador esperando a Lucario, 💊Gengar 2+2 + Precicision X💊",
-      "variant": []
+      "detail": "Si Electivire se queda.",
+      "variant": [
+        {
+          "detail": "Usa Amortiguador esperando a Lucario.",
+          "variant": [
+            {
+              "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
-    { 
-      "detail": "Lucario --> Cambia a Slowbri y usa Bostezo frente a Electivire, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    } 
+    {
+      "detail": "Si sale Lucario.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Electivire.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
