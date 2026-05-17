@@ -2,15 +2,55 @@
   "id": "gyarados",
   "name": "Gyarados",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro y usa Bostezo",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Rotom --> Usa Proteccion luego Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Otro Pokemon --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
-      "variant": []
+      "detail": "Slowbro usa Bostezo.",
+      "variant": [
+        {
+          "detail": "Si sale Rotom.",
+          "variant": [
+            {
+              "detail": "Usa Protección y luego Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale otro Pokémon.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
