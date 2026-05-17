@@ -2,6 +2,26 @@
   "id": "rhyperior",
   "name": "Rhyperior",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "AMORTIGUADOR hasta Heracross, usa amortiguador (recibes el A Bocajarro) → Gengar, Otra Vez, +4 (Usa Otra Vez, tiene banda focus)",
-  "tricks": []
+  "initialMove": "Usa Amortiguador.",
+  "tricks": [
+    {
+      "detail": "Mantén Amortiguador hasta que salga Heracross.",
+      "variant": [
+        {
+          "detail": "Usa Amortiguador para recibir A Bocajarro y cambia a Gengar.",
+          "variant": [
+            {
+              "detail": "Gengar usa Otra Vez y Maquinación hasta +4.",
+              "variant": [
+                {
+                  "detail": "Usa Otra Vez nuevamente. Heracross tiene Banda Focus.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
