@@ -2,7 +2,7 @@
   "id": "hitmontop",
   "name": "Hitmontop",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa Trampa Rocas.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
       "detail": "Luego cambia a Volcarona.",
