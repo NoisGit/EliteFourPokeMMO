@@ -2,10 +2,10 @@
   "id": "darmanitan",
   "name": "Darmanitan",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Elige una ruta.",
+  "initialMove": "Cambia a Volcarona.",
   "tricks": [
     {
-      "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3.",
+      "detail": "Ruta ahorro: Volcarona usa Danza Aleteo x3.",
       "variant": [
         {
           "detail": "Cuidado con Superpower crítico cerca de 51% PS.",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "detail": "Ruta rápida: entra Politoed como pivote.",
+      "detail": "Ruta rápida alternativa: entra Politoed como pivote.",
       "variant": [
         {
           "detail": "Luego entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "detail": "Ruta estable: cambia a Slowbro y usa Bostezo.",
+      "detail": "Ruta estable alternativa: cambia a Slowbro y usa Bostezo.",
       "variant": [
         {
           "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
