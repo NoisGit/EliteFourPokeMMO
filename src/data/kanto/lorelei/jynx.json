@@ -2,10 +2,10 @@
   "id": "jynx",
   "name": "Jynx",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia de Slowbro a Hariyama.",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Usa Bostezo.",
+      "detail": "Si sale Hariyama, usa Bostezo.",
       "variant": [
         {
           "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
