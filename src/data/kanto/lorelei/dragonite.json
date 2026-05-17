@@ -2,10 +2,10 @@
   "id": "dragonite",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Usa 🪨 Trampa Rocas 🪨 frente a Lucario.",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Luego entra con Gengar y usa Otra Vez.",
+      "detail": "Frente a Lucario, entra con Gengar y usa Otra Vez.",
       "variant": [
         {
           "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
