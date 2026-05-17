@@ -2,41 +2,161 @@
   "id": "seismitoad",
   "name": "Seismitoad",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Terremoto → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gengar y Puño Drenaje contra Seismitoad)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Hidrobomba/Tierra Viva/Fuerza → Teletransporte, saca a Slowbro y usa Bostezo, acrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gyarados y Puño Hielo contra Gengar)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Muk → Encanto luego Teletransporte",
+      "detail": "Si usa Terremoto.",
       "variant": [
         {
-          "detail": "Si se queda --> Saca a Slowbro y usa Bostezo",
+          "detail": "Cambia a Slowbro y usa Bostezo.",
           "variant": [
             {
-              "detail": "Si entra Rotom --> Usa Proteccion y Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
-              "variant": []
-            },
-            {
-              "detail": "Si entra Otro --> Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Hielo contra Gengar y Cascada contra Gyarados)🔔",
-              "variant": []
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Cascada contra Gengar y Puño Drenaje contra Seismitoad. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             }
-          ] 
-        },  
-        {
-          "detail": "Gyarados --> Saca a Volcaron luego cambia a Slowbro y usa Bostezo ⬆️(Ver arriba)⬆️",
-          "variant": []
-        }    
+          ]
+        }
       ]
     },
-    {  
-      "detail": "Lucario → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Gengar)🔔",
-      "variant": []   
+    {
+      "detail": "Si usa Hidrobomba, Tierra Viva o Fuerza.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Cascada contra Gyarados y Puño Hielo contra Gengar. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Muk.",
+      "variant": [
+        {
+          "detail": "Usa Encanto y luego Teletransporte.",
+          "variant": [
+            {
+              "detail": "Si Muk se queda.",
+              "variant": [
+                {
+                  "detail": "Entra con Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Si entra Rotom.",
+                      "variant": [
+                        {
+                          "detail": "Usa Protección y Bostezo.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": [
+                                    {
+                                      "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si entra otro Pokémon.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": [
+                                {
+                                  "detail": "🔔 Usa Puño Hielo contra Gengar y Cascada contra Gyarados. 🔔",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Gyarados.",
+              "variant": [
+                {
+                  "detail": "Entra con Volcarona y luego cambia a Slowbro.",
+                  "variant": [
+                    {
+                      "detail": "Slowbro usa Bostezo y continúa la ruta de arriba.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Cascada contra Gengar. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
