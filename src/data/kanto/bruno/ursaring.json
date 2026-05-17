@@ -2,11 +2,16 @@
   "id": "ursaring",
   "name": "Ursaring",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Gengar, Otra Vez, +4 +2 + precisión X (Mantener Otra Vez)",
-      "variant": []
+      "detail": "Luego entra con Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Gengar usa Maquinación hasta +4, Velocidad X para +2 Velocidad y Precisión X. Mantén Otra Vez.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
