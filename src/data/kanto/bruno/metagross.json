@@ -2,58 +2,78 @@
   "id": "metagross",
   "name": "Metagross",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Se queda → Mira el Ataque",
+      "detail": "Si Metagross se queda, revisa el movimiento.",
       "variant": [
         {
-          "detail": "Puño Meteoro → Teletransporte a Slowbro, Bostezo",
+          "detail": "Si usa Puño Meteoro, usa Teletransporte para entrar con Slowbro y usar Bostezo.",
           "variant": [
             {
-              "detail": "Heracross → Protección → Bostezo, sale Salamence → Politoed (sacrificar), Poliwrath +6",
+              "detail": "Si sale Heracross, usa Protección y luego Bostezo. Frente a Salamence, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             },
             {
-              "detail": "Hierba Lazo → Politoed (sacrificar), Poliwrath +6",
+              "detail": "Si usa Hierba Lazo, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
               "variant": []
             }
           ]
         },
         {
-          "detail": "Machada → Slowbro, bostezo → Sale Salamence → Teletransporte a Volcarona, +1",
-          "variant": []
+          "detail": "Si usa Machada, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Salamence, usa Teletransporte para entrar con Volcarona y usar Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Infernape → Amortiguador, Teletransporte a Gengar, Otra Vez, +2",
-      "variant": []
-    },
-    {
-      "detail": "Heracross → Amortiguador, Teletransporte (recibes A Bocajarro) → Gengar, Otra Vez, +4 (Usa Otra Vez de nuevo, tiene banda focus)",
-      "variant": []
-    },
-    {
-      "detail": "Darmanitan → Varias Opciones",
+      "detail": "Si sale Infernape, usa Amortiguador y luego Teletransporte.",
       "variant": [
         {
-          "detail": "Ahorro → Volcarona +3",
-          "variant": []
-        },
-        {
-          "detail": "Rapido → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Estable → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
+          "detail": "Entra con Gengar, usa Otra Vez y Maquinación hasta +2.",
           "variant": []
         }
       ]
     },
     {
-      "detail": "Machamp → Gengar, Otra Vez → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Heracross, usa Amortiguador y luego Teletransporte para recibir A Bocajarro.",
+      "variant": [
+        {
+          "detail": "Entra con Gengar, usa Otra Vez y Maquinación hasta +4. Usa Otra Vez nuevamente porque tiene Banda Focus.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Darmanitan, elige una ruta.",
+      "variant": [
+        {
+          "detail": "Ruta ahorro: entra con Volcarona y usa Danza Aleteo x3.",
+          "variant": []
+        },
+        {
+          "detail": "Ruta rápida: entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        },
+        {
+          "detail": "Ruta estable: cambia a Slowbro y usa Bostezo. Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Machamp, cambia a Gengar y usa Otra Vez.",
+      "variant": [
+        {
+          "detail": "Luego cambia a Slowbro y usa Bostezo. Después entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+          "variant": []
+        }
+      ]
     }
   ]
 }
