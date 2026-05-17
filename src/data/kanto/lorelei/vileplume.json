@@ -2,26 +2,41 @@
   "id": "vileplume",
   "name": "Vileplume",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas → sale Bronzong → Encanto",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Ataque Psíquico / Terremoto → cambiar a Slowbro → Bostezo → sale Nidoking → Politoed (sacrificar) → Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Explosión → sale Chansey → Politoed (sacrificar) → Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Explosión → sale Nidoking → Amortiguador → HP full",
+      "detail": "Si sale Bronzong, usa Encanto.",
       "variant": [
         {
-          "detail": "Se queda → Teletransporte → Slowbro → Bostezo → Politoed (sacrificar) → Poliwrath +6",
+          "detail": "Si usa Psíquico o Terremoto, cambia a Slowbro y usa Bostezo frente a Nidoking.",
+          "variant": [
+            {
+              "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
+        },
+        {
+          "detail": "Si usa Explosión y sale Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
           "variant": []
         },
         {
-          "detail": "Sale Chansey → Politoed (sacrificar) → Poliwrath +6",
-          "variant": []
+          "detail": "Si usa Explosión y sale Nidoking, usa Amortiguador hasta quedar con PS al máximo.",
+          "variant": [
+            {
+              "detail": "Si Nidoking se queda, usa Teletransporte, saca a Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Luego entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Chansey, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
