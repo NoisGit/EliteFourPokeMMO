@@ -2,31 +2,51 @@
   "id": "salamence",
   "name": "Salamence",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "OBSERVA LA HABILIDAD",
+  "initialMove": "Revisa la habilidad.",
   "tricks": [
     {
-      "detail": "Con Intimidación → Trampa Rocas",
+      "detail": "Si tiene Intimidación, usa 🪨 Trampa Rocas 🪨.",
       "variant": [
         {
-          "detail": "Hitmonchan → Cambia a Poliwrath, recibe el A Bocajarro → Gengar, +4. (No es necesario Otra Vez)",
-          "variant": []
+          "detail": "Si sale Hitmonchan, cambia a Poliwrath 🐸🥊 para recibir A Bocajarro.",
+          "variant": [
+            {
+              "detail": "Luego entra con Gengar y usa Maquinación hasta +4. No es necesario usar Otra Vez.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Metagross → Slowbro, bostezo. Sale Salamence → Teletransporte a Volcarona, +1",
-          "variant": []
+          "detail": "Si sale Metagross, cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Si sale Salamence, usa Teletransporte para entrar con Volcarona y usar Danza Aleteo x1.",
+              "variant": []
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Sin Intimidación → Amortiguador",
+      "detail": "Si no tiene Intimidación, usa Amortiguador.",
       "variant": [
         {
-          "detail": "Infernape → Amortiguador (recibes A Bocajarro) → Gengar, Otra Vez, +4",
-          "variant": []
+          "detail": "Si sale Infernape, usa Amortiguador para recibir A Bocajarro.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Gengar, usa Otra Vez y Maquinación hasta +4.",
+              "variant": []
+            }
+          ]
         },
         {
-          "detail": "Heracross → Amortiguador (recibes A Bocajarro) → Gengar, Otra Vez, +4 (Mantener Otra Vez, tiene Banda Focus)",
-          "variant": []
+          "detail": "Si sale Heracross, usa Amortiguador para recibir A Bocajarro.",
+          "variant": [
+            {
+              "detail": "Luego cambia a Gengar, usa Otra Vez y Maquinación hasta +4. Mantén Otra Vez porque tiene Banda Focus.",
+              "variant": []
+            }
+          ]
         }
       ]
     }
