@@ -11,15 +11,25 @@
           "detail": "Si Electivire se queda, Slowbro usa Bostezo.",
           "variant": [
             {
-              "detail": "Si Electivire se queda otra vez, entra Politoed como pivote y recibe Voltio Cruel. Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+              "detail": "Si Electivire se queda otra vez, entra Politoed como pivote y recibe Voltio Cruel.",
               "variant": [
                 {
-                  "detail": "Si sale Staraptor, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-                  "variant": []
-                },
-                {
-                  "detail": "Si sale Machamp, entra con Gengar y usa Otra Vez. Luego cambia a Chansey; si sale Staraptor, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
-                  "variant": []
+                  "detail": "Luego cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Staraptor, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si sale Machamp, entra con Gengar y usa Otra Vez.",
+                      "variant": [
+                        {
+                          "detail": "Luego cambia a Chansey. Si sale Staraptor, entra con Gengar, usa Otra Vez, Maquinación hasta +2 y Precisión X.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -36,8 +46,18 @@
               "detail": "Si sale Blastoise, cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
               "variant": [
                 {
-                  "detail": "Luego cambia a Gengar, saca a Slowbro y usa Teletransporte para entrar con Volcarona. Volcarona usa Danza Aleteo x1.",
-                  "variant": []
+                  "detail": "Luego entra con Gengar.",
+                  "variant": [
+                    {
+                      "detail": "Después saca a Slowbro y usa Teletransporte para entrar con Volcarona.",
+                      "variant": [
+                        {
+                          "detail": "Volcarona usa Danza Aleteo x1.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -63,15 +83,20 @@
               "detail": "Si usa Hierba Lazo, cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
               "variant": [
                 {
-                  "detail": "Luego cambia a Gengar y después a Slowbro para usar Bostezo.",
+                  "detail": "Luego entra con Gengar.",
                   "variant": [
                     {
-                      "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
-                      "variant": []
+                      "detail": "Después cambia a Slowbro y usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        },
+                        {
+                          "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
+                          "variant": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -92,15 +117,20 @@
           "detail": "Si sale Blastoise, cambia a Chansey y usa Amortiguador hasta que salga Hitmonlee.",
           "variant": [
             {
-              "detail": "Luego cambia a Gengar y después a Slowbro para usar Bostezo.",
+              "detail": "Luego entra con Gengar.",
               "variant": [
                 {
-                  "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
-                  "variant": []
-                },
-                {
-                  "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
-                  "variant": []
+                  "detail": "Después cambia a Slowbro y usa Bostezo.",
+                  "variant": [
+                    {
+                      "detail": "Si sale Electivire, entra Politoed como pivote y entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    },
+                    {
+                      "detail": "Si sale Blastoise, entra con Volcarona y usa Danza Aleteo x1.",
+                      "variant": []
+                    }
+                  ]
                 }
               ]
             }
