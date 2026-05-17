@@ -2,79 +2,402 @@
   "id": "gengar",
   "name": "Gengar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Onda Certera → Mira el Objeto",
+      "detail": "Si usa Onda Certera.",
       "variant": [
         {
-          "detail": "Tiene Vidaesfera → Gengar, Otra Vez → Slowbro, Bostezo",
+          "detail": "Revisa el objeto.",
           "variant": [
             {
-              "detail": "Rotom → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
-              "variant": []
-            },
-            {
-              "detail": "Otro Pokemon → Politoed (sacrificar), Poliwrath +6",
-              "variant": []
-            }
-          ]
-        },
-        {
-          "detail": "No tiene Vidaesfera → Mira el daño ↓",
-          "variant": [
-            {
-              "detail": "24 - 28 % (Critico 35 - 42 %) → Toma un X SpDef, Amortiguador y forza al cambio (si te reduce la defsp, toma otro X SpDef)",
+              "detail": "Si tiene Vidaesfera.",
               "variant": [
                 {
-                  "detail": "Si se queda luego de 3 Amortiguador → Gengar, Otra Vez → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-                  "variant": []
-                },
-                {
-                  "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
-                  "variant": []
-                },
-                {
-                  "detail": "Krookodile → Teletransporte (mira el ataque)",
+                  "detail": "Entra con Gengar y usa Otra Vez.",
                   "variant": [
                     {
-                      "detail": "Terremoto → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Triturar → Poliwrath +6 + Max Poción + Vel X",
-                      "variant": []
-                    }
-                  ]
-                },
-                {
-                  "detail": "Crobat → Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-                  "variant": []
-                },
-                {
-                  "detail": "Arbok → Slowbro, Bostezo",
-                  "variant": [
-                    {
-                      "detail": "Rotom → Protección, luego bostezo → Politoed (sacrificar), Poliwrath +6",
-                      "variant": []
-                    },
-                    {
-                      "detail": "Otro Pokemon → Politoed (sacrificar), Poliwrath +6",
-                      "variant": []
+                      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Si sale Rotom.",
+                          "variant": [
+                            {
+                              "detail": "Usa Protección y luego Bostezo.",
+                              "variant": [
+                                {
+                                  "detail": "Entra Politoed como pivote.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "detail": "Si sale otro Pokémon.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "detail": "34 - 40 % (Critico 50 - 60 %) (Zoroark) → Saca a Slowbro",
+              "detail": "Si no tiene Vidaesfera.",
               "variant": [
                 {
-                  "detail": "No huye → Bostezo → Volcarona +1",
-                  "variant": []
+                  "detail": "Revisa el daño.",
+                  "variant": [
+                    {
+                      "detail": "Si hace 24% a 28%, o crítico de 35% a 42%.",
+                      "variant": [
+                        {
+                          "detail": "Usa Defensa Especial X, Amortiguador y fuerza el cambio.",
+                          "variant": [
+                            {
+                              "detail": "Si te baja la Defensa Especial, usa otra Defensa Especial X.",
+                              "variant": []
+                            },
+                            {
+                              "detail": "Si se queda después de 3 Amortiguador.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Gengar y usa Otra Vez.",
+                                  "variant": [
+                                    {
+                                      "detail": "Luego cambia a Slowbro y usa Bostezo.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra Politoed como pivote.",
+                                          "variant": [
+                                            {
+                                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                              "variant": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si sale Alakazam.",
+                              "variant": [
+                                {
+                                  "detail": "Usa Teletransporte y entra con Slowbro.",
+                                  "variant": [
+                                    {
+                                      "detail": "Slowbro usa Bostezo.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra Politoed como pivote.",
+                                          "variant": [
+                                            {
+                                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                              "variant": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si sale Krookodile.",
+                              "variant": [
+                                {
+                                  "detail": "Usa Teletransporte y revisa el ataque.",
+                                  "variant": [
+                                    {
+                                      "detail": "Si usa Terremoto.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra con Slowbro y usa Bostezo.",
+                                          "variant": [
+                                            {
+                                              "detail": "Entra Politoed como pivote.",
+                                              "variant": [
+                                                {
+                                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                                  "variant": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "detail": "Si usa Triturar.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                          "variant": [
+                                            {
+                                              "detail": "Usa Max Poción y Velocidad X para +2 Velocidad.",
+                                              "variant": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si sale Crobat.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Slowbro y usa Bostezo.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra Politoed como pivote.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                          "variant": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si sale Arbok.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Slowbro y usa Bostezo.",
+                                  "variant": [
+                                    {
+                                      "detail": "Si sale Rotom.",
+                                      "variant": [
+                                        {
+                                          "detail": "Usa Protección y luego Bostezo.",
+                                          "variant": [
+                                            {
+                                              "detail": "Entra Politoed como pivote.",
+                                              "variant": [
+                                                {
+                                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                                  "variant": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "detail": "Si sale otro Pokémon.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra Politoed como pivote.",
+                                          "variant": [
+                                            {
+                                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                              "variant": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "detail": "Si hace 34% a 40%, o crítico de 50% a 60%, es Zoroark.",
+                      "variant": [
+                        {
+                          "detail": "Saca a Slowbro.",
+                          "variant": [
+                            {
+                              "detail": "Si no huye, usa Bostezo.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Volcarona y usa Danza Aleteo x1.",
+                                  "variant": []
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si sale Marowak.",
+                              "variant": [
+                                {
+                                  "detail": "Usa Bostezo y Teletransporte para entrar con Volcarona.",
+                                  "variant": [
+                                    {
+                                      "detail": "Volcarona usa Danza Aleteo x1.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Muk.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si Muk se queda.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y luego Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
-                  "detail": "Marowak → Bostezo, Teletransporte a Volcarona, +1",
+                  "detail": "Si sale Rotom.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y luego Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Gengar o Seismitoad.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Marowak.",
+      "variant": [
+        {
+          "detail": "Usa Encanto y luego Teletransporte.",
+          "variant": [
+            {
+              "detail": "Entra con Slowbro y usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Si usa Puño Trueno o sale Arbok.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y luego Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Gengar o Mismagius.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Toxicroak.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
                   "variant": []
                 }
               ]
@@ -84,46 +407,47 @@
       ]
     },
     {
-      "detail": "Muk → Teletransporte a Slowbro, Bostezo",
+      "detail": "Si sale Lucario.",
       "variant": [
         {
-          "detail": "Se queda → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Rotom → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Gengar/Seismitoad → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "detail": "Marowak → Encanto, Teletransporte → Slowbro, Bostezo",
+      "detail": "Si sale Alakazam.",
       "variant": [
         {
-          "detail": "Puño Trueno / Arbok → Protección, luego Bostezo → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
-        },
-        {
-          "detail": "Gengar/Mismagius → Politoed (sacrificar), Poliwrath +6",
-          "variant": []
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      "detail": "Toxicroak → Cambia a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Lucario → Cambia a Slowbro, bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Alakazam → Teletransporte a Slowbro, Bostezo → Politoed (sacrificar), Poliwrath +6",
-      "variant": []
     }
   ]
 }
