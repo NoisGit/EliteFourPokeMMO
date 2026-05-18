@@ -457,10 +457,10 @@ export default function PokemonGuide() {
       <div className={`gsap-orb gsap-orb-secondary pointer-events-none fixed -right-16 top-56 h-60 w-60 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-orange-300/25' : 'bg-rose-400/18'}`} />
       <div className={`gsap-orb gsap-orb-tertiary pointer-events-none fixed bottom-8 left-1/3 h-56 w-56 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-violet-300/25' : 'bg-violet-400/14'}`} />
 
-      <main className="relative mx-auto min-h-screen w-full max-w-6xl px-3 py-3 sm:px-5 sm:py-6 lg:px-8">
-        <section className="gsap-hero relative mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 pt-20 shadow-2xl shadow-black/40 backdrop-blur-xl will-change-transform sm:mb-7 sm:rounded-[2rem] sm:p-6 sm:pt-20 lg:p-8 lg:pt-8">
-          <div className="absolute right-3 top-3 z-20 flex items-center gap-2 sm:right-5 sm:top-5">
-            <div className="flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-2 py-1.5 shadow-lg shadow-black/10 backdrop-blur-md">
+      <main className="relative mx-auto min-h-screen w-full max-w-6xl px-3 py-3 pb-7 sm:px-5 sm:py-6 lg:px-8">
+        <section className="gsap-hero relative mb-4 overflow-hidden rounded-[1.35rem] border border-white/15 bg-slate-950/70 p-3 pt-[4.6rem] shadow-2xl shadow-black/40 backdrop-blur-xl will-change-transform sm:mb-7 sm:rounded-[2rem] sm:p-6 sm:pt-20 lg:p-8 lg:pt-8">
+          <div className="absolute right-2 top-2 z-20 flex items-center gap-1.5 sm:right-5 sm:top-5 sm:gap-2">
+            <div className="flex h-10 items-center gap-1 rounded-full border border-white/15 bg-white/10 px-1.5 shadow-lg shadow-black/10 backdrop-blur-md sm:h-11 sm:gap-2 sm:px-2">
               <span className="hidden pl-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:block sm:text-[0.68rem]">
                 {t.languageLabel}
               </span>
@@ -471,7 +471,7 @@ export default function PokemonGuide() {
                     type="button"
                     onClick={() => setLanguage(currentLanguage.value)}
                     aria-label={`Change language to ${currentLanguage.label}`}
-                    className={`rounded-full px-2.5 py-1 text-[0.7rem] font-black leading-none transition-all duration-300 sm:px-3 sm:text-xs ${
+                    className={`rounded-full px-2.5 py-1.5 text-[0.68rem] font-black leading-none transition-all duration-300 sm:px-3 sm:py-1 sm:text-xs ${
                       language === currentLanguage.value
                         ? 'bg-cyan-300 text-slate-950 shadow-md shadow-cyan-500/25'
                         : 'text-slate-300 hover:bg-white/10 hover:text-white'
@@ -487,15 +487,15 @@ export default function PokemonGuide() {
               type="button"
               onClick={() => setIsLightMode(!isLightMode)}
               aria-label={isLightMode ? 'Activar modo oscuro' : 'Activar modo claro'}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-slate-100 shadow-lg shadow-black/10 backdrop-blur-md transition-all duration-300 hover:bg-white/20 active:scale-95"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-slate-100 shadow-lg shadow-black/10 backdrop-blur-md transition-all duration-300 hover:bg-white/20 active:scale-95 sm:h-11 sm:w-11"
             >
-              {isLightMode ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+              {isLightMode ? <Moon className="h-4.5 w-4.5 sm:h-5 sm:w-5" /> : <Sun className="h-4.5 w-4.5 sm:h-5 sm:w-5" />}
             </button>
           </div>
 
           <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
             <div className="min-w-0 max-w-3xl">
-              <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs sm:tracking-[0.24em]">
+              <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-2.5 py-1 text-[0.58rem] font-black uppercase tracking-[0.14em] text-cyan-100 min-[380px]:text-[0.62rem] sm:text-xs sm:tracking-[0.24em]">
                 PokeMMO Elite Four
               </span>
               <h1 className="sr-only">{t.title}</h1>
@@ -503,20 +503,20 @@ export default function PokemonGuide() {
                 <img
                   src={leagueFarmBanner}
                   alt={t.title}
-                  className="gsap-banner-image h-auto w-full max-w-[34rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] will-change-transform sm:max-w-[40rem]"
+                  className="gsap-banner-image h-auto w-full max-w-[30rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] will-change-transform sm:max-w-[40rem]"
                 />
               </div>
-              <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:mt-4 sm:text-base">
+              <p className="mt-3 max-w-2xl text-[0.92rem] leading-6 text-slate-300 sm:mt-4 sm:text-base">
                 {t.subtitle}
               </p>
             </div>
           </div>
 
-          <div className="mt-4 grid gap-2 sm:mt-5 sm:grid-cols-2 sm:gap-3">
-            <div className="overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10 p-3 sm:p-4">
+          <div className="mt-4 grid gap-3 sm:mt-5 sm:grid-cols-2">
+            <div className="overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10 p-3.5 sm:p-4">
               <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-cyan-200 sm:text-xs sm:tracking-[0.2em]">{t.routeLabel}</p>
               <p
-                className="mt-2 break-words text-base font-black leading-6 text-white sm:text-lg sm:leading-7"
+                className="mt-2 break-words text-[1.02rem] font-black leading-6 text-white sm:text-lg sm:leading-7"
                 aria-label={t.route}
               >
                 {t.route.split('').map((letter, index) => (
@@ -530,7 +530,7 @@ export default function PokemonGuide() {
                 ))}
               </p>
             </div>
-            <div className="gsap-highlight-card relative overflow-hidden rounded-2xl border border-rose-300/30 bg-rose-300/10 p-3 shadow-lg shadow-rose-950/10 will-change-transform sm:p-4">
+            <div className="gsap-highlight-card relative overflow-hidden rounded-2xl border border-rose-300/30 bg-rose-300/10 p-3.5 shadow-lg shadow-rose-950/10 will-change-transform sm:p-4">
               <div className="gsap-highlight-glow pointer-events-none absolute -right-10 -top-12 h-32 w-32 rounded-full bg-rose-200/20 opacity-40 blur-xl" />
               <div className="relative">
                 <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-rose-100 sm:text-xs sm:tracking-[0.2em]">{t.teamLabel}</p>
@@ -542,7 +542,7 @@ export default function PokemonGuide() {
                   <button
                     type="button"
                     onClick={() => setShowTeamModal(true)}
-                    className="inline-flex w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
+                    className="inline-flex min-h-11 w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
                   >
                     {t.teamButton}
                     <ExternalLink className="h-4 w-4" />
@@ -553,13 +553,13 @@ export default function PokemonGuide() {
           </div>
         </section>
 
-        <section className="gsap-tips gsap-highlight-card relative mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 shadow-lg shadow-cyan-950/10 backdrop-blur-xl will-change-transform sm:mb-6 sm:rounded-3xl sm:p-4">
+        <section className="gsap-tips gsap-highlight-card relative mb-4 overflow-hidden rounded-[1.35rem] border border-white/15 bg-slate-950/60 p-2.5 shadow-lg shadow-cyan-950/10 backdrop-blur-xl will-change-transform sm:mb-6 sm:rounded-3xl sm:p-4">
           <div className="gsap-highlight-glow pointer-events-none absolute -left-10 -top-12 h-32 w-32 rounded-full bg-cyan-200/18 opacity-35 blur-xl" />
           <div className="relative">
             <button
               type="button"
               onClick={() => setShowTips(!showTips)}
-              className="flex w-full items-center justify-between gap-3 rounded-xl px-2 py-2 text-left transition-colors hover:bg-white/5 active:scale-[0.99] sm:rounded-2xl"
+              className="flex min-h-12 w-full items-center justify-between gap-3 rounded-xl px-2 py-2.5 text-left transition-colors hover:bg-white/5 active:scale-[0.99] sm:rounded-2xl"
             >
               <span className="min-w-0">
                 <span className="block text-xs font-black uppercase tracking-[0.16em] text-rose-100 sm:tracking-[0.18em]">{t.tipsTitle}</span>
@@ -570,7 +570,7 @@ export default function PokemonGuide() {
 
             {showTips && (
               <div className="grid gap-3 pt-3 md:grid-cols-[1.2fr_0.8fr] md:gap-4 md:pt-4 animate-in slide-in-from-top duration-300">
-                <ul className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-3 text-sm leading-6 text-slate-200 sm:p-4">
+                <ul className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-3 text-[0.92rem] leading-6 text-slate-200 sm:p-4 sm:text-sm">
                   {t.tips.map((tip) => (
                     <li key={tip} className="flex gap-3">
                       <span className="mt-2 h-2 w-2 flex-none rounded-full bg-rose-300" />
@@ -581,7 +581,7 @@ export default function PokemonGuide() {
 
                 <div className="rounded-2xl border border-amber-300/20 bg-amber-300/10 p-3 sm:p-4">
                   <h2 className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-amber-100 sm:text-sm sm:tracking-[0.18em]">{t.boostLegendTitle}</h2>
-                  <ul className="space-y-2 text-sm leading-6 text-amber-50">
+                  <ul className="space-y-2 text-[0.92rem] leading-6 text-amber-50 sm:text-sm">
                     {t.boostLegend.map((item) => (
                       <li key={item} className="break-words">{item}</li>
                     ))}
@@ -592,11 +592,11 @@ export default function PokemonGuide() {
           </div>
         </section>
 
-        <section className="mb-4 sm:mb-6">
+        <section className="mb-5 sm:mb-6">
           <div className="mb-3 flex items-center justify-between">
             <h2 className="gsap-section-title text-[0.68rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs sm:tracking-[0.22em]">{t.selectRegion}</h2>
           </div>
-          <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 sm:gap-3 lg:grid-cols-5">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
             {regions.map((region) => (
               <RegionCard
                 key={region.id}
@@ -609,9 +609,9 @@ export default function PokemonGuide() {
         </section>
 
         {expandedRegion && currentRegion && currentRegion.leaders.length > 0 && (
-          <section className="mb-4 animate-in slide-in-from-top duration-300 sm:mb-6">
+          <section className="mb-5 animate-in slide-in-from-top duration-300 sm:mb-6">
             <h2 className="mb-3 text-[0.68rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs sm:tracking-[0.22em]">{t.selectLeader}</h2>
-            <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 sm:gap-3 lg:grid-cols-5">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
               {currentRegion.leaders.map((leader) => (
                 <LeaderCard
                   key={leader.id}
@@ -625,9 +625,9 @@ export default function PokemonGuide() {
         )}
 
         {expandedLeader && (
-          <section className="mb-4 animate-in slide-in-from-top duration-300 sm:mb-6">
+          <section className="mb-5 animate-in slide-in-from-top duration-300 sm:mb-6">
             <h2 className="mb-3 text-[0.68rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs sm:tracking-[0.22em]">{t.selectPokemon}</h2>
-            <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 sm:gap-3 md:grid-cols-6 xl:grid-cols-8">
+            <div className="grid grid-cols-2 gap-3 min-[430px]:grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-8">
               {currentLeaderPokemons.map((pokemon) => (
                 <PokemonCard
                   key={pokemon.id || pokemon.name}
@@ -641,7 +641,7 @@ export default function PokemonGuide() {
         )}
 
         {selectedPokemon && (
-          <div ref={strategyDetailsRef} className="scroll-mt-4 will-change-transform sm:scroll-mt-6">
+          <div ref={strategyDetailsRef} className="scroll-mt-3 will-change-transform sm:scroll-mt-6">
             <PokemonDetails pokemon={selectedPokemon} language={language} labels={t} />
           </div>
         )}
