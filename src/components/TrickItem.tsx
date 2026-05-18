@@ -79,7 +79,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
 export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
   const variants = trick.variant || []
   const hasVariants = variants.length > 0
-  const [isExpanded, setIsExpanded] = useState(level === 0)
+  const [isExpanded, setIsExpanded] = useState(false)
   const strategyText = formatStrategyText(
     translateStrategyText(translateFullStrategyText(trick.detail, language), language),
   )
@@ -88,7 +88,7 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
   const variantLabel = hasVariants ? 'Variante' : 'Final'
 
   useEffect(() => {
-    setIsExpanded(level === 0)
+    setIsExpanded(false)
   }, [trick.detail, language, level])
 
   const toggleExpand = () => {
