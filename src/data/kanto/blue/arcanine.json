@@ -2,14 +2,53 @@
   "id": "arcanine",
   "name": "Arcanine",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar👻 🚨(Skarmory tiene Banda focus)🚨",
+  "initialMove": "👻 Cambia a Gengar 👻.",
   "tricks": [
     {
-      "detail": "Si se queda --> Cambia a Gengar 4+2 🔔(Barrer con Bola sombra)🔔",
+      "detail": "🚨 Skarmory tiene Banda Focus. 🚨",
+      "variant": []
+    },
+    {
+      "detail": "Si Arcanine se queda.",
       "variant": [
         {
-          "detail": "Gengar muere → Envia a Slowbro (Mantenerlo), usa Bostezo frente a Nidoking, sacrificar a Politoed, Poliwrath +6 🔔(Puño drenaje contra Leafeon)🔔",
-          "variant": []
+          "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "🔔 Barre con Bola Sombra. 🔔",
+              "variant": [
+                {
+                  "detail": "Si Gengar queda debilitado.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Slowbro y mantenlo en campo.",
+                      "variant": [
+                        {
+                          "detail": "Usa Bostezo frente a Nidoking.",
+                          "variant": [
+                            {
+                              "detail": "Entra Politoed como pivote.",
+                              "variant": [
+                                {
+                                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                  "variant": [
+                                    {
+                                      "detail": "🔔 Usa Puño Drenaje contra Leafeon. 🔔",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
