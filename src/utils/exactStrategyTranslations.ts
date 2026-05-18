@@ -1,4 +1,5 @@
 import type { Language } from '../i18n/translations'
+import { cleanEnglishStrategyText } from './englishStrategyCleanup'
 
 const exactTranslations: Record<string, string> = {
   Encanto: 'Charm',
@@ -60,5 +61,5 @@ const exactTranslations: Record<string, string> = {
 export const translateExactStrategyText = (text: string, language: Language) => {
   if (language === 'es') return text
 
-  return exactTranslations[text] || text
+  return cleanEnglishStrategyText(exactTranslations[text] || text, language)
 }
