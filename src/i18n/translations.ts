@@ -20,6 +20,15 @@ export interface TranslationLabels {
   selectPokemon: string
   noStrategies: string
   initialMoveLabel: string
+  openingTurnLabel: string
+  recommendedOpenerLabel: string
+  decisionTreeLabel: string
+  decisionTreeTitle: string
+  expandVariantsLabel: string
+  conditionLabel: string
+  dependentStepLabel: string
+  variantLabel: string
+  finalStepLabel: string
 }
 
 export const languages: Record<Language, string> = {
@@ -45,12 +54,12 @@ export const translations: Record<Language, TranslationLabels> = {
       'Las estrategias asumen que el equipo recomendado tiene objetos, EV/IV y PS al 100 % antes de cada combate.',
       'Evita cambiar Pokémon, objetos o movimientos si la guía no lo indica, porque puede alterar el orden de la estrategia.',
       'Los boosts dependen del Pokémon y del movimiento usado; no todos los +2/+4/+6 suben la misma estadística.',
-      'Cuando una línea diga sacrificar, significa dejar que ese Pokémon caiga debilitado para entrar seguro con el siguiente.',
+      'Cuando una línea diga que un Pokémon entra como pivote, significa que debe absorber el turno para dar entrada segura al siguiente.',
     ],
     boostLegendTitle: 'Leyenda rápida de boosts',
     boostLegend: [
-      'Gengar +2: normalmente Maquinación, sube Ataque Especial.',
-      'Poliwrath +6: normalmente Tambor, maximiza Ataque a cambio de PS.',
+      'Gengar +2/+4: Maquinación para subir Ataque Especial.',
+      'Poliwrath +6: Tambor para maximizar Ataque.',
       'Volcarona +1/+2/+3: Danza Aleteo acumulada; sube Ataque Especial, Defensa Especial y Velocidad.',
       'Velocidad X y Precisión X suben Velocidad o Precisión según se indique en la estrategia.',
       'No interpretes +6 como una estadística fija: siempre depende del contexto del turno.',
@@ -60,6 +69,15 @@ export const translations: Record<Language, TranslationLabels> = {
     selectPokemon: 'Elige el Pokémon rival para ver la respuesta.',
     noStrategies: 'Aún no hay estrategias disponibles para',
     initialMoveLabel: 'Apertura recomendada',
+    openingTurnLabel: 'Turno inicial',
+    recommendedOpenerLabel: 'Apertura recomendada',
+    decisionTreeLabel: 'Árbol de decisión',
+    decisionTreeTitle: 'Sigue la condición que apareció en combate',
+    expandVariantsLabel: 'Click para desplegar variantes',
+    conditionLabel: 'Condición',
+    dependentStepLabel: 'Paso dependiente',
+    variantLabel: 'Variante',
+    finalStepLabel: 'Final',
   },
   en: {
     title: 'PokeMMO League Farm',
@@ -68,22 +86,22 @@ export const translations: Record<Language, TranslationLabels> = {
     route: 'Unova → Hoenn → Sinnoh → Kanto → Johto',
     teamLabel: 'Recommended team',
     teamTitle: 'Team PokePaste',
-    teamDescription: 'Check the nature, moves, items, and spreads used by this guide.',
+    teamDescription: 'Check the natures, moves, held items, and spreads used by this guide.',
     teamButton: 'View team',
     languageLabel: 'Language',
     tipsTitle: 'Before you start',
     tipsBadge: 'Team + tips',
     tips: [
       'Clear each regional League at least 5 times before using this guide so your team reaches level 100.',
-      'The strategies assume the recommended team has the correct items, EV/IV setup, and full HP before each battle.',
-      'Do not swap Pokémon, items, or moves unless the guide says so, because it can change the strategy order.',
+      'The strategies assume the recommended team has the correct held items, EVs, IVs, and full HP before each battle.',
+      'Do not change Pokémon, held items, or moves unless the guide says so, because it can change the route order.',
       'Boosts depend on the Pokémon and the move used; not every +2/+4/+6 raises the same stat.',
-      'When a line says sacrifice, it means letting that Pokémon faint so the next Pokémon can enter safely.',
+      'When a line says a Pokémon enters as a pivot, it means it should absorb the turn so the next teammate can enter safely.',
     ],
     boostLegendTitle: 'Quick boost legend',
     boostLegend: [
-      'Gengar +2: usually Nasty Plot, raising Special Attack.',
-      'Poliwrath +6: usually Belly Drum, maximizing Attack at the cost of HP.',
+      'Gengar +2/+4: Nasty Plot to raise Special Attack.',
+      'Poliwrath +6: Belly Drum to maximize Attack.',
       'Volcarona +1/+2/+3: stacked Quiver Dance; raises Special Attack, Special Defense, and Speed.',
       'X Speed and X Accuracy raise Speed or Accuracy when the strategy says so.',
       'Do not read +6 as one fixed stat: it always depends on the turn context.',
@@ -93,5 +111,14 @@ export const translations: Record<Language, TranslationLabels> = {
     selectPokemon: 'Choose the opposing Pokémon to see the answer.',
     noStrategies: 'No strategies available yet for',
     initialMoveLabel: 'Recommended opener',
+    openingTurnLabel: 'Opening turn',
+    recommendedOpenerLabel: 'Recommended opener',
+    decisionTreeLabel: 'Decision tree',
+    decisionTreeTitle: 'Follow the condition that happened in battle',
+    expandVariantsLabel: 'Click to open variants',
+    conditionLabel: 'Condition',
+    dependentStepLabel: 'Follow-up step',
+    variantLabel: 'Variant',
+    finalStepLabel: 'Final',
   },
 }
