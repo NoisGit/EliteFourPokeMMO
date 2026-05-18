@@ -178,6 +178,30 @@ export default function PokemonGuide() {
         { autoAlpha: 1, y: 0, scale: 1, duration: 0.58, ease: 'power2.out', delay: 0.16, force3D: true },
       )
 
+      gsap.to('.gsap-highlight-card', {
+        y: -4,
+        scale: 1.008,
+        duration: 2.3,
+        repeat: -1,
+        yoyo: true,
+        ease: 'sine.inOut',
+        stagger: 0.35,
+        delay: 0.8,
+        force3D: true,
+      })
+
+      gsap.to('.gsap-highlight-glow', {
+        autoAlpha: 0.95,
+        scale: 1.08,
+        duration: 2.3,
+        repeat: -1,
+        yoyo: true,
+        ease: 'sine.inOut',
+        stagger: 0.35,
+        delay: 0.8,
+        force3D: true,
+      })
+
       gsap.fromTo(
         '.gsap-section-title',
         { autoAlpha: 0, x: -18 },
@@ -484,60 +508,66 @@ export default function PokemonGuide() {
                 ))}
               </p>
             </div>
-            <div className="rounded-2xl border border-rose-300/30 bg-rose-300/10 p-3 sm:p-4">
-              <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-rose-100 sm:text-xs sm:tracking-[0.2em]">{t.teamLabel}</p>
-              <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <div className="min-w-0">
-                  <p className="text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
-                  <p className="mt-1 text-sm leading-5 text-rose-50/80">{t.teamDescription}</p>
+            <div className="gsap-highlight-card relative overflow-hidden rounded-2xl border border-rose-300/30 bg-rose-300/10 p-3 shadow-lg shadow-rose-950/10 will-change-transform sm:p-4">
+              <div className="gsap-highlight-glow pointer-events-none absolute -right-10 -top-12 h-32 w-32 rounded-full bg-rose-200/20 opacity-40 blur-xl" />
+              <div className="relative">
+                <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-rose-100 sm:text-xs sm:tracking-[0.2em]">{t.teamLabel}</p>
+                <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                  <div className="min-w-0">
+                    <p className="text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
+                    <p className="mt-1 text-sm leading-5 text-rose-50/80">{t.teamDescription}</p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setShowTeamModal(true)}
+                    className="inline-flex w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
+                  >
+                    {t.teamButton}
+                    <ExternalLink className="h-4 w-4" />
+                  </button>
                 </div>
-                <button
-                  type="button"
-                  onClick={() => setShowTeamModal(true)}
-                  className="inline-flex w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
-                >
-                  {t.teamButton}
-                  <ExternalLink className="h-4 w-4" />
-                </button>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="gsap-tips mb-4 rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 backdrop-blur-xl will-change-transform sm:mb-6 sm:rounded-3xl sm:p-4">
-          <button
-            type="button"
-            onClick={() => setShowTips(!showTips)}
-            className="flex w-full items-center justify-between gap-3 rounded-xl px-2 py-2 text-left transition-colors hover:bg-white/5 active:scale-[0.99] sm:rounded-2xl"
-          >
-            <span className="min-w-0">
-              <span className="block text-xs font-black uppercase tracking-[0.16em] text-rose-100 sm:tracking-[0.18em]">{t.tipsTitle}</span>
-              <span className="mt-1 block text-[0.65rem] font-bold uppercase tracking-[0.14em] text-slate-400 sm:text-xs sm:tracking-[0.16em]">{t.tipsBadge}</span>
-            </span>
-            {showTips ? <ChevronUp className="h-5 w-5 flex-none text-rose-200" /> : <ChevronDown className="h-5 w-5 flex-none text-rose-200" />}
-          </button>
+        <section className="gsap-tips gsap-highlight-card relative mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 shadow-lg shadow-cyan-950/10 backdrop-blur-xl will-change-transform sm:mb-6 sm:rounded-3xl sm:p-4">
+          <div className="gsap-highlight-glow pointer-events-none absolute -left-10 -top-12 h-32 w-32 rounded-full bg-cyan-200/18 opacity-35 blur-xl" />
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => setShowTips(!showTips)}
+              className="flex w-full items-center justify-between gap-3 rounded-xl px-2 py-2 text-left transition-colors hover:bg-white/5 active:scale-[0.99] sm:rounded-2xl"
+            >
+              <span className="min-w-0">
+                <span className="block text-xs font-black uppercase tracking-[0.16em] text-rose-100 sm:tracking-[0.18em]">{t.tipsTitle}</span>
+                <span className="mt-1 block text-[0.65rem] font-bold uppercase tracking-[0.14em] text-slate-400 sm:text-xs sm:tracking-[0.16em]">{t.tipsBadge}</span>
+              </span>
+              {showTips ? <ChevronUp className="h-5 w-5 flex-none text-rose-200" /> : <ChevronDown className="h-5 w-5 flex-none text-rose-200" />}
+            </button>
 
-          {showTips && (
-            <div className="grid gap-3 pt-3 md:grid-cols-[1.2fr_0.8fr] md:gap-4 md:pt-4 animate-in slide-in-from-top duration-300">
-              <ul className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-3 text-sm leading-6 text-slate-200 sm:p-4">
-                {t.tips.map((tip) => (
-                  <li key={tip} className="flex gap-3">
-                    <span className="mt-2 h-2 w-2 flex-none rounded-full bg-rose-300" />
-                    <span className="min-w-0 break-words">{tip}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="rounded-2xl border border-amber-300/20 bg-amber-300/10 p-3 sm:p-4">
-                <h2 className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-amber-100 sm:text-sm sm:tracking-[0.18em]">{t.boostLegendTitle}</h2>
-                <ul className="space-y-2 text-sm leading-6 text-amber-50">
-                  {t.boostLegend.map((item) => (
-                    <li key={item} className="break-words">{item}</li>
+            {showTips && (
+              <div className="grid gap-3 pt-3 md:grid-cols-[1.2fr_0.8fr] md:gap-4 md:pt-4 animate-in slide-in-from-top duration-300">
+                <ul className="space-y-3 rounded-2xl border border-white/10 bg-white/5 p-3 text-sm leading-6 text-slate-200 sm:p-4">
+                  {t.tips.map((tip) => (
+                    <li key={tip} className="flex gap-3">
+                      <span className="mt-2 h-2 w-2 flex-none rounded-full bg-rose-300" />
+                      <span className="min-w-0 break-words">{tip}</span>
+                    </li>
                   ))}
                 </ul>
+
+                <div className="rounded-2xl border border-amber-300/20 bg-amber-300/10 p-3 sm:p-4">
+                  <h2 className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-amber-100 sm:text-sm sm:tracking-[0.18em]">{t.boostLegendTitle}</h2>
+                  <ul className="space-y-2 text-sm leading-6 text-amber-50">
+                    {t.boostLegend.map((item) => (
+                      <li key={item} className="break-words">{item}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </section>
 
         <section className="mb-4 sm:mb-6">
