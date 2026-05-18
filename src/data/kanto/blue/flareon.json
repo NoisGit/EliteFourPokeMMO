@@ -2,15 +2,60 @@
   "id": "flareon",
   "name": "Flareon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro luego a Chansey, frente a Magnezone pon 🪨Trampa Rocas🪨",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Poliwrath → Usa Teletransporte, 💊Gengar 2+2 + Precion X💊 💰(Si quieres Ahorrar: 6+2)💰",
-      "variant": []
-    },
-    {
-      "detail": "Flareon → Cambia a Slowbro y usa Bostezo frente a magnezone, usar Proteccion y Bostezo, luego usa Teletransporte y entra con Volcarona +2",
-      "variant": []
+      "detail": "Luego cambia a Chansey.",
+      "variant": [
+        {
+          "detail": "Frente a Magnezone, usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si sale Poliwrath.",
+              "variant": [
+                {
+                  "detail": "Usa Teletransporte.",
+                  "variant": [
+                    {
+                      "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+                      "variant": [
+                        {
+                          "detail": "💰 Ruta ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Flareon.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo frente a Magnezone.",
+                  "variant": [
+                    {
+                      "detail": "Usa Protección y Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Luego usa Teletransporte y entra con Volcarona.",
+                          "variant": [
+                            {
+                              "detail": "Volcarona usa Danza Aleteo x2.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
