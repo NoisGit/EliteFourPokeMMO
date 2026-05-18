@@ -2,24 +2,84 @@
   "id": "politoed",
   "name": "Politoed",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se Queda → Teletransporte y saca a Slowbro luego usa Bostezo😴",
+      "detail": "Si Politoed se queda.",
       "variant": [
         {
-          "detail": "Jolteon → Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Skarmory, Si la lluvia termina no importa)🔔",
-          "variant": []
-        },
-        {    
-          "detail": "🌿Poder oculto Planta🌿 → Usa Bostezo frente a Jolteon, Proteccion y luego Bostezo frente a Nidoqueen/Blastoide, Teletransporte, entra Volcarona +2",
-          "variant": []
-        } 
-      ]  
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo. 😴",
+              "variant": [
+                {
+                  "detail": "Si sale Jolteon.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "🔔 Usa Puño Drenaje contra Skarmory. Si la lluvia termina, no importa. 🔔",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "🌿 Si usa Poder Oculto Planta. 🌿",
+                  "variant": [
+                    {
+                      "detail": "Usa Bostezo frente a Jolteon, Protección y luego Bostezo frente a Nidoqueen o Blastoise.",
+                      "variant": [
+                        {
+                          "detail": "Usa Teletransporte y entra con Volcarona.",
+                          "variant": [
+                            {
+                              "detail": "Volcarona usa Danza Aleteo x2.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Heracross → Cambia a Volcarona para recibir 2 A Bocajarros (Heracross debe quedar a -2), entra Gengar 6+2 🔔(No usar Otra Vez)🔔 🚨(Barre con Bola sombra y Gengar tiene que estar Full vida)🚨",
-      "variant": []
+      "detail": "Si sale Heracross.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona para recibir 2 A Bocajarro; Heracross debe quedar a -2.",
+          "variant": [
+            {
+              "detail": "Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad.",
+              "variant": [
+                {
+                  "detail": "🔔 No uses Otra Vez. 🔔",
+                  "variant": [
+                    {
+                      "detail": "🚨 Barre con Bola Sombra y Gengar tiene que estar con la vida completa. 🚨",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
