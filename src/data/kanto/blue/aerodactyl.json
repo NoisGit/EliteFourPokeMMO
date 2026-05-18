@@ -2,11 +2,26 @@
   "id": "aerodactyl",
   "name": "Aerodactyl",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Sale Poliwrath --> Usa Teletransporte, 💊Gengar Otra Vez 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
-      "variant": []
+      "detail": "Si sale Poliwrath.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "💊 Entra con Gengar, usa Otra Vez, Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+              "variant": [
+                {
+                  "detail": "💰 Ruta ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
