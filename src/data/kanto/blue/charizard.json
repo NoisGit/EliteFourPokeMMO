@@ -2,15 +2,59 @@
   "id": "charizard",
   "name": "Charizard",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 🔔(Si se queda usa Amortiguador)🔔",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Machamp --> Usa Teletransporte y saca a Slowbro, Bostezo frente a Vaporeon, sacrifica a Politoed. entra Poliwrath +6",
+      "detail": "Si Charizard se queda, usa Amortiguador.",
       "variant": []
     },
     {
-      "detail": "Poliwrath --> Cambia a Slowbro y usa Bostezo frente a Jolteon, Sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Skarmory)🔔",
-      "variant": []
+      "detail": "Si sale Machamp.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo frente a Vaporeon.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Poliwrath.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Jolteon.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Cascada contra Skarmory. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
