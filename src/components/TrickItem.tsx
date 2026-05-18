@@ -9,7 +9,6 @@ interface TrickItemProps {
   trick: Tricks
   language: Language
   level?: number
-  stepNumber?: string
 }
 
 const getToneClasses = (text: string, hasVariants: boolean) => {
@@ -77,7 +76,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
   }
 }
 
-export function TrickItem({ trick, language, level = 0, stepNumber }: TrickItemProps) {
+export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
   const variants = trick.variant || []
   const hasVariants = variants.length > 0
   const [isExpanded, setIsExpanded] = useState(level === 0)
@@ -86,7 +85,7 @@ export function TrickItem({ trick, language, level = 0, stepNumber }: TrickItemP
   )
   const tone = getToneClasses(strategyText, hasVariants)
   const indentation = level > 0 ? `clamp(${level * 0.15}rem, ${level * 1.1}vw, ${level * 0.6}rem)` : undefined
-  const variantLabel = hasVariants ? `${variants.length} ${variants.length === 1 ? 'variante' : 'variantes'}` : 'Final'
+  const variantLabel = hasVariants ? 'Variante' : 'Final'
 
   useEffect(() => {
     setIsExpanded(level === 0)
@@ -123,11 +122,9 @@ export function TrickItem({ trick, language, level = 0, stepNumber }: TrickItemP
         aria-expanded={hasVariants ? isExpanded : undefined}
       >
         <div className="flex min-w-0 items-start gap-2.5 sm:gap-3">
-          <div className="flex flex-none flex-col items-center gap-2">
-            <span className={`inline-flex h-7 min-w-7 items-center justify-center rounded-full border px-2 text-[0.68rem] font-black leading-none shadow-lg shadow-black/20 sm:h-8 sm:min-w-8 sm:text-xs ${tone.badge}`}>
-              {stepNumber || level + 1}
-            </span>
-            <span className={`h-2 w-2 rounded-full ${tone.dot}`} />
+          <div className="flex flex-none flex-col items-center gap-2 pt-0.5">
+            <span className={`inline-flex h-3 w-3 rounded-full shadow-lg shadow-black/20 ${tone.dot}`} />
+            <span className={`h-full min-h-8 border-l ${tone.line}`} />
           </div>
 
           <div className="min-w-0 flex-1">
@@ -135,7 +132,7 @@ export function TrickItem({ trick, language, level = 0, stepNumber }: TrickItemP
               <span className="rounded-full border border-white/10 bg-slate-950/40 px-2 py-0.5 text-[0.58rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:text-[0.65rem]">
                 {level === 0 ? 'Condición' : 'Paso dependiente'}
               </span>
-              <span className="rounded-full border border-white/10 bg-slate-950/40 px-2 py-0.5 text-[0.58rem] font-black uppercase tracking-[0.12em] text-slate-400 sm:text-[0.65rem]">
+              <span className={`rounded-full border px-2 py-0.5 text-[0.58rem] font-black uppercase tracking-[0.12em] sm:text-[0.65rem] ${hasVariants ? tone.badge : 'border-white/10 bg-slate-950/40 text-slate-400'}`}>
                 {variantLabel}
               </span>
             </div>
@@ -164,7 +161,6 @@ export function TrickItem({ trick, language, level = 0, stepNumber }: TrickItemP
               trick={variant}
               language={language}
               level={level + 1}
-              stepNumber={stepNumber ? `${stepNumber}.${index + 1}` : `${index + 1}`}
             />
           ))}
         </div>
