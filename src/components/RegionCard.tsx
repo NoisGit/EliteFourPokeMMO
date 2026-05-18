@@ -1,3 +1,5 @@
+import { useRef } from 'react'
+import { gsap } from 'gsap'
 import type { Region } from '../interfaces/Region'
 
 const regionAccent: Record<string, string> = {
@@ -8,6 +10,10 @@ const regionAccent: Record<string, string> = {
   teselia: 'from-violet-300/35 to-rose-400/10',
 }
 
+const prefersReducedMotion = () => (
+  typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+)
+
 interface RegionCardProps {
   region: Region
   isExpanded: boolean
@@ -15,17 +21,49 @@ interface RegionCardProps {
 }
 
 export const RegionCard = ({ region, isExpanded, onClick }: RegionCardProps) => {
+  const cardRef = useRef<HTMLButtonElement | null>(null)
+  const shineRef = useRef<HTMLDivElement | null>(null)
+
+  const animateCard = (isHovering: boolean) => {
+    if (prefersReducedMotion()) return
+
+    gsap.to(cardRef.current, {
+      y: isHovering ? -7 : 0,
+      scale: isHovering ? 1.025 : 1,
+      duration: 0.22,
+      ease: 'power2.out',
+      overwrite: 'auto',
+    })
+
+    gsap.to(shineRef.current, {
+      xPercent: isHovering ? 115 : -115,
+      opacity: isHovering ? 0.62 : 0,
+      duration: isHovering ? 0.42 : 0.18,
+      ease: 'power2.out',
+      overwrite: 'auto',
+    })
+  }
+
   return (
     <button
+      ref={cardRef}
       type="button"
-      className={`gsap-region-card group relative min-w-0 overflow-hidden rounded-xl border p-3 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 sm:rounded-3xl sm:p-4 ${
+      className={`gsap-region-card group relative min-w-0 overflow-hidden rounded-xl border p-3 text-left shadow-lg shadow-black/20 transition-colors duration-300 will-change-transform hover:border-white/30 sm:rounded-3xl sm:p-4 ${
         isExpanded
           ? 'border-cyan-200/80 bg-slate-900/95 ring-2 ring-cyan-300/70'
-          : 'border-white/10 bg-slate-950/65 hover:border-white/25 hover:bg-slate-900/90'
+          : 'border-white/10 bg-slate-950/65 hover:bg-slate-900/90'
       }`}
       onClick={() => onClick(region.id)}
+      onMouseEnter={() => animateCard(true)}
+      onMouseLeave={() => animateCard(false)}
+      onFocus={() => animateCard(true)}
+      onBlur={() => animateCard(false)}
     >
       <div className={`absolute inset-0 bg-gradient-to-br ${regionAccent[region.id] || 'from-cyan-300/25 to-rose-400/10'} opacity-95`} />
+      <div
+        ref={shineRef}
+        className="pointer-events-none absolute -inset-y-8 -left-1/3 w-1/3 -translate-x-full rotate-12 bg-white/30 opacity-0 blur-sm"
+      />
       <div className="relative flex h-16 items-end sm:h-20 lg:h-24">
         <div className="min-w-0">
           <span className="mb-2 block h-1 w-8 rounded-full bg-cyan-200 transition-all duration-300 group-hover:w-14 sm:w-10 sm:group-hover:w-16" />
