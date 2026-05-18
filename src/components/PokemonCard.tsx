@@ -36,8 +36,8 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
     if (prefersReducedMotion()) return
 
     gsap.to(cardRef.current, {
-      scale: isSelected ? 1.035 : 1,
-      y: isSelected ? -4 : 0,
+      scale: isSelected ? 1.025 : 1,
+      y: isSelected ? -3 : 0,
       duration: 0.22,
       ease: 'power2.out',
       force3D: true,
@@ -56,8 +56,8 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
     if (prefersReducedMotion()) return
 
     gsap.to(cardRef.current, {
-      y: isHovering ? -7 : isSelected ? -4 : 0,
-      scale: isHovering ? 1.04 : isSelected ? 1.035 : 1,
+      y: isHovering ? -5 : isSelected ? -3 : 0,
+      scale: isHovering ? 1.03 : isSelected ? 1.025 : 1,
       duration: 0.2,
       ease: 'power2.out',
       force3D: true,
@@ -65,8 +65,8 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
     })
 
     gsap.to(spriteRef.current, {
-      y: isHovering ? -5 : 0,
-      scale: isHovering ? 1.12 : 1,
+      y: isHovering ? -4 : 0,
+      scale: isHovering ? 1.08 : 1,
       duration: 0.23,
       ease: 'power2.out',
       force3D: true,
@@ -110,7 +110,7 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
     <button
       ref={cardRef}
       type="button"
-      className={`gsap-pokemon-card group relative min-w-0 cursor-pointer overflow-hidden rounded-xl border bg-slate-950/75 p-1.5 text-left shadow-lg shadow-black/20 transition-colors duration-300 will-change-transform hover:border-cyan-200/50 hover:bg-slate-900/95 active:scale-[0.97] sm:rounded-2xl sm:p-2 ${
+      className={`gsap-pokemon-card group relative min-w-0 cursor-pointer overflow-hidden rounded-2xl border bg-slate-950/75 p-2 text-left shadow-lg shadow-black/20 transition-colors duration-300 will-change-transform hover:border-cyan-200/50 hover:bg-slate-900/95 active:scale-[0.97] sm:p-2 ${
         isSelected
           ? 'border-cyan-200/80 ring-2 ring-cyan-300/70'
           : 'border-white/10'
@@ -122,7 +122,7 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
       onBlur={() => animateCard(false)}
     >
       <div ref={glowRef} className="absolute inset-0 bg-gradient-to-b from-cyan-300/25 via-transparent to-rose-400/20 opacity-30 transition-opacity duration-300" />
-      <div className="relative flex h-[4.5rem] items-center justify-center rounded-lg bg-black/20 min-[380px]:h-20 sm:h-24 lg:h-28">
+      <div className="relative flex h-24 items-center justify-center rounded-xl bg-black/20 min-[380px]:h-28 sm:h-24 lg:h-28">
         <img
           ref={spriteRef}
           src={spriteSrc}
@@ -132,7 +132,7 @@ export const PokemonCard = ({ pokemon, isSelected, onClick }: PokemonCardProps) 
           onError={handleSpriteError}
         />
       </div>
-      <span className="relative mt-1.5 block truncate rounded-lg bg-black/55 px-1.5 py-1 text-center text-[0.66rem] font-black leading-tight text-white min-[380px]:text-xs sm:text-sm">
+      <span className="relative mt-2 block truncate rounded-xl bg-black/55 px-2 py-1.5 text-center text-xs font-black leading-tight text-white min-[380px]:text-sm sm:text-sm">
         {pokemon.name}
       </span>
     </button>
