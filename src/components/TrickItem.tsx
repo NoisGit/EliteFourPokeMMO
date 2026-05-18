@@ -19,7 +19,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
       card: 'border-red-300/35 bg-red-400/15 hover:border-red-200/60 hover:bg-red-400/20',
       badge: 'border-red-200/50 bg-red-200 text-red-950',
       dot: 'bg-red-200',
-      line: 'border-red-200/35',
     }
   }
 
@@ -28,7 +27,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
       card: 'border-emerald-300/35 bg-emerald-400/15 hover:border-emerald-200/60 hover:bg-emerald-400/20',
       badge: 'border-emerald-200/50 bg-emerald-200 text-emerald-950',
       dot: 'bg-emerald-200',
-      line: 'border-emerald-200/35',
     }
   }
 
@@ -37,7 +35,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
       card: 'border-amber-300/35 bg-amber-400/15 hover:border-amber-200/60 hover:bg-amber-400/20',
       badge: 'border-amber-200/50 bg-amber-200 text-amber-950',
       dot: 'bg-amber-200',
-      line: 'border-amber-200/35',
     }
   }
 
@@ -46,7 +43,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
       card: 'border-lime-300/35 bg-lime-400/15 hover:border-lime-200/60 hover:bg-lime-400/20',
       badge: 'border-lime-200/50 bg-lime-200 text-lime-950',
       dot: 'bg-lime-200',
-      line: 'border-lime-200/35',
     }
   }
 
@@ -55,7 +51,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
       card: 'border-violet-300/35 bg-violet-400/15 hover:border-violet-200/60 hover:bg-violet-400/20',
       badge: 'border-violet-200/50 bg-violet-200 text-violet-950',
       dot: 'bg-violet-200',
-      line: 'border-violet-200/35',
     }
   }
 
@@ -64,7 +59,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
       card: 'border-rose-300/35 bg-rose-400/15 hover:border-rose-200/60 hover:bg-rose-400/20',
       badge: 'border-rose-200/50 bg-rose-200 text-rose-950',
       dot: 'bg-rose-200',
-      line: 'border-rose-200/35',
     }
   }
 
@@ -72,7 +66,6 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     card: 'border-white/10 bg-white/5 hover:border-cyan-200/40 hover:bg-cyan-300/10',
     badge: 'border-cyan-200/50 bg-cyan-200 text-slate-950',
     dot: 'bg-cyan-200',
-    line: 'border-cyan-200/25',
   }
 }
 
@@ -106,10 +99,6 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
 
   return (
     <div className="relative w-full min-w-0 overflow-hidden">
-      {level > 0 && (
-        <span className={`absolute left-0 top-0 h-full border-l ${tone.line}`} />
-      )}
-
       <div
         className={`group mb-2 rounded-2xl border p-2.5 transition-colors duration-300 will-change-transform sm:p-3.5 ${
           hasVariants ? 'cursor-pointer' : ''
@@ -122,9 +111,8 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
         aria-expanded={hasVariants ? isExpanded : undefined}
       >
         <div className="flex min-w-0 items-start gap-2.5 sm:gap-3">
-          <div className="flex flex-none flex-col items-center gap-2 pt-0.5">
+          <div className="flex flex-none items-start pt-1.5">
             <span className={`inline-flex h-3 w-3 rounded-full shadow-lg shadow-black/20 ${tone.dot}`} />
-            <span className={`h-full min-h-8 border-l ${tone.line}`} />
           </div>
 
           <div className="min-w-0 flex-1">
@@ -154,7 +142,7 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
       </div>
 
       {hasVariants && isExpanded && (
-        <div className={`min-w-0 overflow-hidden border-l pl-2 animate-in slide-in-from-top duration-300 sm:pl-3 ${tone.line}`}>
+        <div className="min-w-0 overflow-hidden pl-2 animate-in slide-in-from-top duration-300 sm:pl-3">
           {variants.map((variant, index) => (
             <TrickItem
               key={`${variant.detail}-${index}`}
