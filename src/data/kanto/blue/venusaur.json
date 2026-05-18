@@ -2,59 +2,234 @@
   "id": "venusaur",
   "name": "Venusaur",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda → Identifica el Movimiento",
+      "detail": "Si Venusaur se queda, identifica el movimiento.",
       "variant": [
         {
-          "detail": "Latigazo → Usa Teletransporte",
+          "detail": "Si usa Latigazo.",
           "variant": [
             {
-              "detail": "Si se queda → Cambia a Slowbro y usa Bostezo 🔔(Mira su Precision)🔔",
+              "detail": "Usa Teletransporte.",
               "variant": [
                 {
-                  "detail": "Acierta → Usa Teletransporte, entra Volcarona +2",
-                  "variant": []
-                },  
+                  "detail": "Si Venusaur se queda.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Slowbro y usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Revisa su precisión.",
+                          "variant": [
+                            {
+                              "detail": "Si acierta.",
+                              "variant": [
+                                {
+                                  "detail": "Usa Teletransporte y entra con Volcarona.",
+                                  "variant": [
+                                    {
+                                      "detail": "Volcarona usa Danza Aleteo x2.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "detail": "Si falla.",
+                              "variant": [
+                                {
+                                  "detail": "Cambia a Volcarona.",
+                                  "variant": [
+                                    {
+                                      "detail": "Volcarona usa Danza Aleteo x2.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
-                  "detail": "Falla → Cambia a Volcarona +2",
-                  "variant": []  
-                } 
-              ]   
-            },     
-            {
-              "detail": "Poliwrath → Cambia a Poliwrath luego a Politoed, entra Chansey y usa Teletransportacion, 💊Gengar 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
-              "variant": [] 
-            }    
-          ]  
+                  "detail": "Si sale Poliwrath.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Poliwrath y luego a Politoed.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Chansey y usa Teletransporte.",
+                          "variant": [
+                            {
+                              "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+                              "variant": [
+                                {
+                                  "detail": "💰 Ruta ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "🌱Drenadoras🌱 → Encanto frente a Gyarados, usa Teletransporte",
+          "detail": "🌱 Si usa Drenadoras. 🌱",
           "variant": [
             {
-              "detail": "Si se queda → Cambia a SLowbro y usa Bostezo frente a Magnzone, cambia a Poliwrath y deja que muera, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
-              "variant": []
-            },  
+              "detail": "Usa Encanto frente a Gyarados y luego Teletransporte.",
+              "variant": [
+                {
+                  "detail": "Si Venusaur se queda.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Slowbro y usa Bostezo frente a Magnezone.",
+                      "variant": [
+                        {
+                          "detail": "Cambia a Poliwrath y deja que quede debilitado.",
+                          "variant": [
+                            {
+                              "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                              "variant": [
+                                {
+                                  "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Sandslash.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Slowbro y usa Relajo para recibir Terremoto.",
+                      "variant": [
+                        {
+                          "detail": "Usa Bostezo frente a Magnezone.",
+                          "variant": [
+                            {
+                              "detail": "Cambia a Poliwrath y deja que quede debilitado.",
+                              "variant": [
+                                {
+                                  "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                                  "variant": [
+                                    {
+                                      "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Poliwrath.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote.",
+          "variant": [
             {
-              "detail": "Sandlash → Cambia a Slowbro y usa relajo para recibir el terremoto, Bostezo frente a Magnezone, cambia a Poliwrath y deja que muera, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
-              "variant": []
-            } 
-          ] 
-        }  
-      ]     
+              "detail": "Entra con Chansey y usa Teletransporte.",
+              "variant": [
+                {
+                  "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+                  "variant": [
+                    {
+                      "detail": "💰 Ruta ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Poliwrath → Sacrifica a Politoed luego entra Chansey y usa Teletransportacion, 💊Gengar 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
-      "variant": []
+      "detail": "Si sale Sandslash.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo frente a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Deja que Poliwrath quede debilitado.",
+                  "variant": [
+                    {
+                      "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Sandlash → Usa Teletransporte y saca a Slowbro, Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
-      "variant": []
-    },
-    {  
-      "detail": "Gyarados → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
-      "variant": [] 
+      "detail": "Si sale Gyarados.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo, Protección y Bostezo frente a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Deja que Poliwrath quede debilitado.",
+                  "variant": [
+                    {
+                      "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
