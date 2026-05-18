@@ -2,6 +2,26 @@
   "id": "exeggutor",
   "name": "Exeggutor",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Poliwrath, usa Teletransporte, 💊Gengar 2+2 + Precision X💊 💰(Si quieres ahorrar: Gengar 6+2)💰",
-  "tricks": []    
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Poliwrath.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+              "variant": [
+                {
+                  "detail": "💰 Ruta ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
