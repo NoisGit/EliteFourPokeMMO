@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react"
+import { gsap } from "gsap"
 
 import type { Pokemon } from "../interfaces/Pokemon"
 import type { Region } from "../interfaces/Region"
@@ -20,6 +21,10 @@ const LANGUAGE_OPTIONS: Array<{ value: Language; label: string }> = [
   { value: 'en', label: 'EN' },
 ]
 
+const prefersReducedMotion = () => (
+  typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+)
+
 export default function PokemonGuide() {
   const [expandedRegion, setExpandedRegion] = useState<string | null>(null)
   const [expandedLeader, setExpandedLeader] = useState<string | null>(null)
@@ -29,7 +34,9 @@ export default function PokemonGuide() {
   const [language, setLanguage] = useState<Language>('es')
   const [regions, setRegions] = useState<Region[]>([])
   const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
+  const pageRef = useRef<HTMLDivElement | null>(null)
   const strategyDetailsRef = useRef<HTMLDivElement | null>(null)
+  const teamModalRef = useRef<HTMLDivElement | null>(null)
   const { getPokemonFiles } = useDynamicImports()
   const t = translations[language]
 
@@ -102,13 +109,104 @@ export default function PokemonGuide() {
   }, [regions, pokemonDataLoaded])
 
   useEffect(() => {
+    if (!pokemonDataLoaded || prefersReducedMotion()) return
+
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        '.gsap-hero',
+        { autoAlpha: 0, y: 28, scale: 0.985 },
+        { autoAlpha: 1, y: 0, scale: 1, duration: 0.75, ease: 'power3.out' },
+      )
+
+      gsap.fromTo(
+        '.gsap-tips',
+        { autoAlpha: 0, y: 18 },
+        { autoAlpha: 1, y: 0, duration: 0.55, ease: 'power2.out', delay: 0.15 },
+      )
+
+      gsap.fromTo(
+        '.gsap-region-card',
+        { autoAlpha: 0, y: 24, scale: 0.96, rotateX: -8 },
+        {
+          autoAlpha: 1,
+          y: 0,
+          scale: 1,
+          rotateX: 0,
+          duration: 0.58,
+          ease: 'back.out(1.5)',
+          stagger: 0.055,
+          delay: 0.25,
+        },
+      )
+    }, pageRef)
+
+    return () => ctx.revert()
+  }, [pokemonDataLoaded])
+
+  useEffect(() => {
+    if (!expandedRegion || prefersReducedMotion()) return
+
+    const animationTimeout = window.setTimeout(() => {
+      const leaderCards = pageRef.current?.querySelectorAll('.gsap-leader-card')
+      if (!leaderCards?.length) return
+
+      gsap.fromTo(
+        leaderCards,
+        { autoAlpha: 0, y: 22, scale: 0.96 },
+        {
+          autoAlpha: 1,
+          y: 0,
+          scale: 1,
+          duration: 0.5,
+          ease: 'back.out(1.35)',
+          stagger: 0.045,
+        },
+      )
+    }, 60)
+
+    return () => window.clearTimeout(animationTimeout)
+  }, [expandedRegion])
+
+  useEffect(() => {
+    if (!expandedLeader || prefersReducedMotion()) return
+
+    const animationTimeout = window.setTimeout(() => {
+      const pokemonCards = pageRef.current?.querySelectorAll('.gsap-pokemon-card')
+      if (!pokemonCards?.length) return
+
+      gsap.fromTo(
+        pokemonCards,
+        { autoAlpha: 0, y: 18, scale: 0.92 },
+        {
+          autoAlpha: 1,
+          y: 0,
+          scale: 1,
+          duration: 0.44,
+          ease: 'back.out(1.45)',
+          stagger: 0.025,
+        },
+      )
+    }, 60)
+
+    return () => window.clearTimeout(animationTimeout)
+  }, [expandedLeader])
+
+  useEffect(() => {
     if (!selectedPokemon) return
 
     const scrollTimeout = window.setTimeout(() => {
       strategyDetailsRef.current?.scrollIntoView({
-        behavior: 'smooth',
+        behavior: prefersReducedMotion() ? 'auto' : 'smooth',
         block: 'start',
       })
+
+      if (!prefersReducedMotion() && strategyDetailsRef.current) {
+        gsap.fromTo(
+          strategyDetailsRef.current,
+          { autoAlpha: 0, y: 26, scale: 0.985 },
+          { autoAlpha: 1, y: 0, scale: 1, duration: 0.5, ease: 'power3.out' },
+        )
+      }
     }, 80)
 
     return () => window.clearTimeout(scrollTimeout)
@@ -126,6 +224,28 @@ export default function PokemonGuide() {
     const previousOverflow = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     document.addEventListener('keydown', handleKeyDown)
+
+    if (!prefersReducedMotion()) {
+      const ctx = gsap.context(() => {
+        gsap.fromTo(
+          '.gsap-modal-backdrop',
+          { autoAlpha: 0 },
+          { autoAlpha: 1, duration: 0.25, ease: 'power2.out' },
+        )
+
+        gsap.fromTo(
+          '.gsap-team-modal',
+          { autoAlpha: 0, y: 32, scale: 0.94 },
+          { autoAlpha: 1, y: 0, scale: 1, duration: 0.38, ease: 'back.out(1.4)' },
+        )
+      }, teamModalRef)
+
+      return () => {
+        ctx.revert()
+        document.body.style.overflow = previousOverflow
+        document.removeEventListener('keydown', handleKeyDown)
+      }
+    }
 
     return () => {
       document.body.style.overflow = previousOverflow
@@ -166,11 +286,11 @@ export default function PokemonGuide() {
   const currentLeaderPokemons = currentLeader?.pokemons || []
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#0b1020] text-slate-50">
+    <div ref={pageRef} className="min-h-screen overflow-x-hidden bg-[#0b1020] text-slate-50">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.28),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(34,211,238,0.22),_transparent_30%),linear-gradient(135deg,_#070b18_0%,_#111827_45%,_#21174c_100%)]" />
 
       <main className="relative mx-auto min-h-screen w-full max-w-6xl px-3 py-3 sm:px-5 sm:py-6 lg:px-8">
-        <section className="mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl sm:mb-7 sm:rounded-[2rem] sm:p-6 lg:p-8">
+        <section className="gsap-hero mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl sm:mb-7 sm:rounded-[2rem] sm:p-6 lg:p-8">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
             <div className="min-w-0 max-w-3xl">
               <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs sm:tracking-[0.24em]">
@@ -238,7 +358,7 @@ export default function PokemonGuide() {
           </div>
         </section>
 
-        <section className="mb-4 rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 backdrop-blur-xl sm:mb-6 sm:rounded-3xl sm:p-4">
+        <section className="gsap-tips mb-4 rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 backdrop-blur-xl sm:mb-6 sm:rounded-3xl sm:p-4">
           <button
             type="button"
             onClick={() => setShowTips(!showTips)}
@@ -330,14 +450,14 @@ export default function PokemonGuide() {
       </main>
 
       {showTeamModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/85 p-3 backdrop-blur-md sm:p-5">
+        <div ref={teamModalRef} className="gsap-modal-backdrop fixed inset-0 z-50 flex items-center justify-center bg-slate-950/85 p-3 backdrop-blur-md sm:p-5">
           <button
             type="button"
             className="absolute inset-0 cursor-default"
             onClick={() => setShowTeamModal(false)}
           />
 
-          <section className="relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border border-white/15 bg-slate-950 shadow-2xl shadow-black/60 sm:rounded-[2rem]">
+          <section className="gsap-team-modal relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border border-white/15 bg-slate-950 shadow-2xl shadow-black/60 sm:rounded-[2rem]">
             <div className="flex items-center justify-between gap-3 border-b border-white/10 bg-white/5 px-4 py-3 sm:px-5 sm:py-4">
               <div className="min-w-0">
                 <p className="truncate text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
