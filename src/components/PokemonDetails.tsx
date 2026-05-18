@@ -58,33 +58,32 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
         <div className="pointer-events-none absolute -right-16 -top-20 h-48 w-48 rounded-full bg-cyan-300/20 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-24 left-1/4 h-52 w-52 rounded-full bg-rose-400/20 blur-3xl" />
 
-        <div className="relative flex flex-col gap-4 lg:flex-row lg:items-stretch lg:justify-between">
-          <div className="min-w-0 flex-1 rounded-2xl border border-cyan-200/25 bg-slate-950/55 p-3 shadow-xl shadow-black/20 sm:p-4">
-            <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="rounded-full border border-cyan-200/40 bg-cyan-200/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs">
-                  {labels.initialMoveLabel}
-                </span>
-                <span className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-slate-300 sm:text-xs">
-                  {labels.openingTurnLabel}
-                </span>
-                <span className="rounded-full border border-rose-200/30 bg-rose-300/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-rose-100 sm:text-xs">
-                  {pokemon.name}
-                </span>
-              </div>
+        <button
+          type="button"
+          onClick={handleCopyStrategy}
+          aria-label={hasCopied ? labels.copiedStrategyLabel : labels.copyStrategyLabel}
+          title={hasCopied ? labels.copiedStrategyLabel : labels.copyStrategyLabel}
+          className={`absolute right-3 top-3 z-20 inline-flex h-10 w-10 items-center justify-center rounded-full border shadow-lg shadow-black/20 backdrop-blur-md transition-all duration-300 hover:scale-105 active:scale-95 sm:right-5 sm:top-5 ${
+            hasCopied
+              ? 'border-emerald-200/70 bg-emerald-200 text-emerald-950'
+              : 'border-white/15 bg-slate-950/60 text-slate-100 hover:border-cyan-200/50 hover:bg-cyan-200/15 hover:text-cyan-100'
+          }`}
+        >
+          {hasCopied ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}
+        </button>
 
-              <button
-                type="button"
-                onClick={handleCopyStrategy}
-                className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.14em] transition-all duration-300 active:scale-95 sm:text-xs ${
-                  hasCopied
-                    ? 'border-emerald-200/60 bg-emerald-200 text-emerald-950'
-                    : 'border-white/10 bg-white/10 text-slate-200 hover:border-cyan-200/50 hover:bg-cyan-200/15 hover:text-cyan-100'
-                }`}
-              >
-                {hasCopied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
-                {hasCopied ? labels.copiedStrategyLabel : labels.copyStrategyLabel}
-              </button>
+        <div className="relative flex flex-col gap-4 lg:flex-row lg:items-stretch lg:justify-between">
+          <div className="min-w-0 flex-1 rounded-2xl border border-cyan-200/25 bg-slate-950/55 p-3 pr-12 shadow-xl shadow-black/20 sm:p-4 sm:pr-16">
+            <div className="mb-3 flex flex-wrap items-center gap-2">
+              <span className="rounded-full border border-cyan-200/40 bg-cyan-200/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs">
+                {labels.initialMoveLabel}
+              </span>
+              <span className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-slate-300 sm:text-xs">
+                {labels.openingTurnLabel}
+              </span>
+              <span className="rounded-full border border-rose-200/30 bg-rose-300/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-rose-100 sm:text-xs">
+                {pokemon.name}
+              </span>
             </div>
 
             <div className="rounded-2xl border border-cyan-200/35 bg-cyan-200/10 p-3 sm:p-4">
