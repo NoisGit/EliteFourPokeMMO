@@ -2,6 +2,31 @@
   "id": "leafeon",
   "name": "Leafeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Machamp, cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño Drenaje contra Leafeon)🔔",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Machamp.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Leafeon. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
