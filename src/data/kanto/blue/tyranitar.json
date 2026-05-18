@@ -2,6 +2,31 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨 frente a Kingler, sacrifica a politoed, 💊Gengar +4 + Precision X💊 (No usar Otra Vez) 🔔(Onda Certera contra Skarmory)🔔 ",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Frente a Kingler.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "💊 Gengar usa Maquinación hasta +4 y Precisión X. 💊",
+              "variant": [
+                {
+                  "detail": "No uses Otra Vez.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Onda Certera contra Skarmory. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
