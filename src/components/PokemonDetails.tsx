@@ -63,33 +63,27 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
           onClick={handleCopyStrategy}
           aria-label={hasCopied ? labels.copiedStrategyLabel : labels.copyStrategyLabel}
           title={hasCopied ? labels.copiedStrategyLabel : labels.copyStrategyLabel}
-          className={`absolute right-3 top-3 z-20 inline-flex h-10 w-10 items-center justify-center rounded-full border shadow-lg shadow-black/20 backdrop-blur-md transition-all duration-300 hover:scale-105 active:scale-95 sm:right-5 sm:top-5 ${
+          className={`absolute right-4 top-4 z-20 inline-flex items-center justify-center p-1.5 transition-all duration-300 hover:scale-110 active:scale-95 sm:right-6 sm:top-6 ${
             hasCopied
-              ? 'border-emerald-200/70 bg-emerald-200 text-emerald-950'
-              : 'border-white/15 bg-slate-950/60 text-slate-100 hover:border-cyan-200/50 hover:bg-cyan-200/15 hover:text-cyan-100'
+              ? 'text-emerald-200'
+              : 'text-slate-300 hover:text-cyan-100'
           }`}
         >
           {hasCopied ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}
         </button>
 
         <div className="relative flex flex-col gap-4 lg:flex-row lg:items-stretch lg:justify-between">
-          <div className="min-w-0 flex-1 rounded-2xl border border-cyan-200/25 bg-slate-950/55 p-3 pr-12 shadow-xl shadow-black/20 sm:p-4 sm:pr-16">
-            <div className="mb-3 flex flex-wrap items-center gap-2">
-              <span className="rounded-full border border-cyan-200/40 bg-cyan-200/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs">
-                {labels.initialMoveLabel}
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-slate-300 sm:text-xs">
-                {labels.openingTurnLabel}
-              </span>
-              <span className="rounded-full border border-rose-200/30 bg-rose-300/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-rose-100 sm:text-xs">
+          <div className="min-w-0 flex-1 rounded-2xl border border-cyan-200/25 bg-slate-950/55 p-3 pr-12 shadow-xl shadow-black/20 sm:p-4 sm:pr-14">
+            <div className="mb-3 flex min-w-0 flex-col gap-1">
+              <p className="text-[0.62rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs">
                 {pokemon.name}
-              </span>
-            </div>
-
-            <div className="rounded-2xl border border-cyan-200/35 bg-cyan-200/10 p-3 sm:p-4">
-              <p className="mb-2 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs">
+              </p>
+              <p className="text-sm font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-base">
                 {labels.recommendedOpenerLabel}
               </p>
+            </div>
+
+            <div className="rounded-2xl border border-cyan-200/25 bg-cyan-200/10 p-3 sm:p-4">
               <h3 className="min-w-0 break-words text-xl font-black leading-tight text-white [overflow-wrap:anywhere] sm:text-2xl lg:text-3xl">
                 {initialMove}
               </h3>
@@ -99,18 +93,10 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
       </div>
 
       <div className="p-3 sm:p-6">
-        <div className="mb-3 flex flex-col gap-2 sm:mb-4 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs sm:tracking-[0.22em]">
-              {labels.decisionTreeLabel}
-            </p>
-            <h4 className="mt-1 text-base font-black text-white sm:text-lg">
-              {labels.decisionTreeTitle}
-            </h4>
-          </div>
-          <div className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[0.65rem] font-black uppercase tracking-[0.14em] text-slate-300 sm:text-xs">
-            {labels.expandVariantsLabel}
-          </div>
+        <div className="mb-3 sm:mb-4">
+          <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs sm:tracking-[0.22em]">
+            {labels.decisionTreeLabel}
+          </p>
         </div>
 
         <div className="min-w-0 space-y-3 overflow-hidden">
