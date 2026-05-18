@@ -28,7 +28,7 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
                 {labels.initialMoveLabel}
               </span>
               <span className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-slate-300 sm:text-xs">
-                Turno inicial
+                {labels.openingTurnLabel}
               </span>
               <span className="rounded-full border border-rose-200/30 bg-rose-300/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-rose-100 sm:text-xs">
                 {pokemon.name}
@@ -37,7 +37,7 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
 
             <div className="rounded-2xl border border-cyan-200/35 bg-cyan-200/10 p-3 sm:p-4">
               <p className="mb-2 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs">
-                Apertura recomendada
+                {labels.recommendedOpenerLabel}
               </p>
               <h3 className="min-w-0 break-words text-xl font-black leading-tight text-white [overflow-wrap:anywhere] sm:text-2xl lg:text-3xl">
                 {initialMove}
@@ -51,14 +51,14 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
         <div className="mb-3 flex flex-col gap-2 sm:mb-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-slate-400 sm:text-xs sm:tracking-[0.22em]">
-              Árbol de decisión
+              {labels.decisionTreeLabel}
             </p>
             <h4 className="mt-1 text-base font-black text-white sm:text-lg">
-              Sigue la condición que apareció en combate
+              {labels.decisionTreeTitle}
             </h4>
           </div>
           <div className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[0.65rem] font-black uppercase tracking-[0.14em] text-slate-300 sm:text-xs">
-            Click para desplegar variantes
+            {labels.expandVariantsLabel}
           </div>
         </div>
 
@@ -69,6 +69,7 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
                 key={`${pokemon.id}-${index}`}
                 trick={trick}
                 language={language}
+                labels={labels}
               />
             ))
           ) : (
