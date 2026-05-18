@@ -2,68 +2,213 @@
   "id": "ninetales",
   "name": "Ninetales",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "🔥Llamarada🔥 → Usa Teletransportacion",
+      "detail": "🔥 Si usa Llamarada. 🔥",
       "variant": [
         {
-          "detail": "Si se queda → Cambia a Poliwrath luego a Politoed, deja que lo maten, luego entra Poliwrath +6",
+          "detail": "Usa Teletransporte.",
           "variant": [
             {
-              "detail": "Poliwrath recibe Tiro Vital al azar → Slowbro usa Bostezo frente a Exeggutor, sacrificar a Poliwrath, Volcarona +1",
-              "variant": []
-            }
-          ] 
-        },
-        {
-          "detail": "Leafeon → Cambia a Volcarona +2",
-          "variant": []
-        },
-        {  
-          "detail": "Charizard → Cambia a Poliwrath luego a Volcarona +2",
-          "variant": [] 
-        }  
-      ]   
-    },
-    {
-      "detail": "Leafeon → Usa Teletransportacion",
-      "variant": [
-        {
-          "detail": "Si se queda → Saca a Volcarona +2",
-          "variant": []
-        },    
-        {
-          "detail": "Machamp → Saca a Slowbro y usa Bostezo frente a Magnezone, sacrifica a Poliwrath, entra Volcarona +2",
-          "variant": []
-        }  
-      ]  
-    },
-    {
-      "detail": "Machamp → Cambia a Gengar +2 🔔(No usar Otra Vez)🔔",
-      "variant": [
-        {
-          "detail": "Si se queda → Gengar +6 🔔(Barre con Bola sombra)🔔",
-          "variant": []
-        },
-        {    
-          "detail": "Cambia a Charizard → Pushea hasta Magnezone, usa Bola sombra",
-          "variant": [
-            {    
-              "detail": "Vaporeon recibe el golpe → Usa Maquinacion y sigue Barriendo 🚨(Si mueres usando Maquinacion, entra Volcarona +2)🚨",
-              "variant": []
+              "detail": "Si Ninetales se queda.",
+              "variant": [
+                {
+                  "detail": "Cambia a Poliwrath y luego a Politoed.",
+                  "variant": [
+                    {
+                      "detail": "Deja que Politoed quede debilitado.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "Si Poliwrath recibe Tiro Vital al azar.",
+                              "variant": [
+                                {
+                                  "detail": "Slowbro usa Bostezo frente a Exeggutor.",
+                                  "variant": [
+                                    {
+                                      "detail": "Deja que Poliwrath quede debilitado.",
+                                      "variant": [
+                                        {
+                                          "detail": "Entra con Volcarona y usa Danza Aleteo x1.",
+                                          "variant": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
-            {     
-              "detail": "Geangar Muere → Entra Volcarona y usa Psiquico frente a Machamp, sacrifica a Politoed y entra Poliwrath +6",
-              "variant": []
+            {
+              "detail": "Si sale Leafeon.",
+              "variant": [
+                {
+                  "detail": "Cambia a Volcarona.",
+                  "variant": [
+                    {
+                      "detail": "Volcarona usa Danza Aleteo x2.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Charizard.",
+              "variant": [
+                {
+                  "detail": "Cambia a Poliwrath y luego a Volcarona.",
+                  "variant": [
+                    {
+                      "detail": "Volcarona usa Danza Aleteo x2.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
-        },  
-        { 
-          "detail": "Cambia a Vaporeon → Cambia a Slowbro y usa Bostezo frente a Magnezone, sacrifica a Poliwrath y entra Volcarona +2",
-          "variant": []
-        }  
-      ]  
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Leafeon.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte.",
+          "variant": [
+            {
+              "detail": "Si Leafeon se queda.",
+              "variant": [
+                {
+                  "detail": "Entra con Volcarona y usa Danza Aleteo x2.",
+                  "variant": []
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Machamp.",
+              "variant": [
+                {
+                  "detail": "Entra con Slowbro y usa Bostezo frente a Magnezone.",
+                  "variant": [
+                    {
+                      "detail": "Deja que Poliwrath quede debilitado.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Volcarona y usa Danza Aleteo x2.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Machamp.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar y usa Maquinación hasta +2.",
+          "variant": [
+            {
+              "detail": "🔔 No uses Otra Vez. 🔔",
+              "variant": [
+                {
+                  "detail": "Si Machamp se queda.",
+                  "variant": [
+                    {
+                      "detail": "Gengar usa Maquinación hasta +6.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Barre con Bola Sombra. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si cambia a Charizard.",
+                  "variant": [
+                    {
+                      "detail": "Presiona hasta Magnezone y usa Bola Sombra.",
+                      "variant": [
+                        {
+                          "detail": "Si Vaporeon recibe el golpe.",
+                          "variant": [
+                            {
+                              "detail": "Usa Maquinación y sigue barriendo.",
+                              "variant": [
+                                {
+                                  "detail": "🚨 Si Gengar queda debilitado usando Maquinación, entra con Volcarona y usa Danza Aleteo x2. 🚨",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "detail": "Si Gengar queda debilitado.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Volcarona y usa Psíquico frente a Machamp.",
+                              "variant": [
+                                {
+                                  "detail": "Entra Politoed como pivote.",
+                                  "variant": [
+                                    {
+                                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                                      "variant": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si cambia a Vaporeon.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Slowbro y usa Bostezo frente a Magnezone.",
+                      "variant": [
+                        {
+                          "detail": "Deja que Poliwrath quede debilitado.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Volcarona y usa Danza Aleteo x2.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
