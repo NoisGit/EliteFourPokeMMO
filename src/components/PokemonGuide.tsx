@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react"
 
 import type { Pokemon } from "../interfaces/Pokemon"
@@ -25,9 +25,11 @@ export default function PokemonGuide() {
   const [expandedLeader, setExpandedLeader] = useState<string | null>(null)
   const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null)
   const [showTips, setShowTips] = useState(false)
+  const [showTeamModal, setShowTeamModal] = useState(false)
   const [language, setLanguage] = useState<Language>('es')
   const [regions, setRegions] = useState<Region[]>([])
   const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
+  const strategyDetailsRef = useRef<HTMLDivElement | null>(null)
   const { getPokemonFiles } = useDynamicImports()
   const t = translations[language]
 
@@ -98,6 +100,38 @@ export default function PokemonGuide() {
 
     loadPokemonData()
   }, [regions, pokemonDataLoaded])
+
+  useEffect(() => {
+    if (!selectedPokemon) return
+
+    const scrollTimeout = window.setTimeout(() => {
+      strategyDetailsRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    }, 80)
+
+    return () => window.clearTimeout(scrollTimeout)
+  }, [selectedPokemon])
+
+  useEffect(() => {
+    if (!showTeamModal) return
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setShowTeamModal(false)
+      }
+    }
+
+    const previousOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    document.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      document.body.style.overflow = previousOverflow
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [showTeamModal])
 
   const handleRegionClick = (regionId: string) => {
     if (expandedRegion === regionId) {
@@ -191,15 +225,14 @@ export default function PokemonGuide() {
                   <p className="text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
                   <p className="mt-1 text-sm leading-5 text-rose-50/80">{t.teamDescription}</p>
                 </div>
-                <a
-                  href={TEAM_PASTE_URL}
-                  target="_blank"
-                  rel="noreferrer"
+                <button
+                  type="button"
+                  onClick={() => setShowTeamModal(true)}
                   className="inline-flex w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 sm:w-auto"
                 >
                   {t.teamButton}
                   <ExternalLink className="h-4 w-4" />
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -290,9 +323,56 @@ export default function PokemonGuide() {
         )}
 
         {selectedPokemon && (
-          <PokemonDetails pokemon={selectedPokemon} language={language} labels={t} />
+          <div ref={strategyDetailsRef} className="scroll-mt-4 sm:scroll-mt-6">
+            <PokemonDetails pokemon={selectedPokemon} language={language} labels={t} />
+          </div>
         )}
       </main>
+
+      {showTeamModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/85 p-3 backdrop-blur-md sm:p-5">
+          <button
+            type="button"
+            className="absolute inset-0 cursor-default"
+            onClick={() => setShowTeamModal(false)}
+          />
+
+          <section className="relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border border-white/15 bg-slate-950 shadow-2xl shadow-black/60 sm:rounded-[2rem]">
+            <div className="flex items-center justify-between gap-3 border-b border-white/10 bg-white/5 px-4 py-3 sm:px-5 sm:py-4">
+              <div className="min-w-0">
+                <p className="truncate text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
+                <p className="mt-0.5 truncate text-xs font-bold text-slate-400">{TEAM_PASTE_URL}</p>
+              </div>
+              <div className="flex flex-none items-center gap-2">
+                <a
+                  href={TEAM_PASTE_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hidden items-center justify-center gap-2 rounded-xl bg-rose-300 px-3 py-2 text-xs font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 sm:inline-flex"
+                >
+                  {t.teamButton}
+                  <ExternalLink className="h-4 w-4" />
+                </a>
+                <button
+                  type="button"
+                  onClick={() => setShowTeamModal(false)}
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-xl font-black leading-none text-white transition-all duration-300 hover:bg-white/20"
+                >
+                  ×
+                </button>
+              </div>
+            </div>
+
+            <div className="h-[72vh] min-h-[26rem] bg-white">
+              <iframe
+                src={TEAM_PASTE_URL}
+                title={t.teamTitle}
+                className="h-full w-full border-0 bg-white"
+              />
+            </div>
+          </section>
+        </div>
+      )}
     </div>
   )
 }
