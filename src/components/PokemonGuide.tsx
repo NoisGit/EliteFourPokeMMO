@@ -43,22 +43,6 @@ export default function PokemonGuide() {
   const currentRegion = regions.find((region) => region.id === expandedRegion)
   const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
   const currentLeaderPokemons = currentLeader?.pokemons || []
-  const recommendedRouteSteps = currentRegion
-    ? [
-        {
-          id: currentRegion.id,
-          value: currentRegion.name,
-          isActive: true,
-          isRegion: true,
-        },
-        ...currentRegion.leaders.map((leader) => ({
-          id: leader.id,
-          value: leader.name,
-          isActive: leader.id === expandedLeader,
-          isRegion: false,
-        })),
-      ]
-    : []
 
   useEffect(() => {
     const loadRegionConfig = async () => {
@@ -201,21 +185,6 @@ export default function PokemonGuide() {
       )
 
       gsap.fromTo(
-        '.gsap-route-step',
-        { autoAlpha: 0, y: 16, scale: 0.92 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          scale: 1,
-          duration: 0.42,
-          ease: 'back.out(1.6)',
-          stagger: 0.055,
-          delay: 0.3,
-          force3D: true,
-        },
-      )
-
-      gsap.fromTo(
         '.gsap-region-card',
         { autoAlpha: 0, y: 58, scale: 0.78, rotation: -4 },
         {
@@ -236,29 +205,39 @@ export default function PokemonGuide() {
   }, [pokemonDataLoaded])
 
   useEffect(() => {
-    if (prefersReducedMotion()) return
+    if (!pokemonDataLoaded || prefersReducedMotion()) return
 
-    const routeStepTimeout = window.setTimeout(() => {
-      const routeStepsElements = pageRef.current?.querySelectorAll('.gsap-route-step')
-      if (!routeStepsElements?.length) return
+    const ctx = gsap.context(() => {
+      const routeLetters = gsap.utils.toArray<HTMLElement>('.gsap-route-letter')
+      if (!routeLetters.length) return
 
-      gsap.fromTo(
-        routeStepsElements,
-        { y: 8, scale: 0.98 },
-        {
+      gsap.set(routeLetters, { autoAlpha: 0.58, y: 0, scale: 1 })
+
+      const routeTimeline = gsap.timeline({ repeat: -1, repeatDelay: 1.35 })
+
+      routeTimeline
+        .to(routeLetters, {
+          autoAlpha: 1,
+          y: -3,
+          scale: 1.06,
+          duration: 0.22,
+          ease: 'power2.out',
+          stagger: 0.025,
+          force3D: true,
+        })
+        .to(routeLetters, {
+          autoAlpha: 0.58,
           y: 0,
           scale: 1,
-          duration: 0.24,
-          ease: 'power2.out',
-          stagger: 0.035,
+          duration: 0.18,
+          ease: 'power2.inOut',
+          stagger: 0.018,
           force3D: true,
-          overwrite: 'auto',
-        },
-      )
-    }, 30)
+        }, '+=0.55')
+    }, pageRef)
 
-    return () => window.clearTimeout(routeStepTimeout)
-  }, [expandedRegion, expandedLeader])
+    return () => ctx.revert()
+  }, [pokemonDataLoaded, language])
 
   useEffect(() => {
     if (!expandedRegion || prefersReducedMotion()) return
@@ -489,43 +468,21 @@ export default function PokemonGuide() {
 
           <div className="mt-4 grid gap-2 sm:mt-5 sm:grid-cols-2 sm:gap-3">
             <div className="overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10 p-3 sm:p-4">
-              <div className="flex items-center justify-between gap-2">
-                <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-cyan-200 sm:text-xs sm:tracking-[0.2em]">{t.routeLabel}</p>
-                {currentRegion && (
-                  <span className="rounded-full border border-cyan-200/40 bg-cyan-200/15 px-2 py-0.5 text-[0.6rem] font-black uppercase tracking-[0.14em] text-cyan-100">
-                    {currentRegion.name}
+              <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-cyan-200 sm:text-xs sm:tracking-[0.2em]">{t.routeLabel}</p>
+              <p
+                className="mt-2 break-words text-base font-black leading-6 text-white sm:text-lg sm:leading-7"
+                aria-label={t.route}
+              >
+                {t.route.split('').map((letter, index) => (
+                  <span
+                    key={`${letter}-${index}`}
+                    className="gsap-route-letter inline-block will-change-transform"
+                    aria-hidden="true"
+                  >
+                    {letter === ' ' ? '\u00A0' : letter}
                   </span>
-                )}
-              </div>
-              <p className="mt-2 break-words text-sm font-semibold leading-5 text-cyan-50/80 sm:text-base">{t.route}</p>
-
-              {currentRegion ? (
-                <div className="mt-3 flex flex-wrap items-center gap-2">
-                  {recommendedRouteSteps.map((step, index) => (
-                    <div key={`${step.id}-${index}`} className="flex min-w-0 items-center gap-2">
-                      <span
-                        className={`gsap-route-step inline-flex max-w-full items-center gap-2 rounded-full border px-3 py-1.5 text-[0.68rem] font-black uppercase tracking-[0.12em] shadow-lg shadow-black/15 transition-colors duration-300 sm:text-xs ${
-                          step.isRegion
-                            ? 'border-cyan-200/70 bg-cyan-200 text-slate-950'
-                            : step.isActive
-                              ? 'border-rose-200/70 bg-rose-200 text-slate-950'
-                              : 'border-white/10 bg-slate-950/50 text-slate-300'
-                        }`}
-                      >
-                        <span className={`h-2 w-2 rounded-full ${step.isRegion || step.isActive ? 'bg-slate-950' : 'bg-slate-600'}`} />
-                        <span className="truncate">{step.value}</span>
-                      </span>
-                      {index < recommendedRouteSteps.length - 1 && (
-                        <span className="text-cyan-100/50">→</span>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="mt-3 rounded-2xl border border-white/10 bg-slate-950/45 px-3 py-2 text-xs font-bold uppercase tracking-[0.12em] text-slate-400">
-                  Selecciona una región para ver su ruta completa.
-                </div>
-              )}
+                ))}
+              </p>
             </div>
             <div className="rounded-2xl border border-rose-300/30 bg-rose-300/10 p-3 sm:p-4">
               <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-rose-100 sm:text-xs sm:tracking-[0.2em]">{t.teamLabel}</p>
