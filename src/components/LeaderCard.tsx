@@ -13,7 +13,7 @@ export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => 
   return (
     <button
       type="button"
-      className={`group relative min-w-0 overflow-hidden rounded-xl border bg-slate-950/75 p-2 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-rose-200/50 hover:bg-slate-900/95 sm:rounded-3xl sm:p-3 ${
+      className={`gsap-leader-card group relative min-w-0 overflow-hidden rounded-xl border bg-slate-950/75 p-2 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-rose-200/50 hover:bg-slate-900/95 sm:rounded-3xl sm:p-3 ${
         isExpanded
           ? 'border-rose-200/80 ring-2 ring-rose-300/70'
           : 'border-white/10'
