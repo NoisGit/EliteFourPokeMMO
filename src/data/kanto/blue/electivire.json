@@ -2,16 +2,46 @@
   "id": "electivire",
   "name": "Electivire",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "👻Cambia a Gengar👻",
+  "initialMove": "👻 Cambia a Gengar 👻.",
   "tricks": [
     {
-      "detail": "Si se queda --> Cambia a Gengar Otra Vez  4+2 🔔(Barrer con Bola sombra Manten a Gengar Con Buena Salud)🔔",
+      "detail": "Si Electivire se queda.",
       "variant": [
         {
-          "detail": "Gengar muere → Envia a Slowbro  usa Bostezo hasta tener en  frente a Nidoking, sacrificar a Politoed, Poliwrath +6 🔔(Puño drenaje contra Leafeon)🔔",
-          "variant": []
+          "detail": "Gengar usa Otra Vez, Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
+          "variant": [
+            {
+              "detail": "🔔 Barre con Bola Sombra y mantén a Gengar con buena salud. 🔔",
+              "variant": [
+                {
+                  "detail": "Si Gengar queda debilitado.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Slowbro y usa Bostezo hasta tener a Nidoking enfrente.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": [
+                                {
+                                  "detail": "🔔 Usa Puño Drenaje contra Leafeon. 🔔",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
-  ] 
-} 
+  ]
+}
