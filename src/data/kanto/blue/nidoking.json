@@ -2,6 +2,26 @@
   "id": "nidoking",
   "name": "Nidoking",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨, cambia a Slowbro, sacrifica a politoed luego saca a poliwrath +6 🔔(Puño drenaje contra Leafeon)🔔 ",
-  "tricks": []
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
+  "tricks": [
+    {
+      "detail": "Cambia a Slowbro.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "🔔 Usa Puño Drenaje contra Leafeon. 🔔",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
