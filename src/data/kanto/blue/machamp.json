@@ -2,15 +2,70 @@
   "id": "machamp",
   "name": "Machamp",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "💡Cambia a Slowbro luego a Chansey💡",
+  "initialMove": "💡 Cambia a Slowbro. 💡",
   "tricks": [
     {
-      "detail": "Vaporeon → 🪨Trampa Rocas🪨 frente a Machamp, usa Teletransporte y saca a Slowbro, Bostezo, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    },    
-    {
-      "detail": "Jolteon → 🪨Trampa Rocas🪨 frente a Machamp, cambia a Gengar luego a Slowbro, Bostezo frente a Jolteon, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
+      "detail": "Luego cambia a Chansey.",
+      "variant": [
+        {
+          "detail": "Si sale Vaporeon.",
+          "variant": [
+            {
+              "detail": "Usa 🪨 Trampa Rocas 🪨 frente a Machamp.",
+              "variant": [
+                {
+                  "detail": "Usa Teletransporte y entra con Slowbro.",
+                  "variant": [
+                    {
+                      "detail": "Slowbro usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "detail": "Si sale Jolteon.",
+          "variant": [
+            {
+              "detail": "Usa 🪨 Trampa Rocas 🪨 frente a Machamp.",
+              "variant": [
+                {
+                  "detail": "Cambia a Gengar y luego a Slowbro.",
+                  "variant": [
+                    {
+                      "detail": "Slowbro usa Bostezo frente a Jolteon.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
