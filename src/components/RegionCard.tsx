@@ -18,7 +18,7 @@ export const RegionCard = ({ region, isExpanded, onClick }: RegionCardProps) => 
   return (
     <button
       type="button"
-      className={`group relative min-w-0 overflow-hidden rounded-xl border p-3 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 sm:rounded-3xl sm:p-4 ${
+      className={`gsap-region-card group relative min-w-0 overflow-hidden rounded-xl border p-3 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 sm:rounded-3xl sm:p-4 ${
         isExpanded
           ? 'border-cyan-200/80 bg-slate-900/95 ring-2 ring-cyan-300/70'
           : 'border-white/10 bg-slate-950/65 hover:border-white/25 hover:bg-slate-900/90'
