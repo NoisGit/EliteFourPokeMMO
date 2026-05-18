@@ -123,6 +123,66 @@ button {
   background-color: #ffffff;
 }
 
+.stream-mode {
+  font-size: 17px;
+}
+
+.stream-mode .gsap-hero {
+  border-color: rgba(251, 191, 36, 0.28) !important;
+}
+
+.stream-mode .gsap-tips {
+  opacity: 0.92;
+}
+
+.stream-mode .gsap-region-card,
+.stream-mode .gsap-leader-card,
+.stream-mode .gsap-pokemon-card {
+  border-width: 1px;
+}
+
+.stream-mode .gsap-pokemon-card span:last-child,
+.stream-mode .gsap-leader-card span:last-child {
+  font-size: 0.95rem !important;
+  line-height: 1.25rem !important;
+}
+
+.stream-mode section:has(.gsap-pokemon-card) .grid {
+  gap: 0.9rem !important;
+}
+
+.stream-mode section:has(.gsap-leader-card) .grid {
+  gap: 1rem !important;
+}
+
+.stream-mode [aria-expanded] span:last-child,
+.stream-mode [role="button"] span:last-child {
+  font-size: 1rem !important;
+  line-height: 1.65rem !important;
+}
+
+.stream-mode .scroll-mt-4,
+.stream-mode .scroll-mt-6 {
+  scroll-margin-top: 1rem;
+}
+
+.stream-mode .gsap-route-letter {
+  letter-spacing: 0.01em;
+}
+
+@media (min-width: 768px) {
+  .stream-mode .gsap-pokemon-card span:last-child,
+  .stream-mode .gsap-leader-card span:last-child {
+    font-size: 1rem !important;
+  }
+
+  .stream-mode [aria-expanded] span:last-child,
+  .stream-mode [role="button"] span:last-child {
+    font-size: 1.08rem !important;
+    line-height: 1.8rem !important;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
