@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/GitHub%20Pages-live-222222?logo=githubpages&logoColor=white" alt="GitHub Pages" />
 </p>
 
@@ -30,11 +30,15 @@ https://noisgit.github.io/EliteFourPokeMMO/
 ## Features
 
 - Responsive interface built with React, TypeScript, Vite, and Tailwind CSS.
-- Spanish as the primary in-app language, with an English UI option.
+- Spanish as the primary in-app language, with a cleaner English UI option.
 - Dynamic strategy loading from JSON files grouped by region and trainer.
 - Redesigned cards for regions, trainers, Pokémon, and strategy steps.
 - Pokémon HOME sprites with Scarlet/Violet, Gen 8, animated, and local fallbacks.
 - Smooth auto-scroll from Pokémon cards to the selected strategy.
+- Direct strategy links through URL parameters for sharing exact matchups.
+- Copy strategy button for quickly sharing the selected route.
+- Dark and light theme support.
+- Pokéball-style entry intro shown once per browser session.
 - Team preview modal for the recommended team.
 - Context-aware boost notes for common setup routes.
 - GitHub Pages deployment from the `main` branch.
@@ -56,7 +60,7 @@ Examples:
 - `X Speed` gives the Speed boost when the route asks for it.
 - `X Accuracy` gives the Accuracy boost when the route asks for it.
 - Pivots should be described clearly, for example: `Politoed enters as a pivot`.
-- If a Pokémon must be used to bring another teammate safely, describe it as `let it faint` or `let it be weakened`.
+- If a Pokémon must be used to bring another teammate safely, describe it as entering as a pivot or being weakened.
 
 ## Requirements
 
