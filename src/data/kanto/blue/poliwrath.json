@@ -2,24 +2,94 @@
   "id": "poliwrath",
   "name": "Poliwrath",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro 🔔(Identifica si porta el Objeto)🔔",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Tiene vidasfera → Cambia a Chansey y usa Trampa rocas",
+      "detail": "Identifica si porta el objeto.",
       "variant": [
         {
-          "detail": "Poliwrath → Sacrifica a Politoed, entra Chansey y usa Teletransporte, 💊Gengar 2+2 + Precision X💊",
-          "variant": []
+          "detail": "Si tiene Vidaesfera.",
+          "variant": [
+            {
+              "detail": "Cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+              "variant": [
+                {
+                  "detail": "Si sale Poliwrath.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Chansey y usa Teletransporte.",
+                          "variant": [
+                            {
+                              "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "detail": "Si sale Flareon.",
+                  "variant": [
+                    {
+                      "detail": "Cambia a Slowbro y usa Bostezo frente a Magnezone.",
+                      "variant": [
+                        {
+                          "detail": "Usa Protección y Bostezo.",
+                          "variant": [
+                            {
+                              "detail": "Usa Teletransporte y entra con Volcarona.",
+                              "variant": [
+                                {
+                                  "detail": "Volcarona usa Danza Aleteo x2.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "Flareon → Cambia a Slowbro y usa Bostezo frente a Magnezone, Proteccion y Bostezo, Teletransporte, entra Volcarona +2",
-          "variant": []
+          "detail": "Si no tiene Vidaesfera.",
+          "variant": [
+            {
+              "detail": "Cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo frente a Jolteon.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": [
+                            {
+                              "detail": "🔔 Usa Cascada contra Skarmory. 🔔",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      "detail": "No tiene Vidasfera → Cambia a Chansey y usa Trampa rocas, cambia a Slowbro y usa Bostezo frente a Jolteon, sacrifica a Politoed, entra Poliwrath +6 🔔(Cascada contra Skarmory)🔔",
-      "variant": []
     }
   ]
 }
