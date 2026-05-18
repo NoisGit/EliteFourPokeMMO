@@ -51,21 +51,68 @@ button {
 
 .theme-light [class*="bg-slate-950"],
 .theme-light [class*="bg-slate-900"] {
-  background-color: rgba(255, 251, 244, 0.76) !important;
+  background-color: rgba(255, 251, 244, 0.88) !important;
 }
 
 .theme-light [class*="bg-black"] {
-  background-color: rgba(255, 255, 255, 0.52) !important;
+  background-color: rgba(255, 255, 255, 0.74) !important;
 }
 
 .theme-light [class*="bg-white/5"],
 .theme-light [class*="bg-white/10"] {
-  background-color: rgba(255, 255, 255, 0.62) !important;
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.theme-light [class*="bg-cyan-200/10"],
+.theme-light [class*="bg-cyan-300/10"],
+.theme-light [class*="bg-cyan-300/15"] {
+  background-color: rgba(207, 250, 254, 0.58) !important;
+}
+
+.theme-light [class*="bg-rose-300/10"],
+.theme-light [class*="bg-rose-400/10"],
+.theme-light [class*="bg-rose-400/15"] {
+  background-color: rgba(255, 228, 230, 0.64) !important;
+}
+
+.theme-light [class*="bg-amber-300/10"],
+.theme-light [class*="bg-amber-400/10"] {
+  background-color: rgba(254, 243, 199, 0.7) !important;
+}
+
+.theme-light [class*="bg-emerald-400/10"] {
+  background-color: rgba(209, 250, 229, 0.68) !important;
+}
+
+.theme-light [class*="bg-red-400/10"] {
+  background-color: rgba(254, 226, 226, 0.68) !important;
+}
+
+.theme-light [class*="bg-violet-400/10"] {
+  background-color: rgba(237, 233, 254, 0.68) !important;
+}
+
+.theme-light [class*="bg-lime-400/10"] {
+  background-color: rgba(236, 252, 203, 0.68) !important;
 }
 
 .theme-light [class*="border-white/10"],
 .theme-light [class*="border-white/15"] {
-  border-color: rgba(120, 113, 108, 0.22) !important;
+  border-color: rgba(120, 113, 108, 0.26) !important;
+}
+
+.theme-light [class*="border-cyan-200"],
+.theme-light [class*="border-cyan-300"] {
+  border-color: rgba(8, 145, 178, 0.32) !important;
+}
+
+.theme-light [class*="border-rose-200"],
+.theme-light [class*="border-rose-300"] {
+  border-color: rgba(225, 29, 72, 0.3) !important;
+}
+
+.theme-light [class*="border-amber-300"] {
+  border-color: rgba(217, 119, 6, 0.3) !important;
 }
 
 .theme-light [class*="text-white"],
@@ -96,10 +143,26 @@ button {
   color: #92400e !important;
 }
 
+.theme-light [class*="text-emerald-100"] {
+  color: #047857 !important;
+}
+
+.theme-light [class*="text-red-100"] {
+  color: #b91c1c !important;
+}
+
+.theme-light [class*="text-violet-100"] {
+  color: #6d28d9 !important;
+}
+
+.theme-light [class*="text-lime-100"] {
+  color: #4d7c0f !important;
+}
+
 .theme-light [class*="shadow-black"],
 .theme-light [class*="shadow-cyan"],
 .theme-light [class*="shadow-rose"] {
-  --tw-shadow-color: rgba(120, 113, 108, 0.18) !important;
+  --tw-shadow-color: rgba(120, 113, 108, 0.16) !important;
 }
 
 .theme-light .gsap-hero,
@@ -108,7 +171,35 @@ button {
 .theme-light .gsap-region-card,
 .theme-light .gsap-leader-card,
 .theme-light .gsap-pokemon-card {
-  box-shadow: 0 24px 70px rgba(120, 113, 108, 0.2) !important;
+  box-shadow: 0 22px 60px rgba(120, 113, 108, 0.18) !important;
+}
+
+.theme-light .gsap-hero {
+  background: linear-gradient(135deg, rgba(255, 251, 244, 0.92), rgba(255, 247, 237, 0.82)) !important;
+  border-color: rgba(120, 113, 108, 0.24) !important;
+}
+
+.theme-light .gsap-tips {
+  background-color: rgba(255, 251, 244, 0.82) !important;
+  border-color: rgba(120, 113, 108, 0.22) !important;
+}
+
+.theme-light .gsap-region-card,
+.theme-light .gsap-leader-card,
+.theme-light .gsap-pokemon-card {
+  background-color: rgba(255, 251, 244, 0.78) !important;
+}
+
+.theme-light .gsap-region-card:hover,
+.theme-light .gsap-leader-card:hover,
+.theme-light .gsap-pokemon-card:hover {
+  background-color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.theme-light .gsap-region-card span:last-child,
+.theme-light .gsap-leader-card span:last-child,
+.theme-light .gsap-pokemon-card span:last-child {
+  color: #292524 !important;
 }
 
 .theme-light .gsap-modal-backdrop {
@@ -121,6 +212,14 @@ button {
 
 .theme-light iframe {
   background-color: #ffffff;
+}
+
+.theme-light .ring-cyan-300\/70 {
+  --tw-ring-color: rgba(8, 145, 178, 0.5) !important;
+}
+
+.theme-light .ring-rose-300\/70 {
+  --tw-ring-color: rgba(225, 29, 72, 0.45) !important;
 }
 
 @keyframes fadeIn {
