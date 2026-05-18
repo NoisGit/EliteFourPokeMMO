@@ -31,6 +31,7 @@ export default function PokemonGuide() {
   const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null)
   const [showTips, setShowTips] = useState(false)
   const [showTeamModal, setShowTeamModal] = useState(false)
+  const [isTeamModalClosing, setIsTeamModalClosing] = useState(false)
   const [language, setLanguage] = useState<Language>('es')
   const [regions, setRegions] = useState<Region[]>([])
   const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
@@ -114,81 +115,85 @@ export default function PokemonGuide() {
     const ctx = gsap.context(() => {
       gsap.fromTo(
         '.gsap-orb',
-        { autoAlpha: 0, scale: 0.45 },
-        { autoAlpha: 1, scale: 1, duration: 1.1, ease: 'power3.out', stagger: 0.16 },
+        { autoAlpha: 0, scale: 0.65 },
+        { autoAlpha: 1, scale: 1, duration: 0.9, ease: 'power3.out', stagger: 0.12 },
       )
 
       gsap.to('.gsap-orb-primary', {
-        x: 44,
-        y: -32,
-        scale: 1.14,
-        duration: 5.2,
+        x: 28,
+        y: -22,
+        scale: 1.08,
+        duration: 5.6,
         repeat: -1,
         yoyo: true,
         ease: 'sine.inOut',
+        force3D: true,
       })
 
       gsap.to('.gsap-orb-secondary', {
-        x: -38,
-        y: 34,
-        scale: 1.1,
-        duration: 6.4,
+        x: -26,
+        y: 24,
+        scale: 1.06,
+        duration: 6.8,
         repeat: -1,
         yoyo: true,
         ease: 'sine.inOut',
+        force3D: true,
       })
 
       gsap.to('.gsap-orb-tertiary', {
-        x: 28,
-        y: 42,
-        scale: 1.18,
-        duration: 7.1,
+        x: 18,
+        y: 28,
+        scale: 1.08,
+        duration: 7.4,
         repeat: -1,
         yoyo: true,
         ease: 'sine.inOut',
+        force3D: true,
       })
 
       gsap.fromTo(
         '.gsap-hero',
-        { autoAlpha: 0, y: 72, scale: 0.9, filter: 'blur(10px)' },
-        { autoAlpha: 1, y: 0, scale: 1, filter: 'blur(0px)', duration: 0.9, ease: 'power3.out' },
+        { autoAlpha: 0, y: 58, scale: 0.94 },
+        { autoAlpha: 1, y: 0, scale: 1, duration: 0.82, ease: 'power3.out', force3D: true },
       )
 
       gsap.to('.gsap-banner-image', {
-        y: -10,
-        scale: 1.018,
-        duration: 2.8,
+        y: -8,
+        scale: 1.014,
+        duration: 3,
         repeat: -1,
         yoyo: true,
         ease: 'sine.inOut',
         delay: 0.8,
+        force3D: true,
       })
 
       gsap.fromTo(
         '.gsap-tips',
-        { autoAlpha: 0, y: 38, scale: 0.94, filter: 'blur(6px)' },
-        { autoAlpha: 1, y: 0, scale: 1, filter: 'blur(0px)', duration: 0.65, ease: 'power2.out', delay: 0.18 },
+        { autoAlpha: 0, y: 34, scale: 0.96 },
+        { autoAlpha: 1, y: 0, scale: 1, duration: 0.58, ease: 'power2.out', delay: 0.16, force3D: true },
       )
 
       gsap.fromTo(
         '.gsap-section-title',
         { autoAlpha: 0, x: -18 },
-        { autoAlpha: 1, x: 0, duration: 0.45, ease: 'power2.out', delay: 0.36 },
+        { autoAlpha: 1, x: 0, duration: 0.42, ease: 'power2.out', delay: 0.32 },
       )
 
       gsap.fromTo(
         '.gsap-region-card',
-        { autoAlpha: 0, y: 64, scale: 0.74, rotation: -4, filter: 'blur(8px)' },
+        { autoAlpha: 0, y: 58, scale: 0.78, rotation: -4 },
         {
           autoAlpha: 1,
           y: 0,
           scale: 1,
           rotation: 0,
-          filter: 'blur(0px)',
-          duration: 0.72,
-          ease: 'back.out(1.85)',
-          stagger: 0.09,
-          delay: 0.42,
+          duration: 0.64,
+          ease: 'back.out(1.75)',
+          stagger: 0.075,
+          delay: 0.38,
+          force3D: true,
         },
       )
     }, pageRef)
@@ -205,19 +210,19 @@ export default function PokemonGuide() {
 
       gsap.fromTo(
         leaderCards,
-        { autoAlpha: 0, y: 62, scale: 0.72, rotation: 3, filter: 'blur(8px)' },
+        { autoAlpha: 0, y: 56, scale: 0.78, rotation: 2 },
         {
           autoAlpha: 1,
           y: 0,
           scale: 1,
           rotation: 0,
-          filter: 'blur(0px)',
-          duration: 0.62,
-          ease: 'back.out(1.7)',
-          stagger: 0.07,
+          duration: 0.54,
+          ease: 'back.out(1.65)',
+          stagger: 0.055,
+          force3D: true,
         },
       )
-    }, 80)
+    }, 70)
 
     return () => window.clearTimeout(animationTimeout)
   }, [expandedRegion])
@@ -231,19 +236,19 @@ export default function PokemonGuide() {
 
       gsap.fromTo(
         pokemonCards,
-        { autoAlpha: 0, y: 44, scale: 0.68, rotation: -5, filter: 'blur(6px)' },
+        { autoAlpha: 0, y: 40, scale: 0.74, rotation: -4 },
         {
           autoAlpha: 1,
           y: 0,
           scale: 1,
           rotation: 0,
-          filter: 'blur(0px)',
-          duration: 0.48,
-          ease: 'back.out(1.9)',
-          stagger: 0.032,
+          duration: 0.42,
+          ease: 'back.out(1.8)',
+          stagger: 0.026,
+          force3D: true,
         },
       )
-    }, 80)
+    }, 70)
 
     return () => window.clearTimeout(animationTimeout)
   }, [expandedLeader])
@@ -260,8 +265,8 @@ export default function PokemonGuide() {
       if (!prefersReducedMotion() && strategyDetailsRef.current) {
         gsap.fromTo(
           strategyDetailsRef.current,
-          { autoAlpha: 0, y: 48, scale: 0.92, filter: 'blur(8px)' },
-          { autoAlpha: 1, y: 0, scale: 1, filter: 'blur(0px)', duration: 0.58, ease: 'back.out(1.45)' },
+          { autoAlpha: 0, y: 44, scale: 0.94 },
+          { autoAlpha: 1, y: 0, scale: 1, duration: 0.5, ease: 'back.out(1.4)', force3D: true },
         )
       }
     }, 80)
@@ -269,12 +274,46 @@ export default function PokemonGuide() {
     return () => window.clearTimeout(scrollTimeout)
   }, [selectedPokemon])
 
+  const closeTeamModal = () => {
+    if (!showTeamModal || isTeamModalClosing) return
+
+    if (prefersReducedMotion() || !teamModalRef.current) {
+      setShowTeamModal(false)
+      setIsTeamModalClosing(false)
+      return
+    }
+
+    const modal = teamModalRef.current.querySelector('.gsap-team-modal')
+    setIsTeamModalClosing(true)
+
+    gsap.to(modal, {
+      autoAlpha: 0,
+      y: 28,
+      scale: 0.94,
+      duration: 0.2,
+      ease: 'power2.in',
+      force3D: true,
+      overwrite: 'auto',
+    })
+
+    gsap.to(teamModalRef.current, {
+      autoAlpha: 0,
+      duration: 0.26,
+      ease: 'power2.in',
+      overwrite: 'auto',
+      onComplete: () => {
+        setShowTeamModal(false)
+        setIsTeamModalClosing(false)
+      },
+    })
+  }
+
   useEffect(() => {
     if (!showTeamModal) return
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
-        setShowTeamModal(false)
+        closeTeamModal()
       }
     }
 
@@ -287,13 +326,13 @@ export default function PokemonGuide() {
         gsap.fromTo(
           '.gsap-modal-backdrop',
           { autoAlpha: 0 },
-          { autoAlpha: 1, duration: 0.28, ease: 'power2.out' },
+          { autoAlpha: 1, duration: 0.24, ease: 'power2.out' },
         )
 
         gsap.fromTo(
           '.gsap-team-modal',
-          { autoAlpha: 0, y: 52, scale: 0.86, filter: 'blur(8px)' },
-          { autoAlpha: 1, y: 0, scale: 1, filter: 'blur(0px)', duration: 0.46, ease: 'back.out(1.65)' },
+          { autoAlpha: 0, y: 42, scale: 0.88 },
+          { autoAlpha: 1, y: 0, scale: 1, duration: 0.38, ease: 'back.out(1.55)', force3D: true },
         )
       }, teamModalRef)
 
@@ -345,12 +384,12 @@ export default function PokemonGuide() {
   return (
     <div ref={pageRef} className="min-h-screen overflow-x-hidden bg-[#0b1020] text-slate-50">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.28),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(34,211,238,0.22),_transparent_30%),linear-gradient(135deg,_#070b18_0%,_#111827_45%,_#21174c_100%)]" />
-      <div className="gsap-orb gsap-orb-primary pointer-events-none fixed -left-24 top-20 h-72 w-72 rounded-full bg-cyan-300/20 blur-3xl" />
-      <div className="gsap-orb gsap-orb-secondary pointer-events-none fixed -right-20 top-56 h-80 w-80 rounded-full bg-rose-400/20 blur-3xl" />
-      <div className="gsap-orb gsap-orb-tertiary pointer-events-none fixed bottom-8 left-1/3 h-72 w-72 rounded-full bg-violet-400/15 blur-3xl" />
+      <div className="gsap-orb gsap-orb-primary pointer-events-none fixed -left-16 top-20 h-56 w-56 rounded-full bg-cyan-300/18 blur-2xl will-change-transform sm:h-72 sm:w-72" />
+      <div className="gsap-orb gsap-orb-secondary pointer-events-none fixed -right-16 top-56 h-60 w-60 rounded-full bg-rose-400/18 blur-2xl will-change-transform sm:h-72 sm:w-72" />
+      <div className="gsap-orb gsap-orb-tertiary pointer-events-none fixed bottom-8 left-1/3 h-56 w-56 rounded-full bg-violet-400/14 blur-2xl will-change-transform sm:h-72 sm:w-72" />
 
       <main className="relative mx-auto min-h-screen w-full max-w-6xl px-3 py-3 sm:px-5 sm:py-6 lg:px-8">
-        <section className="gsap-hero mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl sm:mb-7 sm:rounded-[2rem] sm:p-6 lg:p-8">
+        <section className="gsap-hero mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl will-change-transform sm:mb-7 sm:rounded-[2rem] sm:p-6 lg:p-8">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
             <div className="min-w-0 max-w-3xl">
               <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs sm:tracking-[0.24em]">
@@ -361,7 +400,7 @@ export default function PokemonGuide() {
                 <img
                   src={leagueFarmBanner}
                   alt={t.title}
-                  className="gsap-banner-image h-auto w-full max-w-[34rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] sm:max-w-[40rem]"
+                  className="gsap-banner-image h-auto w-full max-w-[34rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] will-change-transform sm:max-w-[40rem]"
                 />
               </div>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:mt-4 sm:text-base">
@@ -408,7 +447,7 @@ export default function PokemonGuide() {
                 <button
                   type="button"
                   onClick={() => setShowTeamModal(true)}
-                  className="inline-flex w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 sm:w-auto"
+                  className="inline-flex w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
                 >
                   {t.teamButton}
                   <ExternalLink className="h-4 w-4" />
@@ -418,11 +457,11 @@ export default function PokemonGuide() {
           </div>
         </section>
 
-        <section className="gsap-tips mb-4 rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 backdrop-blur-xl sm:mb-6 sm:rounded-3xl sm:p-4">
+        <section className="gsap-tips mb-4 rounded-2xl border border-white/15 bg-slate-950/60 p-2.5 backdrop-blur-xl will-change-transform sm:mb-6 sm:rounded-3xl sm:p-4">
           <button
             type="button"
             onClick={() => setShowTips(!showTips)}
-            className="flex w-full items-center justify-between gap-3 rounded-xl px-2 py-2 text-left transition-colors hover:bg-white/5 sm:rounded-2xl"
+            className="flex w-full items-center justify-between gap-3 rounded-xl px-2 py-2 text-left transition-colors hover:bg-white/5 active:scale-[0.99] sm:rounded-2xl"
           >
             <span className="min-w-0">
               <span className="block text-xs font-black uppercase tracking-[0.16em] text-rose-100 sm:tracking-[0.18em]">{t.tipsTitle}</span>
@@ -503,7 +542,7 @@ export default function PokemonGuide() {
         )}
 
         {selectedPokemon && (
-          <div ref={strategyDetailsRef} className="scroll-mt-4 sm:scroll-mt-6">
+          <div ref={strategyDetailsRef} className="scroll-mt-4 will-change-transform sm:scroll-mt-6">
             <PokemonDetails pokemon={selectedPokemon} language={language} labels={t} />
           </div>
         )}
@@ -514,10 +553,10 @@ export default function PokemonGuide() {
           <button
             type="button"
             className="absolute inset-0 cursor-default"
-            onClick={() => setShowTeamModal(false)}
+            onClick={closeTeamModal}
           />
 
-          <section className="gsap-team-modal relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border border-white/15 bg-slate-950 shadow-2xl shadow-black/60 sm:rounded-[2rem]">
+          <section className="gsap-team-modal relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border border-white/15 bg-slate-950 shadow-2xl shadow-black/60 will-change-transform sm:rounded-[2rem]">
             <div className="flex items-center justify-between gap-3 border-b border-white/10 bg-white/5 px-4 py-3 sm:px-5 sm:py-4">
               <div className="min-w-0">
                 <p className="truncate text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
@@ -528,15 +567,15 @@ export default function PokemonGuide() {
                   href={TEAM_PASTE_URL}
                   target="_blank"
                   rel="noreferrer"
-                  className="hidden items-center justify-center gap-2 rounded-xl bg-rose-300 px-3 py-2 text-xs font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 sm:inline-flex"
+                  className="hidden items-center justify-center gap-2 rounded-xl bg-rose-300 px-3 py-2 text-xs font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:inline-flex"
                 >
                   {t.teamButton}
                   <ExternalLink className="h-4 w-4" />
                 </a>
                 <button
                   type="button"
-                  onClick={() => setShowTeamModal(false)}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-xl font-black leading-none text-white transition-all duration-300 hover:bg-white/20"
+                  onClick={closeTeamModal}
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-xl font-black leading-none text-white transition-all duration-300 hover:bg-white/20 active:scale-90"
                 >
                   ×
                 </button>
