@@ -2,15 +2,60 @@
   "id": "infernape",
   "name": "Infernape",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Gengar luego a Slowbro frente a Dragonite, usa Trampa Rocas",
+  "initialMove": "Cambia a Gengar.",
   "tricks": [
     {
-      "detail": "Infernape --> Cambia a Slowbro (Mantenerlo), Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Scizor --> Cambia a Slowbro, Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    } 
+      "detail": "Luego cambia a Slowbro frente a Dragonite.",
+      "variant": [
+        {
+          "detail": "Usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si sale Infernape.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y mantenlo en campo.",
+                  "variant": [
+                    {
+                      "detail": "Usa Bostezo frente a Dragonite.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Scizor.",
+              "variant": [
+                {
+                  "detail": "Cambia a Slowbro y usa Bostezo frente a Dragonite.",
+                  "variant": [
+                    {
+                      "detail": "Entra Politoed como pivote.",
+                      "variant": [
+                        {
+                          "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
