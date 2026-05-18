@@ -2,6 +2,7 @@ import { ChevronRight, ChevronDown } from "lucide-react"
 import { useEffect, useState, type KeyboardEvent } from "react"
 import type { Language, TranslationLabels } from "../i18n/translations"
 import type { Tricks } from "../interfaces/Pokemon"
+import { cleanEnglishStrategyText } from "../utils/englishStrategyCleanup"
 import { translateFullStrategyText } from "../utils/fullStrategyTranslations"
 import { formatStrategyText, translateStrategyText } from "../utils/strategyText"
 
@@ -75,7 +76,10 @@ export function TrickItem({ trick, language, labels, level = 0 }: TrickItemProps
   const hasVariants = variants.length > 0
   const [isExpanded, setIsExpanded] = useState(false)
   const strategyText = formatStrategyText(
-    translateStrategyText(translateFullStrategyText(trick.detail, language), language),
+    cleanEnglishStrategyText(
+      translateStrategyText(translateFullStrategyText(trick.detail, language), language),
+      language,
+    ),
   )
   const tone = getToneClasses(strategyText, hasVariants)
   const indentation = level > 0 ? `clamp(${level * 0.15}rem, ${level * 1.1}vw, ${level * 0.6}rem)` : undefined
