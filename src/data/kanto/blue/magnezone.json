@@ -2,23 +2,103 @@
   "id": "magnezone",
   "name": "Magnezone",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda → 💊Toma un Def. Especial X💊, Amortiguador para forzar cambio 🔔(Identifica a quien cambia 👇)🔔",
-      "variant": []
+      "detail": "Si Magnezone se queda.",
+      "variant": [
+        {
+          "detail": "💊 Usa Defensa Especial X. 💊",
+          "variant": [
+            {
+              "detail": "Usa Amortiguador para forzar el cambio e identifica a quién entra.",
+              "variant": []
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Sandlash → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊  🔔(Gigadrenado contra Alakazam)🔔",
-      "variant": []
+      "detail": "Si sale Sandslash.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo, Protección y Bostezo frente a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Deja que Poliwrath quede debilitado.",
+                  "variant": [
+                    {
+                      "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Gyarados → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo frente a Magnezone, Sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
-      "variant": []
+      "detail": "Si sale Gyarados.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo, Protección y Bostezo frente a Magnezone.",
+              "variant": [
+                {
+                  "detail": "Deja que Poliwrath quede debilitado.",
+                  "variant": [
+                    {
+                      "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Poliwrath → Sacrifica a Politoed, entra Chansey y usa Teletransporte, 💊Gengar 2+2 + Precision X💊 💰(Si quieres Ahorrar: Gengar 6+2)💰",
-      "variant": [] 
+      "detail": "Si sale Poliwrath.",
+      "variant": [
+        {
+          "detail": "Entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Entra con Chansey y usa Teletransporte.",
+              "variant": [
+                {
+                  "detail": "💊 Entra con Gengar, usa Maquinación hasta +2, Velocidad X para +2 Velocidad y Precisión X. 💊",
+                  "variant": [
+                    {
+                      "detail": "💰 Ruta ahorro: Gengar usa Maquinación hasta +6 y Velocidad X para +2 Velocidad. 💰",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
