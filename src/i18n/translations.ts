@@ -29,6 +29,8 @@ export interface TranslationLabels {
   dependentStepLabel: string
   variantLabel: string
   finalStepLabel: string
+  copyStrategyLabel: string
+  copiedStrategyLabel: string
 }
 
 export const languages: Record<Language, string> = {
@@ -78,6 +80,8 @@ export const translations: Record<Language, TranslationLabels> = {
     dependentStepLabel: 'Paso dependiente',
     variantLabel: 'Variante',
     finalStepLabel: 'Final',
+    copyStrategyLabel: 'Copiar estrategia',
+    copiedStrategyLabel: 'Copiada',
   },
   en: {
     title: 'PokeMMO League Farm',
@@ -120,5 +124,7 @@ export const translations: Record<Language, TranslationLabels> = {
     dependentStepLabel: 'Follow-up step',
     variantLabel: 'Variant',
     finalStepLabel: 'Final',
+    copyStrategyLabel: 'Copy strategy',
+    copiedStrategyLabel: 'Copied',
   },
 }
