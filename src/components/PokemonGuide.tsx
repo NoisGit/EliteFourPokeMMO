@@ -43,23 +43,22 @@ export default function PokemonGuide() {
   const currentRegion = regions.find((region) => region.id === expandedRegion)
   const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
   const currentLeaderPokemons = currentLeader?.pokemons || []
-  const routeSteps = [
-    {
-      label: t.selectRegion,
-      value: currentRegion?.name,
-      isActive: Boolean(currentRegion),
-    },
-    {
-      label: t.selectLeader,
-      value: currentLeader?.name,
-      isActive: Boolean(currentLeader),
-    },
-    {
-      label: t.selectPokemon,
-      value: selectedPokemon?.name,
-      isActive: Boolean(selectedPokemon),
-    },
-  ]
+  const recommendedRouteSteps = currentRegion
+    ? [
+        {
+          id: currentRegion.id,
+          value: currentRegion.name,
+          isActive: true,
+          isRegion: true,
+        },
+        ...currentRegion.leaders.map((leader) => ({
+          id: leader.id,
+          value: leader.name,
+          isActive: leader.id === expandedLeader,
+          isRegion: false,
+        })),
+      ]
+    : []
 
   useEffect(() => {
     const loadRegionConfig = async () => {
@@ -259,7 +258,7 @@ export default function PokemonGuide() {
     }, 30)
 
     return () => window.clearTimeout(routeStepTimeout)
-  }, [expandedRegion, expandedLeader, selectedPokemon])
+  }, [expandedRegion, expandedLeader])
 
   useEffect(() => {
     if (!expandedRegion || prefersReducedMotion()) return
@@ -492,33 +491,41 @@ export default function PokemonGuide() {
             <div className="overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10 p-3 sm:p-4">
               <div className="flex items-center justify-between gap-2">
                 <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-cyan-200 sm:text-xs sm:tracking-[0.2em]">{t.routeLabel}</p>
-                {selectedPokemon && (
+                {currentRegion && (
                   <span className="rounded-full border border-cyan-200/40 bg-cyan-200/15 px-2 py-0.5 text-[0.6rem] font-black uppercase tracking-[0.14em] text-cyan-100">
-                    Ready
+                    {currentRegion.name}
                   </span>
                 )}
               </div>
               <p className="mt-2 break-words text-sm font-semibold leading-5 text-cyan-50/80 sm:text-base">{t.route}</p>
 
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                {routeSteps.map((step, index) => (
-                  <div key={step.label} className="flex min-w-0 items-center gap-2">
-                    <span
-                      className={`gsap-route-step inline-flex max-w-full items-center gap-2 rounded-full border px-3 py-1.5 text-[0.68rem] font-black uppercase tracking-[0.12em] shadow-lg shadow-black/15 transition-colors duration-300 sm:text-xs ${
-                        step.isActive
-                          ? 'border-cyan-200/60 bg-cyan-200 text-slate-950'
-                          : 'border-white/10 bg-slate-950/50 text-slate-400'
-                      }`}
-                    >
-                      <span className={`h-2 w-2 rounded-full ${step.isActive ? 'bg-slate-950' : 'bg-slate-600'}`} />
-                      <span className="truncate">{step.value || step.label}</span>
-                    </span>
-                    {index < routeSteps.length - 1 && (
-                      <span className="text-cyan-100/50">→</span>
-                    )}
-                  </div>
-                ))}
-              </div>
+              {currentRegion ? (
+                <div className="mt-3 flex flex-wrap items-center gap-2">
+                  {recommendedRouteSteps.map((step, index) => (
+                    <div key={`${step.id}-${index}`} className="flex min-w-0 items-center gap-2">
+                      <span
+                        className={`gsap-route-step inline-flex max-w-full items-center gap-2 rounded-full border px-3 py-1.5 text-[0.68rem] font-black uppercase tracking-[0.12em] shadow-lg shadow-black/15 transition-colors duration-300 sm:text-xs ${
+                          step.isRegion
+                            ? 'border-cyan-200/70 bg-cyan-200 text-slate-950'
+                            : step.isActive
+                              ? 'border-rose-200/70 bg-rose-200 text-slate-950'
+                              : 'border-white/10 bg-slate-950/50 text-slate-300'
+                        }`}
+                      >
+                        <span className={`h-2 w-2 rounded-full ${step.isRegion || step.isActive ? 'bg-slate-950' : 'bg-slate-600'}`} />
+                        <span className="truncate">{step.value}</span>
+                      </span>
+                      {index < recommendedRouteSteps.length - 1 && (
+                        <span className="text-cyan-100/50">→</span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="mt-3 rounded-2xl border border-white/10 bg-slate-950/45 px-3 py-2 text-xs font-bold uppercase tracking-[0.12em] text-slate-400">
+                  Selecciona una región para ver su ruta completa.
+                </div>
+              )}
             </div>
             <div className="rounded-2xl border border-rose-300/30 bg-rose-300/10 p-3 sm:p-4">
               <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-rose-100 sm:text-xs sm:tracking-[0.2em]">{t.teamLabel}</p>
