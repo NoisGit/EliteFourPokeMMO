@@ -2,20 +2,70 @@
   "id": "lucario",
   "name": "Lucario",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Trampa Rocas",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "A Bocajarro → Cambia a Slowbro y usa Bostezo frente Electivire, sacrifica a Politoed, entra Poliwrath +6 🚨(Si no Pusiste Trampa Rocas mira la solucion⬇️)🚨",
+      "detail": "Si usa A Bocajarro.",
       "variant": [
         {
-          "detail": "☠️Mueres por Critico y no hay Trampa Rocas☠️ → Gengar usa Bola sombra, luego cambia a Slowbro y usa Bostezo para recuper el control de la partida",
-          "variant": []
-        }   
-      ]    
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Electivire.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🚨 Si no pusiste 🪨 Trampa Rocas 🪨, sigue la variante de control. 🚨",
+                      "variant": [
+                        {
+                          "detail": "Si pierdes a Chansey por crítico y no hay 🪨 Trampa Rocas 🪨.",
+                          "variant": [
+                            {
+                              "detail": "Gengar usa Bola Sombra.",
+                              "variant": [
+                                {
+                                  "detail": "Luego cambia a Slowbro y usa Bostezo para recuperar el control de la partida.",
+                                  "variant": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Arcanine → Cambia a Slowbro y usa Bostezo frente a Ampharos/Hydreigon, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Steelix/Ampharos)🔔",
-      "variant": []
+      "detail": "Si sale Arcanine.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Ampharos o Hydreigon.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
