@@ -26,6 +26,25 @@ const prefersReducedMotion = () => (
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 )
 
+const updateGuideSearchParams = (paramsToSet: Record<string, string | null>) => {
+  if (typeof window === 'undefined') return
+
+  const searchParams = new URLSearchParams(window.location.search)
+
+  Object.entries(paramsToSet).forEach(([key, value]) => {
+    if (!value) {
+      searchParams.delete(key)
+      return
+    }
+
+    searchParams.set(key, value)
+  })
+
+  const queryString = searchParams.toString()
+  const nextUrl = `${window.location.pathname}${queryString ? `?${queryString}` : ''}${window.location.hash}`
+  window.history.replaceState(null, '', nextUrl)
+}
+
 export default function PokemonGuide() {
   const [expandedRegion, setExpandedRegion] = useState<string | null>(null)
   const [expandedLeader, setExpandedLeader] = useState<string | null>(null)
@@ -37,6 +56,7 @@ export default function PokemonGuide() {
   const [isLightMode, setIsLightMode] = useState(false)
   const [regions, setRegions] = useState<Region[]>([])
   const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
+  const hasAppliedInitialUrlRef = useRef(false)
   const pageRef = useRef<HTMLDivElement | null>(null)
   const strategyDetailsRef = useRef<HTMLDivElement | null>(null)
   const teamModalRef = useRef<HTMLDivElement | null>(null)
@@ -122,6 +142,36 @@ export default function PokemonGuide() {
 
     loadPokemonData()
   }, [regions, pokemonDataLoaded])
+
+  useEffect(() => {
+    if (!pokemonDataLoaded || hasAppliedInitialUrlRef.current) return
+
+    const searchParams = new URLSearchParams(window.location.search)
+    const regionId = searchParams.get('region')
+    const leaderId = searchParams.get('leader')
+    const pokemonId = searchParams.get('pokemon')
+
+    if (!regionId) {
+      hasAppliedInitialUrlRef.current = true
+      return
+    }
+
+    const linkedRegion = regions.find((region) => region.id === regionId)
+    if (!linkedRegion) {
+      hasAppliedInitialUrlRef.current = true
+      return
+    }
+
+    const linkedLeader = linkedRegion.leaders.find((leader) => leader.id === leaderId)
+    const linkedPokemon = linkedLeader?.pokemons.find((pokemon) => (
+      pokemon.id === pokemonId || pokemon.name.toLowerCase() === pokemonId?.toLowerCase()
+    ))
+
+    setExpandedRegion(linkedRegion.id)
+    setExpandedLeader(linkedLeader?.id || null)
+    setSelectedPokemon(linkedPokemon || null)
+    hasAppliedInitialUrlRef.current = true
+  }, [pokemonDataLoaded, regions])
 
   useEffect(() => {
     if (!pokemonDataLoaded || prefersReducedMotion()) return
@@ -427,27 +477,38 @@ export default function PokemonGuide() {
       setExpandedRegion(null)
       setExpandedLeader(null)
       setSelectedPokemon(null)
+      updateGuideSearchParams({ region: null, leader: null, pokemon: null })
       return
     }
 
     setExpandedRegion(regionId)
     setExpandedLeader(null)
     setSelectedPokemon(null)
+    updateGuideSearchParams({ region: regionId, leader: null, pokemon: null })
   }
 
   const handleLeaderClick = (leaderId: string) => {
     if (expandedLeader === leaderId) {
       setExpandedLeader(null)
       setSelectedPokemon(null)
+      updateGuideSearchParams({ region: expandedRegion, leader: null, pokemon: null })
       return
     }
 
     setExpandedLeader(leaderId)
     setSelectedPokemon(null)
+    updateGuideSearchParams({ region: expandedRegion, leader: leaderId, pokemon: null })
   }
 
   const handlePokemonClick = (pokemon: Pokemon) => {
-    setSelectedPokemon(selectedPokemon?.id === pokemon.id ? null : pokemon)
+    if (selectedPokemon?.id === pokemon.id) {
+      setSelectedPokemon(null)
+      updateGuideSearchParams({ region: expandedRegion, leader: expandedLeader, pokemon: null })
+      return
+    }
+
+    setSelectedPokemon(pokemon)
+    updateGuideSearchParams({ region: expandedRegion, leader: expandedLeader, pokemon: pokemon.id })
   }
 
   return (
@@ -489,7 +550,7 @@ export default function PokemonGuide() {
               aria-label={isLightMode ? 'Activar modo oscuro' : 'Activar modo claro'}
               className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-slate-100 shadow-lg shadow-black/10 backdrop-blur-md transition-all duration-300 hover:bg-white/20 active:scale-95 sm:h-11 sm:w-11"
             >
-              {isLightMode ? <Moon className="h-4.5 w-4.5 sm:h-5 sm:w-5" /> : <Sun className="h-4.5 w-4.5 sm:h-5 sm:w-5" />}
+              {isLightMode ? <Moon className="h-[1.125rem] w-[1.125rem] sm:h-5 sm:w-5" /> : <Sun className="h-[1.125rem] w-[1.125rem] sm:h-5 sm:w-5" />}
             </button>
           </div>
 
