@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react"
+import { ChevronDown, ChevronUp, ExternalLink, Moon, Sun } from "lucide-react"
 import { gsap } from "gsap"
 
 import type { Pokemon } from "../interfaces/Pokemon"
@@ -16,6 +16,7 @@ import { PokemonCard } from "./PokemonCard"
 import { PokemonDetails } from "./PokemonDetails"
 
 const TEAM_PASTE_URL = 'https://pokepast.es/e356ee22f26cf6dc'
+const THEME_STORAGE_KEY = 'elitefour-pokemmo-theme'
 const LANGUAGE_OPTIONS: Array<{ value: Language; label: string }> = [
   { value: 'es', label: 'ES' },
   { value: 'en', label: 'EN' },
@@ -33,6 +34,7 @@ export default function PokemonGuide() {
   const [showTeamModal, setShowTeamModal] = useState(false)
   const [isTeamModalClosing, setIsTeamModalClosing] = useState(false)
   const [language, setLanguage] = useState<Language>('es')
+  const [isLightMode, setIsLightMode] = useState(false)
   const [regions, setRegions] = useState<Region[]>([])
   const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
   const pageRef = useRef<HTMLDivElement | null>(null)
@@ -43,6 +45,15 @@ export default function PokemonGuide() {
   const currentRegion = regions.find((region) => region.id === expandedRegion)
   const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
   const currentLeaderPokemons = currentLeader?.pokemons || []
+
+  useEffect(() => {
+    const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY)
+    setIsLightMode(savedTheme === 'light')
+  }, [])
+
+  useEffect(() => {
+    window.localStorage.setItem(THEME_STORAGE_KEY, isLightMode ? 'light' : 'dark')
+  }, [isLightMode])
 
   useEffect(() => {
     const loadRegionConfig = async () => {
@@ -440,34 +451,17 @@ export default function PokemonGuide() {
   }
 
   return (
-    <div ref={pageRef} className="min-h-screen overflow-x-hidden bg-[#0b1020] text-slate-50">
-      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.28),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(34,211,238,0.22),_transparent_30%),linear-gradient(135deg,_#070b18_0%,_#111827_45%,_#21174c_100%)]" />
-      <div className="gsap-orb gsap-orb-primary pointer-events-none fixed -left-16 top-20 h-56 w-56 rounded-full bg-cyan-300/18 blur-2xl will-change-transform sm:h-72 sm:w-72" />
-      <div className="gsap-orb gsap-orb-secondary pointer-events-none fixed -right-16 top-56 h-60 w-60 rounded-full bg-rose-400/18 blur-2xl will-change-transform sm:h-72 sm:w-72" />
-      <div className="gsap-orb gsap-orb-tertiary pointer-events-none fixed bottom-8 left-1/3 h-56 w-56 rounded-full bg-violet-400/14 blur-2xl will-change-transform sm:h-72 sm:w-72" />
+    <div ref={pageRef} className={`min-h-screen overflow-x-hidden text-slate-50 transition-colors duration-500 ${isLightMode ? 'theme-light bg-[#f5ecdd]' : 'bg-[#0b1020]'}`}>
+      <div className={`pointer-events-none fixed inset-0 transition-opacity duration-500 ${isLightMode ? 'bg-[radial-gradient(circle_at_top_left,_rgba(251,146,60,0.18),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(56,189,248,0.18),_transparent_30%),linear-gradient(135deg,_#fff7ed_0%,_#f8e8d4_45%,_#ede9fe_100%)]' : 'bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.28),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(34,211,238,0.22),_transparent_30%),linear-gradient(135deg,_#070b18_0%,_#111827_45%,_#21174c_100%)]'}`} />
+      <div className={`gsap-orb gsap-orb-primary pointer-events-none fixed -left-16 top-20 h-56 w-56 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-sky-300/30' : 'bg-cyan-300/18'}`} />
+      <div className={`gsap-orb gsap-orb-secondary pointer-events-none fixed -right-16 top-56 h-60 w-60 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-orange-300/25' : 'bg-rose-400/18'}`} />
+      <div className={`gsap-orb gsap-orb-tertiary pointer-events-none fixed bottom-8 left-1/3 h-56 w-56 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-violet-300/25' : 'bg-violet-400/14'}`} />
 
       <main className="relative mx-auto min-h-screen w-full max-w-6xl px-3 py-3 sm:px-5 sm:py-6 lg:px-8">
-        <section className="gsap-hero mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 shadow-2xl shadow-black/40 backdrop-blur-xl will-change-transform sm:mb-7 sm:rounded-[2rem] sm:p-6 lg:p-8">
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-            <div className="min-w-0 max-w-3xl">
-              <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs sm:tracking-[0.24em]">
-                PokeMMO Elite Four
-              </span>
-              <h1 className="sr-only">{t.title}</h1>
-              <div className="flex w-full justify-start">
-                <img
-                  src={leagueFarmBanner}
-                  alt={t.title}
-                  className="gsap-banner-image h-auto w-full max-w-[34rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] will-change-transform sm:max-w-[40rem]"
-                />
-              </div>
-              <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:mt-4 sm:text-base">
-                {t.subtitle}
-              </p>
-            </div>
-
-            <div className="flex w-full max-w-[12.5rem] items-center justify-between gap-2 self-start rounded-full border border-white/15 bg-white/10 px-2 py-1.5 backdrop-blur-md sm:w-auto sm:max-w-none">
-              <span className="pl-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:text-[0.68rem]">
+        <section className="gsap-hero relative mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 pt-20 shadow-2xl shadow-black/40 backdrop-blur-xl will-change-transform sm:mb-7 sm:rounded-[2rem] sm:p-6 sm:pt-20 lg:p-8 lg:pt-8">
+          <div className="absolute right-3 top-3 z-20 flex items-center gap-2 sm:right-5 sm:top-5">
+            <div className="flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-2 py-1.5 shadow-lg shadow-black/10 backdrop-blur-md">
+              <span className="hidden pl-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:block sm:text-[0.68rem]">
                 {t.languageLabel}
               </span>
               <div className="flex rounded-full bg-slate-950/65 p-0.5">
@@ -487,6 +481,34 @@ export default function PokemonGuide() {
                   </button>
                 ))}
               </div>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setIsLightMode(!isLightMode)}
+              aria-label={isLightMode ? 'Activar modo oscuro' : 'Activar modo claro'}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-slate-100 shadow-lg shadow-black/10 backdrop-blur-md transition-all duration-300 hover:bg-white/20 active:scale-95"
+            >
+              {isLightMode ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+            <div className="min-w-0 max-w-3xl">
+              <span className="mb-3 inline-flex max-w-full rounded-full border border-cyan-200/40 bg-cyan-300/15 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-cyan-100 sm:text-xs sm:tracking-[0.24em]">
+                PokeMMO Elite Four
+              </span>
+              <h1 className="sr-only">{t.title}</h1>
+              <div className="flex w-full justify-start">
+                <img
+                  src={leagueFarmBanner}
+                  alt={t.title}
+                  className="gsap-banner-image h-auto w-full max-w-[34rem] object-contain drop-shadow-[0_18px_35px_rgba(8,13,31,0.55)] will-change-transform sm:max-w-[40rem]"
+                />
+              </div>
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:mt-4 sm:text-base">
+                {t.subtitle}
+              </p>
             </div>
           </div>
 
