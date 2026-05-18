@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import { ChevronDown, ChevronUp, ExternalLink, Maximize2, Minimize2, Moon, Sun } from "lucide-react"
+import { ChevronDown, ChevronUp, ExternalLink, Moon, Sun } from "lucide-react"
 import { gsap } from "gsap"
 
 import type { Pokemon } from "../interfaces/Pokemon"
@@ -17,7 +17,6 @@ import { PokemonDetails } from "./PokemonDetails"
 
 const TEAM_PASTE_URL = 'https://pokepast.es/e356ee22f26cf6dc'
 const THEME_STORAGE_KEY = 'elitefour-pokemmo-theme'
-const STREAM_MODE_STORAGE_KEY = 'elitefour-pokemmo-stream-mode'
 const LANGUAGE_OPTIONS: Array<{ value: Language; label: string }> = [
   { value: 'es', label: 'ES' },
   { value: 'en', label: 'EN' },
@@ -36,7 +35,6 @@ export default function PokemonGuide() {
   const [isTeamModalClosing, setIsTeamModalClosing] = useState(false)
   const [language, setLanguage] = useState<Language>('es')
   const [isLightMode, setIsLightMode] = useState(false)
-  const [isStreamMode, setIsStreamMode] = useState(false)
   const [regions, setRegions] = useState<Region[]>([])
   const [pokemonDataLoaded, setPokemonDataLoaded] = useState(false)
   const pageRef = useRef<HTMLDivElement | null>(null)
@@ -50,18 +48,12 @@ export default function PokemonGuide() {
 
   useEffect(() => {
     const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY)
-    const savedStreamMode = window.localStorage.getItem(STREAM_MODE_STORAGE_KEY)
     setIsLightMode(savedTheme === 'light')
-    setIsStreamMode(savedStreamMode === 'enabled')
   }, [])
 
   useEffect(() => {
     window.localStorage.setItem(THEME_STORAGE_KEY, isLightMode ? 'light' : 'dark')
   }, [isLightMode])
-
-  useEffect(() => {
-    window.localStorage.setItem(STREAM_MODE_STORAGE_KEY, isStreamMode ? 'enabled' : 'disabled')
-  }, [isStreamMode])
 
   useEffect(() => {
     const loadRegionConfig = async () => {
@@ -459,15 +451,15 @@ export default function PokemonGuide() {
   }
 
   return (
-    <div ref={pageRef} className={`min-h-screen overflow-x-hidden text-slate-50 transition-colors duration-500 ${isLightMode ? 'theme-light bg-[#f5ecdd]' : 'bg-[#0b1020]'} ${isStreamMode ? 'stream-mode' : ''}`}>
+    <div ref={pageRef} className={`min-h-screen overflow-x-hidden text-slate-50 transition-colors duration-500 ${isLightMode ? 'theme-light bg-[#f5ecdd]' : 'bg-[#0b1020]'}`}>
       <div className={`pointer-events-none fixed inset-0 transition-opacity duration-500 ${isLightMode ? 'bg-[radial-gradient(circle_at_top_left,_rgba(251,146,60,0.18),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(56,189,248,0.18),_transparent_30%),linear-gradient(135deg,_#fff7ed_0%,_#f8e8d4_45%,_#ede9fe_100%)]' : 'bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.28),_transparent_34%),radial-gradient(circle_at_top_right,_rgba(34,211,238,0.22),_transparent_30%),linear-gradient(135deg,_#070b18_0%,_#111827_45%,_#21174c_100%)]'}`} />
       <div className={`gsap-orb gsap-orb-primary pointer-events-none fixed -left-16 top-20 h-56 w-56 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-sky-300/30' : 'bg-cyan-300/18'}`} />
       <div className={`gsap-orb gsap-orb-secondary pointer-events-none fixed -right-16 top-56 h-60 w-60 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-orange-300/25' : 'bg-rose-400/18'}`} />
       <div className={`gsap-orb gsap-orb-tertiary pointer-events-none fixed bottom-8 left-1/3 h-56 w-56 rounded-full blur-2xl will-change-transform sm:h-72 sm:w-72 ${isLightMode ? 'bg-violet-300/25' : 'bg-violet-400/14'}`} />
 
-      <main className={`relative mx-auto min-h-screen w-full px-3 py-3 transition-[max-width] duration-300 sm:px-5 sm:py-6 lg:px-8 ${isStreamMode ? 'max-w-7xl' : 'max-w-6xl'}`}>
+      <main className="relative mx-auto min-h-screen w-full max-w-6xl px-3 py-3 sm:px-5 sm:py-6 lg:px-8">
         <section className="gsap-hero relative mb-4 overflow-hidden rounded-2xl border border-white/15 bg-slate-950/70 p-4 pt-20 shadow-2xl shadow-black/40 backdrop-blur-xl will-change-transform sm:mb-7 sm:rounded-[2rem] sm:p-6 sm:pt-20 lg:p-8 lg:pt-8">
-          <div className="absolute right-3 top-3 z-20 flex flex-wrap items-center justify-end gap-2 sm:right-5 sm:top-5">
+          <div className="absolute right-3 top-3 z-20 flex items-center gap-2 sm:right-5 sm:top-5">
             <div className="flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-2 py-1.5 shadow-lg shadow-black/10 backdrop-blur-md">
               <span className="hidden pl-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:block sm:text-[0.68rem]">
                 {t.languageLabel}
@@ -490,20 +482,6 @@ export default function PokemonGuide() {
                 ))}
               </div>
             </div>
-
-            <button
-              type="button"
-              onClick={() => setIsStreamMode(!isStreamMode)}
-              aria-label={isStreamMode ? 'Desactivar modo stream' : 'Activar modo stream'}
-              className={`inline-flex h-11 items-center justify-center gap-2 rounded-full border px-3 text-xs font-black uppercase tracking-[0.12em] shadow-lg shadow-black/10 backdrop-blur-md transition-all duration-300 active:scale-95 ${
-                isStreamMode
-                  ? 'border-amber-200/70 bg-amber-200 text-slate-950'
-                  : 'border-white/15 bg-white/10 text-slate-100 hover:bg-white/20'
-              }`}
-            >
-              {isStreamMode ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
-              <span className="hidden sm:inline">Stream</span>
-            </button>
 
             <button
               type="button"
@@ -533,12 +511,6 @@ export default function PokemonGuide() {
               </p>
             </div>
           </div>
-
-          {isStreamMode && (
-            <div className="mt-4 rounded-2xl border border-amber-200/40 bg-amber-200/10 px-4 py-3 text-sm font-bold leading-6 text-amber-100 animate-in slide-in-from-top duration-300">
-              Modo Stream activo: lectura más grande, más espacio para estrategias y controles pensados para jugar mirando la guía.
-            </div>
-          )}
 
           <div className="mt-4 grid gap-2 sm:mt-5 sm:grid-cols-2 sm:gap-3">
             <div className="overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10 p-3 sm:p-4">
