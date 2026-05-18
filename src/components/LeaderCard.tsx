@@ -22,8 +22,8 @@ export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => 
     if (prefersReducedMotion()) return
 
     gsap.to(cardRef.current, {
-      y: isHovering ? -8 : 0,
-      scale: isHovering ? 1.025 : 1,
+      y: isHovering ? -6 : 0,
+      scale: isHovering ? 1.018 : 1,
       duration: 0.22,
       ease: 'power2.out',
       force3D: true,
@@ -31,8 +31,8 @@ export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => 
     })
 
     gsap.to(imageRef.current, {
-      y: isHovering ? -5 : 0,
-      scale: isHovering ? 1.08 : 1,
+      y: isHovering ? -3 : 0,
+      scale: isHovering ? 1.035 : 1,
       duration: 0.26,
       ease: 'power2.out',
       force3D: true,
@@ -56,7 +56,7 @@ export const LeaderCard = ({ leader, isExpanded, onClick }: LeaderCardProps) => 
       onBlur={() => animateCard(false)}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-rose-400/25 via-transparent to-cyan-300/15 opacity-80 transition-opacity duration-300 group-hover:opacity-100" />
-      <div className="relative flex h-24 items-center justify-center overflow-hidden rounded-lg bg-black/20 min-[420px]:h-28 sm:h-32 lg:h-36">
+      <div className="relative flex h-28 items-center justify-center rounded-lg bg-black/20 p-2 min-[420px]:h-32 sm:h-36 sm:p-3 lg:h-40">
         <img
           ref={imageRef}
           src={leaderImage}
