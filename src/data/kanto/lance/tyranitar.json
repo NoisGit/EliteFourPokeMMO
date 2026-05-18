@@ -2,15 +2,55 @@
   "id": "tyranitar",
   "name": "Tyranitar",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Cambia a Slowbro y usa Bostezo frente a Eelektross/Metagross, cambia a Chansey y pon Trampa Rocas",
+  "initialMove": "Cambia a Slowbro.",
   "tricks": [
     {
-      "detail": "Metagross → Usa Teletransporte, saca a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar → Cambiar a Gengar y usa Maquinacion luego Barre 🔔(Onda certera contra Tyranitar y Bola sombra contra los demas)🔔",
-      "variant": []
+      "detail": "Usa Bostezo frente a Eelektross o Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Chansey y usa 🪨 Trampa Rocas 🪨.",
+          "variant": [
+            {
+              "detail": "Si sale Metagross.",
+              "variant": [
+                {
+                  "detail": "Usa Teletransporte y entra con Slowbro.",
+                  "variant": [
+                    {
+                      "detail": "Slowbro usa Bostezo.",
+                      "variant": [
+                        {
+                          "detail": "Entra Politoed como pivote.",
+                          "variant": [
+                            {
+                              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                              "variant": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "detail": "Si sale Tyranitar.",
+              "variant": [
+                {
+                  "detail": "Cambia a Gengar y usa Maquinación.",
+                  "variant": [
+                    {
+                      "detail": "Barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
