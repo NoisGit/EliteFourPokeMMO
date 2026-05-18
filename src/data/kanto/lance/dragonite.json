@@ -2,50 +2,215 @@
   "id": "dragonite_8",
   "name": "Dragonite",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Si se queda → No sucede esto",
-      "variant": []
-    },
-    {
-      "detail": "Tyranitar → Cambia a Gengar y usa Maquinacion luego Barre (No Otra Vez) 🔔(Onda Certera contra Tyranitar y Bolsa sombra contra los demas)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Lucario → Cambia a Slowbro y usa Bostezo frente a Electivire, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Scizor → Cambia a Slowbro y usa Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Metagross → Cambia a Volcarona frente a Aerodactyl, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Aerodactyl y Cascada contra Steelix)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Infernape → Cambia a Slowbro (Mantenerlo), Bostezo frente a Dragonite, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
-    },
-    {
-      "detail": "Arcanine → Cambia a Slowbro, Bostezo frente a Ampharos/Hydreigon, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Steelix/Ampharos)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Haxorus → Cambia a Slowbro, Bostezo frente a Ampharos, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
-      "variant": []
-    },
-    {
-      "detail": "Feraligatr → ⬇️Opciones Para Resolver⬇️",
+      "detail": "Si Dragonite se queda.",
       "variant": [
         {
-          "detail": "✅Segura✅ → Cambia a Volcarona luego a Slowbro, Bostezo, sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
+          "detail": "No sucede esto.",
           "variant": []
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Tyranitar.",
+      "variant": [
+        {
+          "detail": "Cambia a Gengar y usa Maquinación.",
+          "variant": [
+            {
+              "detail": "No uses Otra Vez.",
+              "variant": [
+                {
+                  "detail": "Barre con Onda Certera contra Tyranitar y Bola Sombra contra los demás.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Lucario.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Electivire.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Scizor.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Metagross.",
+      "variant": [
+        {
+          "detail": "Cambia a Volcarona frente a Aerodactyl.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Aerodactyl y Cascada contra Steelix. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Infernape.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y mantenlo en campo.",
+          "variant": [
+            {
+              "detail": "Usa Bostezo frente a Dragonite.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Arcanine.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Ampharos o Hydreigon.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Steelix o Ampharos. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Haxorus.",
+      "variant": [
+        {
+          "detail": "Cambia a Slowbro y usa Bostezo frente a Ampharos.",
+          "variant": [
+            {
+              "detail": "Entra Politoed como pivote.",
+              "variant": [
+                {
+                  "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                  "variant": [
+                    {
+                      "detail": "🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detail": "Si sale Feraligatr.",
+      "variant": [
+        {
+          "detail": "✅ Ruta segura: cambia a Volcarona y luego a Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "detail": "🍀Suerte🍀 → Sacrifica a Politoed, entra Poliwrath +6 🔔(Puño drenaje contra Ampharos/Metagross)🔔",
-          "variant": []
+          "detail": "🍀 Ruta suerte: entra Politoed como pivote.",
+          "variant": [
+            {
+              "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+              "variant": [
+                {
+                  "detail": "🔔 Usa Puño Drenaje contra Ampharos o Metagross. 🔔",
+                  "variant": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
