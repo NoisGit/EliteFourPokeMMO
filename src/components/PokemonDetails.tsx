@@ -1,4 +1,4 @@
-import type { Pokemon, Tricks } from '../interfaces/Pokemon'
+import type { Pokemon } from '../interfaces/Pokemon'
 import type { Language, TranslationLabels } from '../i18n/translations'
 import { translateFullStrategyText } from '../utils/fullStrategyTranslations'
 import { formatStrategyText, translateStrategyText } from '../utils/strategyText'
@@ -10,16 +10,10 @@ interface PokemonDetailsProps {
   labels: TranslationLabels
 }
 
-const countStrategySteps = (tricks: Tricks[] = []): number => (
-  tricks.reduce((total, trick) => total + 1 + countStrategySteps(trick.variant || []), 0)
-)
-
 export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProps) => {
   const initialMove = formatStrategyText(
     translateStrategyText(translateFullStrategyText(pokemon.initialMove, language), language),
   )
-  const mainRoutes = pokemon.tricks?.length || 0
-  const totalSteps = countStrategySteps(pokemon.tricks || [])
 
   return (
     <section className="animate-in slide-in-from-bottom duration-300 overflow-hidden rounded-[1.5rem] border border-cyan-200/20 bg-slate-950/75 shadow-2xl shadow-black/40 backdrop-blur-xl sm:rounded-[2rem]">
@@ -36,6 +30,9 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
               <span className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-slate-300 sm:text-xs">
                 Turno inicial
               </span>
+              <span className="rounded-full border border-rose-200/30 bg-rose-300/10 px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.16em] text-rose-100 sm:text-xs">
+                {pokemon.name}
+              </span>
             </div>
 
             <div className="rounded-2xl border border-cyan-200/35 bg-cyan-200/10 p-3 sm:p-4">
@@ -47,21 +44,6 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
               </h3>
             </div>
           </div>
-
-          <aside className="grid min-w-0 gap-2 sm:grid-cols-3 lg:w-80 lg:grid-cols-1">
-            <div className="rounded-2xl border border-white/10 bg-white/5 px-3 py-3">
-              <span className="block text-[0.62rem] font-black uppercase tracking-[0.16em] text-slate-400 sm:text-xs">Matchup</span>
-              <span className="mt-1 block truncate text-lg font-black text-white sm:text-xl">{pokemon.name}</span>
-            </div>
-            <div className="rounded-2xl border border-rose-200/20 bg-rose-300/10 px-3 py-3">
-              <span className="block text-[0.62rem] font-black uppercase tracking-[0.16em] text-rose-100 sm:text-xs">Rutas principales</span>
-              <span className="mt-1 block text-lg font-black text-white sm:text-xl">{mainRoutes}</span>
-            </div>
-            <div className="rounded-2xl border border-amber-200/20 bg-amber-300/10 px-3 py-3">
-              <span className="block text-[0.62rem] font-black uppercase tracking-[0.16em] text-amber-100 sm:text-xs">Pasos totales</span>
-              <span className="mt-1 block text-lg font-black text-white sm:text-xl">{totalSteps}</span>
-            </div>
-          </aside>
         </div>
       </div>
 
@@ -87,7 +69,6 @@ export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProp
                 key={`${pokemon.id}-${index}`}
                 trick={trick}
                 language={language}
-                stepNumber={`${index + 1}`}
               />
             ))
           ) : (
