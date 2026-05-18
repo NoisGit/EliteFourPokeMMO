@@ -1,6 +1,6 @@
 import { ChevronRight, ChevronDown } from "lucide-react"
 import { useEffect, useState, type KeyboardEvent } from "react"
-import type { Language } from "../i18n/translations"
+import type { Language, TranslationLabels } from "../i18n/translations"
 import type { Tricks } from "../interfaces/Pokemon"
 import { translateFullStrategyText } from "../utils/fullStrategyTranslations"
 import { formatStrategyText, translateStrategyText } from "../utils/strategyText"
@@ -8,13 +8,14 @@ import { formatStrategyText, translateStrategyText } from "../utils/strategyText
 interface TrickItemProps {
   trick: Tricks
   language: Language
+  labels: TranslationLabels
   level?: number
 }
 
 const getToneClasses = (text: string, hasVariants: boolean) => {
   const normalizedText = text.toLowerCase()
 
-  if (normalizedText.includes('🚨') || normalizedText.includes('alerta') || normalizedText.includes('cuidado')) {
+  if (normalizedText.includes('🚨') || normalizedText.includes('alerta') || normalizedText.includes('cuidado') || normalizedText.includes('warning') || normalizedText.includes('careful')) {
     return {
       card: 'border-red-300/35 bg-red-400/15 hover:border-red-200/60 hover:bg-red-400/20',
       badge: 'border-red-200/50 bg-red-200 text-red-950',
@@ -22,7 +23,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('✅') || normalizedText.includes('segura') || normalizedText.includes('estable')) {
+  if (normalizedText.includes('✅') || normalizedText.includes('segura') || normalizedText.includes('estable') || normalizedText.includes('safe') || normalizedText.includes('stable')) {
     return {
       card: 'border-emerald-300/35 bg-emerald-400/15 hover:border-emerald-200/60 hover:bg-emerald-400/20',
       badge: 'border-emerald-200/50 bg-emerald-200 text-emerald-950',
@@ -30,7 +31,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('💰') || normalizedText.includes('ahorro')) {
+  if (normalizedText.includes('💰') || normalizedText.includes('ahorro') || normalizedText.includes('save money')) {
     return {
       card: 'border-amber-300/35 bg-amber-400/15 hover:border-amber-200/60 hover:bg-amber-400/20',
       badge: 'border-amber-200/50 bg-amber-200 text-amber-950',
@@ -38,7 +39,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('🍀') || normalizedText.includes('suerte')) {
+  if (normalizedText.includes('🍀') || normalizedText.includes('suerte') || normalizedText.includes('luck')) {
     return {
       card: 'border-lime-300/35 bg-lime-400/15 hover:border-lime-200/60 hover:bg-lime-400/20',
       badge: 'border-lime-200/50 bg-lime-200 text-lime-950',
@@ -46,7 +47,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('💊') || normalizedText.includes('ataque x') || normalizedText.includes('velocidad x') || normalizedText.includes('precisión x')) {
+  if (normalizedText.includes('💊') || normalizedText.includes('ataque x') || normalizedText.includes('velocidad x') || normalizedText.includes('precisión x') || normalizedText.includes('x speed') || normalizedText.includes('x accuracy') || normalizedText.includes('x sp. atk')) {
     return {
       card: 'border-violet-300/35 bg-violet-400/15 hover:border-violet-200/60 hover:bg-violet-400/20',
       badge: 'border-violet-200/50 bg-violet-200 text-violet-950',
@@ -69,7 +70,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
   }
 }
 
-export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
+export function TrickItem({ trick, language, labels, level = 0 }: TrickItemProps) {
   const variants = trick.variant || []
   const hasVariants = variants.length > 0
   const [isExpanded, setIsExpanded] = useState(false)
@@ -78,7 +79,7 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
   )
   const tone = getToneClasses(strategyText, hasVariants)
   const indentation = level > 0 ? `clamp(${level * 0.15}rem, ${level * 1.1}vw, ${level * 0.6}rem)` : undefined
-  const variantLabel = hasVariants ? 'Variante' : 'Final'
+  const variantLabel = hasVariants ? labels.variantLabel : labels.finalStepLabel
 
   useEffect(() => {
     setIsExpanded(false)
@@ -118,7 +119,7 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
           <div className="min-w-0 flex-1">
             <div className="mb-1 flex flex-wrap items-center gap-2">
               <span className="rounded-full border border-white/10 bg-slate-950/40 px-2 py-0.5 text-[0.58rem] font-black uppercase tracking-[0.12em] text-slate-300 sm:text-[0.65rem]">
-                {level === 0 ? 'Condición' : 'Paso dependiente'}
+                {level === 0 ? labels.conditionLabel : labels.dependentStepLabel}
               </span>
               <span className={`rounded-full border px-2 py-0.5 text-[0.58rem] font-black uppercase tracking-[0.12em] sm:text-[0.65rem] ${hasVariants ? tone.badge : 'border-white/10 bg-slate-950/40 text-slate-400'}`}>
                 {variantLabel}
@@ -148,6 +149,7 @@ export function TrickItem({ trick, language, level = 0 }: TrickItemProps) {
               key={`${variant.detail}-${index}`}
               trick={variant}
               language={language}
+              labels={labels}
               level={level + 1}
             />
           ))}
