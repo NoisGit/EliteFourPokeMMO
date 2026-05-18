@@ -2,15 +2,60 @@
   "id": "vaporeon",
   "name": "Vaporeon",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "🪨Trampa Rocas🪨",
+  "initialMove": "Usa 🪨 Trampa Rocas 🪨.",
   "tricks": [
     {
-      "detail": "Escaldar/Gyarados → Usa Teletransporte y saca a Slowbro, Bostezo + Proteccion + Bostezo, para forzar la salida de Magnezone, sacrifica a Poliwrath, 💊Volcarona +1 + Especial X💊 🔔(Gigadrenado contra Alakazam)🔔",
-      "variant": [] 
+      "detail": "Si usa Escaldar o sale Gyarados.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo, Protección y Bostezo para forzar la salida de Magnezone.",
+              "variant": [
+                {
+                  "detail": "Deja que Poliwrath quede debilitado.",
+                  "variant": [
+                    {
+                      "detail": "💊 Entra con Volcarona, usa Danza Aleteo x1 y Ataque Especial X. 💊",
+                      "variant": [
+                        {
+                          "detail": "🔔 Usa Gigadrenado contra Alakazam. 🔔",
+                          "variant": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "detail": "Machamp → Usa Teletransporte y saca a Slowbro, Bostezo frente a Vaporeon, sacrifica a Politoed, entra Poliwrath +6",
-      "variant": []
+      "detail": "Si sale Machamp.",
+      "variant": [
+        {
+          "detail": "Usa Teletransporte y entra con Slowbro.",
+          "variant": [
+            {
+              "detail": "Slowbro usa Bostezo frente a Vaporeon.",
+              "variant": [
+                {
+                  "detail": "Entra Politoed como pivote.",
+                  "variant": [
+                    {
+                      "detail": "Entra con Poliwrath 🐸🥊 para usar Tambor hasta +6 Ataque.",
+                      "variant": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
