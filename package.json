@@ -14,7 +14,9 @@
     "security:audit": "npm audit --audit-level=high",
     "data:en": "node scripts/generate-english-data.mjs",
     "preaudit:en": "npm run data:en",
-    "audit:en": "node scripts/audit-english-data.mjs"
+    "audit:en": "node scripts/audit-english-data.mjs",
+    "preaudit:en:strict": "npm run data:en",
+    "audit:en:strict": "AUDIT_EN_STRICT=true node scripts/audit-english-data.mjs"
   },
   "dependencies": {
     "gsap": "^3.15.0",
