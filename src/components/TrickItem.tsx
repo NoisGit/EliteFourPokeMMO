@@ -4,6 +4,7 @@ import type { Language, TranslationLabels } from "../i18n/translations"
 import type { Tricks } from "../interfaces/Pokemon"
 import { cleanEnglishStrategyText } from "../utils/englishStrategyCleanup"
 import { cleanHybridEnglishStrategyText } from "../utils/englishHybridCleanup"
+import { cleanSpanishTokensFromEnglishStrategyText } from "../utils/englishSpanishTokenCleanup"
 import { translateFullStrategyText } from "../utils/fullStrategyTranslations"
 import { formatStrategyText, translateStrategyText } from "../utils/strategyText"
 
@@ -77,9 +78,12 @@ export function TrickItem({ trick, language, labels, level = 0 }: TrickItemProps
   const hasVariants = variants.length > 0
   const [isExpanded, setIsExpanded] = useState(false)
   const strategyText = formatStrategyText(
-    cleanHybridEnglishStrategyText(
-      cleanEnglishStrategyText(
-        translateStrategyText(translateFullStrategyText(trick.detail, language), language),
+    cleanSpanishTokensFromEnglishStrategyText(
+      cleanHybridEnglishStrategyText(
+        cleanEnglishStrategyText(
+          translateStrategyText(translateFullStrategyText(trick.detail, language), language),
+          language,
+        ),
         language,
       ),
       language,
