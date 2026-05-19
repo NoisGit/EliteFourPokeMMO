@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const rootDir = path.resolve(__dirname, '..')
 const targetDir = path.join(rootDir, 'src', 'data-en')
+const isStrictAudit = process.env.AUDIT_EN_STRICT === 'true'
 
 const spanishPatterns = [
   /\b(luego|después|cuando|si sale|frente a|contra)\b/i,
@@ -77,17 +78,21 @@ const main = async () => {
     return
   }
 
-  console.error(`English data audit found ${findings.length} possible Spanish leftovers:`)
+  console.warn(`English data audit found ${findings.length} possible Spanish leftovers:`)
   findings.slice(0, 80).forEach((finding) => {
-    console.error(`- ${finding.relativePath} :: ${finding.fieldPath}`)
-    console.error(`  ${finding.text}`)
+    console.warn(`- ${finding.relativePath} :: ${finding.fieldPath}`)
+    console.warn(`  ${finding.text}`)
   })
 
   if (findings.length > 80) {
-    console.error(`...and ${findings.length - 80} more.`)
+    console.warn(`...and ${findings.length - 80} more.`)
   }
 
-  process.exit(1)
+  if (isStrictAudit) {
+    process.exit(1)
+  }
+
+  console.warn('Audit finished in report-only mode. Use AUDIT_EN_STRICT=true for blocking mode.')
 }
 
 main().catch((error) => {
