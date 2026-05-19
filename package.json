@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run data:en",
     "dev": "vite",
+    "prebuild": "npm run data:en",
     "build": "vite build",
     "typecheck": "tsc -b",
     "lint": "eslint .",
