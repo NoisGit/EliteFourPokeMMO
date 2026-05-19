@@ -9,7 +9,9 @@
     "typecheck": "tsc -b",
     "lint": "eslint .",
     "preview": "vite preview",
-    "security:audit": "npm audit --audit-level=high"
+    "security:audit": "npm audit --audit-level=high",
+    "data:en": "node scripts/generate-english-data.mjs",
+    "audit:en": "node scripts/audit-english-data.mjs"
   },
   "dependencies": {
     "gsap": "^3.15.0",
