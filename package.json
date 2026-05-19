@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "security:audit": "npm audit --audit-level=high",
     "data:en": "node scripts/generate-english-data.mjs",
+    "preaudit:en": "npm run data:en",
     "audit:en": "node scripts/audit-english-data.mjs"
   },
   "dependencies": {
