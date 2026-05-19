@@ -2,11 +2,7 @@ import { useState } from 'react'
 import { Check, Copy } from 'lucide-react'
 import type { Pokemon, Tricks } from '../interfaces/Pokemon'
 import type { Language, TranslationLabels } from '../i18n/translations'
-import { cleanEnglishStrategyText } from '../utils/englishStrategyCleanup'
-import { cleanHybridEnglishStrategyText } from '../utils/englishHybridCleanup'
-import { cleanSpanishTokensFromEnglishStrategyText } from '../utils/englishSpanishTokenCleanup'
-import { translateFullStrategyText } from '../utils/fullStrategyTranslations'
-import { formatStrategyText, translateStrategyText } from '../utils/strategyText'
+import { localizeStrategyText } from '../utils/strategyLocalization'
 import { TrickItem } from './TrickItem'
 
 interface PokemonDetailsProps {
@@ -15,23 +11,10 @@ interface PokemonDetailsProps {
   labels: TranslationLabels
 }
 
-const getStrategyText = (text: string, language: Language) => formatStrategyText(
-  cleanSpanishTokensFromEnglishStrategyText(
-    cleanHybridEnglishStrategyText(
-      cleanEnglishStrategyText(
-        translateStrategyText(translateFullStrategyText(text, language), language),
-        language,
-      ),
-      language,
-    ),
-    language,
-  ),
-)
-
 const buildStrategyTreeText = (tricks: Tricks[], language: Language, level = 0): string[] => (
   tricks.flatMap((trick) => {
     const indentation = '  '.repeat(level)
-    const currentLine = `${indentation}- ${getStrategyText(trick.detail, language)}`
+    const currentLine = `${indentation}- ${localizeStrategyText(trick.detail, language)}`
     const variantLines = trick.variant?.length
       ? buildStrategyTreeText(trick.variant, language, level + 1)
       : []
@@ -42,7 +25,7 @@ const buildStrategyTreeText = (tricks: Tricks[], language: Language, level = 0):
 
 export const PokemonDetails = ({ pokemon, language, labels }: PokemonDetailsProps) => {
   const [hasCopied, setHasCopied] = useState(false)
-  const initialMove = getStrategyText(pokemon.initialMove, language)
+  const initialMove = localizeStrategyText(pokemon.initialMove, language)
 
   const handleCopyStrategy = async () => {
     const strategyLines = buildStrategyTreeText(pokemon.tricks || [], language)
