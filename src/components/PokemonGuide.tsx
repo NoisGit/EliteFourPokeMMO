@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import { ChevronDown, ChevronUp, ExternalLink, Moon, Sun } from "lucide-react"
+import { ChevronDown, ChevronUp, Moon, Sun } from "lucide-react"
 import { gsap } from "gsap"
 
 import type { Pokemon } from "../interfaces/Pokemon"
@@ -8,6 +8,7 @@ import type { Language } from "../i18n/translations"
 
 import { translations } from "../i18n/translations"
 import leagueFarmBanner from "../assets/league-farm-banner.png"
+import recommendedTeamImage from "../assets/recommended-team.png"
 import { validatePokemonStrategy } from "../utils/strategyValidation"
 import { useDynamicImports } from "../hooks/useDynamicImports"
 import { RegionCard } from "./RegionCard"
@@ -15,7 +16,6 @@ import { LeaderCard } from "./LeaderCard"
 import { PokemonCard } from "./PokemonCard"
 import { PokemonDetails } from "./PokemonDetails"
 
-const TEAM_PASTE_URL = 'https://pokepast.es/e356ee22f26cf6dc'
 const THEME_STORAGE_KEY = 'elitefour-pokemmo-theme'
 const LANGUAGE_OPTIONS: Array<{ value: Language; label: string }> = [
   { value: 'es', label: 'ES' },
@@ -603,10 +603,9 @@ export default function PokemonGuide() {
                   <button
                     type="button"
                     onClick={() => setShowTeamModal(true)}
-                    className="inline-flex min-h-11 w-full flex-none items-center justify-center gap-2 rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
+                    className="inline-flex min-h-11 w-full flex-none items-center justify-center rounded-xl bg-rose-300 px-4 py-2 text-sm font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:w-auto"
                   >
                     {t.teamButton}
-                    <ExternalLink className="h-4 w-4" />
                   </button>
                 </div>
               </div>
@@ -718,35 +717,21 @@ export default function PokemonGuide() {
 
           <section className="gsap-team-modal relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border border-white/15 bg-slate-950 shadow-2xl shadow-black/60 will-change-transform sm:rounded-[2rem]">
             <div className="flex items-center justify-between gap-3 border-b border-white/10 bg-white/5 px-4 py-3 sm:px-5 sm:py-4">
-              <div className="min-w-0">
-                <p className="truncate text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
-                <p className="mt-0.5 truncate text-xs font-bold text-slate-400">{TEAM_PASTE_URL}</p>
-              </div>
-              <div className="flex flex-none items-center gap-2">
-                <a
-                  href={TEAM_PASTE_URL}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hidden items-center justify-center gap-2 rounded-xl bg-rose-300 px-3 py-2 text-xs font-black text-slate-950 transition-all duration-300 hover:bg-rose-200 active:scale-95 sm:inline-flex"
-                >
-                  {t.teamButton}
-                  <ExternalLink className="h-4 w-4" />
-                </a>
-                <button
-                  type="button"
-                  onClick={closeTeamModal}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-xl font-black leading-none text-white transition-all duration-300 hover:bg-white/20 active:scale-90"
-                >
-                  ×
-                </button>
-              </div>
+              <p className="truncate text-base font-black text-white sm:text-lg">{t.teamTitle}</p>
+              <button
+                type="button"
+                onClick={closeTeamModal}
+                className="inline-flex h-10 w-10 flex-none items-center justify-center rounded-full border border-white/15 bg-white/10 text-xl font-black leading-none text-white transition-all duration-300 hover:bg-white/20 active:scale-90"
+              >
+                ×
+              </button>
             </div>
 
-            <div className="h-[72vh] min-h-[26rem] bg-white">
-              <iframe
-                src={TEAM_PASTE_URL}
-                title={t.teamTitle}
-                className="h-full w-full border-0 bg-white"
+            <div className="max-h-[72vh] overflow-auto bg-slate-950/80 p-3 sm:p-5">
+              <img
+                src={recommendedTeamImage}
+                alt={t.teamTitle}
+                className="mx-auto h-auto max-h-[68vh] w-full max-w-4xl rounded-2xl object-contain shadow-2xl shadow-black/35"
               />
             </div>
           </section>
