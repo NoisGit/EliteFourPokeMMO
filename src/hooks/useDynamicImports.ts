@@ -36,7 +36,7 @@ export const useDynamicImports = () => {
    * @param language - Current language
    * @returns Array of file names
    */
-  const getPokemonFiles = async (regionId: string, leaderId: string, language: Language): Promise<string[]> => {
+  const getPokemonFiles = async (regionId: string, leaderId: string, language: Language = 'es'): Promise<string[]> => {
     try {
       const modules = getDataModules(language)
       const fallbackModules = getFallbackModules(language)
@@ -61,7 +61,7 @@ export const useDynamicImports = () => {
     }
   }
 
-  const getPokemonData = async (regionId: string, leaderId: string, fileName: string, language: Language) => {
+  const getPokemonData = async (regionId: string, leaderId: string, fileName: string, language: Language = 'es') => {
     const modules = getDataModules(language)
     const fallbackModules = getFallbackModules(language)
     const path = getDataPath(language, regionId, leaderId, fileName)
