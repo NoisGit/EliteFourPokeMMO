@@ -2,11 +2,7 @@ import { ChevronRight, ChevronDown } from "lucide-react"
 import { useEffect, useState, type KeyboardEvent } from "react"
 import type { Language, TranslationLabels } from "../i18n/translations"
 import type { Tricks } from "../interfaces/Pokemon"
-import { cleanEnglishStrategyText } from "../utils/englishStrategyCleanup"
-import { cleanHybridEnglishStrategyText } from "../utils/englishHybridCleanup"
-import { cleanSpanishTokensFromEnglishStrategyText } from "../utils/englishSpanishTokenCleanup"
-import { translateFullStrategyText } from "../utils/fullStrategyTranslations"
-import { formatStrategyText, translateStrategyText } from "../utils/strategyText"
+import { localizeStrategyText } from "../utils/strategyLocalization"
 
 interface TrickItemProps {
   trick: Tricks
@@ -18,7 +14,7 @@ interface TrickItemProps {
 const getToneClasses = (text: string, hasVariants: boolean) => {
   const normalizedText = text.toLowerCase()
 
-  if (normalizedText.includes('🚨') || normalizedText.includes('alerta') || normalizedText.includes('cuidado') || normalizedText.includes('warning') || normalizedText.includes('careful')) {
+  if (normalizedText.includes('🚨') || normalizedText.includes('warning') || normalizedText.includes('careful') || normalizedText.includes('cuidado')) {
     return {
       card: 'border-red-300/30 bg-red-400/10 hover:border-red-200/50 hover:bg-red-400/15',
       badge: 'text-red-100',
@@ -26,7 +22,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('✅') || normalizedText.includes('segura') || normalizedText.includes('estable') || normalizedText.includes('safe') || normalizedText.includes('stable')) {
+  if (normalizedText.includes('✅') || normalizedText.includes('safe') || normalizedText.includes('stable') || normalizedText.includes('segura') || normalizedText.includes('estable')) {
     return {
       card: 'border-emerald-300/30 bg-emerald-400/10 hover:border-emerald-200/50 hover:bg-emerald-400/15',
       badge: 'text-emerald-100',
@@ -34,7 +30,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('💰') || normalizedText.includes('ahorro') || normalizedText.includes('save money')) {
+  if (normalizedText.includes('💰') || normalizedText.includes('save money') || normalizedText.includes('ahorro')) {
     return {
       card: 'border-amber-300/30 bg-amber-400/10 hover:border-amber-200/50 hover:bg-amber-400/15',
       badge: 'text-amber-100',
@@ -42,7 +38,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('🍀') || normalizedText.includes('suerte') || normalizedText.includes('luck')) {
+  if (normalizedText.includes('🍀') || normalizedText.includes('luck') || normalizedText.includes('suerte')) {
     return {
       card: 'border-lime-300/30 bg-lime-400/10 hover:border-lime-200/50 hover:bg-lime-400/15',
       badge: 'text-lime-100',
@@ -50,7 +46,7 @@ const getToneClasses = (text: string, hasVariants: boolean) => {
     }
   }
 
-  if (normalizedText.includes('💊') || normalizedText.includes('ataque x') || normalizedText.includes('velocidad x') || normalizedText.includes('precisión x') || normalizedText.includes('x speed') || normalizedText.includes('x accuracy') || normalizedText.includes('x sp. atk')) {
+  if (normalizedText.includes('💊') || normalizedText.includes('x speed') || normalizedText.includes('x accuracy') || normalizedText.includes('x sp. atk') || normalizedText.includes('ataque x') || normalizedText.includes('velocidad x') || normalizedText.includes('precisión x')) {
     return {
       card: 'border-violet-300/30 bg-violet-400/10 hover:border-violet-200/50 hover:bg-violet-400/15',
       badge: 'text-violet-100',
@@ -77,18 +73,7 @@ export function TrickItem({ trick, language, labels, level = 0 }: TrickItemProps
   const variants = trick.variant || []
   const hasVariants = variants.length > 0
   const [isExpanded, setIsExpanded] = useState(false)
-  const strategyText = formatStrategyText(
-    cleanSpanishTokensFromEnglishStrategyText(
-      cleanHybridEnglishStrategyText(
-        cleanEnglishStrategyText(
-          translateStrategyText(translateFullStrategyText(trick.detail, language), language),
-          language,
-        ),
-        language,
-      ),
-      language,
-    ),
-  )
+  const strategyText = localizeStrategyText(trick.detail, language)
   const tone = getToneClasses(strategyText, hasVariants)
   const indentation = level > 0 ? `clamp(${level * 0.15}rem, ${level * 1.1}vw, ${level * 0.6}rem)` : undefined
 
@@ -112,9 +97,7 @@ export function TrickItem({ trick, language, labels, level = 0 }: TrickItemProps
   return (
     <div className="relative w-full min-w-0 overflow-hidden">
       <div
-        className={`group mb-2 rounded-2xl border p-3 transition-colors duration-300 will-change-transform sm:p-3.5 ${
-          hasVariants ? 'cursor-pointer' : ''
-        } ${tone.card}`}
+        className={`group mb-2 rounded-2xl border p-3 transition-colors duration-300 will-change-transform sm:p-3.5 ${hasVariants ? 'cursor-pointer' : ''} ${tone.card}`}
         style={{ marginLeft: indentation }}
         onClick={hasVariants ? toggleExpand : undefined}
         onKeyDown={handleKeyDown}
