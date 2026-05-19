@@ -4,6 +4,7 @@ import type { Pokemon, Tricks } from '../interfaces/Pokemon'
 import type { Language, TranslationLabels } from '../i18n/translations'
 import { cleanEnglishStrategyText } from '../utils/englishStrategyCleanup'
 import { cleanHybridEnglishStrategyText } from '../utils/englishHybridCleanup'
+import { cleanSpanishTokensFromEnglishStrategyText } from '../utils/englishSpanishTokenCleanup'
 import { translateFullStrategyText } from '../utils/fullStrategyTranslations'
 import { formatStrategyText, translateStrategyText } from '../utils/strategyText'
 import { TrickItem } from './TrickItem'
@@ -15,9 +16,12 @@ interface PokemonDetailsProps {
 }
 
 const getStrategyText = (text: string, language: Language) => formatStrategyText(
-  cleanHybridEnglishStrategyText(
-    cleanEnglishStrategyText(
-      translateStrategyText(translateFullStrategyText(text, language), language),
+  cleanSpanishTokensFromEnglishStrategyText(
+    cleanHybridEnglishStrategyText(
+      cleanEnglishStrategyText(
+        translateStrategyText(translateFullStrategyText(text, language), language),
+        language,
+      ),
       language,
     ),
     language,
