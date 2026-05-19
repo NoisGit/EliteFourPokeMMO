@@ -60,7 +60,7 @@ export default function PokemonGuide() {
   const pageRef = useRef<HTMLDivElement | null>(null)
   const strategyDetailsRef = useRef<HTMLDivElement | null>(null)
   const teamModalRef = useRef<HTMLDivElement | null>(null)
-  const { getPokemonFiles } = useDynamicImports()
+  const { getPokemonFiles, getPokemonData } = useDynamicImports()
   const t = translations[language]
   const currentRegion = regions.find((region) => region.id === expandedRegion)
   const currentLeader = currentRegion?.leaders.find((leader) => leader.id === expandedLeader)
@@ -89,6 +89,13 @@ export default function PokemonGuide() {
   }, [])
 
   useEffect(() => {
+    if (regions.length === 0) return
+
+    setPokemonDataLoaded(false)
+    setSelectedPokemon(null)
+  }, [language])
+
+  useEffect(() => {
     const loadPokemonData = async () => {
       if (regions.length === 0 || pokemonDataLoaded) return
 
@@ -99,13 +106,12 @@ export default function PokemonGuide() {
 
         for (const leader of region.leaders) {
           try {
-            const pokemonFiles = await getPokemonFiles(region.id, leader.id)
+            const pokemonFiles = await getPokemonFiles(region.id, leader.id, language)
             const pokemons = []
 
             for (const file of pokemonFiles) {
               try {
-                const module = await import(`../data/${region.id}/${leader.id}/${file.replace('.json', '')}.json`)
-                const data = module.default || module
+                const data = await getPokemonData(region.id, leader.id, file, language)
 
                 pokemons.push(validatePokemonStrategy(data, {
                   regionId: region.id,
@@ -141,7 +147,7 @@ export default function PokemonGuide() {
     }
 
     loadPokemonData()
-  }, [regions, pokemonDataLoaded])
+  }, [regions, pokemonDataLoaded, language])
 
   useEffect(() => {
     if (!pokemonDataLoaded || hasAppliedInitialUrlRef.current) return
