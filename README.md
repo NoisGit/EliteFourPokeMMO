@@ -5,15 +5,16 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-22c55e" alt="Version 1.0.0" />
   <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/GitHub%20Pages-live-222222?logo=githubpages&logoColor=white" alt="GitHub Pages" />
 </p>
 
-A visual guide for farming PokeMMO Elite Four rematches by region, trainer, and opposing Pokémon.
+Visual guide for farming PokeMMO Elite Four rematches by region, trainer, and opposing Pokémon.
 
-The project focuses on fast decision-making during battles: select a region, pick the Elite Four member or Champion, choose the opposing Pokémon, and follow the recommended strategy.
+**v1.0.0 is the stable Spanish portfolio release.** The app focuses on fast decision-making during battles: select a region, pick the Elite Four member or Champion, choose the opposing Pokémon, and follow the recommended strategy.
 
 ## Live demo
 
@@ -27,10 +28,18 @@ https://noisgit.github.io/EliteFourPokeMMO/
   </a>
 </p>
 
+## Release status
+
+```text
+Current release: v1.0.0
+Status: Stable portfolio version
+Language: Spanish
+```
+
 ## Features
 
 - Responsive interface built with React, TypeScript, Vite, and Tailwind CSS.
-- Spanish as the primary in-app language, with a cleaner English UI option.
+- Stable Spanish content for Elite Four farming routes.
 - Dynamic strategy loading from JSON files grouped by region and trainer.
 - Redesigned cards for regions, trainers, Pokémon, and strategy steps.
 - Pokémon HOME sprites with Scarlet/Violet, Gen 8, animated, and local fallbacks.
@@ -39,7 +48,8 @@ https://noisgit.github.io/EliteFourPokeMMO/
 - Copy strategy button for quickly sharing the selected route.
 - Dark and light theme support.
 - Pokéball-style entry intro shown once per browser session.
-- Team preview modal for the recommended team.
+- Team preview modal using a local image asset.
+- Mobile-first responsive polish with desktop spacing improvements.
 - Context-aware boost notes for common setup routes.
 - GitHub Pages deployment from the `main` branch.
 
@@ -131,11 +141,11 @@ https://noisgit.github.io/EliteFourPokeMMO/
 src/
   assets/          Local images and visual assets
   components/      UI components
-  data/            Strategy JSON files by region and trainer
+  data/            Spanish strategy JSON files by region and trainer
   hooks/           Dynamic data loading
-  i18n/            Spanish and English UI copy
+  i18n/            UI copy
   interfaces/      TypeScript interfaces
-  utils/           Sprite and strategy text helpers
+  utils/           Sprite and strategy helpers
 ```
 
 ## Strategy data structure
@@ -147,16 +157,16 @@ Strategies are stored as JSON files. Each Pokémon has a single opening action a
   "id": "slowbro",
   "name": "Slowbro",
   "image": "/placeholder.svg?height=80&width=80",
-  "initialMove": "Use Stealth Rock.",
+  "initialMove": "Usa Trampa Rocas.",
   "tricks": [
     {
-      "detail": "If Lucario comes in.",
+      "detail": "Si entra Lucario.",
       "variant": [
         {
-          "detail": "Switch to Gengar and use Encore.",
+          "detail": "Cambia a Gengar y usa Otra Vez.",
           "variant": [
             {
-              "detail": "Gengar uses Nasty Plot until +4 and X Speed for +2 Speed.",
+              "detail": "Gengar usa Maquinación hasta +4 y Velocidad X para +2 Velocidad.",
               "variant": []
             }
           ]
@@ -166,6 +176,10 @@ Strategies are stored as JSON files. Each Pokémon has a single opening action a
   ]
 }
 ```
+
+## English tooling note
+
+The public v1.0.0 release is Spanish-only. Experimental English generation scripts are kept in `scripts/` for future work, but they are not part of the public release flow.
 
 ## Development workflow
 
