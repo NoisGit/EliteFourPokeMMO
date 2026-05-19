@@ -1,0 +1,129 @@
+.gsap-team-modal {
+  max-width: min(98vw, 92rem) !important;
+  max-height: 96vh !important;
+  border-radius: 2rem !important;
+  overflow: hidden;
+}
+
+.gsap-team-modal::before,
+.gsap-team-modal::after {
+  pointer-events: none;
+  position: absolute;
+  content: "";
+  z-index: -1;
+  border-radius: 9999px;
+  filter: blur(2rem);
+  opacity: 0.78;
+}
+
+.gsap-team-modal::before {
+  right: -5rem;
+  top: -5rem;
+  width: 18rem;
+  height: 18rem;
+  background: rgba(244, 63, 94, 0.42);
+  animation: teamModalGlowOne 2.8s ease-in-out infinite alternate;
+}
+
+.gsap-team-modal::after {
+  bottom: -5rem;
+  left: -5rem;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(34, 211, 238, 0.36);
+  animation: teamModalGlowTwo 3.2s ease-in-out infinite alternate;
+}
+
+.gsap-team-modal > div:last-child {
+  max-height: 84vh !important;
+  padding: 0.75rem !important;
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.16), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(244, 63, 94, 0.14), transparent 22rem),
+    rgba(2, 6, 23, 0.92) !important;
+}
+
+.gsap-team-modal img {
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 81vh !important;
+  border-radius: 1.6rem !important;
+  animation: teamImageReveal 0.58s cubic-bezier(0.16, 1, 0.3, 1) both;
+  transform-origin: center;
+}
+
+.gsap-modal-backdrop {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(34, 211, 238, 0.18), transparent 24rem),
+    radial-gradient(circle at 78% 20%, rgba(244, 63, 94, 0.18), transparent 18rem),
+    rgba(2, 6, 23, 0.9) !important;
+}
+
+.theme-light .gsap-team-modal > div:last-child {
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.14), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(244, 63, 94, 0.12), transparent 22rem),
+    rgba(255, 251, 244, 0.94) !important;
+}
+
+@keyframes teamImageReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.72) rotateX(12deg) translateY(2rem);
+    filter: blur(0.55rem) saturate(1.35);
+  }
+  58% {
+    opacity: 1;
+    transform: scale(1.035) rotateX(0deg) translateY(-0.2rem);
+    filter: blur(0) saturate(1.18);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg) translateY(0);
+    filter: blur(0) saturate(1);
+  }
+}
+
+@keyframes teamModalGlowOne {
+  from {
+    transform: translate3d(0, 0, 0) scale(0.92);
+  }
+  to {
+    transform: translate3d(-1rem, 1rem, 0) scale(1.08);
+  }
+}
+
+@keyframes teamModalGlowTwo {
+  from {
+    transform: translate3d(0, 0, 0) scale(0.9);
+  }
+  to {
+    transform: translate3d(1.2rem, -0.8rem, 0) scale(1.1);
+  }
+}
+
+@media (max-width: 640px) {
+  .gsap-team-modal {
+    width: 98vw !important;
+    max-height: 94vh !important;
+    border-radius: 1.35rem !important;
+  }
+
+  .gsap-team-modal > div:last-child {
+    max-height: 82vh !important;
+    padding: 0.5rem !important;
+  }
+
+  .gsap-team-modal img {
+    max-height: 79vh !important;
+    border-radius: 1rem !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gsap-team-modal::before,
+  .gsap-team-modal::after,
+  .gsap-team-modal img {
+    animation: none !important;
+  }
+}
