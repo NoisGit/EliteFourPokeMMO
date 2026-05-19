@@ -1,0 +1,142 @@
+@media (min-width: 1024px) {
+  main {
+    max-width: min(94vw, 92rem) !important;
+    padding: 2rem 2.5rem 4rem !important;
+  }
+
+  .gsap-hero {
+    margin-bottom: 2.4rem !important;
+    padding: 2.6rem !important;
+    border-radius: 2.25rem !important;
+  }
+
+  .gsap-hero > div:first-child {
+    right: 1.8rem !important;
+    top: 1.8rem !important;
+  }
+
+  .gsap-hero .gsap-banner-image {
+    max-width: 46rem !important;
+  }
+
+  .gsap-hero p {
+    max-width: 46rem !important;
+  }
+
+  .gsap-hero > div:nth-of-type(2) {
+    gap: 2rem !important;
+  }
+
+  .gsap-hero .grid {
+    gap: 1.5rem !important;
+  }
+
+  .gsap-tips {
+    margin-bottom: 2.4rem !important;
+    padding: 1.35rem !important;
+    border-radius: 2rem !important;
+  }
+
+  .gsap-region-card,
+  .gsap-leader-card,
+  .gsap-pokemon-card {
+    min-height: 8.6rem;
+    border-radius: 1.45rem !important;
+    transition-duration: 220ms !important;
+    will-change: transform;
+    transform: translateZ(0);
+    contain: layout paint;
+  }
+
+  .gsap-region-card:hover,
+  .gsap-leader-card:hover,
+  .gsap-pokemon-card:hover {
+    transform: translate3d(0, -0.28rem, 0) scale(1.018) !important;
+  }
+
+  .gsap-pokemon-card {
+    min-height: 8.8rem;
+  }
+
+  section:has(.gsap-region-card),
+  section:has(.gsap-leader-card),
+  section:has(.gsap-pokemon-card) {
+    margin-bottom: 2.4rem !important;
+  }
+
+  section:has(.gsap-region-card) .grid,
+  section:has(.gsap-leader-card) .grid {
+    gap: 1.1rem !important;
+  }
+
+  section:has(.gsap-pokemon-card) .grid {
+    gap: 1rem !important;
+  }
+
+  section:has(.gsap-region-card) h2,
+  section:has(.gsap-leader-card) h2,
+  section:has(.gsap-pokemon-card) h2 {
+    margin-bottom: 1rem !important;
+  }
+
+  .gsap-orb {
+    opacity: 0.62 !important;
+    filter: blur(3rem) !important;
+  }
+
+  .gsap-highlight-card {
+    box-shadow: 0 1.6rem 4rem rgba(0, 0, 0, 0.22) !important;
+  }
+
+  .gsap-highlight-glow {
+    opacity: 0.42 !important;
+  }
+
+  [class*="rounded-[1.5rem]"][class*="border-cyan-200/20"] {
+    border-radius: 2.15rem !important;
+  }
+
+  [class*="rounded-[1.5rem]"][class*="border-cyan-200/20"] > div:first-child {
+    padding: 2rem !important;
+  }
+
+  [class*="rounded-[1.5rem]"][class*="border-cyan-200/20"] > div:last-child {
+    padding: 2rem !important;
+  }
+
+  [class*="rounded-[1.5rem]"][class*="border-cyan-200/20"] h3 {
+    line-height: 1.18 !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    max-width: min(92vw, 100rem) !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+
+  .gsap-hero {
+    padding: 3rem !important;
+  }
+
+  .gsap-hero .gsap-banner-image {
+    max-width: 52rem !important;
+  }
+
+  section:has(.gsap-region-card) .grid,
+  section:has(.gsap-leader-card) .grid,
+  section:has(.gsap-pokemon-card) .grid {
+    gap: 1.25rem !important;
+  }
+}
+
+@media (min-width: 1536px) {
+  main {
+    max-width: min(90vw, 106rem) !important;
+  }
+
+  .gsap-hero {
+    padding: 3.25rem !important;
+  }
+}
