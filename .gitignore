@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Generated data
+src/data-en
+
 # Editor directories and files
 .vscode
 .idea
