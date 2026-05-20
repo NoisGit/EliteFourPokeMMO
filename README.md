@@ -22,12 +22,6 @@ Visual guide for farming PokeMMO Elite Four rematches by region, trainer, and op
 https://noisgit.github.io/EliteFourPokeMMO/
 ```
 
-<p align="center">
-  <a href="https://noisgit.github.io/EliteFourPokeMMO/">
-    <img src="./src/assets/league-farm-banner.png" alt="Open live guide" width="520" />
-  </a>
-</p>
-
 ## Release status
 
 ```text
