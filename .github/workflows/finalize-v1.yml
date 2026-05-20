@@ -1,0 +1,67 @@
+name: Finalize v1.0.0
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - package.json
+      - .github/workflows/finalize-v1.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  finalize:
+    name: Sync lockfile, tag, and release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Sync package-lock
+        run: npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+
+      - name: Commit lockfile changes
+        run: |
+          if git diff --quiet package-lock.json; then
+            echo "package-lock.json is already synced."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add package-lock.json
+            git commit -m "Sync lockfile for v1.0.0"
+            git push origin main
+          fi
+
+      - name: Create v1.0.0 tag
+        run: |
+          git fetch --tags
+          if git rev-parse v1.0.0 >/dev/null 2>&1; then
+            echo "Tag v1.0.0 already exists."
+          else
+            git tag -a v1.0.0 -m "Stable Spanish portfolio release"
+            git push origin v1.0.0
+          fi
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            echo "Release v1.0.0 already exists."
+          else
+            gh release create v1.0.0 \
+              --title "EliteFourPokeMMO v1.0.0" \
+              --notes "Stable Spanish portfolio release. Includes responsive UI, GSAP animations, GitHub Pages deployment, local recommended team modal, dark/light themes, strategy sharing links, and complete Spanish Elite Four farming routes."
+          fi
